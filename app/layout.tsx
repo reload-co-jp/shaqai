@@ -1,4 +1,4 @@
-import { Title } from "components/elements/layout"
+import Link from "next/link"
 import "./reset.css"
 
 export const metadata = {
@@ -13,32 +13,76 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <header
           style={{
-            backgroundColor: "#333",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-            padding: ".5rem 1rem",
-            position: "relative",
+            backgroundColor: "#2d2d2d",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.4)",
+            padding: ".75rem 1.5rem",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: "1rem",
           }}
         >
-          <Title>Page title</Title>
+          <Link href="/" style={{ textDecoration: "none" }}>
+            <span style={{ fontSize: "1rem", fontWeight: "bold", color: "#c8a96e", whiteSpace: "nowrap" }}>
+              翻訳語辞典
+            </span>
+            <span style={{ fontSize: ".75rem", color: "#888", marginLeft: ".5rem" }}>Shaqai</span>
+          </Link>
+          <nav style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+            <Link href="/" style={{ fontSize: ".875rem", color: "#ccc", textDecoration: "none" }}>単語</Link>
+            <Link href="/fields/" style={{ fontSize: ".875rem", color: "#ccc", textDecoration: "none" }}>分野</Link>
+            <Link href="/translators/" style={{ fontSize: ".875rem", color: "#ccc", textDecoration: "none" }}>翻訳者</Link>
+          </nav>
+          <form action="/search/" method="get" style={{ display: "flex", gap: ".5rem" }}>
+            <input
+              name="q"
+              type="search"
+              placeholder="検索..."
+              style={{
+                background: "#1a1a1a",
+                border: "1px solid #444",
+                borderRadius: "6px",
+                color: "#e0e0e0",
+                fontSize: ".875rem",
+                padding: ".4rem .75rem",
+                width: "180px",
+              }}
+            />
+            <button
+              type="submit"
+              style={{
+                background: "#444",
+                border: "none",
+                borderRadius: "6px",
+                color: "#ccc",
+                cursor: "pointer",
+                fontSize: ".875rem",
+                padding: ".4rem .75rem",
+              }}
+            >
+              検索
+            </button>
+          </form>
         </header>
         <main
           style={{
-            background: "#222",
-            minHeight: "calc(100dvh - 5.625rem)",
-            padding: "1rem",
+            background: "#1a1a1a",
+            minHeight: "calc(100dvh - 6rem)",
+            padding: "1.5rem",
           }}
         >
           {children}
         </main>
         <footer
           style={{
-            backgroundColor: "#333",
-            boxShadow: "0 -4px 6px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#2d2d2d",
+            boxShadow: "0 -2px 8px rgba(0, 0, 0, 0.4)",
             fontSize: ".75rem",
-            padding: "1rem",
+            color: "#666",
+            padding: "1rem 1.5rem",
           }}
         >
-          <p>&copy; My organization</p>
+          <p>翻訳語辞典 Shaqai — 外国語から翻訳されて作られた日本語の辞典</p>
         </footer>
       </body>
     </html>

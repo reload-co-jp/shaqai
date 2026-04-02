@@ -1,0 +1,141 @@
+import { FC } from "react"
+import { notFound } from "next/navigation"
+import Link from "next/link"
+import { words, getWord, getField, getTranslator } from "lib/db"
+
+export const generateStaticParams = () =>
+  words.map((w) => ({ id: String(w.id) }))
+
+type Props = { params: Promise<{ id: string }> }
+
+const Page: FC<Props> = async ({ params }) => {
+  const { id } = await params
+  const word = getWord(Number(id))
+  if (!word) return notFound()
+
+  const field = getField(word.field_id)
+  const translator = word.translator_id ? getTranslator(word.translator_id) : null
+
+  const rowStyle: React.CSSProperties = {
+    display: "flex",
+    borderBottom: "1px solid #2e2e2e",
+    padding: ".75rem 0",
+  }
+  const labelStyle: React.CSSProperties = {
+    color: "#888",
+    fontSize: ".8rem",
+    minWidth: "120px",
+    paddingTop: ".1rem",
+  }
+  const valueStyle: React.CSSProperties = {
+    color: "#e0e0e0",
+    fontSize: ".9rem",
+    flex: 1,
+  }
+
+  return (
+    <div style={{ maxWidth: "720px", margin: "0 auto" }}>
+      <div style={{ marginBottom: "1.5rem" }}>
+        <Link href="/" style={{ fontSize: ".8rem", color: "#888", textDecoration: "none" }}>
+          ← 一覧に戻る
+        </Link>
+      </div>
+
+      <div style={{ marginBottom: "2rem" }}>
+        <h1 style={{ fontSize: "3rem", color: "#c8a96e", marginBottom: ".5rem" }}>
+          {word.japanese_word}
+        </h1>
+        <div style={{ fontSize: "1.1rem", color: "#7eb8c9" }}>
+          {word.original_word}
+        </div>
+      </div>
+
+      <div
+        style={{
+          background: "#2a2a2a",
+          border: "1px solid #3a3a3a",
+          borderRadius: "8px",
+          padding: "1rem 1.5rem",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <div style={rowStyle}>
+          <span style={labelStyle}>言語</span>
+          <span style={valueStyle}>{word.language}</span>
+        </div>
+        <div style={rowStyle}>
+          <span style={labelStyle}>翻訳時期</span>
+          <span style={valueStyle}>
+            {word.era}
+            {word.year && (
+              <span style={{ color: "#666", marginLeft: ".5rem", fontSize: ".8rem" }}>
+                ({word.year}年頃)
+              </span>
+            )}
+          </span>
+        </div>
+        <div style={rowStyle}>
+          <span style={labelStyle}>分野</span>
+          <span style={valueStyle}>
+            {field ? (
+              <Link
+                href={`/fields/${field.id}/`}
+                style={{ color: "#7eb8c9", textDecoration: "none" }}
+              >
+                {field.name}
+              </Link>
+            ) : "—"}
+          </span>
+        </div>
+        <div style={{ ...rowStyle, borderBottom: "none" }}>
+          <span style={labelStyle}>翻訳者</span>
+          <span style={valueStyle}>
+            {translator ? (
+              <Link
+                href={`/translators/${translator.id}/`}
+                style={{ color: "#7eb8c9", textDecoration: "none" }}
+              >
+                {translator.name}
+              </Link>
+            ) : "—"}
+          </span>
+        </div>
+      </div>
+
+      <div
+        style={{
+          background: "#2a2a2a",
+          border: "1px solid #3a3a3a",
+          borderRadius: "8px",
+          padding: "1rem 1.5rem",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <h2 style={{ fontSize: ".8rem", color: "#888", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+          由来・語源
+        </h2>
+        <p style={{ color: "#e0e0e0", fontSize: ".95rem", lineHeight: "1.7" }}>
+          {word.etymology}
+        </p>
+      </div>
+
+      <div
+        style={{
+          background: "#2a2a2a",
+          border: "1px solid #3a3a3a",
+          borderRadius: "8px",
+          padding: "1rem 1.5rem",
+        }}
+      >
+        <h2 style={{ fontSize: ".8rem", color: "#888", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+          説明
+        </h2>
+        <p style={{ color: "#e0e0e0", fontSize: ".95rem", lineHeight: "1.7" }}>
+          {word.description}
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export default Page
