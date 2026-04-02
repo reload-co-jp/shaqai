@@ -2,8 +2,9 @@ import { Title } from "components/elements/layout"
 import "./reset.css"
 
 export const metadata = {
-  title: "Page title",
-  description: "Page description",
+  title: "Shaqai - 翻訳語辞典",
+  description:
+    "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
