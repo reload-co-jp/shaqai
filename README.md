@@ -1,94 +1,135 @@
-# Next.js Static Site Template
+# Shaqai
 
-Next.js 16 + React 19 + TypeScript を使用した静的サイト生成のテンプレートリポジトリです。GitHub Pages へのデプロイが自動化されています。
+翻訳語辞典 Webアプリ
 
-## 技術スタック
+## 1. 概要
 
-- **Next.js** 16 - App Router / Static Export
-- **React** 19
-- **TypeScript** 5
-- **ESLint** 9 - Flat Config
-- **Prettier** 3
+外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション。
 
-## このテンプレートの使い方
+### 1.1. 用語定義
 
-1. **「Use this template」ボタン**をクリックして新しいリポジトリを作成
-2. リポジトリをクローン
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
-3. 依存関係をインストール
-   ```bash
-   pnpm install
-   ```
-4. 開発サーバーを起動
-   ```bash
-   pnpm dev
-   ```
+| 用語     | 意味                           |
+| -------- | ------------------------------ |
+| 翻訳語   | 外国語を意味翻訳して作られた語 |
+| 和製漢語 | 日本で作られた漢字語           |
+| 原語     | 元になった外国語               |
+| 翻訳者   | 訳語を作った人物               |
+| 分野     | 哲学、経済、法律など           |
+| 翻訳時期 | 明治初期など                   |
 
-## セットアップ後にやること
+---
 
-### 1. `next.config.js` の修正
+## 2. 主な機能
 
-`basePath` をリポジトリ名に変更してください：
+- 単語一覧
+- 単語詳細
+- 検索
+- 分野一覧
+- 翻訳者一覧
+- 年表 ?
 
-```js
-basePath: process.env.NODE_ENV === "production" ? "/YOUR_REPO_NAME" : "",
-```
+---
 
-### 2. `app/layout.tsx` の修正
+## 3. データモデル
 
-メタデータとサイト情報を更新してください：
+### words
 
-```tsx
-export const metadata: Metadata = {
-  title: "Your Site Title",
-  description: "Your site description",
-}
-```
+- id
+- japanese_word
+- original_word
+- language
+- field
+- translator
+- era
+- year
+- description
+- etymology
 
-### 3. GitHub Pages の設定
+### translators
 
-1. リポジトリの **Settings** → **Pages** へ移動
-2. **Source** を「GitHub Actions」に設定
+- id
+- name
+- birth_year
+- death_year
+- description
 
-## ディレクトリ構成
+### fields
 
-```
-.
-├── app/
-│   ├── layout.tsx      # ルートレイアウト
-│   ├── page.tsx        # ホームページ
-│   └── reset.css       # CSSリセット
-├── .github/
-│   └── workflows/
-│       ├── lint.yml    # リント自動実行
-│       └── deploy.yml  # GitHub Pages 自動デプロイ
-├── next.config.js      # Next.js 設定
-├── tsconfig.json       # TypeScript 設定
-├── eslint.config.mjs   # ESLint 設定
-└── .prettierrc.json    # Prettier 設定
-```
+- id
+- name
 
-## スクリプト
+---
 
-| コマンド | 説明 |
-|---------|------|
-| `pnpm dev` | 開発サーバーを起動 |
-| `pnpm build` | 静的サイトをビルド（`/out` に出力） |
-| `pnpm lint` | ESLint を実行 |
-| `pnpm format` | Prettier でコードをフォーマット |
-| `pnpm typecheck` | TypeScript の型チェック |
+## 4. API
 
-## 機能
+- GET /words
+- GET /words/{id}
+- GET /search?q=
+- GET /fields
+- GET /translators
 
-- **静的サイト生成** - `next build` で `/out` に HTML を出力
-- **自動デプロイ** - main ブランチへの push で GitHub Pages に自動デプロイ
-- **自動リント** - push 時に ESLint / Prettier チェックを実行
-- **依存関係の自動更新** - Dependabot による週次チェック
-- **エディタ設定** - VS Code での自動フォーマット設定済み
+---
 
-## ライセンス
+## 5. 技術構成
 
-ISC
+- Frontend: Next.js
+- DB: JSONファイル
+
+---
+
+## 6. ページ要素
+
+### 単語詳細ページ
+
+| 項目       | 内容                         |
+| ---------- | ---------------------------- |
+| 翻訳語     | 社会                         |
+| 元の外国語 | society                      |
+| 言語       | 英語                         |
+| 翻訳者     | 福沢諭吉                     |
+| 翻訳時期   | 明治初期                     |
+| 分野       | 社会                         |
+| 由来       | 仏教語の社会を訳語として採用 |
+| 説明       | societyの訳語                |
+| 関連語     | 社会学、社会主義             |
+| 参考文献   | Wikipediaなど                |
+
+---
+
+## 7. 例
+
+| 翻訳語 | 元の外国語        | 翻訳時期 | 翻訳者           | 外来元            | 由来                             |
+| ------ | ----------------- | -------- | ---------------- | ----------------- | -------------------------------- |
+| 教育   | education         | 明治初期 | 福沢諭吉系       | 英語              | 教え育てる（既存漢語の再定義）   |
+| 経済   | economy           | 明治期   | 福沢諭吉系       | 英語              | 経世済民から意味拡張             |
+| 社会   | society           | 明治初期 | 福沢諭吉         | 英語              | 仏教語・漢語の転用               |
+| 哲学   | philosophy        | 明治初期 | 西周             | 英語 / オランダ語 | 哲（さとい）＋学                 |
+| 科学   | science           | 明治期   | 翻訳者群         | 英語              | 科（分類）＋学                   |
+| 自由   | liberty / freedom | 明治期   | 政治思想翻訳者   | 英語 / フランス語 | 仏教語の再定義（自らに由る）     |
+| 権利   | right             | 明治期   | 法律翻訳者       | 英語 / フランス語 | 権（力）＋利（利益）             |
+| 民主   | democracy         | 明治後期 | 政治翻訳者       | 英語 / フランス語 | 民＋主（人民が主）               |
+| 革命   | revolution        | 明治期   | 政治翻訳者       | 英語 / フランス語 | 古典語（王朝交代）から意味拡張   |
+| 文化   | culture           | 明治期   | 森有礼・西周系   | 英語              | 文（人の営み）＋化（変化・教化） |
+| 文明   | civilization      | 明治初期 | 福沢諭吉         | 英語              | 文明開化の文脈で普及             |
+| 法律   | law               | 明治期   | 法律翻訳者       | 英語 / フランス語 | 法＋律（規範・ルール）           |
+| 憲法   | constitution      | 明治期   | 井上毅ら         | ドイツ語中心      | 憲（おきて）＋法                 |
+| 政府   | government        | 明治期   | 政治翻訳者       | 英語              | 政（まつりごと）＋府（役所）     |
+| 国家   | state / nation    | 明治期   | 政治翻訳者       | 英語 / ドイツ語   | 国＋家（統治単位）               |
+| 個人   | individual        | 明治期   | 西周系           | 英語              | 個（単体）＋人                   |
+| 主義   | -ism              | 明治期   | 西周・中江兆民ら | 英語              | 思想体系の接尾語として創出       |
+| 主観   | subjectivity      | 明治期   | 哲学翻訳者       | ドイツ語          | 主（主体）＋観（見方）           |
+| 客観   | objectivity       | 明治期   | 哲学翻訳者       | ドイツ語          | 客（外部）＋観                   |
+| 抽象   | abstract          | 明治期   | 哲学翻訳者       | 英語              | 象（形）を抽（抜き出す）         |
+| 具体   | concrete          | 明治期   | 哲学翻訳者       | 英語              | 具（備える）＋体                 |
+| 概念   | concept           | 明治期   | 西周             | 英語 / ドイツ語   | 概（おおよそ）＋念（思考）       |
+| 理性   | reason            | 明治期   | 哲学翻訳者       | 英語 / ドイツ語   | 理（ことわり）＋性               |
+| 感情   | emotion           | 明治期   | 翻訳者群         | 英語              | 感＋情                           |
+| 意識   | consciousness     | 明治期   | 西周系           | 英語 / ドイツ語   | 意＋識                           |
+| 経験   | experience        | 明治期   | 哲学翻訳者       | 英語              | 経（経る）＋験                   |
+| 技術   | technology        | 明治後期 | 工学翻訳者       | 英語              | 技＋術                           |
+| 産業   | industry          | 明治期   | 経済翻訳者       | 英語              | 産＋業                           |
+| 資本   | capital           | 明治期   | 経済学者         | 英語              | 資＋本                           |
+| 労働   | labor             | 明治期   | 社会思想翻訳     | 英語              | 労＋働                           |
+| 市場   | market            | 明治期   | 経済翻訳者       | 英語              | 市＋場                           |
+| 企業   | enterprise        | 明治後期 | 経済翻訳者       | 英語              | 企＋業                           |
+| 組織   | organization      | 明治後期 | 社会科学翻訳     | 英語              | 組＋織                           |
