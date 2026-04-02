@@ -1,12 +1,18 @@
 import { FC } from "react"
-import { words, fields, translators, getField, getTranslator } from "lib/db"
+import { words, fields, getField, getTranslator } from "lib/db"
 import { WordCard } from "components/elements/word-card"
 
 const Page: FC = () => {
   return (
     <div style={{ maxWidth: "960px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1.5rem" }}>
-        <h2 style={{ fontSize: "1.25rem", color: "#e0e0e0", marginBottom: ".5rem" }}>
+        <h2
+          style={{
+            fontSize: "1.25rem",
+            color: "#e0e0e0",
+            marginBottom: ".5rem",
+          }}
+        >
           単語一覧
         </h2>
         <p style={{ fontSize: ".875rem", color: "#888" }}>
@@ -14,7 +20,14 @@ const Page: FC = () => {
         </p>
       </div>
 
-      <div style={{ marginBottom: "1.5rem", display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
+      <div
+        style={{
+          marginBottom: "1.5rem",
+          display: "flex",
+          gap: ".5rem",
+          flexWrap: "wrap",
+        }}
+      >
         {fields.map((field) => (
           <a
             key={field.id}
@@ -46,7 +59,9 @@ const Page: FC = () => {
             key={word.id}
             word={word}
             field={getField(word.field_id)}
-            translator={word.translator_id ? getTranslator(word.translator_id) : undefined}
+            translator={
+              word.translator_id ? getTranslator(word.translator_id) : undefined
+            }
           />
         ))}
       </div>
