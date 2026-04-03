@@ -18,22 +18,82 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             padding: ".75rem 1.5rem",
             display: "flex",
             alignItems: "center",
+            flexWrap: "wrap",
             justifyContent: "space-between",
             gap: "1rem",
           }}
         >
           <Link href="/" style={{ textDecoration: "none" }}>
-            <span style={{ fontSize: "1rem", fontWeight: "bold", color: "#c8a96e", whiteSpace: "nowrap" }}>
+            <span
+              style={{
+                fontSize: "1rem",
+                fontWeight: "bold",
+                color: "#c8a96e",
+                whiteSpace: "nowrap",
+              }}
+            >
               翻訳語辞典
             </span>
-            <span style={{ fontSize: ".75rem", color: "#888", marginLeft: ".5rem" }}>Shaqai</span>
+            <span
+              style={{ fontSize: ".75rem", color: "#888", marginLeft: ".5rem" }}
+            >
+              Shaqai
+            </span>
           </Link>
-          <nav style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
-            <Link href="/" style={{ fontSize: ".875rem", color: "#ccc", textDecoration: "none" }}>単語</Link>
-            <Link href="/fields/" style={{ fontSize: ".875rem", color: "#ccc", textDecoration: "none" }}>分野</Link>
-            <Link href="/translators/" style={{ fontSize: ".875rem", color: "#ccc", textDecoration: "none" }}>翻訳者</Link>
+          <nav
+            style={{
+              display: "flex",
+              alignItems: "left",
+              flexWrap: "wrap",
+              gap: "1.5rem",
+            }}
+          >
+            <Link
+              href="/"
+              style={{
+                fontSize: ".875rem",
+                color: "#ccc",
+                textDecoration: "none",
+              }}
+            >
+              単語
+            </Link>
+            <Link
+              href="/fields/"
+              style={{
+                fontSize: ".875rem",
+                color: "#ccc",
+                textDecoration: "none",
+              }}
+            >
+              分野
+            </Link>
+            <Link
+              href="/translators/"
+              style={{
+                fontSize: ".875rem",
+                color: "#ccc",
+                textDecoration: "none",
+              }}
+            >
+              翻訳者
+            </Link>
+            <Link
+              href="/about/"
+              style={{
+                fontSize: ".875rem",
+                color: "#ccc",
+                textDecoration: "none",
+              }}
+            >
+              このサイトについて
+            </Link>
           </nav>
-          <form action="/search/" method="get" style={{ display: "flex", gap: ".5rem" }}>
+          <form
+            action="/search/"
+            method="get"
+            style={{ display: "flex", gap: ".5rem" }}
+          >
             <input
               name="q"
               type="search"
