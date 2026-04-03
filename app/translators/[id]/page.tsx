@@ -3,11 +3,27 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { translators, getTranslator, getWordsByTranslator, getField } from "lib/db"
 import { WordCard } from "components/elements/word-card"
+import type { Metadata } from "next"
 
 export const generateStaticParams = () =>
   translators.map((t) => ({ id: String(t.id) }))
 
 type Props = { params: Promise<{ id: string }> }
+
+export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+  const { id } = await params
+  const translator = getTranslator(Number(id))
+  if (!translator) return {}
+  const title = translator.name
+  const description = translator.description.length > 120 ? translator.description.slice(0, 120) + "…" : translator.description
+  return {
+    title,
+    description,
+    openGraph: { title, description, url: `https://shaqai.reload.co.jp/translators/${id}/` },
+    twitter: { title, description },
+    alternates: { canonical: `https://shaqai.reload.co.jp/translators/${id}/` },
+  }
+}
 
 const Page: FC<Props> = async ({ params }) => {
   const { id } = await params

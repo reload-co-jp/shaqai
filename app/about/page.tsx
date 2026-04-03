@@ -1,8 +1,14 @@
 import { FC } from "react"
 
 export const metadata = {
-  title: "このサイトについて — 翻訳語辞典 Shaqai",
-  description: "翻訳語辞典 Shaqai の目的と背景について",
+  title: "このサイトについて",
+  description: "翻訳語辞典 Shaqai の目的と背景について。明治期の訳語の営みに光を当て、現代においても意味の通った翻訳語を生み出すための辞典です。",
+  alternates: { canonical: "https://shaqai.reload.co.jp/about/" },
+  openGraph: {
+    title: "このサイトについて — 翻訳語辞典 Shaqai",
+    description: "翻訳語辞典 Shaqai の目的と背景について。明治期の訳語の営みに光を当て、現代においても意味の通った翻訳語を生み出すための辞典です。",
+    url: "https://shaqai.reload.co.jp/about/",
+  },
 }
 
 const Page: FC = () => {

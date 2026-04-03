@@ -2,6 +2,17 @@ import { FC } from "react"
 import Link from "next/link"
 import { translators, getWordsByTranslator } from "lib/db"
 
+export const metadata = {
+  title: "翻訳者一覧",
+  description: "明治期に訳語を作った人物たちの一覧",
+  alternates: { canonical: "https://shaqai.reload.co.jp/translators/" },
+  openGraph: {
+    title: "翻訳者一覧 — 翻訳語辞典 Shaqai",
+    description: "明治期に訳語を作った人物たちの一覧",
+    url: "https://shaqai.reload.co.jp/translators/",
+  },
+}
+
 const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>

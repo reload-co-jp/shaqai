@@ -2,11 +2,32 @@ import { FC } from "react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { words, getWord, getField, getTranslator } from "lib/db"
+import type { Metadata } from "next"
 
 export const generateStaticParams = () =>
   words.map((w) => ({ id: String(w.id) }))
 
 type Props = { params: Promise<{ id: string }> }
+
+export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+  const { id } = await params
+  const word = getWord(Number(id))
+  if (!word) return {}
+  const title = `${word.japanese_word}（${word.original_word}）`
+  const description = word.description.length > 120 ? word.description.slice(0, 120) + "…" : word.description
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://shaqai.reload.co.jp/words/${id}/`,
+      type: "article",
+    },
+    twitter: { title, description },
+    alternates: { canonical: `https://shaqai.reload.co.jp/words/${id}/` },
+  }
+}
 
 const Page: FC<Props> = async ({ params }) => {
   const { id } = await params

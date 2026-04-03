@@ -2,9 +2,31 @@ import Link from "next/link"
 import "./reset.css"
 
 export const metadata = {
-  title: "Shaqai - 翻訳語辞典",
+  metadataBase: new URL("https://shaqai.reload.co.jp"),
+  title: {
+    default: "翻訳語辞典 Shaqai",
+    template: "%s — 翻訳語辞典 Shaqai",
+  },
   description:
     "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
+  openGraph: {
+    siteName: "翻訳語辞典 Shaqai",
+    locale: "ja_JP",
+    type: "website",
+    url: "https://shaqai.reload.co.jp",
+    title: "翻訳語辞典 Shaqai",
+    description:
+      "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
+  },
+  twitter: {
+    card: "summary",
+    title: "翻訳語辞典 Shaqai",
+    description:
+      "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
+  },
+  alternates: {
+    canonical: "https://shaqai.reload.co.jp",
+  },
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

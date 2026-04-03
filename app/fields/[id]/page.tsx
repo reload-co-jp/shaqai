@@ -3,11 +3,27 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { fields, getField, getWordsByField, getTranslator } from "lib/db"
 import { WordCard } from "components/elements/word-card"
+import type { Metadata } from "next"
 
 export const generateStaticParams = () =>
   fields.map((f) => ({ id: String(f.id) }))
 
 type Props = { params: Promise<{ id: string }> }
+
+export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+  const { id } = await params
+  const field = getField(Number(id))
+  if (!field) return {}
+  const title = field.name
+  const description = `${field.name}に関する翻訳語・訳語の一覧`
+  return {
+    title,
+    description,
+    openGraph: { title, description, url: `https://shaqai.reload.co.jp/fields/${id}/` },
+    twitter: { title, description },
+    alternates: { canonical: `https://shaqai.reload.co.jp/fields/${id}/` },
+  }
+}
 
 const Page: FC<Props> = async ({ params }) => {
   const { id } = await params
