@@ -1,13 +1,17 @@
+export const dynamic = "force-static"
 import type { MetadataRoute } from "next"
 import { words, fields, translators } from "lib/db"
-
 const BASE_URL = "https://shaqai.reload.co.jp"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: BASE_URL + "/", priority: 1.0, changeFrequency: "weekly" },
     { url: BASE_URL + "/fields/", priority: 0.8, changeFrequency: "monthly" },
-    { url: BASE_URL + "/translators/", priority: 0.8, changeFrequency: "monthly" },
+    {
+      url: BASE_URL + "/translators/",
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
     { url: BASE_URL + "/about/", priority: 0.5, changeFrequency: "yearly" },
   ]
 
