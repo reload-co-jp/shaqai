@@ -1,7 +1,7 @@
 import { FC } from "react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { translators, getTranslator, getWordsByTranslator, getField } from "lib/db"
+import { translators, fields, getTranslator, getWordsByTranslator, getField } from "lib/db"
 import { WordCard } from "components/elements/word-card"
 import type { Metadata } from "next"
 
@@ -15,7 +15,8 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   const translator = getTranslator(Number(id))
   if (!translator) return {}
   const title = translator.name
-  const description = translator.description.length > 120 ? translator.description.slice(0, 120) + "…" : translator.description
+  const firstPara = translator.description.split("\n\n")[0]
+  const description = firstPara.length > 120 ? firstPara.slice(0, 120) + "…" : firstPara
   return {
     title,
     description,
@@ -32,6 +33,28 @@ const Page: FC<Props> = async ({ params }) => {
 
   const translatorWords = getWordsByTranslator(translator.id)
 
+  // 統計データを計算
+  const languages = [...new Set(translatorWords.map((w) => w.language))].filter(Boolean)
+  const years = translatorWords.map((w) => w.year).filter(Boolean)
+  const yearMin = years.length ? Math.min(...years) : null
+  const yearMax = years.length ? Math.max(...years) : null
+
+  // 分野別集計
+  const fieldCounts = fields
+    .map((f) => ({
+      field: f,
+      count: translatorWords.filter((w) => w.field_id === f.id).length,
+    }))
+    .filter((fc) => fc.count > 0)
+    .sort((a, b) => b.count - a.count)
+
+  const statStyle: React.CSSProperties = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: ".25rem",
+  }
+
   return (
     <div style={{ maxWidth: "960px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1rem" }}>
@@ -40,26 +63,113 @@ const Page: FC<Props> = async ({ params }) => {
         </Link>
       </div>
 
+      {/* プロフィールカード */}
       <div
         style={{
           background: "#2a2a2a",
           border: "1px solid #3a3a3a",
           borderRadius: "8px",
           padding: "1.5rem",
-          marginBottom: "1.5rem",
+          marginBottom: "1rem",
         }}
       >
-        <h2 style={{ fontSize: "1.75rem", color: "#c8a96e", marginBottom: ".25rem" }}>
-          {translator.name}
-        </h2>
-        <p style={{ fontSize: ".875rem", color: "#888", marginBottom: "1rem" }}>
-          {translator.birth_year}–{translator.death_year}
-        </p>
-        <p style={{ fontSize: ".9rem", color: "#ccc", lineHeight: "1.7" }}>
-          {translator.description}
-        </p>
+        <div style={{ marginBottom: "1rem" }}>
+          <h2 style={{ fontSize: "2rem", color: "#c8a96e", marginBottom: ".25rem" }}>
+            {translator.name}
+          </h2>
+          <p style={{ fontSize: ".875rem", color: "#888" }}>
+            {translator.birth_year}–{translator.death_year}（{translator.death_year - translator.birth_year}歳）
+          </p>
+        </div>
+        <div style={{ marginBottom: "1.25rem" }}>
+          {translator.description.split("\n\n").map((para, i) => (
+            <p key={i} style={{ fontSize: ".9rem", color: "#ccc", lineHeight: "1.8", marginBottom: ".75rem" }}>
+              {para}
+            </p>
+          ))}
+        </div>
+
+        {/* 統計バー */}
+        <div
+          style={{
+            display: "flex",
+            gap: "1.5rem",
+            paddingTop: "1rem",
+            borderTop: "1px solid #3a3a3a",
+            flexWrap: "wrap",
+          }}
+        >
+          <div style={statStyle}>
+            <span style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#c8a96e" }}>
+              {translatorWords.length}
+            </span>
+            <span style={{ fontSize: ".75rem", color: "#888" }}>訳語数</span>
+          </div>
+          {languages.length > 0 && (
+            <div style={statStyle}>
+              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e0e0e0" }}>
+                {languages.join(" / ")}
+              </span>
+              <span style={{ fontSize: ".75rem", color: "#888" }}>翻訳元言語</span>
+            </div>
+          )}
+          {yearMin && (
+            <div style={statStyle}>
+              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e0e0e0" }}>
+                {yearMin === yearMax ? `${yearMin}年頃` : `${yearMin}–${yearMax}年頃`}
+              </span>
+              <span style={{ fontSize: ".75rem", color: "#888" }}>訳語年代</span>
+            </div>
+          )}
+        </div>
       </div>
 
+      {/* 分野別分布 */}
+      {fieldCounts.length > 0 && (
+        <div
+          style={{
+            background: "#2a2a2a",
+            border: "1px solid #3a3a3a",
+            borderRadius: "8px",
+            padding: "1rem 1.5rem",
+            marginBottom: "1.5rem",
+          }}
+        >
+          <h3 style={{ fontSize: ".75rem", color: "#888", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+            分野別訳語数
+          </h3>
+          <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+            {fieldCounts.map(({ field, count }) => {
+              const pct = Math.round((count / translatorWords.length) * 100)
+              return (
+                <div key={field.id}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: ".2rem" }}>
+                    <Link
+                      href={`/fields/${field.id}/`}
+                      style={{ fontSize: ".85rem", color: "#7eb8c9", textDecoration: "none" }}
+                    >
+                      {field.name}
+                    </Link>
+                    <span style={{ fontSize: ".8rem", color: "#888" }}>{count}語</span>
+                  </div>
+                  <div style={{ height: "4px", background: "#3a3a3a", borderRadius: "2px" }}>
+                    <div
+                      style={{
+                        height: "100%",
+                        width: `${pct}%`,
+                        background: "#c8a96e",
+                        borderRadius: "2px",
+                      }}
+                    />
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* 訳語一覧 */}
       <div style={{ marginBottom: "1rem" }}>
         <h3 style={{ fontSize: "1rem", color: "#e0e0e0" }}>
           訳語一覧

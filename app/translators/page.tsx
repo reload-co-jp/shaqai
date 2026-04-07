@@ -51,7 +51,7 @@ const Page: FC = () => {
                   </span>
                 </div>
                 <p style={{ fontSize: ".8rem", color: "#999", lineHeight: "1.6", marginBottom: ".5rem" }}>
-                  {translator.description}
+                  {translator.description.split("\n\n")[0]}
                 </p>
                 <span style={{ fontSize: ".75rem", color: "#7eb8c9" }}>
                   {translatorWords.length}語の訳語
