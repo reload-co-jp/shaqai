@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import "./reset.css"
 
 export const metadata = {
@@ -171,6 +172,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             </a>
           </p>
         </footer>
+        {process.env.NODE_ENV === "production" && (
+          <GoogleAnalytics gaId="G-603EH0NXTT" />
+        )}
       </body>
     </html>
   )
