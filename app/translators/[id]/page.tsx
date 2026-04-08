@@ -73,20 +73,40 @@ const Page: FC<Props> = async ({ params }) => {
           marginBottom: "1rem",
         }}
       >
-        <div style={{ marginBottom: "1rem" }}>
-          <h2 style={{ fontSize: "2rem", color: "#c8a96e", marginBottom: ".25rem" }}>
-            {translator.name}
-          </h2>
-          <p style={{ fontSize: ".875rem", color: "#807870" }}>
-            {translator.birth_year}–{translator.death_year}（{translator.death_year - translator.birth_year}歳）
-          </p>
-        </div>
-        <div style={{ marginBottom: "1.25rem" }}>
-          {translator.description.split("\n\n").map((para, i) => (
-            <p key={i} style={{ fontSize: ".9rem", color: "#bfb9ac", lineHeight: "1.8", marginBottom: ".75rem" }}>
-              {para}
-            </p>
-          ))}
+        <div style={{ display: "flex", gap: "1.5rem", marginBottom: "1.25rem", alignItems: "flex-start" }}>
+          {translator.image && (
+            <img
+              src={translator.image}
+              alt={translator.name}
+              style={{
+                width: "110px",
+                height: "140px",
+                objectFit: "cover",
+                objectPosition: "top",
+                flexShrink: 0,
+                borderRadius: "2px",
+                border: "1px solid #302b1e",
+                filter: "grayscale(20%) sepia(20%)",
+              }}
+            />
+          )}
+          <div style={{ flex: 1 }}>
+            <div style={{ marginBottom: "1rem" }}>
+              <h2 style={{ fontSize: "2rem", color: "#c8a96e", marginBottom: ".25rem" }}>
+                {translator.name}
+              </h2>
+              <p style={{ fontSize: ".875rem", color: "#807870" }}>
+                {translator.birth_year}–{translator.death_year}（{translator.death_year - translator.birth_year}歳）
+              </p>
+            </div>
+            <div>
+              {translator.description.split("\n\n").map((para, i) => (
+                <p key={i} style={{ fontSize: ".9rem", color: "#bfb9ac", lineHeight: "1.8", marginBottom: ".75rem" }}>
+                  {para}
+                </p>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* 統計バー */}

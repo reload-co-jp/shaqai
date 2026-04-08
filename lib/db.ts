@@ -10,6 +10,7 @@ export type Field = {
 export type Translator = {
   id: number
   name: string
+  image?: string
   birth_year: number
   death_year: number
   description: string

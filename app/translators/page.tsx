@@ -40,22 +40,43 @@ const Page: FC = () => {
                   border: "1px solid #302b1e",
                   borderRadius: "3px",
                   padding: "1rem 1.5rem",
+                  display: "flex",
+                  gap: "1rem",
+                  alignItems: "flex-start",
                 }}
               >
-                <div style={{ display: "flex", justifyContent: "space-between", marginBottom: ".5rem" }}>
-                  <span style={{ fontSize: "1.1rem", color: "#e2dcd0" }}>
-                    {translator.name}
-                  </span>
-                  <span style={{ fontSize: ".8rem", color: "#807870" }}>
-                    {translator.birth_year}–{translator.death_year}
+                {translator.image && (
+                  <img
+                    src={translator.image}
+                    alt={translator.name}
+                    style={{
+                      width: "56px",
+                      height: "70px",
+                      objectFit: "cover",
+                      objectPosition: "top",
+                      flexShrink: 0,
+                      borderRadius: "2px",
+                      border: "1px solid #302b1e",
+                      filter: "grayscale(20%) sepia(20%)",
+                    }}
+                  />
+                )}
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: ".5rem" }}>
+                    <span style={{ fontSize: "1.1rem", color: "#e2dcd0" }}>
+                      {translator.name}
+                    </span>
+                    <span style={{ fontSize: ".8rem", color: "#807870" }}>
+                      {translator.birth_year}–{translator.death_year}
+                    </span>
+                  </div>
+                  <p style={{ fontSize: ".8rem", color: "#908a7a", lineHeight: "1.6", marginBottom: ".5rem" }}>
+                    {translator.description.split("\n\n")[0]}
+                  </p>
+                  <span style={{ fontSize: ".75rem", color: "#7a9e82" }}>
+                    {translatorWords.length}語の訳語
                   </span>
                 </div>
-                <p style={{ fontSize: ".8rem", color: "#908a7a", lineHeight: "1.6", marginBottom: ".5rem" }}>
-                  {translator.description.split("\n\n")[0]}
-                </p>
-                <span style={{ fontSize: ".75rem", color: "#7a9e82" }}>
-                  {translatorWords.length}語の訳語
-                </span>
               </div>
             </Link>
           )
