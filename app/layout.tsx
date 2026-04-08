@@ -1,6 +1,14 @@
 import Link from "next/link"
+import { BIZ_UDPMincho } from "next/font/google"
 import { GoogleAnalytics } from "@next/third-parties/google"
 import "./reset.css"
+
+const bizUDPMincho = BIZ_UDPMincho({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-mincho",
+  display: "swap",
+})
 
 export const metadata = {
   metadataBase: new URL("https://shaqai.reload.co.jp"),
@@ -33,7 +41,7 @@ export const metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="ja">
+    <html lang="ja" className={bizUDPMincho.variable}>
       <body>
         <header
           style={{

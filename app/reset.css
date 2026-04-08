@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: var(--font-mincho), "Hiragino Mincho ProN", "Yu Mincho", serif;
   margin: 0;
 }
 
