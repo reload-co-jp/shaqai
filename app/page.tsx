@@ -4,9 +4,37 @@ import { WordCard } from "components/elements/word-card"
 
 const HERO_WORDS = ["社会", "経済", "哲学", "自由", "権利", "文化", "科学"]
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "翻訳語辞典 Shaqai",
+  url: "https://shaqai.reload.co.jp",
+  description:
+    "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
+  publisher: {
+    "@type": "Organization",
+    name: "Reload, Inc.",
+    url: "https://reload.co.jp",
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate:
+        "https://shaqai.reload.co.jp/search/?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+}
+
 const Page: FC = () => {
   return (
-    <div style={{ maxWidth: "960px", margin: "0 auto" }}>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div style={{ maxWidth: "960px", margin: "0 auto" }}>
       {/* Hero */}
       <div
         style={{
@@ -190,6 +218,7 @@ const Page: FC = () => {
         ))}
       </div>
     </div>
+    </>
   )
 }
 
