@@ -10,6 +10,7 @@ export const metadata = {
   },
   description:
     "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
+  keywords: ["翻訳語", "訳語", "和製漢語", "日本語", "辞典", "辞書", "翻訳", "語源", "Shaqai"],
   openGraph: {
     siteName: "翻訳語辞典 Shaqai",
     locale: "ja_JP",
