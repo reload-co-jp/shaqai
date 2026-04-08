@@ -35,7 +35,7 @@ const Page: FC<Props> = async ({ params }) => {
   return (
     <div style={{ maxWidth: "960px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1rem" }}>
-        <Link href="/fields/" style={{ fontSize: ".8rem", color: "#888", textDecoration: "none" }}>
+        <Link href="/fields/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
           ← 分野一覧
         </Link>
       </div>
@@ -44,7 +44,7 @@ const Page: FC<Props> = async ({ params }) => {
         <h2 style={{ fontSize: "1.5rem", color: "#c8a96e", marginBottom: ".5rem" }}>
           {field.name}
         </h2>
-        <p style={{ fontSize: ".875rem", color: "#888" }}>{fieldWords.length}語</p>
+        <p style={{ fontSize: ".875rem", color: "#807870" }}>{fieldWords.length}語</p>
       </div>
 
       <div

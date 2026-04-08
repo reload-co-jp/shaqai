@@ -45,7 +45,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <header
           style={{
-            backgroundColor: "#2d2d2d",
+            backgroundColor: "#1c1810",
             boxShadow: "0 2px 8px rgba(0, 0, 0, 0.4)",
             padding: ".75rem 1.5rem",
             display: "flex",
@@ -67,7 +67,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               翻訳語辞典
             </span>
             <span
-              style={{ fontSize: ".75rem", color: "#888", marginLeft: ".5rem" }}
+              style={{ fontSize: ".75rem", color: "#807870", marginLeft: ".5rem" }}
             >
               Shaqai
             </span>
@@ -84,7 +84,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               href="/"
               style={{
                 fontSize: ".875rem",
-                color: "#ccc",
+                color: "#bfb9ac",
                 textDecoration: "none",
               }}
             >
@@ -94,7 +94,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               href="/fields/"
               style={{
                 fontSize: ".875rem",
-                color: "#ccc",
+                color: "#bfb9ac",
                 textDecoration: "none",
               }}
             >
@@ -104,7 +104,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               href="/translators/"
               style={{
                 fontSize: ".875rem",
-                color: "#ccc",
+                color: "#bfb9ac",
                 textDecoration: "none",
               }}
             >
@@ -114,7 +114,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               href="/about/"
               style={{
                 fontSize: ".875rem",
-                color: "#ccc",
+                color: "#bfb9ac",
                 textDecoration: "none",
               }}
             >
@@ -131,10 +131,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               type="search"
               placeholder="検索..."
               style={{
-                background: "#1a1a1a",
-                border: "1px solid #444",
-                borderRadius: "6px",
-                color: "#e0e0e0",
+                background: "#130f09",
+                border: "1px solid #3d3828",
+                borderRadius: "2px",
+                color: "#e2dcd0",
                 fontSize: ".875rem",
                 padding: ".4rem .75rem",
                 width: "180px",
@@ -143,10 +143,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <button
               type="submit"
               style={{
-                background: "#444",
+                background: "#3d3828",
                 border: "none",
-                borderRadius: "6px",
-                color: "#ccc",
+                borderRadius: "2px",
+                color: "#bfb9ac",
                 cursor: "pointer",
                 fontSize: ".875rem",
                 padding: ".4rem .75rem",
@@ -158,7 +158,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </header>
         <main
           style={{
-            background: "#1a1a1a",
+            background: "#130f09",
             minHeight: "calc(100dvh - 6rem)",
             padding: "1.5rem",
           }}
@@ -167,10 +167,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </main>
         <footer
           style={{
-            backgroundColor: "#2d2d2d",
+            backgroundColor: "#1c1810",
             boxShadow: "0 -2px 8px rgba(0, 0, 0, 0.4)",
             fontSize: ".75rem",
-            color: "#666",
+            color: "#5e5848",
             padding: "1rem 1.5rem",
           }}
         >

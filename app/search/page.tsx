@@ -27,11 +27,11 @@ const SearchResults: FC = () => {
   return (
     <div>
       <div style={{ marginBottom: "1.5rem" }}>
-        <h2 style={{ fontSize: "1.25rem", color: "#e0e0e0", marginBottom: ".5rem" }}>
+        <h2 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
           {q ? `「${q}」の検索結果` : "検索"}
         </h2>
         {q && (
-          <p style={{ fontSize: ".875rem", color: "#888" }}>
+          <p style={{ fontSize: ".875rem", color: "#807870" }}>
             {results.length}件
           </p>
         )}
@@ -44,10 +44,10 @@ const SearchResults: FC = () => {
           defaultValue={q}
           placeholder="日本語・原語・説明で検索..."
           style={{
-            background: "#2a2a2a",
+            background: "#1e1a12",
             border: "1px solid #444",
-            borderRadius: "6px",
-            color: "#e0e0e0",
+            borderRadius: "2px",
+            color: "#e2dcd0",
             fontSize: ".9rem",
             padding: ".6rem 1rem",
             flex: 1,
@@ -57,10 +57,10 @@ const SearchResults: FC = () => {
         <button
           type="submit"
           style={{
-            background: "#444",
+            background: "#3d3828",
             border: "none",
-            borderRadius: "6px",
-            color: "#ccc",
+            borderRadius: "2px",
+            color: "#bfb9ac",
             cursor: "pointer",
             fontSize: ".875rem",
             padding: ".6rem 1rem",
@@ -71,7 +71,7 @@ const SearchResults: FC = () => {
       </form>
 
       {q && results.length === 0 && (
-        <div style={{ color: "#888", fontSize: ".9rem" }}>
+        <div style={{ color: "#807870", fontSize: ".9rem" }}>
           「{q}」に一致する単語が見つかりませんでした。
         </div>
       )}
@@ -96,10 +96,10 @@ const SearchResults: FC = () => {
       )}
 
       {!q && (
-        <div style={{ color: "#888", fontSize: ".9rem" }}>
+        <div style={{ color: "#807870", fontSize: ".9rem" }}>
           キーワードを入力して検索してください。
           <div style={{ marginTop: "1rem" }}>
-            <Link href="/" style={{ color: "#7eb8c9", textDecoration: "none" }}>
+            <Link href="/" style={{ color: "#7a9e82", textDecoration: "none" }}>
               → 単語一覧を見る
             </Link>
           </div>
@@ -112,7 +112,7 @@ const SearchResults: FC = () => {
 const Page: FC = () => {
   return (
     <div style={{ maxWidth: "960px", margin: "0 auto" }}>
-      <Suspense fallback={<div style={{ color: "#888" }}>読み込み中...</div>}>
+      <Suspense fallback={<div style={{ color: "#807870" }}>読み込み中...</div>}>
         <SearchResults />
       </Suspense>
     </div>

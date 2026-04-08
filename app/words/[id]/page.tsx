@@ -39,17 +39,17 @@ const Page: FC<Props> = async ({ params }) => {
 
   const rowStyle: React.CSSProperties = {
     display: "flex",
-    borderBottom: "1px solid #2e2e2e",
+    borderBottom: "1px solid #28241a",
     padding: ".75rem 0",
   }
   const labelStyle: React.CSSProperties = {
-    color: "#888",
+    color: "#807870",
     fontSize: ".8rem",
     minWidth: "120px",
     paddingTop: ".1rem",
   }
   const valueStyle: React.CSSProperties = {
-    color: "#e0e0e0",
+    color: "#e2dcd0",
     fontSize: ".9rem",
     flex: 1,
   }
@@ -57,7 +57,7 @@ const Page: FC<Props> = async ({ params }) => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1.5rem" }}>
-        <Link href="/" style={{ fontSize: ".8rem", color: "#888", textDecoration: "none" }}>
+        <Link href="/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
           ← 一覧に戻る
         </Link>
       </div>
@@ -66,16 +66,16 @@ const Page: FC<Props> = async ({ params }) => {
         <h1 style={{ fontSize: "3rem", color: "#c8a96e", marginBottom: ".5rem" }}>
           {word.japanese_word}
         </h1>
-        <div style={{ fontSize: "1.1rem", color: "#7eb8c9" }}>
+        <div style={{ fontSize: "1.1rem", color: "#7a9e82" }}>
           {word.original_word}
         </div>
       </div>
 
       <div
         style={{
-          background: "#2a2a2a",
-          border: "1px solid #3a3a3a",
-          borderRadius: "8px",
+          background: "#1e1a12",
+          border: "1px solid #302b1e",
+          borderRadius: "3px",
           padding: "1rem 1.5rem",
           marginBottom: "1.5rem",
         }}
@@ -89,7 +89,7 @@ const Page: FC<Props> = async ({ params }) => {
           <span style={valueStyle}>
             {word.era}
             {word.year && (
-              <span style={{ color: "#666", marginLeft: ".5rem", fontSize: ".8rem" }}>
+              <span style={{ color: "#5e5848", marginLeft: ".5rem", fontSize: ".8rem" }}>
                 ({word.year}年頃)
               </span>
             )}
@@ -101,7 +101,7 @@ const Page: FC<Props> = async ({ params }) => {
             {field ? (
               <Link
                 href={`/fields/${field.id}/`}
-                style={{ color: "#7eb8c9", textDecoration: "none" }}
+                style={{ color: "#7a9e82", textDecoration: "none" }}
               >
                 {field.name}
               </Link>
@@ -114,7 +114,7 @@ const Page: FC<Props> = async ({ params }) => {
             {translator ? (
               <Link
                 href={`/translators/${translator.id}/`}
-                style={{ color: "#7eb8c9", textDecoration: "none" }}
+                style={{ color: "#7a9e82", textDecoration: "none" }}
               >
                 {translator.name}
               </Link>
@@ -125,33 +125,33 @@ const Page: FC<Props> = async ({ params }) => {
 
       <div
         style={{
-          background: "#2a2a2a",
-          border: "1px solid #3a3a3a",
-          borderRadius: "8px",
+          background: "#1e1a12",
+          border: "1px solid #302b1e",
+          borderRadius: "3px",
           padding: "1rem 1.5rem",
           marginBottom: "1.5rem",
         }}
       >
-        <h2 style={{ fontSize: ".8rem", color: "#888", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+        <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
           由来・語源
         </h2>
-        <p style={{ color: "#e0e0e0", fontSize: ".95rem", lineHeight: "1.7" }}>
+        <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
           {word.etymology}
         </p>
       </div>
 
       <div
         style={{
-          background: "#2a2a2a",
-          border: "1px solid #3a3a3a",
-          borderRadius: "8px",
+          background: "#1e1a12",
+          border: "1px solid #302b1e",
+          borderRadius: "3px",
           padding: "1rem 1.5rem",
         }}
       >
-        <h2 style={{ fontSize: ".8rem", color: "#888", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+        <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
           説明
         </h2>
-        <p style={{ color: "#e0e0e0", fontSize: ".95rem", lineHeight: "1.7" }}>
+        <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
           {word.description}
         </p>
       </div>

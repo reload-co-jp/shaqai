@@ -40,7 +40,7 @@ const Page: FC = () => {
         style={{
           marginBottom: "3rem",
           padding: "3rem 0 2.5rem",
-          borderBottom: "1px solid #2a2a2a",
+          borderBottom: "1px solid #1e1a12",
         }}
       >
         <div
@@ -83,7 +83,7 @@ const Page: FC = () => {
               style={{
                 fontSize: "clamp(2rem, 6vw, 3.25rem)",
                 fontWeight: "bold",
-                color: "#7eb8c9",
+                color: "#7a9e82",
                 letterSpacing: ".05em",
               }}
             >
@@ -102,7 +102,7 @@ const Page: FC = () => {
             <span
               style={{
                 fontSize: ".875rem",
-                color: "#666",
+                color: "#5e5848",
                 marginLeft: ".75rem",
                 letterSpacing: ".05em",
               }}
@@ -116,7 +116,7 @@ const Page: FC = () => {
           style={{
             fontSize: "clamp(1.25rem, 3.5vw, 2rem)",
             fontWeight: "bold",
-            color: "#e8e8e8",
+            color: "#e6e0d4",
             lineHeight: 1.4,
             marginBottom: "1rem",
             letterSpacing: ".02em",
@@ -130,7 +130,7 @@ const Page: FC = () => {
         <p
           style={{
             fontSize: "clamp(.875rem, 2vw, 1rem)",
-            color: "#999",
+            color: "#908a7a",
             lineHeight: 1.9,
             maxWidth: "560px",
             marginBottom: "1.75rem",
@@ -146,8 +146,8 @@ const Page: FC = () => {
             display: "inline-block",
             fontSize: ".875rem",
             color: "#c8a96e",
-            border: "1px solid #c8a96e55",
-            borderRadius: "6px",
+            border: "1px solid #c8a96e44",
+            borderRadius: "2px",
             padding: ".5rem 1.25rem",
             textDecoration: "none",
             letterSpacing: ".03em",
@@ -161,13 +161,13 @@ const Page: FC = () => {
         <h2
           style={{
             fontSize: "1.25rem",
-            color: "#e0e0e0",
+            color: "#e2dcd0",
             marginBottom: ".5rem",
           }}
         >
           単語一覧
         </h2>
-        <p style={{ fontSize: ".875rem", color: "#888" }}>
+        <p style={{ fontSize: ".875rem", color: "#807870" }}>
           {words.length}語収録 — 外国語を意味翻訳して作られた日本語
         </p>
       </div>
@@ -186,10 +186,10 @@ const Page: FC = () => {
             href={`/fields/${field.id}/`}
             style={{
               fontSize: ".8rem",
-              background: "#2a2a2a",
-              border: "1px solid #3a3a3a",
-              borderRadius: "20px",
-              color: "#aaa",
+              background: "#1e1a12",
+              border: "1px solid #302b1e",
+              borderRadius: "4px",
+              color: "#9e9888",
               padding: ".3rem .8rem",
               textDecoration: "none",
             }}

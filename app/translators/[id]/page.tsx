@@ -58,7 +58,7 @@ const Page: FC<Props> = async ({ params }) => {
   return (
     <div style={{ maxWidth: "960px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1rem" }}>
-        <Link href="/translators/" style={{ fontSize: ".8rem", color: "#888", textDecoration: "none" }}>
+        <Link href="/translators/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
           ← 翻訳者一覧
         </Link>
       </div>
@@ -66,9 +66,9 @@ const Page: FC<Props> = async ({ params }) => {
       {/* プロフィールカード */}
       <div
         style={{
-          background: "#2a2a2a",
-          border: "1px solid #3a3a3a",
-          borderRadius: "8px",
+          background: "#1e1a12",
+          border: "1px solid #302b1e",
+          borderRadius: "3px",
           padding: "1.5rem",
           marginBottom: "1rem",
         }}
@@ -77,13 +77,13 @@ const Page: FC<Props> = async ({ params }) => {
           <h2 style={{ fontSize: "2rem", color: "#c8a96e", marginBottom: ".25rem" }}>
             {translator.name}
           </h2>
-          <p style={{ fontSize: ".875rem", color: "#888" }}>
+          <p style={{ fontSize: ".875rem", color: "#807870" }}>
             {translator.birth_year}–{translator.death_year}（{translator.death_year - translator.birth_year}歳）
           </p>
         </div>
         <div style={{ marginBottom: "1.25rem" }}>
           {translator.description.split("\n\n").map((para, i) => (
-            <p key={i} style={{ fontSize: ".9rem", color: "#ccc", lineHeight: "1.8", marginBottom: ".75rem" }}>
+            <p key={i} style={{ fontSize: ".9rem", color: "#bfb9ac", lineHeight: "1.8", marginBottom: ".75rem" }}>
               {para}
             </p>
           ))}
@@ -95,7 +95,7 @@ const Page: FC<Props> = async ({ params }) => {
             display: "flex",
             gap: "1.5rem",
             paddingTop: "1rem",
-            borderTop: "1px solid #3a3a3a",
+            borderTop: "1px solid #302b1e",
             flexWrap: "wrap",
           }}
         >
@@ -103,22 +103,22 @@ const Page: FC<Props> = async ({ params }) => {
             <span style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#c8a96e" }}>
               {translatorWords.length}
             </span>
-            <span style={{ fontSize: ".75rem", color: "#888" }}>訳語数</span>
+            <span style={{ fontSize: ".75rem", color: "#807870" }}>訳語数</span>
           </div>
           {languages.length > 0 && (
             <div style={statStyle}>
-              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e0e0e0" }}>
+              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e2dcd0" }}>
                 {languages.join(" / ")}
               </span>
-              <span style={{ fontSize: ".75rem", color: "#888" }}>翻訳元言語</span>
+              <span style={{ fontSize: ".75rem", color: "#807870" }}>翻訳元言語</span>
             </div>
           )}
           {yearMin && (
             <div style={statStyle}>
-              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e0e0e0" }}>
+              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e2dcd0" }}>
                 {yearMin === yearMax ? `${yearMin}年頃` : `${yearMin}–${yearMax}年頃`}
               </span>
-              <span style={{ fontSize: ".75rem", color: "#888" }}>訳語年代</span>
+              <span style={{ fontSize: ".75rem", color: "#807870" }}>訳語年代</span>
             </div>
           )}
         </div>
@@ -128,14 +128,14 @@ const Page: FC<Props> = async ({ params }) => {
       {fieldCounts.length > 0 && (
         <div
           style={{
-            background: "#2a2a2a",
-            border: "1px solid #3a3a3a",
-            borderRadius: "8px",
+            background: "#1e1a12",
+            border: "1px solid #302b1e",
+            borderRadius: "3px",
             padding: "1rem 1.5rem",
             marginBottom: "1.5rem",
           }}
         >
-          <h3 style={{ fontSize: ".75rem", color: "#888", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+          <h3 style={{ fontSize: ".75rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
             分野別訳語数
           </h3>
           <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
@@ -146,19 +146,19 @@ const Page: FC<Props> = async ({ params }) => {
                   <div style={{ display: "flex", justifyContent: "space-between", marginBottom: ".2rem" }}>
                     <Link
                       href={`/fields/${field.id}/`}
-                      style={{ fontSize: ".85rem", color: "#7eb8c9", textDecoration: "none" }}
+                      style={{ fontSize: ".85rem", color: "#7a9e82", textDecoration: "none" }}
                     >
                       {field.name}
                     </Link>
-                    <span style={{ fontSize: ".8rem", color: "#888" }}>{count}語</span>
+                    <span style={{ fontSize: ".8rem", color: "#807870" }}>{count}語</span>
                   </div>
-                  <div style={{ height: "4px", background: "#3a3a3a", borderRadius: "2px" }}>
+                  <div style={{ height: "4px", background: "#302b1e", borderRadius: "2px" }}>
                     <div
                       style={{
                         height: "100%",
                         width: `${pct}%`,
                         background: "#c8a96e",
-                        borderRadius: "2px",
+                        borderRadius: "1px",
                       }}
                     />
                   </div>
@@ -171,9 +171,9 @@ const Page: FC<Props> = async ({ params }) => {
 
       {/* 訳語一覧 */}
       <div style={{ marginBottom: "1rem" }}>
-        <h3 style={{ fontSize: "1rem", color: "#e0e0e0" }}>
+        <h3 style={{ fontSize: "1rem", color: "#e2dcd0" }}>
           訳語一覧
-          <span style={{ fontSize: ".8rem", color: "#888", marginLeft: ".5rem" }}>
+          <span style={{ fontSize: ".8rem", color: "#807870", marginLeft: ".5rem" }}>
             {translatorWords.length}語
           </span>
         </h3>

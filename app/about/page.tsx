@@ -15,13 +15,13 @@ const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "2rem" }}>
-        <h2 style={{ fontSize: "1.25rem", color: "#e0e0e0", marginBottom: ".5rem" }}>
+        <h2 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
           このサイトについて
         </h2>
-        <p style={{ fontSize: ".875rem", color: "#888" }}>About</p>
+        <p style={{ fontSize: ".875rem", color: "#807870" }}>About</p>
       </div>
 
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", fontSize: ".9375rem", color: "#ccc", lineHeight: "1.9" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", fontSize: ".9375rem", color: "#bfb9ac", lineHeight: "1.9" }}>
         <p>
           昨今、日本語に取り入れられる外来語の多くはカタカナ語としてそのまま使用される傾向にあります。しかしそれらは本来の意味が十分に共有されないまま、限定的・曖昧なニュアンスで使われることも多く、結果として本来の外国語での用法との間に誤解を生む場面も少なくありません。
         </p>
@@ -31,7 +31,7 @@ const Page: FC = () => {
         <p>
           本アプリケーションは、そうした翻訳の営みに改めて光を当て、言葉の背景にある思想や意図を再発見することを目的としています。そして、現代においても誤解の少ない、意味の通った翻訳語を生み出していくための一助となることを目指しています。
         </p>
-        <p style={{ borderLeft: "3px solid #c8a96e", paddingLeft: "1rem", color: "#b0b0b0" }}>
+        <p style={{ borderLeft: "3px solid #c8a96e", paddingLeft: "1rem", color: "#b8b2a6" }}>
           言葉をただ受け入れるのではなく、理解し、翻訳し、共有する。その積み重ねが、より豊かな言語環境と健全なコミュニケーションを支えると私たちは考えています。
         </p>
       </div>

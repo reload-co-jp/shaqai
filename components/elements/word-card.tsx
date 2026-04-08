@@ -15,9 +15,9 @@ export const WordCard: FC<Props> = ({ word, field, translator }) => (
   >
     <article
       style={{
-        background: "#2a2a2a",
-        border: "1px solid #3a3a3a",
-        borderRadius: "8px",
+        background: "#1e1a12",
+        border: "1px solid #302b1e",
+        borderRadius: "3px",
         padding: "1rem 1.25rem",
         cursor: "pointer",
         transition: "border-color 0.2s",
@@ -31,9 +31,9 @@ export const WordCard: FC<Props> = ({ word, field, translator }) => (
           <span
             style={{
               fontSize: ".7rem",
-              background: "#3a3a3a",
-              color: "#aaa",
-              borderRadius: "4px",
+              background: "#302b1e",
+              color: "#9e9888",
+              borderRadius: "2px",
               padding: ".2rem .5rem",
             }}
           >
@@ -41,13 +41,13 @@ export const WordCard: FC<Props> = ({ word, field, translator }) => (
           </span>
         )}
       </div>
-      <div style={{ fontSize: ".9rem", color: "#7eb8c9", marginBottom: ".4rem" }}>
+      <div style={{ fontSize: ".9rem", color: "#7a9e82", marginBottom: ".4rem" }}>
         {word.original_word}
-        <span style={{ color: "#666", marginLeft: ".5rem", fontSize: ".8rem" }}>
+        <span style={{ color: "#5e5848", marginLeft: ".5rem", fontSize: ".8rem" }}>
           {word.language}
         </span>
       </div>
-      <div style={{ fontSize: ".75rem", color: "#888" }}>
+      <div style={{ fontSize: ".75rem", color: "#807870" }}>
         {word.era}
         {translator && (
           <span style={{ marginLeft: ".75rem" }}>{translator.name}</span>
