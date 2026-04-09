@@ -1,6 +1,8 @@
 import { FC } from "react"
 import { words, fields, getField, getTranslator } from "lib/db"
+import { articles } from "lib/articles"
 import { WordCard } from "components/elements/word-card"
+import { RandomArticles } from "components/elements/random-articles"
 
 const HERO_WORDS = ["社会", "経済", "哲学", "自由", "権利", "文化", "科学"]
 
@@ -155,6 +157,44 @@ const Page: FC = () => {
         >
           このサイトについて →
         </a>
+      </div>
+
+      <div style={{ marginBottom: "3rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            marginBottom: "1rem",
+          }}
+        >
+          <div>
+            <h2
+              style={{
+                fontSize: "1.25rem",
+                color: "#e2dcd0",
+                marginBottom: ".25rem",
+              }}
+            >
+              読み物
+            </h2>
+            <p style={{ fontSize: ".875rem", color: "#807870" }}>
+              翻訳語の歴史と成り立ちを読む
+            </p>
+          </div>
+          <a
+            href="/articles/"
+            style={{
+              fontSize: ".8125rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+              whiteSpace: "nowrap",
+            }}
+          >
+            すべて見る →
+          </a>
+        </div>
+        <RandomArticles articles={articles} count={3} />
       </div>
 
       <div style={{ marginBottom: "1.5rem" }}>
