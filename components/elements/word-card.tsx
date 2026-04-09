@@ -23,8 +23,17 @@ export const WordCard: FC<Props> = ({ word, field, translator }) => (
         transition: "border-color 0.2s",
       }}
     >
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: ".5rem" }}>
-        <span style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#c8a96e" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "flex-start",
+          marginBottom: ".5rem",
+        }}
+      >
+        <span
+          style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#c8a96e" }}
+        >
           {word.japanese_word}
         </span>
         {field && (
@@ -41,17 +50,22 @@ export const WordCard: FC<Props> = ({ word, field, translator }) => (
           </span>
         )}
       </div>
-      <div style={{ fontSize: ".9rem", color: "#7a9e82", marginBottom: ".4rem" }}>
+      <div
+        style={{ fontSize: ".9rem", color: "#7a9e82", marginBottom: ".4rem" }}
+      >
         {word.original_word}
-        <span style={{ color: "#5e5848", marginLeft: ".5rem", fontSize: ".8rem" }}>
-          {word.language}
-        </span>
       </div>
-      <div style={{ fontSize: ".75rem", color: "#807870" }}>
-        {word.era}
-        {translator && (
-          <span style={{ marginLeft: ".75rem" }}>{translator.name}</span>
-        )}
+      <div
+        style={{
+          display: "flex",
+          fontSize: ".75rem",
+          gap: ".5rem",
+          color: "#807870",
+        }}
+      >
+        <span style={{}}>{word.language}</span>
+        <span>{word.era}</span>
+        {translator && <span>{translator.name}</span>}
       </div>
     </article>
   </Link>
