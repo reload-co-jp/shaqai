@@ -38,6 +38,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
       changeFrequency: "yearly",
     },
+    {
+      url: BASE_URL + "/articles/",
+      priority: 0.7,
+      changeFrequency: "monthly",
+    },
+    {
+      url: BASE_URL + "/articles/meiji-translation/",
+      priority: 0.6,
+      changeFrequency: "yearly",
+    },
+    {
+      url: BASE_URL + "/articles/sound-vs-meaning/",
+      priority: 0.6,
+      changeFrequency: "yearly",
+    },
+    {
+      url: BASE_URL + "/articles/imported-values/",
+      priority: 0.6,
+      changeFrequency: "yearly",
+    },
+    {
+      url: BASE_URL + "/articles/creating-new-words/",
+      priority: 0.6,
+      changeFrequency: "yearly",
+    },
+    {
+      url: BASE_URL + "/articles/why-no-new-translations/",
+      priority: 0.6,
+      changeFrequency: "yearly",
+    },
+    {
+      url: BASE_URL + "/articles/how-to-translate/",
+      priority: 0.6,
+      changeFrequency: "yearly",
+    },
   ]
 
   const wordRoutes: MetadataRoute.Sitemap = words.map((w) => ({

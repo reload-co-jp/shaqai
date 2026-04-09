@@ -18,7 +18,17 @@ export const metadata = {
   },
   description:
     "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
-  keywords: ["翻訳語", "訳語", "和製漢語", "日本語", "辞典", "辞書", "翻訳", "語源", "Shaqai"],
+  keywords: [
+    "翻訳語",
+    "訳語",
+    "和製漢語",
+    "日本語",
+    "辞典",
+    "辞書",
+    "翻訳",
+    "語源",
+    "Shaqai",
+  ],
   openGraph: {
     siteName: "翻訳語辞典 Shaqai",
     locale: "ja_JP",
@@ -67,7 +77,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               翻訳語辞典
             </span>
             <span
-              style={{ fontSize: ".75rem", color: "#807870", marginLeft: ".5rem" }}
+              style={{
+                fontSize: ".75rem",
+                color: "#807870",
+                marginLeft: ".5rem",
+              }}
             >
               Shaqai
             </span>
@@ -80,16 +94,6 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               gap: "1.5rem",
             }}
           >
-            <Link
-              href="/"
-              style={{
-                fontSize: ".875rem",
-                color: "#bfb9ac",
-                textDecoration: "none",
-              }}
-            >
-              単語
-            </Link>
             <Link
               href="/fields/"
               style={{
@@ -109,6 +113,16 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               }}
             >
               翻訳者
+            </Link>
+            <Link
+              href="/articles/"
+              style={{
+                fontSize: ".875rem",
+                color: "#bfb9ac",
+                textDecoration: "none",
+              }}
+            >
+              読み物
             </Link>
             <Link
               href="/about/"
