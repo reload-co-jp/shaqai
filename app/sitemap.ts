@@ -73,6 +73,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
       changeFrequency: "yearly",
     },
+    {
+      url: BASE_URL + "/articles/dx-translation/",
+      priority: 0.6,
+      changeFrequency: "yearly",
+    },
   ]
 
   const wordRoutes: MetadataRoute.Sitemap = words.map((w) => ({
