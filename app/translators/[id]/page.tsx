@@ -1,7 +1,13 @@
 import { FC } from "react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { translators, fields, getTranslator, getWordsByTranslator, getField } from "lib/db"
+import {
+  translators,
+  fields,
+  getTranslator,
+  getWordsByTranslator,
+  getField,
+} from "lib/db"
 import { WordCard } from "components/elements/word-card"
 import type { Metadata } from "next"
 
@@ -10,17 +16,24 @@ export const generateStaticParams = () =>
 
 type Props = { params: Promise<{ id: string }> }
 
-export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+export const generateMetadata = async ({
+  params,
+}: Props): Promise<Metadata> => {
   const { id } = await params
   const translator = getTranslator(Number(id))
   if (!translator) return {}
   const title = translator.name
   const firstPara = translator.description.split("\n\n")[0]
-  const description = firstPara.length > 120 ? firstPara.slice(0, 120) + "…" : firstPara
+  const description =
+    firstPara.length > 120 ? firstPara.slice(0, 120) + "…" : firstPara
   return {
     title,
     description,
-    openGraph: { title, description, url: `https://shaqai.reload.co.jp/translators/${id}/` },
+    openGraph: {
+      title,
+      description,
+      url: `https://shaqai.reload.co.jp/translators/${id}/`,
+    },
     twitter: { title, description },
     alternates: { canonical: `https://shaqai.reload.co.jp/translators/${id}/` },
   }
@@ -34,7 +47,9 @@ const Page: FC<Props> = async ({ params }) => {
   const translatorWords = getWordsByTranslator(translator.id)
 
   // 統計データを計算
-  const languages = [...new Set(translatorWords.map((w) => w.language))].filter(Boolean)
+  const languages = [...new Set(translatorWords.map((w) => w.language))].filter(
+    Boolean
+  )
   const years = translatorWords.map((w) => w.year).filter(Boolean)
   const yearMin = years.length ? Math.min(...years) : null
   const yearMax = years.length ? Math.max(...years) : null
@@ -58,7 +73,14 @@ const Page: FC<Props> = async ({ params }) => {
   return (
     <div style={{ maxWidth: "960px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1rem" }}>
-        <Link href="/translators/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
+        <Link
+          href="/translators/"
+          style={{
+            fontSize: ".8rem",
+            color: "#807870",
+            textDecoration: "none",
+          }}
+        >
           ← 翻訳者一覧
         </Link>
       </div>
@@ -73,7 +95,14 @@ const Page: FC<Props> = async ({ params }) => {
           marginBottom: "1rem",
         }}
       >
-        <div style={{ display: "flex", gap: "1.5rem", marginBottom: "1.25rem", alignItems: "flex-start" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: "1.5rem",
+            marginBottom: "1.25rem",
+            alignItems: "flex-start",
+          }}
+        >
           {translator.image && (
             <img
               src={translator.image}
@@ -92,16 +121,31 @@ const Page: FC<Props> = async ({ params }) => {
           )}
           <div style={{ flex: 1 }}>
             <div style={{ marginBottom: "1rem" }}>
-              <h2 style={{ fontSize: "2rem", color: "#c8a96e", marginBottom: ".25rem" }}>
+              <h2
+                style={{
+                  fontSize: "2rem",
+                  color: "#c8a96e",
+                  marginBottom: ".25rem",
+                }}
+              >
                 {translator.name}
               </h2>
               <p style={{ fontSize: ".875rem", color: "#807870" }}>
-                {translator.birth_year}–{translator.death_year}（{translator.death_year - translator.birth_year}歳）
+                {translator.birth_year}–{translator.death_year}（
+                {translator.death_year - translator.birth_year}歳）
               </p>
             </div>
             <div>
               {translator.description.split("\n\n").map((para, i) => (
-                <p key={i} style={{ fontSize: ".9rem", color: "#bfb9ac", lineHeight: "1.8", marginBottom: ".75rem" }}>
+                <p
+                  key={i}
+                  style={{
+                    fontSize: ".9rem",
+                    color: "#bfb9ac",
+                    lineHeight: "1.8",
+                    marginBottom: ".75rem",
+                  }}
+                >
                   {para}
                 </p>
               ))}
@@ -117,28 +161,55 @@ const Page: FC<Props> = async ({ params }) => {
             paddingTop: "1rem",
             borderTop: "1px solid #302b1e",
             flexWrap: "wrap",
+            justifyContent: "space-around",
           }}
         >
           <div style={statStyle}>
-            <span style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#c8a96e" }}>
+            <span
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: "bold",
+                color: "#c8a96e",
+              }}
+            >
               {translatorWords.length}
             </span>
             <span style={{ fontSize: ".75rem", color: "#807870" }}>訳語数</span>
           </div>
           {languages.length > 0 && (
             <div style={statStyle}>
-              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e2dcd0" }}>
-                {languages.join(" / ")}
+              <span
+                style={{
+                  fontSize: "1.1rem",
+                  fontWeight: "bold",
+                  color: "#e2dcd0",
+                }}
+              >
+                {[...new Set(languages.map((l) => l.split("・")).flat())].join(
+                  " / "
+                )}
               </span>
-              <span style={{ fontSize: ".75rem", color: "#807870" }}>翻訳元言語</span>
+              <span style={{ fontSize: ".75rem", color: "#807870" }}>
+                翻訳元言語
+              </span>
             </div>
           )}
           {yearMin && (
             <div style={statStyle}>
-              <span style={{ fontSize: "1.1rem", fontWeight: "bold", color: "#e2dcd0" }}>
-                {yearMin === yearMax ? `${yearMin}年頃` : `${yearMin}–${yearMax}年頃`}
+              <span
+                style={{
+                  fontSize: "1.1rem",
+                  fontWeight: "bold",
+                  color: "#e2dcd0",
+                }}
+              >
+                {yearMin === yearMax
+                  ? `${yearMin}年頃`
+                  : `${yearMin}–${yearMax}年頃`}
               </span>
-              <span style={{ fontSize: ".75rem", color: "#807870" }}>訳語年代</span>
+              <span style={{ fontSize: ".75rem", color: "#807870" }}>
+                訳語年代
+              </span>
             </div>
           )}
         </div>
@@ -155,24 +226,52 @@ const Page: FC<Props> = async ({ params }) => {
             marginBottom: "1.5rem",
           }}
         >
-          <h3 style={{ fontSize: ".75rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+          <h3
+            style={{
+              fontSize: ".75rem",
+              color: "#807870",
+              marginBottom: ".75rem",
+              textTransform: "uppercase",
+              letterSpacing: ".05em",
+            }}
+          >
             分野別訳語数
           </h3>
-          <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+          <div
+            style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}
+          >
             {fieldCounts.map(({ field, count }) => {
               const pct = Math.round((count / translatorWords.length) * 100)
               return (
                 <div key={field.id}>
-                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: ".2rem" }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      marginBottom: ".2rem",
+                    }}
+                  >
                     <Link
                       href={`/fields/${field.id}/`}
-                      style={{ fontSize: ".85rem", color: "#7a9e82", textDecoration: "none" }}
+                      style={{
+                        fontSize: ".85rem",
+                        color: "#7a9e82",
+                        textDecoration: "none",
+                      }}
                     >
                       {field.name}
                     </Link>
-                    <span style={{ fontSize: ".8rem", color: "#807870" }}>{count}語</span>
+                    <span style={{ fontSize: ".8rem", color: "#807870" }}>
+                      {count}語
+                    </span>
                   </div>
-                  <div style={{ height: "4px", background: "#302b1e", borderRadius: "2px" }}>
+                  <div
+                    style={{
+                      height: "4px",
+                      background: "#302b1e",
+                      borderRadius: "2px",
+                    }}
+                  >
                     <div
                       style={{
                         height: "100%",
@@ -193,7 +292,9 @@ const Page: FC<Props> = async ({ params }) => {
       <div style={{ marginBottom: "1rem" }}>
         <h3 style={{ fontSize: "1rem", color: "#e2dcd0" }}>
           訳語一覧
-          <span style={{ fontSize: ".8rem", color: "#807870", marginLeft: ".5rem" }}>
+          <span
+            style={{ fontSize: ".8rem", color: "#807870", marginLeft: ".5rem" }}
+          >
             {translatorWords.length}語
           </span>
         </h3>
