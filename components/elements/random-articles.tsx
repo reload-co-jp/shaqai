@@ -14,6 +14,7 @@ export const RandomArticles = ({
 
   useEffect(() => {
     setPicked([...articles].sort(() => Math.random() - 0.5).slice(0, count))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   if (picked.length === 0) return null
