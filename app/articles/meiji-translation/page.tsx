@@ -2,11 +2,15 @@ import { FC } from "react"
 
 export const metadata = {
   title: "明治期の翻訳方法の模索と挑戦",
-  description: "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
-  alternates: { canonical: "https://shaqai.reload.co.jp/articles/meiji-translation/" },
+  description:
+    "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
+  alternates: {
+    canonical: "https://shaqai.reload.co.jp/articles/meiji-translation/",
+  },
   openGraph: {
     title: "明治期の翻訳方法の模索と挑戦 — 翻訳語辞典 Shaqai",
-    description: "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
+    description:
+      "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
     url: "https://shaqai.reload.co.jp/articles/meiji-translation/",
   },
 }
@@ -15,9 +19,22 @@ const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       {/* Header */}
-      <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid #2a2518" }}>
-        <p style={{ fontSize: ".75rem", color: "#5e5848", marginBottom: ".75rem", letterSpacing: ".05em" }}>
-          記事
+      <div
+        style={{
+          marginBottom: "2.5rem",
+          paddingBottom: "2rem",
+          borderBottom: "1px solid #2a2518",
+        }}
+      >
+        <p
+          style={{
+            fontSize: ".75rem",
+            color: "#5e5848",
+            marginBottom: ".75rem",
+            letterSpacing: ".05em",
+          }}
+        >
+          読み物
         </p>
         <h1
           style={{
@@ -69,14 +86,27 @@ const Page: FC = () => {
             padding: "1.25rem 1.5rem",
           }}
         >
-          <p style={{ fontSize: ".875rem", color: "#c8a96e", marginBottom: ".5rem", fontWeight: "bold" }}>
+          <p
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              marginBottom: ".5rem",
+              fontWeight: "bold",
+            }}
+          >
             明治初期の翻訳規模
           </p>
           <p style={{ fontSize: ".875rem", color: "#908a7a", lineHeight: 1.8 }}>
             明治初期のわずか15年ほどの間に、数千点もの翻訳書が出版されたとされる。
             これは当時の出版物全体の大きな割合を占めており、国家的規模での翻訳事業だったといえる。
           </p>
-          <p style={{ fontSize: ".75rem", color: "#5e5848", marginTop: ".75rem" }}>
+          <p
+            style={{
+              fontSize: ".75rem",
+              color: "#5e5848",
+              marginTop: ".75rem",
+            }}
+          >
             参考：山岡洋一「15年に数千点 — 明治初期の大翻訳時代」翻訳通信
           </p>
         </div>
@@ -93,20 +123,23 @@ const Page: FC = () => {
         </h2>
 
         <p>
-          翻訳家たちが採用した方法は、大きく三つに分けられる。
-          第一は<strong style={{ color: "#e2dcd0" }}>音訳</strong>——外国語の発音をそのまま漢字に当てはめる方法だ。
+          翻訳家たちが採用した方法は、大きく三つに分けられる。 第一は
+          <strong style={{ color: "#e2dcd0" }}>音訳</strong>
+          ——外国語の発音をそのまま漢字に当てはめる方法だ。
           たとえば「club（クラブ）」を「倶楽部」と書くように、音を漢字で表現した。
         </p>
 
         <p>
-          第二は<strong style={{ color: "#e2dcd0" }}>意訳</strong>——外国語の意味を理解し、
+          第二は<strong style={{ color: "#e2dcd0" }}>意訳</strong>
+          ——外国語の意味を理解し、
           それに対応する日本語の概念を漢字で表現する方法だ。
           「society」を「社会」、「philosophy」を「哲学」と訳したのがその例である。
           この方法では翻訳家の深い理解と語彙力が必要とされた。
         </p>
 
         <p>
-          第三は<strong style={{ color: "#e2dcd0" }}>借用訳</strong>——すでに中国語で翻訳されていた漢語を
+          第三は<strong style={{ color: "#e2dcd0" }}>借用訳</strong>
+          ——すでに中国語で翻訳されていた漢語を
           そのまま取り込む方法だ。中国は日本よりも早くキリスト教宣教師らによる翻訳の蓄積があり、
           その成果を流用するケースも多かった。
         </p>
@@ -138,15 +171,35 @@ const Page: FC = () => {
             padding: "1.25rem 1.5rem",
           }}
         >
-          <p style={{ fontSize: ".875rem", color: "#c8a96e", marginBottom: ".5rem", fontWeight: "bold" }}>
+          <p
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              marginBottom: ".5rem",
+              fontWeight: "bold",
+            }}
+          >
             競合する訳語の例
           </p>
-          <ul style={{ fontSize: ".875rem", color: "#908a7a", lineHeight: 2, paddingLeft: "1.25rem" }}>
+          <ul
+            style={{
+              fontSize: ".875rem",
+              color: "#908a7a",
+              lineHeight: 2,
+              paddingLeft: "1.25rem",
+            }}
+          >
             <li>freedom / liberty → 自由・自在・放縦・自恣</li>
             <li>society → 社会・仲間・交際・会社</li>
             <li>right → 権利・通義・正権・民権</li>
           </ul>
-          <p style={{ fontSize: ".75rem", color: "#5e5848", marginTop: ".75rem" }}>
+          <p
+            style={{
+              fontSize: ".75rem",
+              color: "#5e5848",
+              marginTop: ".75rem",
+            }}
+          >
             参考：柳父章『翻訳語成立事情』（岩波新書）
           </p>
         </div>
@@ -200,9 +253,21 @@ const Page: FC = () => {
           }}
         >
           <p style={{ marginBottom: ".5rem", color: "#807870" }}>参考文献</p>
-          <ul style={{ paddingLeft: "1.25rem", display: "flex", flexDirection: "column", gap: ".25rem" }}>
-            <li>福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）</li>
-            <li>山岡洋一「15年に数千点 — 明治初期の大翻訳時代」翻訳通信（2004年3月）</li>
+          <ul
+            style={{
+              paddingLeft: "1.25rem",
+              display: "flex",
+              flexDirection: "column",
+              gap: ".25rem",
+            }}
+          >
+            <li>
+              福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）
+            </li>
+            <li>
+              山岡洋一「15年に数千点 —
+              明治初期の大翻訳時代」翻訳通信（2004年3月）
+            </li>
             <li>柳父章『翻訳語成立事情』岩波新書</li>
             <li>丸山真男・加藤周一『翻訳と日本の近代』岩波新書</li>
           </ul>
@@ -211,9 +276,13 @@ const Page: FC = () => {
         <div style={{ paddingTop: ".5rem" }}>
           <a
             href="/articles/"
-            style={{ fontSize: ".875rem", color: "#c8a96e", textDecoration: "none" }}
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+            }}
           >
-            ← 記事一覧へ
+            ← 読み物一覧へ
           </a>
         </div>
       </div>

@@ -2,11 +2,15 @@ import { FC } from "react"
 
 export const metadata = {
   title: "未知の概念を言葉として創るということ",
-  description: "対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。翻訳家たちが直面した、言語創造の根本的な問い。",
-  alternates: { canonical: "https://shaqai.reload.co.jp/articles/creating-new-words/" },
+  description:
+    "対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。翻訳家たちが直面した、言語創造の根本的な問い。",
+  alternates: {
+    canonical: "https://shaqai.reload.co.jp/articles/creating-new-words/",
+  },
   openGraph: {
     title: "未知の概念を言葉として創るということ — 翻訳語辞典 Shaqai",
-    description: "対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。翻訳家たちが直面した、言語創造の根本的な問い。",
+    description:
+      "対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。翻訳家たちが直面した、言語創造の根本的な問い。",
     url: "https://shaqai.reload.co.jp/articles/creating-new-words/",
   },
 }
@@ -14,9 +18,22 @@ export const metadata = {
 const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-      <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid #2a2518" }}>
-        <p style={{ fontSize: ".75rem", color: "#5e5848", marginBottom: ".75rem", letterSpacing: ".05em" }}>
-          記事
+      <div
+        style={{
+          marginBottom: "2.5rem",
+          paddingBottom: "2rem",
+          borderBottom: "1px solid #2a2518",
+        }}
+      >
+        <p
+          style={{
+            fontSize: ".75rem",
+            color: "#5e5848",
+            marginBottom: ".75rem",
+            letterSpacing: ".05em",
+          }}
+        >
+          読み物
         </p>
         <h1
           style={{
@@ -93,7 +110,14 @@ const Page: FC = () => {
             padding: "1.25rem 1.5rem",
           }}
         >
-          <p style={{ fontSize: ".875rem", color: "#c8a96e", marginBottom: ".5rem", fontWeight: "bold" }}>
+          <p
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              marginBottom: ".5rem",
+              fontWeight: "bold",
+            }}
+          >
             「哲学」の造語プロセス
           </p>
           <p style={{ fontSize: ".875rem", color: "#908a7a", lineHeight: 1.8 }}>
@@ -103,7 +127,13 @@ const Page: FC = () => {
             この造語は原語の精神を的確に捉えており、
             後の明治政府も公式に採用することになる。
           </p>
-          <p style={{ fontSize: ".75rem", color: "#5e5848", marginTop: ".75rem" }}>
+          <p
+            style={{
+              fontSize: ".75rem",
+              color: "#5e5848",
+              marginTop: ".75rem",
+            }}
+          >
             参考：福田眞人「明治翻訳語のおもしろさ」
           </p>
         </div>
@@ -209,8 +239,17 @@ const Page: FC = () => {
           }}
         >
           <p style={{ marginBottom: ".5rem", color: "#807870" }}>参考文献</p>
-          <ul style={{ paddingLeft: "1.25rem", display: "flex", flexDirection: "column", gap: ".25rem" }}>
-            <li>福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）</li>
+          <ul
+            style={{
+              paddingLeft: "1.25rem",
+              display: "flex",
+              flexDirection: "column",
+              gap: ".25rem",
+            }}
+          >
+            <li>
+              福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）
+            </li>
             <li>柳父章『翻訳語成立事情』岩波新書</li>
             <li>吉沢典男・石綿敏雄『外来語の語源』角川書店</li>
           </ul>
@@ -219,9 +258,13 @@ const Page: FC = () => {
         <div style={{ paddingTop: ".5rem" }}>
           <a
             href="/articles/"
-            style={{ fontSize: ".875rem", color: "#c8a96e", textDecoration: "none" }}
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+            }}
           >
-            ← 記事一覧へ
+            ← 読み物一覧へ
           </a>
         </div>
       </div>

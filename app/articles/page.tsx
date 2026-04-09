@@ -62,11 +62,12 @@ const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "2rem" }}>
+        <p style={{ fontSize: ".75rem", color: "#c8a96e" }}>読み物</p>
         <h2
           style={{
             fontSize: "1.25rem",
             color: "#e2dcd0",
-            marginBottom: ".5rem",
+            margin: ".5rem 0",
           }}
         >
           翻訳語の歴史と成り立ちを読む

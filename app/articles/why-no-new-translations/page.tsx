@@ -2,11 +2,15 @@ import { FC } from "react"
 
 export const metadata = {
   title: "なぜ現代には翻訳語が生まれにくいか",
-  description: "明治には数千もの翻訳語が生まれたのに、現代にはほとんど生まれない。この違いはどこから来るのか。",
-  alternates: { canonical: "https://shaqai.reload.co.jp/articles/why-no-new-translations/" },
+  description:
+    "明治には数千もの翻訳語が生まれたのに、現代にはほとんど生まれない。この違いはどこから来るのか。",
+  alternates: {
+    canonical: "https://shaqai.reload.co.jp/articles/why-no-new-translations/",
+  },
   openGraph: {
     title: "なぜ現代には翻訳語が生まれにくいか — 翻訳語辞典 Shaqai",
-    description: "明治には数千もの翻訳語が生まれたのに、現代にはほとんど生まれない。この違いはどこから来るのか。",
+    description:
+      "明治には数千もの翻訳語が生まれたのに、現代にはほとんど生まれない。この違いはどこから来るのか。",
     url: "https://shaqai.reload.co.jp/articles/why-no-new-translations/",
   },
 }
@@ -14,9 +18,22 @@ export const metadata = {
 const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-      <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid #2a2518" }}>
-        <p style={{ fontSize: ".75rem", color: "#5e5848", marginBottom: ".75rem", letterSpacing: ".05em" }}>
-          記事
+      <div
+        style={{
+          marginBottom: "2.5rem",
+          paddingBottom: "2rem",
+          borderBottom: "1px solid #2a2518",
+        }}
+      >
+        <p
+          style={{
+            fontSize: ".75rem",
+            color: "#5e5848",
+            marginBottom: ".75rem",
+            letterSpacing: ".05em",
+          }}
+        >
+          読み物
         </p>
         <h1
           style={{
@@ -64,8 +81,7 @@ const Page: FC = () => {
 
         <p>
           一方、明治時代には「電話」「写真」「汽車」「文明」「進化」——
-          次々と新しい翻訳語が生まれた。
-          この違いはなぜ生じたのか。
+          次々と新しい翻訳語が生まれた。 この違いはなぜ生じたのか。
         </p>
 
         <h2
@@ -103,7 +119,14 @@ const Page: FC = () => {
             padding: "1.25rem 1.5rem",
           }}
         >
-          <p style={{ fontSize: ".875rem", color: "#c8a96e", marginBottom: ".5rem", fontWeight: "bold" }}>
+          <p
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              marginBottom: ".5rem",
+              fontWeight: "bold",
+            }}
+          >
             翻訳の速度と規模
           </p>
           <p style={{ fontSize: ".875rem", color: "#908a7a", lineHeight: 1.8 }}>
@@ -111,7 +134,13 @@ const Page: FC = () => {
             これは一日に複数冊の翻訳書が出版されていた計算になる。
             このペースと規模は、現代の商業翻訳と比べても圧倒的だった。
           </p>
-          <p style={{ fontSize: ".75rem", color: "#5e5848", marginTop: ".75rem" }}>
+          <p
+            style={{
+              fontSize: ".75rem",
+              color: "#5e5848",
+              marginTop: ".75rem",
+            }}
+          >
             参考：山岡洋一「15年に数千点 — 明治初期の大翻訳時代」翻訳通信
           </p>
         </div>
@@ -187,8 +216,7 @@ const Page: FC = () => {
           これらの語を使う人の多くは、その概念の本質を
           どこまで自分のものとして理解しているだろうか。
           意訳語を作る行為は、外来概念を自分たちの言語と文化の文脈に引き寄せ、
-          深く理解しようとする試みだった。
-          その営みが失われることの意味は、
+          深く理解しようとする試みだった。 その営みが失われることの意味は、
           今一度考えてみる価値があるかもしれない。
         </p>
 
@@ -203,8 +231,18 @@ const Page: FC = () => {
           }}
         >
           <p style={{ marginBottom: ".5rem", color: "#807870" }}>参考文献</p>
-          <ul style={{ paddingLeft: "1.25rem", display: "flex", flexDirection: "column", gap: ".25rem" }}>
-            <li>山岡洋一「15年に数千点 — 明治初期の大翻訳時代」翻訳通信（2004年3月）</li>
+          <ul
+            style={{
+              paddingLeft: "1.25rem",
+              display: "flex",
+              flexDirection: "column",
+              gap: ".25rem",
+            }}
+          >
+            <li>
+              山岡洋一「15年に数千点 —
+              明治初期の大翻訳時代」翻訳通信（2004年3月）
+            </li>
             <li>柳父章『翻訳語成立事情』岩波新書</li>
             <li>吉沢典男・石綿敏雄『外来語の語源』角川書店</li>
           </ul>
@@ -213,9 +251,13 @@ const Page: FC = () => {
         <div style={{ paddingTop: ".5rem" }}>
           <a
             href="/articles/"
-            style={{ fontSize: ".875rem", color: "#c8a96e", textDecoration: "none" }}
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+            }}
           >
-            ← 記事一覧へ
+            ← 読み物一覧へ
           </a>
         </div>
       </div>

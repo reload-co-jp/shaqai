@@ -2,11 +2,15 @@ import { FC } from "react"
 
 export const metadata = {
   title: "音としての外来語と意味を含めた訳語",
-  description: "「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。音訳と意訳、その本質的な違いを考える。",
-  alternates: { canonical: "https://shaqai.reload.co.jp/articles/sound-vs-meaning/" },
+  description:
+    "「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。音訳と意訳、その本質的な違いを考える。",
+  alternates: {
+    canonical: "https://shaqai.reload.co.jp/articles/sound-vs-meaning/",
+  },
   openGraph: {
     title: "音としての外来語と意味を含めた訳語 — 翻訳語辞典 Shaqai",
-    description: "「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。音訳と意訳、その本質的な違いを考える。",
+    description:
+      "「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。音訳と意訳、その本質的な違いを考える。",
     url: "https://shaqai.reload.co.jp/articles/sound-vs-meaning/",
   },
 }
@@ -14,9 +18,22 @@ export const metadata = {
 const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-      <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid #2a2518" }}>
-        <p style={{ fontSize: ".75rem", color: "#5e5848", marginBottom: ".75rem", letterSpacing: ".05em" }}>
-          記事
+      <div
+        style={{
+          marginBottom: "2.5rem",
+          paddingBottom: "2rem",
+          borderBottom: "1px solid #2a2518",
+        }}
+      >
+        <p
+          style={{
+            fontSize: ".75rem",
+            color: "#5e5848",
+            marginBottom: ".75rem",
+            letterSpacing: ".05em",
+          }}
+        >
+          読み物
         </p>
         <h1
           style={{
@@ -101,7 +118,14 @@ const Page: FC = () => {
             padding: "1.25rem 1.5rem",
           }}
         >
-          <p style={{ fontSize: ".875rem", color: "#c8a96e", marginBottom: ".5rem", fontWeight: "bold" }}>
+          <p
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              marginBottom: ".5rem",
+              fontWeight: "bold",
+            }}
+          >
             柳父章の「カセット効果」
           </p>
           <p style={{ fontSize: ".875rem", color: "#908a7a", lineHeight: 1.8 }}>
@@ -110,7 +134,13 @@ const Page: FC = () => {
             自分なりの意味を投影する。この「空白」こそが、
             翻訳語が時に原語以上に豊かな含意を帯びる理由でもある。
           </p>
-          <p style={{ fontSize: ".75rem", color: "#5e5848", marginTop: ".75rem" }}>
+          <p
+            style={{
+              fontSize: ".75rem",
+              color: "#5e5848",
+              marginTop: ".75rem",
+            }}
+          >
             参考：柳父章『翻訳語成立事情』（岩波新書）
           </p>
         </div>
@@ -194,9 +224,18 @@ const Page: FC = () => {
           }}
         >
           <p style={{ marginBottom: ".5rem", color: "#807870" }}>参考文献</p>
-          <ul style={{ paddingLeft: "1.25rem", display: "flex", flexDirection: "column", gap: ".25rem" }}>
+          <ul
+            style={{
+              paddingLeft: "1.25rem",
+              display: "flex",
+              flexDirection: "column",
+              gap: ".25rem",
+            }}
+          >
             <li>柳父章『翻訳語成立事情』岩波新書</li>
-            <li>福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）</li>
+            <li>
+              福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）
+            </li>
             <li>吉沢典男・石綿敏雄『外来語の語源』角川書店</li>
           </ul>
         </div>
@@ -204,9 +243,13 @@ const Page: FC = () => {
         <div style={{ paddingTop: ".5rem" }}>
           <a
             href="/articles/"
-            style={{ fontSize: ".875rem", color: "#c8a96e", textDecoration: "none" }}
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+            }}
           >
-            ← 記事一覧へ
+            ← 読み物一覧へ
           </a>
         </div>
       </div>

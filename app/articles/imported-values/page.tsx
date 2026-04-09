@@ -2,11 +2,15 @@ import { FC } from "react"
 
 export const metadata = {
   title: "明治時代に輸入される新しい価値観たち",
-  description: "「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。翻訳語は単なる言葉ではなく、思想の移植だった。",
-  alternates: { canonical: "https://shaqai.reload.co.jp/articles/imported-values/" },
+  description:
+    "「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。翻訳語は単なる言葉ではなく、思想の移植だった。",
+  alternates: {
+    canonical: "https://shaqai.reload.co.jp/articles/imported-values/",
+  },
   openGraph: {
     title: "明治時代に輸入される新しい価値観たち — 翻訳語辞典 Shaqai",
-    description: "「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。翻訳語は単なる言葉ではなく、思想の移植だった。",
+    description:
+      "「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。翻訳語は単なる言葉ではなく、思想の移植だった。",
     url: "https://shaqai.reload.co.jp/articles/imported-values/",
   },
 }
@@ -14,9 +18,22 @@ export const metadata = {
 const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-      <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid #2a2518" }}>
-        <p style={{ fontSize: ".75rem", color: "#5e5848", marginBottom: ".75rem", letterSpacing: ".05em" }}>
-          記事
+      <div
+        style={{
+          marginBottom: "2.5rem",
+          paddingBottom: "2rem",
+          borderBottom: "1px solid #2a2518",
+        }}
+      >
+        <p
+          style={{
+            fontSize: ".75rem",
+            color: "#5e5848",
+            marginBottom: ".75rem",
+            letterSpacing: ".05em",
+          }}
+        >
+          読み物
         </p>
         <h1
           style={{
@@ -97,7 +114,14 @@ const Page: FC = () => {
             padding: "1.25rem 1.5rem",
           }}
         >
-          <p style={{ fontSize: ".875rem", color: "#c8a96e", marginBottom: ".5rem", fontWeight: "bold" }}>
+          <p
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              marginBottom: ".5rem",
+              fontWeight: "bold",
+            }}
+          >
             中江兆民と「自由」
           </p>
           <p style={{ fontSize: ".875rem", color: "#908a7a", lineHeight: 1.8 }}>
@@ -106,7 +130,13 @@ const Page: FC = () => {
             自由民権運動の理論的支柱となり、「自由」という語の近代的意味を
             広く普及させる契機となった。
           </p>
-          <p style={{ fontSize: ".75rem", color: "#5e5848", marginTop: ".75rem" }}>
+          <p
+            style={{
+              fontSize: ".75rem",
+              color: "#5e5848",
+              marginTop: ".75rem",
+            }}
+          >
             参考：丸山真男・加藤周一『翻訳と日本の近代』
           </p>
         </div>
@@ -199,19 +229,32 @@ const Page: FC = () => {
           }}
         >
           <p style={{ marginBottom: ".5rem", color: "#807870" }}>参考文献</p>
-          <ul style={{ paddingLeft: "1.25rem", display: "flex", flexDirection: "column", gap: ".25rem" }}>
+          <ul
+            style={{
+              paddingLeft: "1.25rem",
+              display: "flex",
+              flexDirection: "column",
+              gap: ".25rem",
+            }}
+          >
             <li>丸山真男・加藤周一『翻訳と日本の近代』岩波新書</li>
             <li>柳父章『翻訳語成立事情』岩波新書</li>
-            <li>福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）</li>
+            <li>
+              福田眞人「明治翻訳語のおもしろさ」（名古屋大学言語文化研究会）
+            </li>
           </ul>
         </div>
 
         <div style={{ paddingTop: ".5rem" }}>
           <a
             href="/articles/"
-            style={{ fontSize: ".875rem", color: "#c8a96e", textDecoration: "none" }}
+            style={{
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+            }}
           >
-            ← 記事一覧へ
+            ← 読み物一覧へ
           </a>
         </div>
       </div>
