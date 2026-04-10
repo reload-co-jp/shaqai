@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/sound-vs-meaning/",
   },
   openGraph: {
+    type: "article",
     title: "音としての外来語と意味を含めた訳語 — 翻訳語辞典 Shaqai",
     description:
       "「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。音訳と意訳、その本質的な違いを考える。",
     url: "https://shaqai.reload.co.jp/articles/sound-vs-meaning/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 

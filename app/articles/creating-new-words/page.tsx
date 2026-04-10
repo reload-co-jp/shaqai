@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/creating-new-words/",
   },
   openGraph: {
+    type: "article",
     title: "未知の概念を言葉として創るということ — 翻訳語辞典 Shaqai",
     description:
       "対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。翻訳家たちが直面した、言語創造の根本的な問い。",
     url: "https://shaqai.reload.co.jp/articles/creating-new-words/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 

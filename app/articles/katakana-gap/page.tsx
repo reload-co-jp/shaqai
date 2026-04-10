@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/katakana-gap/",
   },
   openGraph: {
+    type: "article",
     title: "原語と意味がずれるカタカナ語たち — 翻訳語辞典 Shaqai",
     description:
       "「マンション」は豪邸ではなく、「スマート」は賢くない。日本語に定着したカタカナ語が、なぜ原語の意味と乖離していくのか。その仕組みと事例を読み解く。",
     url: "https://shaqai.reload.co.jp/articles/katakana-gap/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 

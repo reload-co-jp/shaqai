@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/dx-translation/",
   },
   openGraph: {
+    type: "article",
     title: "DXを翻訳語にすると何になるか — 翻訳語辞典 Shaqai",
     description:
       "「デジタルトランスフォーメーション」——この言葉を明治の翻訳家が訳したなら、どんな語を生み出しただろうか。翻訳語の視点からDXを解剖する試み。",
     url: "https://shaqai.reload.co.jp/articles/dx-translation/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 

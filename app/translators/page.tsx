@@ -10,6 +10,7 @@ export const metadata = {
     title: "翻訳者一覧 — 翻訳語辞典 Shaqai",
     description: "明治期に訳語を作った人物たちの一覧",
     url: "https://shaqai.reload.co.jp/translators/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 
@@ -17,9 +18,9 @@ const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1.5rem" }}>
-        <h2 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
+        <h1 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
           翻訳者一覧
-        </h2>
+        </h1>
         <p style={{ fontSize: ".875rem", color: "#807870" }}>
           明治期に訳語を作った人物たち
         </p>

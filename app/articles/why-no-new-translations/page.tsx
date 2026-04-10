@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/why-no-new-translations/",
   },
   openGraph: {
+    type: "article",
     title: "なぜ現代には翻訳語が生まれにくいか — 翻訳語辞典 Shaqai",
     description:
       "明治には数千もの翻訳語が生まれたのに、現代にはほとんど生まれない。この違いはどこから来るのか。",
     url: "https://shaqai.reload.co.jp/articles/why-no-new-translations/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 

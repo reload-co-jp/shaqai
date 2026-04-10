@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/how-to-translate/",
   },
   openGraph: {
+    type: "article",
     title: "翻訳語のつくりかた、考え方 — 翻訳語辞典 Shaqai",
     description:
       "翻訳語はどのような原則で作られてきたのか。漢字の組み合わせ方、既存語の転用、造語の工夫——先人たちの知恵を読み解く。",
     url: "https://shaqai.reload.co.jp/articles/how-to-translate/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 

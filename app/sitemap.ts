@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next"
 import { statSync } from "fs"
 import { join } from "path"
 import { words, fields, translators } from "lib/db"
+import { articles } from "lib/articles"
 
 const BASE_URL = "https://shaqai.reload.co.jp"
 
@@ -43,42 +44,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       changeFrequency: "monthly",
     },
-    {
-      url: BASE_URL + "/articles/meiji-translation/",
-      priority: 0.6,
-      changeFrequency: "yearly",
-    },
-    {
-      url: BASE_URL + "/articles/sound-vs-meaning/",
-      priority: 0.6,
-      changeFrequency: "yearly",
-    },
-    {
-      url: BASE_URL + "/articles/imported-values/",
-      priority: 0.6,
-      changeFrequency: "yearly",
-    },
-    {
-      url: BASE_URL + "/articles/creating-new-words/",
-      priority: 0.6,
-      changeFrequency: "yearly",
-    },
-    {
-      url: BASE_URL + "/articles/why-no-new-translations/",
-      priority: 0.6,
-      changeFrequency: "yearly",
-    },
-    {
-      url: BASE_URL + "/articles/how-to-translate/",
-      priority: 0.6,
-      changeFrequency: "yearly",
-    },
-    {
-      url: BASE_URL + "/articles/dx-translation/",
-      priority: 0.6,
-      changeFrequency: "yearly",
-    },
   ]
+
+  const articleRoutes: MetadataRoute.Sitemap = articles.map((a) => ({
+    url: `${BASE_URL}/articles/${a.id}/`,
+    priority: 0.6,
+    changeFrequency: "yearly" as const,
+  }))
 
   const wordRoutes: MetadataRoute.Sitemap = words.map((w) => ({
     url: `${BASE_URL}/words/${w.id}/`,
@@ -101,5 +73,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: translatorsLastModified,
   }))
 
-  return [...staticRoutes, ...wordRoutes, ...fieldRoutes, ...translatorRoutes]
+  return [...staticRoutes, ...articleRoutes, ...wordRoutes, ...fieldRoutes, ...translatorRoutes]
 }

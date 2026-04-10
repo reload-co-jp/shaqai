@@ -37,12 +37,21 @@ export const metadata = {
     title: "翻訳語辞典 Shaqai",
     description:
       "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
+    images: [
+      {
+        url: "https://shaqai.reload.co.jp/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "翻訳語辞典 Shaqai",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "翻訳語辞典 Shaqai",
     description:
       "外国語から翻訳されて作られた日本語（和製漢語・訳語）を収集・検索・閲覧できるWebアプリケーション",
+    images: ["https://shaqai.reload.co.jp/opengraph-image"],
   },
   alternates: {
     canonical: "https://shaqai.reload.co.jp",

@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/imported-values/",
   },
   openGraph: {
+    type: "article",
     title: "明治時代に輸入される新しい価値観たち — 翻訳語辞典 Shaqai",
     description:
       "「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。翻訳語は単なる言葉ではなく、思想の移植だった。",
     url: "https://shaqai.reload.co.jp/articles/imported-values/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 

@@ -24,7 +24,7 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
       url: `https://shaqai.reload.co.jp/words/${id}/`,
       type: "article",
     },
-    twitter: { title, description },
+    twitter: { card: "summary_large_image", title, description },
     alternates: { canonical: `https://shaqai.reload.co.jp/words/${id}/` },
   }
 }
@@ -36,6 +36,19 @@ const Page: FC<Props> = async ({ params }) => {
 
   const field = getField(word.field_id)
   const translator = word.translator_id ? getTranslator(word.translator_id) : null
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    name: word.japanese_word,
+    alternateName: word.original_word,
+    description: word.description,
+    inDefinedTermSet: {
+      "@type": "DefinedTermSet",
+      name: "翻訳語辞典 Shaqai",
+      url: "https://shaqai.reload.co.jp",
+    },
+  }
 
   const rowStyle: React.CSSProperties = {
     display: "flex",
@@ -55,6 +68,11 @@ const Page: FC<Props> = async ({ params }) => {
   }
 
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1.5rem" }}>
         <Link href="/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
@@ -156,6 +174,7 @@ const Page: FC<Props> = async ({ params }) => {
         </p>
       </div>
     </div>
+    </>
   )
 }
 

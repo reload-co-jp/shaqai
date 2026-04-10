@@ -27,9 +27,9 @@ const SearchResults: FC = () => {
   return (
     <div>
       <div style={{ marginBottom: "1.5rem" }}>
-        <h2 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
+        <h1 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
           {q ? `「${q}」の検索結果` : "検索"}
-        </h2>
+        </h1>
         {q && (
           <p style={{ fontSize: ".875rem", color: "#807870" }}>
             {results.length}件

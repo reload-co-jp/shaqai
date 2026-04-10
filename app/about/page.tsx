@@ -8,6 +8,7 @@ export const metadata = {
     title: "このサイトについて — 翻訳語辞典 Shaqai",
     description: "翻訳語辞典 Shaqai の目的と背景について。明治期の訳語の営みに光を当て、現代においても意味の通った翻訳語を生み出すための辞典です。",
     url: "https://shaqai.reload.co.jp/about/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 
@@ -15,9 +16,9 @@ const Page: FC = () => {
   return (
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "2rem" }}>
-        <h2 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
+        <h1 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
           このサイトについて
-        </h2>
+        </h1>
         <p style={{ fontSize: ".875rem", color: "#807870" }}>About</p>
       </div>
 

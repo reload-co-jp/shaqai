@@ -11,6 +11,7 @@ export const metadata = {
     description:
       "翻訳語の歴史や成り立ちについての読み物。明治期の翻訳家たちの挑戦から、現代の翻訳語事情まで。",
     url: "https://shaqai.reload.co.jp/articles/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 
@@ -19,7 +20,7 @@ const Page: FC = () => {
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "2rem" }}>
         <p style={{ fontSize: ".75rem", color: "#c8a96e" }}>読み物</p>
-        <h2
+        <h1
           style={{
             fontSize: "1.25rem",
             color: "#e2dcd0",
@@ -27,7 +28,7 @@ const Page: FC = () => {
           }}
         >
           翻訳語の歴史と成り立ちを読む
-        </h2>
+        </h1>
         <p style={{ fontSize: ".875rem", color: "#807870" }}>
           明治期の翻訳家たちの挑戦から、現代の翻訳語事情まで
         </p>

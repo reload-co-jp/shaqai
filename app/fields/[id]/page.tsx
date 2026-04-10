@@ -19,8 +19,13 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   return {
     title,
     description,
-    openGraph: { title, description, url: `https://shaqai.reload.co.jp/fields/${id}/` },
-    twitter: { title, description },
+    openGraph: {
+      title,
+      description,
+      url: `https://shaqai.reload.co.jp/fields/${id}/`,
+      images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    },
+    twitter: { card: "summary_large_image", title, description },
     alternates: { canonical: `https://shaqai.reload.co.jp/fields/${id}/` },
   }
 }
@@ -41,9 +46,9 @@ const Page: FC<Props> = async ({ params }) => {
       </div>
 
       <div style={{ marginBottom: "1.5rem" }}>
-        <h2 style={{ fontSize: "1.5rem", color: "#c8a96e", marginBottom: ".5rem" }}>
+        <h1 style={{ fontSize: "1.5rem", color: "#c8a96e", marginBottom: ".5rem" }}>
           {field.name}
-        </h2>
+        </h1>
         <p style={{ fontSize: ".875rem", color: "#807870" }}>{fieldWords.length}語</p>
       </div>
 

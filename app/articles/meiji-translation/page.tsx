@@ -8,10 +8,12 @@ export const metadata = {
     canonical: "https://shaqai.reload.co.jp/articles/meiji-translation/",
   },
   openGraph: {
+    type: "article",
     title: "明治期の翻訳方法の模索と挑戦 — 翻訳語辞典 Shaqai",
     description:
       "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
     url: "https://shaqai.reload.co.jp/articles/meiji-translation/",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
 }
 
