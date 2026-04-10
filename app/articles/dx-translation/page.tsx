@@ -474,8 +474,8 @@ const Page: FC = () => {
           >
             <li>柳父章『翻訳語成立事情』岩波新書</li>
             <li>
-              Erik Stolterman & Anna Croon Fors, "Information Technology and the
-              Good Life" (2004)
+              Erik Stolterman & Anna Croon Fors, &quot;Information Technology
+              and the Good Life&quot; (2004)
             </li>
             <li>経済産業省「DX推進ガイドライン」(2018)</li>
             <li>吉沢典男・石綿敏雄『外来語の語源』角川書店</li>
