@@ -25,6 +25,7 @@ export type Word = {
   translator_id: number | null
   era: string
   year: number
+  meaning: string
   description: string
   etymology: string
 }

@@ -151,6 +151,23 @@ const Page: FC<Props> = async ({ params }) => {
         }}
       >
         <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+          意味
+        </h2>
+        <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
+          {word.meaning}
+        </p>
+      </div>
+
+      <div
+        style={{
+          background: "#1e1a12",
+          border: "1px solid #302b1e",
+          borderRadius: "3px",
+          padding: "1rem 1.5rem",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
           由来・語源
         </h2>
         <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
