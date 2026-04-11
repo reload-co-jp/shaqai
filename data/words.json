@@ -1482,5 +1482,17 @@
     "etymology": "「進」（進む・発展する）と「化」（変化する・なる）を組み合わせた和製漢語。英語evolutionはラテン語evolvere（展開する・巻き物を広げる）に由来し、もとは「展開」を意味した。ダーウィンが生物の変化・発展過程を表す語として用い、「進化」はその方向性（進む）を字義に込めた訳語となっている。",
     "meaning_en": "the process by which different kinds of living organisms are thought to have developed and diversified from earlier forms during the history of the Earth.",
     "meaning_ja": "生物が長い時間をかけて遺伝的変化を蓄積し、世代を超えて多様化・変化していく過程。"
+  },
+  {
+    "id": 107,
+    "japanese_word": "存在",
+    "original_word": "being / existence / Sein",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 12,
+    "era": "明治中期",
+    "year": 1881,
+    "description": "「存在」は英語being・existence、ドイツ語Seinに対応する哲学用語として、明治14年（1881年）に井上哲次郎らが編んだ日本初の哲学辞典『哲学字彙』に収録された。「存在」という漢語自体は古典中国語にも散見されるが、当時の江戸・清朝の日常語として定着した語ではなく、西洋哲学の抽象的な存在概念の受け皿として明治期に選ばれた語である。その後、ドイツ観念論哲学の導入とともに「有」「実在」などの競合訳語も試みられたが、最終的に「存在」が定着した。20世紀にハイデガーの『存在と時間』（邦訳1939年）が紹介されると、「存在論」「現存在」などの派生語を伴い、哲学・人文学の中核語彙として広く普及した。",
+    "etymology": "「存」（ながらえる・のこる）と「在」（ある・いる）を組み合わせた漢語系熟語で、「そこにあり続ける」を字義とする。英語existenceはラテン語ex（外へ）＋sistere（立つ）に由来し「立ち現れる・現出する」を意味する。ドイツ語Seinは動詞sein（ある・である）の名詞化で「あること」そのものを指す。"
   }
 ]
