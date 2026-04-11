@@ -153,8 +153,11 @@ const Page: FC<Props> = async ({ params }) => {
         <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
           意味
         </h2>
+        <p style={{ color: "#807870", fontSize: ".9rem", lineHeight: "1.7", marginBottom: ".5rem", fontStyle: "italic" }}>
+          {word.meaning_en}
+        </p>
         <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
-          {word.meaning}
+          {word.meaning_ja}
         </p>
       </div>
 
