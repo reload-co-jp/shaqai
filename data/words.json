@@ -2876,5 +2876,265 @@
         "example_ja": "哲学者たちは古代から存在の本質について議論してきた。"
       }
     ]
+  },
+  {
+    "id": 108,
+    "japanese_word": "暗示",
+    "original_word": "suggestion",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 12,
+    "era": "明治期",
+    "year": 1881,
+    "description": "英語suggestionの訳語として、明治14年（1881年）刊行の井上哲次郎らによる『哲学字彙』で採用され定着した。心理学や催眠の文脈で、相手に直接的な命令や説得を行わず、間接的に観念を植え付け、意図した反応や行動を誘発する働きを指す。それまでの漢語的意味合いを近代心理学の術語として再定義し、戦後の科学技術社会においても重要な用語となった。",
+    "etymology": "「暗」（ほのめかす・隠す）と「示」（しめす）を組み合わせた語。古来、直接言わずそれとなく伝えることを意味する既存の漢語を、心理学的暗示概念の訳語に転用した。",
+    "meanings": [
+      {
+        "en": "The psychological process by which a person is guided to think, feel, or act in a certain way without direct command.",
+        "ja": "直接的な命令なしに、ある考えや行動を相手に起こさせる心理的な誘導プロセス。",
+        "example_en": "Hypnosis works largely through the power of suggestion.",
+        "example_ja": "催眠術は主に暗示の力によって機能する。"
+      },
+      {
+        "en": "An indirect indication or hint about something.",
+        "ja": "それとなく伝えること、ほのめかし。",
+        "example_en": "There was a faint suggestion of a smile on his face.",
+        "example_ja": "彼の顔にはわずかに微笑の暗示が浮かんでいた。"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "japanese_word": "意志",
+    "original_word": "will",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 12,
+    "era": "明治期",
+    "year": 1881,
+    "description": "英語will（ドイツ語Wille）の訳語として、明治14年（1881年）刊行の井上哲次郎らによる『哲学字彙』で採用され定着した。個人の自発的な決定力や行動の源泉としての概念を指す。古来の「意向」や「志」といった語彙の枠組みを超え、近代哲学の自律的・能動的な主体の核心概念として確立された。",
+    "etymology": "「意」（こころ・おもい）と「志」（こころざし・向かう先）を組み合わせた古典漢語。「心がある方向に向かうこと」を字義とする。",
+    "meanings": [
+      {
+        "en": "The faculty or power of the mind by which one decides upon and initiates action.",
+        "ja": "行動を決定し、実行に移すための心の能力・意志力。",
+        "example_en": "He had the will to succeed despite all obstacles.",
+        "example_ja": "彼はどんな障害にもかかわらず成功する意志を持っていた。"
+      },
+      {
+        "en": "Determination or resolve to do something.",
+        "ja": "何かをしようとする決意・志。強い意欲。",
+        "example_en": "They showed great will in the face of adversity.",
+        "example_ja": "彼らは逆境において強い意志を示した。"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "japanese_word": "印象",
+    "original_word": "impression",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 12,
+    "era": "明治期",
+    "year": 1881,
+    "description": "英語impressionの訳語として、明治14年（1881年）刊行の井上哲次郎らによる『哲学字彙』で採用され定着した。近代哲学・心理学において、感覚器官を通して外部から心に刻まれる鮮明な知覚や観念の源泉を指す。仏教語の「印」（いんぞう）の訳語を、西洋の感覚論的な意味へと転用した。",
+    "etymology": "「印」（型・形跡）と「象」（かたち・イメージ）を組み合わせた古典漢語。「心に印のように刻まれた形」を字義とし、感覚的な知覚・影響を表す。",
+    "meanings": [
+      {
+        "en": "A feeling or belief formed about something or someone without full evidence.",
+        "ja": "人や物事から受ける感覚的・心理的な感じ。直感的な捉え方。",
+        "example_en": "My first impression of the city was very positive.",
+        "example_ja": "その都市に対する私の第一印象はとても良かった。"
+      },
+      {
+        "en": "In philosophy and psychology, a vivid sensation or perception formed by the senses.",
+        "ja": "哲学・心理学において、感覚を通して心に刻まれる鮮明な知覚。",
+        "example_en": "Hume distinguished between impressions and ideas.",
+        "example_ja": "ヒュームは印象と観念を区別した。"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "japanese_word": "環境",
+    "original_word": "environment",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治後期",
+    "year": null,
+    "description": "古来の漢語「環境（周囲の境界）」を、西洋の「environment」の訳語として再定義したもの。明治期に進化論や社会学の導入とともに「生物や人間に影響を及ぼす外部条件の総称」という近代概念として定着した。",
+    "etymology": "環（ぐるりと囲む）と境（境界・領域）を組み合わせた漢語。元来は物理的な周囲の範囲を指したが、近代以降は生物・人間を取り巻く外部環境を指す。",
+    "meanings": [
+      {
+        "en": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
+        "ja": "人間や動植物を取り巻く外部の自然・社会的な条件・環境。",
+        "example_en": "A clean environment is essential for human health.",
+        "example_ja": "清潔な環境は人間の健康に不可欠である。"
+      },
+      {
+        "en": "The natural world as a whole, especially as affected by human activity.",
+        "ja": "人間活動の影響を受ける自然界全体。自然環境。",
+        "example_en": "We must protect the environment from pollution.",
+        "example_ja": "私たちは汚染から環境を守らなければならない。"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "japanese_word": "恐慌",
+    "original_word": "panic / crisis",
+    "language": "英語・ドイツ語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1890,
+    "description": "1881年の『哲学字彙』では「驚慌」とされたが、1890年の明治23年恐慌を経て経済用語として「恐慌」の表記が定着。1904年の『共産党宣言』翻訳によりマルクス経済学の術語として確定した。",
+    "etymology": "恐（おそれる）と慌（あわてる）の合成語。社会や経済がパニック状態に陥ることを指す。",
+    "meanings": [
+      {
+        "en": "A sudden widespread financial or economic collapse characterized by panic.",
+        "ja": "経済活動の急激な収縮。市場のパニックによる崩壊。",
+        "example_en": "The panic of 1890 was the first modern economic crisis in Japan.",
+        "example_ja": "明治23年恐慌は日本における最初の近代的な経済恐慌であった。"
+      },
+      {
+        "en": "A sudden uncontrollable fear or anxiety, often causing irrational behavior.",
+        "ja": "突然の制御不能な恐怖や不安。パニック。",
+        "example_en": "Financial panic spread rapidly through the markets.",
+        "example_ja": "金融パニックが市場全体に急速に広がった。"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "japanese_word": "常識",
+    "original_word": "common sense",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1881,
+    "description": "1881年の『哲学字彙』に訳語として掲載。当初は「常見」「通感」などと競合したが、明治20年代に「常識」の語が一般化した。西洋の直覚的な判断能力という概念から、近代的な良識・知識という意味へと変化した。",
+    "etymology": "常（常に存在する・あたりまえの）と識（知識・判断力）を組み合わせた漢語。本来は「誰もが持つ知性」を意味する。",
+    "meanings": [
+      {
+        "en": "Sound and prudent judgment based on a simple perception of the situation or facts.",
+        "ja": "社会人として当然持っているべき基本的な知識や健全な判断力。",
+        "example_en": "It is common sense to lock your doors at night.",
+        "example_ja": "夜にドアを施錠するのは常識である。"
+      },
+      {
+        "en": "In philosophy, a fundamental sense or ability to perceive truth shared by all humans.",
+        "ja": "哲学において、人類共通に備わっている真理を捉える直覚的な能力。",
+        "example_en": "The Scottish School of Common Sense emphasized innate human knowledge.",
+        "example_ja": "スコットランド常識学派は人間に生来備わった知識を強調した。"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "japanese_word": "理想",
+    "original_word": "ideal",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1877,
+    "description": "西周が考案した翻訳語。1877年の『利学』に初出し、のちに哲学用語として広く用いられた。明治20年代の「没理想論争」を経て、文学・芸術から一般社会に至るまで、現実に対して目指すべき最高の状態やあり方を指す言葉として浸透した。",
+    "etymology": "理（理性・ことわり）と想（おもい・観念）を組み合わせた造語。単なる空想ではなく、理性に裏打ちされた究極の形態を指す。",
+    "meanings": [
+      {
+        "en": "A standard of perfection or excellence to be aimed at.",
+        "ja": "目指すべき最高の状態・あり方。理想的で完全なもの。",
+        "example_en": "They strive to live up to their ideals of equality and justice.",
+        "example_ja": "彼らは平等と正義という理想を体現するために努めている。"
+      },
+      {
+        "en": "Existing only in the imagination; not real.",
+        "ja": "想像の中にのみ存在する状態。現実にはまだ達成されていないが目指すもの。",
+        "example_en": "The ideal conditions for the experiment were never met.",
+        "example_ja": "実験のための理想的な条件は決して満たされなかった。"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "japanese_word": "象徴",
+    "original_word": "symbol",
+    "language": "フランス語",
+    "field_id": 8,
+    "translator_id": 3,
+    "era": "明治期",
+    "year": 1883,
+    "description": "中江兆民が『維氏美学』（1883〜84年）で案出した翻訳語。「抽象的な概念を具体的な形あるもので表すしるし」という意味を持たせた。後に憲法用語としても採用された。",
+    "etymology": "象（かたち・姿）と徴（しるし・あらわれ）の合成語。抽象概念を具体的な形象で表すという字義。",
+    "meanings": [
+      {
+        "en": "A thing that represents or stands for something else, especially a material object representing something abstract.",
+        "ja": "抽象的な概念や意味を具体的な物や形で表したもの。",
+        "example_en": "The dove is a symbol of peace.",
+        "example_ja": "鳩は平和の象徴である。"
+      },
+      {
+        "en": "A character or glyph representing a quantity, operation, or concept.",
+        "ja": "数学や記号論における記号・符丁。",
+        "example_en": "Symbols are used in mathematics to represent numbers and operations.",
+        "example_ja": "数学では数値や演算を表すために象徴（記号）が使われる。"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "japanese_word": "絶対",
+    "original_word": "absolute",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 12,
+    "era": "明治期",
+    "year": null,
+    "description": "明治期に哲学術語として移入された。井上哲次郎の『哲学字彙』等で体系化され、他のものに依存せず、それだけで存在する究極的・無条件なものを指す。",
+    "etymology": "絶（とだえる・ひき離す）と対（むかう・相対する）を組み合わせた漢語。「他との対立関係が絶たれている」という意味。",
+    "meanings": [
+      {
+        "en": "Not qualified or diminished in any way; total.",
+        "ja": "他に依存せず、無条件で、それ自体として存在するもの。",
+        "example_en": "There is no absolute truth in this matter.",
+        "example_ja": "この件に関して絶対的な真理は存在しない。"
+      },
+      {
+        "en": "In philosophy, the supreme or ultimate reality.",
+        "ja": "哲学における究極の実在。絶対的なもの。",
+        "example_en": "Hegel's philosophy explores the nature of the Absolute.",
+        "example_ja": "ヘーゲルの哲学は絶対者の本質を探求する。"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "japanese_word": "現象",
+    "original_word": "phenomenon",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1877,
+    "description": "西周が『利学』（1877年）で西洋哲学用語phenomenonの訳語として用いた。のちに『哲学字彙』に収録され学術用語として定着した。本体（本質）に対する外的な現れを指す。",
+    "etymology": "現（あらわれる）と象（かたち・すがた）の組み合わせ。本体が外側に形をとって現れたものという意味。",
+    "meanings": [
+      {
+        "en": "A fact or situation that is observed to exist or happen, especially one whose cause is in question.",
+        "ja": "五感で捉えられる事実。客観的に観察可能な出来事。",
+        "example_en": "Gravity is a natural phenomenon.",
+        "example_ja": "重力は自然現象である。"
+      },
+      {
+        "en": "In philosophy, things as they appear to the senses, as distinguished from the thing-in-itself.",
+        "ja": "哲学において、感覚によって捉えられる事象。本体（物自体）に対する現れ。",
+        "example_en": "Kant distinguished between phenomena and noumena.",
+        "example_ja": "カントは現象と物自体を区別した。"
+      }
+    ]
   }
 ]
