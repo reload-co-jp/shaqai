@@ -29,8 +29,11 @@
 - `translator_id`: number | null (翻訳者ID)
 - `era`: string (時代、例: "明治初期")
 - `year`: number (年)
-- `meaning_en`: string (英訳の意味)
-- `meaning_ja`: string (日本語の意味)
+- `meanings`: array (意味の一覧)
+  - `en`: string (英語での意味)
+  - `ja`: string (日本語での意味)
+  - `example_en`: string (英語用例、任意)
+  - `example_ja`: string (日本語用例、任意)
 - `description`: string (解説)
 - `etymology`: string (語源)
 
