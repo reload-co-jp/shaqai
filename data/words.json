@@ -10,8 +10,20 @@
     "year": 1872,
     "description": "educationの訳語として福沢諭吉系の翻訳者が定着させた。西洋の近代的な学校教育の概念を日本に導入するにあたって用いられた。",
     "etymology": "教え育てる、という既存の漢語を再定義して訳語として採用した。",
-    "meaning_en": "knowledge, skill, and values that are cultivated through systematic instruction and learning.",
-    "meaning_ja": "知識・技能・価値観を組織的・意図的に習得させること。"
+    "meanings": [
+      {
+        "en": "The process of imparting knowledge, skills, and values through systematic instruction.",
+        "ja": "知識・技能・価値観を組織的・意図的に習得させること。",
+        "example_en": "Education is the most powerful weapon which you can use to change the world.",
+        "example_ja": "教育は世界を変えるために使える最も強力な武器である。"
+      },
+      {
+        "en": "A formal system of schooling or academic study.",
+        "ja": "学校制度における正規の学習・授業のしくみ。",
+        "example_en": "She received her education at a public school.",
+        "example_ja": "彼女は公立学校で教育を受けた。"
+      }
+    ]
   },
   {
     "id": 2,
@@ -24,8 +36,20 @@
     "year": 1862,
     "description": "economyの訳語。1862年の『英和対訳袖珍辞典』に既に記載されており、明治期に近代的な市場経済・財政の概念を表す語として定着した。なお福沢諭吉は「経済」ではなく「理財学」を好んで使用していた。",
     "etymology": "古典語「経世済民」（世を治め民を救う）から意味を拡張・縮小して転用した。",
-    "meaning_en": "the system of production, distribution, and consumption of goods and services.",
-    "meaning_ja": "財・サービスの生産・分配・消費に関わる社会的な仕組みや活動。"
+    "meanings": [
+      {
+        "en": "The system of production, distribution, and consumption of goods and services in a country or region.",
+        "ja": "財・サービスの生産・分配・消費に関わる社会的な仕組みや活動。",
+        "example_en": "The economy grew by 3% last year.",
+        "example_ja": "昨年の経済成長率は3%だった。"
+      },
+      {
+        "en": "Careful management of resources to avoid waste; frugality.",
+        "ja": "資源を無駄なく管理すること。節約・倹約。",
+        "example_en": "She ran the household with great economy.",
+        "example_ja": "彼女は家計を大変倹約して切り盛りした。"
+      }
+    ]
   },
   {
     "id": 3,
@@ -38,8 +62,20 @@
     "year": 1874,
     "description": "societyの訳語として西周ら『明六雑誌』の知識人たちが定着させた。なお福沢諭吉は1875年の『文明論之概略』で「人間交際」と訳しており、「社会」という訳語の主要な功績者ではない。",
     "etymology": "仏教語・漢語の「社会」（神社の集まり）を転用し、西洋的な社会概念の訳語とした。",
-    "meaning_en": "a group of people living together in an organized community.",
-    "meaning_ja": "人々が共同生活を営む組織的な集団や共同体。"
+    "meanings": [
+      {
+        "en": "A group of people living together in an organized community, sharing laws and customs.",
+        "ja": "人々が共同生活を営む組織的な集団や共同体。",
+        "example_en": "Modern society faces many complex challenges.",
+        "example_ja": "現代社会は多くの複雑な問題に直面している。"
+      },
+      {
+        "en": "The upper class or fashionable world; high society.",
+        "ja": "上流階級・社交界。",
+        "example_en": "She was introduced into society at her debut.",
+        "example_ja": "彼女はデビュー式で社交界にお披露目された。"
+      }
+    ]
   },
   {
     "id": 4,
@@ -52,8 +88,20 @@
     "year": 1874,
     "description": "philosophyの訳語として西周が創出した。「知を愛する」というギリシャ語の語源に対応する訳語として考案された。",
     "etymology": "哲（さとい、明智な）と学（学問）を組み合わせた造語。西周の著作『百一新論』で初めて使用。",
-    "meaning_en": "the rational investigation of questions about existence, knowledge, values, reason, and mind.",
-    "meaning_ja": "存在・知識・価値・理性・心などについて理性的に問い究める学問。"
+    "meanings": [
+      {
+        "en": "The rational investigation of questions about existence, knowledge, ethics, and reason.",
+        "ja": "存在・知識・価値・理性・心などについて理性的に問い究める学問。",
+        "example_en": "Philosophy asks the most fundamental questions about reality.",
+        "example_ja": "哲学は現実についての最も根本的な問いを追求する。"
+      },
+      {
+        "en": "A set of fundamental beliefs or personal values guiding one's actions.",
+        "ja": "個人の行動を導く根本的な信念や人生観。",
+        "example_en": "His philosophy was to work hard and never give up.",
+        "example_ja": "彼の哲学は勤勉に努力し決して諦めないことだった。"
+      }
+    ]
   },
   {
     "id": 5,
@@ -66,8 +114,20 @@
     "year": 1869,
     "description": "scienceの訳語として明治期の翻訳者たちが定着させた。1869年の「公議所日誌」に使用例があり、1875年の『文部省雑誌』などでも確認される。自然現象を体系的に探求する学問分野を指す。",
     "etymology": "科（分類・種別）と学（学問）を組み合わせた造語。学問を分科して体系化するという意味を込めた。",
-    "meaning_en": "systematic knowledge of the physical or material world gained through observation and experimentation.",
-    "meaning_ja": "観察や実験を通じて自然界の法則を探究する体系的な学問。"
+    "meanings": [
+      {
+        "en": "Systematic knowledge of the physical world gained through observation and experimentation.",
+        "ja": "観察や実験を通じて自然界の法則を探究する体系的な学問。",
+        "example_en": "Science has transformed our understanding of the universe.",
+        "example_ja": "科学は宇宙に対する私たちの理解を変えてきた。"
+      },
+      {
+        "en": "A particular branch of scientific knowledge (e.g. biology, chemistry).",
+        "ja": "生物学・化学など、科学の特定の分野。",
+        "example_en": "She studies computer science at university.",
+        "example_ja": "彼女は大学でコンピュータ科学を学んでいる。"
+      }
+    ]
   },
   {
     "id": 6,
@@ -80,8 +140,26 @@
     "year": 1871,
     "description": "libertyおよびfreedomの訳語。個人が外部の強制なく行動できる権利・状態を表す。福沢諭吉らが明治初期に用い、中江兆民が1882年の『民約訳解』（ルソー翻訳）によってさらに普及させた。",
     "etymology": "仏教語の「自由」（自らの思いのままに）を再定義。「自らに由る」という意味に基づく。",
-    "meaning_en": "the power to act, speak, or think without external constraint or coercion.",
-    "meaning_ja": "外部の強制や制約なく行動・発言・思考できる状態。"
+    "meanings": [
+      {
+        "en": "The power to act, speak, or think without external constraint or coercion.",
+        "ja": "外部の強制や制約なく行動・発言・思考できる状態。",
+        "example_en": "Freedom of speech is a fundamental right.",
+        "example_ja": "言論の自由は基本的な権利である。"
+      },
+      {
+        "en": "The absence of subjection to foreign domination or despotic government.",
+        "ja": "外国の支配や専制政治から解放されている状態。",
+        "example_en": "They fought for the liberty of their country.",
+        "example_ja": "彼らは国の自由のために戦った。"
+      },
+      {
+        "en": "The power of self-determination; autonomy.",
+        "ja": "自己決定の力。自律・自主。",
+        "example_en": "She valued her freedom to make her own choices.",
+        "example_ja": "彼女は自分で選択できる自由を大切にしていた。"
+      }
+    ]
   },
   {
     "id": 7,
@@ -94,8 +172,20 @@
     "year": 1868,
     "description": "rightの訳語として法律翻訳者が定着させた。個人や団体が正当に主張・行使できる資格や力を意味する。",
     "etymology": "権（力・権力）と利（利益・利得）を組み合わせた造語。法的に保障された利益という意味を持つ。",
-    "meaning_en": "a legal entitlement or moral claim to have or do something.",
-    "meaning_ja": "法的・道徳的に何かを要求・行使できる正当な資格や権限。"
+    "meanings": [
+      {
+        "en": "A legal or moral entitlement to have or do something.",
+        "ja": "法的・道徳的に何かを要求・行使できる正当な資格や権限。",
+        "example_en": "Every citizen has the right to vote.",
+        "example_ja": "すべての市民には投票する権利がある。"
+      },
+      {
+        "en": "A claim to something, recognized and protected by law.",
+        "ja": "法によって認められ保護された主張・請求。",
+        "example_en": "Property rights are protected by the constitution.",
+        "example_ja": "財産権は憲法によって保護されている。"
+      }
+    ]
   },
   {
     "id": 8,
@@ -108,8 +198,20 @@
     "year": 1880,
     "description": "democracyの訳語として政治翻訳者が定着させた。人民が主権を持ち、政治に参加する制度・思想を指す。",
     "etymology": "民（人民）と主（主体・主権）を組み合わせた造語。「人民が主」という民主主義の本質を端的に表す。",
-    "meaning_en": "a system of government in which power is vested in the people and exercised through elected representatives.",
-    "meaning_ja": "国民が主権を持ち、選出された代表者を通じて統治する政治体制。"
+    "meanings": [
+      {
+        "en": "A system of government in which power is vested in the people and exercised through elected representatives.",
+        "ja": "国民が主権を持ち、選出された代表者を通じて統治する政治体制。",
+        "example_en": "Democracy requires active participation by citizens.",
+        "example_ja": "民主主義は市民の積極的な参加を必要とする。"
+      },
+      {
+        "en": "The principle of social equality; a system valuing equal rights for all.",
+        "ja": "社会的平等の原則。すべての人に平等な権利を重んじる考え方。",
+        "example_en": "Democratic values include respect for human dignity.",
+        "example_ja": "民主的な価値観には人間の尊厳への尊重が含まれる。"
+      }
+    ]
   },
   {
     "id": 9,
@@ -122,8 +224,26 @@
     "year": 1868,
     "description": "revolutionの訳語として政治翻訳者が定着させた。既存の体制・秩序を根本から変える大きな変動を指す。",
     "etymology": "古典漢語の「革命」（天命が革まる、王朝交代）から意味を拡張し、社会・政治的変革全般を表すようになった。",
-    "meaning_en": "a fundamental and radical change in society, government, or a field of thought.",
-    "meaning_ja": "社会・政治・思想などの根本的・急激な変革。"
+    "meanings": [
+      {
+        "en": "A forcible overthrow of a government or social order in favor of a new system.",
+        "ja": "武力による政府・社会秩序の打倒とそれに伴う新体制の樹立。",
+        "example_en": "The French Revolution transformed European politics.",
+        "example_ja": "フランス革命はヨーロッパの政治を変革した。"
+      },
+      {
+        "en": "A dramatic and wide-reaching change in the way something works or is organized.",
+        "ja": "特定の分野における根本的・劇的な変革。",
+        "example_en": "The Industrial Revolution changed the nature of work.",
+        "example_ja": "産業革命は労働のあり方を変えた。"
+      },
+      {
+        "en": "A fundamental change in ideas, beliefs, or social institutions.",
+        "ja": "思想・信念・社会制度における根本的な変化。",
+        "example_en": "The scientific revolution overturned ancient knowledge.",
+        "example_ja": "科学革命は古代からの知識を覆した。"
+      }
+    ]
   },
   {
     "id": 10,
@@ -136,8 +256,26 @@
     "year": 1875,
     "description": "cultureの訳語として森有礼・西周系の翻訳者が定着させた。人間の知的・芸術的・社会的営みの総体を指す。",
     "etymology": "文（人の営み・文字・芸術）と化（変化・教化・感化）を組み合わせた造語。",
-    "meaning_en": "the ideas, customs, beliefs, and social behavior of a particular people or society.",
-    "meaning_ja": "ある社会集団に共有された思想・習慣・信念・芸術・行動様式の総体。"
+    "meanings": [
+      {
+        "en": "The ideas, customs, and social behaviour of a particular people or society.",
+        "ja": "ある社会集団に共有された思想・習慣・信念・芸術・行動様式の総体。",
+        "example_en": "Japanese culture has influenced art and cuisine worldwide.",
+        "example_ja": "日本文化は世界中の芸術や料理に影響を与えてきた。"
+      },
+      {
+        "en": "The arts and other manifestations of human intellectual achievement.",
+        "ja": "人間の知的・芸術的活動の成果・所産。",
+        "example_en": "He was a great patron of culture and the arts.",
+        "example_ja": "彼は文化と芸術の偉大な庇護者だった。"
+      },
+      {
+        "en": "The cultivation of bacteria, plants, or animals in controlled conditions.",
+        "ja": "細菌・植物・動物を人工的な環境で培養・栽培すること。（生物学的用法）",
+        "example_en": "The bacteria were grown in culture for the experiment.",
+        "example_ja": "実験のために細菌が培地で培養された。"
+      }
+    ]
   },
   {
     "id": 11,
@@ -150,8 +288,20 @@
     "year": 1875,
     "description": "civilizationの訳語として福沢諭吉が定着させた。『文明論之概略』において中心概念として用い広く普及した。",
     "etymology": "文（文字・知識・制度）と明（明らかにする・啓発）を組み合わせた語。文明開化の文脈で急速に普及。",
-    "meaning_en": "an advanced stage of human social development and organization.",
-    "meaning_ja": "人類の社会的・文化的・道徳的発展の高い段階。"
+    "meanings": [
+      {
+        "en": "An advanced stage of human social development, organization, and culture.",
+        "ja": "人類の社会的・文化的・道徳的発展の高い段階。",
+        "example_en": "Ancient Egyptian civilization was remarkable for its achievements.",
+        "example_ja": "古代エジプト文明はその業績において際立っていた。"
+      },
+      {
+        "en": "The process of developing into a more complex society.",
+        "ja": "より複雑な社会へと発展していく過程。文明化。",
+        "example_en": "The spread of writing was central to the advance of civilization.",
+        "example_ja": "文字の普及は文明の発展の核心だった。"
+      }
+    ]
   },
   {
     "id": 12,
@@ -164,8 +314,20 @@
     "year": 1868,
     "description": "lawの訳語として法律翻訳者が定着させた。国家が制定し強制力を持つルール・規範の体系を指す。",
     "etymology": "法（規範・方法）と律（ルール・規則）を組み合わせた造語。いずれも規範を意味する漢字を重ねた。",
-    "meaning_en": "a system of rules created and enforced by a governing authority.",
-    "meaning_ja": "国家が制定・執行する規則の体系。"
+    "meanings": [
+      {
+        "en": "A system of rules created and enforced by a governing authority to regulate society.",
+        "ja": "国家が制定・執行する規則の体系。",
+        "example_en": "Breaking the law can result in fines or imprisonment.",
+        "example_ja": "法律を破ると罰金や禁固刑につながることがある。"
+      },
+      {
+        "en": "A particular piece of legislation enacted by a parliament or legislature.",
+        "ja": "議会によって制定された個別の法規。",
+        "example_en": "A new law was passed to protect consumer rights.",
+        "example_ja": "消費者の権利を守るための新しい法律が制定された。"
+      }
+    ]
   },
   {
     "id": 13,
@@ -178,8 +340,20 @@
     "year": 1889,
     "description": "constitutionの訳語として井上毅らが定着させた。国家の基本原則を定めた最高法規を指す。大日本帝国憲法制定に際して用語が確立した。",
     "etymology": "憲（おきて・根本の規範）と法（規範・ルール）を組み合わせた造語。ドイツ法学の影響を強く受けた。",
-    "meaning_en": "a fundamental document that establishes the principles, functions, and limits of a government.",
-    "meaning_ja": "国家の根本的な原則・統治機構・国民の権利を定めた基本法。"
+    "meanings": [
+      {
+        "en": "A fundamental document establishing the principles and structure of a government.",
+        "ja": "国家の根本的な原則・統治機構・国民の権利を定めた基本法。",
+        "example_en": "The constitution guarantees freedom of religion.",
+        "example_ja": "憲法は宗教の自由を保障している。"
+      },
+      {
+        "en": "The fundamental principles or established precedents by which a state is governed.",
+        "ja": "国家の統治を規定する根本原則・先例の体系。",
+        "example_en": "The constitution was amended to include new rights.",
+        "example_ja": "新しい権利を盛り込むために憲法が改正された。"
+      }
+    ]
   },
   {
     "id": 14,
@@ -192,8 +366,20 @@
     "year": 1868,
     "description": "governmentの訳語として政治翻訳者が定着させた。国家の統治機構・行政機関を指す。",
     "etymology": "政（まつりごと・政治）と府（役所・蔵）を組み合わせた造語。統治を行う機関という意味を持つ。",
-    "meaning_en": "the group of people who collectively administer and manage public policy of a state.",
-    "meaning_ja": "国家の政策を立案・執行する統治機関の総体。"
+    "meanings": [
+      {
+        "en": "The group of people governing a country, exercising executive, legislative, or judicial authority.",
+        "ja": "国家の政策を立案・執行する統治機関の総体。",
+        "example_en": "The government announced a new economic policy.",
+        "example_ja": "政府は新しい経済政策を発表した。"
+      },
+      {
+        "en": "The system or form by which a country or community is governed.",
+        "ja": "国家や共同体を統治するための制度・体制。",
+        "example_en": "Democratic government is based on the will of the people.",
+        "example_ja": "民主的な政府は国民の意思に基づく。"
+      }
+    ]
   },
   {
     "id": 15,
@@ -206,8 +392,20 @@
     "year": 1868,
     "description": "stateおよびnationの訳語として政治翻訳者が定着させた。一定の領土・国民・主権を持つ政治的共同体を指す。",
     "etymology": "国（くに・領域）と家（いえ・家族的共同体）を組み合わせた造語。統治単位としての政治的まとまりを表す。",
-    "meaning_en": "a politically organized community living under a single system of government.",
-    "meaning_ja": "単一の統治機構のもとに政治的に組織された共同体・社会。"
+    "meanings": [
+      {
+        "en": "A politically organized community living under a single system of government.",
+        "ja": "単一の統治機構のもとに政治的に組織された共同体・社会。",
+        "example_en": "The state has a monopoly on the use of force.",
+        "example_ja": "国家は武力行使の独占権を持つ。"
+      },
+      {
+        "en": "A nation together with its government and institutions.",
+        "ja": "政府と制度を持つ国民と領土の統一体。",
+        "example_en": "The welfare state provides social security for its citizens.",
+        "example_ja": "福祉国家は国民に社会保障を提供する。"
+      }
+    ]
   },
   {
     "id": 16,
@@ -220,8 +418,20 @@
     "year": 1874,
     "description": "individualの訳語として西周系の翻訳者が定着させた。社会・集団から独立した単一の人間存在を指す。",
     "etymology": "個（単一の・個別の）と人（人間）を組み合わせた造語。分割できない（individual）単体の人という意味。",
-    "meaning_en": "a single human being as distinct from a group or community.",
-    "meaning_ja": "集団や社会から区別される、それ自体として独立した一人の人間。"
+    "meanings": [
+      {
+        "en": "A single human being as distinct from a group or society.",
+        "ja": "集団や社会から区別される、それ自体として独立した一人の人間。",
+        "example_en": "Individual rights must be balanced with collective responsibility.",
+        "example_ja": "個人の権利は集団的責任とのバランスが必要だ。"
+      },
+      {
+        "en": "A person viewed as a unique entity with their own qualities and traits.",
+        "ja": "独自の個性・特質を持つ存在として捉えられた人間。",
+        "example_en": "Each individual brings different skills to the team.",
+        "example_ja": "個人はそれぞれ異なるスキルをチームにもたらす。"
+      }
+    ]
   },
   {
     "id": 17,
@@ -234,8 +444,20 @@
     "year": 1874,
     "description": "英語の接尾辞-ismの訳語として西周・中江兆民らが定着させた。特定の思想・信条・行動原理を体系化した概念を表す接尾語。",
     "etymology": "主（主体・中心）と義（正しい道・根本原則）を組み合わせた造語。思想体系の接尾語として創出された。",
-    "meaning_en": "a distinctive doctrine or belief that forms the basis of an economic or political theory.",
-    "meaning_ja": "ある主張・思想・運動の基礎となる独自の信条や体系的な考え方。"
+    "meanings": [
+      {
+        "en": "A distinctive doctrine or belief forming the basis of an ideology or movement.",
+        "ja": "ある主張・思想・運動の基礎となる独自の信条や体系的な考え方。",
+        "example_en": "Capitalism is an economic system based on private ownership.",
+        "example_ja": "資本主義は私有財産に基づく経済体制である。"
+      },
+      {
+        "en": "A suffix forming nouns denoting a system of beliefs or ideology (-ism).",
+        "ja": "信条・イデオロギーの体系を表す接尾語（〜主義）。",
+        "example_en": "Nationalism and socialism are competing ideologies.",
+        "example_ja": "ナショナリズムと社会主義は競合するイデオロギーである。"
+      }
+    ]
   },
   {
     "id": 18,
@@ -248,8 +470,20 @@
     "year": 1874,
     "description": "subjectivityの訳語として哲学翻訳者が定着させた。認識する側の意識・視点からの見方を指す哲学用語。",
     "etymology": "主（主体・自己）と観（見方・観点）を組み合わせた造語。認識主体の側からの見方という意味。",
-    "meaning_en": "the quality of being based on personal feelings, tastes, or opinions rather than external facts.",
-    "meaning_ja": "外的事実ではなく個人の感覚・感情・判断によって規定される性質。"
+    "meanings": [
+      {
+        "en": "The quality of being based on personal feelings, tastes, or opinions rather than external facts.",
+        "ja": "外的事実ではなく個人の感覚・感情・判断によって規定される性質。",
+        "example_en": "Beauty is often a matter of subjectivity.",
+        "example_ja": "美しさはしばしば主観の問題である。"
+      },
+      {
+        "en": "In philosophy, the conscious self as the subject of experience.",
+        "ja": "哲学において、経験の主体としての自己意識。認識主観。",
+        "example_en": "Kant distinguished between the subject and the object of knowledge.",
+        "example_ja": "カントは認識の主観と客観を区別した。"
+      }
+    ]
   },
   {
     "id": 19,
@@ -262,8 +496,20 @@
     "year": 1874,
     "description": "objectivityの訳語として哲学翻訳者が定着させた。認識される側の対象・外部世界からの見方を指す哲学用語。「主観」と対をなす。",
     "etymology": "客（外部・他者・客体）と観（見方・観点）を組み合わせた造語。主観の対義語として創出。",
-    "meaning_en": "the quality of being based on facts rather than feelings or opinions, unaffected by personal bias.",
-    "meaning_ja": "個人の感情や偏見に左右されず、外的事実に基づく認識の性質。"
+    "meanings": [
+      {
+        "en": "The quality of being based on facts rather than feelings, unaffected by personal bias.",
+        "ja": "個人の感情や偏見に左右されず、外的事実に基づく認識の性質。",
+        "example_en": "Scientific research requires objective observation.",
+        "example_ja": "科学的研究は客観的な観察を必要とする。"
+      },
+      {
+        "en": "In philosophy, an object of experience as opposed to the knowing subject.",
+        "ja": "哲学において、認識する主観に対する認識の対象・外部世界。",
+        "example_en": "Objectivity is the goal of empirical inquiry.",
+        "example_ja": "客観性は経験的探究の目標である。"
+      }
+    ]
   },
   {
     "id": 20,
@@ -276,8 +522,26 @@
     "year": 1880,
     "description": "abstractの訳語として哲学翻訳者が定着させた。具体的な事物から共通の性質や要素を取り出す思考操作を指す。",
     "etymology": "抽（抜き出す）と象（形・具体的な形象）を組み合わせた造語。形象を抜き出すという操作を表す。",
-    "meaning_en": "the process of considering something independently of its associations or attributes; a concept removed from concrete instances.",
-    "meaning_ja": "具体的な事物から特定の性質を取り出し、それ自体として考える思考の働き。"
+    "meanings": [
+      {
+        "en": "Existing in thought or as an idea but not having a physical or concrete existence.",
+        "ja": "具体的な形をもたず、思考や概念としてのみ存在する性質。",
+        "example_en": "Justice is an abstract concept.",
+        "example_ja": "正義は抽象的な概念である。"
+      },
+      {
+        "en": "The process of considering something independently of its concrete properties.",
+        "ja": "具体的な事物から共通の性質を抜き出す思考操作。",
+        "example_en": "Abstract thinking allows us to reason about general principles.",
+        "example_ja": "抽象的思考によって一般原則について推論できる。"
+      },
+      {
+        "en": "Relating to art that does not attempt to represent external reality.",
+        "ja": "外的現実を直接表現しない芸術のスタイル（抽象芸術）。",
+        "example_en": "Abstract art emerged in the early 20th century.",
+        "example_ja": "抽象芸術は20世紀初頭に登場した。"
+      }
+    ]
   },
   {
     "id": 21,
@@ -290,8 +554,20 @@
     "year": 1880,
     "description": "concreteの訳語として哲学翻訳者が定着させた。感覚で直接知覚できる個別の実在・事物を指す。「抽象」の対義語。",
     "etymology": "具（備わっている・完備した）と体（形体・実体）を組み合わせた造語。実体が備わっているという意味。",
-    "meaning_en": "existing in a material or physical form; real and perceptible to the senses.",
-    "meaning_ja": "特定の形・物質・事例として現実に存在し、感覚でとらえられる性質。"
+    "meanings": [
+      {
+        "en": "Existing in a material or physical form; real and perceptible to the senses.",
+        "ja": "特定の形・物質・事例として現実に存在し、感覚でとらえられる性質。",
+        "example_en": "Give me a concrete example to illustrate your point.",
+        "example_ja": "あなたの主張を説明する具体的な例を挙げてください。"
+      },
+      {
+        "en": "Definite and specific; not vague or abstract.",
+        "ja": "明確で特定的。曖昧や抽象ではない。",
+        "example_en": "We need a concrete plan before moving forward.",
+        "example_ja": "前進する前に具体的な計画が必要だ。"
+      }
+    ]
   },
   {
     "id": 22,
@@ -304,8 +580,20 @@
     "year": 1874,
     "description": "conceptの訳語として西周が定着させた。複数の事物に共通する本質的な性質を思考によって把握したものを指す哲学用語。",
     "etymology": "概（おおよそ・大まかな）と念（思い・意識・考え）を組み合わせた造語。おおよその思考的把握という意味。",
-    "meaning_en": "an abstract idea or general notion, especially one derived from specific instances.",
-    "meaning_ja": "個々の事例から抽出された一般的・抽象的な考えや観念。"
+    "meanings": [
+      {
+        "en": "An abstract idea or general notion derived from specific instances.",
+        "ja": "個々の事例から抽出された一般的・抽象的な考えや観念。",
+        "example_en": "The concept of justice has been debated for centuries.",
+        "example_ja": "正義の概念は何世紀にもわたって議論されてきた。"
+      },
+      {
+        "en": "A plan or intention; a conception of an idea before its realisation.",
+        "ja": "実現前の構想・計画・アイデアの着想。",
+        "example_en": "The concept car was unveiled at the auto show.",
+        "example_ja": "コンセプトカーはモーターショーで公開された。"
+      }
+    ]
   },
   {
     "id": 23,
@@ -318,8 +606,20 @@
     "year": 1874,
     "description": "reasonの訳語として哲学翻訳者が定着させた。感情や本能とは異なる、論理的・合理的に思考する人間の能力を指す。",
     "etymology": "理（ことわり・道理・論理）と性（本性・性質）を組み合わせた造語。論理的思考を本性とする能力という意味。",
-    "meaning_en": "the power of the mind to think, understand, and form judgments logically.",
-    "meaning_ja": "論理的に思考し、判断・推論・理解する心の能力。"
+    "meanings": [
+      {
+        "en": "The power of the mind to think, understand, and form judgments logically.",
+        "ja": "論理的に思考し、判断・推論・理解する心の能力。",
+        "example_en": "He appealed to reason rather than emotion in his argument.",
+        "example_ja": "彼は議論において感情ではなく理性に訴えた。"
+      },
+      {
+        "en": "Good sense and sound judgment; sanity.",
+        "ja": "健全な判断力・思慮・正気。",
+        "example_en": "She had the reason to stay calm in the crisis.",
+        "example_ja": "彼女は危機においても冷静を保つ理性があった。"
+      }
+    ]
   },
   {
     "id": 24,
@@ -332,8 +632,20 @@
     "year": 1874,
     "description": "emotionの訳語として翻訳者群が定着させた。喜怒哀楽などの心の動きや感覚的な反応を指す。",
     "etymology": "感（感じる・感覚）と情（こころ・気持ち）を組み合わせた造語。感じる心の動きという意味。",
-    "meaning_en": "a mental state that arises spontaneously and is accompanied by physiological changes.",
-    "meaning_ja": "喜怒哀楽などの心の動き・感じ方。生理的変化を伴うこともある。"
+    "meanings": [
+      {
+        "en": "A mental state arising spontaneously, often accompanied by physiological changes (joy, fear, love, etc.).",
+        "ja": "喜怒哀楽などの心の動き・感じ方。生理的変化を伴うこともある。",
+        "example_en": "She struggled to control her emotions during the speech.",
+        "example_ja": "彼女はスピーチ中、感情を抑えるのに苦労した。"
+      },
+      {
+        "en": "The instinctive or intuitive feeling as distinguished from reason.",
+        "ja": "理性とは異なる、直感的・本能的な感じ方。",
+        "example_en": "He let his emotions guide his decision instead of logic.",
+        "example_ja": "彼は論理ではなく感情に従って決断した。"
+      }
+    ]
   },
   {
     "id": 25,
@@ -346,8 +658,26 @@
     "year": 1874,
     "description": "consciousnessの訳語として西周系の翻訳者が定着させた。自己や外界を知覚・認識する心の働き、または覚醒した精神状態を指す。",
     "etymology": "意（こころ・意志・考え）と識（知る・認識する）を組み合わせた造語。認識する心の働きという意味。",
-    "meaning_en": "the state of being aware and responsive to one's surroundings; awareness of one's own existence.",
-    "meaning_ja": "自己の存在や外界の事物を認識・覚知している状態。"
+    "meanings": [
+      {
+        "en": "The state of being aware and responsive to one's surroundings.",
+        "ja": "自己の存在や外界の事物を認識・覚知している状態。",
+        "example_en": "He lost consciousness after the accident.",
+        "example_ja": "彼は事故の後、意識を失った。"
+      },
+      {
+        "en": "An awareness or perception of something; concern about a particular issue.",
+        "ja": "何かへの気づき・注意・問題意識。",
+        "example_en": "There is a growing consciousness of environmental issues.",
+        "example_ja": "環境問題に対する意識が高まっている。"
+      },
+      {
+        "en": "In philosophy, the subjective experience of one's own mental states.",
+        "ja": "哲学において、自己の精神状態を内側から経験する主観的な働き。",
+        "example_en": "The nature of consciousness remains one of philosophy's deepest mysteries.",
+        "example_ja": "意識の本質は哲学の最も深い謎の一つである。"
+      }
+    ]
   },
   {
     "id": 26,
@@ -360,8 +690,26 @@
     "year": 1874,
     "description": "experienceの訳語として哲学翻訳者が定着させた。実際に体験・観察することによって得られる知識や感覚を指す哲学的概念。",
     "etymology": "経（へる・通る・体験する）と験（ためす・確かめる）を組み合わせた造語。体験して確かめるという意味。",
-    "meaning_en": "practical contact with and observation of facts or events; something personally lived through.",
-    "meaning_ja": "実際に見聞きし体験すること、またはそこから得られる知識や技能。"
+    "meanings": [
+      {
+        "en": "Practical contact with and observation of facts or events.",
+        "ja": "実際に見聞きし体験すること、またはそこから得られる知識や技能。",
+        "example_en": "Experience is the best teacher.",
+        "example_ja": "経験は最高の教師である。"
+      },
+      {
+        "en": "An event or occurrence that leaves an impression on someone.",
+        "ja": "心に印象を残す出来事・体験。",
+        "example_en": "Traveling abroad was a life-changing experience.",
+        "example_ja": "海外旅行は人生を変える経験だった。"
+      },
+      {
+        "en": "In philosophy (empiricism), knowledge derived from the senses rather than reason alone.",
+        "ja": "哲学（経験論）において、理性だけでなく感覚から導かれた知識。",
+        "example_en": "Locke argued that all knowledge comes from experience.",
+        "example_ja": "ロックはすべての知識が経験から生まれると主張した。"
+      }
+    ]
   },
   {
     "id": 27,
@@ -374,8 +722,20 @@
     "year": 1890,
     "description": "technologyの訳語として工学翻訳者が定着させた。科学的知識を実際の問題解決に応用する方法・手段の体系を指す。",
     "etymology": "技（わざ・技能・スキル）と術（すべ・方法・手法）を組み合わせた造語。技能・手法の体系という意味。",
-    "meaning_en": "the application of scientific knowledge for practical purposes, especially in industry.",
-    "meaning_ja": "科学的知識を実際の問題解決や生産に応用する技法・手段・知識の体系。"
+    "meanings": [
+      {
+        "en": "The application of scientific knowledge for practical purposes, especially in industry.",
+        "ja": "科学的知識を実際の問題解決や生産に応用する技法・手段・知識の体系。",
+        "example_en": "Technology has transformed how we communicate.",
+        "example_ja": "技術はコミュニケーションの方法を変えた。"
+      },
+      {
+        "en": "A skill or ability, especially one requiring special training.",
+        "ja": "特別な訓練を要する技能・腕前・技巧。",
+        "example_en": "She mastered the techniques of oil painting.",
+        "example_ja": "彼女は油絵の技術を習得した。"
+      }
+    ]
   },
   {
     "id": 28,
@@ -388,8 +748,20 @@
     "year": 1868,
     "description": "industryの訳語として経済翻訳者が定着させた。財やサービスを生産する経済活動の総体を指す。",
     "etymology": "産（うむ・生産する）と業（わざ・仕事・職業）を組み合わせた造語。生産活動としての仕事という意味。",
-    "meaning_en": "economic activity concerned with the processing of raw materials and manufacture of goods.",
-    "meaning_ja": "原料を加工・製造して財を生み出す経済活動の総体。"
+    "meanings": [
+      {
+        "en": "Economic activity concerned with the processing of raw materials and manufacture of goods.",
+        "ja": "原料を加工・製造して財を生み出す経済活動の総体。",
+        "example_en": "The automobile industry employs millions of people.",
+        "example_ja": "自動車産業は数百万人を雇用している。"
+      },
+      {
+        "en": "A distinct group of productive enterprises; a sector of the economy.",
+        "ja": "経済の一部門を構成する特定の生産活動の集まり。",
+        "example_en": "The tourism industry is vital to many countries.",
+        "example_ja": "観光産業は多くの国にとって重要である。"
+      }
+    ]
   },
   {
     "id": 29,
@@ -402,8 +774,20 @@
     "year": 1868,
     "description": "capitalの訳語として経済学者が定着させた。生産活動に投下される財・貨幣・設備などを指す経済学の基本概念。",
     "etymology": "資（もとで・財産・資金）と本（もと・根本・元本）を組み合わせた造語。生産のための元手という意味。",
-    "meaning_en": "wealth in the form of money or assets that can be used to invest and generate more wealth.",
-    "meaning_ja": "利益を生み出すために投下・運用される資産・資金・財貨の総体。"
+    "meanings": [
+      {
+        "en": "Wealth in the form of money or assets used for investment and to generate more wealth.",
+        "ja": "利益を生み出すために投下・運用される資産・資金・財貨の総体。",
+        "example_en": "Capital investment is necessary for economic growth.",
+        "example_ja": "経済成長には資本投資が必要である。"
+      },
+      {
+        "en": "A city that functions as the seat of government in a country.",
+        "ja": "国の政府が置かれる中心都市。首都。（capital の別義）",
+        "example_en": "Tokyo is the capital of Japan.",
+        "example_ja": "東京は日本の首都（Capital）である。"
+      }
+    ]
   },
   {
     "id": 30,
@@ -416,8 +800,20 @@
     "year": 1875,
     "description": "laborの訳語として社会思想翻訳者が定着させた。賃金を得るために行う人間の働き・仕事を指す。資本主義経済の基本概念の一つ。",
     "etymology": "労（ねぎらい・苦労・はたらく）と働（はたらく）を組み合わせた造語。苦労して働くという意味を含む。",
-    "meaning_en": "work, especially physical work done for wages.",
-    "meaning_ja": "賃金と引き換えに行われる生産的な働き・作業・仕事。"
+    "meanings": [
+      {
+        "en": "Work, especially physical work done for wages.",
+        "ja": "賃金と引き換えに行われる生産的な働き・作業・仕事。",
+        "example_en": "Child labor is prohibited by international law.",
+        "example_ja": "児童労働は国際法で禁止されている。"
+      },
+      {
+        "en": "Workers considered as a group, especially in relation to capital.",
+        "ja": "資本との対概念における労働者階級・労働力全体。",
+        "example_en": "Labor and capital are the two main factors of production.",
+        "example_ja": "労働と資本は二大生産要素である。"
+      }
+    ]
   },
   {
     "id": 31,
@@ -430,8 +826,26 @@
     "year": 1868,
     "description": "marketの訳語として経済翻訳者が定着させた。売買・取引が行われる場、または需要と供給が出会う経済的仕組みを指す。",
     "etymology": "市（いち・売買の場）と場（ば・場所）を組み合わせた造語。取引が行われる場所という意味。",
-    "meaning_en": "a regular gathering of people for the purchase and sale of goods and services.",
-    "meaning_ja": "財・サービスの売買が行われる取引の場や仕組み。"
+    "meanings": [
+      {
+        "en": "A place where people buy and sell goods and services.",
+        "ja": "財・サービスの売買が行われる取引の場。",
+        "example_en": "She bought fresh vegetables at the local market.",
+        "example_ja": "彼女は地元の市場で新鮮な野菜を買った。"
+      },
+      {
+        "en": "The economic system in which prices are determined by supply and demand.",
+        "ja": "需要と供給によって価格が決定される経済的な仕組み。",
+        "example_en": "The free market drives competition and innovation.",
+        "example_ja": "自由市場は競争とイノベーションを促進する。"
+      },
+      {
+        "en": "A particular area of commercial activity; the demand for a product.",
+        "ja": "特定の商品・サービスに対する需要・販売領域。",
+        "example_en": "The smartphone market is highly competitive.",
+        "example_ja": "スマートフォン市場は競争が激しい。"
+      }
+    ]
   },
   {
     "id": 32,
@@ -444,8 +858,20 @@
     "year": 1890,
     "description": "enterpriseの訳語として経済翻訳者が定着させた。利益を目的として事業を営む経済的組織体を指す。",
     "etymology": "企（くわだてる・計画する）と業（わざ・事業）を組み合わせた造語。事業を企てる組織という意味。",
-    "meaning_en": "a business organization that makes, sells, or provides goods or services.",
-    "meaning_ja": "利益を目的として財・サービスを生産・販売する事業体。"
+    "meanings": [
+      {
+        "en": "A business or company, especially one engaged in commercial activity.",
+        "ja": "利益を目的として財・サービスを生産・販売する事業体。",
+        "example_en": "The enterprise expanded its operations overseas.",
+        "example_ja": "その企業は海外に事業を拡大した。"
+      },
+      {
+        "en": "A project or undertaking, typically one that is difficult or requires boldness.",
+        "ja": "困難または大胆さを必要とする事業・試み・計画。",
+        "example_en": "Starting a new business is a bold enterprise.",
+        "example_ja": "新事業を始めることは大胆な試みである。"
+      }
+    ]
   },
   {
     "id": 33,
@@ -458,8 +884,26 @@
     "year": 1890,
     "description": "organizationの訳語として社会科学翻訳者が定着させた。共通の目標に向けて個人が結合した集団的構造体を指す。",
     "etymology": "組（くむ・組み合わせる）と織（おる・複雑に絡み合わせる）を組み合わせた造語。複雑に組み合わさった構造という意味。",
-    "meaning_en": "a group of people working together in a structured way for a shared purpose.",
-    "meaning_ja": "共通の目的のために協力し、一定の規則のもとで活動する集団の仕組み。"
+    "meanings": [
+      {
+        "en": "A group of people working together in a structured way for a shared purpose.",
+        "ja": "共通の目的のために協力し、一定の規則のもとで活動する集団の仕組み。",
+        "example_en": "The organization was founded to promote human rights.",
+        "example_ja": "その組織は人権促進のために設立された。"
+      },
+      {
+        "en": "The action of organizing or being organized; the structure of something.",
+        "ja": "組織化すること・体系化すること・構造。",
+        "example_en": "The organization of the conference required months of planning.",
+        "example_ja": "会議の組織化には数ヶ月の準備が必要だった。"
+      },
+      {
+        "en": "Biological tissue consisting of similar cells forming a particular function.",
+        "ja": "生物において、特定の機能を担う類似した細胞の集合体。（生物学的用法）",
+        "example_en": "The doctor examined the tissue samples under a microscope.",
+        "example_ja": "医師は組織サンプルを顕微鏡で調べた。"
+      }
+    ]
   },
   {
     "id": 34,
@@ -472,8 +916,26 @@
     "year": null,
     "description": "「自然」は古来、漢語・仏教語として「おのずからそうである状態」を意味する語（読み：じねん）として存在していた。江戸末期〜明治初期に西洋語 nature / Natur の翻訳が試みられたが、当初「造化」「天地」「性」などの訳語も競合していた。明治中期以降、福沢諭吉の啓蒙著作や西周の哲学翻訳の影響を経て「自然（しぜん）」が定着し、人間の手の及ばない外界としての自然概念が普及した。柳父章はこの語が元来の日本語「自然」と nature との間に意味的なずれを内包したまま定着した点を指摘している。",
     "etymology": "「自」は「みずから・おのずから」、「然」は「そのようである状態」を意味し、合わせて「おのずからそうである」となる。老子の「無為自然」や仏教の「自然法爾（じねんほうに）」に由来する古典的概念。",
-    "meaning_en": "the phenomena of the physical world collectively, including plants, animals, the landscape, and other features of the Earth.",
-    "meaning_ja": "人間の手が加わっていない物理的・生物的世界の現象や力の総体。"
+    "meanings": [
+      {
+        "en": "The phenomena of the physical world, including plants, animals, and landscapes.",
+        "ja": "人間の手が加わっていない物理的・生物的世界の現象や力の総体。",
+        "example_en": "Walking in nature can reduce stress and anxiety.",
+        "example_ja": "自然の中を歩くことはストレスや不安を軽減できる。"
+      },
+      {
+        "en": "The inherent character or basic quality of a person or thing.",
+        "ja": "人や物が本来持っている性質・本性・本質。",
+        "example_en": "It is in human nature to seek connection with others.",
+        "example_ja": "他者とのつながりを求めるのは人間の自然な性質である。"
+      },
+      {
+        "en": "A state existing without human intervention; what occurs spontaneously.",
+        "ja": "人の手が加わらずに自然にある・起こる状態。おのずからそうである状態。",
+        "example_en": "The river returned to its natural course after the dam was removed.",
+        "example_ja": "ダムが撤去された後、川は自然な流れに戻った。"
+      }
+    ]
   },
   {
     "id": 35,
@@ -486,8 +948,20 @@
     "year": null,
     "description": "modernの訳語として明治期の翻訳者・思想家たちが定着させた。封建制社会に続く資本主義・市民社会の時代を指す歴史区分概念。「近世」という語と競合しながら普及し、明治以降の日本の近代化・西洋化を記述する語として広く用いられるようになった。なお、時代区分の用語として確立したのは明治後半以降とされる。",
     "etymology": "近（近い・直近の）と代（時代・世代）を組み合わせた造語。「現在に近い時代」という意味で、西洋語 modern のラテン語語源 modo（今まさに）に相応する概念を漢字で表現した。",
-    "meaning_en": "of or relating to the present or recent times; contemporary.",
-    "meaning_ja": "現在または近い過去の時代に属する。封建的・伝統的なものに対して新しい時代の。"
+    "meanings": [
+      {
+        "en": "Of or relating to the present or recent times; contemporary.",
+        "ja": "現在または近い過去の時代に属する。封建的・伝統的なものに対して新しい時代の。",
+        "example_en": "Modern science has transformed medicine.",
+        "example_ja": "近代科学は医学を変えた。"
+      },
+      {
+        "en": "A historical period characterized by capitalism, industrialization, and rationalism.",
+        "ja": "資本主義・工業化・合理主義を特徴とする歴史区分。",
+        "example_en": "Modernity brought both progress and new social problems.",
+        "example_ja": "近代は進歩と新たな社会問題の両方をもたらした。"
+      }
+    ]
   },
   {
     "id": 36,
@@ -500,8 +974,20 @@
     "year": 1874,
     "description": "artの訳語として西周が定着させた。絵画・音楽・文学・演劇など人間の美的創造活動の総称。「美術」が視覚的造形芸術を指すのに対し、「芸術」はより広く創造的表現活動全般を指す語として普及した。西周は liberal arts の訳語としてもこの語を用い、西洋の芸術概念を日本に紹介する際の中心的な訳語となった。",
     "etymology": "芸（わざ・技芸・才能）と術（すべ・技法・方法）を組み合わせた造語。技芸の方法・体系という意味を持ち、古典漢語の「藝」（六芸などの技能）を再転用した。",
-    "meaning_en": "the expression or application of human creative skill and imagination in a visual, auditory, or other form.",
-    "meaning_ja": "人間の創造的な技術・想像力を視覚・聴覚などで表現する営みや作品。"
+    "meanings": [
+      {
+        "en": "The expression of human creative skill and imagination in visual, auditory, or other form.",
+        "ja": "人間の創造的な技術・想像力を視覚・聴覚などで表現する営みや作品。",
+        "example_en": "Art has the power to communicate across cultures.",
+        "example_ja": "芸術は文化を超えてコミュニケーションする力を持つ。"
+      },
+      {
+        "en": "A skill at doing a specified thing, especially one acquired through practice.",
+        "ja": "練習によって習得された特定の作業における技術・技巧。",
+        "example_en": "Cooking can be an art as much as a necessity.",
+        "example_ja": "料理は必要行為であるとともに一つの芸術でもある。"
+      }
+    ]
   },
   {
     "id": 37,
@@ -514,8 +1000,20 @@
     "year": 1887,
     "description": "loveの訳語として明治中期に定着した。1887年の『仏和辞林』にamourの訳として記載されたのが日本語辞書への初出とされる。1890年前後に岩本善治が女性誌誌上で「恋愛」を推奨し、北村透谷の「恋愛は人生の秘鑰なり」という言葉とともに一世を風靡した。西洋近代の個人的・精神的な愛の概念を表す語として、肉欲的な含みを持つ従来の「恋」「色恋」とは区別された清潔な語として受け入れられた。",
     "etymology": "恋（こい・慕う気持ち）と愛（いつくしむ・大切に思う）を組み合わせた造語。慕い愛するという意味で、肉体的欲望よりも精神的・感情的な絆を強調する語として創出された。",
-    "meaning_en": "a deep feeling of romantic attachment or sexual attraction to someone.",
-    "meaning_ja": "特定の相手への強い情愛・愛着・性的魅力の感情。"
+    "meanings": [
+      {
+        "en": "A deep romantic or emotional attachment to another person.",
+        "ja": "特定の相手への強い情愛・愛着の感情。精神的・感情的な絆。",
+        "example_en": "Their love story began when they met at university.",
+        "example_ja": "彼らの恋愛は大学で出会ったときに始まった。"
+      },
+      {
+        "en": "The experience of romantic love as a distinct form of emotion in modern individuality.",
+        "ja": "近代的個人の感情として独自化された恋愛体験。",
+        "example_en": "Romantic love became idealized in the literature of the Meiji era.",
+        "example_ja": "恋愛は明治時代の文学で理想化された。"
+      }
+    ]
   },
   {
     "id": 38,
@@ -528,8 +1026,26 @@
     "year": null,
     "description": "beautyの訳語として西周らが哲学・美学の文脈で用い定着させた。漢字「美」自体は古来から存在したが、西洋美学（aesthetics）の翻訳概念として再定義された。柳父章の『翻訳語成立事情』でも取り上げられた語であり、感覚的快楽を超えた哲学的・普遍的概念としての「美」は、明治期の西洋哲学受容とともに新たな意味を帯びた。近代以前の日本に「美しい」という感覚はあったが、普遍的概念としての「美」は西洋哲学の翻訳を通じて確立した。",
     "etymology": "古漢字の会意文字。羊（大きな羊）と大（大きい）を組み合わせ、もとは「大きく肥えた羊」→「美味しい」→「美しい」という意味の変遷をたどる。古来からの漢字を哲学的概念の訳語として転用した。",
-    "meaning_en": "a combination of qualities that pleases the intellect or moral sense; an aesthetically pleasing quality.",
-    "meaning_ja": "知性や感覚を満たす優れた調和・均整・輝きを持つ性質。"
+    "meanings": [
+      {
+        "en": "A combination of qualities that pleases the intellect or senses.",
+        "ja": "知性や感覚を満たす優れた調和・均整・輝きを持つ性質。",
+        "example_en": "She was struck by the beauty of the mountain landscape.",
+        "example_ja": "彼女は山の景色の美しさに心を打たれた。"
+      },
+      {
+        "en": "A beautiful person or thing; an attractive feature.",
+        "ja": "美しい人・物・特徴。",
+        "example_en": "The beauty of mathematics lies in its elegance.",
+        "example_ja": "数学の美は優雅さにある。"
+      },
+      {
+        "en": "In aesthetics, an objective quality of artworks or natural phenomena pleasing to the mind.",
+        "ja": "美学において、心を喜ばせる芸術作品や自然現象の客観的性質。",
+        "example_en": "Philosophers have long debated whether beauty is objective or subjective.",
+        "example_ja": "美は客観的か主観的かについて哲学者たちは長年議論してきた。"
+      }
+    ]
   },
   {
     "id": 39,
@@ -542,8 +1058,20 @@
     "year": null,
     "description": "heの訳語として明治期に定着した三人称男性代名詞。「彼」自体は古来「あのもの・あれ」を指す語として存在したが、江戸末期まで性別の区別はなかった。明治以降、西洋語の he / she の翻訳にあたり「彼」を男性、「彼女」を女性に割り当てる体系が整備された。柳父章の『翻訳語成立事情』でも取り上げられた語で、近代日本語に性別二元的な三人称代名詞体系をもたらした。",
     "etymology": "古来「かれ」は「あの人・あれ」を指す指示代名詞で性別を問わなかった。漢字「彼」は彳（行く・道）と皮（あの・遠いもの）を組み合わせた字で、「向こう側のもの」を意味する。",
-    "meaning_en": "a male person or animal; used to refer to a male person previously mentioned.",
-    "meaning_ja": "男性の人間または動物を指す三人称単数代名詞。"
+    "meanings": [
+      {
+        "en": "A male person or animal; the third person singular masculine pronoun.",
+        "ja": "男性の人間または動物を指す三人称単数代名詞。",
+        "example_en": "He is a doctor at the local hospital.",
+        "example_ja": "彼は地元の病院の医師である。"
+      },
+      {
+        "en": "Used informally to refer to a boyfriend or male romantic partner.",
+        "ja": "交際相手の男性・彼氏。（日本語の日常的用法）",
+        "example_en": "She introduced her boyfriend to her parents.",
+        "example_ja": "彼女は彼（彼氏）を両親に紹介した。"
+      }
+    ]
   },
   {
     "id": 40,
@@ -556,8 +1084,20 @@
     "year": 1865,
     "description": "physicsの訳語として幕末〜明治初期にかけて定着した。当初は「窮理学」「格物学」「理学」などの訳語が競合していたが、1865年（慶応元年）に長崎の分析究理所で「物理」が学科名として用いられたのが早期の記録の一つ。明治5年（1872年）に文部省採用の教科書が『物理啓蒙』と命名されたことで普及が進み、1877年の文部省編纂百科事典、1881年の井上哲次郎『哲学字彙』でphysicsの訳語として確立した。西周も物理学の訳語造成に関わったとされる。",
     "etymology": "物（もの・事物）と理（ことわり・道理・法則）を組み合わせた古典漢語。「物事の道理」を意味し、宋代朱子学の「格物致知」（物に格って知を致す）の思想にも通じる概念を転用した。",
-    "meaning_en": "the branch of science concerned with the nature and properties of matter and energy.",
-    "meaning_ja": "物質・エネルギー・運動・力などの自然界の根本的な性質を研究する学問。"
+    "meanings": [
+      {
+        "en": "The branch of science concerned with the nature and properties of matter and energy.",
+        "ja": "物質・エネルギー・運動・力などの自然界の根本的な性質を研究する学問。",
+        "example_en": "Physics explains how gravity keeps planets in orbit.",
+        "example_ja": "物理学は重力が惑星を軌道に保つしくみを説明する。"
+      },
+      {
+        "en": "The physical properties or phenomena of something.",
+        "ja": "物事の物理的性質や現象。",
+        "example_en": "The physics of the situation made the plan impossible.",
+        "example_ja": "その状況の物理的条件がその計画を不可能にした。"
+      }
+    ]
   },
   {
     "id": 41,
@@ -570,8 +1110,20 @@
     "year": null,
     "description": "thoughtおよびGedankeの訳語として明治期に定着した。「思想」自体は古典漢語に由来し、古くは「おもいやり・考え」を指す語として存在していた。明治期に西洋哲学・政治思想の翻訳が進むなかで、個人が体系的に抱く思考・信念・世界観を指す語として再定義され普及した。1880年代以降、政治・社会・文学の各領域で西洋思想を指示する用語として広く使われ、明治後期には「思想問題」「危険思想」など国家統制と結びついた文脈でも用いられるようになった。",
     "etymology": "思（おもう・考える）と想（おもいえがく・想像する）を組み合わせた古典漢語。両字とも心の働きを表し、合わせて「深く考え思いめぐらすこと」を意味する。",
-    "meaning_en": "an idea or set of ideas intended to explain something; a way of thinking.",
-    "meaning_ja": "ある事柄を説明し解釈しようとする考え・観念・主義の体系。"
+    "meanings": [
+      {
+        "en": "A system of ideas intended to explain something; a way of thinking or belief.",
+        "ja": "ある事柄を説明し解釈しようとする考え・観念・主義の体系。",
+        "example_en": "Buddhist thought has influenced many cultures.",
+        "example_ja": "仏教思想は多くの文化に影響を与えてきた。"
+      },
+      {
+        "en": "Intellectual activity; the process of reasoning.",
+        "ja": "知的活動・推論の過程。考えること自体。",
+        "example_en": "Freedom of thought is a fundamental human right.",
+        "example_ja": "思想の自由は基本的人権である。"
+      }
+    ]
   },
   {
     "id": 42,
@@ -584,8 +1136,26 @@
     "year": null,
     "description": "judgmentおよびドイツ語Urteilの訳語として明治期に哲学用語として定着した。「判断」自体は漢語・仏教語として古くから存在し、「物事を見きわめ決定する」の意で用いられてきた。明治期にカント哲学が移入される中でUrteilの訳語として採用され、論理学・哲学において概念と概念の間の関係を肯定または否定する知性の働きを指す術語として普及した。カントの『Kritik der Urteilskraft』が「判断力批判」と訳されたことで学術的地位が確立した。",
     "etymology": "判（刀で分け目を入れる・決める）と断（切る・決断する）を組み合わせた古典漢語。刀で切り分けて判定するという比喩的意味を持ち、もとは仏教語として用いられた。",
-    "meaning_en": "the ability to form opinions and make decisions; a formal decision made by a court.",
-    "meaning_ja": "理性的な推論によって意見や決定を形成する能力、またはその結果としての評価・意見。"
+    "meanings": [
+      {
+        "en": "The ability to form opinions and make decisions based on reasoning.",
+        "ja": "理性的な推論によって意見や決定を形成する能力。",
+        "example_en": "Good judgment is essential for a leader.",
+        "example_ja": "優れた判断力はリーダーに不可欠である。"
+      },
+      {
+        "en": "A formal decision made by a court or authority.",
+        "ja": "裁判所や権威ある機関による公式の決定・判決。",
+        "example_en": "The court delivered its judgment on the case.",
+        "example_ja": "裁判所は事件についての判断を下した。"
+      },
+      {
+        "en": "In logic, a proposition asserting or denying something.",
+        "ja": "論理学において、何かを肯定または否定する命題・判断作用。",
+        "example_en": "Kant analyzed the structure of synthetic and analytic judgments.",
+        "example_ja": "カントは総合判断と分析判断の構造を分析した。"
+      }
+    ]
   },
   {
     "id": 43,
@@ -598,8 +1168,26 @@
     "year": null,
     "description": "analysisおよびドイツ語Analyseの訳語として明治期に定着した。化学分野では物質を構成成分に分けて調べる操作を指す「分析化学」として、哲学・論理学では複合的な概念を要素に分解して考察する思考操作を指す語として、それぞれ普及した。「演繹」「帰納」などとともに西洋的な論理・科学の方法論を表す術語として西周系の翻訳者が用いたとされる。古典漢語の「分解」に近い語感を持ちながら、より精密な学術概念として再定義された。",
     "etymology": "分（わける・分割する）と析（割く・細かく分け裂く）を組み合わせた造語。析は木を割るさまを表す字で、合わせて「細かく分け分けて明らかにする」という意味を持つ。",
-    "meaning_en": "the process of separating something into its constituent parts to understand it better.",
-    "meaning_ja": "全体を構成要素に分けて個々の性質や関係を明らかにする思考・研究の方法。"
+    "meanings": [
+      {
+        "en": "The process of separating something into its constituent elements to understand it better.",
+        "ja": "全体を構成要素に分けて個々の性質や関係を明らかにする思考・研究の方法。",
+        "example_en": "The chemist performed an analysis of the water sample.",
+        "example_ja": "化学者は水のサンプルを分析した。"
+      },
+      {
+        "en": "A systematic examination and evaluation of data or information.",
+        "ja": "データや情報を体系的に検討・評価すること。",
+        "example_en": "Data analysis revealed unexpected patterns.",
+        "example_ja": "データ分析は予期しないパターンを明らかにした。"
+      },
+      {
+        "en": "In psychotherapy, the treatment of mental disorders by exploring unconscious processes.",
+        "ja": "精神療法において無意識のプロセスを探ることによる精神的な治療。（精神分析）",
+        "example_en": "He underwent years of psychoanalysis.",
+        "example_ja": "彼は何年もかけて精神分析を受けた。"
+      }
+    ]
   },
   {
     "id": 44,
@@ -612,8 +1200,20 @@
     "year": null,
     "description": "reasoningおよびinferenceの訳語として明治期に論理学・哲学の文脈で定着した。既知の事柄から未知の事柄を道理によって論理的に導き出す思考操作を指し、「帰納」「演繹」などとともに西洋論理学の移入を通じて普及した。古典漢語の語彙を転用したもので、「推論」と意味が近いが、「推理」は推量・判断の過程をより広く含む語として用いられた。戦後には木々高太郎が1946年に「推理小説」という語を提唱したことで一般にも広まった。",
     "etymology": "推（おす・推し進める・推量する）と理（ことわり・道理・法則）を組み合わせた漢語。「道理を推し進めて考える」という意味を持つ。",
-    "meaning_en": "the process of drawing logical conclusions from premises or evidence.",
-    "meaning_ja": "前提や証拠から論理的に結論を導き出す思考過程。"
+    "meanings": [
+      {
+        "en": "The process of drawing logical conclusions from premises or evidence.",
+        "ja": "前提や証拠から論理的に結論を導き出す思考過程。",
+        "example_en": "His reasoning was sound, but the conclusion was wrong.",
+        "example_ja": "彼の推理は正確だったが、結論は間違っていた。"
+      },
+      {
+        "en": "Deductive or inductive reasoning to solve a mystery or puzzle.",
+        "ja": "謎や問題を解くための演繹的・帰納的な推論。",
+        "example_en": "Detective stories require the reader to follow the detective's reasoning.",
+        "example_ja": "推理小説では読者が探偵の推理をたどる必要がある。"
+      }
+    ]
   },
   {
     "id": 45,
@@ -626,8 +1226,20 @@
     "year": null,
     "description": "synthesisおよびドイツ語Syntheseの訳語として明治期に哲学・論理学の文脈で定着した。「分析」の対義語として、バラバラの要素を統一的に結び合わせる思考操作を指す。カント哲学では先験的総合判断の概念において用いられ、ヘーゲルの弁証法では正（定立）・反（反定立）に続く第三段階「合」に相当する語として機能した。1881年の井上哲次郎『哲学字彙』を通じて哲学術語として広く普及し、のちに「総合大学」など学術・行政の場でも使われるようになった。",
     "etymology": "総（すべて・まとめる）と合（あわせる・一つにまとめる）を組み合わせた造語。「すべてをまとめ合わせる」という意味を持ち、ギリシャ語syntithenai（一緒に置く・結合する）の概念に対応する。",
-    "meaning_en": "the combination of parts or elements to form a whole; a higher unity formed from thesis and antithesis.",
-    "meaning_ja": "複数の要素を統合してより高次の全体を形成すること。"
+    "meanings": [
+      {
+        "en": "The combination of parts or elements to form a whole.",
+        "ja": "複数の要素を統合してより高次の全体を形成すること。",
+        "example_en": "The final report is a synthesis of all the research.",
+        "example_ja": "最終報告書はすべての研究の総合である。"
+      },
+      {
+        "en": "In Hegelian dialectics, the resolution that reconciles thesis and antithesis.",
+        "ja": "ヘーゲル弁証法において、正と反を止揚した合。",
+        "example_en": "The synthesis resolves the contradiction between thesis and antithesis.",
+        "example_ja": "総合（合）は正（定立）と反（反定立）の矛盾を解消する。"
+      }
+    ]
   },
   {
     "id": 46,
@@ -640,8 +1252,20 @@
     "year": 1870,
     "description": "propositionの訳語として西周が『百学連環』（1870〜71年）で創出した。言語によって表現された判断・主張を指す論理学の基本概念であり、真または偽を判定できる文を指す。「帰納」「演繹」「定義」などとともに西周の論理学術語として创られ、1881年の井上哲次郎『哲学字彙』を通じて広く定着した。数学・論理学・哲学の各分野で現在も基本語として用いられている。",
     "etymology": "命（言いつける・題する・名づける）と題（主題・問題・テーマ）を組み合わせた造語。「言葉によって命じられた問い・主張」という意味で、論理学の命題概念を的確に表す。",
-    "meaning_en": "a statement or assertion that expresses a judgment or opinion.",
-    "meaning_ja": "真偽の判断が可能な、何かについて断言する文や言明。"
+    "meanings": [
+      {
+        "en": "A statement or assertion that expresses a judgment, which can be true or false.",
+        "ja": "真偽の判断が可能な、何かについて断言する文や言明。",
+        "example_en": "The proposition 'All men are mortal' is a universal statement.",
+        "example_ja": "「すべての人は死ぬ」という命題は普遍的言明である。"
+      },
+      {
+        "en": "A suggested scheme or proposal in mathematics or logic.",
+        "ja": "数学・論理学における証明すべき定理・提題。",
+        "example_en": "Euclid's propositions form the basis of geometry.",
+        "example_ja": "ユークリッドの命題は幾何学の基礎を成す。"
+      }
+    ]
   },
   {
     "id": 47,
@@ -654,8 +1278,20 @@
     "year": null,
     "description": "principleおよびドイツ語Prinzipの訳語として明治期に哲学・科学の文脈で定着した。事物・現象が依拠する根本的法則、または他のものを規定しながらそれ自身は他に依存しない根源的なものを指す。古典漢語に「原」（根源）と「理」（道理）の組み合わせが存在したが、西洋哲学・自然科学の移入に伴いより精密な概念として再定義された。ニュートンの『Philosophiæ Naturalis Principia Mathematica』が「自然哲学の数学的諸原理」と訳されたことで科学的文脈にも定着した。",
     "etymology": "原（みなもと・根源・もと）と理（ことわり・道理・法則）を組み合わせた漢語。「物事の根源にある道理・法則」という意味で、ラテン語principium（最初の石・根本）に対応する。",
-    "meaning_en": "a fundamental truth or proposition that serves as the foundation for a system of belief.",
-    "meaning_ja": "理論・体系の根拠となる根本的な法則・真理・規則。"
+    "meanings": [
+      {
+        "en": "A fundamental truth or proposition serving as the foundation for a system of belief.",
+        "ja": "理論・体系の根拠となる根本的な法則・真理・規則。",
+        "example_en": "The principle of equality underpins democratic societies.",
+        "example_ja": "平等の原理は民主主義社会の根幹をなす。"
+      },
+      {
+        "en": "A general scientific theorem or law; a rule of nature.",
+        "ja": "自然の法則・科学的な定理。",
+        "example_en": "Archimedes' principle explains why objects float.",
+        "example_ja": "アルキメデスの原理はなぜ物が浮くかを説明する。"
+      }
+    ]
   },
   {
     "id": 48,
@@ -668,8 +1304,20 @@
     "year": null,
     "description": "lawおよびドイツ語Gesetzの訳語として明治期に自然科学・哲学の文脈で定着した。一定の条件のもとで常に成り立つ事物相互の必然的・普遍的な関係を指す。英語のlawはキリスト教的な「神が定めた秩序」に由来し、ドイツ語Gesetzも「神が置いたもの」を意味するが、日本語の「法則」は規範を意味する漢語的な語感で訳語に収まった。万有引力の法則・熱力学の法則など近代自然科学の法則概念の移入と並行して普及した。",
     "etymology": "法（規範・きまり・ルール）と則（のり・準拠すべき基準）を組み合わせた漢語。「守られるべき規範・準拠」という意味で、自然界の普遍的な規則性を表す語として定着した。",
-    "meaning_en": "a statement of fact, deduced from observation, to the effect that a particular natural or scientific phenomenon always occurs in specified circumstances.",
-    "meaning_ja": "自然界の現象が一定の条件下で常に成立する必然的な規則性・関係。"
+    "meanings": [
+      {
+        "en": "A statement of fact that a particular natural or scientific phenomenon always occurs under certain conditions.",
+        "ja": "自然界の現象が一定の条件下で常に成立する必然的な規則性・関係。",
+        "example_en": "The laws of thermodynamics govern energy transfer.",
+        "example_ja": "熱力学の法則はエネルギー移動を支配する。"
+      },
+      {
+        "en": "A rule or principle governing conduct or procedure.",
+        "ja": "行動や手続きを規定する規則・原則。",
+        "example_en": "Moral laws guide human behavior.",
+        "example_ja": "道徳的法則は人間の行動を導く。"
+      }
+    ]
   },
   {
     "id": 49,
@@ -682,8 +1330,20 @@
     "year": null,
     "description": "purposeおよびドイツ語Zweckの訳語として明治期に哲学・日常語として定着した。カントは「目的」をZweck（Zielとは区別）と呼び、道徳・実践理性の中心概念として用いた。「目的論（Teleologie）」の基礎概念として明治期に移入され、哲学翻訳者が術語として用いたことで学術的地位を得た。和製漢語として古くから「標的を目指すこと」の意があったが、西洋哲学の目的概念と結びついてより抽象的な意味が加わり、「目的語」「目的論」など複合語の形成にも寄与した。",
     "etymology": "目（めざす・目標にする）と的（まと・標的・ねらい）を組み合わせた和製漢語。「目指すまと」という字義を持ち、意識的に向かう到達点・意図を表す。",
-    "meaning_en": "the reason for which something is done or created; an aim or goal.",
-    "meaning_ja": "ある行為・活動の最終的なねらい・意図・目標。"
+    "meanings": [
+      {
+        "en": "The reason for which something is done; an aim or goal.",
+        "ja": "ある行為・活動の最終的なねらい・意図・目標。",
+        "example_en": "The purpose of education is to develop the whole person.",
+        "example_ja": "教育の目的は人間全体を発達させることである。"
+      },
+      {
+        "en": "In Kantian ethics, rational beings who should never be treated merely as means.",
+        "ja": "カント倫理学において、手段としてのみ扱われてはならない理性的存在。目的そのもの。",
+        "example_en": "Kant said we must treat persons as ends, never merely as means.",
+        "example_ja": "カントは人を常に目的として扱い、決して単なる手段として扱ってはならないと述べた。"
+      }
+    ]
   },
   {
     "id": 50,
@@ -696,8 +1356,20 @@
     "year": null,
     "description": "meansおよびドイツ語Mittelの訳語として明治期に哲学・日常語として定着した。目的を実現するための具体的なやり方・方法を指す。カントの道徳哲学における「目的と手段」の対概念として移入され、「人を単なる手段として扱うことなく、常に目的として扱え」という定言命法の文脈で哲学術語として定着した。「手段」自体は古くから日本語に存在したが、西洋倫理学の概念を取り込むことで哲学的な含意を帯びるようになった。",
     "etymology": "手（て・やり方・腕前）と段（段階・方法・やり口）を組み合わせた漢語。「手を使う作業のやり方」という字義から、目的を実現するための方法全般を指す語として定着した。",
-    "meaning_en": "an action or system by which a result is achieved; something used to attain an end.",
-    "meaning_ja": "目的を達成するために用いられる方法・手段・道具。"
+    "meanings": [
+      {
+        "en": "An action or system used to achieve a result.",
+        "ja": "目的を達成するために用いられる方法・道具・手法。",
+        "example_en": "The ends do not always justify the means.",
+        "example_ja": "目的は必ずしも手段を正当化しない。"
+      },
+      {
+        "en": "In Kantian ethics, treating persons merely as instruments for one's ends.",
+        "ja": "カント倫理学における「手段として扱う」こと。人を道具として使うこと。",
+        "example_en": "Kant warned against using people merely as means to our own ends.",
+        "example_ja": "カントは人を自己の目的のための手段としてのみ使うことを戒めた。"
+      }
+    ]
   },
   {
     "id": 51,
@@ -710,8 +1382,20 @@
     "year": null,
     "description": "politicsの訳語として明治期に定着した。英語politicsはギリシャ語polis（都市国家）に由来し、「都市の事務・統治」を意味する。日本語の「政治」は「まつりごと」に由来し、神と人の関係を含む祭政一致的な概念であったが、西洋の近代的な政治概念（人と人の合意・議論による統治）とは本来異なる。西周が1863年の書簡でpolitiekと「政治」を結びつけて論じており、明治維新後の近代国家形成の中で広く普及した。",
     "etymology": "政（まつりごと・統治すること）と治（おさめる・整える）を組み合わせた漢語。「国をおさめること」という字義で、古来は祭祀と政務が一体化した「まつりごと」を意味した。",
-    "meaning_en": "the activities associated with the governance of a country or area; the debate or conflict among individuals or parties having or hoping to achieve power.",
-    "meaning_ja": "国家・地域の統治に関わる権力の獲得・行使・配分をめぐる活動・議論・対立。"
+    "meanings": [
+      {
+        "en": "The activities associated with the governance of a country or area.",
+        "ja": "国家・地域の統治に関わる権力の獲得・行使・配分をめぐる活動。",
+        "example_en": "Politics involves making decisions that affect society.",
+        "example_ja": "政治は社会に影響する決定を下すことを含む。"
+      },
+      {
+        "en": "The debate or conflict among people having or hoping to achieve power.",
+        "ja": "権力を持つ・得ようとする人々の間の議論・対立・駆け引き。",
+        "example_en": "Office politics can make the workplace unpleasant.",
+        "example_ja": "職場の政治（権力争い）は職場環境を不快にすることがある。"
+      }
+    ]
   },
   {
     "id": 52,
@@ -724,8 +1408,20 @@
     "year": null,
     "description": "equalityの訳語として明治期に定着した。仏教語の「平等」（すべての衆生が等しく仏性を持つという概念）が西洋の近代的平等概念の訳語に転用された。中江兆民がルソーの社会契約論を翻訳する際に「自由平等」の語を用い、自由民権運動の高まりとともに「法の下の平等」「人権の平等」を意味する政治概念として広まった。",
     "etymology": "平（たいら・ひとしい・差がない）と等（ひとしい・同じ程度）を組み合わせた漢語・仏教語。「すべてが同等であること」という字義を持ち、仏教では衆生の平等を、近代では人権・地位の均等を意味する。",
-    "meaning_en": "the state of being equal, especially in status, rights, and opportunities.",
-    "meaning_ja": "地位・権利・機会などにおいて差別なく同等であること。"
+    "meanings": [
+      {
+        "en": "The state of being equal, especially in status, rights, and opportunities.",
+        "ja": "地位・権利・機会などにおいて差別なく同等であること。",
+        "example_en": "Equality before the law is a cornerstone of democracy.",
+        "example_ja": "法の下の平等は民主主義の基盤である。"
+      },
+      {
+        "en": "Equal treatment; fairness in distribution.",
+        "ja": "公平な取り扱い・分配における公正さ。",
+        "example_en": "Equality of opportunity should be guaranteed for all.",
+        "example_ja": "機会の平等はすべての人に保障されるべきである。"
+      }
+    ]
   },
   {
     "id": 53,
@@ -738,8 +1434,20 @@
     "year": null,
     "description": "dutyおよびobligationの訳語として明治期に定着した。西周によるとされるが確証はなく、中国の万国公法（国際法翻訳書）から借用したともいわれる。福沢諭吉の『学問のすゝめ』にも用いられた。権利（right）との対概念として近代法・倫理学の文脈で普及し、大日本帝国憲法・民法の制定を経て「国民の義務」という形で法律用語として定着した。",
     "etymology": "義（道義・あるべき道・正しい道）と務（つとめ・はたすべきこと）を組み合わせた漢語。「道義として果たすべき務め」という字義を持ち、道徳的・法的に課せられた責任を表す。",
-    "meaning_en": "a moral or legal obligation; the responsibility one has to perform an action or comply with a rule.",
-    "meaning_ja": "道徳的・法的に果たすべき責務・使命・役割。"
+    "meanings": [
+      {
+        "en": "A moral or legal obligation to perform an action or comply with a rule.",
+        "ja": "道徳的・法的に果たすべき責務・使命・役割。",
+        "example_en": "It is our duty to vote in elections.",
+        "example_ja": "選挙で投票することは私たちの義務である。"
+      },
+      {
+        "en": "A task or function assigned to someone in their role.",
+        "ja": "役割として割り当てられた任務・職務。",
+        "example_en": "The soldier carried out his duty with honor.",
+        "example_ja": "その兵士は名誉をもって義務を果たした。"
+      }
+    ]
   },
   {
     "id": 54,
@@ -752,8 +1460,20 @@
     "year": 1889,
     "description": "parliamentの訳語として明治期に定着した。英語parliamentは古フランス語parler（話す）に由来し、中世ヨーロッパの身分制議会を起源とする。明治22年（1889年）の大日本帝国憲法発布・帝国議会設置を機に「議会」の語が公式の制度用語として定着した。それ以前は「公議」「会議」などの語も使われていたが、近代立法機関の名称として「議会」が標準語彙となった。",
     "etymology": "議（はかる・論じ合う・審議する）と会（あつまる・集まり・機関）を組み合わせた漢語。「討議するために人が集まる機関」という字義を持ち、代表者が立法・審議を行う機関を指す。",
-    "meaning_en": "a legislative body whose members are elected by the people to represent their interests.",
-    "meaning_ja": "国民が選出した代表者によって構成され、立法などを行う議決機関。"
+    "meanings": [
+      {
+        "en": "A legislative body whose members are elected to represent the people.",
+        "ja": "国民が選出した代表者によって構成され、立法などを行う議決機関。",
+        "example_en": "Parliament passed a new bill on environmental protection.",
+        "example_ja": "議会は環境保護に関する新しい法案を可決した。"
+      },
+      {
+        "en": "A formal conference for the discussion of public affairs.",
+        "ja": "公的問題を審議するための正式な会議・集会。",
+        "example_en": "The parliament convened an emergency session.",
+        "example_ja": "議会は緊急会議を召集した。"
+      }
+    ]
   },
   {
     "id": 55,
@@ -766,8 +1486,20 @@
     "year": 1890,
     "description": "electionの訳語として明治期に定着した。英語electionはラテン語electio（選択・選び出し）に由来する。「選挙」は古来から優れた人材を選抜・登用する行為を意味する語として存在したが、明治期に近代民主主義の選挙制度が導入されるにあたりこの語が転用された。明治23年（1890年）の第1回帝国議会選挙を機に、投票による代表者選出という意味で広く定着した。",
     "etymology": "選（えらぶ・選択する）と挙（あげる・推挙する・登用する）を組み合わせた漢語。「選んで推し上げること」という字義で、古来は優秀な人材を選抜する意で使われ、近代では投票による代表選出を指す。",
-    "meaning_en": "a formal process by which members of a group make a choice or decide an issue, usually by voting.",
-    "meaning_ja": "有権者が投票によって代表者や政策を決定する民主的な手続き。"
+    "meanings": [
+      {
+        "en": "A formal process by which voters choose representatives or decide on policies.",
+        "ja": "有権者が投票によって代表者や政策を決定する民主的な手続き。",
+        "example_en": "The election results surprised many political analysts.",
+        "example_ja": "選挙結果は多くの政治アナリストを驚かせた。"
+      },
+      {
+        "en": "The fact of being chosen for a position, especially in church governance.",
+        "ja": "特に教会統治などで、ある地位に選ばれること。",
+        "example_en": "His election to the presidency was celebrated nationwide.",
+        "example_ja": "彼の大統領選出は全国で祝われた。"
+      }
+    ]
   },
   {
     "id": 56,
@@ -780,8 +1512,20 @@
     "year": 1872,
     "description": "independenceの訳語として福沢諭吉が積極的に用いた。福沢は『学問のすゝめ』（1872年）で「一身の独立」「一国の独立」を説き、個人の精神的自立こそが国家独立の基盤であると主張した。「独立自尊」の理念を掲げ、他者・権力に頼らず自らの力で立つことを近代市民の徳として広めた。英語independenceのラテン語源は「依存しないこと（in-dependere）」であり、この概念が「独立」という語に重ね合わされた。",
     "etymology": "独（ひとり・単独で・他に頼らず）と立（たつ・自らの力で立つ）を組み合わせた漢語。「他に頼らず自らの力で立つこと」という字義で、政治的独立と個人の自律の双方を表す。",
-    "meaning_en": "the fact or state of being free from control, dependence, or domination by others.",
-    "meaning_ja": "他者の支配・従属・干渉から自由であり、自律・自立した状態。"
+    "meanings": [
+      {
+        "en": "The state of being free from control, dependence, or domination by others.",
+        "ja": "他者の支配・従属・干渉から自由であり、自律・自立した状態。",
+        "example_en": "India gained independence from Britain in 1947.",
+        "example_ja": "インドは1947年にイギリスから独立した。"
+      },
+      {
+        "en": "Self-sufficiency; the ability to live or act without relying on others.",
+        "ja": "自己充足・自力本願。他者に頼らず自力で立つこと。",
+        "example_en": "Financial independence gives you freedom to make choices.",
+        "example_ja": "経済的独立は選択の自由をもたらす。"
+      }
+    ]
   },
   {
     "id": 57,
@@ -794,8 +1538,20 @@
     "year": null,
     "description": "treatyの訳語として幕末から明治期に定着した。英語treatyはラテン語tractatus（交渉・論述）に由来する。日米和親条約（1854年）・日米修好通商条約（1858年）など幕末の開国外交において「条約」が国家間の正式な合意文書の名称として用いられ定着した。明治政府が不平等条約の改正（条約改正）に長年取り組む過程で、「条約」は外交の核心を成す用語として広く定着した。",
     "etymology": "条（箇条・条文・規定の一項目）と約（やくそく・取り決め・誓約）を組み合わせた漢語。「複数の条文からなる国家間の取り決め」という字義を持つ。",
-    "meaning_en": "a formally concluded and ratified agreement between states.",
-    "meaning_ja": "国家間で正式に締結される権利・義務に関する合意文書。"
+    "meanings": [
+      {
+        "en": "A formally concluded agreement between states, ratified by each state.",
+        "ja": "国家間で正式に締結される権利・義務に関する合意文書。",
+        "example_en": "The peace treaty ended the war between the two nations.",
+        "example_ja": "平和条約が二国間の戦争を終わらせた。"
+      },
+      {
+        "en": "A formal agreement between individuals or organizations.",
+        "ja": "個人または組織間の正式な合意。",
+        "example_en": "The trade treaty reduced tariffs on imported goods.",
+        "example_ja": "貿易条約は輸入品の関税を引き下げた。"
+      }
+    ]
   },
   {
     "id": 58,
@@ -808,8 +1564,20 @@
     "year": null,
     "description": "diplomacyの訳語として幕末から明治期に定着した。英語diplomacyはギリシャ語diploma（折り畳まれた文書・外交文書）に由来する。幕末の開国以来、西洋列強との条約交渉・国際関係への対応が急務となる中で「外交」が対外関係・国家間折衝を指す語として広まった。明治政府の不平等条約改正交渉や日清・日露戦争後の講和交渉を通じて、「外交」は政治・行政の専門用語として定着した。",
     "etymology": "外（そと・対外的な・他国との）と交（まじわる・交際する・折衝する）を組み合わせた漢語。「他国・外部との交際・折衝」という字義を持ち、国家間の政治的交渉を指す。",
-    "meaning_en": "the management of international relations by a country's government, especially through negotiations.",
-    "meaning_ja": "国家間の関係を交渉・調整・調停によって管理する政府の活動。"
+    "meanings": [
+      {
+        "en": "The management of international relations by a government through negotiation.",
+        "ja": "国家間の関係を交渉・調整・調停によって管理する政府の活動。",
+        "example_en": "Diplomacy averted a potential conflict.",
+        "example_ja": "外交が潜在的な紛争を回避した。"
+      },
+      {
+        "en": "The skill of managing negotiations tactfully and without offence.",
+        "ja": "交渉を巧みかつ人を傷つけずに進める技術・気配り。",
+        "example_en": "It took great diplomacy to resolve the disagreement.",
+        "example_ja": "その意見の相違を解決するには大きな外交的手腕が必要だった。"
+      }
+    ]
   },
   {
     "id": 59,
@@ -822,8 +1590,20 @@
     "year": 1873,
     "description": "sovereigntyの訳語として明治6年（1873年）、柴田昌吉・子安峻の『附音挿図英和字彙』において「主権」の語が当てられた。中国古典『管子』にある「主権」（君主の権威）という語を転用したものである。明治22年（1889年）の帝国憲法では「統治権」が用いられたが、その後「主権」が国際法・憲法学の術語として定着し、戦後の日本国憲法では「国民主権」の形で基本原理の一つとなった。",
     "etymology": "主（あるじ・主体となる者・最高位）と権（権力・権威・権限）を組み合わせた漢語。「最高の統治権・権力の根源」という字義で、国家の最高決定権を意味する。",
-    "meaning_en": "the authority of a state to govern itself and to make its own laws without interference.",
-    "meaning_ja": "外部からの干渉を受けず、国家が自律的に統治する最高権力。"
+    "meanings": [
+      {
+        "en": "The authority of a state to govern itself without external interference.",
+        "ja": "外部からの干渉を受けず、国家が自律的に統治する最高権力。",
+        "example_en": "The treaty respected the sovereignty of each nation.",
+        "example_ja": "条約は各国の主権を尊重した。"
+      },
+      {
+        "en": "Supreme power or authority within a state.",
+        "ja": "国家内における最高権力・最終決定権。",
+        "example_en": "Popular sovereignty means the people hold the ultimate power.",
+        "example_ja": "国民主権とは国民が最終的な権力を保持することを意味する。"
+      }
+    ]
   },
   {
     "id": 60,
@@ -836,8 +1616,20 @@
     "year": null,
     "description": "nationの訳語として明治期に定着した。英語nationはラテン語natio（生まれ・民族）に由来する。「国民」はもともと「国の民」という意味で古来から存在したが、明治期に西洋近代の国民国家（nation-state）概念が移入されるとともに、国家に帰属する政治的成員という含意を持つ用語として再定義された。明治憲法下では「臣民」も並用されたが、戦後は「国民主権」として定着し、政治主体としての市民を指す語となった。",
     "etymology": "国（くに・国家）と民（たみ・人民・国の構成員）を組み合わせた漢語。「国家に属する人民」という字義で、近代では国家の政治的成員としての市民を指す。",
-    "meaning_en": "the people of a country, considered collectively; the members of a political state sharing a common identity.",
-    "meaning_ja": "共通のアイデンティティ・文化・歴史を持ち、国家を構成する人々の総体。"
+    "meanings": [
+      {
+        "en": "The people of a country, considered as a political body.",
+        "ja": "共通のアイデンティティ・文化・歴史を持ち、国家を構成する人々の総体。",
+        "example_en": "The nation demanded that the government be held accountable.",
+        "example_ja": "国民は政府に責任を求めた。"
+      },
+      {
+        "en": "A person who is a member of a particular nation.",
+        "ja": "特定の国家の構成員たる個人。国籍を持つ人。",
+        "example_en": "Japanese citizens have the right to vote.",
+        "example_ja": "日本国民は投票する権利を持つ。"
+      }
+    ]
   },
   {
     "id": 61,
@@ -850,8 +1642,20 @@
     "year": null,
     "description": "colonyの訳語として明治期に定着した。英語colonyはラテン語colonia（農場・定住地）に由来し、colonus（農夫・入植者）から派生する。西洋帝国主義の拡大とともに植民地支配の概念が日本に入り「植民地」の語が普及した。日清・日露戦争後に台湾・朝鮮・満州などの統治が始まると、この語は日本の対外膨張の文脈でも頻繁に用いられるようになった。「移民を植えつけた土地」という字義が帝国主義的支配の実態をよく表している。",
     "etymology": "植（うえる・定着させる）と民（たみ・人民）と地（ち・土地・領土）を組み合わせた漢語。「人を移住・定着させた土地」という字義で、本国から人民を移住させ支配した領土を指す。",
-    "meaning_en": "a country or area under the full or partial political control of another country, typically occupied.",
-    "meaning_ja": "本国によって政治的・経済的に支配・統治される海外の地域や領土。"
+    "meanings": [
+      {
+        "en": "A country or area under the political control of another country.",
+        "ja": "本国によって政治的・経済的に支配・統治される海外の地域や領土。",
+        "example_en": "Many African countries were former European colonies.",
+        "example_ja": "多くのアフリカ諸国はかつてのヨーロッパの植民地だった。"
+      },
+      {
+        "en": "A settlement or group of people living in a new territory while maintaining ties to their homeland.",
+        "ja": "母国とのつながりを保ちながら新天地に定住した集団・居留地。",
+        "example_en": "The Pilgrims established a colony in New England.",
+        "example_ja": "ピルグリムたちはニューイングランドに植民地を築いた。"
+      }
+    ]
   },
   {
     "id": 62,
@@ -864,8 +1668,20 @@
     "year": 1872,
     "description": "bankの訳語として明治5年（1872年）の国立銀行条例制定時に「銀行」の語が定着した。幕末から明治初期には「両替屋」「為替会社」「バンク」などの語も使われた。中国では日本より20年ほど前からbankの訳語として「銀行」が用いられており、日本はこれを借用したとされる。「金行」とする案もあったが、当時の銀本位の貨幣制度と「ぎんこう」の発音のしやすさから「銀行」が採用された。「行」は中国語で同業商人組合を意味する。",
     "etymology": "銀（しろがね・貨幣）と行（なかま・同業商人組合）を組み合わせた漢語。「銀（貨幣）の取引を行う商人組合」という字義で、英語bankのイタリア語源banco（机・ベンチ）とは異なる経路で定着した。",
-    "meaning_en": "a financial institution that accepts deposits, makes loans, and provides other financial services.",
-    "meaning_ja": "預金・貸付・送金などの金融サービスを行う機関。"
+    "meanings": [
+      {
+        "en": "A financial institution that accepts deposits, makes loans, and provides other financial services.",
+        "ja": "預金・貸付・送金などの金融サービスを行う機関。",
+        "example_en": "He deposited his savings at the bank.",
+        "example_ja": "彼は貯金を銀行に預けた。"
+      },
+      {
+        "en": "A store or supply of something available for use.",
+        "ja": "利用可能な何かの蓄え・貯蔵所。（比喩的用法）",
+        "example_en": "A blood bank stores donated blood for medical use.",
+        "example_ja": "血液銀行は医療用の献血を保管する。"
+      }
+    ]
   },
   {
     "id": 63,
@@ -878,8 +1694,20 @@
     "year": null,
     "description": "stockの訳語として明治期に定着した。英語stockはゲルマン語の「木の株・幹」を意味し、そこから「蓄え・資本の元本」という意味に転じた。日本では「株」という語が江戸時代から組合加入権・営業権を指す語として存在しており、これに「式」を加えて株式会社制度の概念を表した。明治6年（1873年）設立の第一国立銀行が初の株式会社とされ、この頃から「株式」が近代的な資本制度の用語として広まった。",
     "etymology": "株（木の株・権利の単位・持分）と式（方式・制度・形式）を組み合わせた漢語。「一定の方式で区分された資本の持分」という字義で、会社の資本を均等に分割した権利単位を指す。",
-    "meaning_en": "a share of ownership in a company, represented by a certificate entitling the holder to dividends and voting rights.",
-    "meaning_ja": "企業の所有権の一部を表す証書。保有者は配当や議決権を持つ。"
+    "meanings": [
+      {
+        "en": "A share of ownership in a company, entitling the holder to dividends and voting rights.",
+        "ja": "企業の所有権の一部を表す証書。保有者は配当や議決権を持つ。",
+        "example_en": "He bought stocks in several technology companies.",
+        "example_ja": "彼はいくつかのIT企業の株式を買った。"
+      },
+      {
+        "en": "The capital raised by a company through the issue of shares.",
+        "ja": "会社が株式発行によって調達した資本金。",
+        "example_en": "The company listed its shares on the Tokyo Stock Exchange.",
+        "example_ja": "その会社は東京証券取引所に株式を上場した。"
+      }
+    ]
   },
   {
     "id": 64,
@@ -892,8 +1720,20 @@
     "year": null,
     "description": "investmentの訳語として明治期に定着した。英語investmentはラテン語investire（衣をまとう・包む）に由来し、「資金を委ねる・運用する」という意味に発展した。日本では近代的な資本市場の形成とともに「投資」が株式・債券・不動産などへの資金投下を指す経済用語として普及した。殖産興業政策のもとで民間資本の産業への投下が奨励される中で、この語は経済・金融の専門用語として定着した。",
     "etymology": "投（なげる・委ねる・投じる）と資（もとで・資本・資金）を組み合わせた漢語。「資本を投じること」という字義で、利益を期待して資金を特定の対象に委ねる行為を表す。",
-    "meaning_en": "the action or process of investing money for profit or material result.",
-    "meaning_ja": "将来の利益を期待して資金・資産・時間などを投じること。"
+    "meanings": [
+      {
+        "en": "The action of investing money for profit or future benefit.",
+        "ja": "将来の利益を期待して資金・資産・時間などを投じること。",
+        "example_en": "Investing in education pays long-term dividends.",
+        "example_ja": "教育への投資は長期的な利益をもたらす。"
+      },
+      {
+        "en": "A thing worth buying because it may be profitable or useful in the future.",
+        "ja": "将来的に利益・有益になりうるとして購入する価値のあるもの。",
+        "example_en": "A good coat is a worthwhile investment.",
+        "example_ja": "良いコートは価値ある投資である。"
+      }
+    ]
   },
   {
     "id": 65,
@@ -906,8 +1746,20 @@
     "year": null,
     "description": "profitの訳語として明治期に経済用語として定着した。英語profitはラテン語profectus（前進・進歩）に由来し、商業活動の純収益を意味するようになった。日本語の「利益」は古来から仏教語として「衆生の利益（りやく）」の形で「恵み・功徳」を意味したが、明治期の資本主義導入とともに経済的利潤・純収益という意味が主流となった。損失（loss）との対概念として企業会計・経済学の基本語彙として定着した。",
     "etymology": "利（もうけ・利得・有益なこと）と益（ます・もうかる・恵み）を組み合わせた漢語。古くは仏教的な「恵み」を意味したが、近代では経済的な純収益・収得を指す語として定着した。",
-    "meaning_en": "a financial gain from a business activity after expenses have been deducted.",
-    "meaning_ja": "費用を差し引いた後に残る事業活動からの収益や利得。"
+    "meanings": [
+      {
+        "en": "A financial gain from a business activity after expenses.",
+        "ja": "費用を差し引いた後に残る事業活動からの収益や利得。",
+        "example_en": "The company reported record profits this year.",
+        "example_ja": "その会社は今年、過去最高の利益を報告した。"
+      },
+      {
+        "en": "An advantage or benefit gained from something.",
+        "ja": "何かから得られる利点・恩恵・便益。",
+        "example_en": "Regular exercise brings many health benefits.",
+        "example_ja": "定期的な運動は多くの健康上の利益をもたらす。"
+      }
+    ]
   },
   {
     "id": 66,
@@ -920,8 +1772,20 @@
     "year": null,
     "description": "lossの訳語として明治期に経済用語として定着した。英語lossは古英語los（滅亡・破滅）に由来し、商業的な損害を指すようになった。近代経済学の移入とともに利益（profit）の対概念として「損失」が会計・経営の専門用語として整備された。「損失」自体は古来日本語に存在したが、複式簿記や企業会計制度の導入を経て、収益に対する費用超過分（純損失）を表す財務用語として定義が明確化された。",
     "etymology": "損（そこなう・減らす・損害を与える）と失（うしなう・なくなる・失う）を組み合わせた漢語。「物を損なって失うこと」という字義で、経済活動における純損害・損害額を表す。",
-    "meaning_en": "the fact of no longer having something or having less of it; money that has been lost.",
-    "meaning_ja": "所有していたものや期待していたものを失うこと、またはその額。"
+    "meanings": [
+      {
+        "en": "The fact of no longer having something; something lost.",
+        "ja": "所有していたものや期待していたものを失うこと、またはその額。",
+        "example_en": "The company suffered heavy losses in the recession.",
+        "example_ja": "その会社は不況で大きな損失を被った。"
+      },
+      {
+        "en": "A person or thing that is badly missed when lost.",
+        "ja": "失われたときに大きく惜しまれる人・物。",
+        "example_en": "His death was a great loss to the scientific community.",
+        "example_ja": "彼の死は科学界にとって大きな損失だった。"
+      }
+    ]
   },
   {
     "id": 67,
@@ -934,8 +1798,20 @@
     "year": null,
     "description": "demandの訳語として明治期に経済学用語として定着した。英語demandはラテン語demandare（委ねる・要求する）に由来する。近代経済学の導入とともに「需要」が市場における財・サービスへの購買意欲・購買力を指す術語として定着した。供給（supply）との対概念として「需要と供給」の形で使われ、価格決定の基本原理を表す経済学の中核概念となった。",
     "etymology": "需（もとめる・必要とする・必要としてほしがる）と要（かなめ・必要・重要なこと）を組み合わせた漢語。「必要として求めること」という字義で、財・サービスに対する購買欲求を表す。",
-    "meaning_en": "the desire of consumers for a particular good or service at a given price.",
-    "meaning_ja": "ある価格において消費者が財・サービスを購入しようとする意欲・量。"
+    "meanings": [
+      {
+        "en": "The desire of consumers for a good or service at a given price.",
+        "ja": "ある価格において消費者が財・サービスを購入しようとする意欲・量。",
+        "example_en": "Demand for electric vehicles is growing rapidly.",
+        "example_ja": "電気自動車への需要が急速に増えている。"
+      },
+      {
+        "en": "An urgent or peremptory request.",
+        "ja": "緊急または断固とした要求・要請。",
+        "example_en": "The union made new demands on the management.",
+        "example_ja": "組合は経営陣に新たな要求を行った。"
+      }
+    ]
   },
   {
     "id": 68,
@@ -948,8 +1824,20 @@
     "year": null,
     "description": "supplyの訳語として明治期に経済学用語として定着した。英語supplyはラテン語supplere（満たす・補充する）に由来する。需要（demand）との対概念として「需要と供給」の形で経済学の基本語彙として定着した。「供給」は古来日本語にも「供え・給する」の意で存在したが、近代経済学の文脈で市場に財・サービスを提供する側の概念を指す術語として再定義された。",
     "etymology": "供（そなえる・提供する・供する）と給（くばる・とどける・給付する）を組み合わせた漢語。「必要なものを揃えて届けること」という字義で、市場への財・サービスの提供を表す。",
-    "meaning_en": "a quantity of goods or services offered for sale at a given price.",
-    "meaning_ja": "ある価格において生産者が財・サービスを提供しようとする量。"
+    "meanings": [
+      {
+        "en": "The quantity of goods or services offered for sale at a given price.",
+        "ja": "ある価格において生産者が財・サービスを提供しようとする量。",
+        "example_en": "The supply of clean water is essential for life.",
+        "example_ja": "清潔な水の供給は生命に不可欠である。"
+      },
+      {
+        "en": "A stock or amount of something available for use.",
+        "ja": "利用可能な物資の在庫・蓄え。",
+        "example_en": "Emergency supplies were delivered to the disaster area.",
+        "example_ja": "災害地域に緊急供給物資が届けられた。"
+      }
+    ]
   },
   {
     "id": 69,
@@ -962,8 +1850,20 @@
     "year": null,
     "description": "priceの訳語として明治期に経済学用語として定着した。英語priceはラテン語pretium（値段・報酬）に由来する。日本では古来「値段」「値」「相場」などの語が使われていたが、近代経済学の移入とともに「価格」が財・サービスの貨幣的評価を指す学術術語として整備された。物価・市場価格・均衡価格など複合語を形成し、ミクロ・マクロ経済学の基本概念として定着した。",
     "etymology": "価（あたい・値段・貨幣的評価）と格（おきて・基準・等級）を組み合わせた漢語。「価値の基準・定められた値段」という字義で、財の貨幣的評価額を表す。",
-    "meaning_en": "the amount of money expected, required, or given in payment for something.",
-    "meaning_ja": "財・サービスに対して支払われる、または要求される金銭的評価。"
+    "meanings": [
+      {
+        "en": "The amount of money required or given in exchange for something.",
+        "ja": "財・サービスに対して支払われる、または要求される金銭的評価。",
+        "example_en": "The price of oil has risen sharply.",
+        "example_ja": "石油の価格が急上昇した。"
+      },
+      {
+        "en": "An unwelcome experience, effort, or loss involved in achieving something.",
+        "ja": "何かを達成するために必要な不快な体験・努力・犠牲。（比喩的用法）",
+        "example_en": "Fame comes at a price.",
+        "example_ja": "名声には代償がある。"
+      }
+    ]
   },
   {
     "id": 70,
@@ -976,8 +1876,20 @@
     "year": null,
     "description": "tradeの訳語として幕末から明治期に定着した。「貿易」は古来中国語で物品の交換・交易を指す語として使われており、「貿」の字自体に「交換する・取り引きする」という意味がある。幕末の開国以来、外国との通商が本格化する中で「貿易」が対外的な商品取引を指す語として定着した。明治政府の殖産興業・輸出振興策を通じて「輸出入貿易」「自由貿易」など経済政策の中核用語として広まった。",
     "etymology": "貿（かえる・交換する・取り引きする）と易（かえる・とりひきする・容易にする）を組み合わせた漢語。「物を交換し取引すること」という字義で、国家間の商品取引を意味する。",
-    "meaning_en": "the action of buying and selling goods and services between countries.",
-    "meaning_ja": "国家間で財・サービスを売買する経済活動。"
+    "meanings": [
+      {
+        "en": "The buying and selling of goods and services between countries.",
+        "ja": "国家間で財・サービスを売買する経済活動。",
+        "example_en": "Japan's trade with the United States is substantial.",
+        "example_ja": "日本のアメリカとの貿易は相当な規模である。"
+      },
+      {
+        "en": "A job requiring manual skills and special training.",
+        "ja": "手仕事や特別な訓練を必要とする職業・手工業。（英語tradeの別義）",
+        "example_en": "Carpentry is a skilled trade.",
+        "example_ja": "大工は熟練した職人仕事（trade）である。"
+      }
+    ]
   },
   {
     "id": 71,
@@ -990,8 +1902,20 @@
     "year": null,
     "description": "exportの訳語として幕末から明治期に定着した。英語exportはラテン語exportare（外へ運び出す）に由来する。開国・通商条約締結とともに外国との取引が盛んになり、「輸出」が国内の財を外国に販売・移出する行為を指す語として広まった。明治政府の殖産興業・輸出振興策のもと生糸・陶磁器・茶などの輸出産業が発展する中で、輸入（import）との対概念として貿易用語に定着した。",
     "etymology": "輸（おくる・はこぶ・搬送する）と出（だす・外に出る・外部へ）を組み合わせた漢語。「国外へ運び出すこと」という字義で、国内の財・商品を外国へ搬出・販売することを表す。",
-    "meaning_en": "goods and services sold to another country.",
-    "meaning_ja": "国内で生産した財・サービスを外国に売ること。"
+    "meanings": [
+      {
+        "en": "Goods and services sold to another country.",
+        "ja": "国内で生産した財・サービスを外国に売ること。",
+        "example_en": "Japan's main exports include cars and electronics.",
+        "example_ja": "日本の主要輸出品には自動車と電子機器が含まれる。"
+      },
+      {
+        "en": "The spread of ideas, culture, or technology to other countries.",
+        "ja": "思想・文化・技術などを他国へ広めること。（比喩的用法）",
+        "example_en": "Japan exported popular culture through anime and manga.",
+        "example_ja": "日本はアニメや漫画を通じてポップカルチャーを輸出した。"
+      }
+    ]
   },
   {
     "id": 72,
@@ -1004,8 +1928,20 @@
     "year": null,
     "description": "importの訳語として幕末から明治期に定着した。英語importはラテン語importare（中へ運び込む）に由来する。輸出（export）と対をなす貿易用語で、外国の財を国内に購入・移入する行為を指す。明治初期の日本では西洋の機械・繊維製品などの輸入が急増し、貿易赤字解消と国産品振興が政策課題となった。輸出振興・輸入代替を柱とする殖産興業政策の文脈で「輸入」は経済・行政の基本用語として定着した。",
     "etymology": "輸（おくる・はこぶ・搬送する）と入（いれる・中に入る・国内へ）を組み合わせた漢語。「外から運び入れること」という字義で、外国の財・商品を国内に搬入・購入することを表す。",
-    "meaning_en": "goods and services brought into a country from another country.",
-    "meaning_ja": "外国で生産した財・サービスを自国に買い入れること。"
+    "meanings": [
+      {
+        "en": "Goods and services brought into a country from abroad.",
+        "ja": "外国で生産した財・サービスを自国に買い入れること。",
+        "example_en": "Japan imports large quantities of oil from the Middle East.",
+        "example_ja": "日本は中東から大量の石油を輸入している。"
+      },
+      {
+        "en": "The introduction of an idea or custom from another country.",
+        "ja": "外国から思想・慣習などを取り入れること。",
+        "example_en": "Baseball was an import from the United States.",
+        "example_ja": "野球はアメリカからの輸入（文化移入）だった。"
+      }
+    ]
   },
   {
     "id": 73,
@@ -1018,8 +1954,20 @@
     "year": 1871,
     "description": "currencyの訳語として明治4年（1871年）の新貨条例制定・円の導入とともに近代的な通貨制度が整備され、「通貨」が法定の流通貨幣を指す金融用語として定着した。英語currencyはラテン語currens（流れる・走る）に由来し、「流通するもの」を意味する。日本語「通貨」は「流通貨幣」の略であり、市場で広く使われる交換手段を指す。日本銀行設立（1882年）後は中央銀行券が主要通貨として流通した。",
     "etymology": "通（とおる・流通する・広く行きわたる）と貨（たから・財貨・貨幣）を組み合わせた漢語。「広く流通する貨幣」という字義で、「流通貨幣」の略称として法定の交換手段を表す。",
-    "meaning_en": "a system of money in general use in a particular country at a specific time.",
-    "meaning_ja": "特定の国や地域で流通・使用される法定の貨幣・お金の単位や体系。"
+    "meanings": [
+      {
+        "en": "A system of money in general use in a particular country.",
+        "ja": "特定の国や地域で流通・使用される法定の貨幣・お金の単位や体系。",
+        "example_en": "The euro is the common currency of most EU countries.",
+        "example_ja": "ユーロはほとんどのEU諸国の共通通貨である。"
+      },
+      {
+        "en": "The quality of being generally accepted or in use.",
+        "ja": "一般的に受け入れられ普及していること。（比喩的用法）",
+        "example_en": "The idea has gained currency among economists.",
+        "example_ja": "その考えは経済学者の間で通用するようになった。"
+      }
+    ]
   },
   {
     "id": 74,
@@ -1032,8 +1980,20 @@
     "year": null,
     "description": "financeの訳語として明治期に経済用語として定着した。英語financeはフランス語finance（決済・終決）に由来し、中世の徴税・資金調達の文脈で使われた。日本では「金融」が資金の貸借・流通を指す語として近代銀行制度の整備とともに普及した。日本銀行設立（1882年）や各種銀行法の制定を経て、金融機関・金融政策・金融市場などの複合語を形成しながら資本経済の専門用語として定着した。",
     "etymology": "金（かね・貨幣・資金）と融（とける・流れる・融通する）を組み合わせた漢語。「資金を融通すること」という字義で、貨幣・資本の流通・貸借を表す。",
-    "meaning_en": "the management of large amounts of money by governments, banks, or companies.",
-    "meaning_ja": "金融機関・企業・政府が資金を融通・運用・管理すること。"
+    "meanings": [
+      {
+        "en": "The management of large amounts of money by governments, banks, or companies.",
+        "ja": "金融機関・企業・政府が資金を融通・運用・管理すること。",
+        "example_en": "The global financial crisis affected economies worldwide.",
+        "example_ja": "世界的な金融危機は世界中の経済に影響した。"
+      },
+      {
+        "en": "The branch of economics and business dealing with investment, banking, and capital.",
+        "ja": "投資・銀行業・資本を扱う経済学・ビジネスの分野。",
+        "example_en": "She pursued a career in finance after graduating.",
+        "example_ja": "彼女は卒業後、金融の分野でのキャリアを追求した。"
+      }
+    ]
   },
   {
     "id": 75,
@@ -1046,8 +2006,20 @@
     "year": null,
     "description": "public financeの訳語として明治期に行政・経済用語として定着した。英語fiscalはラテン語fiscus（籠・国庫）に由来する。明治政府の近代的な税制・予算制度の整備とともに「財政」が国家の収入・支出・財源管理を指す語として普及した。大蔵省（現財務省）が財政を管轄し、明治期の殖産興業政策・軍備拡張の資金調達を通じて「財政」は国家運営の中心概念として定着した。",
     "etymology": "財（たから・財産・ざいさん）と政（まつりごと・政治・行政）を組み合わせた漢語。「国家財産の管理と行政」という字義で、国家の経済的収支管理・予算運営を表す。",
-    "meaning_en": "the branch of government that deals with taxes, expenditure, and public debt.",
-    "meaning_ja": "政府の税収・支出・公的債務の管理・運営に関わる経済政策。"
+    "meanings": [
+      {
+        "en": "The branch of government dealing with taxes, expenditure, and public debt.",
+        "ja": "政府の税収・支出・公的債務の管理・運営に関わる経済政策。",
+        "example_en": "The government's fiscal policy aimed to reduce the deficit.",
+        "example_ja": "政府の財政政策は赤字削減を目指した。"
+      },
+      {
+        "en": "The financial resources and management of an organization.",
+        "ja": "組織の財務資源の状況や管理。",
+        "example_en": "The municipality struggled with its public finances.",
+        "example_ja": "その自治体は財政難に苦しんでいた。"
+      }
+    ]
   },
   {
     "id": 76,
@@ -1060,8 +2032,20 @@
     "year": 1861,
     "description": "chemistryの訳語として文久元年（1861年）に川本幸民が翻訳書を「化学新書」と題したことが「化学」の語の初出とされる。それ以前は宇田川榕菴がオランダ語chemieを音訳した「舎密（セイミ）」が使われていた。「化学」という語は同時期の中国の「六合叢談」などで既に用いられており、川本はこれに倣った。明治5年（1872年）の学制公布で「化学」に統一され、物質の変化・組成を扱う学問名として標準化した。",
     "etymology": "化（かわる・変化する・変容する）と学（まなぶ・学問）を組み合わせた漢語。「物質の変化を研究する学問」という字義で、物質の組成・性質・変化を科学的に扱う学問を表す。",
-    "meaning_en": "the science that deals with the composition, structure, properties, and reactions of substances.",
-    "meaning_ja": "物質の組成・構造・性質・変化・反応を研究する自然科学の一分野。"
+    "meanings": [
+      {
+        "en": "The science of the composition, structure, properties, and reactions of substances.",
+        "ja": "物質の組成・構造・性質・変化・反応を研究する自然科学の一分野。",
+        "example_en": "Chemistry explains why iron rusts in the presence of water.",
+        "example_ja": "化学は鉄が水の存在下でなぜ錆びるかを説明する。"
+      },
+      {
+        "en": "A natural affinity or attraction between people.",
+        "ja": "人と人の間の自然な親和性・引力。（比喩的用法）",
+        "example_en": "There was an instant chemistry between the two actors.",
+        "example_ja": "二人の俳優の間には即座に化学反応（chemistry）があった。"
+      }
+    ]
   },
   {
     "id": 77,
@@ -1074,8 +2058,20 @@
     "year": null,
     "description": "biologyの訳語として明治期に定着した。英語biologyはギリシャ語bios（生命）とlogos（研究・学問）を合わせた語で、生命現象を研究する学問を指す。日本では「生物学」の略として「生物」が動植物・微生物など生命を持つ存在全般を指す語となった。明治5年（1872年）の学制とともに西洋自然科学が教育制度に組み込まれ、物理・化学と並ぶ自然科学の基幹分野として「生物学」の体系が整備された。",
     "etymology": "生（いきる・いのち・生命を持つ）と物（もの・存在・実体）を組み合わせた漢語。「生きているもの・命あるもの」という字義で、生命を持つ存在（動物・植物・微生物など）全般を指す。",
-    "meaning_en": "the study of living organisms, including their structure, function, growth, and evolution.",
-    "meaning_ja": "生命体の構造・機能・成長・進化・分布などを研究する学問。"
+    "meanings": [
+      {
+        "en": "A living organism; any living thing.",
+        "ja": "命を持つ存在（生き物）。動物・植物・微生物などすべての生命体。",
+        "example_en": "The ocean is home to millions of different organisms.",
+        "example_ja": "海は何百万もの異なる生物の生息地である。"
+      },
+      {
+        "en": "The study of living organisms (biology).",
+        "ja": "生命体の構造・機能・成長・進化などを研究する学問（生物学）。",
+        "example_en": "She studied biology to become a doctor.",
+        "example_ja": "彼女は医師になるために生物（学）を学んだ。"
+      }
+    ]
   },
   {
     "id": 78,
@@ -1088,8 +2084,20 @@
     "year": 1882,
     "description": "mathematicsの訳語として明治15年（1882年）に東京数学会社（現日本数学会）の訳語会においてmathematicsの訳語を「数学」とすることが議決された。それ以前は「算術」「算学」など複数の語が使われており、「数学」という語自体は江戸時代の和算書にも見られた。ギリシャ語mathemataは「学ばれるべきもの」を意味し、古代より数・量・形を扱う学問として発展してきた。",
     "etymology": "数（かず・数量・論理・ことわり）と学（まなぶ・学問）を組み合わせた漢語。「数量・論理を研究する学問」という字義を持ち、漢字の「数」には「論理・ことわり」という意味もある。",
-    "meaning_en": "the abstract study of number, quantity, structure, space, and change.",
-    "meaning_ja": "数・量・形・変化などを論理的・抽象的に研究する学問。"
+    "meanings": [
+      {
+        "en": "The abstract study of number, quantity, structure, space, and change.",
+        "ja": "数・量・形・変化などを論理的・抽象的に研究する学問。",
+        "example_en": "Mathematics is the language of the universe.",
+        "example_ja": "数学は宇宙の言語である。"
+      },
+      {
+        "en": "Calculation or computation as a practical skill.",
+        "ja": "実用的な計算・演算の技能。",
+        "example_en": "Everyday mathematics includes calculating change and budgeting.",
+        "example_ja": "日常的な数学にはお釣りの計算や予算管理が含まれる。"
+      }
+    ]
   },
   {
     "id": 79,
@@ -1102,8 +2110,20 @@
     "year": null,
     "description": "geographyの訳語として幕末から明治期に定着した。英語geographyはギリシャ語geo（大地）とgraphia（描写・記述）に由来し、「大地を記述する学問」を意味する。日本では江戸後期に「地理書」「地理誌」などの形で地誌の概念が存在したが、明治期に西洋近代地理学が導入されるにあたり「地理」が学問名・教科名として整備された。明治5年（1872年）の学制において「地理」は主要教科として位置づけられた。",
     "etymology": "地（ち・大地・土地）と理（ことわり・道理・しくみ）を組み合わせた漢語。「大地のしくみと道理を研究すること」という字義で、地表の自然・人文的事象を扱う学問を指す。",
-    "meaning_en": "the study of the physical features of the Earth and its atmosphere, and of human activity as it affects them.",
-    "meaning_ja": "地球の自然的特徴・環境および人間活動との関係を研究する学問。"
+    "meanings": [
+      {
+        "en": "The study of the physical features of the Earth and human activities.",
+        "ja": "地球の自然的特徴・環境および人間活動との関係を研究する学問。",
+        "example_en": "Geography explains why certain cultures develop in certain regions.",
+        "example_ja": "地理は特定の文化が特定の地域で発展する理由を説明する。"
+      },
+      {
+        "en": "The physical features and layout of a particular area.",
+        "ja": "特定の地域の地形・地物的特徴・配置。",
+        "example_en": "The geography of Japan includes many mountains and islands.",
+        "example_ja": "日本の地理は多くの山と島を含む。"
+      }
+    ]
   },
   {
     "id": 80,
@@ -1116,8 +2136,20 @@
     "year": null,
     "description": "historyの訳語として明治期に定着した。英語historyはギリシャ語historia（調査・知識・記録）に由来する。日本では「史」「史記」「歴代」などの語があったが、明治期に西洋の歴史学的方法論が導入されるにあたり「歴史」が過去の出来事の記録・研究を指す学術語として整備された。明治5年（1872年）の学制において「歴史」は主要教科として位置づけられ、近代的な歴史意識の形成に寄与した。",
     "etymology": "歴（へる・経過する・次々と経てきた）と史（ふみ・記録・歴史家）を組み合わせた漢語。「次々と経過してきた出来事の記録」という字義で、時間の経過とともに積み重なった事象の記録・研究を指す。",
-    "meaning_en": "the study of past events, particularly in human affairs.",
-    "meaning_ja": "過去の出来事、特に人間社会の出来事を研究・記録する学問。"
+    "meanings": [
+      {
+        "en": "The study of past events, particularly in human affairs.",
+        "ja": "過去の出来事、特に人間社会の出来事を研究・記録する学問。",
+        "example_en": "History teaches us about the mistakes of the past.",
+        "example_ja": "歴史は過去の過ちを教えてくれる。"
+      },
+      {
+        "en": "The whole series of past events connected with a particular person or thing.",
+        "ja": "特定の人・物・場所に関する一連の過去の出来事の記録。",
+        "example_en": "This building has a long history.",
+        "example_ja": "この建物は長い歴史を持つ。"
+      }
+    ]
   },
   {
     "id": 81,
@@ -1130,8 +2162,20 @@
     "year": null,
     "description": "literatureの訳語として明治期に定着した。英語literatureはラテン語littera（文字）に由来し、「文字による表現・著作物」を意味する。日本では古来「文学」は「文章・学問」を広く指す語として存在したが、明治期に西洋の文学概念が導入されるとともに小説・詩・戯曲などの芸術的言語表現を専門に指す語として再定義された。東京帝国大学に文学部が設置されるなど、アカデミックな領域としての文学が制度化された。",
     "etymology": "文（ふみ・文章・言語による表現）と学（まなぶ・学問）を組み合わせた漢語。「文章・言語表現を研究・実践する学問」という字義を持ち、古来は学問全般を指したが近代では芸術的言語表現を指す。",
-    "meaning_en": "written works, especially those considered of superior or lasting artistic merit.",
-    "meaning_ja": "優れた芸術的価値を持つ詩・小説・戯曲などの言語表現の総体。"
+    "meanings": [
+      {
+        "en": "Written works of lasting artistic merit, including novels, poetry, and drama.",
+        "ja": "優れた芸術的価値を持つ詩・小説・戯曲などの言語表現の総体。",
+        "example_en": "Japanese literature includes works by Natsume Soseki and Kawabata.",
+        "example_ja": "日本文学には夏目漱石や川端康成の作品が含まれる。"
+      },
+      {
+        "en": "The body of written works on a particular subject.",
+        "ja": "特定の主題に関する文献・著作物の集積。",
+        "example_en": "The academic literature on climate change is vast.",
+        "example_ja": "気候変動に関する学術文献は膨大である。"
+      }
+    ]
   },
   {
     "id": 82,
@@ -1144,8 +2188,20 @@
     "year": 1878,
     "description": "psychologyの訳語として西周が明治11年（1878年）にJ. ヘイブンの著作を「心理学」と題して翻訳し定着した。英語psychologyはギリシャ語psyche（魂・心）とlogos（学問）に由来する。西周はもともと「性理学」と訳していたが後に「心理学」に改め、この略称「心理」が心の働き・精神現象を科学的に研究する学問の名称として明治期に普及した。「哲学」「芸術」などと並ぶ西周の訳語創出の代表例の一つである。",
     "etymology": "心（こころ・精神・内的な働き）と理（ことわり・道理・しくみ）を組み合わせた漢語。「心のしくみと道理を研究すること」という字義で、精神・意識現象を扱う学問を指す。",
-    "meaning_en": "the scientific study of the human mind and its functions.",
-    "meaning_ja": "人間の心・行動・精神的プロセスを科学的に研究する学問。"
+    "meanings": [
+      {
+        "en": "The scientific study of the human mind and its functions.",
+        "ja": "人間の心・行動・精神的プロセスを科学的に研究する学問。",
+        "example_en": "Psychology helps us understand why people behave as they do.",
+        "example_ja": "心理（学）は人々がなぜそのように行動するかを理解するのを助ける。"
+      },
+      {
+        "en": "The mental characteristics or attitude of a person or group.",
+        "ja": "個人や集団の精神的な特性・態度・心の働き。",
+        "example_en": "The psychology of crowds is different from individual behavior.",
+        "example_ja": "群衆の心理は個人の行動とは異なる。"
+      }
+    ]
   },
   {
     "id": 83,
@@ -1158,8 +2214,20 @@
     "year": null,
     "description": "industryの工業的意味における訳語として明治期に定着した。英語industryはラテン語industria（勤勉・精力）に由来し、近代では製造業・工場生産を指すようになった。明治政府の殖産興業政策のもと近代的な工場制機械工業の育成が図られる中で「工業」が製造業を指す語として定着した。「農業」「商業」との対概念として産業分類の基本語彙となり、「軽工業」「重工業」など複合語を形成しながら近代日本の産業構造を表す語として広まった。",
     "etymology": "工（たくみ・ものをつくる・工作する）と業（わざ・生業・なりわい）を組み合わせた漢語。「工作・製造を行う産業」という字義で、機械・工場を用いた製造業を指す。",
-    "meaning_en": "the branch of manufacture and trade based on the processing of raw materials and the production of goods.",
-    "meaning_ja": "原料を加工・製造して工業製品を生産する経済活動の分野。"
+    "meanings": [
+      {
+        "en": "The branch of manufacture and trade based on factory production.",
+        "ja": "原料を加工・製造して工業製品を生産する経済活動の分野。",
+        "example_en": "The industrial revolution transformed manufacturing.",
+        "example_ja": "産業革命は工業を変革した。"
+      },
+      {
+        "en": "A large-scale commercial enterprise; industrial production as a whole.",
+        "ja": "大規模な商業的事業・産業的生産の全体。",
+        "example_en": "Heavy industry includes steel and shipbuilding.",
+        "example_ja": "重工業には鉄鋼業や造船業が含まれる。"
+      }
+    ]
   },
   {
     "id": 84,
@@ -1172,8 +2240,20 @@
     "year": null,
     "description": "agricultureの訳語として明治期に定着した。英語agricultureはラテン語agri（土地・畑）とcultura（耕作・育成）に由来し、「土地の耕作」を意味する。「農業」という語自体は古来日本語に存在したが、明治期に西洋農学が導入されるとともに科学的な農業技術・農業経済学の概念を包含する語として再定義された。明治政府は農業近代化を殖産興業の柱の一つとして位置づけ、農学校・農事試験場を設立して近代農学の普及を図った。",
     "etymology": "農（たがやす・農耕する・農民）と業（わざ・生業・なりわい）を組み合わせた漢語。「農耕を行う産業・生業」という字義で、土地を耕して食物や原料を生産する産業を指す。",
-    "meaning_en": "the science or practice of farming, including cultivation of the soil for the growing of crops and rearing of animals.",
-    "meaning_ja": "土地を耕して作物を育て、家畜を飼育する産業・技術・学問。"
+    "meanings": [
+      {
+        "en": "The science and practice of farming, including cultivation of soil and rearing of animals.",
+        "ja": "土地を耕して作物を育て、家畜を飼育する産業・技術・学問。",
+        "example_en": "Modern agriculture uses technology to increase yields.",
+        "example_ja": "現代農業は収穫量を増やすために技術を利用する。"
+      },
+      {
+        "en": "The economic sector dealing with the production of food and raw materials.",
+        "ja": "食料・原材料の生産を扱う経済部門。農業セクター。",
+        "example_en": "Agriculture accounts for a small share of Japan's GDP.",
+        "example_ja": "農業は日本のGDPの小さな割合を占める。"
+      }
+    ]
   },
   {
     "id": 85,
@@ -1186,8 +2266,20 @@
     "year": null,
     "description": "medicineの訳語として明治期に定着した。英語medicineはラテン語medicina（医術・薬）に由来する。幕末から明治にかけて西洋医学（蘭学を経てドイツ医学）が急速に導入され、「医学」が西洋科学に基づく医療・医術の研究を指す語として定着した。明治9年（1876年）に東京医学校（後の東京大学医学部）が設置され、ドイツ医学を範とした近代医学教育が整備された。「医学」は漢方医学に対する西洋医学をも含む包括的な学問名として用いられた。",
     "etymology": "医（いやす・治療する・医師・医術）と学（まなぶ・学問）を組み合わせた漢語。「病を治す術と学問」という字義で、人体・疾病・治療を科学的に研究する学問を指す。",
-    "meaning_en": "the science or practice of the diagnosis, treatment, and prevention of disease.",
-    "meaning_ja": "疾病の診断・治療・予防を研究・実践する学問・技術の体系。"
+    "meanings": [
+      {
+        "en": "The science or practice of the diagnosis, treatment, and prevention of disease.",
+        "ja": "疾病の診断・治療・予防を研究・実践する学問・技術の体系。",
+        "example_en": "Modern medicine has dramatically increased life expectancy.",
+        "example_ja": "近代医学は平均寿命を劇的に延ばした。"
+      },
+      {
+        "en": "A drug or other preparation taken to treat disease.",
+        "ja": "疾病を治療するための薬・製剤。（medicine の別義）",
+        "example_en": "The doctor prescribed medicine for the infection.",
+        "example_ja": "医師は感染症のために薬を処方した。"
+      }
+    ]
   },
   {
     "id": 86,
@@ -1200,8 +2292,20 @@
     "year": 1869,
     "description": "religionの訳語として明治2年（1869年）にドイツ北部連邦との修好通商条約においてReligionsübungの訳語に「宗教」が選ばれたことで定着した。それ以前は「宗旨」「宗法」「法教」などの語も使われた。1884年の『改定増補哲学字彙』への収録を機に「宗教一般」の意味で広く普及した。「宗教」はもともと仏教用語で「宗の教え（宗派の教義）」を意味したが、religionの訳語として信仰・超越的存在への帰依という普遍的な概念を表す語に転化した。",
     "etymology": "宗（みなもと・宗派・崇める対象・根本）と教（おしえ・教義・教え）を組み合わせた漢語・仏教語。「宗派の教え」という仏教的字義が、信仰・超越的存在への帰依という宗教一般を指す語に転用された。",
-    "meaning_en": "the belief in and worship of a superhuman controlling power, especially a personal God or gods.",
-    "meaning_ja": "超自然的な存在・力への信仰や崇拝、およびそれに基づく実践・制度の総体。"
+    "meanings": [
+      {
+        "en": "The belief in and worship of a superhuman controlling power, especially a personal God.",
+        "ja": "超自然的な存在・力への信仰や崇拝、およびそれに基づく実践・制度の総体。",
+        "example_en": "Religion plays a central role in many people's lives.",
+        "example_ja": "宗教は多くの人の生活において中心的な役割を果たす。"
+      },
+      {
+        "en": "A pursuit or interest followed with great devotion.",
+        "ja": "大きな献身をもって追求される関心・活動。（比喩的用法）",
+        "example_en": "For him, football was almost a religion.",
+        "example_ja": "彼にとって、サッカーはほとんど宗教だった。"
+      }
+    ]
   },
   {
     "id": 87,
@@ -1214,8 +2318,20 @@
     "year": null,
     "description": "philosopherの訳語として「哲学」（西周の造語、1874年）に「者」を加えた形で自然に定着した。西周は『百一新論』（1874年）において「哲学」を造語し、古代ギリシャ以来の「知恵を愛する者（フィロソフォス）」の概念を表した。「哲学者」はその実践者・探究者を指す語として形成された。明治期の文明開化とともに西洋哲学が導入され、思想・哲学を専門とする知識人を指す用語として定着した。",
     "etymology": "哲（かしこい・物事の道理に通じた・賢明な）と学（まなぶ・学問）と者（もの・ひと・その道の人）を組み合わせた漢語。「道理に通じた学問を修める人」という字義で、西洋語philosopherのギリシャ語原義「知恵を愛する者」に対応する。",
-    "meaning_en": "a person who studies or is an expert in philosophy.",
-    "meaning_ja": "哲学を専門的に研究・探究する人物。"
+    "meanings": [
+      {
+        "en": "A person who studies or is an expert in philosophy.",
+        "ja": "哲学を専門的に研究・探究する人物。",
+        "example_en": "Aristotle was one of the greatest philosophers of ancient Greece.",
+        "example_ja": "アリストテレスは古代ギリシャ最大の哲学者の一人だった。"
+      },
+      {
+        "en": "A person who behaves with calm, rational detachment when facing difficulty.",
+        "ja": "困難に直面しても冷静・理性的に振る舞う人。（比喩的用法）",
+        "example_en": "He took the bad news like a philosopher.",
+        "example_ja": "彼は悪い知らせを哲学者のように受け止めた。"
+      }
+    ]
   },
   {
     "id": 88,
@@ -1228,8 +2344,20 @@
     "year": null,
     "description": "researchの訳語として明治期に学術用語として定着した。英語researchはフランス語recherche（再び探す・徹底的に調べる）に由来する。日本語の「研究」は「研」（磨く・深く掘り下げる）と「究」（きわめる）から成り、古来から学問・技術の深い探求を意味する語として存在した。明治期に西洋の科学的研究方法論が導入されるとともに、大学・研究機関における組織的な学術探求を指す語として定着し、「研究所」「研究者」などの複合語も形成した。",
     "etymology": "研（とぐ・みがく・深く掘り下げる）と究（きわめる・突き詰める・奥深くまで探る）を組み合わせた漢語。「徹底的に磨き、究め尽くすこと」という字義で、事物の本質を深く探求する活動を表す。",
-    "meaning_en": "the systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.",
-    "meaning_ja": "事実の確立や新しい知見を得るために行う組織的・体系的な探究・調査。"
+    "meanings": [
+      {
+        "en": "The systematic investigation of materials and sources to establish facts.",
+        "ja": "事実の確立や新しい知見を得るために行う組織的・体系的な探究・調査。",
+        "example_en": "The research team published their findings in a journal.",
+        "example_ja": "研究チームはその成果を雑誌に発表した。"
+      },
+      {
+        "en": "The application of inquiry or investigation to a topic.",
+        "ja": "特定のテーマについての調査・探求の活動。",
+        "example_en": "She spent years researching the history of the Meiji era.",
+        "example_ja": "彼女は明治時代の歴史を研究するのに何年も費やした。"
+      }
+    ]
   },
   {
     "id": 89,
@@ -1242,8 +2370,20 @@
     "year": 1875,
     "description": "長与専斎が欧米視察から帰国後、hygiene（英・独）の訳語として荘子の古典語から採用した語。1875年に医務局が内務省へ移管され「衛生局」と改称された際に公式に定着した。長与は自伝で、荘子「庚桑楚篇」の「衛生の経」という語を見つけ、原義とは異なるが字が雅で発音も良いとして選んだと述べている。もともと個人の生命養生を指した古典語を、国家が組織的に国民の健康を守るという近代的な公衆衛生の概念に転用した点が独創的であり、後に中国・朝鮮にも逆輸出された。",
     "etymology": "衛（まもる・護る）と生（いのち・生命）を組み合わせた漢語。「生命を守る・健康を護る」という字義で、荘子「庚桑楚篇」の「衛生の経（生を養うの道）」に由来する。英語hygieneはギリシャ神話の健康の女神ヒュギエイアに由来する。",
-    "meaning_en": "conditions or practices conducive to maintaining health and preventing disease.",
-    "meaning_ja": "健康を維持し疾病を予防するための環境・行動・習慣に関する知識や実践。"
+    "meanings": [
+      {
+        "en": "Conditions or practices conducive to maintaining health and preventing disease.",
+        "ja": "健康を維持し疾病を予防するための環境・行動・習慣に関する知識や実践。",
+        "example_en": "Good hygiene includes regular handwashing.",
+        "example_ja": "良い衛生習慣には定期的な手洗いが含まれる。"
+      },
+      {
+        "en": "Public health measures designed to protect community health.",
+        "ja": "地域の健康を守るための公衆衛生措置。",
+        "example_en": "The sanitation system prevents the spread of waterborne diseases.",
+        "example_ja": "衛生システムは水系感染症の拡大を防ぐ。"
+      }
+    ]
   },
   {
     "id": 90,
@@ -1256,8 +2396,26 @@
     "year": 1880,
     "description": "西洋のキリスト教的愛概念（love / agapē）の訳語として定着した語。もともと日本語の「愛」は仏教的な執着・煩悩のニュアンスを持ち、16世紀に来日したキリスト教宣教師たちはあえて「ご大切」などを用いて避けていた。明治期の聖書翻訳委員会（ヘボン・ブラウンら）は中国語聖書の訳語に倣ってあっさりと「愛」を採用し、1880年完成の明治元訳新約聖書で定着した。これ以降「愛」は無私の慈愛・神の愛・人間同士の深い情愛を含む広義の概念として普及し、「恋愛」「愛情」「愛国」など多くの複合語の核にもなった。",
     "etymology": "古来より漢字圏に存在した語で、「心が気にかかる・執着する・大切にする」を意味した。古代中国語では「仁愛・慈愛」の意で用いられ、仏教では渇愛（タンハー）の訳として煩悩的な意味合いも持つ。ギリシャ語 agapē は神の無償の愛を意味し、これに「愛」を当てることで語義が大きく拡張された。",
-    "meaning_en": "an intense feeling of deep affection; a great interest and pleasure in something.",
-    "meaning_ja": "深い愛情・慈愛の感情。キリスト教では神の人への愛（アガペー）を指す。"
+    "meanings": [
+      {
+        "en": "An intense feeling of deep affection for another person.",
+        "ja": "他者への深い情愛・愛着の感情。",
+        "example_en": "A mother's love for her child is unconditional.",
+        "example_ja": "子への母の愛は無条件である。"
+      },
+      {
+        "en": "In Christian theology, God's benevolent love for humanity (agapē).",
+        "ja": "キリスト教神学において、神の人への慈悲深い愛（アガペー）。",
+        "example_en": "In the New Testament, agapē is described as God's love for all people.",
+        "example_ja": "新約聖書においてアガペー（愛）は神のすべての人への愛として描かれる。"
+      },
+      {
+        "en": "A great interest in and enjoyment of something.",
+        "ja": "何かへの強い関心・情熱・愛着。",
+        "example_en": "Her love of music led her to study at a conservatory.",
+        "example_ja": "音楽への愛が彼女を音楽院で学ぶことへと導いた。"
+      }
+    ]
   },
   {
     "id": 91,
@@ -1270,8 +2428,20 @@
     "year": 1874,
     "description": "英語characterの訳語として明治初期に定着した語。明治7年（1874年）頃、阿部泰蔵がフランシス・ウェーランドの倫理学書を『修身論』として訳し文部省から刊行した際に使用されたとされる。当初は「品行」「品格」なども競合したが、明治中期以降に教育・倫理学の場で「品性」が定着した。スマイルズ『Self-Help』の訳書『西国立志編』でも再訳を経て品性が普及し、後にヘルバルト派教育学の影響でも重視された語である。",
     "etymology": "「品」（人としての等級・品格）と「性」（生まれつきの性質・本性）から成る漢語で、「人の本来的な品位・性質」を意味する。英語characterはギリシャ語kharaktēr（刻まれた印・特徴）に由来し、道徳的な人格を指す意味で用いられた。",
-    "meaning_en": "the mental and moral qualities distinctive to an individual.",
-    "meaning_ja": "個人の道徳的・精神的な特質・性格・品位。"
+    "meanings": [
+      {
+        "en": "The mental and moral qualities distinctive to an individual.",
+        "ja": "個人の道徳的・精神的な特質・性格・品位。",
+        "example_en": "A person of strong character is admired by others.",
+        "example_ja": "強い品性を持つ人は他者から尊敬される。"
+      },
+      {
+        "en": "The moral strength or integrity of a person.",
+        "ja": "人の道徳的な強さ・誠実さ・品位。",
+        "example_en": "Good character involves honesty and compassion.",
+        "example_ja": "良い品性には誠実さと思いやりが含まれる。"
+      }
+    ]
   },
   {
     "id": 92,
@@ -1284,8 +2454,20 @@
     "year": 1871,
     "description": "英語characterの訳語として明治初期に中村正直が用いた語。明治4年（1871年）刊行のサミュエル・スマイルズ『Self-Help』の翻訳書『西国立志編』において、道徳的な人格・品位を意味するcharacterの訳として「品行」を当てた。儒学的な語彙である「品行」を充てることで、西洋の自助・修養思想を日本の読者に自然に受容させることに成功し、明治初期のベストセラーとなった。後に「品性」が同概念の訳語として広まるにつれ、「品行」は行動・振る舞いの面を強調する語として分化していった。",
     "etymology": "「品」（等級・品位・人としての格）と「行」（行い・ふるまい・実践）を組み合わせた古典漢語。「人の行いの品格・品位ある振る舞い」を意味し、中国古典にも用例がある既存の漢語を西洋概念の訳語に転用した。",
-    "meaning_en": "the moral behavior or conduct of a person.",
-    "meaning_ja": "個人の行動・ふるまいに現れる道徳的な性格・素行。"
+    "meanings": [
+      {
+        "en": "The moral behavior or conduct of a person.",
+        "ja": "個人の行動・ふるまいに現れる道徳的な性格・素行。",
+        "example_en": "His conduct throughout the trial was exemplary.",
+        "example_ja": "裁判を通じた彼の品行は模範的だった。"
+      },
+      {
+        "en": "The way in which one conducts oneself; behavior in a social context.",
+        "ja": "社会的文脈における自己の振る舞い・処世。",
+        "example_en": "Good conduct at school is expected of all students.",
+        "example_ja": "学校での良い品行はすべての生徒に期待されている。"
+      }
+    ]
   },
   {
     "id": 93,
@@ -1298,8 +2480,20 @@
     "year": null,
     "description": "英語constantの数学訳語として明治期に定着した語。1877年設立の東京数学会社が1880年代に組織した訳語会において、西洋数学の用語を系統的に和訳する作業の一環として整備されたと考えられる。物理学では同概念を「常数」と呼ぶこともあり、分野によって使い分けられた時期もあったが、数学・代数学の文脈では「定数」が定着した。今日では数学のみならず物理・プログラミングなど幅広い分野で「変化しない固定値」を指す語として広く用いられる。",
     "etymology": "「定」（さだまる・一定の・固定した）と「数」（かず・すうち）を組み合わせた漢語で、「変化しない固定された数値」を意味する。英語constantはラテン語constans（固定して立つ・安定した）に由来し、動かない・変わらないという字義を「定」で表現した。",
-    "meaning_en": "a quantity or number that remains the same throughout a calculation or experiment.",
-    "meaning_ja": "変化しない固定した値や量。数学・科学で用いられる一定の定数。"
+    "meanings": [
+      {
+        "en": "A quantity or number that remains the same throughout a calculation.",
+        "ja": "変化しない固定した値や量。数学・科学で用いられる一定の定数。",
+        "example_en": "Pi is a mathematical constant approximately equal to 3.14159.",
+        "example_ja": "πは約3.14159に等しい数学的定数である。"
+      },
+      {
+        "en": "In programming, a named value that cannot be changed during execution.",
+        "ja": "プログラミングにおいて、実行中に変更できない名前付きの値。",
+        "example_en": "Use constants for values that should not change in the program.",
+        "example_ja": "プログラムで変更すべきでない値には定数を使う。"
+      }
+    ]
   },
   {
     "id": 94,
@@ -1312,8 +2506,20 @@
     "year": null,
     "description": "心理的な苦悶・煩悶を意味する古典漢語で、明治期の文学・心理学翻訳においてanguishやtormentなど西洋語に対応する語として多用された。二葉亭四迷の『浮雲』（1887年）をはじめとする明治近代小説にも頻出し、西洋の内面心理を表現する語彙として広く定着した。それ以前から漢詩文で使われた既存の語だが、明治期に翻訳文学・心理学の場で西洋的な精神苦悩の概念と結びつくことで語感が洗練され、近代日本語における重要な感情語彙の一つとなった。",
     "etymology": "「懊」（おう・もだえる・心が乱れる）と「悩」（のう・なやむ・苦しむ）を組み合わせた古典漢語。「心が乱れてもだえ苦しむ」という字義で、中国古典に由来する表現。英語anguishはラテン語angustia（狭さ・窮迫）に由来する。",
-    "meaning_en": "severe mental or physical suffering or pain.",
-    "meaning_ja": "深い苦悩・苦しみ・悲しみの精神状態。"
+    "meanings": [
+      {
+        "en": "Severe mental or physical suffering; anguish or torment.",
+        "ja": "深い苦悩・苦しみ・悲しみの精神状態。",
+        "example_en": "He was tormented by anguish over his decision.",
+        "example_ja": "彼は自分の決断に対する懊悩で苦しんだ。"
+      },
+      {
+        "en": "A state of extreme distress or anxiety.",
+        "ja": "極度の苦悩・不安の状態。もだえ悩むこと。",
+        "example_en": "The anguish of losing a loved one is profound.",
+        "example_ja": "愛する人を失う懊悩は深い。"
+      }
+    ]
   },
   {
     "id": 95,
@@ -1326,8 +2532,20 @@
     "year": 1857,
     "description": "安政4年（1857年）、緒方洪庵がドイツ人医師フーフェランドの内科学書をオランダ語経由で翻訳した『扶氏経験遺訓』において、Phthisis tuberculosaの訳語として「結核肺労」を用いたのが日本語「結核」の嚆矢とされる。英語tuberculosisがラテン語tuberculum（小さな結節）に由来するのに対し、「結核」は中国医学でリンパ節結核（瘰癧）を指す漢語を転用したもので、核（しこり）を結ぶ肉眼的所見から命名されている。明治期以降に西洋医学の普及とともに一般に広まり、国民病として社会的認知を得た。",
     "etymology": "「結」（むすぶ・固まる）と「核」（たね・かたまり・しこり）を組み合わせた漢語。リンパ節が腫れてかたまりを形成する様子から命名。英語tuberculosisはラテン語tuberculum（小さな瘤・結節）の縮小形に由来する。",
-    "meaning_en": "an infectious disease caused by the bacterium Mycobacterium tuberculosis, primarily affecting the lungs.",
-    "meaning_ja": "結核菌による感染症で、主に肺を侵す。長期療養を要することが多い。"
+    "meanings": [
+      {
+        "en": "An infectious disease caused by Mycobacterium tuberculosis, primarily affecting the lungs.",
+        "ja": "結核菌による感染症で、主に肺を侵す。長期療養を要することが多い。",
+        "example_en": "Tuberculosis was once the leading cause of death in many countries.",
+        "example_ja": "結核はかつて多くの国で死因の首位だった。"
+      },
+      {
+        "en": "A nodular lesion or growth caused by tuberculosis bacteria.",
+        "ja": "結核菌によって生じる結節性の病変・肉芽腫。（病理学的用法）",
+        "example_en": "Tubercles appear in the lungs during infection.",
+        "example_ja": "感染中、肺に結核（結節）が現れる。"
+      }
+    ]
   },
   {
     "id": 96,
@@ -1340,8 +2558,20 @@
     "year": null,
     "description": "英語characterの訳語として明治初期に品行・品性とともに競合した古典漢語。人物の持つ品位・質・格という側面を表す語として用いられ、品行が道徳的行動面、品性が本来の性質面を強調するのに対し、品格は人物全体の格式・品位・質を包括的に指す語として使われた。訳語競合の末に品性・品行がそれぞれの意味領域に定着した後も、品格は今日まで「人としての品位・格の高さ」を意味する語として広く使われ続けており、2005年の藤原正彦『国家の品格』のベストセラーにより再び脚光を浴びた。",
     "etymology": "「品」（品位・等級・人としての質）と「格」（等級・基準・品位・地位）を組み合わせた古典漢語。「人としての品位・格式・質の高さ」を字義とし、中国古典に由来する既存語を明治期の翻訳文脈に転用した。",
-    "meaning_en": "the quality of being worthy of esteem or respect; a dignified manner.",
-    "meaning_ja": "品位・威厳・人格的な高さや気高さ。"
+    "meanings": [
+      {
+        "en": "The quality of being worthy of esteem or respect; dignity.",
+        "ja": "品位・威厳・人格的な高さや気高さ。",
+        "example_en": "She handled the crisis with great dignity.",
+        "example_ja": "彼女は大きな品格をもって危機に対処した。"
+      },
+      {
+        "en": "High moral standards and social respectability.",
+        "ja": "高い道徳的水準と社会的品位・格調。",
+        "example_en": "The school prides itself on the quality of its students.",
+        "example_ja": "その学校は生徒の品格の高さを誇りにしている。"
+      }
+    ]
   },
   {
     "id": 97,
@@ -1354,8 +2584,26 @@
     "year": null,
     "description": "英語personalityおよびドイツ語Persönlichkeitの訳語として明治期に成立した哲学用語。カントが道徳的主体としての人間の自律的な資格をPersönlichkeitと呼んだことを受け、井上哲次郎らによって「人格」という訳語が整備された。1881年刊行の『哲学字彙』では「人品」が当てられていたが、その後「人格」が定着した。大正期には阿部次郎の『三太郎の日記』（1914年）などに見られる人格主義思想の流行を通じて、哲学用語から一般語へと広く普及した。",
     "etymology": "「人」（ひと・人間）と「格」（等級・資格・地位・品位）を組み合わせた漢語で、「人間としての格・品位・道徳的資格」を意味する。英語personalityはラテン語persona（仮面・役柄・人格）に、ドイツ語Persönlichkeitも同語源に由来する。",
-    "meaning_en": "the quality or fact of being an individual; the complex of characteristics that distinguishes an individual.",
-    "meaning_ja": "個人としての独自性・主体性・人格的統一性を持つ存在の性質。"
+    "meanings": [
+      {
+        "en": "The combination of characteristics or qualities that form an individual's distinctive character.",
+        "ja": "個人としての独自性・主体性・人格的統一性を持つ存在の性質。",
+        "example_en": "She has a warm and generous personality.",
+        "example_ja": "彼女は温かく寛大な人格を持つ。"
+      },
+      {
+        "en": "In Kantian ethics, the quality of being a rational, autonomous moral agent.",
+        "ja": "カント倫理学において、理性的・自律的な道徳的主体としての資格。",
+        "example_en": "Kant argued that all persons have equal moral worth as rational beings.",
+        "example_ja": "カントはすべての人間が理性的存在として等しい道徳的価値を持つと主張した。"
+      },
+      {
+        "en": "A character played by an actor; a distinctive role in a narrative.",
+        "ja": "俳優が演じる役柄・物語における個性的な人物。（比喩的用法）",
+        "example_en": "The villain has a complex personality in the novel.",
+        "example_ja": "その小説の悪役は複雑な人格を持つ。"
+      }
+    ]
   },
   {
     "id": 98,
@@ -1368,8 +2616,26 @@
     "year": 1876,
     "description": "明治9年（1876年）、陸軍少佐・酒井忠恕がフランス語軍事マニュアルを訳した『仏国歩兵陣中要務実地演習軌典』において、renseignement（敵情に関する報知）の訳語として初めて用いた語。当初は「敵の情状を報知する」という純軍事的な意味で使われ、明治36年頃に森鷗外がクラウゼヴィッツ『戦争論』を訳した際にドイツ語Nachrichtにも「情報」を充てた。明治38年（1905年）に一般辞書へ初掲載され、戦後の情報科学・通信技術の発展とともに英語informationの訳語として広く定着した。",
     "etymology": "「情」（様子・実情・内容）と「報」（しらせる・告げる・報知）を組み合わせた語で、「情状の報知」を字義とする。敵の状況を知らせる軍事的文脈から生まれ、現代では英語informationの訳語として定着している。",
-    "meaning_en": "facts provided or learned about something or someone; news or intelligence.",
-    "meaning_ja": "ある事柄に関する事実・知識・データ・知らせ。"
+    "meanings": [
+      {
+        "en": "Facts or knowledge provided or learned about something or someone.",
+        "ja": "ある事柄に関する事実・知識・データ・知らせ。",
+        "example_en": "The internet provides access to vast amounts of information.",
+        "example_ja": "インターネットは膨大な情報へのアクセスを提供する。"
+      },
+      {
+        "en": "Intelligence or news, especially in a military context.",
+        "ja": "特に軍事的文脈における情報・諜報・スパイ活動。（本来の語義）",
+        "example_en": "Military intelligence was crucial to the operation's success.",
+        "example_ja": "軍事情報は作戦の成功に不可欠だった。"
+      },
+      {
+        "en": "Data processed or stored by a computer system.",
+        "ja": "コンピュータシステムで処理・保存されるデータ。（情報技術用法）",
+        "example_en": "Information technology connects people around the world.",
+        "example_ja": "情報技術は世界中の人々をつなぐ。"
+      }
+    ]
   },
   {
     "id": 99,
@@ -1382,8 +2648,20 @@
     "year": 1872,
     "description": "明治5年（1872年）の学制公布により、小学校の教科名として「修身」が制定されたのが訳語としての初出とされる。翻訳語としての普及には、明治7年（1874年）に阿部泰蔵がアメリカ人牧師フランシス・ウェーランドの倫理学書『Elements of Moral Science』を文部省刊行の教科書『修身論』として訳出したことが大きく貢献した。当初は西洋近代倫理学（moral science）の翻訳概念として国際的な内容を持っていたが、明治23年（1890年）の教育勅語発布以降は儒教的・国家主義的道徳教育の科目として変質し、1945年まで小学校で必修科目として教えられた。",
     "etymology": "儒教の四書の一つ「大学」（礼記所収）に由来する古典漢語。「大学」の八条目「修身・斉家・治国・平天下」の冒頭に位置し、「身を修める」すなわち自己の行いや徳を磨くことを意味する。「修」（おさめる・みがく）と「身」（からだ・自己）を組み合わせた語。",
-    "meaning_en": "the process of forming a person's moral character; instruction in moral principles.",
-    "meaning_ja": "道徳的な人格を形成し、正しい行いを教え育てること。"
+    "meanings": [
+      {
+        "en": "The process of cultivating moral character; self-improvement through ethical practice.",
+        "ja": "道徳的な人格を形成し、正しい行いを教え育てること。",
+        "example_en": "Self-cultivation was emphasized in Confucian education.",
+        "example_ja": "修身（自己陶冶）は儒教的教育で重視された。"
+      },
+      {
+        "en": "A school subject teaching ethics and moral conduct, taught in prewar Japan.",
+        "ja": "戦前の日本で教えられた道徳教育の教科。",
+        "example_en": "Moral education was a compulsory subject in prewar Japanese schools.",
+        "example_ja": "修身は戦前の日本の学校で必修科目だった。"
+      }
+    ]
   },
   {
     "id": 100,
@@ -1396,8 +2674,20 @@
     "year": 1881,
     "description": "「学生」はもと律令制のもとで大学寮・国学に学ぶ者を「がくしょう」と呼んだ古典漢語に由来し、近世には「がくせい」と読まれ学問をする者一般を指すようになっていた。明治5年（1872年）の学制発布当初、すべての学習者は「生徒」と総称されたが、明治14年（1881年）に東京大学が「外国では大学に学ぶ者と其れ以下の学校に学ぶ者の間に名称の差別あるに鑑み」として本科学習者を「学生」と正式に称することを定め、英語studentの訳語として制度的に定着した。",
     "etymology": "「学」（まなぶ・学問）と「生」（ひと・若者）を組み合わせた古典漢語。律令制の大学寮に学ぶ者を「学生（がくしょう）」と呼んだ用法に由来し、近世以降「がくせい」と読み替えられた。英語studentはラテン語studere（熱心に取り組む・励む）に由来する。",
-    "meaning_en": "a person who is studying at a university or other educational institution.",
-    "meaning_ja": "大学などの高等教育機関で学んでいる人。"
+    "meanings": [
+      {
+        "en": "A person who is studying at a university or other educational institution.",
+        "ja": "大学などの高等教育機関で学んでいる人。",
+        "example_en": "Students from all over the world study at this university.",
+        "example_ja": "世界中からの学生がこの大学で学んでいる。"
+      },
+      {
+        "en": "A person who is eager to learn.",
+        "ja": "熱心に学ぼうとする人・学ぶ者。",
+        "example_en": "He is a lifelong student of philosophy.",
+        "example_ja": "彼は哲学の生涯学習者（学生）だ。"
+      }
+    ]
   },
   {
     "id": 101,
@@ -1410,8 +2700,20 @@
     "year": 1880,
     "description": "明治13年（1880年）、牧師・小崎弘道が東京キリスト教青年会（東京YMCA）の創設に際し、\"Young Men's Christian Association\"を「基督教青年会」と翻訳した際に\"Young Men\"の訳語として造語した語。造語にあたっては唐詩選の「青雲の志」に着想を得たとも言われる。それ以前の日本には「若者」「若衆」などの語はあったが、近代的な青年期という概念は存在せず、この訳語の普及とともに西洋由来の青年期という発達段階の概念が日本社会に根付いた。明治・大正期のキリスト教青年運動や雑誌文化の興隆とともに広く普及し、現代語として定着している。",
     "etymology": "「青」（若々しさ・春・新鮮さを象徴する色）と「年」（年齢・時代）を組み合わせた語。陰陽五行では青は春・若さを象徴し、「青年」は「若い年頃の人」を字義とする。唐詩などの「青雲の志」（高い志・若々しい向上心）に着想を得た造語とも伝えられる。",
-    "meaning_en": "a young man; a person in their youth, typically between adolescence and adulthood.",
-    "meaning_ja": "青春期の若者・若い男性。思春期から成人初期の時期にある人。"
+    "meanings": [
+      {
+        "en": "A young person, typically between adolescence and full adulthood.",
+        "ja": "青春期の若者・若い男性。思春期から成人初期の時期にある人。",
+        "example_en": "Young men gathered at the local youth center.",
+        "example_ja": "青年たちは地元の青年センターに集まった。"
+      },
+      {
+        "en": "The period or condition of being young; youth.",
+        "ja": "若い時期・若さ・青春。",
+        "example_en": "The idealism of youth is a powerful force for change.",
+        "example_ja": "青年の理想主義は変化への強力な力である。"
+      }
+    ]
   },
   {
     "id": 102,
@@ -1424,8 +2726,20 @@
     "year": 1881,
     "description": "英語 virtue・フランス語 vertu の訳語として明治期の哲学分野で用いられた語。1881年（明治14年）に井上哲次郎らが編纂した日本初の哲学辞典『哲学字彙』において virtue の訳語として収録されたことで哲学用語として定着した。もともと朱子学の「尊徳性」（天から授かった道徳的本性を尊重する）に由来する古典漢語で、西洋哲学の道徳的卓越性・美徳という概念と儒学の徳概念が自然に接合した例である。明治の道徳教育や倫理学講義を通じて普及し、「徳性涵養」という形でも広く使われた。",
     "etymology": "「徳」（道徳的な卓越性・善き品性）と「性」（生まれながらの本性・本質）を組み合わせた漢語。朱子学の『中庸』に見える「尊徳性」（徳の本性を尊ぶ）に由来し、天から賦与された道徳的本性を意味する。英語 virtue はラテン語 virtus（勇気・卓越性）に、フランス語 vertu も同語源に由来する。",
-    "meaning_en": "a moral virtue; good moral quality, especially that of moral excellence.",
-    "meaning_ja": "道徳的に優れた品性・美徳・善性。"
+    "meanings": [
+      {
+        "en": "Moral virtue; the quality of being morally good and righteous.",
+        "ja": "道徳的に優れた品性・美徳・善性。",
+        "example_en": "Aristotle considered virtue to be the foundation of the good life.",
+        "example_ja": "アリストテレスは徳性を善い生の基盤と考えた。"
+      },
+      {
+        "en": "In Confucian thought, innate moral nature bestowed by Heaven.",
+        "ja": "儒学において、天から賦与された道徳的本性（尊徳性）。",
+        "example_en": "Mencius believed that human nature is inherently virtuous.",
+        "example_ja": "孟子は人間の本性がもともと徳性を持つと信じた。"
+      }
+    ]
   },
   {
     "id": 103,
@@ -1438,8 +2752,20 @@
     "year": null,
     "description": "「写真」は元来「真を写す」を意味する漢語で、江戸末期の蘭学者大槻玄沢が1788年にカメラ・オブスクラを「写真鏡」と称したのが日本語での初例とされる。1839年にダゲールの銀板写真術が発明されると、欧米から写真技術が幕末日本にもたらされ、既存の漢語「写真」が英語photographの訳語として自然に転用・定着した。初期には「写真絵」「照画」などの表現も試みられたが、最終的に「写真」に統一された。明治期に写真術が急速に普及するなかで、文化・報道・記録の語として広く社会に根付いた。",
     "etymology": "「写」（うつす・模写する）と「真」（まこと・実物）を組み合わせた漢語で、「真実のものを写し取る」を字義とする。もと肖像画や写生画を意味し、光学的記録技術の訳語として転用された。英語photographはギリシャ語phōs（光）とgraphein（描く）に由来し「光で描く」を意味する。",
-    "meaning_en": "a picture produced by a camera and light-sensitive material.",
-    "meaning_ja": "カメラと光感応材料によって像を記録した画像。"
+    "meanings": [
+      {
+        "en": "A picture produced by a camera using light-sensitive material.",
+        "ja": "カメラと光感応材料によって像を記録した画像。",
+        "example_en": "She took beautiful photographs of the landscape.",
+        "example_ja": "彼女は風景の美しい写真を撮った。"
+      },
+      {
+        "en": "The art or practice of taking and processing photographs.",
+        "ja": "写真を撮影・処理する技術・芸術としての写真術。",
+        "example_en": "Photography captures moments that would otherwise be forgotten.",
+        "example_ja": "写真は忘れられてしまうような瞬間を捉える。"
+      }
+    ]
   },
   {
     "id": 104,
@@ -1452,8 +2778,20 @@
     "year": 1883,
     "description": "グラハム・ベルが1876年に電話を発明した直後、日本でも「伝話機」「電話器」などの訳語が試みられた。1883年（明治16年）に工部省電信局が英語telephoneの訳語として「電話」を正式に採用し、以後この語が定着した。1890年（明治23年）に東京・横浜間で日本初の電話交換業務が開始されると、電話は近代通信インフラとして急速に普及した。「電話をかける」「電話に出る」といった表現とともに日常語として定着し、現代日本語の最も基幹的な語彙の一つとなっている。",
     "etymology": "「電」（電気）と「話」（会話・ことば）を組み合わせた和製漢語で、「電気による会話」を字義とする。英語telephoneがギリシャ語tele（遠く）とphōnē（声）に由来し「遠くへ声を届ける」を意味するのに対し、日本語訳は電気的な伝送手段を前面に出した訳語構成となっている。",
-    "meaning_en": "a system for transmitting voice or other sounds to a distant location using electrical signals.",
-    "meaning_ja": "電気信号を利用して離れた場所と音声を送受信する通信機器・システム。"
+    "meanings": [
+      {
+        "en": "A system for transmitting voice to a distant location using electrical signals.",
+        "ja": "電気信号を利用して離れた場所と音声を送受信する通信機器・システム。",
+        "example_en": "She called her mother on the telephone.",
+        "example_ja": "彼女は電話で母に電話した。"
+      },
+      {
+        "en": "A telephone call; the act of speaking with someone by telephone.",
+        "ja": "電話をかけること・電話での会話。",
+        "example_en": "I'll give you a call (telephone) tomorrow.",
+        "example_ja": "明日、電話をかけます。"
+      }
+    ]
   },
   {
     "id": 105,
@@ -1466,8 +2804,20 @@
     "year": 1872,
     "description": "1872年（明治5年）10月14日、新橋〜横浜間に日本初の鉄道が開業した際、蒸気機関車を動力とする列車の総称として「汽車」が広まった。開業当初は「陸蒸気（おかじょうき）」とも呼ばれたが、蒸気を利用する車両という意味の「汽車」が公式用語として定着した。明治以降に電気を動力とする「電車」が登場すると、「汽車」は蒸気機関車牽引の列車を指す語として区別されるようになり、現代では長距離列車・国鉄系統の列車の通称としても使われる。",
     "etymology": "「汽」（蒸気・水蒸気）と「車」（乗物・車両）を組み合わせた和製漢語。「汽」は水が沸騰して生じる蒸気を意味し、蒸気機関の動力源をそのまま字義に取り込んでいる。英語のsteam locomotiveやtrainに対応するが、動力方式を前面に出した訳語構成となっている。",
-    "meaning_en": "a locomotive powered by a steam engine, used to pull a train on a railway.",
-    "meaning_ja": "蒸気機関を動力とし、鉄道上で列車を牽引する機関車。"
+    "meanings": [
+      {
+        "en": "A locomotive powered by a steam engine, used to pull a train on a railway.",
+        "ja": "蒸気機関を動力とし、鉄道上で列車を牽引する機関車。",
+        "example_en": "The steam train arrived at the station on time.",
+        "example_ja": "汽車は定刻通りに駅に到着した。"
+      },
+      {
+        "en": "A train, especially a long-distance train operated by national railways.",
+        "ja": "列車全般、特に国鉄系統の長距離列車。（現代日本語での用法）",
+        "example_en": "We took the train to travel between cities.",
+        "example_ja": "私たちは都市間移動に汽車（列車）を使った。"
+      }
+    ]
   },
   {
     "id": 106,
@@ -1480,8 +2830,20 @@
     "year": 1883,
     "description": "ダーウィンの『種の起源』（1859年）は明治期に日本へ紹介された。1877年（明治10年）、アメリカ人動物学者E・S・モースが東京大学で進化論の講義を行い、その記録を石川千代松が整理・刊行した『動物進化論』（1883年）が日本で最初に進化論を体系的に紹介した著作として知られ、「進化」という訳語の普及に決定的な役割を果たした。この訳語は後に中国・朝鮮にも逆輸出され、東アジア共通の科学語彙となった。現代では生物学にとどまらず、技術・社会・文化の変化・発展を広く表す語として定着している。",
     "etymology": "「進」（進む・発展する）と「化」（変化する・なる）を組み合わせた和製漢語。英語evolutionはラテン語evolvere（展開する・巻き物を広げる）に由来し、もとは「展開」を意味した。ダーウィンが生物の変化・発展過程を表す語として用い、「進化」はその方向性（進む）を字義に込めた訳語となっている。",
-    "meaning_en": "the process by which different kinds of living organisms are thought to have developed and diversified from earlier forms during the history of the Earth.",
-    "meaning_ja": "生物が長い時間をかけて遺伝的変化を蓄積し、世代を超えて多様化・変化していく過程。"
+    "meanings": [
+      {
+        "en": "The process by which organisms change over generations through genetic variation and natural selection.",
+        "ja": "生物が長い時間をかけて遺伝的変化を蓄積し、世代を超えて多様化・変化していく過程。",
+        "example_en": "Darwin's theory of evolution explains the diversity of life.",
+        "example_ja": "ダーウィンの進化論は生命の多様性を説明する。"
+      },
+      {
+        "en": "The gradual development of something from a simple to more complex form.",
+        "ja": "単純なものから複雑なものへと段階的に発展すること。（一般的用法）",
+        "example_en": "The evolution of technology has been rapid.",
+        "example_ja": "技術の進化は急速だった。"
+      }
+    ]
   },
   {
     "id": 107,
@@ -1493,6 +2855,26 @@
     "era": "明治中期",
     "year": 1881,
     "description": "「存在」は英語being・existence、ドイツ語Seinに対応する哲学用語として、明治14年（1881年）に井上哲次郎らが編んだ日本初の哲学辞典『哲学字彙』に収録された。「存在」という漢語自体は古典中国語にも散見されるが、当時の江戸・清朝の日常語として定着した語ではなく、西洋哲学の抽象的な存在概念の受け皿として明治期に選ばれた語である。その後、ドイツ観念論哲学の導入とともに「有」「実在」などの競合訳語も試みられたが、最終的に「存在」が定着した。20世紀にハイデガーの『存在と時間』（邦訳1939年）が紹介されると、「存在論」「現存在」などの派生語を伴い、哲学・人文学の中核語彙として広く普及した。",
-    "etymology": "「存」（ながらえる・のこる）と「在」（ある・いる）を組み合わせた漢語系熟語で、「そこにあり続ける」を字義とする。英語existenceはラテン語ex（外へ）＋sistere（立つ）に由来し「立ち現れる・現出する」を意味する。ドイツ語Seinは動詞sein（ある・である）の名詞化で「あること」そのものを指す。"
+    "etymology": "「存」（ながらえる・のこる）と「在」（ある・いる）を組み合わせた漢語系熟語で、「そこにあり続ける」を字義とする。英語existenceはラテン語ex（外へ）＋sistere（立つ）に由来し「立ち現れる・現出する」を意味する。ドイツ語Seinは動詞sein（ある・である）の名詞化で「あること」そのものを指す。",
+    "meanings": [
+      {
+        "en": "The fact or state of living or having objective reality.",
+        "ja": "生きている、または客観的な現実を持つという事実や状態。",
+        "example_en": "The existence of life on other planets remains unproven.",
+        "example_ja": "他の惑星における生命の存在は未証明のままである。"
+      },
+      {
+        "en": "In philosophy (Heidegger), the mode of being peculiar to human beings (Dasein).",
+        "ja": "ハイデガー哲学において、人間に固有の存在様式（現存在・Dasein）。",
+        "example_en": "Heidegger's Being and Time analyzes the structure of human existence.",
+        "example_ja": "ハイデガーの『存在と時間』は人間の存在構造を分析する。"
+      },
+      {
+        "en": "Being as an abstract philosophical concept; the totality of all things that are.",
+        "ja": "哲学的に抽象化された存在一般・「あること」の概念。",
+        "example_en": "Philosophers debate the nature of being since ancient times.",
+        "example_ja": "哲学者たちは古代から存在の本質について議論してきた。"
+      }
+    ]
   }
 ]

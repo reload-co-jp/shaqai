@@ -153,12 +153,40 @@ const Page: FC<Props> = async ({ params }) => {
         <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
           意味
         </h2>
-        <p style={{ color: "#807870", fontSize: ".9rem", lineHeight: "1.7", marginBottom: ".5rem", fontStyle: "italic" }}>
-          {word.meaning_en}
-        </p>
-        <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
-          {word.meaning_ja}
-        </p>
+        {word.meanings.map((meaning, i) => (
+          <div
+            key={i}
+            style={{
+              borderBottom: i < word.meanings.length - 1 ? "1px solid #28241a" : "none",
+              paddingBottom: i < word.meanings.length - 1 ? "1rem" : 0,
+              marginBottom: i < word.meanings.length - 1 ? "1rem" : 0,
+            }}
+          >
+            {word.meanings.length > 1 && (
+              <span style={{ color: "#5e5848", fontSize: ".75rem", marginBottom: ".25rem", display: "block" }}>
+                {i + 1}.
+              </span>
+            )}
+            <p style={{ color: "#807870", fontSize: ".9rem", lineHeight: "1.7", marginBottom: ".25rem", fontStyle: "italic" }}>
+              {meaning.en}
+            </p>
+            <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7", marginBottom: meaning.example_en ? ".75rem" : 0 }}>
+              {meaning.ja}
+            </p>
+            {meaning.example_en && (
+              <div style={{ borderLeft: "2px solid #302b1e", paddingLeft: ".75rem", marginTop: ".5rem" }}>
+                <p style={{ color: "#5e7a62", fontSize: ".85rem", lineHeight: "1.6", fontStyle: "italic", marginBottom: ".2rem" }}>
+                  {meaning.example_en}
+                </p>
+                {meaning.example_ja && (
+                  <p style={{ color: "#807870", fontSize: ".85rem", lineHeight: "1.6" }}>
+                    {meaning.example_ja}
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
+        ))}
       </div>
 
       <div

@@ -16,6 +16,13 @@ export type Translator = {
   description: string
 }
 
+export type Meaning = {
+  en: string
+  ja: string
+  example_en?: string
+  example_ja?: string
+}
+
 export type Word = {
   id: number
   japanese_word: string
@@ -25,8 +32,7 @@ export type Word = {
   translator_id: number | null
   era: string
   year: number
-  meaning_en: string
-  meaning_ja: string
+  meanings: Meaning[]
   description: string
   etymology: string
 }
