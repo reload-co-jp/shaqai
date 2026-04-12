@@ -134,6 +134,16 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               読み物
             </Link>
             <Link
+              href="/whats/"
+              style={{
+                fontSize: ".875rem",
+                color: "#bfb9ac",
+                textDecoration: "none",
+              }}
+            >
+              翻訳語とは
+            </Link>
+            <Link
               href="/about/"
               style={{
                 fontSize: ".875rem",

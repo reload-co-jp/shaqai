@@ -142,21 +142,38 @@ const Page: FC = () => {
           「社会」「経済」「哲学」——それらの言葉が生まれた背景を、ここで探ることができます。
         </p>
 
-        <a
-          href="/about/"
-          style={{
-            display: "inline-block",
-            fontSize: ".875rem",
-            color: "#c8a96e",
-            border: "1px solid #c8a96e44",
-            borderRadius: "2px",
-            padding: ".5rem 1.25rem",
-            textDecoration: "none",
-            letterSpacing: ".03em",
-          }}
-        >
-          このサイトについて →
-        </a>
+        <div style={{ display: "flex", gap: ".75rem", flexWrap: "wrap" }}>
+          <a
+            href="/whats/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              border: "1px solid #c8a96e44",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            翻訳語とは →
+          </a>
+          <a
+            href="/about/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#9e9888",
+              border: "1px solid #3d3828",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            このサイトについて →
+          </a>
+        </div>
       </div>
 
       <div style={{ marginBottom: "3rem" }}>
