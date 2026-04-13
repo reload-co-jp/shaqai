@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { words, getWord, getField, getTranslator } from "lib/db"
 import type { Metadata } from "next"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 
 export const generateStaticParams = () =>
   words.map((w) => ({ id: String(w.id) }))
@@ -69,6 +70,12 @@ const Page: FC<Props> = async ({ params }) => {
 
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: word.japanese_word, url: `/words/${id}/` },
+        ]}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -217,6 +217,34 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         {process.env.NODE_ENV === "production" && (
           <GoogleAnalytics gaId="G-603EH0NXTT" />
         )}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "翻訳語辞典 Shaqai",
+              url: "https://shaqai.reload.co.jp/",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://shaqai.reload.co.jp/search/?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Reload, Inc.",
+              url: "https://reload.co.jp/",
+              logo: "https://shaqai.reload.co.jp/icon.svg",
+            }),
+          }}
+        />
       </body>
     </html>
   )

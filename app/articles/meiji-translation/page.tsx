@@ -1,4 +1,5 @@
 import { FC } from "react"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 
 export const metadata = {
   title: "明治期の翻訳方法の模索と挑戦",
@@ -18,7 +19,36 @@ export const metadata = {
 }
 
 const Page: FC = () => {
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "明治期の翻訳方法の模索と挑戦",
+    description:
+      "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
+    publisher: {
+      "@type": "Organization",
+      name: "翻訳語辞典 Shaqai",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://shaqai.reload.co.jp/icon.svg",
+      },
+    },
+    url: "https://shaqai.reload.co.jp/articles/meiji-translation/",
+  }
+
   return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "読み物", url: "/articles/" },
+          { name: "明治期の翻訳方法の模索と挑戦", url: "/articles/meiji-translation/" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       {/* Header */}
       <div
