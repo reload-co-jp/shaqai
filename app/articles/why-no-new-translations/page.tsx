@@ -1,4 +1,5 @@
 import { FC } from "react"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 
 export const metadata = {
   title: "なぜ現代には翻訳語が生まれにくいか",
@@ -19,6 +20,13 @@ export const metadata = {
 
 const Page: FC = () => {
   return (
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "読み物", url: "/articles/" },
+          { name: "なぜ現代には翻訳語が生まれにくいか", url: "/articles/why-no-new-translations/page.tsx" }
+        ]}
+      />
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div
         style={{

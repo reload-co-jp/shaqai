@@ -1,5 +1,6 @@
 import { FC } from "react"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 
 export const metadata = {
   title: "明治期の翻訳方法の模索と挑戦",
@@ -37,7 +38,21 @@ const Page: FC = () => {
   }
 
   return (
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "読み物", url: "/articles/" },
+          { name: "明治期の翻訳方法の模索と挑戦", url: "/articles/meiji-translation/page.tsx" }
+        ]}
+      />
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "読み物", url: "/articles/" },
+          { name: "明治期の翻訳方法の模索と挑戦", url: "/articles/meiji-translation/page.tsx" }
+        ]}
+      />
       <BreadcrumbJsonLd
         items={[
           { name: "ホーム", url: "/" },

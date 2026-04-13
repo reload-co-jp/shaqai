@@ -1,4 +1,5 @@
 import { FC } from "react"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { fields, getField, getWordsByField, getTranslator } from "lib/db"
@@ -38,37 +39,46 @@ const Page: FC<Props> = async ({ params }) => {
   const fieldWords = getWordsByField(field.id)
 
   return (
-    <div style={{ maxWidth: "960px", margin: "0 auto" }}>
-      <div style={{ marginBottom: "1rem" }}>
-        <Link href="/fields/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
-          ← 分野一覧
-        </Link>
-      </div>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "分野一覧", url: "/fields/" },
+          { name: field.name, url: `/fields/${id}/` },
+        ]}
+      />
+      <div style={{ maxWidth: "960px", margin: "0 auto" }}>
+        <div style={{ marginBottom: "1rem" }}>
+          <Link href="/fields/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
+            ← 分野一覧
+          </Link>
+        </div>
 
-      <div style={{ marginBottom: "1.5rem" }}>
-        <h1 style={{ fontSize: "1.5rem", color: "#c8a96e", marginBottom: ".5rem" }}>
-          {field.name}
-        </h1>
-        <p style={{ fontSize: ".875rem", color: "#807870" }}>{fieldWords.length}語</p>
-      </div>
+        <div style={{ marginBottom: "1.5rem" }}>
+          <h1 style={{ fontSize: "1.5rem", color: "#c8a96e", marginBottom: ".5rem" }}>
+            {field.name}
+          </h1>
+          <p style={{ fontSize: ".875rem", color: "#807870" }}>{fieldWords.length}語</p>
+        </div>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-          gap: "1rem",
-        }}
-      >
-        {fieldWords.map((word) => (
-          <WordCard
-            key={word.id}
-            word={word}
-            field={field}
-            translator={word.translator_id ? getTranslator(word.translator_id) : undefined}
-          />
-        ))}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+            gap: "1rem",
+          }}
+        >
+          {fieldWords.map((word) => (
+            <WordCard
+              key={word.id}
+              word={word}
+              field={field}
+              translator={word.translator_id ? getTranslator(word.translator_id) : undefined}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

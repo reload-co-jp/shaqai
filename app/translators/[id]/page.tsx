@@ -1,4 +1,5 @@
 import { FC } from "react"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import {
@@ -72,252 +73,261 @@ const Page: FC<Props> = async ({ params }) => {
   }
 
   return (
-    <div style={{ maxWidth: "960px", margin: "0 auto" }}>
-      <div style={{ marginBottom: "1rem" }}>
-        <Link
-          href="/translators/"
-          style={{
-            fontSize: ".8rem",
-            color: "#807870",
-            textDecoration: "none",
-          }}
-        >
-          ← 翻訳者一覧
-        </Link>
-      </div>
-
-      {/* プロフィールカード */}
-      <div
-        style={{
-          background: "#1e1a12",
-          border: "1px solid #302b1e",
-          borderRadius: "3px",
-          padding: "1.5rem",
-          marginBottom: "1rem",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            gap: "1.5rem",
-            marginBottom: "1.25rem",
-            alignItems: "flex-start",
-          }}
-        >
-          {translator.image && (
-            <img
-              src={translator.image}
-              alt={translator.name}
-              style={{
-                width: "110px",
-                height: "140px",
-                objectFit: "cover",
-                objectPosition: "top",
-                flexShrink: 0,
-                borderRadius: "2px",
-                border: "1px solid #302b1e",
-                filter: "grayscale(20%) sepia(20%)",
-              }}
-            />
-          )}
-          <div style={{ flex: 1 }}>
-            <div style={{ marginBottom: "1rem" }}>
-              <h1
-                style={{
-                  fontSize: "2rem",
-                  color: "#c8a96e",
-                  marginBottom: ".25rem",
-                }}
-              >
-                {translator.name}
-              </h1>
-              <p style={{ fontSize: ".875rem", color: "#807870" }}>
-                {translator.birth_year}–{translator.death_year}（
-                {translator.death_year - translator.birth_year}歳）
-              </p>
-            </div>
-            <div>
-              {translator.description.split("\n\n").map((para, i) => (
-                <p
-                  key={i}
-                  style={{
-                    fontSize: ".9rem",
-                    color: "#bfb9ac",
-                    lineHeight: "1.8",
-                    marginBottom: ".75rem",
-                  }}
-                >
-                  {para}
-                </p>
-              ))}
-            </div>
-          </div>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "翻訳者一覧", url: "/translators/" },
+          { name: translator.name, url: `/translators/${id}/` },
+        ]}
+      />
+      <div style={{ maxWidth: "960px", margin: "0 auto" }}>
+        <div style={{ marginBottom: "1rem" }}>
+          <Link
+            href="/translators/"
+            style={{
+              fontSize: ".8rem",
+              color: "#807870",
+              textDecoration: "none",
+            }}
+          >
+            ← 翻訳者一覧
+          </Link>
         </div>
 
-        {/* 統計バー */}
-        <div
-          style={{
-            display: "flex",
-            gap: "1.5rem",
-            paddingTop: "1rem",
-            borderTop: "1px solid #302b1e",
-            flexWrap: "wrap",
-            justifyContent: "space-around",
-          }}
-        >
-          <div style={statStyle}>
-            <span
-              style={{
-                fontSize: "1.5rem",
-                fontWeight: "bold",
-                color: "#c8a96e",
-              }}
-            >
-              {translatorWords.length}
-            </span>
-            <span style={{ fontSize: ".75rem", color: "#807870" }}>訳語数</span>
-          </div>
-          {languages.length > 0 && (
-            <div style={statStyle}>
-              <span
-                style={{
-                  fontSize: "1.1rem",
-                  fontWeight: "bold",
-                  color: "#e2dcd0",
-                }}
-              >
-                {[...new Set(languages.map((l) => l.split("・")).flat())].join(
-                  " / "
-                )}
-              </span>
-              <span style={{ fontSize: ".75rem", color: "#807870" }}>
-                翻訳元言語
-              </span>
-            </div>
-          )}
-          {yearMin && (
-            <div style={statStyle}>
-              <span
-                style={{
-                  fontSize: "1.1rem",
-                  fontWeight: "bold",
-                  color: "#e2dcd0",
-                }}
-              >
-                {yearMin === yearMax
-                  ? `${yearMin}年頃`
-                  : `${yearMin}–${yearMax}年頃`}
-              </span>
-              <span style={{ fontSize: ".75rem", color: "#807870" }}>
-                訳語年代
-              </span>
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* 分野別分布 */}
-      {fieldCounts.length > 0 && (
+        {/* プロフィールカード */}
         <div
           style={{
             background: "#1e1a12",
             border: "1px solid #302b1e",
             borderRadius: "3px",
-            padding: "1rem 1.5rem",
-            marginBottom: "1.5rem",
+            padding: "1.5rem",
+            marginBottom: "1rem",
           }}
         >
-          <h3
+          <div
             style={{
-              fontSize: ".75rem",
-              color: "#807870",
-              marginBottom: ".75rem",
-              textTransform: "uppercase",
-              letterSpacing: ".05em",
+              display: "flex",
+              gap: "1.5rem",
+              marginBottom: "1.25rem",
+              alignItems: "flex-start",
             }}
           >
-            分野別訳語数
-          </h3>
+            {translator.image && (
+              <img
+                src={translator.image}
+                alt={translator.name}
+                style={{
+                  width: "110px",
+                  height: "140px",
+                  objectFit: "cover",
+                  objectPosition: "top",
+                  flexShrink: 0,
+                  borderRadius: "2px",
+                  border: "1px solid #302b1e",
+                  filter: "grayscale(20%) sepia(20%)",
+                }}
+              />
+            )}
+            <div style={{ flex: 1 }}>
+              <div style={{ marginBottom: "1rem" }}>
+                <h1
+                  style={{
+                    fontSize: "2rem",
+                    color: "#c8a96e",
+                    marginBottom: ".25rem",
+                  }}
+                >
+                  {translator.name}
+                </h1>
+                <p style={{ fontSize: ".875rem", color: "#807870" }}>
+                  {translator.birth_year}–{translator.death_year}（
+                  {translator.death_year - translator.birth_year}歳）
+                </p>
+              </div>
+              <div>
+                {translator.description.split("\n\n").map((para, i) => (
+                  <p
+                    key={i}
+                    style={{
+                      fontSize: ".9rem",
+                      color: "#bfb9ac",
+                      lineHeight: "1.8",
+                      marginBottom: ".75rem",
+                    }}
+                  >
+                    {para}
+                  </p>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* 統計バー */}
           <div
-            style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}
+            style={{
+              display: "flex",
+              gap: "1.5rem",
+              paddingTop: "1rem",
+              borderTop: "1px solid #302b1e",
+              flexWrap: "wrap",
+              justifyContent: "space-around",
+            }}
           >
-            {fieldCounts.map(({ field, count }) => {
-              const pct = Math.round((count / translatorWords.length) * 100)
-              return (
-                <div key={field.id}>
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      marginBottom: ".2rem",
-                    }}
-                  >
-                    <Link
-                      href={`/fields/${field.id}/`}
-                      style={{
-                        fontSize: ".85rem",
-                        color: "#7a9e82",
-                        textDecoration: "none",
-                      }}
-                    >
-                      {field.name}
-                    </Link>
-                    <span style={{ fontSize: ".8rem", color: "#807870" }}>
-                      {count}語
-                    </span>
-                  </div>
-                  <div
-                    style={{
-                      height: "4px",
-                      background: "#302b1e",
-                      borderRadius: "2px",
-                    }}
-                  >
-                    <div
-                      style={{
-                        height: "100%",
-                        width: `${pct}%`,
-                        background: "#c8a96e",
-                        borderRadius: "1px",
-                      }}
-                    />
-                  </div>
-                </div>
-              )
-            })}
+            <div style={statStyle}>
+              <span
+                style={{
+                  fontSize: "1.5rem",
+                  fontWeight: "bold",
+                  color: "#c8a96e",
+                }}
+              >
+                {translatorWords.length}
+              </span>
+              <span style={{ fontSize: ".75rem", color: "#807870" }}>訳語数</span>
+            </div>
+            {languages.length > 0 && (
+              <div style={statStyle}>
+                <span
+                  style={{
+                    fontSize: "1.1rem",
+                    fontWeight: "bold",
+                    color: "#e2dcd0",
+                  }}
+                >
+                  {[...new Set(languages.map((l) => l.split("・")).flat())].join(
+                    " / "
+                  )}
+                </span>
+                <span style={{ fontSize: ".75rem", color: "#807870" }}>
+                  翻訳元言語
+                </span>
+              </div>
+            )}
+            {yearMin && (
+              <div style={statStyle}>
+                <span
+                  style={{
+                    fontSize: "1.1rem",
+                    fontWeight: "bold",
+                    color: "#e2dcd0",
+                  }}
+                >
+                  {yearMin === yearMax
+                    ? `${yearMin}年頃`
+                    : `${yearMin}–${yearMax}年頃`}
+                </span>
+                <span style={{ fontSize: ".75rem", color: "#807870" }}>
+                  訳語年代
+                </span>
+              </div>
+            )}
           </div>
         </div>
-      )}
 
-      {/* 訳語一覧 */}
-      <div style={{ marginBottom: "1rem" }}>
-        <h3 style={{ fontSize: "1rem", color: "#e2dcd0" }}>
-          訳語一覧
-          <span
-            style={{ fontSize: ".8rem", color: "#807870", marginLeft: ".5rem" }}
+        {/* 分野別分布 */}
+        {fieldCounts.length > 0 && (
+          <div
+            style={{
+              background: "#1e1a12",
+              border: "1px solid #302b1e",
+              borderRadius: "3px",
+              padding: "1rem 1.5rem",
+              marginBottom: "1.5rem",
+            }}
           >
-            {translatorWords.length}語
-          </span>
-        </h3>
-      </div>
+            <h3
+              style={{
+                fontSize: ".75rem",
+                color: "#807870",
+                marginBottom: ".75rem",
+                textTransform: "uppercase",
+                letterSpacing: ".05em",
+              }}
+            >
+              分野別訳語数
+            </h3>
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}
+            >
+              {fieldCounts.map(({ field, count }) => {
+                const pct = Math.round((count / translatorWords.length) * 100)
+                return (
+                  <div key={field.id}>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        marginBottom: ".2rem",
+                      }}
+                    >
+                      <Link
+                        href={`/fields/${field.id}/`}
+                        style={{
+                          fontSize: ".85rem",
+                          color: "#7a9e82",
+                          textDecoration: "none",
+                        }}
+                      >
+                        {field.name}
+                      </Link>
+                      <span style={{ fontSize: ".8rem", color: "#807870" }}>
+                        {count}語
+                      </span>
+                    </div>
+                    <div
+                      style={{
+                        height: "4px",
+                        background: "#302b1e",
+                        borderRadius: "2px",
+                      }}
+                    >
+                      <div
+                        style={{
+                          height: "100%",
+                          width: `${pct}%`,
+                          background: "#c8a96e",
+                          borderRadius: "1px",
+                        }}
+                      />
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-          gap: "1rem",
-        }}
-      >
-        {translatorWords.map((word) => (
-          <WordCard
-            key={word.id}
-            word={word}
-            field={getField(word.field_id)}
-            translator={translator}
-          />
-        ))}
+        {/* 訳語一覧 */}
+        <div style={{ marginBottom: "1rem" }}>
+          <h3 style={{ fontSize: "1rem", color: "#e2dcd0" }}>
+            訳語一覧
+            <span
+              style={{ fontSize: ".8rem", color: "#807870", marginLeft: ".5rem" }}
+            >
+              {translatorWords.length}語
+            </span>
+          </h3>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+            gap: "1rem",
+          }}
+        >
+          {translatorWords.map((word) => (
+            <WordCard
+              key={word.id}
+              word={word}
+              field={getField(word.field_id)}
+              translator={translator}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
