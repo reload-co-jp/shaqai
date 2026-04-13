@@ -2956,7 +2956,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": 111,
     "japanese_word": "環境",
     "original_word": "environment",
     "language": "英語",
@@ -2982,7 +2982,7 @@
     ]
   },
   {
-    "id": 77,
+    "id": 112,
     "japanese_word": "恐慌",
     "original_word": "panic / crisis",
     "language": "英語・ドイツ語",
@@ -3008,7 +3008,7 @@
     ]
   },
   {
-    "id": 78,
+    "id": 113,
     "japanese_word": "常識",
     "original_word": "common sense",
     "language": "英語",
@@ -3034,7 +3034,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": 114,
     "japanese_word": "理想",
     "original_word": "ideal",
     "language": "英語",
@@ -3060,7 +3060,7 @@
     ]
   },
   {
-    "id": 80,
+    "id": 115,
     "japanese_word": "象徴",
     "original_word": "symbol",
     "language": "フランス語",
@@ -3086,7 +3086,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 116,
     "japanese_word": "絶対",
     "original_word": "absolute",
     "language": "英語・ドイツ語",
@@ -3112,7 +3112,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": 117,
     "japanese_word": "現象",
     "original_word": "phenomenon",
     "language": "英語・ドイツ語",
@@ -3134,6 +3134,158 @@
         "ja": "哲学において、感覚によって捉えられる事象。本体（物自体）に対する現れ。",
         "example_en": "Kant distinguished between phenomena and noumena.",
         "example_ja": "カントは現象と物自体を区別した。"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "japanese_word": "共鳴",
+    "original_word": "resonance / sympathy",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "物理学におけるresonance（共振）の訳語として、また思想・感情の交流を指すsympathyの訳語として明治期に普及した。科学的現象としての共鳴と、心がつながり合う現象としての共鳴という二つの意味で定着した。",
+    "etymology": "共（ともに）と鳴（音が響く）の結合。物理的な共振と、精神的な呼応の両方を表現する。",
+    "meanings": [
+      {
+        "en": "The reinforcement or prolongation of sound by reflection from a surface or by the synchronous vibration of a neighboring object.",
+        "ja": "隣接する物体が同じ振動数で揺れる物理現象（共振）。",
+        "example_en": "The resonance of the guitar string filled the room.",
+        "example_ja": "ギターの弦の共鳴が部屋を満たした。"
+      },
+      {
+        "en": "A feeling of being in harmony with someone or something; evoking sympathetic feelings.",
+        "ja": "他者や思想と精神的に共鳴・呼応し合うこと。",
+        "example_en": "His ideas found resonance among the students.",
+        "example_ja": "彼の考えは学生たちの間で共鳴を呼んだ。"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "japanese_word": "公園",
+    "original_word": "park",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1873,
+    "description": "1873年（明治6年）の「太政官布告」によって、上野・芝・浅草・深川・飛鳥山の5箇所が「公園」として指定された際に訳語として定着した。西洋の公共的な庭園・広場という概念を表現するために選ばれた。",
+    "etymology": "公（パブリック・公共）と園（庭園・庭）の結合。公共の庭園という意味でparkの訳語となった。",
+    "meanings": [
+      {
+        "en": "A large public green area in a town or city, used for recreation.",
+        "ja": "市民が憩いやレクリエーションのために利用する公共の庭園・緑地。",
+        "example_en": "We went for a walk in the park.",
+        "example_ja": "私たちは公園に散歩へ行った。"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "japanese_word": "肯定",
+    "original_word": "affirmation / Positivität",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治期",
+    "year": null,
+    "description": "論理学や哲学におけるaffirmationやPositivitätの訳語として定着した。西周らが論理学の移入の際に「肯定」「否定」の対語として定着させた。のちに一般語としても定着し、物事を認めることを指すようになった。",
+    "etymology": "肯（うなずく・認める）と定（きめる・確定する）の結合。事実や考えをその通りであると認めること。",
+    "meanings": [
+      {
+        "en": "The action or process of affirming something or being affirmed.",
+        "ja": "物事をその通りであると認めたり、是認したりすること。",
+        "example_en": "He gave a nod of affirmation.",
+        "example_ja": "彼は肯定のうなずきをした。"
+      },
+      {
+        "en": "In logic, an assertion that something is true.",
+        "ja": "論理学において、命題が真であると判断すること。",
+        "example_en": "Logic deals with the processes of affirmation and negation.",
+        "example_ja": "論理学は肯定と否定の過程を扱う。"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "japanese_word": "人生観",
+    "original_word": "view of life / Lebensanschauung",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治中期",
+    "year": null,
+    "description": "ドイツ語のLebensanschauung（人生に対する見方）の訳語として明治中期に登場し普及した。近代的な自己意識と個人の生き方が意識される中で、人生をどう捉えるかという価値観を指す用語として定着した。",
+    "etymology": "人生（生き方・一生）と観（見方・考え方）の結合。個人の人生に対する哲学的見解。",
+    "meanings": [
+      {
+        "en": "A person's outlook or perspective on life.",
+        "ja": "人生をどう捉え、どのような価値基準で生きるかという考え方。",
+        "example_en": "His view of life was shaped by his experiences.",
+        "example_ja": "彼の人生観は自らの経験によって形成された。"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "japanese_word": "世紀",
+    "original_word": "century",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": null,
+    "description": "英語century（100年間）の訳語として定着した。西洋の暦や歴史記述を導入する際、100年単位の時代区分として「世紀」という言葉が選ばれた。天文学や歴史学の文脈から一般化した。",
+    "etymology": "世（世代・時代）と紀（しるす・数える・100年を示す単位）の結合。100年という時の流れを指す。",
+    "meanings": [
+      {
+        "en": "A period of one hundred years.",
+        "ja": "100年という期間。歴史的な時代区分の単位。",
+        "example_en": "The 19th century was a time of great change.",
+        "example_ja": "19世紀は大きな変化の時代だった。"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "japanese_word": "先天",
+    "original_word": "a priori / angeboren",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": null,
+    "description": "哲学におけるa priori（先天的）の訳語として定着した。カント哲学の移入とともに用いられた。「経験に先立つ」という意味で、経験論との対概念として重要視された。",
+    "etymology": "先（あらかじめ・先立つ）と天（生まれつき）の結合。生まれながらに備わっていること。",
+    "meanings": [
+      {
+        "en": "Innate; existing in or derived from the mind before experience.",
+        "ja": "経験以前から人間に備わっていること（先天的）。",
+        "example_en": "Kant discussed a priori knowledge.",
+        "example_ja": "カントは先天的知識について論じた。"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "japanese_word": "背景",
+    "original_word": "background",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "英語background（絵画や劇の舞台装置のうしろの部分）の訳語として定着。視覚的な後景を指す言葉から、現在では事象の成り立ちや原因を表す比喩として広く使われるようになった。",
+    "etymology": "背（うしろ）と景（けしき・うしろの壁など）の結合。絵や劇の奥の部分を指す。",
+    "meanings": [
+      {
+        "en": "The circumstances or situation prevailing at a particular time or underlying an event.",
+        "ja": "ある事象を取り巻く環境・理由・文脈。また絵や光景のうしろ部分。",
+        "example_en": "The background to the conflict is complex.",
+        "example_ja": "その紛争の背景は複雑である。"
       }
     ]
   }
