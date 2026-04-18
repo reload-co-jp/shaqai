@@ -3288,5 +3288,723 @@
         "example_ja": "その紛争の背景は複雑である。"
       }
     ]
+  },
+  {
+    "id": 125,
+    "japanese_word": "郵便",
+    "original_word": "post",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": 16,
+    "era": "明治初期",
+    "year": 1871,
+    "description": "英語postの訳語として前島密が命名した。1871年（明治4年）3月1日、前島の発議により東京・大阪間で官営郵便事業が開始された際に正式採用された。「切手」「葉書」「書留」など関連語彙も同時に前島が整備し、均一料金・全国網羅という近代郵便の理念を日本に根付かせた。中国古典語で駅伝中継所を指す「郵」を再活用し、文書・荷物を届ける国家的通信制度を表す語として定着した。",
+    "etymology": "「郵」は古代中国の官道に設けられた馬による伝令中継所を指す漢字。「便」は便宜・手紙の意。合わせて文書や荷物を配達する通信制度を表す。",
+    "meanings": [
+      {
+        "en": "A public system for conveying letters and parcels by official couriers or carriers.",
+        "ja": "国家が整備した、手紙・荷物などを配達する公的な通信制度。",
+        "example_en": "He sent the document by post.",
+        "example_ja": "彼はその書類を郵便で送った。"
+      },
+      {
+        "en": "A single delivery of letters or parcels.",
+        "ja": "一回の配達で届けられる郵便物の総体。",
+        "example_en": "Has the post arrived yet?",
+        "example_ja": "郵便はもう届きましたか？"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "japanese_word": "野球",
+    "original_word": "baseball",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 17,
+    "era": "明治期",
+    "year": 1894,
+    "description": "英語baseballの訳語として中馬庚が1894年（明治27年）に命名した。「テニスは庭でするから庭球、ベースボールは野原でするから野球」という意訳の論理で命名され、同年10月刊行の『第一高等学校野球部史』に初出。1897年刊行の専門書『野球』により広く普及した。なお正岡子規が俳号「野球（のぼーる）」を用いたのは4年早い1890年だが、これはbaseballの訳語としての用例ではない。",
+    "etymology": "「野」は野原・フィールドの意、「球」はボールの意。baseballが野外の広い場所で球を打ち走る競技であることから、「野原で行う球技」として命名された。",
+    "meanings": [
+      {
+        "en": "A bat-and-ball game played between two teams of nine players, in which players take turns batting and fielding.",
+        "ja": "9人ずつ2チームが攻守交替しながら打撃と守備を行うスポーツ。",
+        "example_en": "He has played baseball since he was a child.",
+        "example_ja": "彼は子どもの頃から野球をしている。"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "japanese_word": "福祉",
+    "original_word": "welfare",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期以降",
+    "year": null,
+    "description": "「福祉」は14世紀の禅籍にも確認できる古い漢語で、「幸福・さいわい」を意味した。英語welfareの訳語として定着したのは明治以降とされるが、特定の命名者はおらず、既存語が転用されたものとみられる。社会保険・救貧制度を指す「社会福祉」という複合語は第二次世界大戦後の福祉三法（1946〜47年）成立を機に広く普及し、現在は公的支援・サービス全般を指す語として定着している。",
+    "etymology": "「福」は幸い・富の意、「祉」も幸い・さいわいの意。ともに幸福を表す漢字の重ね合わせで、古典中国語にも用例がある。",
+    "meanings": [
+      {
+        "en": "The health, happiness, and safety of a person or group; general well-being.",
+        "ja": "人や集団の健康・幸福・安全など、生活上の良好な状態全般。",
+        "example_en": "The government is responsible for the welfare of its citizens.",
+        "example_ja": "政府は国民の福祉に責任を負う。"
+      },
+      {
+        "en": "Organized efforts to improve the conditions of disadvantaged people; social welfare.",
+        "ja": "社会的に不利な立場にある人々を支援する公的制度・活動。社会福祉。",
+        "example_en": "She works in child welfare.",
+        "example_ja": "彼女は児童福祉の分野で働いている。"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "japanese_word": "観念",
+    "original_word": "idea / Idee",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1873,
+    "description": "西周が1873年（明治6年）の著作『生性発蘊』において、英語ideaおよびフランス語idéeの訳語として仏教用語の「観念」を転用した。プラトンのイデアに遡る哲学概念を表すため、仏教で「心を集中して対象を観察する」ことを意味していたこの語を意識的に充てたものである。1881年刊の『哲学字彙』にも収録され、近代哲学語彙として定着した。",
+    "etymology": "「観」は仏教で心を一点に集中して対象を観察・思念すること、「念」は心に抱く思い・意識の意。合わせて心に浮かぶ思想・意識内容を表す。",
+    "meanings": [
+      {
+        "en": "A thought, concept, or mental image; the basic unit of conscious thought (philosophy).",
+        "ja": "意識の中に浮かぶ思想・概念・心像。哲学における意識内容の基本単位。",
+        "example_en": "Descartes argued that ideas are the immediate objects of thought.",
+        "example_ja": "デカルトは、観念が思考の直接的対象であると論じた。"
+      },
+      {
+        "en": "A fixed belief or preconception; a resigned acceptance of a situation (Japanese colloquial).",
+        "ja": "固定した思い込み・先入観。また状況をあきらめて受け入れること（日本語の口語的用法）。",
+        "example_en": "He was stuck in his old ideas.",
+        "example_ja": "彼は古い観念にとらわれていた。"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "japanese_word": "階級",
+    "original_word": "class / Klasse",
+    "language": "英語・ドイツ語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "classやドイツ語Klasseの訳語として明治期に定着した和製漢語。社会主義・共産主義思想の普及とともに「社会階級」「労働者階級」「支配階級」などの用法が広まり、明治・大正期の社会運動の中心語彙として機能した。中国にも逆輸出され、現代中国語でも「阶级」（jiējí）として用いられる。",
+    "etymology": "「階」は建物の段・階段を意味し、「級」は等級・順位を意味する。段階的な社会的序列を視覚的に表現した字義の組み合わせ。",
+    "meanings": [
+      {
+        "en": "A group of people sharing the same social or economic position in society.",
+        "ja": "社会的・経済的地位を同じくする人々の集団。社会階級。",
+        "example_en": "The working class struggled for better wages.",
+        "example_ja": "労働者階級はより良い賃金を求めて闘った。"
+      },
+      {
+        "en": "A category or rank within a hierarchical system.",
+        "ja": "階層的な体系における区分・等級。",
+        "example_en": "First class passengers received different treatment.",
+        "example_ja": "一等階級の乗客は異なる扱いを受けた。"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "japanese_word": "運動",
+    "original_word": "movement / motion",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "物理学のmotionおよび社会的・政治的movementの訳語として明治期に広まった和製漢語。物体の位置変化という物理的意味と、自由民権運動・労働運動など集団的な社会変革活動という二つの意味を担うようになった。「運動」自体は古典漢語にも存在したが、近代的な概念を付与して再利用した語であり、中国にも逆輸出されて「运动」（yùndòng）として定着している。",
+    "etymology": "「運」は動かす・運ぶを意味し、「動」は動くを意味する。古典中国語にも「運動」の用例はあるが、近代的な物理・社会概念の担い手として再定義された。",
+    "meanings": [
+      {
+        "en": "Physical movement or motion of a body; exercise.",
+        "ja": "物体の位置変化。また身体を動かす体操・運動。",
+        "example_en": "Regular exercise improves health.",
+        "example_ja": "定期的な運動は健康を改善する。"
+      },
+      {
+        "en": "A collective effort or campaign to achieve a social or political goal.",
+        "ja": "社会的・政治的目標を達成するための集団的活動・社会運動。",
+        "example_en": "The labor movement fought for workers' rights.",
+        "example_ja": "労働運動は労働者の権利のために闘った。"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "japanese_word": "右翼",
+    "original_word": "right wing / droite",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "大正期",
+    "year": null,
+    "description": "フランス革命期の国民議会で保守派・王党派が議長席から見て右側の席を占めたことに由来する政治用語。日本には大正中期（1910年代後半）に翻訳語として導入され、国家主義・保守主義・民族主義的な政治勢力や思想を指す語として定着した。和製漢語として中国にも伝わっている。",
+    "etymology": "「右翼」は軍事用語として部隊の右側面を指す語でもあるが、政治的用法はフランス語「aile droite」（右の翼）の直訳に由来する。フランス語droiteは「右」「正しい」を意味するラテン語directusに遡る。",
+    "meanings": [
+      {
+        "en": "The conservative or nationalist side of the political spectrum; right-wing politics.",
+        "ja": "政治的スペクトルの保守・国家主義的側面。右翼思想・右翼政治。",
+        "example_en": "The right wing opposed social reform.",
+        "example_ja": "右翼は社会改革に反対した。"
+      },
+      {
+        "en": "The right flank of a military formation.",
+        "ja": "軍隊の陣形における右側の部隊・翼側。",
+        "example_en": "The right wing of the army advanced.",
+        "example_ja": "軍の右翼が前進した。"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "japanese_word": "左翼",
+    "original_word": "left wing / gauche",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "大正期",
+    "year": null,
+    "description": "フランス革命期の国民議会で急進共和派・革命派が議長席から見て左側の席を占めたことに由来する政治用語。「右翼」とほぼ同時期に日本に導入され、社会主義・共産主義・進歩主義的な政治勢力や思想を指す語として定着した。和製漢語として中国にも伝わっている。",
+    "etymology": "「左翼」は軍事用語として部隊の左側面を指す語でもあるが、政治的用法はフランス語「aile gauche」（左の翼）の直訳に由来する。フランス語gaucheは「左」「不器用な」を意味する。",
+    "meanings": [
+      {
+        "en": "The progressive, socialist, or radical side of the political spectrum; left-wing politics.",
+        "ja": "政治的スペクトルの革新・社会主義・急進主義的側面。左翼思想・左翼政治。",
+        "example_en": "The left wing advocated for social equality.",
+        "example_ja": "左翼は社会的平等を訴えた。"
+      },
+      {
+        "en": "The left flank of a military formation.",
+        "ja": "軍隊の陣形における左側の部隊・翼側。",
+        "example_en": "The left wing was outflanked by the enemy.",
+        "example_ja": "左翼は敵に側面を突かれた。"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "japanese_word": "共和",
+    "original_word": "republic",
+    "language": "英語・ラテン語",
+    "field_id": 4,
+    "translator_id": 18,
+    "era": "江戸末期",
+    "year": 1845,
+    "description": "republicの訳語として、箕作省吾が弘化2年（1845年）刊行の地誌書『坤輿図識』に初めて用いた。大槻磐渓の提案に従い、古代中国の「共和」の故事（紀元前841年、周の厲王が失脚した後、召公・周公が共同で政務を執った14年間）になぞらえて命名した。初期は「共治国」「合衆議定」「万民共治」など競合訳語も存在したが、1866年の福沢諭吉『西洋事情』での使用を経て定着し、「共和国」「共和制」「共和党」など現代語の基盤となった。",
+    "etymology": "古代中国の「共和」の故事に由来。紀元前841年、周の厲王が失脚後、召公と周公が共同で政務を執った期間を「共和」と呼ぶ。「共に和して治める」という含意を持ち、王なき共同統治を表す。",
+    "meanings": [
+      {
+        "en": "A system of government in which power is held by the people and their elected representatives.",
+        "ja": "主権が国民またはその代表者に帰属する政治体制。共和制・共和国。",
+        "example_en": "France became a republic after the Revolution.",
+        "example_ja": "フランスは革命後に共和国となった。"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "japanese_word": "共産主義",
+    "original_word": "communism / communisme",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1886,
+    "description": "communism（仏: communisme）の訳語。1881年刊行の哲学辞典『哲学字彙』では「共産論」と訳されていたが、1882年に城多虎雄が新聞論説「論欧州社会党」で「共産ノ主義」の用例を示し、1886年（明治19年）刊行の『仏和法律字彙』に「共産主義」として初出した。「社会主義」という訳語の定着とともに「共産論」から「共産主義」へと移行し、明治末から大正・昭和期にかけて広く普及した。和製漢語として中国にも伝わり、現代中国語でも「共产主义」（gòngchǎn zhǔyì）として用いられる。",
+    "etymology": "communismはラテン語communis（共有の・共通の）にフランス語の接尾辞-ismeが付いた語。「共」は共有・共同、「産」は財産・生産物を意味し、生産手段の共有を旨とする思想を端的に表現した。",
+    "meanings": [
+      {
+        "en": "A political and economic theory advocating for collective ownership of the means of production and a classless society.",
+        "ja": "生産手段の共有と無階級社会の実現を目指す政治・経済思想。",
+        "example_en": "Marx and Engels laid the foundations of modern communism.",
+        "example_ja": "マルクスとエンゲルスが近代共産主義の基礎を築いた。"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "japanese_word": "失恋",
+    "original_word": "heartbreak / unrequited love",
+    "language": "英語（対応語）",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "恋愛の失敗・失意を表す和製漢語として明治期に造られた語。西洋の恋愛小説・詩の翻訳や明治文学の隆盛によって「恋愛」という概念が社会に定着するなかで、恋愛の挫折を示す語として生まれた。英語に一対一対応する訳語ではなく、「恋を失う」という意味内容を漢字で直截に表現した日本語独自の造語である。和製漢語として中国にも伝わり、中国語でも「失恋」（shīliàn）として用いられる。",
+    "etymology": "「失」は失う・なくすを意味し、「恋」は恋愛・慕情を意味する。「恋を失う」という動賓構造（述語＋目的語）の和製漢語。",
+    "meanings": [
+      {
+        "en": "The grief or distress caused by the end of a romantic relationship; heartbreak.",
+        "ja": "恋愛関係の終わりや失敗による悲しみ・失意。失恋の痛手。",
+        "example_en": "She was devastated by heartbreak after their breakup.",
+        "example_ja": "別れた後、彼女は失恋の痛手で打ちひしがれた。"
+      },
+      {
+        "en": "Unrequited love; love that is not returned by the other person.",
+        "ja": "相手に思いが伝わらず報われない恋。片思い・片恋。",
+        "example_en": "He suffered from unrequited love for years.",
+        "example_ja": "彼は長年、報われない失恋に苦しんだ。"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "japanese_word": "接吻",
+    "original_word": "kiss / kus",
+    "language": "英語・オランダ語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸末期",
+    "year": 1815,
+    "description": "オランダ語kusの訳語として、1815年刊行の蘭和辞典『ドゥーフ・ハルマ』（ヘンドリック・ドゥーフ監修）に初めて「接吻」の語が用いられた。江戸期の日本にも「口吸い（くちすい）」という類似行為はあったが、西洋の挨拶・愛情表現としてのキスとは文化的意味合いが異なるため新たな訳語が設けられた。明治期に英語kissの訳語として定着し、1890年代から近代文学にも広く登場した。「くちづけ」の読みで普及した後、「せっぷん」の読みも定着した。",
+    "etymology": "「接」は接する・触れることを意味し、「吻」は口・くちびる（口のすぼまった部分）を意味する。「くちびるを合わせる」という動作を直截に表した字義。",
+    "meanings": [
+      {
+        "en": "The act of pressing one's lips against another person's lips or body as a gesture of love or greeting.",
+        "ja": "愛情や挨拶の表現として唇を相手の唇や体に触れさせる行為。キス。",
+        "example_en": "He gave her a gentle kiss on the cheek.",
+        "example_ja": "彼は彼女の頬に優しく接吻した。"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "japanese_word": "唯物論",
+    "original_word": "materialism / Materialismus",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 12,
+    "era": "明治初期",
+    "year": 1881,
+    "description": "materialismの訳語として、1881年（明治14年）に井上哲次郎らが編纂した日本初の本格的哲学辞典『哲学字彙』に収録・定着した。中江兆民は1886年に「実質説」という別訳語を試みたが普及せず、「唯物論」が定着した。ドイツ観念論への対抗概念として哲学・社会科学の基礎語彙となり、後にマルクス主義哲学の文脈でも中心的な語として機能した。和製漢語として中国にも伝わり、現代中国語でも「唯物论」（wéiwùlùn）として用いられる。",
+    "etymology": "「唯」は「ただ〜だけ」という限定を意味し、「物」は物質・物体、「論」は理論・学説を意味する。「物質のみを実在とする理論」という字義。materialismのmateriaはラテン語で「素材・物質」を意味する。",
+    "meanings": [
+      {
+        "en": "The philosophical theory that only matter exists and that all phenomena, including consciousness, can be explained in terms of matter.",
+        "ja": "物質のみが実在し、精神・意識を含むすべての現象は物質によって説明できるとする哲学理論。",
+        "example_en": "Marxist philosophy is based on dialectical materialism.",
+        "example_ja": "マルクス主義哲学は弁証法的唯物論に基づいている。"
+      },
+      {
+        "en": "The tendency to consider material possessions and physical comfort as more important than spiritual values.",
+        "ja": "物質的な豊かさや快楽を精神的・道徳的価値より重視する傾向。物質主義。",
+        "example_en": "Modern consumerism promotes materialism.",
+        "example_ja": "現代の消費主義は唯物論的な価値観を促進する。"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "japanese_word": "民族",
+    "original_word": "Volk / nation",
+    "language": "ドイツ語・英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治後期",
+    "year": null,
+    "description": "ドイツ語Volkや英語nationの訳語として明治後期から普及した和製漢語。1890年代ごろから雑誌『日本人』などを通じて志賀重昂・陸羯南らが国民主義的論説で用いたことで広まった。当初は「民種」「人種」など競合訳語も存在したが、「民族」が定着した。民族自決・民族主義の文脈でも中心語彙となり、中国にも逆輸出された。",
+    "etymology": "「民」は人民・民衆を意味し、「族」は同一の血縁・文化・言語を共有する集団を意味する。血縁的・文化的共同体という意味内容を漢字で表現した。",
+    "meanings": [
+      {
+        "en": "A group of people sharing a common language, culture, history, or ancestry; an ethnic group or people.",
+        "ja": "共通の言語・文化・歴史・血縁を持つ人々の集団。民族集団・エスニック集団。",
+        "example_en": "The nation consists of many different ethnic groups.",
+        "example_ja": "その国家は多くの異なる民族から構成されている。"
+      },
+      {
+        "en": "A people with a shared national identity or political consciousness.",
+        "ja": "共通の国民的アイデンティティや政治的意識を持つ民衆。国民・民族。",
+        "example_en": "The right of peoples to self-determination was affirmed.",
+        "example_ja": "民族の自決権が確認された。"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "japanese_word": "文明",
+    "original_word": "civilization",
+    "language": "英語・フランス語",
+    "field_id": 8,
+    "translator_id": 1,
+    "era": "明治期",
+    "year": 1866,
+    "description": "civilizationの訳語として明治期に定着した語。儒学の古典語「文明（文事が明らかであること）」を転用したもので、福沢諭吉が1866年の『西洋事情』で多用したことで広まった。1875年の『文明論之概略』では文明概念を体系的に論じ、「文明開化」のスローガンとともに明治近代化の旗印となった。森有礼も明六社の活動を通じてこの概念の普及に貢献した。",
+    "etymology": "「文」は文事・文化・教養を意味し、「明」は明らかにすること・啓発を意味する。儒学の古典語から転用し、civilizationの近代的意義（物質的・精神的発展）を付与した。",
+    "meanings": [
+      {
+        "en": "The stage of human social and cultural development and organization; a developed or advanced society.",
+        "ja": "人間社会の文化的・社会的発展の到達段階。高度に発展した社会・文化。",
+        "example_en": "Western civilization had a profound influence on Japan during the Meiji era.",
+        "example_ja": "明治期に西洋文明が日本に深い影響を与えた。"
+      },
+      {
+        "en": "The comfort and conveniences provided by modern knowledge and technology.",
+        "ja": "近代的な知識・技術がもたらす便利さや快適さ。文明の利器。",
+        "example_en": "The benefits of civilization spread rapidly.",
+        "example_ja": "文明の恩恵は急速に広まった。"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "japanese_word": "警察",
+    "original_word": "police",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1874,
+    "description": "フランス語police（英語: police）の訳語として、明治7年（1874年）の「司法警察規則」・明治8年の「行政警察規則」など政府法令に初めて用いられた。「警」は犯罪・事故が生じないよう警戒することを、「察」は未然に知り防ぐことを意味し、二字合わせて市民を保護する行政活動を端的に表した。明治7年に設置された東京警視庁の整備とともに語彙として急速に定着した。",
+    "etymology": "「警」は警戒・注意することを意味し、「察」は看察・観察・推知することを意味する。「警戒してあらかじめ察する」という字義。policeの語源はギリシャ語polis（都市国家）に遡るラテン語politia（国家統治）。",
+    "meanings": [
+      {
+        "en": "The civil force of a government, responsible for maintaining law and order.",
+        "ja": "法と秩序を維持する国家の行政機関・その組織や活動。",
+        "example_en": "The police arrested the suspect.",
+        "example_ja": "警察は容疑者を逮捕した。"
+      },
+      {
+        "en": "The system or activity of enforcing laws and maintaining public order.",
+        "ja": "法令を執行し公共の秩序を維持する活動・制度。",
+        "example_en": "Police powers were expanded in the new regulations.",
+        "example_ja": "新しい規則で警察の権限が拡大された。"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "japanese_word": "分配",
+    "original_word": "distribution",
+    "language": "英語・フランス語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "経済学のdistributionの訳語として明治期に定着した和製漢語。生産された富・所得を社会の各階層や生産要素（労働・資本・土地）に振り分けるという政治経済学の概念を表す語として、明治期の翻訳書を通じて広まった。「分配論」「所得分配」「富の分配」など経済学の基本語彙として定着し、社会主義思想の文脈でも重要な概念語となった。",
+    "etymology": "「分」は分けること・分割を意味し、「配」は割り当て・配分を意味する。「分けて割り当てる」という字義。distributionはラテン語distributio（分配・分類）に由来する。",
+    "meanings": [
+      {
+        "en": "The action of sharing something out among a number of recipients; the allocation of income or wealth among factors of production.",
+        "ja": "生産物・所得・富を各受益者や生産要素に割り当てること。所得分配。",
+        "example_en": "The distribution of wealth became increasingly unequal.",
+        "example_ja": "富の分配はますます不平等になった。"
+      },
+      {
+        "en": "The way in which something is spread over an area or among a group.",
+        "ja": "物・現象がある範囲や集団にわたって広がる様子・分布。",
+        "example_en": "The distribution of the population is uneven.",
+        "example_ja": "人口の分配（分布）は不均一である。"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "japanese_word": "感性",
+    "original_word": "sensibility / Sinnlichkeit",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": null,
+    "description": "カント哲学のドイツ語Sinnlichkeit（英: sensibility）の訳語として、西周が哲学用語の整備に際して用いた語。カントの認識論において感性は「時間・空間という純粋直観の形式を持ち、外界の刺激を受容・整理する認識能力」と定義され、悟性（Verstand）・理性（Vernunft）と並ぶ重要概念として定着した。1881年刊の『哲学字彙』にも収録された。",
+    "etymology": "「感」は外界の刺激に反応・感じることを意味し、「性」は本質的な性質・働きを意味する。「外界に感じる本質的能力」という字義。Sinnlichkeitはドイツ語Sinn（感覚）に由来する。",
+    "meanings": [
+      {
+        "en": "The capacity for sensation and perception; in Kantian philosophy, the faculty of intuition that receives sensory data within the forms of space and time.",
+        "ja": "感覚・知覚の能力。カント哲学では時間・空間という直観形式のもとに感覚データを受容する認識能力。",
+        "example_en": "Kant distinguished sensibility from understanding in his theory of knowledge.",
+        "example_ja": "カントは認識論において感性と悟性を区別した。"
+      },
+      {
+        "en": "Aesthetic sensitivity; the capacity to appreciate beauty and artistic experience.",
+        "ja": "美的感受性。美や芸術的体験を感じ取る能力。",
+        "example_en": "She has a refined artistic sensibility.",
+        "example_ja": "彼女は洗練された芸術的感性を持っている。"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "japanese_word": "分子",
+    "original_word": "molecule",
+    "language": "英語・フランス語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "moleculeの訳語として明治期の化学・物理学翻訳書を通じて定着した和製漢語。「原子（atom）」が化学的に分割できない最小単位であるのに対し、「分子」はその原子の結合体として化学的性質を持つ最小単位を指す。「原子」とともに対概念として整備され、西洋自然科学の基礎語彙として定着した。中国にも逆輸出され、現代中国語でも「分子」（fēnzǐ）として用いられる。",
+    "etymology": "「分」は分けること・部分を意味し、「子」は小さなものを意味する。「物質を分けたときの小さな単位」という字義。moleculeはフランス語molécule（1678年）から、さらにラテン語molecula（小さな塊）の縮小形に由来する。",
+    "meanings": [
+      {
+        "en": "The smallest particle of a substance that retains all the properties of the substance; a group of two or more atoms bonded together.",
+        "ja": "物質の化学的性質を保持する最小単位。二個以上の原子が結合した粒子。",
+        "example_en": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+        "example_ja": "水分子は二個の水素原子と一個の酸素原子からなる。"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "japanese_word": "原子",
+    "original_word": "atom",
+    "language": "英語・ギリシャ語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "atomの訳語として明治期の化学・物理学翻訳書を通じて定着した和製漢語。化学的に分割できない最小の物質単位を指し、「分子（molecule）」の下位概念として整備された。古代ギリシャのデモクリトスの原子論（atomism）を紹介する文脈でも広く用いられ、20世紀には「原子爆弾」「原子力」など派生語を生んだ。中国にも逆輸出され、現代中国語でも「原子」（yuánzǐ）として用いられる。",
+    "etymology": "「原」は根本・起源・源を意味し、「子」は小さなものを意味する。「物質の根本にある小さな粒」という字義。atomはギリシャ語atomos（a-=否定+tomos=切ること）、すなわち「分割できないもの」に由来する。",
+    "meanings": [
+      {
+        "en": "The smallest unit of a chemical element that cannot be further divided by chemical means.",
+        "ja": "化学的手段によってこれ以上分割できない元素の最小単位。",
+        "example_en": "All matter is made up of atoms.",
+        "example_ja": "すべての物質は原子からできている。"
+      },
+      {
+        "en": "An extremely small amount or particle.",
+        "ja": "極めて小さな量・粒。（比喩的用法）",
+        "example_en": "There is not an atom of truth in what he said.",
+        "example_ja": "彼の言ったことには一原子ほどの真実もない。"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "japanese_word": "質量",
+    "original_word": "mass",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "物理学のmassの訳語として明治期の物理学翻訳書を通じて定着した語。ニュートンの『プリンキピア』を訳した書では「物質量」と訳されていたものが「質量」に洗練されたとされる。「重量（weight）」が重力の影響を受ける力の量であるのに対し、「質量」は重力に依存しない物体固有の量であるという概念的区別を日本語に導入した。",
+    "etymology": "「質」は物質・本質・素材を意味し、「量」は量・大きさを意味する。「物質の本質的な量」という字義。massはラテン語massa（塊・固まり）から、さらにギリシャ語maza（大麦をこねた菓子）に遡る。",
+    "meanings": [
+      {
+        "en": "The quantity of matter in a body, irrespective of its volume or any forces acting on it.",
+        "ja": "体積や作用する力に依存せず、物体に含まれる物質の量。",
+        "example_en": "The mass of an object does not change with gravity.",
+        "example_ja": "物体の質量は重力によって変化しない。"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "japanese_word": "固体",
+    "original_word": "solid",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "物質の三態を表す科学用語のうち、solidの訳語として明治期に整備された語。「液体（liquid）」「気体（gas）」とともに物質の三態として体系的に訳語が整備され、西洋の化学・物理学書の翻訳を通じて定着した。「固体物理学」「固体化学」「全固体電池」など現代科学・技術の基幹語彙として機能している。",
+    "etymology": "「固」は固い・変形しないことを意味し、「体」は物体・状態を意味する。「形状が固い物体」という字義。solidはラテン語solidus（堅固な・完全な）に由来する。",
+    "meanings": [
+      {
+        "en": "A state of matter in which particles are closely packed and maintain a definite shape and volume.",
+        "ja": "粒子が密に詰まり、一定の形状と体積を維持する物質の状態。",
+        "example_en": "Water becomes solid when it freezes.",
+        "example_ja": "水は凍ると固体になる。"
+      },
+      {
+        "en": "Firm, stable, or strongly constructed.",
+        "ja": "堅固な・安定した・しっかりした。（形容詞的用法）",
+        "example_en": "The building has solid foundations.",
+        "example_ja": "その建物は固体（堅固）な基礎を持っている。"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "japanese_word": "時間",
+    "original_word": "time / Zeit",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": null,
+    "description": "哲学的概念としてのtimeおよびドイツ語Zeitの訳語として明治初期に定着した語。カント哲学において「時間」は「空間」とともに「感性の純粋直観形式」として位置づけられ、西周らによる西洋哲学の導入過程で哲学的概念の担い手として整備された。「時間」自体は古典中国語にも存在したが、近代的な哲学・科学概念を担う語として再定義された。1881年の『哲学字彙』にも収録された。",
+    "etymology": "「時」は時・時刻・ある時点を意味し、「間」は間・あいだ・持続を意味する。古典漢語にも「時間」の用例はあるが、近代的な哲学・物理学上の概念を担う語として再利用された。",
+    "meanings": [
+      {
+        "en": "The indefinite continued progress of existence and events; in Kantian philosophy, the pure form of inner intuition.",
+        "ja": "存在と出来事の無限の継続的進行。カント哲学では内的直観の純粋形式。",
+        "example_en": "Time and space are the fundamental conditions of all experience.",
+        "example_ja": "時間と空間はすべての経験の根本条件である。"
+      },
+      {
+        "en": "A point or period measured in hours, minutes, etc.; a duration.",
+        "ja": "時刻・時点。また、ある期間・所要時間。",
+        "example_en": "What time does the train arrive?",
+        "example_ja": "電車は何時に到着しますか？"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "japanese_word": "空間",
+    "original_word": "space / Raum",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": null,
+    "description": "哲学的概念としてのspaceおよびドイツ語Raumの訳語として明治初期に定着した語。カント哲学において「空間」は「時間」とともに「感性の純粋直観形式」として位置づけられ、西周らによる西洋哲学の導入過程で整備された。近代物理学（ニュートン力学）の絶対空間の概念も同じ訳語で受け容れられた。1881年の『哲学字彙』にも収録された。",
+    "etymology": "「空」は空・虚ろを意味し、「間」は間・ひろがりを意味する。「何もない広がり・虚ろな間」という字義。spaceはラテン語spatium（広がり・間隔）に由来する。",
+    "meanings": [
+      {
+        "en": "The dimensions of height, depth, and width within which all things exist and move; in Kantian philosophy, the pure form of outer intuition.",
+        "ja": "すべての物体が存在・運動する三次元の広がり。カント哲学では外的直観の純粋形式。",
+        "example_en": "Space and time are the framework of all experience.",
+        "example_ja": "空間と時間はすべての経験の枠組みである。"
+      },
+      {
+        "en": "A continuous area or expanse that is free, available, or unoccupied.",
+        "ja": "自由な・使用可能な・占有されていない連続した広がり・場所。",
+        "example_en": "There is not enough space in this room.",
+        "example_ja": "この部屋には十分な空間がない。"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "japanese_word": "理論",
+    "original_word": "theory",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "theoryの訳語として明治期に広まった語。古典漢語「理」（道理・条理）と「論」（論述・議論）を組み合わせたもので、江戸後期の蘭学書にも用例が見られるが、明治期の学術体系化の過程でtheoryの標準訳として定着した。「実践」「実験」に対する「理論」という対概念として機能し、「理論物理学」「理論言語学」など「理論○○学」の形で自然科学・人文科学の各分野に広く定着している。",
+    "etymology": "「理」は道理・条理・事物の筋道を意味し、「論」は論述・議論・体系的な考察を意味する。「事物の筋道を体系的に論じたもの」という字義。theoryはギリシャ語theoria（観察・考察・思索）に由来する。",
+    "meanings": [
+      {
+        "en": "A system of ideas or principles used to explain something, especially one based on general principles independent of what is being explained.",
+        "ja": "現象を説明するための原理・命題の体系。経験的事実から独立した一般的原理に基づく体系的説明。",
+        "example_en": "Darwin's theory of evolution changed our understanding of life.",
+        "example_ja": "ダーウィンの進化理論は生命に対する私たちの理解を変えた。"
+      },
+      {
+        "en": "An idea used to account for a situation or justify a course of action.",
+        "ja": "状況を説明し行動を正当化するための考え・見解。（一般的用法）",
+        "example_en": "In theory, the plan sounds good.",
+        "example_ja": "理論上はその計画は良さそうに聞こえる。"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "japanese_word": "文学",
+    "original_word": "literature",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "literatureの訳語として明治期に広まった語。「文学」自体は古典中国語に「文事・学問」の意で存在した語だが、近代的な文芸・言語芸術の総体という意味内容を付加してliteratureの訳語として再定義された。1877年設置の東京大学「文学部」の名称にも採用され、「文学者」「文学作品」「文学部」など現代語と同様の用法が明治期に定着した。",
+    "etymology": "「文」は文字・文章・文事（文学的な事柄）を意味し、「学」は学問・学術を意味する。古典漢語の「文学」は文事の学問という意で、近代的なliteratureの概念を担う語として再利用された。",
+    "meanings": [
+      {
+        "en": "Written works, especially those considered of superior or lasting artistic merit.",
+        "ja": "書かれた作品の総体。特に芸術的・文化的価値の高いとされる文芸作品。",
+        "example_en": "She studied Japanese literature at university.",
+        "example_ja": "彼女は大学で日本文学を学んだ。"
+      },
+      {
+        "en": "Books and writings published on a particular subject.",
+        "ja": "特定の主題に関して刊行された著作・論文の総体。文献。",
+        "example_en": "There is an extensive literature on this topic.",
+        "example_ja": "このテーマに関する文学（文献）は膨大だ。"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "japanese_word": "美術",
+    "original_word": "fine arts / beaux-arts",
+    "language": "英語・フランス語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1872,
+    "description": "fine arts（仏: beaux-arts）の訳語として西周が1872年の著作『美妙学説』で初めて用いたとされる。1873年のウィーン万国博覧会への出品に際して政府が出品区分の翻訳に「美術」を採用したことで広く知れわたり、絵画・彫刻・書・建築・工芸などの造形芸術を指す語として定着した。当初は芸術全般を指したが、明治30年代以降は造形芸術に特化した意味で安定した。",
+    "etymology": "「美」は美しさ・審美的価値を意味し、「術」は技術・技芸を意味する。「美を追求する技芸」という字義。fine artsのfineはラテン語finitus（完成された・洗練された）に由来する。",
+    "meanings": [
+      {
+        "en": "The visual arts, especially painting, sculpture, and architecture, regarded primarily for their aesthetic value.",
+        "ja": "審美的価値を主として追求する視覚芸術。絵画・彫刻・建築などの造形芸術。",
+        "example_en": "She graduated from a school of fine arts.",
+        "example_ja": "彼女は美術学校を卒業した。"
+      },
+      {
+        "en": "Creative visual art in general, including drawing, painting, and sculpture.",
+        "ja": "デッサン・絵画・彫刻を含む創造的な視覚芸術全般。",
+        "example_en": "The museum's collection spans five centuries of fine arts.",
+        "example_ja": "その美術館のコレクションは五世紀にわたる美術作品を網羅している。"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "japanese_word": "喜劇",
+    "original_word": "comedy",
+    "language": "英語・フランス語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "comedyの訳語として明治期に「悲劇（tragedy）」の対概念として整備された語。西洋演劇・文学の翻訳・紹介が進む中で、古代ギリシャ以来の喜劇の伝統を紹介する際に用いられ広まった。日本の歌舞伎や落語の「滑稽もの」との比較対照の文脈でも用いられ、近代演劇・映画の語彙として定着した。「喜劇的」「喜劇役者」など派生語も多く用いられる。",
+    "etymology": "「喜」は喜び・笑いを意味し、「劇」は演劇・劇的な演技を意味する。「喜びや笑いを扱う演劇」という字義。comedyはギリシャ語komodia（komos=宴会の祭り+oide=歌）に由来する。",
+    "meanings": [
+      {
+        "en": "A play, film, or other work that is intentionally humorous, typically with a happy ending.",
+        "ja": "意図的にユーモラスな展開を持ち、典型的に幸福な結末を迎える演劇・映画などの作品。",
+        "example_en": "Shakespeare wrote both comedies and tragedies.",
+        "example_ja": "シェイクスピアは喜劇と悲劇の両方を書いた。"
+      },
+      {
+        "en": "The amusing aspects of something; a situation that is funny or laughable.",
+        "ja": "物事のおかしみ・滑稽な側面。笑いを誘う状況。（比喩的用法）",
+        "example_en": "The confusion that followed was pure comedy.",
+        "example_ja": "その後の混乱はまさに喜劇だった。"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "japanese_word": "悲劇",
+    "original_word": "tragedy",
+    "language": "英語・フランス語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "tragedyの訳語として明治期に「喜劇（comedy）」の対概念として整備された語。西洋演劇・文学の翻訳・紹介の中でギリシャ悲劇やシェイクスピア悲劇を紹介する際に用いられ広まった。「悲劇的」「悲劇的な結末」など比喩的用法も発達し、文学・演劇用語を超えて一般語彙として広く定着した。「歴史は悲劇として繰り返す」など慣用的表現も生まれた。",
+    "etymology": "「悲」は悲しみ・哀れを意味し、「劇」は演劇・劇的な演技を意味する。「悲しみや苦難を扱う演劇」という字義。tragedyはギリシャ語tragoidia（tragos=ヤギ+oide=歌）に由来し、主人公が苦難・死を迎える演劇ジャンルを指す。",
+    "meanings": [
+      {
+        "en": "A play dealing with tragic events and having an unhappy ending, especially one concerning the downfall of the main character.",
+        "ja": "悲劇的な出来事を扱い、特に主人公の没落・死を描いた不幸な結末の演劇。",
+        "example_en": "Hamlet is one of Shakespeare's greatest tragedies.",
+        "example_ja": "ハムレットはシェイクスピアの最も偉大な悲劇のひとつである。"
+      },
+      {
+        "en": "An event causing great suffering, destruction, or distress.",
+        "ja": "大きな苦しみ・破壊・悲しみをもたらす出来事。（比喩的用法）",
+        "example_en": "It is a tragedy that so many lives were lost.",
+        "example_ja": "多くの命が失われたことは悲劇だ。"
+      }
+    ]
   }
 ]
