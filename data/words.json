@@ -4568,5 +4568,183 @@
         "example_ja": "彼は毎朝珈琲を飲む。"
       }
     ]
+  },
+  {
+    "id": 180,
+    "japanese_word": "組合",
+    "original_word": "partnership / association",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1896,
+    "description": "「組合」はもともと江戸期から仲間・一団を意味する在来語として用いられていたが、明治に入ると西洋法と近代的団体制度の受容に伴って、association や partnership に相当する訳語として再編された。とくに1896年公布の民法では、複数人が出資して共同事業を営む契約上の団体を指す法律用語として明確化され、その後は信用組合・労働組合・同業組合など多様な制度語の基礎語となった。古い日本語に近代法的意味が付与されて定着した例である。",
+    "etymology": "「組」は人や物を組み合わせること、「合」は合わせて一つになることを意味する。もともとの「仲間・一団」の語義が、明治期に西洋の団体・共同事業体の概念を受け止める語として拡張された。",
+    "meanings": [
+      {
+        "en": "A partnership; an association formed by two or more persons for a common purpose or joint enterprise.",
+        "ja": "共通の目的や共同事業のために二人以上が結成する団体・結合体。",
+        "example_en": "The partners formed a business partnership under a written agreement.",
+        "example_ja": "当事者たちは書面契約のもとで事業組合を結成した。"
+      },
+      {
+        "en": "A legally recognized organization established for mutual benefit, such as a trade union or cooperative association.",
+        "ja": "労働組合や協同組合のように、相互の利益のために組織される公認の団体。",
+        "example_en": "Workers joined the union to negotiate better conditions.",
+        "example_ja": "労働者たちはより良い条件を交渉するため組合に加入した。"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "japanese_word": "信用",
+    "original_word": "credit / trust",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「信用」は古くから漢語として存在したが、明治期に西洋商業・金融制度の導入とともに credit の訳語として再編され、経済語彙としての意味が強くなった。とくに銀行業、掛け売り、信用状などの制度が整うにつれて、人格的な信頼だけでなく、返済能力や取引上の評価を示す専門語として定着した。近代法・商法・金融実務を通じて、現代の経済生活に不可欠な基礎語となった。",
+    "etymology": "「信」は信じること、「用」は用いる・取り立てることを意味する。もともとの漢語が、明治以後に credit の訳語として用いられ、信じて取引に用いるという意味を強めた。",
+    "meanings": [
+      {
+        "en": "Credit; trustworthiness or financial reliability recognized in social or commercial dealings.",
+        "ja": "人や企業が信頼され、取引や貸借を任せうると判断されること。",
+        "example_en": "The company lost credit after failing to repay its debts.",
+        "example_ja": "その会社は債務不履行の後、信用を失った。"
+      },
+      {
+        "en": "Trust or confidence placed in a person, statement, or institution.",
+        "ja": "人・言説・制度などを信じて受け入れること。",
+        "example_en": "Few people gave credit to the rumor.",
+        "example_ja": "そのうわさを信用する人はほとんどいなかった。"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "japanese_word": "保健",
+    "original_word": "health / public health",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "昭和前期",
+    "year": 1937,
+    "description": "「保健」は健康の保持・増進を意味する語として近代以降に広まり、とくに1937年の保健所法制定を契機に、公衆衛生行政や地域医療の文脈で制度語として定着した。明治期には長与専斎らが hygiene を「衛生」と訳していたが、その後、住民の健康保持や保健指導を表すより実践的な語として「保健」が前面に出るようになった。学校保健、母子保健、地域保健などの複合語を生み、現代の健康行政の中心語彙となっている。",
+    "etymology": "「保」はたもつ・守る、「健」はすこやかさを意味する。字義通り「健康を保つこと」であり、health や public health の実践的側面を表す日本語として発達した。",
+    "meanings": [
+      {
+        "en": "Health preservation and promotion; public health practice.",
+        "ja": "個人や地域社会の健康を守り、高めるための実践や行政活動。",
+        "example_en": "Public health nurses play a vital role in community health.",
+        "example_ja": "保健師は地域保健で重要な役割を果たす。"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "japanese_word": "保険",
+    "original_word": "insurance",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1869,
+    "description": "近代的な insurance 制度の導入に際して成立した訳語で、江戸末から明治初年には「請合（うけあい）」とも呼ばれていた。福沢諭吉『西洋旅案内』（1867年）は制度自体を「災難請合」として紹介したが、1869年ごろから中国由来の漢語「保険」が日本でも現れ、やがて読みも「うけあい」から「ほけん」へ移った。生命保険・損害保険・社会保険などを包摂する基礎語として定着した。",
+    "etymology": "「保」は守る、「険」は危うさ・危険を意味する。危険から身を守るという漢語的な字義が、insurance の制度的意味に適合して採用された。",
+    "meanings": [
+      {
+        "en": "Insurance, a system for compensating loss or damage in exchange for premiums.",
+        "ja": "保険料の拠出により、事故や損害の際に給付を受ける制度。",
+        "example_en": "She bought travel insurance before leaving Japan.",
+        "example_ja": "彼女は日本を出発する前に旅行保険に入った。"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "japanese_word": "弁護",
+    "original_word": "defense / advocacy",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「弁護」はもともと漢語として「言葉を尽くしてかばう」意を持っていたが、近代司法制度の整備とともに defense や advocacy に対応する法律用語として整えられた。裁判制度の導入により、被告人の利益を守る行為やその役割を担う者を表す語として重要性を増し、「弁護人」「弁護士」などの派生語も成立した。法廷における対抗構造の一方を担う核心語として、明治以後の法曹語彙に定着した。",
+    "etymology": "「弁」はことばでわきまえる・言い分を述べること、「護」はまもることを意味する。言論によって人を守るという字義が、近代法の defense 概念に重ねられた。",
+    "meanings": [
+      {
+        "en": "Legal defense; the act of protecting a person’s rights or interests in legal proceedings.",
+        "ja": "裁判や法的手続きで、本人の権利や利益を守るために主張・立証すること。",
+        "example_en": "The lawyer prepared a strong defense for the accused.",
+        "example_ja": "弁護士は被告人のために強力な弁護を準備した。"
+      },
+      {
+        "en": "Advocacy or defense of a person, opinion, or cause.",
+        "ja": "人・意見・立場などをかばい支持すること。",
+        "example_en": "He spoke in defense of academic freedom.",
+        "example_ja": "彼は学問の自由を弁護して発言した。"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "japanese_word": "出版",
+    "original_word": "publication / publishing",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「出版」は近世以来の刊本文化を背景に持ちながら、明治期に活版印刷と近代出版社の発達に伴って publication / publishing に対応する一般的な訳語として整った。従来の「上梓」「刊行」「発行」などに比べ、制作から頒布までを広く含む語として使いやすく、新聞・雑誌・書籍の普及とともに定着した。近代日本の知識流通を支えた制度と産業を表す中心語である。",
+    "etymology": "「出」は世に出すこと、「版」は印刷のための版木・版面を意味する。版を用いて世に出すという字義から、印刷物の刊行全般を表すようになった。",
+    "meanings": [
+      {
+        "en": "Publication; the act of producing and distributing printed or digital works.",
+        "ja": "書籍・雑誌などを制作し、頒布・販売すること。",
+        "example_en": "The book’s publication was delayed by a month.",
+        "example_ja": "その本の出版は一か月延期された。"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "japanese_word": "出席",
+    "original_word": "attendance / presence",
+    "language": "英語",
+    "field_id": 6,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「出席」は中国古典以来の漢語を背景に持つが、明治期に学校・議会・会議など近代的制度の普及とともに attendance や presence に対応する公的語として定着した。近代教育制度では「出席日数」「出席簿」などの語が整備され、議会政治や官庁実務でも会議への参加を示す公式表現となった。制度化された時間管理・参加管理の広がりを映す語である。",
+    "etymology": "「出」はその場に出ること、「席」は座席・会合の場を意味する。会合や授業の場に出て席につくことから、公的な参加を示す語となった。",
+    "meanings": [
+      {
+        "en": "Attendance; the act of being present at a meeting, class, ceremony, or event.",
+        "ja": "会議・授業・式典などに実際に उपस्थितすること。",
+        "example_en": "Regular attendance is required for the course.",
+        "example_ja": "その授業では नियमितの出席が求められる。"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "japanese_word": "初歩",
+    "original_word": "rudiments / elements",
+    "language": "英語",
+    "field_id": 6,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1871,
+    "description": "「初歩」は歩き始めの第一歩を原義とする漢語だが、明治初年の翻訳書では学問や技能の入門段階を表す訳語として用いられるようになった。とくに中村正直訳『西国立志編』（1870-71年）に、学問の入り口を示す語として見え、近代教育語彙のなかで「基礎」「入門」「初等」と並ぶ語として広まった。学びの最初の段階をやさしく示す便利な語として現在まで生き残っている。",
+    "etymology": "「初」ははじめ、「歩」は一歩一歩進むことを意味する。文字通り「最初の一歩」から、学問や技術の手はじめ・入門段階を表すようになった。",
+    "meanings": [
+      {
+        "en": "The rudiments; the elementary first stage of learning a subject or skill.",
+        "ja": "学問・技術・芸事などの最初の段階、手はじめ。",
+        "example_en": "He started by learning the rudiments of chemistry.",
+        "example_ja": "彼は化学の初歩から学び始めた。"
+      }
+    ]
   }
 ]
