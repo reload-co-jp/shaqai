@@ -4006,5 +4006,321 @@
         "example_ja": "多くの命が失われたことは悲劇だ。"
       }
     ]
+  },
+  {
+    "id": 154,
+    "japanese_word": "国債",
+    "original_word": "government bond / dette publique",
+    "language": "英語・フランス語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "近代国家が財政需要を賄うために発行する公債を指す語として明治期に整備された。古来「国債」は他国への債務という意味でも用いられたが、欧州式の近代財政制度の導入とともにgovernment bondの訳語として再定義された。明治39年（1906年）の「国債に関する法律」で法制上の用語として確立し、以後「国債発行」「国債残高」など財政論の基本語彙となった。",
+    "etymology": "「国」は国家を、「債」は債務・借金を意味する。国家が負う債務という字義で、古典漢語にも存在した語を近代財政用語として転用した。bondはラテン語bandumに由来し、拘束・義務を原義とする。",
+    "meanings": [
+      {
+        "en": "A bond issued by a national government to raise funds, promising to pay back the principal with interest.",
+        "ja": "国家が資金調達のために発行する債券。元本と利息の支払いを約束する有価証券。",
+        "example_en": "The government issued bonds to finance public infrastructure projects.",
+        "example_ja": "政府は公共インフラ事業の財源として国債を発行した。"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "japanese_word": "特権",
+    "original_word": "privilege / prerogative",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "特定の身分・職位に認められた特別な権利・免除を指す語として明治の法制・政治文書に用いられた。特に外交上の治外法権（extraterritorial privilege）をめぐる不平等条約改正運動の文脈で頻用され、「特権的地位」「外交特権」など派生表現も広まった。『附音挿図英和字彙』（1873年）にも privilege の訳語として掲載されている。",
+    "etymology": "「特」は特別・特定を意味し、「権」は権力・権利を意味する。特別に認められた権利という字義。privilegeはラテン語privilegium（privus=個人＋lex=法）に由来し、「個人のための特別な法」を原義とする。",
+    "meanings": [
+      {
+        "en": "A special right or advantage granted to a particular person or group.",
+        "ja": "特定の個人や集団に与えられた特別な権利や利益。",
+        "example_en": "Diplomatic privilege exempts ambassadors from local jurisdiction.",
+        "example_ja": "外交特権は大使を現地の管轄から免除する。"
+      },
+      {
+        "en": "An exclusive right held by a monarch or government authority.",
+        "ja": "君主または政府機関が保有する固有の権限・専権。",
+        "example_en": "It is the prerogative of the Crown to dissolve Parliament.",
+        "example_ja": "議会を解散することは王権の特権である。"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "japanese_word": "平時",
+    "original_word": "peacetime / temps de paix",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「戦時」の対義語として国際法・軍事法規の翻訳の文脈で整備された語。1864年に清で翻訳された丁韙良訳『万国公法』（万国公法、国際法解説書）が幕末の日本にもたらされ、近代国際法体系における平和と戦争の二項対立を表す対語として「平時」「戦時」が同時に普及した。軍事・外交・法律の各分野で「平時体制」「平時国際法」などの形で定着した。",
+    "etymology": "「平」は平和・平穏を意味し、「時」は時間・時期を意味する。平和な時期という字義。peacetimeはpeace（ラテン語pax=平和）とtime（古英語tīma=時）の複合語。",
+    "meanings": [
+      {
+        "en": "A period when a country is not at war.",
+        "ja": "国家が戦争状態にない時期。戦争のない平和な時期。",
+        "example_en": "In peacetime, military forces are used for disaster relief.",
+        "example_ja": "平時には、軍隊は災害救援に用いられる。"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "japanese_word": "戦時",
+    "original_word": "wartime / temps de guerre",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「平時」の対義語として国際法・軍事法規の翻訳の文脈で整備された語。丁韙良訳『万国公法』（1864年）の日本への流入とともに「平時」「戦時」の対概念が導入され、戦時国際法（戦争法規）の議論の中で定着した。明治期の近代的軍制整備において「戦時編制」「戦時法規」など法律・軍事用語として広く用いられるようになった。",
+    "etymology": "「戦」は戦争・戦闘を意味し、「時」は時間・時期を意味する。戦争の時期という字義。wartimeはwar（古英語werre）とtime（古英語tīma）の複合語。",
+    "meanings": [
+      {
+        "en": "A period when a country is engaged in war.",
+        "ja": "国家が戦争を行っている時期。",
+        "example_en": "Wartime regulations restricted the freedom of the press.",
+        "example_ja": "戦時規制は報道の自由を制限した。"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "japanese_word": "民主",
+    "original_word": "democracy / démocratie",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治中期",
+    "year": null,
+    "description": "democracyの訳語として明治中期に定着した語。伝統的な漢語「民主」は「民の主（＝君主）」を意味したが、ルソーの社会契約論などを通じた西洋民主主義思想の輸入とともに意味が転じ、「民が主権を持つ」政治体制を指す語として再解釈された。明治初期は「共和政治」との混用期があったが、自由民権運動の展開の中で「民主主義」「民主政治」の形で普及し現代的な意味が確立した。",
+    "etymology": "「民」は人民・国民を意味し、「主」は主権・主体を意味する。古典漢語では「民の主」＝君主を指したが、近代的解釈では「民が主」を意味するよう転義した。democracyはギリシャ語demos（人民）＋kratos（支配）に由来する。",
+    "meanings": [
+      {
+        "en": "A system of government in which citizens exercise power through elected representatives.",
+        "ja": "市民が選出した代表者を通じて権力を行使する政治体制。",
+        "example_en": "Democracy requires free and fair elections.",
+        "example_ja": "民主主義には自由で公正な選挙が必要である。"
+      },
+      {
+        "en": "The principle of social equality and respect for the individual.",
+        "ja": "社会的平等と個人の尊重を基本とする原理。",
+        "example_en": "Democracy values the dignity of every person.",
+        "example_ja": "民主は一人ひとりの尊厳を重んじる。"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "japanese_word": "野蛮",
+    "original_word": "barbarian / savage / barbarie",
+    "language": "英語・フランス語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": null,
+    "description": "西洋近代の文明史観における「文明（civilization）」の対概念として導入された語。福沢諭吉の『文明論之概略』（1875年）では文明・半開・野蛮の三段階論が展開され、「野蛮」は文明化以前の未開状態を指す語として普及した。barbarianやsavageに対応する訳語として用いられ、文明開化の言説の中で「野蛮な習慣」「野蛮人」など否定的な意味で広く定着した。",
+    "etymology": "「野」は野原・粗野・礼節のないさまを意味し、「蛮」は古典漢語で南方の未開民族を指す語。古典中国語に「野蛮」は「礼節のない・粗暴な」の意で存在した語で、barbarianの訳語として転用された。barbarianはギリシャ語barbaros（「バルバル」と聞こえる外国語を話す者）に由来する。",
+    "meanings": [
+      {
+        "en": "A person belonging to a community or group considered uncivilized or primitive.",
+        "ja": "未開・未文明とみなされた社会や集団に属する人。蛮人。",
+        "example_en": "Ancient Romans considered northern tribes to be barbarians.",
+        "example_ja": "古代ローマ人は北方の部族を野蛮人とみなした。"
+      },
+      {
+        "en": "A state of being uncivilized, cruel, or culturally undeveloped.",
+        "ja": "文明化されていない・残酷な・文化的に未発展な状態。",
+        "example_en": "The act was condemned as an expression of pure barbarism.",
+        "example_ja": "その行為は純粋な野蛮の表れとして非難された。"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "japanese_word": "越権",
+    "original_word": "ultra vires / excès de pouvoir",
+    "language": "ラテン語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "与えられた権限の範囲を超えた行為を指す法律・行政用語として明治期の法制整備の中で用いられた。フランス行政法のexcès de pouvoir（権限逸脱）およびラテン語ultra viresに相当する概念の訳語として整備され、行政法・会社法・国際法の各分野で「越権行為」「越権的処分」などの形で定着した。",
+    "etymology": "「越」は超える・越境することを意味し、「権」は権限・権力を意味する。与えられた権限を超えるという字義。ultra viresはラテン語ultra（超えて）＋vires（力の複数形、virの複数）に由来する。",
+    "meanings": [
+      {
+        "en": "An act performed beyond the scope of one's legal authority or power.",
+        "ja": "法律上与えられた権限の範囲を超えて行われた行為。",
+        "example_en": "The minister's order was declared ultra vires by the court.",
+        "example_ja": "大臣の命令は裁判所によって越権と宣言された。"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "japanese_word": "慣行",
+    "original_word": "custom / usage / pratique",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "慣習・慣例として繰り返されてきた行為・様式を指す語として、明治の法制・社会文書に用いられた。英仏法における慣習法（customary law）の翻訳において、法的拘束力を持つ慣例を表す術語として整備され、商慣行・取引慣行など経済・商業の文脈でも広く定着した。「慣行法」「商慣行」など複合語の形でも用いられる。",
+    "etymology": "「慣」は慣れ親しむ・習慣を意味し、「行」は行為・行うことを意味する。習慣的に行われる行為・やり方という字義。customはラテン語consuetudo（習慣）に由来し、繰り返されることで形成される社会規範を意味する。",
+    "meanings": [
+      {
+        "en": "An established practice or way of doing something that has become accepted over time.",
+        "ja": "長い間繰り返されることで定着した行い方・慣例。",
+        "example_en": "It is a trade custom to inspect goods before payment.",
+        "example_ja": "支払い前に商品を検査するのは商慣行である。"
+      },
+      {
+        "en": "A rule or law based on long-established practice rather than written statute.",
+        "ja": "成文法ではなく長年の慣例に基づく規範・慣習法。",
+        "example_en": "The custom of primogeniture governed the inheritance of land.",
+        "example_ja": "長子相続の慣行が土地の相続を律していた。"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "japanese_word": "共用",
+    "original_word": "common use / usage commun",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "複数の者が共同で使用・利用することを指す語として明治の法制文書に現れた。民法・物権法において共有財産や公共物の利用概念を表す術語として用いられ、近代的な区分所有制度の導入とともに「共用部分」「共用施設」などの形で法律・生活用語として定着した。公共インフラの共同利用を指す「共用化」などの派生語も広まった。",
+    "etymology": "「共」は共同・ともにを意味し、「用」は使用・用途・利用を意味する。複数者がともに使うという字義。commonはラテン語communis（共同の・公共の）に由来し、共同体に属するものを意味する。",
+    "meanings": [
+      {
+        "en": "Shared use of something by two or more parties.",
+        "ja": "二人以上の者が共同で物や施設を使用すること。",
+        "example_en": "The hallways and elevators are common areas shared by all residents.",
+        "example_ja": "廊下とエレベーターは全住民が共用する部分である。"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "japanese_word": "私権",
+    "original_word": "private right / droit privé",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "私法上の個人が有する権利の総称として明治の法制整備の中で確立した語。公法（public law）に対する私法（private law）の体系において個人の財産権・人格権・身分権などの私的権利を包括的に表す術語として整備された。ボワソナードを招いての民法典編纂過程（1880年代）で精緻化され、「私権の享有」「私権の制限」など民法の基本概念として定着した。",
+    "etymology": "「私」は個人・私的・公の対義を意味し、「権」は権利・権限を意味する。個人の私的領域における権利という字義。private rightのprivateはラテン語privatus（国家から分離された・個人的な）に由来する。",
+    "meanings": [
+      {
+        "en": "A right held by a private individual under civil law, such as property rights or personal rights.",
+        "ja": "財産権・人格権など、私法上の個人が有する権利の総称。",
+        "example_en": "Private rights may be restricted when they conflict with the public interest.",
+        "example_ja": "私権は公共の利益と衝突する場合に制限されることがある。"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "japanese_word": "実権",
+    "original_word": "real power / effective authority / pouvoir réel",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "名目上の権力に対して実際に行使される権力・権限を指す語として明治の政治・法制文書に用いられた。天皇制のもとでの形式的権力と実質的権力の乖離、あるいは幕政における将軍と朝廷の関係など、権力の表と実態の乖離を論じる文脈で多用された。近代国家論において「実権を握る」「実権を持たない」などの表現が政治語彙として広く定着した。",
+    "etymology": "「実」は実際・現実・真実を意味し、「権」は権力・権限を意味する。実際に機能する・行使される権力という字義。real powerのrealはラテン語realis（物・事に即した）に由来する。",
+    "meanings": [
+      {
+        "en": "The actual power or authority effectively exercised, as opposed to nominal or ceremonial power.",
+        "ja": "名目上の権力に対して、実際に行使される実質的な権力・権限。",
+        "example_en": "The prime minister holds real power while the monarch reigns but does not rule.",
+        "example_ja": "君主は君臨するが統治せず、首相が実権を握る。"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "japanese_word": "主権",
+    "original_word": "sovereignty / souveraineté",
+    "language": "英語・フランス語",
+    "field_id": 4,
+    "translator_id": 7,
+    "era": "明治初期",
+    "year": 1873,
+    "description": "1873年（明治6年）、柴田昌吉・子安峻共著の『附音挿図英和字彙』においてsovereigntyの訳語として「主権」が記載されたのが定着の嚆矢とされる。古典漢語・管子に「君主の権力」の意で存在した語を近代的国家主権概念の訳語として転用したもので、中江兆民のルソー『社会契約論』翻訳『民約訳解』（1882年）でも重要な概念として用いられた。大日本帝国憲法における「天皇主権」論の基礎語彙ともなった。",
+    "etymology": "「主」は主体・支配者・主権者を意味し、「権」は権力・権限を意味する。管子（七臣七主）に初出とされる古典漢語で、近代的な国家最高権力の概念に充てられた。sovereigntyは古フランス語soverainete（至高の権力）に由来し、ラテン語superanus（上位の）が語根。",
+    "meanings": [
+      {
+        "en": "The supreme authority of a state to govern itself without external interference.",
+        "ja": "国家が外部の干渉を受けずに自国を統治する最高の権力。",
+        "example_en": "The treaty respected the sovereignty of each signatory nation.",
+        "example_ja": "条約は各締約国の主権を尊重した。"
+      },
+      {
+        "en": "The authority of a ruler or government to exercise power within a territory.",
+        "ja": "統治者または政府が領域内で権力を行使する権限。",
+        "example_en": "The Constitution declares that sovereignty resides with the people.",
+        "example_ja": "憲法は主権が国民に存すると宣言している。"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "japanese_word": "上告",
+    "original_word": "appeal / pourvoi en cassation",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "下級審の判決に不服がある場合に上位の裁判所に再審を求める手続きを指す法律用語として、明治の近代的司法制度の整備とともに確立した。フランス法のpourvoi en cassation（破棄申立）や英米法のappealに相当する語として用いられ、明治23年（1890年）の旧民事訴訟法・旧刑事訴訟法の制定により法律上の術語として確定した。「控訴（第二審への不服申立）」と区別して最高審への不服申立を指す語として定着した。",
+    "etymology": "「上」は上位・上方を意味し、「告」は告げる・申告・訴えることを意味する。上位（の裁判所）に申告する・訴えるという字義。appealはラテン語appellare（呼びかける・訴える）に由来し、ad（向かって）＋pellare（駆る）が語根。",
+    "meanings": [
+      {
+        "en": "A legal proceeding in which a case is brought to a higher court for review of a lower court's decision.",
+        "ja": "下級裁判所の判決の再審査を求めて上位の裁判所に訴える手続き。",
+        "example_en": "The defendant filed an appeal to the Supreme Court.",
+        "example_ja": "被告は最高裁判所に上告した。"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "japanese_word": "例外",
+    "original_word": "exception / exception",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "規則・原則から外れる特別な事例を指す語として明治の法制・論理学文書に用いられた。法律上は「例外規定」「例外措置」として用いられる一方、哲学・論理学でも一般的命題を否定する特殊例を指す語として整備された。「例外なき規則なし」のような格言形式でも広まり、法律語彙を超えて日常語として広く定着した。",
+    "etymology": "「例」は例・規則・慣例を意味し、「外」は外側・外れることを意味する。規則・例の外にある事例という字義。exceptionはラテン語exceptio（excipere=取り出す）に由来し、ex（外に）＋capere（取る）が語根で「取り出されたもの」を原義とする。",
+    "meanings": [
+      {
+        "en": "A person or thing that is excluded from a general rule or does not follow the expected pattern.",
+        "ja": "一般的な規則から除外される、または通常のパターンに当てはまらない人・事例。",
+        "example_en": "There is an exception to every rule.",
+        "example_ja": "すべての規則には例外がある。"
+      },
+      {
+        "en": "A formal objection raised in legal proceedings.",
+        "ja": "法的手続きにおいて申し立てられる正式な異議。",
+        "example_en": "Counsel took exception to the judge's ruling.",
+        "example_ja": "弁護人は裁判官の裁定に異議を唱えた。"
+      }
+    ]
   }
 ]
