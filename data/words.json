@@ -4322,5 +4322,251 @@
         "example_ja": "弁護人は裁判官の裁定に異議を唱えた。"
       }
     ]
+  },
+  {
+    "id": 168,
+    "japanese_word": "酸素",
+    "original_word": "zuurstof / oxygen",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1825,
+    "description": "ラヴォワジエ化学を受けたオランダ語化学書の翻訳過程で、宇田川榕菴が酸の生成原理と理解されていた zuurstof に対して与えた訳語である。1820年代後半から1830年代にかけて『遠西医方名物考』や『植学啓原』『舎密開宗』に現れ、従来の蘭学的表記を置き換えて化学教育の基礎語彙となった。幕末から明治にかけて全国の理化学書に採用され、東アジアにも広まった。",
+    "etymology": "「酸」は酸っぱいもの・酸を、「素」は根本要素を表す。オランダ語 zuurstof の字義を踏まえた翻訳借用で、「酸を生む基本物質」という当時の化学理解を漢語化した語である。",
+    "meanings": [
+      {
+        "en": "Oxygen, the chemical element with atomic number 8.",
+        "ja": "原子番号8の元素で、燃焼や呼吸に深く関わる気体成分。",
+        "example_en": "Plants release oxygen during photosynthesis.",
+        "example_ja": "植物は光合成の過程で酸素を放出する。"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "japanese_word": "水素",
+    "original_word": "waterstof / hydrogen",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1834,
+    "description": "宇田川榕菴がオランダ語 waterstof の訳として整えた元素名で、水を構成する要素という理解をそのまま和語化したものである。1830年代の化学書・植物学書で広く用いられ、酸素・窒素・炭素などと一群の近代元素名をなした。幕末の舎密学教育を通じて定着し、明治期以降の教科書でも標準語となった。",
+    "etymology": "「水」は水を、「素」は根本要素を意味する。waterstof の直訳であり、「水をなす基本物質」というラヴォワジエ以後の化学観を簡潔に示す。",
+    "meanings": [
+      {
+        "en": "Hydrogen, the chemical element with atomic number 1.",
+        "ja": "原子番号1の元素で、水や多くの有機化合物を構成する最も軽い元素。",
+        "example_en": "Water is made of hydrogen and oxygen.",
+        "example_ja": "水は水素と酸素からできている。"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "japanese_word": "窒素",
+    "original_word": "stikstof / nitrogen",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1834,
+    "description": "宇田川榕菴がオランダ語 stikstof の訳として作った元素名で、空気中に多く含まれるが呼吸を助けない気体という性質から名づけられた。榕菴は当初「殺素」という案も用いたが、のちにより穏当で意味の通る「窒素」に改め、1830年代の著作を通じて定着させた。明治以後は化学・農学・生理学の基礎語として広く普及した。",
+    "etymology": "「窒」はふさぐ・息を詰まらせる意、「素」は根本要素を表す。stikstof の「窒息させる要素」という意味を漢字二字で表現した翻訳語である。",
+    "meanings": [
+      {
+        "en": "Nitrogen, the chemical element with atomic number 7.",
+        "ja": "原子番号7の元素で、大気の主成分をなす無色無臭の気体。",
+        "example_en": "Most of the Earth's atmosphere is nitrogen.",
+        "example_ja": "地球大気の大部分は窒素である。"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "japanese_word": "炭素",
+    "original_word": "koolstof / carbon",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1825,
+    "description": "宇田川榕菴がオランダ語 koolstof に対して与えた訳語で、木炭・煤・有機物を構成する基本元素として紹介された。酸素・水素などとともに近代化学の根幹概念を和訳する中で成立し、『遠西医方名物考』や『植学啓原』『舎密開宗』を経て学界に定着した。のちに有機化学・鉱物学・生理学の発展とともに、日本語の中心的な元素名となった。",
+    "etymology": "「炭」は木炭・炭化物を指し、「素」は根本要素を意味する。koolstof の直訳的構成で、炭の本質的成分という理解を表した。",
+    "meanings": [
+      {
+        "en": "Carbon, the chemical element with atomic number 6.",
+        "ja": "原子番号6の元素で、有機化合物や炭酸塩、炭素材料の基礎となる元素。",
+        "example_en": "Carbon is essential to all known life.",
+        "example_ja": "炭素は知られているすべての生命に不可欠である。"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "japanese_word": "白金",
+    "original_word": "platina / platinum",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1834,
+    "description": "宇田川榕菴が『遠西医方名物考補遺』で platina に対して用いた訳語で、銀白色の貴金属を漢語で表そうとしたものである。従来の「しろがね」と区別して元素名・金属名としての読み「はっきん」が定着し、近代化学と鉱物学の受容に伴って広まった。明治以後は学術語としてだけでなく、工業・装飾分野でも標準的名称となった。",
+    "etymology": "「白金」は古くは銀を指す語でもあったが、榕菴はこれを再編して platinum の訳語に充てた。銀白色で貴い金属という外観的特徴を漢字で示した語である。",
+    "meanings": [
+      {
+        "en": "Platinum, the chemical element with atomic number 78.",
+        "ja": "原子番号78の貴金属元素で、耐食性に優れ、触媒や装飾品に用いられる。",
+        "example_en": "Platinum is used in catalytic converters.",
+        "example_ja": "白金は自動車の触媒コンバーターに使われる。"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "japanese_word": "元素",
+    "original_word": "grondstof / element",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1825,
+    "description": "近代化学における物質の基本構成単位を表す訳語として、宇田川榕菴が1820年代から用いた語である。従来の本草学や錬金術的な物質観では十分表せなかった新しい概念を、『遠西医方名物考』や『舎密開宗』を通じて日本語化した点に意義がある。以後、化学だけでなく哲学・自然学でも「万物を構成する要素」を指す語として定着した。",
+    "etymology": "「元」はもと・根源、「素」は基本要素を意味する。grondstof や element の根本成分という意味を、簡潔な漢語として再構成した。",
+    "meanings": [
+      {
+        "en": "A chemical element; a fundamental substance consisting of one kind of atom.",
+        "ja": "一種類の原子からなる、物質を構成する基本単位。",
+        "example_en": "Gold is an element, while water is a compound.",
+        "example_ja": "金は元素であり、水は化合物である。"
+      },
+      {
+        "en": "A fundamental component or factor of something.",
+        "ja": "ある物事を成り立たせる基本的な要素。",
+        "example_en": "Trust is an essential element of teamwork.",
+        "example_ja": "信頼はチームワークの重要な元素である。"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "japanese_word": "酸化",
+    "original_word": "oxidatie / oxidation",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "宇田川榕菴がラヴォワジエ化学の受容に際して整備した反応概念の訳語で、当初は物質が酸素と化合することを指した。『舎密開宗』では燃焼や金属の変化を説明する中核語として用いられ、近代化学の理解を支える基本用語となった。のちに電子の授受による定義へ拡張されたが、日本語の語形はそのまま残り、学校教育から工業化学まで広く使われている。",
+    "etymology": "「酸」は酸素・酸性概念を、「化」は変化を意味する。ラヴォワジエ的な「酸素を得て変化する」反応理解を簡潔に示す訳語である。",
+    "meanings": [
+      {
+        "en": "Oxidation, originally combination with oxygen and more broadly loss of electrons.",
+        "ja": "本来は酸素と化合すること、転じて電子を失う化学変化。",
+        "example_en": "Iron undergoes oxidation when it rusts.",
+        "example_ja": "鉄はさびるとき酸化を受ける。"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "japanese_word": "還元",
+    "original_word": "reductie / reduction",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "酸化に対をなす化学概念として宇田川榕菴が整えた訳語で、当初は酸化物から酸素が取り去られて元の金属などに戻る過程を意味した。『舎密開宗』では金属製錬や反応の説明にしばしば現れ、化学反応を対概念で理解する日本語の枠組みを与えた。明治以後、化学だけでなく数学・社会科学でも「単純な形に帰着させる」比喩的用法を生んだ。",
+    "etymology": "「還」はもとへ返る、「元」は根本の状態を意味する。物質が元の姿に戻るという旧来の化学理解をよく表した造語である。",
+    "meanings": [
+      {
+        "en": "Reduction, originally removal of oxygen and more broadly gain of electrons.",
+        "ja": "本来は酸素を失って元の状態に近づくこと、転じて電子を受け取る化学変化。",
+        "example_en": "Copper oxide is reduced to copper by hydrogen.",
+        "example_ja": "酸化銅は水素によって銅へ還元される。"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "japanese_word": "溶解",
+    "original_word": "oplossing / oplossen / solution",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "宇田川榕菴が『舎密開宗』で液体に物質がとけ込む現象を説明するために用いた化学用語である。舎密学では固体・液体・気体の性質や親和力を論じる際の基本語として位置づけられ、単なる日常語の「とける」から区別される学術語となった。明治期には化学・薬学・鉱物学の教科書に受け継がれ、現在の「溶液」「可溶」「不溶」などの派生語群の基礎となった。",
+    "etymology": "「溶」は液の中でとけること、「解」はほどけて分かれることを意味する。物質が媒質中に分散して均一になる過程を、漢字の意味で精密に表した。",
+    "meanings": [
+      {
+        "en": "Dissolution; the process by which a substance dissolves in a solvent.",
+        "ja": "物質が溶媒中にとけて均一な状態になること。",
+        "example_en": "Salt dissolves quickly in warm water.",
+        "example_ja": "塩は温水中で速やかに溶解する。"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "japanese_word": "細胞",
+    "original_word": "cel / cell",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1833,
+    "description": "宇田川榕菴が『植学啓原』で顕微鏡的な植物組織の単位を説明するために用いた訳語で、近代生物学の中心概念を日本語に導入した代表例である。当初は「細包」とも表記されたが、のちに「細胞」が一般化した。植物学・解剖学・生理学の普及とともに急速に定着し、明治以後は動物細胞・病理学・細胞学にも拡張された。",
+    "etymology": "「細」は微細さを、「胞」は袋・包みを意味する。顕微鏡下で観察される小さな区画・小室という cell の像を、視覚的に捉えた訳語である。",
+    "meanings": [
+      {
+        "en": "A cell, the basic structural and functional unit of living organisms.",
+        "ja": "生物体を構成する基本的な構造・機能単位。",
+        "example_en": "Every living thing is made of one or more cells.",
+        "example_ja": "すべての生物は一個以上の細胞から成る。"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "japanese_word": "属",
+    "original_word": "geslacht / genus",
+    "language": "オランダ語・ラテン語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1834,
+    "description": "リンネ式分類法を日本語化する中で、宇田川榕菴が生物分類の基本単位 genus に対応させて用いた訳語である。『植学啓原』によって植物学の体系が紹介される過程で、種・綱・目などと並ぶ分類学上の術語として定着した。明治期には植物学だけでなく動物学・微生物学にも引き継がれ、学名理解の基礎語となった。",
+    "etymology": "「属」はある類に属する・まとまることを意味する既存漢語を転用した。複数の近縁種をまとめる分類単位という genus の機能を、簡潔に表した訳語である。",
+    "meanings": [
+      {
+        "en": "Genus, a taxonomic rank grouping closely related species.",
+        "ja": "近縁な複数の種をまとめる生物分類上の階級。",
+        "example_en": "The domestic dog belongs to the genus Canis.",
+        "example_ja": "イヌはイヌ属 Canis に属する。"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "japanese_word": "珈琲",
+    "original_word": "koffie / coffee",
+    "language": "オランダ語・英語",
+    "field_id": 8,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": null,
+    "description": "江戸後期にオランダ語 koffie を受けて広まった飲料名で、現在一般的な漢字表記「珈琲」は宇田川榕菴が最初に考案したとされる。化学・植物学だけでなく舶来文化への関心を持っていた榕菴は、コーヒーについての小論も残しており、音写にとどまらない美的な当て字を与えた。明治期には可否・加非などの表記と競合しつつ、やがて「珈琲」が文学的・商業的表記として定着した。",
+    "etymology": "語源はオランダ語 koffie、さらに遡ればアラビア語 qahwa に由来する。「珈」「琲」は音を写しつつ、玉飾りのような漢字を選んで異国風の飲料を雅に表した当て字とみられる。",
+    "meanings": [
+      {
+        "en": "Coffee, a beverage made from roasted coffee beans.",
+        "ja": "焙煎したコーヒー豆から抽出する芳香性の飲料。",
+        "example_en": "He drinks coffee every morning.",
+        "example_ja": "彼は毎朝珈琲を飲む。"
+      }
+    ]
   }
 ]
