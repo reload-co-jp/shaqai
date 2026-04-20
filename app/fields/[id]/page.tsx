@@ -16,7 +16,7 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   const field = getField(Number(id))
   if (!field) return {}
   const title = field.name
-  const description = `${field.name}に関する翻訳語・訳語の一覧`
+  const description = field.description ?? `${field.name}に関する翻訳語・訳語の一覧`
   return {
     title,
     description,
@@ -58,6 +58,11 @@ const Page: FC<Props> = async ({ params }) => {
           <h1 style={{ fontSize: "1.5rem", color: "#c8a96e", marginBottom: ".5rem" }}>
             {field.name}
           </h1>
+          {field.description && (
+            <p style={{ fontSize: ".95rem", lineHeight: 1.8, color: "#b7aea2", marginBottom: ".5rem" }}>
+              {field.description}
+            </p>
+          )}
           <p style={{ fontSize: ".875rem", color: "#807870" }}>{fieldWords.length}語</p>
         </div>
 

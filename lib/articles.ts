@@ -6,6 +6,12 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: "tsuji-work",
+    title: "通詞のしごと",
+    description:
+      "出島で働いた通詞は、ただ外国語を訳す人ではなかった。交渉、検査、風説書、蘭学の橋渡しまで担った、その多面的なしごとをたどる。",
+  },
+  {
     id: "meiji-translation",
     title: "明治期の翻訳方法の模索と挑戦",
     description:

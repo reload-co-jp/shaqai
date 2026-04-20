@@ -5,6 +5,7 @@ import rawTranslators from "data/translators.json"
 export type Field = {
   id: number
   name: string
+  description?: string
 }
 
 export type Translator = {
