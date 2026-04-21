@@ -114,6 +114,16 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               分野
             </Link>
             <Link
+              href="/katakana/"
+              style={{
+                fontSize: ".875rem",
+                color: "#bfb9ac",
+                textDecoration: "none",
+              }}
+            >
+              カタカナ語
+            </Link>
+            <Link
               href="/translators/"
               style={{
                 fontSize: ".875rem",

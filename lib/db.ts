@@ -1,6 +1,7 @@
 import rawWords from "data/words.json"
 import rawFields from "data/fields.json"
 import rawTranslators from "data/translators.json"
+import rawKatakanaWords from "data/katakana.json"
 
 export type Field = {
   id: number
@@ -49,11 +50,38 @@ export type Word = {
   }[]
 }
 
+export type KatakanaExample = {
+  ja: string
+  en?: string
+}
+
+export type KatakanaWord = {
+  id: number
+  katakana_word: string
+  original_word: string
+  language: string
+  category: string
+  original_meaning: string
+  japanese_meaning: string
+  meaning_shift: string
+  description: string
+  examples: KatakanaExample[]
+  sources?: {
+    title: string
+    author?: string
+    url?: string
+    note?: string
+  }[]
+}
+
 export const fields: Field[] = rawFields
 export const translators: Translator[] = rawTranslators
 export const words: Word[] = rawWords as Word[]
+export const katakanaWords: KatakanaWord[] = rawKatakanaWords as KatakanaWord[]
 
 export const getWord = (id: number) => words.find((w) => w.id === id)
+export const getKatakanaWord = (id: number) =>
+  katakanaWords.find((w) => w.id === id)
 export const getField = (id: number | null) => fields.find((f) => f.id === id)
 export const getTranslator = (id: number) => translators.find((t) => t.id === id)
 

@@ -3,8 +3,9 @@
 import { Suspense, FC } from "react"
 import { useSearchParams } from "next/navigation"
 import Link from "next/link"
-import { words, fields, translators } from "lib/db"
+import { words, fields, translators, katakanaWords } from "lib/db"
 import { WordCard } from "components/elements/word-card"
+import { KatakanaCard } from "components/elements/katakana-card"
 
 const SearchResults: FC = () => {
   const params = useSearchParams()
@@ -19,8 +20,18 @@ const SearchResults: FC = () => {
           w.etymology.includes(q)
       )
     : []
+  const katakanaResults = q
+    ? katakanaWords.filter(
+        (w) =>
+          w.katakana_word.includes(q) ||
+          w.original_word.toLowerCase().includes(q.toLowerCase()) ||
+          w.japanese_meaning.includes(q) ||
+          w.original_meaning.includes(q) ||
+          w.description.includes(q)
+      )
+    : []
 
-  const getField = (id: number) => fields.find((f) => f.id === id)
+  const getField = (id: number | null) => fields.find((f) => f.id === id)
   const getTranslator = (id: number | null) =>
     id ? translators.find((t) => t.id === id) : undefined
 
@@ -33,6 +44,7 @@ const SearchResults: FC = () => {
         {q && (
           <p style={{ fontSize: ".875rem", color: "#807870" }}>
             {results.length}件
+            {katakanaResults.length > 0 && ` / カタカナ語 ${katakanaResults.length}件`}
           </p>
         )}
       </div>
@@ -70,29 +82,54 @@ const SearchResults: FC = () => {
         </button>
       </form>
 
-      {q && results.length === 0 && (
+      {q && results.length === 0 && katakanaResults.length === 0 && (
         <div style={{ color: "#807870", fontSize: ".9rem" }}>
           「{q}」に一致する単語が見つかりませんでした。
         </div>
       )}
 
       {results.length > 0 && (
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: "1rem",
-          }}
-        >
-          {results.map((word) => (
-            <WordCard
-              key={word.id}
-              word={word}
-              field={getField(word.field_id)}
-              translator={getTranslator(word.translator_id)}
-            />
-          ))}
-        </div>
+        <>
+          <h2 style={{ fontSize: "1rem", color: "#e2dcd0", marginBottom: ".75rem" }}>
+            翻訳語
+          </h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+              gap: "1rem",
+              marginBottom: "1.5rem",
+            }}
+          >
+            {results.map((word) => (
+              <WordCard
+                key={word.id}
+                word={word}
+                field={getField(word.field_id)}
+                translator={getTranslator(word.translator_id)}
+              />
+            ))}
+          </div>
+        </>
+      )}
+
+      {katakanaResults.length > 0 && (
+        <>
+          <h2 style={{ fontSize: "1rem", color: "#e2dcd0", marginBottom: ".75rem" }}>
+            カタカナ語
+          </h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+              gap: "1rem",
+            }}
+          >
+            {katakanaResults.map((word) => (
+              <KatakanaCard key={word.id} word={word} />
+            ))}
+          </div>
+        </>
       )}
 
       {!q && (
@@ -101,6 +138,10 @@ const SearchResults: FC = () => {
           <div style={{ marginTop: "1rem" }}>
             <Link href="/" style={{ color: "#7a9e82", textDecoration: "none" }}>
               → 単語一覧を見る
+            </Link>
+            <br />
+            <Link href="/katakana/" style={{ color: "#7a9e82", textDecoration: "none" }}>
+              → カタカナ語一覧を見る
             </Link>
           </div>
         </div>

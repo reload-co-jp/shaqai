@@ -1,8 +1,9 @@
 import { FC } from "react"
-import { words, fields, getField, getTranslator } from "lib/db"
+import { words, fields, katakanaWords, getField, getTranslator } from "lib/db"
 import { articles } from "lib/articles"
 import { WordCard } from "components/elements/word-card"
 import { RandomArticles } from "components/elements/random-articles"
+import { KatakanaCard } from "components/elements/katakana-card"
 
 const HERO_WORDS = ["社会", "経済", "哲学", "自由", "権利", "文化", "科学"]
 
@@ -173,6 +174,21 @@ const Page: FC = () => {
           >
             このサイトについて →
           </a>
+          <a
+            href="/katakana/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#9e9888",
+              border: "1px solid #3d3828",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            カタカナ語DB →
+          </a>
         </div>
       </div>
 
@@ -212,6 +228,54 @@ const Page: FC = () => {
           </a>
         </div>
         <RandomArticles articles={articles} count={3} />
+      </div>
+
+      <div style={{ marginBottom: "3rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            marginBottom: "1rem",
+          }}
+        >
+          <div>
+            <h2
+              style={{
+                fontSize: "1.25rem",
+                color: "#e2dcd0",
+                marginBottom: ".25rem",
+              }}
+            >
+              カタカナ語DB
+            </h2>
+            <p style={{ fontSize: ".875rem", color: "#807870" }}>
+              原語の音を借り、日本語の中で意味がずれた語
+            </p>
+          </div>
+          <a
+            href="/katakana/"
+            style={{
+              fontSize: ".8125rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+              whiteSpace: "nowrap",
+            }}
+          >
+            すべて見る →
+          </a>
+        </div>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+            gap: "1rem",
+          }}
+        >
+          {katakanaWords.slice(0, 3).map((word) => (
+            <KatakanaCard key={word.id} word={word} />
+          ))}
+        </div>
       </div>
 
       <div style={{ marginBottom: "1.5rem" }}>

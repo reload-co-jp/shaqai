@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "katakana_word": "マンション",
+    "original_word": "mansion",
+    "language": "英語",
+    "category": "住まい",
+    "original_meaning": "大邸宅、豪邸。",
+    "japanese_meaning": "主に鉄筋コンクリート造の集合住宅。",
+    "meaning_shift": "英語では富裕層の大きな邸宅を指すが、日本語では高級感を示す不動産用語として集合住宅に転用された。",
+    "description": "日本の不動産広告では、木造賃貸住宅を指す「アパート」と差別化するため、堅牢で近代的な集合住宅に「マンション」という語が使われるようになった。原語の mansion は一戸建ての大邸宅を指すため、英語話者には日本語の用法が大きくずれて聞こえる代表例である。",
+    "examples": [
+      {
+        "ja": "駅前のマンションに住んでいる。",
+        "en": "I live in an apartment building near the station."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "mansion の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "katakana_word": "アパート",
+    "original_word": "apartment",
+    "language": "英語",
+    "category": "住まい",
+    "original_meaning": "集合住宅内の一戸、共同住宅の住戸。",
+    "japanese_meaning": "木造・軽量鉄骨造など比較的小規模な集合住宅。",
+    "meaning_shift": "原語は住戸そのものを指すが、日本語では建物種別を指す語として定着した。",
+    "description": "英語 apartment は集合住宅の一室を意味することが多い。一方、日本語の「アパート」は建物全体を指し、さらに「マンション」より簡素・低層の共同住宅というニュアンスを帯びる。住宅市場の分類語として、日本語独自の意味領域を形成した。",
+    "examples": [
+      {
+        "ja": "学生時代は木造アパートに住んでいた。",
+        "en": "I lived in a small wooden apartment building when I was a student."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "apartment の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "katakana_word": "スマート",
+    "original_word": "smart",
+    "language": "英語",
+    "category": "人物・評価",
+    "original_meaning": "賢い、洗練された、きびきびした。",
+    "japanese_meaning": "体型が細くすらりとしている。機器が高機能である。",
+    "meaning_shift": "英語の中心義は知性や洗練だが、日本語では体型の細さを褒める語として広まった。",
+    "description": "日本語の「スマート」は、人物に対しては主に体つきがすらっとしていることを表す。英語 smart は知的・機敏・洒落たという意味が中心で、体型を直接表す語ではない。近年は「スマートフォン」「スマート家電」のように、高機能・自動化された機器を指す用法も定着している。",
+    "examples": [
+      {
+        "ja": "彼はスマートな体型をしている。",
+        "en": "He has a slim figure."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "smart の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "katakana_word": "コンセント",
+    "original_word": "concentric plug",
+    "language": "英語",
+    "category": "生活・電気",
+    "original_meaning": "同心円状の差し込み器具を指す技術語。",
+    "japanese_meaning": "壁などに設置された電源差し込み口。",
+    "meaning_shift": "英語圏で一般的な outlet / socket ではなく、古い技術語の一部が日本語化して電源口全般を指すようになった。",
+    "description": "日本語の「コンセント」は、英語の consent（同意）とは無関係で、concentric plug 由来とされる和製外来語である。現在の英語では電源差し込み口は outlet や socket と呼ぶのが一般的で、日本語の「コンセント」はそのままでは通じにくい。",
+    "examples": [
+      {
+        "ja": "スマートフォンの充電器をコンセントに差す。",
+        "en": "Plug the phone charger into the wall outlet."
+      }
+    ],
+    "sources": [
+      {
+        "title": "外来語の語源",
+        "note": "語源・和製外来語の参照"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "katakana_word": "クレーム",
+    "original_word": "claim",
+    "language": "英語",
+    "category": "ビジネス",
+    "original_meaning": "主張、請求、権利要求。",
+    "japanese_meaning": "苦情、抗議、商品やサービスへの不満申し立て。",
+    "meaning_shift": "原語の claim は広く主張・請求を表すが、日本語では顧客からの苦情という意味に狭まった。",
+    "description": "日本語の「クレーム」は、企業や店舗に寄せられる苦情・抗議を指す語として定着している。英語 claim は保険金請求や権利主張などにも広く使われ、苦情だけを意味するわけではない。英語で日本語の「クレーム」に近い語は complaint である。",
+    "examples": [
+      {
+        "ja": "商品の破損についてクレームを入れた。",
+        "en": "I filed a complaint about the damaged product."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "claim / complaint の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "katakana_word": "リベンジ",
+    "original_word": "revenge",
+    "language": "英語",
+    "category": "行動・感情",
+    "original_meaning": "復讐、報復。",
+    "japanese_meaning": "再挑戦、雪辱、前回の失敗を取り返すこと。",
+    "meaning_shift": "英語では強い報復感情を伴うが、日本語ではスポーツや試験などの再挑戦を前向きに表す語としても使われる。",
+    "description": "日本語の「リベンジ」は「次こそ勝つ」「もう一度挑戦する」という軽い意味で使われることが多い。英語 revenge は相手に害を与えて仕返しするという重い語であり、日本語のような日常的な再挑戦には retry や try again が自然である。",
+    "examples": [
+      {
+        "ja": "去年落ちた試験にリベンジする。",
+        "en": "I will try again for the exam I failed last year."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "revenge の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "katakana_word": "テンション",
+    "original_word": "tension",
+    "language": "英語",
+    "category": "感情・状態",
+    "original_meaning": "緊張、張力、緊迫状態。",
+    "japanese_meaning": "気分の高まり、興奮の度合い。",
+    "meaning_shift": "原語は緊張や張り詰めた状態を指すが、日本語では気分が上がることを表す口語として発達した。",
+    "description": "「テンションが高い」は日本語では気分が盛り上がっていることを意味する。しかし英語 tension は緊張・不和・張力を表し、楽しい高揚感には excitement や energy などを用いる。日常会話の中で原語から大きく意味が変化した例である。",
+    "examples": [
+      {
+        "ja": "ライブ前でテンションが上がっている。",
+        "en": "I am getting excited before the concert."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "tension の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "katakana_word": "ナイーブ",
+    "original_word": "naive",
+    "language": "英語・フランス語",
+    "category": "人物・性格",
+    "original_meaning": "世間知らずな、単純でだまされやすい。",
+    "japanese_meaning": "繊細で傷つきやすい、純真な。",
+    "meaning_shift": "原語には未熟・世間知らずという否定的含みが強いが、日本語では繊細さや純粋さを表す語として用いられる。",
+    "description": "日本語の「ナイーブ」は、人の感受性が細やかで傷つきやすいことを表す。英語 naive は経験不足で判断が甘いという批判的な意味で使われることが多く、日本語の肯定的・中立的なニュアンスとはずれがある。",
+    "examples": [
+      {
+        "ja": "彼女はナイーブなところがある。",
+        "en": "She is sensitive."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "naive の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "katakana_word": "シール",
+    "original_word": "seal",
+    "language": "英語",
+    "category": "生活用品",
+    "original_meaning": "封印、印章、密封するもの。",
+    "japanese_meaning": "裏面に糊がついた小さな貼り紙、ステッカー。",
+    "meaning_shift": "原語は封印や密閉を指すが、日本語では貼って飾る小片全般を指すようになった。",
+    "description": "日本語の「シール」は、子ども向けの飾りシールからラベルまで幅広い貼付物を指す。英語 seal は封印・密閉・印章が中心で、日本語の「シール」に近い語は sticker や label である。",
+    "examples": [
+      {
+        "ja": "ノートにキャラクターのシールを貼る。",
+        "en": "Put a character sticker on the notebook."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "seal / sticker の英語語義確認"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "katakana_word": "サイン",
+    "original_word": "sign / signature",
+    "language": "英語",
+    "category": "記号・行為",
+    "original_meaning": "記号、標識、兆候、署名。",
+    "japanese_meaning": "有名人の署名、署名すること、合図。",
+    "meaning_shift": "英語 sign は記号・標識全般を指すが、日本語では署名、特に有名人の autograph の意味で使われやすい。",
+    "description": "日本語では「サインをもらう」と言えば有名人の署名を指すことが多い。英語 sign は標識や記号、動詞として署名することも表すが、有名人の署名は autograph と呼ぶのが一般的である。",
+    "examples": [
+      {
+        "ja": "俳優にサインをもらった。",
+        "en": "I got the actor's autograph."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ジーニアス英和辞典",
+        "note": "sign / autograph の英語語義確認"
+      }
+    ]
+  }
+]

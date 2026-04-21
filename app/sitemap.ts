@@ -2,7 +2,7 @@ export const dynamic = "force-static"
 import type { MetadataRoute } from "next"
 import { statSync } from "fs"
 import { join } from "path"
-import { words, fields, translators } from "lib/db"
+import { words, fields, translators, katakanaWords } from "lib/db"
 import { articles } from "lib/articles"
 
 const BASE_URL = "https://shaqai.reload.co.jp"
@@ -13,6 +13,7 @@ const mtime = (file: string) =>
 const wordsLastModified = mtime("words.json")
 const fieldsLastModified = mtime("fields.json")
 const translatorsLastModified = mtime("translators.json")
+const katakanaLastModified = mtime("katakana.json")
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -33,6 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       changeFrequency: "monthly",
       lastModified: translatorsLastModified,
+    },
+    {
+      url: BASE_URL + "/katakana/",
+      priority: 0.7,
+      changeFrequency: "monthly",
+      lastModified: katakanaLastModified,
     },
     {
       url: BASE_URL + "/about/",
@@ -59,6 +66,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: wordsLastModified,
   }))
 
+  const katakanaRoutes: MetadataRoute.Sitemap = katakanaWords.map((w) => ({
+    url: `${BASE_URL}/katakana/${w.id}/`,
+    priority: 0.6,
+    changeFrequency: "yearly" as const,
+    lastModified: katakanaLastModified,
+  }))
+
   const fieldRoutes: MetadataRoute.Sitemap = fields.map((f) => ({
     url: `${BASE_URL}/fields/${f.id}/`,
     priority: 0.6,
@@ -73,5 +87,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: translatorsLastModified,
   }))
 
-  return [...staticRoutes, ...articleRoutes, ...wordRoutes, ...fieldRoutes, ...translatorRoutes]
+  return [
+    ...staticRoutes,
+    ...articleRoutes,
+    ...wordRoutes,
+    ...katakanaRoutes,
+    ...fieldRoutes,
+    ...translatorRoutes,
+  ]
 }
