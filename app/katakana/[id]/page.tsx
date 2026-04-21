@@ -31,7 +31,12 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
       type: "article",
       images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     },
-    twitter: { card: "summary_large_image", title, description },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/opengraph-image"],
+    },
     alternates: { canonical: `https://shaqai.reload.co.jp/katakana/${id}/` },
   }
 }
@@ -47,9 +52,11 @@ const Page: FC<Props> = async ({ params }) => {
     name: word.katakana_word,
     alternateName: word.original_word,
     description: word.description,
+    url: `https://shaqai.reload.co.jp/katakana/${id}/`,
+    termCode: word.original_word,
     inDefinedTermSet: {
       "@type": "DefinedTermSet",
-      name: "翻訳語辞典 Shaqai カタカナ語DB",
+      name: "翻訳語辞典 Shaqai カタカナ語",
       url: "https://shaqai.reload.co.jp/katakana/",
     },
   }

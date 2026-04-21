@@ -25,8 +25,14 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
       description,
       url: `https://shaqai.reload.co.jp/words/${id}/`,
       type: "article",
+      images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     },
-    twitter: { card: "summary_large_image", title, description },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/opengraph-image"],
+    },
     alternates: { canonical: `https://shaqai.reload.co.jp/words/${id}/` },
   }
 }
@@ -47,10 +53,12 @@ const Page: FC<Props> = async ({ params }) => {
     name: word.japanese_word,
     alternateName: word.original_word,
     description: word.description,
+    url: `https://shaqai.reload.co.jp/words/${id}/`,
+    termCode: word.original_word,
     inDefinedTermSet: {
       "@type": "DefinedTermSet",
       name: "翻訳語辞典 Shaqai",
-      url: "https://shaqai.reload.co.jp",
+      url: "https://shaqai.reload.co.jp/words/",
     },
   }
 
@@ -76,6 +84,7 @@ const Page: FC<Props> = async ({ params }) => {
       <BreadcrumbJsonLd
         items={[
           { name: "ホーム", url: "/" },
+          { name: "翻訳語一覧", url: "/words/" },
           { name: word.japanese_word, url: `/words/${id}/` },
         ]}
       />
@@ -85,8 +94,8 @@ const Page: FC<Props> = async ({ params }) => {
       />
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1.5rem" }}>
-        <Link href="/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
-          ← 一覧に戻る
+        <Link href="/words/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
+          ← 翻訳語一覧に戻る
         </Link>
       </div>
 

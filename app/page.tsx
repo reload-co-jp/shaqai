@@ -187,7 +187,7 @@ const Page: FC = () => {
               letterSpacing: ".03em",
             }}
           >
-            カタカナ語DB →
+            カタカナ語 →
           </a>
         </div>
       </div>
@@ -230,67 +230,39 @@ const Page: FC = () => {
         <RandomArticles articles={articles} count={3} />
       </div>
 
-      <div style={{ marginBottom: "3rem" }}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "baseline",
-            marginBottom: "1rem",
-          }}
-        >
-          <div>
-            <h2
-              style={{
-                fontSize: "1.25rem",
-                color: "#e2dcd0",
-                marginBottom: ".25rem",
-              }}
-            >
-              カタカナ語DB
-            </h2>
-            <p style={{ fontSize: ".875rem", color: "#807870" }}>
-              原語の音を借り、日本語の中で意味がずれた語
-            </p>
-          </div>
-          <a
-            href="/katakana/"
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "baseline",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <div>
+          <h2
             style={{
-              fontSize: ".8125rem",
-              color: "#c8a96e",
-              textDecoration: "none",
-              whiteSpace: "nowrap",
+              fontSize: "1.25rem",
+              color: "#e2dcd0",
+              marginBottom: ".5rem",
             }}
           >
-            すべて見る →
-          </a>
+            翻訳語
+          </h2>
+          <p style={{ fontSize: ".875rem", color: "#807870" }}>
+            {words.length}語収録 — 外国語を意味翻訳して作られた日本語
+          </p>
         </div>
-        <div
+        <a
+          href="/words/"
           style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: "1rem",
+            fontSize: ".8125rem",
+            color: "#c8a96e",
+            textDecoration: "none",
+            whiteSpace: "nowrap",
           }}
         >
-          {katakanaWords.slice(0, 3).map((word) => (
-            <KatakanaCard key={word.id} word={word} />
-          ))}
-        </div>
-      </div>
-
-      <div style={{ marginBottom: "1.5rem" }}>
-        <h2
-          style={{
-            fontSize: "1.25rem",
-            color: "#e2dcd0",
-            marginBottom: ".5rem",
-          }}
-        >
-          単語一覧
-        </h2>
-        <p style={{ fontSize: ".875rem", color: "#807870" }}>
-          {words.length}語収録 — 外国語を意味翻訳して作られた日本語
-        </p>
+          すべて見る →
+        </a>
       </div>
 
       <div
@@ -327,7 +299,7 @@ const Page: FC = () => {
           gap: "1rem",
         }}
       >
-        {words.map((word) => (
+        {words.slice(0, 30).map((word) => (
           <WordCard
             key={word.id}
             word={word}
@@ -337,6 +309,54 @@ const Page: FC = () => {
             }
           />
         ))}
+      </div>
+
+      <div style={{ marginTop: "3rem", marginBottom: "3rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            marginBottom: "1rem",
+          }}
+        >
+          <div>
+            <h2
+              style={{
+                fontSize: "1.25rem",
+                color: "#e2dcd0",
+                marginBottom: ".25rem",
+              }}
+            >
+              カタカナ語
+            </h2>
+            <p style={{ fontSize: ".875rem", color: "#807870" }}>
+              原語の音を借り、日本語の中で意味がずれた語
+            </p>
+          </div>
+          <a
+            href="/katakana/"
+            style={{
+              fontSize: ".8125rem",
+              color: "#c8a96e",
+              textDecoration: "none",
+              whiteSpace: "nowrap",
+            }}
+          >
+            すべて見る →
+          </a>
+        </div>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+            gap: "1rem",
+          }}
+        >
+          {katakanaWords.slice(0, 3).map((word) => (
+            <KatakanaCard key={word.id} word={word} />
+          ))}
+        </div>
       </div>
     </div>
     </>

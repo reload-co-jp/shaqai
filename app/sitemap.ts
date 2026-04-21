@@ -30,6 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: fieldsLastModified,
     },
     {
+      url: BASE_URL + "/words/",
+      priority: 0.8,
+      changeFrequency: "monthly",
+      lastModified: wordsLastModified,
+    },
+    {
       url: BASE_URL + "/translators/",
       priority: 0.8,
       changeFrequency: "monthly",
@@ -44,6 +50,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: BASE_URL + "/about/",
       priority: 0.5,
+      changeFrequency: "yearly",
+    },
+    {
+      url: BASE_URL + "/whats/",
+      priority: 0.7,
       changeFrequency: "yearly",
     },
     {

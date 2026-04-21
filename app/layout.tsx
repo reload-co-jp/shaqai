@@ -12,6 +12,7 @@ const bizUDPMincho = BIZ_UDPMincho({
 
 export const metadata = {
   metadataBase: new URL("https://shaqai.reload.co.jp"),
+  applicationName: "翻訳語辞典 Shaqai",
   title: {
     default: "翻訳語辞典 Shaqai",
     template: "%s — 翻訳語辞典 Shaqai",
@@ -29,6 +30,21 @@ export const metadata = {
     "語源",
     "Shaqai",
   ],
+  authors: [{ name: "Reload, Inc.", url: "https://reload.co.jp" }],
+  creator: "Reload, Inc.",
+  publisher: "Reload, Inc.",
+  category: "dictionary",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
     siteName: "翻訳語辞典 Shaqai",
     locale: "ja_JP",
@@ -60,6 +76,7 @@ export const metadata = {
     icon: "/icon.svg",
     apple: "/apple-touch-icon.png",
   },
+  manifest: "/manifest.webmanifest",
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

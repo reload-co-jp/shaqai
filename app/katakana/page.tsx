@@ -1,6 +1,7 @@
 import { FC } from "react"
 import { katakanaWords } from "lib/db"
 import { KatakanaCard } from "components/elements/katakana-card"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 
 export const metadata = {
   title: "カタカナ語一覧",
@@ -14,15 +15,47 @@ export const metadata = {
     url: "https://shaqai.reload.co.jp/katakana/",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "カタカナ語一覧",
+    description:
+      "原語の音を借りて日本語に定着したカタカナ語と、原語からずれた意味を整理するデータベース。",
+    images: ["/opengraph-image"],
+  },
 }
 
 const Page: FC = () => {
   const categories = [...new Set(katakanaWords.map((word) => word.category))]
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "カタカナ語一覧",
+    description:
+      "原語の音を借りて日本語に定着したカタカナ語と、原語からずれた意味を整理する一覧。",
+    numberOfItems: katakanaWords.length,
+    itemListElement: katakanaWords.map((word, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `https://shaqai.reload.co.jp/katakana/${word.id}/`,
+      name: word.katakana_word,
+    })),
+  }
 
   return (
-    <div style={{ maxWidth: "960px", margin: "0 auto" }}>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "カタカナ語一覧", url: "/katakana/" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
+      <div style={{ maxWidth: "960px", margin: "0 auto" }}>
       <div style={{ marginBottom: "2rem" }}>
-        <p style={{ fontSize: ".75rem", color: "#c8a96e" }}>カタカナ語DB</p>
+        <p style={{ fontSize: ".75rem", color: "#c8a96e" }}>カタカナ語</p>
         <h1
           style={{
             fontSize: "1.5rem",
@@ -74,7 +107,8 @@ const Page: FC = () => {
           <KatakanaCard key={word.id} word={word} />
         ))}
       </div>
-    </div>
+      </div>
+    </>
   )
 }
 
