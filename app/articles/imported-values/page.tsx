@@ -1,79 +1,19 @@
 import { FC } from "react"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { ArticlePage } from "components/elements/article-page"
+import { createArticleMetadata } from "lib/article-page"
 
-export const metadata = {
+const article = {
+  id: "imported-values",
   title: "明治時代に輸入される新しい価値観たち",
   description:
     "「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。翻訳語は単なる言葉ではなく、思想の移植だった。",
-  alternates: {
-    canonical: "https://shaqai.reload.co.jp/articles/imported-values/",
-  },
-  openGraph: {
-    type: "article",
-    title: "明治時代に輸入される新しい価値観たち — 翻訳語辞典 Shaqai",
-    description:
-      "「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。翻訳語は単なる言葉ではなく、思想の移植だった。",
-    url: "https://shaqai.reload.co.jp/articles/imported-values/",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
-  },
 }
+
+export const metadata = createArticleMetadata(article)
 
 const Page: FC = () => {
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "読み物", url: "/articles/" },
-          {
-            name: "明治時代に輸入される新しい価値観たち",
-            url: "/articles/imported-values/page.tsx",
-          },
-        ]}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        <div
-          style={{
-            marginBottom: "2.5rem",
-            paddingBottom: "2rem",
-            borderBottom: "1px solid #2a2518",
-          }}
-        >
-          <p
-            style={{
-              fontSize: ".75rem",
-              color: "#5e5848",
-              marginBottom: ".75rem",
-              letterSpacing: ".05em",
-            }}
-          >
-            読み物
-          </p>
-          <h1
-            style={{
-              fontSize: "clamp(1.5rem, 4vw, 2rem)",
-              color: "#e2dcd0",
-              lineHeight: 1.4,
-              marginBottom: "1rem",
-              letterSpacing: ".02em",
-            }}
-          >
-            明治時代に輸入される新しい価値観たち
-          </h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              color: "#908a7a",
-              lineHeight: 1.8,
-              borderLeft: "3px solid #c8a96e",
-              paddingLeft: "1rem",
-            }}
-          >
-            「自由」「権利」「社会」——これらの言葉が生まれる前、日本にその概念は存在しなかった。
-            翻訳語は単なる言葉ではなく、思想の移植だった。
-          </p>
-        </div>
-
+    <ArticlePage {...article}>
         <div
           style={{
             display: "flex",
@@ -274,8 +214,7 @@ const Page: FC = () => {
             </a>
           </div>
         </div>
-      </div>
-    </>
+    </ArticlePage>
   )
 }
 

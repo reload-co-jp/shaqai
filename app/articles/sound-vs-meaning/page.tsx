@@ -1,79 +1,19 @@
 import { FC } from "react"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { ArticlePage } from "components/elements/article-page"
+import { createArticleMetadata } from "lib/article-page"
 
-export const metadata = {
+const article = {
+  id: "sound-vs-meaning",
   title: "音としての外来語と意味を含めた訳語",
   description:
     "「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。音訳と意訳、その本質的な違いを考える。",
-  alternates: {
-    canonical: "https://shaqai.reload.co.jp/articles/sound-vs-meaning/",
-  },
-  openGraph: {
-    type: "article",
-    title: "音としての外来語と意味を含めた訳語 — 翻訳語辞典 Shaqai",
-    description:
-      "「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。音訳と意訳、その本質的な違いを考える。",
-    url: "https://shaqai.reload.co.jp/articles/sound-vs-meaning/",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
-  },
 }
+
+export const metadata = createArticleMetadata(article)
 
 const Page: FC = () => {
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "読み物", url: "/articles/" },
-          {
-            name: "音としての外来語と意味を含めた訳語",
-            url: "/articles/sound-vs-meaning/page.tsx",
-          },
-        ]}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        <div
-          style={{
-            marginBottom: "2.5rem",
-            paddingBottom: "2rem",
-            borderBottom: "1px solid #2a2518",
-          }}
-        >
-          <p
-            style={{
-              fontSize: ".75rem",
-              color: "#5e5848",
-              marginBottom: ".75rem",
-              letterSpacing: ".05em",
-            }}
-          >
-            読み物
-          </p>
-          <h1
-            style={{
-              fontSize: "clamp(1.5rem, 4vw, 2rem)",
-              color: "#e2dcd0",
-              lineHeight: 1.4,
-              marginBottom: "1rem",
-              letterSpacing: ".02em",
-            }}
-          >
-            音としての外来語と意味を含めた訳語
-          </h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              color: "#908a7a",
-              lineHeight: 1.8,
-              borderLeft: "3px solid #c8a96e",
-              paddingLeft: "1rem",
-            }}
-          >
-            「アイデンティティ」と「自我同一性」——同じ概念を指す二つの言葉はなぜ存在するのか。
-            音訳と意訳、その本質的な違いを考える。
-          </p>
-        </div>
-
+    <ArticlePage {...article}>
         <div
           style={{
             display: "flex",
@@ -269,8 +209,7 @@ const Page: FC = () => {
             </a>
           </div>
         </div>
-      </div>
-    </>
+    </ArticlePage>
   )
 }
 

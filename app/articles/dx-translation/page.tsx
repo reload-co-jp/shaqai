@@ -1,79 +1,19 @@
 import { FC } from "react"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { ArticlePage } from "components/elements/article-page"
+import { createArticleMetadata } from "lib/article-page"
 
-export const metadata = {
+const article = {
+  id: "dx-translation",
   title: "DXを翻訳語にすると何になるか",
   description:
     "「デジタルトランスフォーメーション」——この言葉を明治の翻訳家が訳したなら、どんな語を生み出しただろうか。翻訳語の視点からDXを解剖する試み。",
-  alternates: {
-    canonical: "https://shaqai.reload.co.jp/articles/dx-translation/",
-  },
-  openGraph: {
-    type: "article",
-    title: "DXを翻訳語にすると何になるか — 翻訳語辞典 Shaqai",
-    description:
-      "「デジタルトランスフォーメーション」——この言葉を明治の翻訳家が訳したなら、どんな語を生み出しただろうか。翻訳語の視点からDXを解剖する試み。",
-    url: "https://shaqai.reload.co.jp/articles/dx-translation/",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
-  },
 }
+
+export const metadata = createArticleMetadata(article)
 
 const Page: FC = () => {
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "読み物", url: "/articles/" },
-          {
-            name: "DXを翻訳語にすると何になるか",
-            url: "/articles/dx-translation/page.tsx",
-          },
-        ]}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        <div
-          style={{
-            marginBottom: "2.5rem",
-            paddingBottom: "2rem",
-            borderBottom: "1px solid #2a2518",
-          }}
-        >
-          <p
-            style={{
-              fontSize: ".75rem",
-              color: "#5e5848",
-              marginBottom: ".75rem",
-              letterSpacing: ".05em",
-            }}
-          >
-            読み物
-          </p>
-          <h1
-            style={{
-              fontSize: "clamp(1.5rem, 4vw, 2rem)",
-              color: "#e2dcd0",
-              lineHeight: 1.4,
-              marginBottom: "1rem",
-              letterSpacing: ".02em",
-            }}
-          >
-            DXを翻訳語にすると何になるか
-          </h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              color: "#908a7a",
-              lineHeight: 1.8,
-              borderLeft: "3px solid #c8a96e",
-              paddingLeft: "1rem",
-            }}
-          >
-            「デジタルトランスフォーメーション」——この言葉を明治の翻訳家が訳したなら、
-            どんな語を生み出しただろうか。翻訳語の視点からDXを解剖する試み。
-          </p>
-        </div>
-
+    <ArticlePage {...article}>
         <div
           style={{
             display: "flex",
@@ -521,8 +461,7 @@ const Page: FC = () => {
             </a>
           </div>
         </div>
-      </div>
-    </>
+    </ArticlePage>
   )
 }
 

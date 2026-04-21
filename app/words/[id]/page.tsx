@@ -4,6 +4,7 @@ import Link from "next/link"
 import { words, getWord, getField, getTranslator } from "lib/db"
 import type { Metadata } from "next"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { getFirstAttestation, getWordSources } from "lib/word-details"
 
 export const generateStaticParams = () =>
   words.map((w) => ({ id: String(w.id) }))
@@ -37,6 +38,8 @@ const Page: FC<Props> = async ({ params }) => {
 
   const field = getField(word.field_id)
   const translator = word.translator_id ? getTranslator(word.translator_id) : null
+  const firstAttestation = getFirstAttestation(word)
+  const sources = getWordSources(word)
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -227,6 +230,85 @@ const Page: FC<Props> = async ({ params }) => {
         <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
           {word.description}
         </p>
+      </div>
+
+      <div
+        style={{
+          background: "#1e1a12",
+          border: "1px solid #302b1e",
+          borderRadius: "3px",
+          padding: "1rem 1.5rem",
+          marginTop: "1.5rem",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+          初出情報
+        </h2>
+        <div style={rowStyle}>
+          <span style={labelStyle}>時期</span>
+          <span style={valueStyle}>
+            {firstAttestation.year ? `${firstAttestation.year}年頃` : word.era}
+          </span>
+        </div>
+        {firstAttestation.source && (
+          <div style={rowStyle}>
+            <span style={labelStyle}>初出資料</span>
+            <span style={valueStyle}>{firstAttestation.source}</span>
+          </div>
+        )}
+        <div style={{ ...rowStyle, borderBottom: "none" }}>
+          <span style={labelStyle}>補足</span>
+          <span style={{ ...valueStyle, lineHeight: 1.7 }}>{firstAttestation.note}</span>
+        </div>
+      </div>
+
+      <div
+        style={{
+          background: "#1e1a12",
+          border: "1px solid #302b1e",
+          borderRadius: "3px",
+          padding: "1rem 1.5rem",
+        }}
+      >
+        <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
+          出典
+        </h2>
+        {sources.length > 0 ? (
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: ".65rem",
+              paddingLeft: "1.25rem",
+              color: "#e2dcd0",
+              fontSize: ".9rem",
+              lineHeight: 1.7,
+            }}
+          >
+            {sources.map((source) => (
+              <li key={`${source.title}-${source.url ?? ""}`}>
+                {source.author && <span>{source.author} </span>}
+                {source.url ? (
+                  <a href={source.url} style={{ color: "#7a9e82", textDecoration: "none" }}>
+                    『{source.title}』
+                  </a>
+                ) : (
+                  <span>『{source.title}』</span>
+                )}
+                {source.note && (
+                  <span style={{ color: "#807870", fontSize: ".82rem", marginLeft: ".5rem" }}>
+                    {source.note}
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p style={{ color: "#807870", fontSize: ".9rem", lineHeight: 1.7 }}>
+            出典情報はまだ登録されていません。
+          </p>
+        )}
       </div>
     </div>
     </>

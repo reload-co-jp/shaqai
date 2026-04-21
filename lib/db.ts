@@ -29,13 +29,24 @@ export type Word = {
   japanese_word: string
   original_word: string
   language: string
-  field_id: number
+  field_id: number | null
   translator_id: number | null
   era: string
-  year: number
+  year: number | null
   meanings: Meaning[]
   description: string
   etymology: string
+  first_attestation?: {
+    year?: number | null
+    source?: string | null
+    note: string
+  }
+  sources?: {
+    title: string
+    author?: string
+    url?: string
+    note?: string
+  }[]
 }
 
 export const fields: Field[] = rawFields
@@ -43,7 +54,7 @@ export const translators: Translator[] = rawTranslators
 export const words: Word[] = rawWords as Word[]
 
 export const getWord = (id: number) => words.find((w) => w.id === id)
-export const getField = (id: number) => fields.find((f) => f.id === id)
+export const getField = (id: number | null) => fields.find((f) => f.id === id)
 export const getTranslator = (id: number) => translators.find((t) => t.id === id)
 
 export const getWordsByField = (fieldId: number) =>

@@ -1,100 +1,19 @@
 import { FC } from "react"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { ArticlePage } from "components/elements/article-page"
+import { createArticleMetadata } from "lib/article-page"
 
-export const metadata = {
+const article = {
+  id: "tsuji-work",
   title: "通詞のしごと",
   description:
     "出島で働いた通詞は、ただ外国語を訳す人ではなかった。交渉、検査、風説書、蘭学の橋渡しまで担った、その多面的なしごとをたどる。",
-  alternates: {
-    canonical: "https://shaqai.reload.co.jp/articles/tsuji-work/",
-  },
-  openGraph: {
-    type: "article",
-    title: "通詞のしごと — 翻訳語辞典 Shaqai",
-    description:
-      "出島で働いた通詞は、ただ外国語を訳す人ではなかった。交渉、検査、風説書、蘭学の橋渡しまで担った、その多面的なしごとをたどる。",
-    url: "https://shaqai.reload.co.jp/articles/tsuji-work/",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
-  },
 }
 
+export const metadata = createArticleMetadata(article)
+
 const Page: FC = () => {
-  const articleJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "通詞のしごと",
-    description:
-      "出島で働いた通詞は、ただ外国語を訳す人ではなかった。交渉、検査、風説書、蘭学の橋渡しまで担った、その多面的なしごとをたどる。",
-    publisher: {
-      "@type": "Organization",
-      name: "翻訳語辞典 Shaqai",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://shaqai.reload.co.jp/icon.svg",
-      },
-    },
-    url: "https://shaqai.reload.co.jp/articles/tsuji-work/",
-  }
-
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "読み物", url: "/articles/" },
-          {
-            name: "通詞のしごと",
-            url: "/articles/tsuji-work/",
-          },
-        ]}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        <div
-          style={{
-            marginBottom: "2.5rem",
-            paddingBottom: "2rem",
-            borderBottom: "1px solid #2a2518",
-          }}
-        >
-          <p
-            style={{
-              fontSize: ".75rem",
-              color: "#5e5848",
-              marginBottom: ".75rem",
-              letterSpacing: ".05em",
-            }}
-          >
-            読み物
-          </p>
-          <h1
-            style={{
-              fontSize: "clamp(1.5rem, 4vw, 2rem)",
-              color: "#e2dcd0",
-              lineHeight: 1.4,
-              marginBottom: "1rem",
-              letterSpacing: ".02em",
-            }}
-          >
-            通詞のしごと
-          </h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              color: "#908a7a",
-              lineHeight: 1.8,
-              borderLeft: "3px solid #c8a96e",
-              paddingLeft: "1rem",
-            }}
-          >
-            出島で働いた通詞は、ただ外国語を訳す人ではなかった。交渉、検査、風説書、
-            蘭学の橋渡しまで担った、その多面的なしごとをたどる。
-          </p>
-        </div>
-
+    <ArticlePage {...article}>
         <div
           style={{
             display: "flex",
@@ -340,8 +259,7 @@ const Page: FC = () => {
             </a>
           </div>
         </div>
-      </div>
-    </>
+    </ArticlePage>
   )
 }
 

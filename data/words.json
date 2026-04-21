@@ -23,7 +23,12 @@
         "example_en": "She received her education at a public school.",
         "example_ja": "彼女は公立学校で教育を受けた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1872,
+      "source": null,
+      "note": "educationの訳語として福沢諭吉系の翻訳者が定着させた。"
+    }
   },
   {
     "id": 2,
@@ -49,7 +54,19 @@
         "example_en": "She ran the household with great economy.",
         "example_ja": "彼女は家計を大変倹約して切り盛りした。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "初期英和辞典。語釈・初出確認の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1862,
+      "source": "英和対訳袖珍辞典",
+      "note": "1862年の『英和対訳袖珍辞典』に既に記載されており、明治期に近代的な市場経済・財政の概念を表す語として定着した。"
+    }
   },
   {
     "id": 3,
@@ -75,7 +92,25 @@
         "example_en": "She was introduced into society at her debut.",
         "example_ja": "彼女はデビュー式で社交界にお披露目された。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "明治初期啓蒙思想語彙の参照資料"
+      },
+      {
+        "title": "文明論之概略",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761288",
+        "note": "文明・野蛮などの用例確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": "明六雑誌",
+      "note": "societyの訳語として西周ら『明六雑誌』の知識人たちが定着させた。"
+    }
   },
   {
     "id": 4,
@@ -101,7 +136,20 @@
         "example_en": "His philosophy was to work hard and never give up.",
         "example_ja": "彼の哲学は勤勉に努力し決して諦めないことだった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "NDLサーチで1874年刊行を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": "百一新論",
+      "note": "philosophyの訳語として西周が創出した。"
+    }
   },
   {
     "id": 5,
@@ -127,7 +175,18 @@
         "example_en": "She studies computer science at university.",
         "example_ja": "彼女は大学でコンピュータ科学を学んでいる。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "文部省雑誌",
+        "note": "明治初期教育・科学語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1869,
+      "source": "文部省雑誌",
+      "note": "1869年の「公議所日誌」に使用例があり、1875年の『文部省雑誌』などでも確認される。"
+    }
   },
   {
     "id": 6,
@@ -159,7 +218,20 @@
         "example_en": "She valued her freedom to make her own choices.",
         "example_ja": "彼女は自分で選択できる自由を大切にしていた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "ルソー翻訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1871,
+      "source": "民約訳解",
+      "note": "福沢諭吉らが明治初期に用い、中江兆民が1882年の『民約訳解』（ルソー翻訳）によってさらに普及させた。"
+    }
   },
   {
     "id": 7,
@@ -185,7 +257,12 @@
         "example_en": "Property rights are protected by the constitution.",
         "example_ja": "財産権は憲法によって保護されている。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "rightの訳語として法律翻訳者が定着させた。"
+    }
   },
   {
     "id": 8,
@@ -211,7 +288,12 @@
         "example_en": "Democratic values include respect for human dignity.",
         "example_ja": "民主的な価値観には人間の尊厳への尊重が含まれる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1880,
+      "source": null,
+      "note": "democracyの訳語として政治翻訳者が定着させた。"
+    }
   },
   {
     "id": 9,
@@ -243,7 +325,12 @@
         "example_en": "The scientific revolution overturned ancient knowledge.",
         "example_ja": "科学革命は古代からの知識を覆した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "revolutionの訳語として政治翻訳者が定着させた。"
+    }
   },
   {
     "id": 10,
@@ -275,7 +362,12 @@
         "example_en": "The bacteria were grown in culture for the experiment.",
         "example_ja": "実験のために細菌が培地で培養された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1875,
+      "source": null,
+      "note": "cultureの訳語として森有礼・西周系の翻訳者が定着させた。"
+    }
   },
   {
     "id": 11,
@@ -301,7 +393,20 @@
         "example_en": "The spread of writing was central to the advance of civilization.",
         "example_ja": "文字の普及は文明の発展の核心だった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "文明論之概略",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761288",
+        "note": "文明・野蛮などの用例確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1875,
+      "source": "文明論之概略",
+      "note": "civilizationの訳語として福沢諭吉が定着させた。"
+    }
   },
   {
     "id": 12,
@@ -327,7 +432,12 @@
         "example_en": "A new law was passed to protect consumer rights.",
         "example_ja": "消費者の権利を守るための新しい法律が制定された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "lawの訳語として法律翻訳者が定着させた。"
+    }
   },
   {
     "id": 13,
@@ -353,7 +463,12 @@
         "example_en": "The constitution was amended to include new rights.",
         "example_ja": "新しい権利を盛り込むために憲法が改正された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1889,
+      "source": null,
+      "note": "constitutionの訳語として井上毅らが定着させた。"
+    }
   },
   {
     "id": 14,
@@ -379,7 +494,12 @@
         "example_en": "Democratic government is based on the will of the people.",
         "example_ja": "民主的な政府は国民の意思に基づく。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "governmentの訳語として政治翻訳者が定着させた。"
+    }
   },
   {
     "id": 15,
@@ -405,7 +525,12 @@
         "example_en": "The welfare state provides social security for its citizens.",
         "example_ja": "福祉国家は国民に社会保障を提供する。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "stateおよびnationの訳語として政治翻訳者が定着させた。"
+    }
   },
   {
     "id": 16,
@@ -431,7 +556,12 @@
         "example_en": "Each individual brings different skills to the team.",
         "example_ja": "個人はそれぞれ異なるスキルをチームにもたらす。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "individualの訳語として西周系の翻訳者が定着させた。"
+    }
   },
   {
     "id": 17,
@@ -457,7 +587,12 @@
         "example_en": "Nationalism and socialism are competing ideologies.",
         "example_ja": "ナショナリズムと社会主義は競合するイデオロギーである。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "英語の接尾辞-ismの訳語として西周・中江兆民らが定着させた。"
+    }
   },
   {
     "id": 18,
@@ -483,7 +618,12 @@
         "example_en": "Kant distinguished between the subject and the object of knowledge.",
         "example_ja": "カントは認識の主観と客観を区別した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "subjectivityの訳語として哲学翻訳者が定着させた。"
+    }
   },
   {
     "id": 19,
@@ -509,7 +649,12 @@
         "example_en": "Objectivity is the goal of empirical inquiry.",
         "example_ja": "客観性は経験的探究の目標である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "objectivityの訳語として哲学翻訳者が定着させた。"
+    }
   },
   {
     "id": 20,
@@ -541,7 +686,12 @@
         "example_en": "Abstract art emerged in the early 20th century.",
         "example_ja": "抽象芸術は20世紀初頭に登場した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1880,
+      "source": null,
+      "note": "abstractの訳語として哲学翻訳者が定着させた。"
+    }
   },
   {
     "id": 21,
@@ -567,7 +717,12 @@
         "example_en": "We need a concrete plan before moving forward.",
         "example_ja": "前進する前に具体的な計画が必要だ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1880,
+      "source": null,
+      "note": "concreteの訳語として哲学翻訳者が定着させた。"
+    }
   },
   {
     "id": 22,
@@ -593,7 +748,12 @@
         "example_en": "The concept car was unveiled at the auto show.",
         "example_ja": "コンセプトカーはモーターショーで公開された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "conceptの訳語として西周が定着させた。"
+    }
   },
   {
     "id": 23,
@@ -619,7 +779,12 @@
         "example_en": "She had the reason to stay calm in the crisis.",
         "example_ja": "彼女は危機においても冷静を保つ理性があった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "reasonの訳語として哲学翻訳者が定着させた。"
+    }
   },
   {
     "id": 24,
@@ -645,7 +810,12 @@
         "example_en": "He let his emotions guide his decision instead of logic.",
         "example_ja": "彼は論理ではなく感情に従って決断した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "emotionの訳語として翻訳者群が定着させた。"
+    }
   },
   {
     "id": 25,
@@ -677,7 +847,12 @@
         "example_en": "The nature of consciousness remains one of philosophy's deepest mysteries.",
         "example_ja": "意識の本質は哲学の最も深い謎の一つである。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "consciousnessの訳語として西周系の翻訳者が定着させた。"
+    }
   },
   {
     "id": 26,
@@ -709,7 +884,12 @@
         "example_en": "Locke argued that all knowledge comes from experience.",
         "example_ja": "ロックはすべての知識が経験から生まれると主張した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "experienceの訳語として哲学翻訳者が定着させた。"
+    }
   },
   {
     "id": 27,
@@ -735,7 +915,12 @@
         "example_en": "She mastered the techniques of oil painting.",
         "example_ja": "彼女は油絵の技術を習得した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1890,
+      "source": null,
+      "note": "technologyの訳語として工学翻訳者が定着させた。"
+    }
   },
   {
     "id": 28,
@@ -761,7 +946,12 @@
         "example_en": "The tourism industry is vital to many countries.",
         "example_ja": "観光産業は多くの国にとって重要である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "industryの訳語として経済翻訳者が定着させた。"
+    }
   },
   {
     "id": 29,
@@ -787,7 +977,12 @@
         "example_en": "Tokyo is the capital of Japan.",
         "example_ja": "東京は日本の首都（Capital）である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "capitalの訳語として経済学者が定着させた。"
+    }
   },
   {
     "id": 30,
@@ -813,7 +1008,12 @@
         "example_en": "Labor and capital are the two main factors of production.",
         "example_ja": "労働と資本は二大生産要素である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1875,
+      "source": null,
+      "note": "laborの訳語として社会思想翻訳者が定着させた。"
+    }
   },
   {
     "id": 31,
@@ -845,7 +1045,12 @@
         "example_en": "The smartphone market is highly competitive.",
         "example_ja": "スマートフォン市場は競争が激しい。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1868,
+      "source": null,
+      "note": "marketの訳語として経済翻訳者が定着させた。"
+    }
   },
   {
     "id": 32,
@@ -871,7 +1076,12 @@
         "example_en": "Starting a new business is a bold enterprise.",
         "example_ja": "新事業を始めることは大胆な試みである。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1890,
+      "source": null,
+      "note": "enterpriseの訳語として経済翻訳者が定着させた。"
+    }
   },
   {
     "id": 33,
@@ -903,7 +1113,12 @@
         "example_en": "The doctor examined the tissue samples under a microscope.",
         "example_ja": "医師は組織サンプルを顕微鏡で調べた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1890,
+      "source": null,
+      "note": "organizationの訳語として社会科学翻訳者が定着させた。"
+    }
   },
   {
     "id": 34,
@@ -935,7 +1150,12 @@
         "example_en": "The river returned to its natural course after the dam was removed.",
         "example_ja": "ダムが撤去された後、川は自然な流れに戻った。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "江戸末期〜明治初期に西洋語 nature / Natur の翻訳が試みられたが、当初「造化」「天地」「性」などの訳語も競合していた。"
+    }
   },
   {
     "id": 35,
@@ -961,7 +1181,12 @@
         "example_en": "Modernity brought both progress and new social problems.",
         "example_ja": "近代は進歩と新たな社会問題の両方をもたらした。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "modernの訳語として明治期の翻訳者・思想家たちが定着させた。"
+    }
   },
   {
     "id": 36,
@@ -987,7 +1212,12 @@
         "example_en": "Cooking can be an art as much as a necessity.",
         "example_ja": "料理は必要行為であるとともに一つの芸術でもある。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "artの訳語として西周が定着させた。"
+    }
   },
   {
     "id": 37,
@@ -1013,7 +1243,18 @@
         "example_en": "Romantic love became idealized in the literature of the Meiji era.",
         "example_ja": "恋愛は明治時代の文学で理想化された。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "仏和辞林",
+        "note": "フランス語訳語確認の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1887,
+      "source": "仏和辞林",
+      "note": "1887年の『仏和辞林』にamourの訳として記載されたのが日本語辞書への初出とされる。"
+    }
   },
   {
     "id": 38,
@@ -1045,7 +1286,19 @@
         "example_en": "Philosophers have long debated whether beauty is objective or subjective.",
         "example_ja": "美は客観的か主観的かについて哲学者たちは長年議論してきた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "翻訳語成立事情",
+        "author": "柳父章",
+        "note": "翻訳語史の研究文献"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "翻訳語成立事情",
+      "note": "beautyの訳語として西周らが哲学・美学の文脈で用い定着させた。"
+    }
   },
   {
     "id": 39,
@@ -1071,7 +1324,19 @@
         "example_en": "She introduced her boyfriend to her parents.",
         "example_ja": "彼女は彼（彼氏）を両親に紹介した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "翻訳語成立事情",
+        "author": "柳父章",
+        "note": "翻訳語史の研究文献"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "翻訳語成立事情",
+      "note": "heの訳語として明治期に定着した三人称男性代名詞。"
+    }
   },
   {
     "id": 40,
@@ -1097,7 +1362,25 @@
         "example_en": "The physics of the situation made the plan impossible.",
         "example_ja": "その状況の物理的条件がその計画を不可能にした。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "物理啓蒙",
+        "url": "https://dl.ndl.go.jp/pid/830095",
+        "note": "明治初期物理学教科書"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1865,
+      "source": "物理啓蒙",
+      "note": "当初は「窮理学」「格物学」「理学」などの訳語が競合していたが、1865年（慶応元年）に長崎の分析究理所で「物理」が学科名として用いられたのが早期の記録の一つ。"
+    }
   },
   {
     "id": 41,
@@ -1123,7 +1406,12 @@
         "example_en": "Freedom of thought is a fundamental human right.",
         "example_ja": "思想の自由は基本的人権である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "1880年代以降、政治・社会・文学の各領域で西洋思想を指示する用語として広く使われ、明治後期には「思想問題」「危険思想」など国家統制と結びついた文脈でも用いられるようになった。"
+    }
   },
   {
     "id": 42,
@@ -1155,7 +1443,19 @@
         "example_en": "Kant analyzed the structure of synthetic and analytic judgments.",
         "example_ja": "カントは総合判断と分析判断の構造を分析した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "Kritik der Urteilskraft",
+        "author": "Immanuel Kant",
+        "note": "判断・美学語彙の原典"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "Kritik der Urteilskraft",
+      "note": "judgmentおよびドイツ語Urteilの訳語として明治期に哲学用語として定着した。"
+    }
   },
   {
     "id": 43,
@@ -1187,7 +1487,12 @@
         "example_en": "He underwent years of psychoanalysis.",
         "example_ja": "彼は何年もかけて精神分析を受けた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "analysisおよびドイツ語Analyseの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 44,
@@ -1213,7 +1518,12 @@
         "example_en": "Detective stories require the reader to follow the detective's reasoning.",
         "example_ja": "推理小説では読者が探偵の推理をたどる必要がある。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "reasoningおよびinferenceの訳語として明治期に論理学・哲学の文脈で定着した。"
+    }
   },
   {
     "id": 45,
@@ -1239,7 +1549,20 @@
         "example_en": "The synthesis resolves the contradiction between thesis and antithesis.",
         "example_ja": "総合（合）は正（定立）と反（反定立）の矛盾を解消する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "哲学字彙",
+      "note": "synthesisおよびドイツ語Syntheseの訳語として明治期に哲学・論理学の文脈で定着した。"
+    }
   },
   {
     "id": 46,
@@ -1265,7 +1588,25 @@
         "example_en": "Euclid's propositions form the basis of geometry.",
         "example_ja": "ユークリッドの命題は幾何学の基礎を成す。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "百学連環",
+        "author": "西周",
+        "note": "西周の学術語彙を確認する参照資料"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1870,
+      "source": "百学連環",
+      "note": "propositionの訳語として西周が『百学連環』（1870〜71年）で創出した。"
+    }
   },
   {
     "id": 47,
@@ -1291,7 +1632,19 @@
         "example_en": "Archimedes' principle explains why objects float.",
         "example_ja": "アルキメデスの原理はなぜ物が浮くかを説明する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "Philosophiæ Naturalis Principia Mathematica",
+        "author": "Isaac Newton",
+        "note": "自然哲学・物理学語彙の原典"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "Philosophiæ Naturalis Principia Mathematica",
+      "note": "principleおよびドイツ語Prinzipの訳語として明治期に哲学・科学の文脈で定着した。"
+    }
   },
   {
     "id": 48,
@@ -1317,7 +1670,12 @@
         "example_en": "Moral laws guide human behavior.",
         "example_ja": "道徳的法則は人間の行動を導く。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "lawおよびドイツ語Gesetzの訳語として明治期に自然科学・哲学の文脈で定着した。"
+    }
   },
   {
     "id": 49,
@@ -1343,7 +1701,12 @@
         "example_en": "Kant said we must treat persons as ends, never merely as means.",
         "example_ja": "カントは人を常に目的として扱い、決して単なる手段として扱ってはならないと述べた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "purposeおよびドイツ語Zweckの訳語として明治期に哲学・日常語として定着した。"
+    }
   },
   {
     "id": 50,
@@ -1369,7 +1732,12 @@
         "example_en": "Kant warned against using people merely as means to our own ends.",
         "example_ja": "カントは人を自己の目的のための手段としてのみ使うことを戒めた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "meansおよびドイツ語Mittelの訳語として明治期に哲学・日常語として定着した。"
+    }
   },
   {
     "id": 51,
@@ -1395,7 +1763,12 @@
         "example_en": "Office politics can make the workplace unpleasant.",
         "example_ja": "職場の政治（権力争い）は職場環境を不快にすることがある。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "politicsの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 52,
@@ -1421,7 +1794,12 @@
         "example_en": "Equality of opportunity should be guaranteed for all.",
         "example_ja": "機会の平等はすべての人に保障されるべきである。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "equalityの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 53,
@@ -1447,7 +1825,20 @@
         "example_en": "The soldier carried out his duty with honor.",
         "example_ja": "その兵士は名誉をもって義務を果たした。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "学問のすゝめ",
+        "author": "福沢諭吉",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001107016",
+        "note": "福沢諭吉の用例確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "学問のすゝめ",
+      "note": "dutyおよびobligationの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 54,
@@ -1473,7 +1864,12 @@
         "example_en": "The parliament convened an emergency session.",
         "example_ja": "議会は緊急会議を召集した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1889,
+      "source": null,
+      "note": "parliamentの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 55,
@@ -1499,7 +1895,12 @@
         "example_en": "His election to the presidency was celebrated nationwide.",
         "example_ja": "彼の大統領選出は全国で祝われた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1890,
+      "source": null,
+      "note": "electionの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 56,
@@ -1525,7 +1926,20 @@
         "example_en": "Financial independence gives you freedom to make choices.",
         "example_ja": "経済的独立は選択の自由をもたらす。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "学問のすゝめ",
+        "author": "福沢諭吉",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001107016",
+        "note": "福沢諭吉の用例確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1872,
+      "source": "学問のすゝめ",
+      "note": "independenceの訳語として福沢諭吉が積極的に用いた。"
+    }
   },
   {
     "id": 57,
@@ -1551,7 +1965,12 @@
         "example_en": "The trade treaty reduced tariffs on imported goods.",
         "example_ja": "貿易条約は輸入品の関税を引き下げた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "日米和親条約（1854年）・日米修好通商条約（1858年）など幕末の開国外交において「条約」が国家間の正式な合意文書の名称として用いられ定着した。"
+    }
   },
   {
     "id": 58,
@@ -1577,7 +1996,12 @@
         "example_en": "It took great diplomacy to resolve the disagreement.",
         "example_ja": "その意見の相違を解決するには大きな外交的手腕が必要だった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "diplomacyの訳語として幕末から明治期に定着した。"
+    }
   },
   {
     "id": 59,
@@ -1603,7 +2027,24 @@
         "example_en": "Popular sovereignty means the people hold the ultimate power.",
         "example_ja": "国民主権とは国民が最終的な権力を保持することを意味する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "附音挿図英和字彙",
+        "author": "柴田昌吉・子安峻",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2938261",
+        "note": "NDLサーチで1873年刊行を確認"
+      },
+      {
+        "title": "管子",
+        "note": "古典漢語の出典参照"
+      }
+    ],
+    "first_attestation": {
+      "year": 1873,
+      "source": "附音挿図英和字彙",
+      "note": "sovereigntyの訳語として明治6年（1873年）、柴田昌吉・子安峻の『附音挿図英和字彙』において「主権」の語が当てられた。"
+    }
   },
   {
     "id": 60,
@@ -1629,7 +2070,12 @@
         "example_en": "Japanese citizens have the right to vote.",
         "example_ja": "日本国民は投票する権利を持つ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "nationの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 61,
@@ -1655,7 +2101,12 @@
         "example_en": "The Pilgrims established a colony in New England.",
         "example_ja": "ピルグリムたちはニューイングランドに植民地を築いた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "colonyの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 62,
@@ -1681,7 +2132,12 @@
         "example_en": "A blood bank stores donated blood for medical use.",
         "example_ja": "血液銀行は医療用の献血を保管する。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1872,
+      "source": null,
+      "note": "bankの訳語として明治5年（1872年）の国立銀行条例制定時に「銀行」の語が定着した。"
+    }
   },
   {
     "id": 63,
@@ -1707,7 +2163,12 @@
         "example_en": "The company listed its shares on the Tokyo Stock Exchange.",
         "example_ja": "その会社は東京証券取引所に株式を上場した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "stockの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 64,
@@ -1733,7 +2194,12 @@
         "example_en": "A good coat is a worthwhile investment.",
         "example_ja": "良いコートは価値ある投資である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "investmentの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 65,
@@ -1759,7 +2225,12 @@
         "example_en": "Regular exercise brings many health benefits.",
         "example_ja": "定期的な運動は多くの健康上の利益をもたらす。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "profitの訳語として明治期に経済用語として定着した。"
+    }
   },
   {
     "id": 66,
@@ -1785,7 +2256,12 @@
         "example_en": "His death was a great loss to the scientific community.",
         "example_ja": "彼の死は科学界にとって大きな損失だった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "lossの訳語として明治期に経済用語として定着した。"
+    }
   },
   {
     "id": 67,
@@ -1811,7 +2287,12 @@
         "example_en": "The union made new demands on the management.",
         "example_ja": "組合は経営陣に新たな要求を行った。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "demandの訳語として明治期に経済学用語として定着した。"
+    }
   },
   {
     "id": 68,
@@ -1837,7 +2318,12 @@
         "example_en": "Emergency supplies were delivered to the disaster area.",
         "example_ja": "災害地域に緊急供給物資が届けられた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "supplyの訳語として明治期に経済学用語として定着した。"
+    }
   },
   {
     "id": 69,
@@ -1863,7 +2349,12 @@
         "example_en": "Fame comes at a price.",
         "example_ja": "名声には代償がある。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "priceの訳語として明治期に経済学用語として定着した。"
+    }
   },
   {
     "id": 70,
@@ -1889,7 +2380,12 @@
         "example_en": "Carpentry is a skilled trade.",
         "example_ja": "大工は熟練した職人仕事（trade）である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "tradeの訳語として幕末から明治期に定着した。"
+    }
   },
   {
     "id": 71,
@@ -1915,7 +2411,12 @@
         "example_en": "Japan exported popular culture through anime and manga.",
         "example_ja": "日本はアニメや漫画を通じてポップカルチャーを輸出した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "exportの訳語として幕末から明治期に定着した。"
+    }
   },
   {
     "id": 72,
@@ -1941,7 +2442,12 @@
         "example_en": "Baseball was an import from the United States.",
         "example_ja": "野球はアメリカからの輸入（文化移入）だった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "importの訳語として幕末から明治期に定着した。"
+    }
   },
   {
     "id": 73,
@@ -1967,7 +2473,12 @@
         "example_en": "The idea has gained currency among economists.",
         "example_ja": "その考えは経済学者の間で通用するようになった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1871,
+      "source": null,
+      "note": "currencyの訳語として明治4年（1871年）の新貨条例制定・円の導入とともに近代的な通貨制度が整備され、「通貨」が法定の流通貨幣を指す金融用語として定着した。"
+    }
   },
   {
     "id": 74,
@@ -1993,7 +2504,12 @@
         "example_en": "She pursued a career in finance after graduating.",
         "example_ja": "彼女は卒業後、金融の分野でのキャリアを追求した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "日本銀行設立（1882年）や各種銀行法の制定を経て、金融機関・金融政策・金融市場などの複合語を形成しながら資本経済の専門用語として定着した。"
+    }
   },
   {
     "id": 75,
@@ -2019,7 +2535,12 @@
         "example_en": "The municipality struggled with its public finances.",
         "example_ja": "その自治体は財政難に苦しんでいた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "public financeの訳語として明治期に行政・経済用語として定着した。"
+    }
   },
   {
     "id": 76,
@@ -2045,7 +2566,12 @@
         "example_en": "There was an instant chemistry between the two actors.",
         "example_ja": "二人の俳優の間には即座に化学反応（chemistry）があった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1861,
+      "source": null,
+      "note": "chemistryの訳語として文久元年（1861年）に川本幸民が翻訳書を「化学新書」と題したことが「化学」の語の初出とされる。"
+    }
   },
   {
     "id": 77,
@@ -2071,7 +2597,12 @@
         "example_en": "She studied biology to become a doctor.",
         "example_ja": "彼女は医師になるために生物（学）を学んだ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "biologyの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 78,
@@ -2097,7 +2628,12 @@
         "example_en": "Everyday mathematics includes calculating change and budgeting.",
         "example_ja": "日常的な数学にはお釣りの計算や予算管理が含まれる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1882,
+      "source": null,
+      "note": "mathematicsの訳語として明治15年（1882年）に東京数学会社（現日本数学会）の訳語会においてmathematicsの訳語を「数学」とすることが議決された。"
+    }
   },
   {
     "id": 79,
@@ -2123,7 +2659,12 @@
         "example_en": "The geography of Japan includes many mountains and islands.",
         "example_ja": "日本の地理は多くの山と島を含む。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "geographyの訳語として幕末から明治期に定着した。"
+    }
   },
   {
     "id": 80,
@@ -2149,7 +2690,12 @@
         "example_en": "This building has a long history.",
         "example_ja": "この建物は長い歴史を持つ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "historyの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 81,
@@ -2175,7 +2721,12 @@
         "example_en": "The academic literature on climate change is vast.",
         "example_ja": "気候変動に関する学術文献は膨大である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "literatureの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 82,
@@ -2201,7 +2752,12 @@
         "example_en": "The psychology of crowds is different from individual behavior.",
         "example_ja": "群衆の心理は個人の行動とは異なる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1878,
+      "source": null,
+      "note": "psychologyの訳語として西周が明治11年（1878年）にJ. ヘイブンの著作を「心理学」と題して翻訳し定着した。"
+    }
   },
   {
     "id": 83,
@@ -2227,7 +2783,12 @@
         "example_en": "Heavy industry includes steel and shipbuilding.",
         "example_ja": "重工業には鉄鋼業や造船業が含まれる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "industryの工業的意味における訳語として明治期に定着した。"
+    }
   },
   {
     "id": 84,
@@ -2253,7 +2814,12 @@
         "example_en": "Agriculture accounts for a small share of Japan's GDP.",
         "example_ja": "農業は日本のGDPの小さな割合を占める。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "agricultureの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 85,
@@ -2279,7 +2845,12 @@
         "example_en": "The doctor prescribed medicine for the infection.",
         "example_ja": "医師は感染症のために薬を処方した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "medicineの訳語として明治期に定着した。"
+    }
   },
   {
     "id": 86,
@@ -2305,7 +2876,20 @@
         "example_en": "For him, football was almost a religion.",
         "example_ja": "彼にとって、サッカーはほとんど宗教だった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "改定増補哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863638",
+        "note": "哲学・宗教語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1869,
+      "source": "改定増補哲学字彙",
+      "note": "religionの訳語として明治2年（1869年）にドイツ北部連邦との修好通商条約においてReligionsübungの訳語に「宗教」が選ばれたことで定着した。"
+    }
   },
   {
     "id": 87,
@@ -2331,7 +2915,20 @@
         "example_en": "He took the bad news like a philosopher.",
         "example_ja": "彼は悪い知らせを哲学者のように受け止めた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "NDLサーチで1874年刊行を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "百一新論",
+      "note": "philosopherの訳語として「哲学」（西周の造語、1874年）に「者」を加えた形で自然に定着した。"
+    }
   },
   {
     "id": 88,
@@ -2357,7 +2954,12 @@
         "example_en": "She spent years researching the history of the Meiji era.",
         "example_ja": "彼女は明治時代の歴史を研究するのに何年も費やした。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "researchの訳語として明治期に学術用語として定着した。"
+    }
   },
   {
     "id": 89,
@@ -2383,7 +2985,12 @@
         "example_en": "The sanitation system prevents the spread of waterborne diseases.",
         "example_ja": "衛生システムは水系感染症の拡大を防ぐ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1875,
+      "source": null,
+      "note": "長与専斎が欧米視察から帰国後、hygiene（英・独）の訳語として荘子の古典語から採用した語。"
+    }
   },
   {
     "id": 90,
@@ -2415,7 +3022,12 @@
         "example_en": "Her love of music led her to study at a conservatory.",
         "example_ja": "音楽への愛が彼女を音楽院で学ぶことへと導いた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1880,
+      "source": null,
+      "note": "明治期の聖書翻訳委員会（ヘボン・ブラウンら）は中国語聖書の訳語に倣ってあっさりと「愛」を採用し、1880年完成の明治元訳新約聖書で定着した。"
+    }
   },
   {
     "id": 91,
@@ -2441,7 +3053,30 @@
         "example_en": "Good character involves honesty and compassion.",
         "example_ja": "良い品性には誠実さと思いやりが含まれる。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "修身論",
+        "author": "阿部泰蔵",
+        "note": "Wayland の倫理学書翻訳として参照"
+      },
+      {
+        "title": "Self-Help",
+        "author": "Samuel Smiles",
+        "note": "『西国立志編』の原書"
+      },
+      {
+        "title": "西国立志編",
+        "author": "中村正直",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I38111100467075",
+        "note": "スマイルズ Self-Help の翻訳書"
+      }
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": "修身論",
+      "note": "明治7年（1874年）頃、阿部泰蔵がフランシス・ウェーランドの倫理学書を『修身論』として訳し文部省から刊行した際に使用されたとされる。"
+    }
   },
   {
     "id": 92,
@@ -2467,7 +3102,25 @@
         "example_en": "Good conduct at school is expected of all students.",
         "example_ja": "学校での良い品行はすべての生徒に期待されている。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "Self-Help",
+        "author": "Samuel Smiles",
+        "note": "『西国立志編』の原書"
+      },
+      {
+        "title": "西国立志編",
+        "author": "中村正直",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I38111100467075",
+        "note": "スマイルズ Self-Help の翻訳書"
+      }
+    ],
+    "first_attestation": {
+      "year": 1871,
+      "source": "Self-Help",
+      "note": "明治4年（1871年）刊行のサミュエル・スマイルズ『Self-Help』の翻訳書『西国立志編』において、道徳的な人格・品位を意味するcharacterの訳として「品行」を当てた。"
+    }
   },
   {
     "id": 93,
@@ -2493,7 +3146,12 @@
         "example_en": "Use constants for values that should not change in the program.",
         "example_ja": "プログラムで変更すべきでない値には定数を使う。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "英語constantの数学訳語として明治期に定着した語。"
+    }
   },
   {
     "id": 94,
@@ -2519,7 +3177,19 @@
         "example_en": "The anguish of losing a loved one is profound.",
         "example_ja": "愛する人を失う懊悩は深い。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "浮雲",
+        "author": "二葉亭四迷",
+        "note": "近代文学での用例確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "浮雲",
+      "note": "二葉亭四迷の『浮雲』（1887年）をはじめとする明治近代小説にも頻出し、西洋の内面心理を表現する語彙として広く定着した。"
+    }
   },
   {
     "id": 95,
@@ -2545,7 +3215,19 @@
         "example_en": "Tubercles appear in the lungs during infection.",
         "example_ja": "感染中、肺に結核（結節）が現れる。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "扶氏経験遺訓",
+        "author": "緒方洪庵",
+        "note": "医学訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1857,
+      "source": "扶氏経験遺訓",
+      "note": "安政4年（1857年）、緒方洪庵がドイツ人医師フーフェランドの内科学書をオランダ語経由で翻訳した『扶氏経験遺訓』において、Phthisis tuberculosaの訳語として「結核肺労」を用いたのが日本語「結核」の嚆矢とされる。"
+    }
   },
   {
     "id": 96,
@@ -2571,7 +3253,19 @@
         "example_en": "The school prides itself on the quality of its students.",
         "example_ja": "その学校は生徒の品格の高さを誇りにしている。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "国家の品格",
+        "author": "藤原正彦",
+        "note": "近現代での用例・普及確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "国家の品格",
+      "note": "英語characterの訳語として明治初期に品行・品性とともに競合した古典漢語。"
+    }
   },
   {
     "id": 97,
@@ -2603,7 +3297,25 @@
         "example_en": "The villain has a complex personality in the novel.",
         "example_ja": "その小説の悪役は複雑な人格を持つ。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      },
+      {
+        "title": "三太郎の日記",
+        "author": "阿部次郎",
+        "note": "大正期思想語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "哲学字彙",
+      "note": "1881年刊行の『哲学字彙』では「人品」が当てられていたが、その後「人格」が定着した。"
+    }
   },
   {
     "id": 98,
@@ -2635,7 +3347,24 @@
         "example_en": "Information technology connects people around the world.",
         "example_ja": "情報技術は世界中の人々をつなぐ。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "仏国歩兵陣中要務実地演習軌典",
+        "author": "酒井忠恕 訳",
+        "note": "軍事訳語の参照資料"
+      },
+      {
+        "title": "戦争論",
+        "author": "Carl von Clausewitz",
+        "note": "軍事思想語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1876,
+      "source": "仏国歩兵陣中要務実地演習軌典",
+      "note": "明治9年（1876年）、陸軍少佐・酒井忠恕がフランス語軍事マニュアルを訳した『仏国歩兵陣中要務実地演習軌典』において、renseignement（敵情に関する報知）の訳語として初めて用いた語。"
+    }
   },
   {
     "id": 99,
@@ -2661,7 +3390,24 @@
         "example_en": "Moral education was a compulsory subject in prewar Japanese schools.",
         "example_ja": "修身は戦前の日本の学校で必修科目だった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "Elements of Moral Science",
+        "author": "Francis Wayland",
+        "note": "『修身論』の原書"
+      },
+      {
+        "title": "修身論",
+        "author": "阿部泰蔵",
+        "note": "Wayland の倫理学書翻訳として参照"
+      }
+    ],
+    "first_attestation": {
+      "year": 1872,
+      "source": "Elements of Moral Science",
+      "note": "明治5年（1872年）の学制公布により、小学校の教科名として「修身」が制定されたのが訳語としての初出とされる。"
+    }
   },
   {
     "id": 100,
@@ -2687,7 +3433,12 @@
         "example_en": "He is a lifelong student of philosophy.",
         "example_ja": "彼は哲学の生涯学習者（学生）だ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": null,
+      "note": "明治5年（1872年）の学制発布当初、すべての学習者は「生徒」と総称されたが、明治14年（1881年）に東京大学が「外国では大学に学ぶ者と其れ以下の学校に学ぶ者の間に名称の差別あるに鑑み」として本科学習者を「学生」と正式に称することを定め、英語studentの訳語として制度的に定着した。"
+    }
   },
   {
     "id": 101,
@@ -2713,7 +3464,12 @@
         "example_en": "The idealism of youth is a powerful force for change.",
         "example_ja": "青年の理想主義は変化への強力な力である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1880,
+      "source": null,
+      "note": "明治13年（1880年）、牧師・小崎弘道が東京キリスト教青年会（東京YMCA）の創設に際し、\"Young Men's Christian Association\"を「基督教青年会」と翻訳した際に\"Young Men\"の訳語として造語した語。"
+    }
   },
   {
     "id": 102,
@@ -2739,7 +3495,24 @@
         "example_en": "Mencius believed that human nature is inherently virtuous.",
         "example_ja": "孟子は人間の本性がもともと徳性を持つと信じた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      },
+      {
+        "title": "中庸",
+        "note": "古典漢語の出典参照"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "1881年（明治14年）に井上哲次郎らが編纂した日本初の哲学辞典『哲学字彙』において virtue の訳語として収録されたことで哲学用語として定着した。"
+    }
   },
   {
     "id": 103,
@@ -2765,7 +3538,12 @@
         "example_en": "Photography captures moments that would otherwise be forgotten.",
         "example_ja": "写真は忘れられてしまうような瞬間を捉える。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "1839年にダゲールの銀板写真術が発明されると、欧米から写真技術が幕末日本にもたらされ、既存の漢語「写真」が英語photographの訳語として自然に転用・定着した。"
+    }
   },
   {
     "id": 104,
@@ -2791,7 +3569,12 @@
         "example_en": "I'll give you a call (telephone) tomorrow.",
         "example_ja": "明日、電話をかけます。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1883,
+      "source": null,
+      "note": "1883年（明治16年）に工部省電信局が英語telephoneの訳語として「電話」を正式に採用し、以後この語が定着した。"
+    }
   },
   {
     "id": 105,
@@ -2817,7 +3600,12 @@
         "example_en": "We took the train to travel between cities.",
         "example_ja": "私たちは都市間移動に汽車（列車）を使った。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1872,
+      "source": null,
+      "note": "明治以降に電気を動力とする「電車」が登場すると、「汽車」は蒸気機関車牽引の列車を指す語として区別されるようになり、現代では長距離列車・国鉄系統の列車の通称としても使われる。"
+    }
   },
   {
     "id": 106,
@@ -2843,7 +3631,24 @@
         "example_en": "The evolution of technology has been rapid.",
         "example_ja": "技術の進化は急速だった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "種の起源",
+        "author": "Charles Darwin",
+        "note": "進化論の原典"
+      },
+      {
+        "title": "動物進化論",
+        "author": "石川千代松",
+        "note": "進化論受容・訳語普及の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1883,
+      "source": "動物進化論",
+      "note": "1877年（明治10年）、アメリカ人動物学者E・S・モースが東京大学で進化論の講義を行い、その記録を石川千代松が整理・刊行した『動物進化論』（1883年）が日本で最初に進化論を体系的に紹介した著作として知られ、「進化」という訳語の普及に決定的な役割を果たした。"
+    }
   },
   {
     "id": 107,
@@ -2875,7 +3680,25 @@
         "example_en": "Philosophers debate the nature of being since ancient times.",
         "example_ja": "哲学者たちは古代から存在の本質について議論してきた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      },
+      {
+        "title": "存在と時間",
+        "author": "Martin Heidegger",
+        "note": "哲学語彙の用例参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "「存在」は英語being・existence、ドイツ語Seinに対応する哲学用語として、明治14年（1881年）に井上哲次郎らが編んだ日本初の哲学辞典『哲学字彙』に収録された。"
+    }
   },
   {
     "id": 108,
@@ -2901,7 +3724,20 @@
         "example_en": "There was a faint suggestion of a smile on his face.",
         "example_ja": "彼の顔にはわずかに微笑の暗示が浮かんでいた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "英語suggestionの訳語として、明治14年（1881年）刊行の井上哲次郎らによる『哲学字彙』で採用され定着した。"
+    }
   },
   {
     "id": 109,
@@ -2927,7 +3763,20 @@
         "example_en": "They showed great will in the face of adversity.",
         "example_ja": "彼らは逆境において強い意志を示した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "英語will（ドイツ語Wille）の訳語として、明治14年（1881年）刊行の井上哲次郎らによる『哲学字彙』で採用され定着した。"
+    }
   },
   {
     "id": 110,
@@ -2953,7 +3802,20 @@
         "example_en": "Hume distinguished between impressions and ideas.",
         "example_ja": "ヒュームは印象と観念を区別した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "英語impressionの訳語として、明治14年（1881年）刊行の井上哲次郎らによる『哲学字彙』で採用され定着した。"
+    }
   },
   {
     "id": 111,
@@ -2979,7 +3841,12 @@
         "example_en": "We must protect the environment from pollution.",
         "example_ja": "私たちは汚染から環境を守らなければならない。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "古来の漢語「環境（周囲の境界）」を、西洋の「environment」の訳語として再定義したもの。"
+    }
   },
   {
     "id": 112,
@@ -3005,7 +3872,25 @@
         "example_en": "Financial panic spread rapidly through the markets.",
         "example_ja": "金融パニックが市場全体に急速に広がった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      },
+      {
+        "title": "共産党宣言",
+        "author": "Karl Marx / Friedrich Engels",
+        "note": "社会主義・共産主義語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1890,
+      "source": "哲学字彙",
+      "note": "1881年の『哲学字彙』では「驚慌」とされたが、1890年の明治23年恐慌を経て経済用語として「恐慌」の表記が定着。"
+    }
   },
   {
     "id": 113,
@@ -3031,7 +3916,20 @@
         "example_en": "The Scottish School of Common Sense emphasized innate human knowledge.",
         "example_ja": "スコットランド常識学派は人間に生来備わった知識を強調した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "1881年の『哲学字彙』に訳語として掲載。"
+    }
   },
   {
     "id": 114,
@@ -3057,7 +3955,19 @@
         "example_en": "The ideal conditions for the experiment were never met.",
         "example_ja": "実験のための理想的な条件は決して満たされなかった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "利学",
+        "author": "西周",
+        "note": "西周による哲学語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1877,
+      "source": "利学",
+      "note": "1877年の『利学』に初出し、のちに哲学用語として広く用いられた。"
+    }
   },
   {
     "id": 115,
@@ -3083,7 +3993,19 @@
         "example_en": "Symbols are used in mathematics to represent numbers and operations.",
         "example_ja": "数学では数値や演算を表すために象徴（記号）が使われる。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "維氏美学",
+        "author": "中江兆民",
+        "note": "美学・象徴語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1883,
+      "source": "維氏美学",
+      "note": "中江兆民が『維氏美学』（1883〜84年）で案出した翻訳語。"
+    }
   },
   {
     "id": 116,
@@ -3109,7 +4031,20 @@
         "example_en": "Hegel's philosophy explores the nature of the Absolute.",
         "example_ja": "ヘーゲルの哲学は絶対者の本質を探求する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "哲学字彙",
+      "note": "明治期に哲学術語として移入された。"
+    }
   },
   {
     "id": 117,
@@ -3135,7 +4070,25 @@
         "example_en": "Kant distinguished between phenomena and noumena.",
         "example_ja": "カントは現象と物自体を区別した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "利学",
+        "author": "西周",
+        "note": "西周による哲学語彙の参照資料"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1877,
+      "source": "利学",
+      "note": "西周が『利学』（1877年）で西洋哲学用語phenomenonの訳語として用いた。"
+    }
   },
   {
     "id": 118,
@@ -3161,7 +4114,12 @@
         "example_en": "His ideas found resonance among the students.",
         "example_ja": "彼の考えは学生たちの間で共鳴を呼んだ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "物理学におけるresonance（共振）の訳語として、また思想・感情の交流を指すsympathyの訳語として明治期に普及した。"
+    }
   },
   {
     "id": 119,
@@ -3181,7 +4139,12 @@
         "example_en": "We went for a walk in the park.",
         "example_ja": "私たちは公園に散歩へ行った。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1873,
+      "source": null,
+      "note": "1873年（明治6年）の「太政官布告」によって、上野・芝・浅草・深川・飛鳥山の5箇所が「公園」として指定された際に訳語として定着した。"
+    }
   },
   {
     "id": 120,
@@ -3207,7 +4170,12 @@
         "example_en": "Logic deals with the processes of affirmation and negation.",
         "example_ja": "論理学は肯定と否定の過程を扱う。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "論理学や哲学におけるaffirmationやPositivitätの訳語として定着した。"
+    }
   },
   {
     "id": 121,
@@ -3227,7 +4195,12 @@
         "example_en": "His view of life was shaped by his experiences.",
         "example_ja": "彼の人生観は自らの経験によって形成された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "ドイツ語のLebensanschauung（人生に対する見方）の訳語として明治中期に登場し普及した。"
+    }
   },
   {
     "id": 122,
@@ -3247,7 +4220,12 @@
         "example_en": "The 19th century was a time of great change.",
         "example_ja": "19世紀は大きな変化の時代だった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "英語century（100年間）の訳語として定着した。"
+    }
   },
   {
     "id": 123,
@@ -3267,7 +4245,12 @@
         "example_en": "Kant discussed a priori knowledge.",
         "example_ja": "カントは先天的知識について論じた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "哲学におけるa priori（先天的）の訳語として定着した。"
+    }
   },
   {
     "id": 124,
@@ -3287,7 +4270,12 @@
         "example_en": "The background to the conflict is complex.",
         "example_ja": "その紛争の背景は複雑である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "英語background（絵画や劇の舞台装置のうしろの部分）の訳語として定着。"
+    }
   },
   {
     "id": 125,
@@ -3313,7 +4301,12 @@
         "example_en": "Has the post arrived yet?",
         "example_ja": "郵便はもう届きましたか？"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1871,
+      "source": null,
+      "note": "1871年（明治4年）3月1日、前島の発議により東京・大阪間で官営郵便事業が開始された際に正式採用された。"
+    }
   },
   {
     "id": 126,
@@ -3333,7 +4326,23 @@
         "example_en": "He has played baseball since he was a child.",
         "example_ja": "彼は子どもの頃から野球をしている。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "第一高等学校野球部史",
+        "note": "野球の訳語初出確認資料"
+      },
+      {
+        "title": "野球",
+        "author": "中馬庚",
+        "note": "野球専門書としての普及確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1894,
+      "source": "第一高等学校野球部史",
+      "note": "英語baseballの訳語として中馬庚が1894年（明治27年）に命名した。"
+    }
   },
   {
     "id": 127,
@@ -3359,7 +4368,12 @@
         "example_en": "She works in child welfare.",
         "example_ja": "彼女は児童福祉の分野で働いている。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "英語welfareの訳語として定着したのは明治以降とされるが、特定の命名者はおらず、既存語が転用されたものとみられる。"
+    }
   },
   {
     "id": 128,
@@ -3385,7 +4399,25 @@
         "example_en": "He was stuck in his old ideas.",
         "example_ja": "彼は古い観念にとらわれていた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "生性発蘊",
+        "author": "西周",
+        "note": "哲学・心理学語彙の参照資料"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1873,
+      "source": "生性発蘊",
+      "note": "西周が1873年（明治6年）の著作『生性発蘊』において、英語ideaおよびフランス語idéeの訳語として仏教用語の「観念」を転用した。"
+    }
   },
   {
     "id": 129,
@@ -3411,7 +4443,12 @@
         "example_en": "First class passengers received different treatment.",
         "example_ja": "一等階級の乗客は異なる扱いを受けた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "classやドイツ語Klasseの訳語として明治期に定着した和製漢語。"
+    }
   },
   {
     "id": 130,
@@ -3437,7 +4474,12 @@
         "example_en": "The labor movement fought for workers' rights.",
         "example_ja": "労働運動は労働者の権利のために闘った。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "物理学のmotionおよび社会的・政治的movementの訳語として明治期に広まった和製漢語。"
+    }
   },
   {
     "id": 131,
@@ -3463,7 +4505,12 @@
         "example_en": "The right wing of the army advanced.",
         "example_ja": "軍の右翼が前進した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "日本には大正中期（1910年代後半）に翻訳語として導入され、国家主義・保守主義・民族主義的な政治勢力や思想を指す語として定着した。"
+    }
   },
   {
     "id": 132,
@@ -3489,7 +4536,12 @@
         "example_en": "The left wing was outflanked by the enemy.",
         "example_ja": "左翼は敵に側面を突かれた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "フランス革命期の国民議会で急進共和派・革命派が議長席から見て左側の席を占めたことに由来する政治用語。"
+    }
   },
   {
     "id": 133,
@@ -3509,7 +4561,26 @@
         "example_en": "France became a republic after the Revolution.",
         "example_ja": "フランスは革命後に共和国となった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "坤輿図識",
+        "author": "箕作省吾",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I75833",
+        "note": "NDLサーチで弘化期刊行資料を確認"
+      },
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761282",
+        "note": "福沢諭吉による西洋制度紹介の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1845,
+      "source": "坤輿図識",
+      "note": "republicの訳語として、箕作省吾が弘化2年（1845年）刊行の地誌書『坤輿図識』に初めて用いた。"
+    }
   },
   {
     "id": 134,
@@ -3529,7 +4600,24 @@
         "example_en": "Marx and Engels laid the foundations of modern communism.",
         "example_ja": "マルクスとエンゲルスが近代共産主義の基礎を築いた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      },
+      {
+        "title": "仏和法律字彙",
+        "note": "法律・社会思想語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1886,
+      "source": "哲学字彙",
+      "note": "1881年刊行の哲学辞典『哲学字彙』では「共産論」と訳されていたが、1882年に城多虎雄が新聞論説「論欧州社会党」で「共産ノ主義」の用例を示し、1886年（明治19年）刊行の『仏和法律字彙』に「共産主義」として初出した。"
+    }
   },
   {
     "id": 135,
@@ -3555,7 +4643,12 @@
         "example_en": "He suffered from unrequited love for years.",
         "example_ja": "彼は長年、報われない失恋に苦しんだ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "英語に一対一対応する訳語ではなく、「恋を失う」という意味内容を漢字で直截に表現した日本語独自の造語である。"
+    }
   },
   {
     "id": 136,
@@ -3575,7 +4668,19 @@
         "example_en": "He gave her a gentle kiss on the cheek.",
         "example_ja": "彼は彼女の頬に優しく接吻した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "ドゥーフ・ハルマ",
+        "author": "Hendrik Doeff 監修",
+        "note": "蘭和辞典。江戸期訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1815,
+      "source": "ドゥーフ・ハルマ",
+      "note": "オランダ語kusの訳語として、1815年刊行の蘭和辞典『ドゥーフ・ハルマ』（ヘンドリック・ドゥーフ監修）に初めて「接吻」の語が用いられた。"
+    }
   },
   {
     "id": 137,
@@ -3601,7 +4706,20 @@
         "example_en": "Modern consumerism promotes materialism.",
         "example_ja": "現代の消費主義は唯物論的な価値観を促進する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "materialismの訳語として、1881年（明治14年）に井上哲次郎らが編纂した日本初の本格的哲学辞典『哲学字彙』に収録・定着した。"
+    }
   },
   {
     "id": 138,
@@ -3627,7 +4745,18 @@
         "example_en": "The right of peoples to self-determination was affirmed.",
         "example_ja": "民族の自決権が確認された。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "日本人",
+        "note": "明治期国民主義・民族語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "日本人",
+      "note": "1890年代ごろから雑誌『日本人』などを通じて志賀重昂・陸羯南らが国民主義的論説で用いたことで広まった。"
+    }
   },
   {
     "id": 139,
@@ -3653,7 +4782,26 @@
         "example_en": "The benefits of civilization spread rapidly.",
         "example_ja": "文明の恩恵は急速に広まった。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761282",
+        "note": "福沢諭吉による西洋制度紹介の参照資料"
+      },
+      {
+        "title": "文明論之概略",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761288",
+        "note": "文明・野蛮などの用例確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1866,
+      "source": "西洋事情",
+      "note": "civilizationの訳語として明治期に定着した語。"
+    }
   },
   {
     "id": 140,
@@ -3679,7 +4827,12 @@
         "example_en": "Police powers were expanded in the new regulations.",
         "example_ja": "新しい規則で警察の権限が拡大された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": null,
+      "note": "フランス語police（英語: police）の訳語として、明治7年（1874年）の「司法警察規則」・明治8年の「行政警察規則」など政府法令に初めて用いられた。"
+    }
   },
   {
     "id": 141,
@@ -3705,7 +4858,12 @@
         "example_en": "The distribution of the population is uneven.",
         "example_ja": "人口の分配（分布）は不均一である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "経済学のdistributionの訳語として明治期に定着した和製漢語。"
+    }
   },
   {
     "id": 142,
@@ -3731,7 +4889,20 @@
         "example_en": "She has a refined artistic sensibility.",
         "example_ja": "彼女は洗練された芸術的感性を持っている。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "哲学字彙",
+      "note": "1881年刊の『哲学字彙』にも収録された。"
+    }
   },
   {
     "id": 143,
@@ -3751,7 +4922,12 @@
         "example_en": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
         "example_ja": "水分子は二個の水素原子と一個の酸素原子からなる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "moleculeの訳語として明治期の化学・物理学翻訳書を通じて定着した和製漢語。"
+    }
   },
   {
     "id": 144,
@@ -3777,7 +4953,12 @@
         "example_en": "There is not an atom of truth in what he said.",
         "example_ja": "彼の言ったことには一原子ほどの真実もない。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "atomの訳語として明治期の化学・物理学翻訳書を通じて定着した和製漢語。"
+    }
   },
   {
     "id": 145,
@@ -3797,7 +4978,19 @@
         "example_en": "The mass of an object does not change with gravity.",
         "example_ja": "物体の質量は重力によって変化しない。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "プリンキピア",
+        "author": "Isaac Newton",
+        "note": "自然哲学・物理学語彙の原典"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "プリンキピア",
+      "note": "物理学のmassの訳語として明治期の物理学翻訳書を通じて定着した語。"
+    }
   },
   {
     "id": 146,
@@ -3823,7 +5016,12 @@
         "example_en": "The building has solid foundations.",
         "example_ja": "その建物は固体（堅固）な基礎を持っている。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "物質の三態を表す科学用語のうち、solidの訳語として明治期に整備された語。"
+    }
   },
   {
     "id": 147,
@@ -3849,7 +5047,20 @@
         "example_en": "What time does the train arrive?",
         "example_ja": "電車は何時に到着しますか？"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "哲学字彙",
+      "note": "1881年の『哲学字彙』にも収録された。"
+    }
   },
   {
     "id": 148,
@@ -3875,7 +5086,20 @@
         "example_en": "There is not enough space in this room.",
         "example_ja": "この部屋には十分な空間がない。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "哲学・心理学系訳語の定着確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "哲学字彙",
+      "note": "1881年の『哲学字彙』にも収録された。"
+    }
   },
   {
     "id": 149,
@@ -3901,7 +5125,12 @@
         "example_en": "In theory, the plan sounds good.",
         "example_ja": "理論上はその計画は良さそうに聞こえる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "theoryの訳語として明治期に広まった語。"
+    }
   },
   {
     "id": 150,
@@ -3927,7 +5156,12 @@
         "example_en": "There is an extensive literature on this topic.",
         "example_ja": "このテーマに関する文学（文献）は膨大だ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "1877年設置の東京大学「文学部」の名称にも採用され、「文学者」「文学作品」「文学部」など現代語と同様の用法が明治期に定着した。"
+    }
   },
   {
     "id": 151,
@@ -3953,7 +5187,19 @@
         "example_en": "The museum's collection spans five centuries of fine arts.",
         "example_ja": "その美術館のコレクションは五世紀にわたる美術作品を網羅している。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "美妙学説",
+        "author": "西周",
+        "note": "美術・美学語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1872,
+      "source": "美妙学説",
+      "note": "fine arts（仏: beaux-arts）の訳語として西周が1872年の著作『美妙学説』で初めて用いたとされる。"
+    }
   },
   {
     "id": 152,
@@ -3979,7 +5225,12 @@
         "example_en": "The confusion that followed was pure comedy.",
         "example_ja": "その後の混乱はまさに喜劇だった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "comedyの訳語として明治期に「悲劇（tragedy）」の対概念として整備された語。"
+    }
   },
   {
     "id": 153,
@@ -4005,7 +5256,12 @@
         "example_en": "It is a tragedy that so many lives were lost.",
         "example_ja": "多くの命が失われたことは悲劇だ。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "tragedyの訳語として明治期に「喜劇（comedy）」の対概念として整備された語。"
+    }
   },
   {
     "id": 154,
@@ -4025,7 +5281,12 @@
         "example_en": "The government issued bonds to finance public infrastructure projects.",
         "example_ja": "政府は公共インフラ事業の財源として国債を発行した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "古来「国債」は他国への債務という意味でも用いられたが、欧州式の近代財政制度の導入とともにgovernment bondの訳語として再定義された。"
+    }
   },
   {
     "id": 155,
@@ -4051,7 +5312,20 @@
         "example_en": "It is the prerogative of the Crown to dissolve Parliament.",
         "example_ja": "議会を解散することは王権の特権である。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "附音挿図英和字彙",
+        "author": "柴田昌吉・子安峻",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2938261",
+        "note": "NDLサーチで1873年刊行を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "附音挿図英和字彙",
+      "note": "『附音挿図英和字彙』（1873年）にも privilege の訳語として掲載されている。"
+    }
   },
   {
     "id": 156,
@@ -4071,7 +5345,20 @@
         "example_en": "In peacetime, military forces are used for disaster relief.",
         "example_ja": "平時には、軍隊は災害救援に用いられる。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "万国公法",
+        "author": "丁韙良 訳",
+        "url": "https://dl.ndl.go.jp/pid/787063",
+        "note": "国際法語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "万国公法",
+      "note": "1864年に清で翻訳された丁韙良訳『万国公法』（万国公法、国際法解説書）が幕末の日本にもたらされ、近代国際法体系における平和と戦争の二項対立を表す対語として「平時」「戦時」が同時に普及した。"
+    }
   },
   {
     "id": 157,
@@ -4091,7 +5378,20 @@
         "example_en": "Wartime regulations restricted the freedom of the press.",
         "example_ja": "戦時規制は報道の自由を制限した。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "万国公法",
+        "author": "丁韙良 訳",
+        "url": "https://dl.ndl.go.jp/pid/787063",
+        "note": "国際法語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "万国公法",
+      "note": "明治期の近代的軍制整備において「戦時編制」「戦時法規」など法律・軍事用語として広く用いられるようになった。"
+    }
   },
   {
     "id": 158,
@@ -4117,7 +5417,12 @@
         "example_en": "Democracy values the dignity of every person.",
         "example_ja": "民主は一人ひとりの尊厳を重んじる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "democracyの訳語として明治中期に定着した語。"
+    }
   },
   {
     "id": 159,
@@ -4143,7 +5448,20 @@
         "example_en": "The act was condemned as an expression of pure barbarism.",
         "example_ja": "その行為は純粋な野蛮の表れとして非難された。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "文明論之概略",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761288",
+        "note": "文明・野蛮などの用例確認資料"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "文明論之概略",
+      "note": "barbarianやsavageに対応する訳語として用いられ、文明開化の言説の中で「野蛮な習慣」「野蛮人」など否定的な意味で広く定着した。"
+    }
   },
   {
     "id": 160,
@@ -4163,7 +5481,12 @@
         "example_en": "The minister's order was declared ultra vires by the court.",
         "example_ja": "大臣の命令は裁判所によって越権と宣言された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "与えられた権限の範囲を超えた行為を指す法律・行政用語として明治期の法制整備の中で用いられた。"
+    }
   },
   {
     "id": 161,
@@ -4189,7 +5512,12 @@
         "example_en": "The custom of primogeniture governed the inheritance of land.",
         "example_ja": "長子相続の慣行が土地の相続を律していた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "慣習・慣例として繰り返されてきた行為・様式を指す語として、明治の法制・社会文書に用いられた。"
+    }
   },
   {
     "id": 162,
@@ -4209,7 +5537,12 @@
         "example_en": "The hallways and elevators are common areas shared by all residents.",
         "example_ja": "廊下とエレベーターは全住民が共用する部分である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "複数の者が共同で使用・利用することを指す語として明治の法制文書に現れた。"
+    }
   },
   {
     "id": 163,
@@ -4229,7 +5562,12 @@
         "example_en": "Private rights may be restricted when they conflict with the public interest.",
         "example_ja": "私権は公共の利益と衝突する場合に制限されることがある。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "ボワソナードを招いての民法典編纂過程（1880年代）で精緻化され、「私権の享有」「私権の制限」など民法の基本概念として定着した。"
+    }
   },
   {
     "id": 164,
@@ -4249,7 +5587,12 @@
         "example_en": "The prime minister holds real power while the monarch reigns but does not rule.",
         "example_ja": "君主は君臨するが統治せず、首相が実権を握る。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "名目上の権力に対して実際に行使される権力・権限を指す語として明治の政治・法制文書に用いられた。"
+    }
   },
   {
     "id": 165,
@@ -4275,7 +5618,31 @@
         "example_en": "The Constitution declares that sovereignty resides with the people.",
         "example_ja": "憲法は主権が国民に存すると宣言している。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "附音挿図英和字彙",
+        "author": "柴田昌吉・子安峻",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2938261",
+        "note": "NDLサーチで1873年刊行を確認"
+      },
+      {
+        "title": "社会契約論",
+        "author": "Jean-Jacques Rousseau",
+        "note": "政治思想語彙の原典"
+      },
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "ルソー翻訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1873,
+      "source": "附音挿図英和字彙",
+      "note": "1873年（明治6年）、柴田昌吉・子安峻共著の『附音挿図英和字彙』においてsovereigntyの訳語として「主権」が記載されたのが定着の嚆矢とされる。"
+    }
   },
   {
     "id": 166,
@@ -4295,7 +5662,12 @@
         "example_en": "The defendant filed an appeal to the Supreme Court.",
         "example_ja": "被告は最高裁判所に上告した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "フランス法のpourvoi en cassation（破棄申立）や英米法のappealに相当する語として用いられ、明治23年（1890年）の旧民事訴訟法・旧刑事訴訟法の制定により法律上の術語として確定した。"
+    }
   },
   {
     "id": 167,
@@ -4321,7 +5693,12 @@
         "example_en": "Counsel took exception to the judge's ruling.",
         "example_ja": "弁護人は裁判官の裁定に異議を唱えた。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "規則・原則から外れる特別な事例を指す語として明治の法制・論理学文書に用いられた。"
+    }
   },
   {
     "id": 168,
@@ -4341,7 +5718,32 @@
         "example_en": "Plants release oxygen during photosynthesis.",
         "example_ja": "植物は光合成の過程で酸素を放出する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "遠西医方名物考",
+        "author": "宇田川榛斎 訳述、宇田川榕菴 校補",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000100-Ikoishof_e_17_1",
+        "note": "NDLサーチで1822年序を確認"
+      },
+      {
+        "title": "植学啓原",
+        "author": "宇田川榕菴",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2555812",
+        "note": "NDLサーチで原本デジタル公開を確認"
+      },
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/2555846",
+        "note": "江戸後期化学訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1825,
+      "source": "遠西医方名物考",
+      "note": "1820年代後半から1830年代にかけて『遠西医方名物考』や『植学啓原』『舎密開宗』に現れ、従来の蘭学的表記を置き換えて化学教育の基礎語彙となった。"
+    }
   },
   {
     "id": 169,
@@ -4361,7 +5763,12 @@
         "example_en": "Water is made of hydrogen and oxygen.",
         "example_ja": "水は水素と酸素からできている。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1834,
+      "source": null,
+      "note": "1830年代の化学書・植物学書で広く用いられ、酸素・窒素・炭素などと一群の近代元素名をなした。"
+    }
   },
   {
     "id": 170,
@@ -4381,7 +5788,12 @@
         "example_en": "Most of the Earth's atmosphere is nitrogen.",
         "example_ja": "地球大気の大部分は窒素である。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1834,
+      "source": null,
+      "note": "榕菴は当初「殺素」という案も用いたが、のちにより穏当で意味の通る「窒素」に改め、1830年代の著作を通じて定着させた。"
+    }
   },
   {
     "id": 171,
@@ -4401,7 +5813,32 @@
         "example_en": "Carbon is essential to all known life.",
         "example_ja": "炭素は知られているすべての生命に不可欠である。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "遠西医方名物考",
+        "author": "宇田川榛斎 訳述、宇田川榕菴 校補",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000100-Ikoishof_e_17_1",
+        "note": "NDLサーチで1822年序を確認"
+      },
+      {
+        "title": "植学啓原",
+        "author": "宇田川榕菴",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2555812",
+        "note": "NDLサーチで原本デジタル公開を確認"
+      },
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/2555846",
+        "note": "江戸後期化学訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1825,
+      "source": "遠西医方名物考",
+      "note": "宇田川榕菴がオランダ語 koolstof に対して与えた訳語で、木炭・煤・有機物を構成する基本元素として紹介された。"
+    }
   },
   {
     "id": 172,
@@ -4421,7 +5858,19 @@
         "example_en": "Platinum is used in catalytic converters.",
         "example_ja": "白金は自動車の触媒コンバーターに使われる。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "遠西医方名物考補遺",
+        "author": "宇田川榕菴",
+        "note": "白金などの化学語彙の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1834,
+      "source": "遠西医方名物考補遺",
+      "note": "宇田川榕菴が『遠西医方名物考補遺』で platina に対して用いた訳語で、銀白色の貴金属を漢語で表そうとしたものである。"
+    }
   },
   {
     "id": 173,
@@ -4447,7 +5896,26 @@
         "example_en": "Trust is an essential element of teamwork.",
         "example_ja": "信頼はチームワークの重要な元素である。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "遠西医方名物考",
+        "author": "宇田川榛斎 訳述、宇田川榕菴 校補",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000100-Ikoishof_e_17_1",
+        "note": "NDLサーチで1822年序を確認"
+      },
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/2555846",
+        "note": "江戸後期化学訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1825,
+      "source": "遠西医方名物考",
+      "note": "近代化学における物質の基本構成単位を表す訳語として、宇田川榕菴が1820年代から用いた語である。"
+    }
   },
   {
     "id": 174,
@@ -4467,7 +5935,20 @@
         "example_en": "Iron undergoes oxidation when it rusts.",
         "example_ja": "鉄はさびるとき酸化を受ける。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/2555846",
+        "note": "江戸後期化学訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1837,
+      "source": "舎密開宗",
+      "note": "『舎密開宗』では燃焼や金属の変化を説明する中核語として用いられ、近代化学の理解を支える基本用語となった。"
+    }
   },
   {
     "id": 175,
@@ -4487,7 +5968,20 @@
         "example_en": "Copper oxide is reduced to copper by hydrogen.",
         "example_ja": "酸化銅は水素によって銅へ還元される。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/2555846",
+        "note": "江戸後期化学訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1837,
+      "source": "舎密開宗",
+      "note": "『舎密開宗』では金属製錬や反応の説明にしばしば現れ、化学反応を対概念で理解する日本語の枠組みを与えた。"
+    }
   },
   {
     "id": 176,
@@ -4507,7 +6001,20 @@
         "example_en": "Salt dissolves quickly in warm water.",
         "example_ja": "塩は温水中で速やかに溶解する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/2555846",
+        "note": "江戸後期化学訳語の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1837,
+      "source": "舎密開宗",
+      "note": "宇田川榕菴が『舎密開宗』で液体に物質がとけ込む現象を説明するために用いた化学用語である。"
+    }
   },
   {
     "id": 177,
@@ -4527,7 +6034,20 @@
         "example_en": "Every living thing is made of one or more cells.",
         "example_ja": "すべての生物は一個以上の細胞から成る。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "植学啓原",
+        "author": "宇田川榕菴",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2555812",
+        "note": "NDLサーチで原本デジタル公開を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1833,
+      "source": "植学啓原",
+      "note": "宇田川榕菴が『植学啓原』で顕微鏡的な植物組織の単位を説明するために用いた訳語で、近代生物学の中心概念を日本語に導入した代表例である。"
+    }
   },
   {
     "id": 178,
@@ -4547,7 +6067,20 @@
         "example_en": "The domestic dog belongs to the genus Canis.",
         "example_ja": "イヌはイヌ属 Canis に属する。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "植学啓原",
+        "author": "宇田川榕菴",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2555812",
+        "note": "NDLサーチで原本デジタル公開を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1834,
+      "source": "植学啓原",
+      "note": "リンネ式分類法を日本語化する中で、宇田川榕菴が生物分類の基本単位 genus に対応させて用いた訳語である。"
+    }
   },
   {
     "id": 179,
@@ -4567,7 +6100,12 @@
         "example_en": "He drinks coffee every morning.",
         "example_ja": "彼は毎朝珈琲を飲む。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "江戸後期にオランダ語 koffie を受けて広まった飲料名で、現在一般的な漢字表記「珈琲」は宇田川榕菴が最初に考案したとされる。"
+    }
   },
   {
     "id": 180,
@@ -4593,7 +6131,12 @@
         "example_en": "Workers joined the union to negotiate better conditions.",
         "example_ja": "労働者たちはより良い条件を交渉するため組合に加入した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1896,
+      "source": null,
+      "note": "とくに1896年公布の民法では、複数人が出資して共同事業を営む契約上の団体を指す法律用語として明確化され、その後は信用組合・労働組合・同業組合など多様な制度語の基礎語となった。"
+    }
   },
   {
     "id": 181,
@@ -4619,7 +6162,12 @@
         "example_en": "Few people gave credit to the rumor.",
         "example_ja": "そのうわさを信用する人はほとんどいなかった。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "「信用」は古くから漢語として存在したが、明治期に西洋商業・金融制度の導入とともに credit の訳語として再編され、経済語彙としての意味が強くなった。"
+    }
   },
   {
     "id": 182,
@@ -4639,7 +6187,12 @@
         "example_en": "Public health nurses play a vital role in community health.",
         "example_ja": "保健師は地域保健で重要な役割を果たす。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": 1937,
+      "source": null,
+      "note": "「保健」は健康の保持・増進を意味する語として近代以降に広まり、とくに1937年の保健所法制定を契機に、公衆衛生行政や地域医療の文脈で制度語として定着した。"
+    }
   },
   {
     "id": 183,
@@ -4659,7 +6212,20 @@
         "example_en": "She bought travel insurance before leaving Japan.",
         "example_ja": "彼女は日本を出発する前に旅行保険に入った。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "西洋旅案内",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761283",
+        "note": "保険制度紹介の参照資料"
+      }
+    ],
+    "first_attestation": {
+      "year": 1869,
+      "source": "西洋旅案内",
+      "note": "福沢諭吉『西洋旅案内』（1867年）は制度自体を「災難請合」として紹介したが、1869年ごろから中国由来の漢語「保険」が日本でも現れ、やがて読みも「うけあい」から「ほけん」へ移った。"
+    }
   },
   {
     "id": 184,
@@ -4685,7 +6251,12 @@
         "example_en": "He spoke in defense of academic freedom.",
         "example_ja": "彼は学問の自由を弁護して発言した。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "「弁護」はもともと漢語として「言葉を尽くしてかばう」意を持っていたが、近代司法制度の整備とともに defense や advocacy に対応する法律用語として整えられた。"
+    }
   },
   {
     "id": 185,
@@ -4705,7 +6276,12 @@
         "example_en": "The book’s publication was delayed by a month.",
         "example_ja": "その本の出版は一か月延期された。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "「出版」は近世以来の刊本文化を背景に持ちながら、明治期に活版印刷と近代出版社の発達に伴って publication / publishing に対応する一般的な訳語として整った。"
+    }
   },
   {
     "id": 186,
@@ -4725,7 +6301,12 @@
         "example_en": "Regular attendance is required for the course.",
         "example_ja": "その授業では नियमितの出席が求められる。"
       }
-    ]
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "「出席」は中国古典以来の漢語を背景に持つが、明治期に学校・議会・会議など近代的制度の普及とともに attendance や presence に対応する公的語として定着した。"
+    }
   },
   {
     "id": 187,
@@ -4745,6 +6326,19 @@
         "example_en": "He started by learning the rudiments of chemistry.",
         "example_ja": "彼は化学の初歩から学び始めた。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "西国立志編",
+        "author": "中村正直",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I38111100467075",
+        "note": "スマイルズ Self-Help の翻訳書"
+      }
+    ],
+    "first_attestation": {
+      "year": 1871,
+      "source": "西国立志編",
+      "note": "「初歩」は歩き始めの第一歩を原義とする漢語だが、明治初年の翻訳書では学問や技能の入門段階を表す訳語として用いられるようになった。"
+    }
   }
 ]

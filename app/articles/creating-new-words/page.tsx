@@ -1,79 +1,19 @@
 import { FC } from "react"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { ArticlePage } from "components/elements/article-page"
+import { createArticleMetadata } from "lib/article-page"
 
-export const metadata = {
+const article = {
+  id: "creating-new-words",
   title: "未知の概念を言葉として創るということ",
   description:
     "対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。翻訳家たちが直面した、言語創造の根本的な問い。",
-  alternates: {
-    canonical: "https://shaqai.reload.co.jp/articles/creating-new-words/",
-  },
-  openGraph: {
-    type: "article",
-    title: "未知の概念を言葉として創るということ — 翻訳語辞典 Shaqai",
-    description:
-      "対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。翻訳家たちが直面した、言語創造の根本的な問い。",
-    url: "https://shaqai.reload.co.jp/articles/creating-new-words/",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
-  },
 }
+
+export const metadata = createArticleMetadata(article)
 
 const Page: FC = () => {
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "読み物", url: "/articles/" },
-          {
-            name: "未知の概念を言葉として創るということ",
-            url: "/articles/creating-new-words/page.tsx",
-          },
-        ]}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        <div
-          style={{
-            marginBottom: "2.5rem",
-            paddingBottom: "2rem",
-            borderBottom: "1px solid #2a2518",
-          }}
-        >
-          <p
-            style={{
-              fontSize: ".75rem",
-              color: "#5e5848",
-              marginBottom: ".75rem",
-              letterSpacing: ".05em",
-            }}
-          >
-            読み物
-          </p>
-          <h1
-            style={{
-              fontSize: "clamp(1.5rem, 4vw, 2rem)",
-              color: "#e2dcd0",
-              lineHeight: 1.4,
-              marginBottom: "1rem",
-              letterSpacing: ".02em",
-            }}
-          >
-            未知の概念を言葉として創るということ
-          </h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              color: "#908a7a",
-              lineHeight: 1.8,
-              borderLeft: "3px solid #c8a96e",
-              paddingLeft: "1rem",
-            }}
-          >
-            対応する概念のない言語に、まったく新しい言葉を生み出すとはどういうことか。
-            翻訳家たちが直面した、言語創造の根本的な問い。
-          </p>
-        </div>
-
+    <ArticlePage {...article}>
         <div
           style={{
             display: "flex",
@@ -284,8 +224,7 @@ const Page: FC = () => {
             </a>
           </div>
         </div>
-      </div>
-    </>
+    </ArticlePage>
   )
 }
 

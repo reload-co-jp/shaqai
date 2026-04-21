@@ -1,102 +1,19 @@
 import { FC } from "react"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { ArticlePage } from "components/elements/article-page"
+import { createArticleMetadata } from "lib/article-page"
 
-export const metadata = {
+const article = {
+  id: "meiji-translation",
   title: "明治期の翻訳方法の模索と挑戦",
   description:
     "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
-  alternates: {
-    canonical: "https://shaqai.reload.co.jp/articles/meiji-translation/",
-  },
-  openGraph: {
-    type: "article",
-    title: "明治期の翻訳方法の模索と挑戦 — 翻訳語辞典 Shaqai",
-    description:
-      "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
-    url: "https://shaqai.reload.co.jp/articles/meiji-translation/",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
-  },
 }
 
+export const metadata = createArticleMetadata(article)
+
 const Page: FC = () => {
-  const articleJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "明治期の翻訳方法の模索と挑戦",
-    description:
-      "西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、未知の概念を日本語に変換しようとしたのか。",
-    publisher: {
-      "@type": "Organization",
-      name: "翻訳語辞典 Shaqai",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://shaqai.reload.co.jp/icon.svg",
-      },
-    },
-    url: "https://shaqai.reload.co.jp/articles/meiji-translation/",
-  }
-
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "読み物", url: "/articles/" },
-          {
-            name: "明治期の翻訳方法の模索と挑戦",
-            url: "/articles/meiji-translation/",
-          },
-        ]}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        {/* Header */}
-        <div
-          style={{
-            marginBottom: "2.5rem",
-            paddingBottom: "2rem",
-            borderBottom: "1px solid #2a2518",
-          }}
-        >
-          <p
-            style={{
-              fontSize: ".75rem",
-              color: "#5e5848",
-              marginBottom: ".75rem",
-              letterSpacing: ".05em",
-            }}
-          >
-            読み物
-          </p>
-          <h1
-            style={{
-              fontSize: "clamp(1.5rem, 4vw, 2rem)",
-              color: "#e2dcd0",
-              lineHeight: 1.4,
-              marginBottom: "1rem",
-              letterSpacing: ".02em",
-            }}
-          >
-            明治期の翻訳方法の模索と挑戦
-          </h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              color: "#908a7a",
-              lineHeight: 1.8,
-              borderLeft: "3px solid #c8a96e",
-              paddingLeft: "1rem",
-            }}
-          >
-            西洋の学問や思想が怒涛のように押し寄せた明治初期。翻訳家たちはどのような方法で、
-            未知の概念を日本語に変換しようとしたのか。
-          </p>
-        </div>
-
-        {/* Body */}
+    <ArticlePage {...article}>
         <div
           style={{
             display: "flex",
@@ -323,8 +240,7 @@ const Page: FC = () => {
             </a>
           </div>
         </div>
-      </div>
-    </>
+    </ArticlePage>
   )
 }
 
