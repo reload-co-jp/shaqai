@@ -327,5 +327,195 @@
         "note": "日本語のアイドルの辞書的意味確認"
       }
     ]
+  },
+  {
+    "id": 14,
+    "katakana_word": "ジュース",
+    "original_word": "juice",
+    "language": "英語",
+    "category": "飲食",
+    "original_meaning": "果物や野菜から出る汁、またはそれを用いた飲み物。肉汁、電力などの俗用もある。",
+    "japanese_meaning": "果物や野菜の絞り汁、または果汁飲料。日常的には甘い清涼飲料水全般を指すこともある。",
+    "meaning_shift": "原語は果物・野菜などの汁を中心に指すが、日本語の日常語では果汁の有無にかかわらず甘い飲料全般へ広がる一方、表示上は果汁100%に限定される。",
+    "description": "日本語の「ジュース」は、英語 juice の借用語として果物や野菜の汁を表すが、会話では炭酸飲料や果汁の少ない甘い飲み物まで含めて使われることがある。一方で食品表示の文脈では、果実ジュースは果汁100%の飲料を指すため、日常語としての広い用法と制度上の狭い用法が併存している。英語では soda や soft drink まで一般に juice と呼ぶわけではない。",
+    "examples": [
+      {
+        "ja": "子どものころ、炭酸飲料もまとめてジュースと呼んでいた。",
+        "en": "As a child, I called even soda \"juice\" in Japanese."
+      },
+      {
+        "ja": "この商品は果汁100%なので、表示上はジュースと呼べる。",
+        "en": "This product is 100% fruit juice, so it can be labeled as juice."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/juice",
+        "note": "juice の一般英語での語義確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%98%E3%82%86%E3%83%BC%E3%81%99-1549615",
+        "note": "日本語のジュースの辞書的意味と食品表示上の説明確認"
+      },
+      {
+        "title": "一般社団法人 日本農林規格協会",
+        "url": "https://www.jasnet.or.jp/quizfruit.html",
+        "note": "果実ジュースと果汁100%表示に関するJAS規格上の説明確認"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "katakana_word": "ユニーク",
+    "original_word": "unique",
+    "language": "英語",
+    "category": "人物・評価",
+    "original_meaning": "唯一の、他に同じものがない、非常に珍しく特別な。",
+    "japanese_meaning": "他に類を見ない、独特で個性的な。日常語では面白い・風変わりで魅力があるという意味でも使われる。",
+    "meaning_shift": "原語は唯一性を強く含むが、日本語では個性的・面白いという評価語として、唯一であるかどうかより印象の珍しさを表しやすい。",
+    "description": "日本語の「ユニーク」は、英語 unique の「唯一の」「他に類を見ない」という意味を受け継ぎつつ、人物や発想をほめる柔らかい評価語として定着している。「ユニークな人」は、英語の strictly unique のような唯一性よりも、独特で面白い、型にはまらないというニュアンスで使われることが多い。一方、IT分野の「ユニークID」のように、重複がないという原語に近い用法も残っている。",
+    "examples": [
+      {
+        "ja": "彼女のユニークな発想が企画を面白くした。",
+        "en": "Her original and unconventional idea made the project interesting."
+      },
+      {
+        "ja": "登録者ごとにユニークなIDを発行する。",
+        "en": "A unique ID is issued for each registered user."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/unique",
+        "note": "unique の一般英語での語義確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%82%86%E3%81%AB%E3%83%BC%E3%81%8F-3220042",
+        "note": "日本語のユニークの辞書的意味確認"
+      },
+      {
+        "title": "Collins English Dictionary",
+        "url": "https://www.collinsdictionary.com/jp/dictionary/english/unique",
+        "note": "unique の唯一性・非公式な強調用法・語源の確認"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "katakana_word": "ファイト",
+    "original_word": "fight",
+    "language": "英語",
+    "category": "応援・感情",
+    "original_meaning": "戦う、けんかする、争う。困難な相手や状況に対して努力して立ち向かう。",
+    "japanese_meaning": "勝負、試合、闘志。スポーツや日常の励ましで「がんばれ」という掛け声としても使う。",
+    "meaning_shift": "原語は戦闘・口論・対抗が中心だが、日本語では相手を励ます明るい応援の掛け声として定着した。",
+    "description": "日本語の「ファイト」は、ボクシングなどの試合や闘志を表す語として入ったが、現在は「ファイト！」のように「がんばれ」「負けるな」と相手を励ます掛け声として広く使われる。英語 fight は物理的に戦う、口論する、困難に立ち向かうという意味が中心で、単独の \"Fight!\" は日本語のような自然な応援表現にはなりにくい。英語で励ますなら Good luck! や You can do it!、Hang in there! などが近い。",
+    "examples": [
+      {
+        "ja": "試験前の友人に「ファイト！」と声をかけた。",
+        "en": "I encouraged my friend before the exam by saying, \"You can do it!\""
+      },
+      {
+        "ja": "後半に入って、選手たちのファイトが戻ってきた。",
+        "en": "In the second half, the players regained their fighting spirit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/fight",
+        "note": "fight の一般英語での語義確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%B5%E3%81%82%E3%81%84%E3%81%A8-3185611",
+        "note": "日本語のファイトの辞書的意味と応援の掛け声としての用法確認"
+      },
+      {
+        "title": "Cambridge Japanese-English Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/japanese-english/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88",
+        "note": "日本語のファイトに対応する英語表現の確認"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "katakana_word": "コンプレックス",
+    "original_word": "complex / Komplex",
+    "language": "英語・ドイツ語",
+    "category": "心理・感情",
+    "original_meaning": "複雑な、複合的な。複合体、建物群。心理学では感情を帯びた観念のまとまり。",
+    "japanese_meaning": "心理的なしこり。特に、自分が劣っていると感じる劣等感や引け目。",
+    "meaning_shift": "原語は複雑さ・複合体・心理的観念群を広く指すが、日本語では日常的に「劣等感」の意味へ狭まって使われやすい。",
+    "description": "日本語の「コンプレックス」は、精神分析の用語としては無意識に影響する観念の複合体を指すが、日常語では「身長にコンプレックスがある」のように、劣等感や引け目の意味で使われることが多い。英語 complex は形容詞として「複雑な」、名詞として「複合施設」「心理的な感情のまとまり」など広い意味をもつため、日本語では心理的な弱み、とくに inferiority complex に近い意味へ強く限定されている。",
+    "examples": [
+      {
+        "ja": "彼は声が低いことにコンプレックスを持っている。",
+        "en": "He feels self-conscious about having a low voice."
+      },
+      {
+        "ja": "この地域には大型の商業コンプレックスがある。",
+        "en": "There is a large commercial complex in this area."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/complex",
+        "note": "complex の形容詞・名詞・心理的意味の確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%93%E3%82%93%E3%81%B7%E3%82%8C%E3%81%A4%E3%81%8F%E3%81%99-3152354",
+        "note": "日本語のコンプレックスの辞書的意味と、特に劣等感を指す用法の確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/inferiority%20complex",
+        "note": "inferiority complex の英語での意味確認"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "katakana_word": "ラフ",
+    "original_word": "rough",
+    "language": "英語",
+    "category": "人物・評価",
+    "original_meaning": "表面が粗い、でこぼこした。大まかな、未完成の。荒っぽい、乱暴な。困難な。",
+    "japanese_meaning": "大まかな、形式ばらない、気取らない。服装や態度について、気軽でくだけたさまを表すことが多い。",
+    "meaning_shift": "原語には粗さ・乱暴さ・困難さなど否定的な意味も強いが、日本語では「ラフな服装」のように気軽さやカジュアルさを表す肯定的な語としても定着した。",
+    "description": "日本語の「ラフ」は、英語 rough の「粗い」「大まかな」「未完成の」という意味を受け継ぎ、デザインの下書きや概算を指す「ラフ案」「ラフスケッチ」に使われる。一方で「ラフな服装」「ラフに話す」のように、形式ばらず気取らないという軽い褒め言葉にもなった。英語 rough は乱暴・荒天・つらい状況なども表すため、日本語のカジュアルで親しみやすい響きとはずれがある。",
+    "examples": [
+      {
+        "ja": "今日はラフな服装で来てください。",
+        "en": "Please come dressed casually today."
+      },
+      {
+        "ja": "まずはラフな案を出してから細部を詰めよう。",
+        "en": "Let's start with a rough idea and then work out the details."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/rough",
+        "note": "rough の一般英語での語義確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%82%89%E3%81%B5-3188508",
+        "note": "日本語のラフの辞書的意味と、気取らない・大まかな用法の確認"
+      },
+      {
+        "title": "Collins English Dictionary",
+        "url": "https://www.collinsdictionary.com/jp/dictionary/english/rough",
+        "note": "rough の粗い・乱暴・概略・未完成などの語義確認"
+      }
+    ]
   }
 ]
