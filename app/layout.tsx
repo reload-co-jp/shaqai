@@ -56,6 +56,10 @@ export const metadata = {
   alternates: {
     canonical: "https://shaqai.reload.co.jp",
   },
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-touch-icon.png",
+  },
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
