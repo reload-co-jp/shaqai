@@ -228,5 +228,104 @@
         "note": "sign / autograph の英語語義確認"
       }
     ]
+  },
+  {
+    "id": 11,
+    "katakana_word": "コミット",
+    "original_word": "commit",
+    "language": "英語",
+    "category": "ビジネス・IT",
+    "original_meaning": "約束する、専念する、資金や時間を投入する。罪や過ちを犯す。変更を記録する。",
+    "japanese_meaning": "目標達成を約束して責任を持って関与すること。Gitなどで変更履歴を記録すること。",
+    "meaning_shift": "原語は犯罪・約束・投入・記録など幅広い動詞だが、日本語ではビジネス上の強い関与やITでの変更記録という限定的な名詞・動詞として使われやすい。",
+    "description": "日本語の「コミット」は、ビジネスでは「結果にコミットする」のように、目標や成果に責任を持って関与する意味で広まった。またIT分野では Git などのバージョン管理で変更内容を履歴として記録する操作を指す。英語 commit は「罪を犯す」「約束する」「資源を投入する」など意味範囲が広く、日本語では肯定的な関与や技術操作に意味が絞られている。",
+    "examples": [
+      {
+        "ja": "チーム全員が売上目標にコミットする。",
+        "en": "Everyone on the team commits to the sales target."
+      },
+      {
+        "ja": "修正内容をGitにコミットした。",
+        "en": "I committed the changes to Git."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/commit",
+        "note": "commit の一般英語・ビジネス英語での語義確認"
+      },
+      {
+        "title": "GitHub Docs",
+        "url": "https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits",
+        "note": "Git における commit の意味確認"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "katakana_word": "ナレッジ",
+    "original_word": "knowledge",
+    "language": "英語",
+    "category": "ビジネス・IT",
+    "original_meaning": "経験や学習によって得られる知識、理解、情報。ある事柄を知っている状態。",
+    "japanese_meaning": "組織にとって有益な知識・経験・事例・ノウハウなど、共有や活用の対象となる情報資産。",
+    "meaning_shift": "原語は個人や社会一般の知識を広く指すが、日本語ではビジネス上の共有可能な知的資産という意味に寄って使われやすい。",
+    "description": "日本語の「ナレッジ」は、単なる「知識」よりも、企業やチームに蓄積され、共有・再利用される有益な知識や事例を指す語として使われることが多い。「ナレッジ共有」「ナレッジベース」「ナレッジマネジメント」のように、業務改善や属人化解消の文脈で用いられる。英語 knowledge は個人の知識・理解・情報全般を広く指すため、日本語では組織的に管理される情報資産へ意味が狭まっている。",
+    "examples": [
+      {
+        "ja": "問い合わせ対応のナレッジを社内で共有する。",
+        "en": "We share customer support knowledge within the company."
+      },
+      {
+        "ja": "過去の事例をナレッジベースに蓄積する。",
+        "en": "We store past cases in the knowledge base."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/knowledge",
+        "note": "knowledge の一般英語・ビジネス英語での語義確認"
+      },
+      {
+        "title": "HR大学",
+        "url": "https://www.hrbrain.jp/media/human-resources-management/knowledge",
+        "note": "日本語ビジネス文脈でのナレッジの意味確認"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "katakana_word": "アイドル",
+    "original_word": "idol",
+    "language": "英語",
+    "category": "芸能・文化",
+    "original_meaning": "崇拝・敬愛される人。宗教的に礼拝される像や偶像。",
+    "japanese_meaning": "若い歌手・タレントなど、親しみや成長過程を含めてファンに支持される芸能者。",
+    "meaning_shift": "原語は崇拝対象や偶像を広く指すが、日本語では芸能産業における若年・親近感・ファン参加型のスター像に意味が専門化した。",
+    "description": "日本語の「アイドル」は、単に大きな尊敬を集める人物ではなく、歌・ダンス・演技・握手会や配信などを通じてファンとの関係性を築く芸能者を指す語として定着した。英語 idol には「偶像」「崇拝される人」という広い意味があるが、日本語では1970年代以降のテレビ・音楽産業の中で、親しみやすさ、成長を見守る楽しさ、ファンコミュニティを含む独自の芸能ジャンルを表す語になった。",
+    "examples": [
+      {
+        "ja": "彼女は十代でアイドルとしてデビューした。",
+        "en": "She debuted as a Japanese pop idol in her teens."
+      },
+      {
+        "ja": "アイドルグループの握手会に参加する。",
+        "en": "I attend a meet-and-greet event for an idol group."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/idol",
+        "note": "idol の一般英語での語義確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%82%E3%81%84%E3%81%A9%E3%82%8B-691086",
+        "note": "日本語のアイドルの辞書的意味確認"
+      }
+    ]
   }
 ]
