@@ -1184,9 +1184,21 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "modernの訳語として明治期の翻訳者・思想家たちが定着させた。"
-    }
+      "source": "コトバンク「近代」",
+      "note": "古くは「近ごろ」の意を持つ漢語だが、明治期以後、modern / modernity に対応する歴史区分・社会概念として定着した。"
+    },
+    "sources": [
+      {
+        "title": "コトバンク「近代」",
+        "url": "https://kotobank.jp/word/%E8%BF%91%E4%BB%A3-54336",
+        "note": "「近代」の辞書的意味と時代区分としての用法を確認"
+      },
+      {
+        "title": "コトバンク「近代社会」",
+        "url": "https://kotobank.jp/word/%E8%BF%91%E4%BB%A3%E7%A4%BE%E4%BC%9A-161802",
+        "note": "modern society / early modern との関係を確認"
+      }
+    ]
   },
   {
     "id": 36,
@@ -6134,9 +6146,21 @@
     ],
     "first_attestation": {
       "year": 1896,
-      "source": null,
+      "source": "民法",
       "note": "とくに1896年公布の民法では、複数人が出資して共同事業を営む契約上の団体を指す法律用語として明確化され、その後は信用組合・労働組合・同業組合など多様な制度語の基礎語となった。"
-    }
+    },
+    "sources": [
+      {
+        "title": "民法",
+        "url": "https://elaws.e-gov.go.jp/document?lawid=129AC0000000089",
+        "note": "民法上の組合契約の制度語として確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/association",
+        "note": "association の語義確認"
+      }
+    ]
   },
   {
     "id": 181,
@@ -6339,6 +6363,1380 @@
       "year": 1871,
       "source": "西国立志編",
       "note": "「初歩」は歩き始めの第一歩を原義とする漢語だが、明治初年の翻訳書では学問や技能の入門段階を表す訳語として用いられるようになった。"
+    }
+  },
+  {
+    "id": 188,
+    "japanese_word": "現代",
+    "original_word": "contemporary / modern / present age",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1898,
+    "description": "「現代」は、いまの時代・現在の世を表す漢語として明治期に一般化し、modern や contemporary に対応する時代認識の語として定着した。歴史区分としては、日本史では第二次世界大戦後、世界史では第一次世界大戦後を指すことが多いが、広く「現在に近い時代」「同時代」を表す語としても使われる。「近代」が西洋化・産業化・合理化を含む歴史概念を担うのに対し、「現代」は話し手の生きる現在性をより強く示す。",
+    "etymology": "「現」はあらわれて今ここにあること、「代」は時代・世代を意味する。字義どおり、目の前にあらわれている現在の時代を表す。",
+    "meanings": [
+      {
+        "en": "The present age; the period of time in which people are now living.",
+        "ja": "現在の時代、今の世。当世。",
+        "example_en": "Modern society faces problems that earlier generations could not imagine.",
+        "example_ja": "現代社会は、かつての世代が想像しなかった問題に直面している。"
+      },
+      {
+        "en": "A historical period; in Japanese history, often the postwar period, and in world history, often the period after World War I.",
+        "ja": "歴史上の時代区分。日本史ではふつう第二次世界大戦後、世界史では第一次世界大戦後を指す。",
+        "example_en": "Contemporary history is often studied together with modern history.",
+        "example_ja": "現代史は近代史と連続して学ばれることが多い。"
+      },
+      {
+        "en": "Contemporary; existing or happening at the same time as the speaker or the subject.",
+        "ja": "同時代の、現在と同じ時代に存在すること。",
+        "example_en": "Contemporary art reflects the anxieties and hopes of the present age.",
+        "example_ja": "現代美術は、今の時代の不安や希望を映している。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「現代」",
+        "url": "https://kotobank.jp/word/%E7%8F%BE%E4%BB%A3-60822",
+        "note": "「現代」の辞書的意味と初出実例を確認"
+      },
+      {
+        "title": "Cambridge English-Japanese Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english-japanese/contemporary",
+        "note": "contemporary が「現代の」「同時代の」に対応することを確認"
+      },
+      {
+        "title": "Collins Japanese-English Dictionary",
+        "url": "https://www.collinsdictionary.com/dictionary/japanese-english/%E7%8F%BE%E4%BB%A3%E3%81%AE",
+        "note": "「現代の」に対応する contemporary / modern / present-day の語義を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1898,
+      "source": "風俗画報 一六五号",
+      "note": "精選版日本国語大辞典は「現在の世。今の世。当世」の初出実例として、1898年『風俗画報』一六五号の用例を掲げる。"
+    }
+  },
+  {
+    "id": 189,
+    "japanese_word": "命令",
+    "original_word": "command / order",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「命令」は古くから「言いつけること」を表す漢語だが、近代国家・軍制・法制度の整備に伴い、command や order に対応する公的な指示・権力行使の語として位置づけられた。軍隊では上官から下級者への指揮、行政では法令にもとづく官庁の処分、文法では imperative に対応する「命令形」「命令文」など、近代制度の中で意味領域を広げた語である。",
+    "etymology": "「命」は言いつけ・天命・名づけること、「令」は命じることや法令を意味する。二字が重なり、権限をもつ者が相手に行為を求めることを表す。",
+    "meanings": [
+      {
+        "en": "A command or order given by a person in authority.",
+        "ja": "権限をもつ者が相手に一定の行為をするよう言いつけること。",
+        "example_en": "The officer gave a command to advance.",
+        "example_ja": "将校は前進せよという命令を出した。"
+      },
+      {
+        "en": "An official direction, decree, or instruction issued by a court or public authority.",
+        "ja": "裁判所や行政機関などが発する公的な指示・処分。",
+        "example_en": "The court issued an order to stop the construction.",
+        "example_ja": "裁判所は工事を停止する命令を出した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/command",
+        "note": "command / order の英語語義確認"
+      },
+      {
+        "title": "コトバンク「命令」",
+        "url": "https://kotobank.jp/jeword/%E5%91%BD%E4%BB%A4",
+        "note": "命令に対応する英語表現と法律・文法用法を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "古くからある漢語だが、明治期に軍制・行政・法制度・学校文法の語彙として command / order / imperative に対応する制度語として再編された。"
+    }
+  },
+  {
+    "id": 190,
+    "japanese_word": "制度",
+    "original_word": "institution / system",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「制度」は、社会生活を秩序づける法・慣習・規範の体系を表す語として、明治期の政治・法・社会思想の翻訳で重要性を増した。institution は単なる施設ではなく、家族・教育・議会・市場などを成り立たせる持続的な仕組みを意味するため、「制度」は近代社会を構成するルールの束を説明する中心語となった。",
+    "etymology": "「制」は定めること、規制すること、「度」はものさし・基準・法度を意味する。社会の行為を一定の基準で整える仕組みを表す。",
+    "meanings": [
+      {
+        "en": "An institution; an established social rule, practice, or organization.",
+        "ja": "社会的に確立された規則・慣行・組織の体系。",
+        "example_en": "Marriage is an important social institution.",
+        "example_ja": "婚姻は重要な社会制度である。"
+      },
+      {
+        "en": "A system of rules or arrangements for operating an organization or society.",
+        "ja": "組織や社会を運営するための規則や仕組み。",
+        "example_en": "The country reformed its education system.",
+        "example_ja": "その国は教育制度を改革した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「制度」",
+        "url": "https://kotobank.jp/word/%E5%88%B6%E5%BA%A6-161813",
+        "note": "institution としての制度概念を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/institution",
+        "note": "institution の英語語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "在来漢語を背景に、明治期の近代法・政治・社会思想の翻訳を通じて institution / system に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 191,
+    "japanese_word": "空気",
+    "original_word": "air / atmosphere",
+    "language": "英語・フランス語・ドイツ語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治期",
+    "year": null,
+    "description": "「空気」は、近代自然科学の受容とともに air の訳語として、地球を包む気体混合物を指す科学語として定着した。従来の「気」は広く目に見えない作用や気配を含む語だったが、「空気」は窒素・酸素などから成る物質としての大気を表す点で近代科学的である。さらに近代以後は atmosphere に近い比喩として「場の空気」も表すようになった。",
+    "etymology": "「空」はから・空間、「気」は目に見えない気体や作用を意味する。空間を満たす気体という字義から、air の訳語として用いられた。",
+    "meanings": [
+      {
+        "en": "Air; the invisible mixture of gases surrounding the earth.",
+        "ja": "地球を包む大気の下層を構成する無色透明の混合気体。",
+        "example_en": "Air contains oxygen and nitrogen.",
+        "example_ja": "空気には酸素と窒素が含まれる。"
+      },
+      {
+        "en": "Atmosphere; the mood or feeling of a place or situation.",
+        "ja": "その場を包む雰囲気や気配。",
+        "example_en": "The atmosphere in the room became tense.",
+        "example_ja": "部屋の空気が張りつめた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「空気」",
+        "url": "https://kotobank.jp/word/%E7%A9%BA%E6%B0%97-54843",
+        "note": "air としての科学的意味および雰囲気の意味を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/air",
+        "note": "air の英語語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "江戸後期から明治期の自然科学受容の中で、air を物質として説明する語として定着した。"
+    }
+  },
+  {
+    "id": 192,
+    "japanese_word": "世界",
+    "original_word": "world",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「世界」はもともと仏教語として広まった漢語だが、近代地理学・国際関係・社会思想の受容により world の訳語として再解釈された。地球上のすべての地域・国家、人類全体、特定の活動領域などを表す語となり、「世界史」「世界地図」「世界市場」のように、国家を越えた空間を考える近代的な語彙の基礎になった。",
+    "etymology": "仏教語では梵語 lokadhātu などの訳語として、時間を表す「世」と空間・境域を表す「界」を合わせた語とされる。近代には world の訳語として地理的・社会的意味が強まった。",
+    "meanings": [
+      {
+        "en": "The world; the earth and all the people, places, and things on it.",
+        "ja": "地球上のすべての地域・国家・人々。",
+        "example_en": "The news spread around the world.",
+        "example_ja": "そのニュースは世界中に広まった。"
+      },
+      {
+        "en": "A sphere or domain of activity, knowledge, or life.",
+        "ja": "活動・知識・生活などの特定の領域。",
+        "example_en": "She entered the world of medicine.",
+        "example_ja": "彼女は医学の世界に入った。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「世界」",
+        "url": "https://kotobank.jp/word/%E4%B8%96%E7%95%8C-546855",
+        "note": "世界の辞書的意味と仏教語としての由来を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/world",
+        "note": "world の英語語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "古くは仏教語として用いられ、明治期以後、近代地理学・国際社会・世界史の語彙として world に対応する意味が強まった。"
+    }
+  },
+  {
+    "id": 193,
+    "japanese_word": "本質",
+    "original_word": "essence / Wesen",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「本質」は、哲学語として essence やドイツ語 Wesen に対応し、あるものをそのものとして成り立たせる根本的性質を表す訳語として定着した。近代哲学の翻訳では、偶然的・付帯的な性質に対して、事物の存在を規定する中心概念を示すために用いられた。現在では哲学に限らず、問題や組織や出来事の核心を指す一般語にもなっている。",
+    "etymology": "「本」は根本・もと、「質」は性質・中身を意味する。ものごとの根本にある性質、という字義から essence の訳語に適した。",
+    "meanings": [
+      {
+        "en": "Essence; the intrinsic nature that makes a thing what it is.",
+        "ja": "あるものをそのものとして成り立たせる根本的性質。",
+        "example_en": "The essence of democracy is participation by the people.",
+        "example_ja": "民主主義の本質は人々の参加にある。"
+      },
+      {
+        "en": "The core or most important point of a matter.",
+        "ja": "ものごとの核心・最も重要な点。",
+        "example_en": "His question touched the essence of the problem.",
+        "example_ja": "彼の質問は問題の本質を突いていた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「本質」",
+        "url": "https://kotobank.jp/word/%E6%9C%AC%E8%B3%AA-632173",
+        "note": "essence / Wesen としての哲学的意味を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/essence",
+        "note": "essence の英語語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の哲学語彙整備の中で、essence / Wesen に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 194,
+    "japanese_word": "条件",
+    "original_word": "condition",
+    "language": "英語・フランス語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「条件」は、condition の訳語として、ある事柄が成立するために必要な事情・約束・制約を表す語として定着した。近代法では契約や条項、論理学では命題が成り立つための前提、科学では実験や現象を規定する環境を表す。近代の学術・法律・社会制度の翻訳で、事柄を成立条件として分析する発想を支えた語である。",
+    "etymology": "「条」は一つ一つの項目・筋、「件」はくだん・事柄を意味する。個々の項目として示される事柄から、成立を左右する制約・前提を表すようになった。",
+    "meanings": [
+      {
+        "en": "A condition; something that must exist or happen before something else can happen.",
+        "ja": "ある事柄が成立するために必要な前提・制約。",
+        "example_en": "Effective management is a necessary condition for success.",
+        "example_ja": "有効な運営は成功の必要条件である。"
+      },
+      {
+        "en": "A term or clause in an agreement.",
+        "ja": "契約や取り決めに付される条項・約束。",
+        "example_en": "They accepted the offer on one condition.",
+        "example_ja": "彼らは一つの条件つきで申し出を受け入れた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「condition」",
+        "url": "https://kotobank.jp/ejword/condition",
+        "note": "condition の英和語義と条件・状態の意味を確認"
+      },
+      {
+        "title": "コトバンク「必要条件」",
+        "url": "https://kotobank.jp/word/%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6-611058",
+        "note": "論理学における条件概念を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、法学・論理学・自然科学・社会科学の翻訳で condition に対応する語として広く定着した。"
+    }
+  },
+  {
+    "id": 195,
+    "japanese_word": "適応",
+    "original_word": "adaptation",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「適応」は、adaptation の訳語として、生物が環境に合うように形態・生理・行動を変化させることを表す科学語として広まった。ダーウィン以後の進化論受容では、自然淘汰や環境との関係を説明する基本語となった。現在では生物学に限らず、新しい環境・制度・状況に合わせて行動や仕組みを変えることも広く「適応」と呼ぶ。",
+    "etymology": "「適」はかなう・ふさわしいこと、「応」はこたえることを意味する。環境や条件にふさわしく応じるという字義から adaptation の訳語になった。",
+    "meanings": [
+      {
+        "en": "Adaptation; the process by which a living thing changes to suit its environment.",
+        "ja": "生物が環境に合うように形態・機能・行動を変化させること。",
+        "example_en": "Evolution occurs as a result of adaptation to new environments.",
+        "example_ja": "進化は新しい環境への適応の結果として起こる。"
+      },
+      {
+        "en": "Adjustment to new conditions or situations.",
+        "ja": "新しい条件や状況に合わせて変化すること。",
+        "example_en": "The team’s adaptation to the new system was quick.",
+        "example_ja": "チームの新制度への適応は早かった。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「適応」",
+        "url": "https://kotobank.jp/word/%E9%81%A9%E5%BF%9C-100764",
+        "note": "生物学における adaptation としての意味を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/adaptation",
+        "note": "adaptation の英語語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の進化論・生物学の受容とともに、adaptation に対応する科学語として定着した。"
+    }
+  },
+  {
+    "id": 196,
+    "japanese_word": "実験",
+    "original_word": "experiment",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「実験」は、experiment の訳語として、仮説を確かめるために人為的に条件を設定し、対象に操作を加えて結果を観察する科学的方法を表す語として定着した。単なる試しや経験ではなく、条件を制御し、再現可能な観察によって知識を得る点に近代科学の特徴がある。「実験科学」「実験室」などの語とともに、近代的な研究方法の中心語となった。",
+    "etymology": "「実」は実際・事実、「験」はためして確かめることを意味する。実際に試して検証するという字義から experiment の訳語に用いられた。",
+    "meanings": [
+      {
+        "en": "An experiment; a scientific test done to learn something or verify a hypothesis.",
+        "ja": "仮説や性質を確かめるため、条件を設定して行う科学的な試み。",
+        "example_en": "Scientists conducted an experiment to test the new drug.",
+        "example_ja": "科学者たちは新薬を調べるため実験を行った。"
+      },
+      {
+        "en": "A trial or test done to see how something works.",
+        "ja": "ものごとの効果や成否を確かめるための試み。",
+        "example_en": "The school is experimenting with new teaching methods.",
+        "example_ja": "学校は新しい教授法の実験をしている。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「実験」",
+        "url": "https://kotobank.jp/word/%E5%AE%9F%E9%A8%93-74017",
+        "note": "科学的方法としての実験概念を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/experiment",
+        "note": "experiment の英語語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の自然科学教育・研究制度の整備とともに、experiment に対応する科学語として定着した。"
+    }
+  },
+  {
+    "id": 197,
+    "japanese_word": "観念論",
+    "original_word": "idealism",
+    "language": "英語・ドイツ語・フランス語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1905,
+    "description": "「観念論」は、idealism の訳語として明治期の哲学語彙の中で整えられた。初期には idealism を「唯心論」と訳すことも多く、『哲学字彙』では idea に「観念」が当てられたが、明治後半から「観念論」が一般化した。物質や自然よりも精神・意識・観念を根源的なものとみなす哲学上の立場を表す語で、のちに現実離れした考えという俗用も生じた。",
+    "etymology": "「観念」は心に思い描く内容・意識内容を表し、「論」は学説・立場を意味する。観念を根本原理とする学説という字義で idealism に対応した。",
+    "meanings": [
+      {
+        "en": "Idealism; a philosophical position that regards mind, ideas, or consciousness as fundamental.",
+        "ja": "精神・意識・観念を根源的なものとみなす哲学上の立場。",
+        "example_en": "German idealism had a strong influence on modern philosophy.",
+        "example_ja": "ドイツ観念論は近代哲学に大きな影響を与えた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「観念論」",
+        "url": "https://kotobank.jp/word/%E8%A6%B3%E5%BF%B5%E8%AB%96-49438",
+        "note": "idealism としての意味および『普通術語辞彙』の用例を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1905,
+      "source": "普通術語辞彙",
+      "note": "精選版日本国語大辞典は哲学上の語義に『普通術語辞彙』（1905年）の用例を掲げる。"
+    }
+  },
+  {
+    "id": 198,
+    "japanese_word": "演説",
+    "original_word": "speech / public address",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": 1,
+    "era": "明治初期",
+    "year": 1874,
+    "description": "「演説」は、英語 speech や public address に対応する訳語として、福沢諭吉らが近代的な公開討論・言論活動を紹介する中で普及させた。福沢は三田演説館を設け、話し言葉で公衆に意見を述べる実践を重視した。漢文的な文章中心の知識伝達から、近代市民社会における公開の発話へと移る過程を示す語である。",
+    "etymology": "「演」は広げて述べること、「説」は考えを説明することを意味する。人前で考えを展開して述べる行為を表す。",
+    "meanings": [
+      {
+        "en": "A speech or public address delivered before an audience.",
+        "ja": "聴衆の前で意見や主張を述べること。また、その話。",
+        "example_en": "He gave a speech on education reform.",
+        "example_ja": "彼は教育改革について演説した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "慶應義塾「三田演説館」",
+        "url": "https://www.keio.ac.jp/ja/about/history/encyclopedia/19.html",
+        "note": "福沢諭吉と演説文化の普及を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1874,
+      "source": "会議弁",
+      "note": "福沢諭吉『会議弁』などを通じて、speech / debate に関わる近代的な公開発話の語として普及した。"
+    }
+  },
+  {
+    "id": 199,
+    "japanese_word": "建築",
+    "original_word": "architecture / building",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「建築」は、architecture や building に対応し、建物を構想・設計・施工する技術と芸術を表す語として明治期に定着した。従来の「普請」「造営」「作事」などに比べ、材料・構造・設計・美術性を含む近代的専門領域を指しやすく、建築学・建築家・建築物などの派生語とともに工学教育や都市整備の語彙となった。",
+    "etymology": "「建」は立てること、「築」は土や石などを積み固めて造ることを意味する。建物を立て造る行為から、architecture 全般を表す語となった。",
+    "meanings": [
+      {
+        "en": "Architecture; the art and technique of designing and constructing buildings.",
+        "ja": "建物を設計し、造る技術・芸術・行為。",
+        "example_en": "Modern architecture changed the appearance of cities.",
+        "example_ja": "近代建築は都市の景観を変えた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「建築」",
+        "url": "https://kotobank.jp/word/%E5%BB%BA%E7%AF%89-60867",
+        "note": "architecture としての意味を確認"
+      },
+      {
+        "title": "コトバンク「建築設計」",
+        "url": "https://kotobank.jp/word/%E5%BB%BA%E7%AF%89%E8%A8%AD%E8%A8%88-60889",
+        "note": "建築の設計・技術・芸術としての性格を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の工学教育・西洋建築受容の中で、architecture / building に対応する専門語として定着した。"
+    }
+  },
+  {
+    "id": 200,
+    "japanese_word": "電信",
+    "original_word": "telegraph",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "江戸末期〜明治初期",
+    "year": 1863,
+    "description": "「電信」は、telegraph の訳語として、電気を利用して遠隔地へ情報を送る通信技術を表す語として定着した。幕末には「伝信器」などの訳も見られたが、明治政府の通信制度整備とともに「電信」「電信線」「電信局」「電報」などに分化した。鉄道・郵便と並び、近代国家の時間と空間を縮めた基幹インフラを示す語である。",
+    "etymology": "「電」は電気、「信」は知らせ・通信を意味する。電気によって信号や情報を送る仕組みを端的に表す。",
+    "meanings": [
+      {
+        "en": "Telegraph; a system for sending messages over distance by electrical signals.",
+        "ja": "電気信号を用いて遠隔地へ通信する仕組み。",
+        "example_en": "The message was sent by telegraph.",
+        "example_ja": "その知らせは電信で送られた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「テレグラフ」",
+        "url": "https://kotobank.jp/word/%E3%81%A6%E3%82%8C%E3%81%90%E3%82%89%E3%81%B5-3183671",
+        "note": "telegraph の初期訳語と電信への分化を確認"
+      },
+      {
+        "title": "コトバンク「電信」",
+        "url": "https://kotobank.jp/word/%E9%9B%BB%E4%BF%A1-102473",
+        "note": "電信技術の意味を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1863,
+      "source": "漂流記",
+      "note": "精選版日本国語大辞典の「テレグラフ」項目には、1863年『漂流記』に「伝信器と訳する仕掛」とする用例が示され、のちに「電信」へ分化したとされる。"
+    }
+  },
+  {
+    "id": 201,
+    "japanese_word": "鉄道",
+    "original_word": "railway / railroad",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1872,
+    "description": "「鉄道」は、railway / railroad の訳語として、鉄製のレール上を列車が走る交通制度を表す語として定着した。明治5年（1872年）に新橋・横浜間で日本初の官営鉄道が開業し、以後、鉄道は交通・物流・軍事・産業を支える近代インフラとなった。「鉄の道」という直訳的な字義が、レールと線路網の新しさを分かりやすく示した。",
+    "etymology": "「鉄」は鉄製のレール、「道」は通路・交通路を意味する。鉄の路を走る交通機関という字義で railway / railroad に対応した。",
+    "meanings": [
+      {
+        "en": "A railway or railroad; a system of tracks along which trains carry passengers and goods.",
+        "ja": "列車が走行する線路・施設・運行制度の総体。",
+        "example_en": "The railway connected the port with the capital.",
+        "example_ja": "鉄道は港と首都を結んだ。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「railway」",
+        "url": "https://kotobank.jp/ejword/railway",
+        "note": "railway / railroad の訳語を確認"
+      },
+      {
+        "title": "国土交通省「鉄道開業150年」",
+        "url": "https://www.mlit.go.jp/tetudo/tetudo_tk1_000049.html",
+        "note": "1872年の日本初の鉄道開業を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1872,
+      "source": "新橋・横浜間鉄道開業",
+      "note": "明治5年（1872年）の官営鉄道開業を契機に、railway / railroad に対応する制度語として定着した。"
+    }
+  },
+  {
+    "id": 202,
+    "japanese_word": "機関",
+    "original_word": "engine / organ / institution",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「機関」は、engine、organ、institution など複数の西洋語に対応して広がった訳語である。機械の動力装置を指す「機関」、生物の器官や社会組織の働きを指す「機関」、政府・会社・研究所など一定の役割を担う組織を指す「機関」がある。近代の機械工学・生物学・制度論を横断して、働きを担う仕組みを表す便利な語となった。",
+    "etymology": "「機」はからくり・仕組み、「関」は関わり・要所を意味する。特定の働きを担う仕掛けや組織を表す語として用いられた。",
+    "meanings": [
+      {
+        "en": "An engine or mechanism that produces power.",
+        "ja": "動力を生み出す機械装置。",
+        "example_en": "The steam engine drove the factory machines.",
+        "example_ja": "蒸気機関が工場の機械を動かした。"
+      },
+      {
+        "en": "An organ or institution that performs a specific function.",
+        "ja": "特定の機能を担う器官・組織・制度体。",
+        "example_en": "The agency is an important government institution.",
+        "example_ja": "その機関は重要な政府機関である。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「organ」",
+        "url": "https://kotobank.jp/ejword/organ",
+        "note": "organ の器官・機関としての語義を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/engine",
+        "note": "engine の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の機械工学・生物学・行政制度の翻訳語として、engine / organ / institution に対応して定着した。"
+    }
+  },
+  {
+    "id": 203,
+    "japanese_word": "活動",
+    "original_word": "activity / action",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1901,
+    "description": "「活動」は古くから「生きて働くこと」を表す漢語だが、明治期以後、activity や action に対応して、個人・組織・自然現象が能動的に働くことを表す近代語として広がった。社会運動、政治活動、火山活動、経済活動など、抽象的な働きや継続的な動きを示す語として便利に使われるようになった。",
+    "etymology": "「活」は生き生きしていること、「動」は動くことを意味する。生命力をもって働き動くという字義から activity に対応した。",
+    "meanings": [
+      {
+        "en": "Activity; the state or process of acting, moving, or working.",
+        "ja": "活発に動き、働くこと。ある目的に向かって行動すること。",
+        "example_en": "Political activity increased after the reform.",
+        "example_ja": "改革後、政治活動が活発になった。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「活動」",
+        "url": "https://kotobank.jp/word/%E6%B4%BB%E5%8B%95-464469",
+        "note": "活動の意味と明治期用例を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1901,
+      "source": "落梅集",
+      "note": "精選版日本国語大辞典は近代的用例として島崎藤村『落梅集』（1901年）の例を掲げる。"
+    }
+  },
+  {
+    "id": 204,
+    "japanese_word": "発展",
+    "original_word": "development",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「発展」は、development の訳語として、物事が段階を追って広がり、高度化・複雑化していく過程を表す語として定着した。経済発展、社会発展、技術発展のように、単なる増加ではなく、量的拡大と質的変化を含む概念を担う。近代の進歩史観や社会科学の受容と相性がよく、明治以後の変化を語る基本語となった。",
+    "etymology": "「発」は開き出ること、「展」は広げることを意味する。内にある可能性が外へ開き広がるという字義で development に対応した。",
+    "meanings": [
+      {
+        "en": "Development; the process of growing, advancing, or becoming more complex.",
+        "ja": "物事が成長し、進歩し、より大きく複雑になる過程。",
+        "example_en": "Economic development transformed the region.",
+        "example_ja": "経済発展はその地域を大きく変えた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/development",
+        "note": "development の語義確認"
+      },
+      {
+        "title": "コトバンク「経済発展」",
+        "url": "https://kotobank.jp/word/%E7%B5%8C%E6%B8%88%E7%99%BA%E5%B1%95-58778",
+        "note": "economic development としての発展概念を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、進歩・開化・社会変化を説明する development の訳語として広く定着した。"
+    }
+  },
+  {
+    "id": 205,
+    "japanese_word": "発見",
+    "original_word": "discovery",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「発見」は、discovery の訳語として、これまで知られていなかった事実・場所・法則などを見いだすことを表す語として近代科学の中で重要になった。英語 discovery には「覆いを取り除く」という含意があり、客観的に存在していたものが人間の認識に現れるという近代科学の発想と結びつく。「発明」と対比され、既にあるものを見いだす行為を表す。",
+    "etymology": "「発」はあらわれ出る・明らかにすること、「見」は見る・認識することを意味する。隠れていたものを見えるようにするという字義で discovery に対応した。",
+    "meanings": [
+      {
+        "en": "Discovery; the act of finding or learning something previously unknown.",
+        "ja": "これまで知られていなかったものを初めて見いだすこと。",
+        "example_en": "The discovery of the new element changed chemistry.",
+        "example_ja": "新元素の発見は化学を変えた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「discover」",
+        "url": "https://kotobank.jp/word/discover-1229476",
+        "note": "discovery / discover と発見概念の説明を確認"
+      },
+      {
+        "title": "Collins Dictionary",
+        "url": "https://www.collinsdictionary.com/dictionary/english/discovery",
+        "note": "discovery の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の科学・地理・探検・技術紹介の中で、discovery に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 206,
+    "japanese_word": "発明",
+    "original_word": "invention",
+    "language": "英語・フランス語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「発明」は古くは賢さや明らかに悟ることも表したが、近代には invention の訳語として、新しい機械・方法・技術を考案することを表す語として定着した。特許制度の導入により、発明は法的に保護される創作的技術思想として扱われるようになった。「発見」が既にあるものを見いだすのに対し、「発明」は新たに作り出す点が強調される。",
+    "etymology": "「発」は開き明らかにすること、「明」は明らか・知恵を意味する。新しい考えを明らかにして形にすることから invention に対応した。",
+    "meanings": [
+      {
+        "en": "Invention; the act of creating a new device, method, or system.",
+        "ja": "新しい機械・方法・技術などを考え出すこと。また、その成果。",
+        "example_en": "The invention of the telephone changed communication.",
+        "example_ja": "電話の発明は通信を変えた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「invention」",
+        "url": "https://kotobank.jp/word/invention-1237017",
+        "note": "invention と発明・発見の関係を確認"
+      },
+      {
+        "title": "Collins Dictionary",
+        "url": "https://www.collinsdictionary.com/dictionary/english/invention",
+        "note": "invention の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の技術導入・特許制度の整備に伴い、invention に対応する技術語として定着した。"
+    }
+  },
+  {
+    "id": 207,
+    "japanese_word": "改良",
+    "original_word": "improvement",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1877,
+    "description": "「改良」は、improvement の訳語として、不備や欠点を改め、よりよい状態にすることを表す語として明治期に広まった。制度改良、品種改良、機械改良など、全面的な破壊ではなく既存のものを改善する近代的な実践を示す。開化期の社会制度・産業技術・農学の語彙として多用された。",
+    "etymology": "「改」はあらためること、「良」はよいことを意味する。悪い点を改めて良くするという字義で improvement に対応した。",
+    "meanings": [
+      {
+        "en": "Improvement; the act or result of making something better.",
+        "ja": "不備や欠点を改めて、よりよくすること。",
+        "example_en": "The company made improvements to the machine.",
+        "example_ja": "会社はその機械を改良した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「改良」",
+        "url": "https://kotobank.jp/word/%E6%94%B9%E8%89%AF-458712",
+        "note": "改良の意味と『日本開化小史』の初出実例を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/improvement",
+        "note": "improvement の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1877,
+      "source": "日本開化小史",
+      "note": "精選版日本国語大辞典は田口卯吉『日本開化小史』（1877-82年）の用例を掲げる。"
+    }
+  },
+  {
+    "id": 208,
+    "japanese_word": "改革",
+    "original_word": "reform",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「改革」は、reform の訳語として、制度・組織・法律などを改めてよりよい形にすることを表す近代政治語として定着した。改良が部分的な改善を含むのに対し、改革は制度や構造を組み替える含みが強い。政治改革、行政改革、教育改革など、近代国家の制度設計を語るうえで欠かせない語となった。",
+    "etymology": "「改」はあらためること、「革」は皮をなめす意から転じて大きく改めることを意味する。制度を根本から改める語として reform に対応した。",
+    "meanings": [
+      {
+        "en": "Reform; a change made to improve a system, law, or organization.",
+        "ja": "制度・法律・組織などを改めて、よりよい形にすること。",
+        "example_en": "The government began political reform.",
+        "example_ja": "政府は政治改革に着手した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/reform",
+        "note": "reform の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、政治・行政・教育・法制度の reform に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 209,
+    "japanese_word": "解決",
+    "original_word": "solution / resolution",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「解決」は、solution や resolution に対応し、問題・紛争・疑問などをほどいて決着させることを表す語として近代の論説・法律・社会科学で広く用いられた。数学や化学の solution には「解」「溶液」など別訳もあるが、社会的・実践的な問題に対しては「解決」が中心語となった。近代的な問題設定と処理の語彙である。",
+    "etymology": "「解」はほどく・分かること、「決」は決める・決着させることを意味する。絡んだ問題をほどいて結論を出すという字義で solution / resolution に対応した。",
+    "meanings": [
+      {
+        "en": "Solution; an answer to a problem or a way of dealing with a difficult situation.",
+        "ja": "問題や困難に対する答え・対処法。",
+        "example_en": "There is no easy solution to this problem.",
+        "example_ja": "この問題に簡単な解決はない。"
+      },
+      {
+        "en": "Resolution; the settling of a dispute or difficulty.",
+        "ja": "紛争・疑問・困難などを処理して決着させること。",
+        "example_en": "The talks led to a peaceful resolution.",
+        "example_ja": "交渉は平和的な解決につながった。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/solution",
+        "note": "solution の問題への答えとしての語義を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、論説・法律・社会問題の語彙として solution / resolution に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 210,
+    "japanese_word": "対象",
+    "original_word": "object / Gegenstand",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「対象」は、object や Gegenstand に対応する哲学・心理学の訳語として、認識や意識が向かうものを表す語として定着した。日常語では「調査対象」「攻撃対象」のように、行為や判断が向けられる相手・事物を広く指す。近代哲学では主観に対して客観的に立ち現れるもの、心理学では欲求や関係の向かう相手を示す基本語となった。",
+    "etymology": "「対」は向かい合うこと、「象」はかたち・あらわれを意味する。主体に向かい合ってあらわれるものという字義で object に対応した。",
+    "meanings": [
+      {
+        "en": "An object; something toward which thought, perception, or action is directed.",
+        "ja": "認識・感情・行為などが向けられるもの。",
+        "example_en": "The object of the study was human memory.",
+        "example_ja": "その研究の対象は人間の記憶だった。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「オブジェクト」",
+        "url": "https://kotobank.jp/word/%E3%81%8A%E3%81%B6%E3%81%98%E3%81%88%E3%81%8F%E3%81%A8-3208898",
+        "note": "object が対象・客観・客体に対応することを確認"
+      },
+      {
+        "title": "コトバンク「対象論」",
+        "url": "https://kotobank.jp/word/%E5%AF%BE%E8%B1%A1%E8%AB%96-91369",
+        "note": "Gegenstandstheorie / object theory の専門用法を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期の哲学・心理学語彙の整備の中で、object / Gegenstand に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 211,
+    "japanese_word": "認識",
+    "original_word": "cognition / Erkenntnis",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1877,
+    "description": "「認識」は、cognition や Erkenntnis に対応し、物事を知り、その意味や本質を理解する心の働きを表す訳語として定着した。心理学では知覚・記憶・想像・判断・推理を含む知的作用を指し、哲学では真であることを要求しうる知や、その成立過程を表す。近代の認識論・心理学を支える基礎語である。",
+    "etymology": "「認」は認める・見分けること、「識」は知る・識別することを意味する。はっきり知って弁別する働きを表す。",
+    "meanings": [
+      {
+        "en": "Cognition; the mental act of knowing, understanding, or recognizing something.",
+        "ja": "物事を知り、その意味や本質を理解すること。また、その心の働き。",
+        "example_en": "Human cognition involves memory and judgment.",
+        "example_ja": "人間の認識には記憶と判断が含まれる。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「認識」",
+        "url": "https://kotobank.jp/word/%E8%AA%8D%E8%AD%98-110838",
+        "note": "cognition / Erkenntnis としての意味および初出実例を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1877,
+      "source": "博物学階梯",
+      "note": "精選版日本国語大辞典は「認め知ること」の初出実例として中川重麗訳『博物学階梯』（1877年）を掲げる。"
+    }
+  },
+  {
+    "id": 212,
+    "japanese_word": "表現",
+    "original_word": "expression / representation",
+    "language": "英語・フランス語・ドイツ語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「表現」は、expression や representation に対応し、思想・感情・内容を言語、音、形、身体などで外に示すことを表す語として定着した。美学・文学・心理学では内面を外化する作用を指し、言語学や日常語では言い回しや表し方を意味する。近代の芸術論・言語論・表現の自由の語彙として重要である。",
+    "etymology": "「表」は外にあらわすこと、「現」はあらわれることを意味する。内にあるものを外に現すという字義で expression に対応した。",
+    "meanings": [
+      {
+        "en": "Expression; the act of showing thoughts or feelings in words, art, gestures, or other forms.",
+        "ja": "思想・感情・内容などを言語・芸術・身振りなどで外に表すこと。",
+        "example_en": "Freedom of expression is a basic right.",
+        "example_ja": "表現の自由は基本的な権利である。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「表現」",
+        "url": "https://kotobank.jp/word/%E8%A1%A8%E7%8F%BE-121236",
+        "note": "expression としての美学・心理学的意味を確認"
+      },
+      {
+        "title": "コトバンク「表現」和英",
+        "url": "https://kotobank.jp/jeword/%E8%A1%A8%E7%8F%BE",
+        "note": "expression / representation への対応を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、美学・文学・心理学・言語論の語彙として expression / representation に対応して定着した。"
+    }
+  },
+  {
+    "id": 213,
+    "japanese_word": "構成",
+    "original_word": "composition / structure / constitution",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「構成」は、composition、structure、constitution に対応し、複数の要素を組み合わせて一つのまとまりを作ること、またその組み立てを表す語として定着した。文章・芸術・建築・組織・理論など、部分と全体の関係を考える場面で広く使われる。近代学術では、体系や制度を分析するための基礎語となった。",
+    "etymology": "「構」は組み立てること、「成」は成り立つことを意味する。要素を組んで全体を成すという字義で composition / structure に対応した。",
+    "meanings": [
+      {
+        "en": "Composition or structure; the way parts are arranged to form a whole.",
+        "ja": "複数の要素を組み合わせて全体を成り立たせること。また、その組み立て。",
+        "example_en": "The composition of the essay is clear.",
+        "example_ja": "その論文の構成は明快である。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/composition",
+        "note": "composition の構成・組成としての語義確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/structure",
+        "note": "structure の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、哲学・文学・工学・制度論などで composition / structure / constitution に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 214,
+    "japanese_word": "作用",
+    "original_word": "action / operation / interaction",
+    "language": "英語・フランス語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1881,
+    "description": "「作用」は、action、operation、interaction などに対応し、あるものが他のものに働きかけて影響や変化を生じさせることを表す語として近代科学・哲学で定着した。物理では力の及ぼす働き、化学では物質間の反応、生理学では身体機能、哲学では意識の働きなどを指す。広く「働き」を抽象化する便利な訳語である。",
+    "etymology": "「作」は働きかけること、「用」は働き・効用を意味する。何かが働いて効果を生むことを表す。",
+    "meanings": [
+      {
+        "en": "Action or operation; an influence exerted by one thing on another.",
+        "ja": "あるものが他のものに働きかけ、影響や変化を与えること。",
+        "example_en": "The drug has a strong action on the nervous system.",
+        "example_ja": "その薬は神経系に強く作用する。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「作用」",
+        "url": "https://kotobank.jp/word/%E4%BD%9C%E7%94%A8-512172",
+        "note": "action / interaction としての意味および『哲学字彙』の用例を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1881,
+      "source": "哲学字彙",
+      "note": "精選版日本国語大辞典は近代術語として『哲学字彙』（1881年）の用例を掲げる。"
+    }
+  },
+  {
+    "id": 215,
+    "japanese_word": "反応",
+    "original_word": "reaction / response",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「反応」は、reaction や response に対応し、刺激・作用・出来事に対して生じる変化や応答を表す語として定着した。化学反応、物理的反作用、生体反応、心理的反応、社会的反応など、自然科学から社会語彙まで広く用いられる。近代科学の因果関係を説明するうえで「作用」と対になる重要語である。",
+    "etymology": "「反」は返る・逆向き、「応」はこたえることを意味する。外からの作用に対して返ってくる働きという字義で reaction に対応した。",
+    "meanings": [
+      {
+        "en": "Reaction or response; a change, feeling, or action caused by something.",
+        "ja": "刺激・作用・出来事に対して起こる変化・応答・態度。",
+        "example_en": "The chemical reaction produced heat.",
+        "example_ja": "その化学反応は熱を発生させた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Collins Dictionary",
+        "url": "https://www.collinsdictionary.com/dictionary/english/reaction",
+        "note": "reaction の感情・反発・物理化学的意味を確認"
+      },
+      {
+        "title": "コトバンク「呈色反応」",
+        "url": "https://kotobank.jp/word/%E5%91%88%E8%89%B2%E5%8F%8D%E5%BF%9C-574336",
+        "note": "化学反応としての用法を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、化学・物理・心理学・社会論で reaction / response に対応する語として定着した。"
+    }
+  },
+  {
+    "id": 216,
+    "japanese_word": "効率",
+    "original_word": "efficiency",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期〜大正期",
+    "year": null,
+    "description": "「効率」は、efficiency の訳語として、投入したエネルギー・時間・費用などに対して得られる成果の割合を表す語として定着した。工学・物理学では入力と出力の比、経営や仕事では資源に対する成果の大きさを示す。近代産業の合理化や機械化の中で、無駄を減らし成果を高める発想を支える語となった。",
+    "etymology": "「効」はききめ・成果、「率」は割合を意味する。成果の割合という字義で efficiency に対応した。",
+    "meanings": [
+      {
+        "en": "Efficiency; the ratio of useful output to input, or the ability to produce results without waste.",
+        "ja": "投入量に対して得られる有効な成果の割合。無駄なく成果を出す度合い。",
+        "example_en": "The new engine has higher efficiency.",
+        "example_ja": "新しい機関は効率が高い。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「効率」",
+        "url": "https://kotobank.jp/word/%E5%8A%B9%E7%8E%87-63356",
+        "note": "効率の専門用法を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/efficiency",
+        "note": "efficiency の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期から大正期にかけて、工学・物理学・経営管理の語彙として efficiency に対応して定着した。"
+    }
+  },
+  {
+    "id": 217,
+    "japanese_word": "能率",
+    "original_word": "efficiency",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期〜大正期",
+    "year": 1888,
+    "description": "「能率」は、efficiency の訳語として、一定時間内にできる仕事の割合、仕事のはかどり具合を表す語として定着した。物理学では当初モーメントの訳語としても用いられたが、経営学・産業管理では労働や作業の効率を示す語となった。科学的管理法の受容とともに、作業改善・合理化の中心語として広まった。",
+    "etymology": "「能」は能力・働き、「率」は割合を意味する。働きの割合、仕事の進み具合を表す。",
+    "meanings": [
+      {
+        "en": "Efficiency; the rate at which work is done in relation to time, effort, or cost.",
+        "ja": "一定時間内にできる仕事の割合。仕事のはかどり方。",
+        "example_en": "The new method improved efficiency.",
+        "example_ja": "新しい方法で能率が上がった。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「能率」",
+        "url": "https://kotobank.jp/word/%E8%83%BD%E7%8E%87-596506",
+        "note": "efficiency としての意味および初出情報を確認"
+      },
+      {
+        "title": "コトバンク「能率研究」",
+        "url": "https://kotobank.jp/word/%E8%83%BD%E7%8E%87%E7%A0%94%E7%A9%B6-2099855",
+        "note": "科学的管理法との関係を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1888,
+      "source": "物理学術語和英仏独対訳字書",
+      "note": "精選版日本国語大辞典は物理学でモーメントの訳語として『物理学術語和英仏独対訳字書』（1888年）を掲げる。仕事のはかどりの意味は『新らしい言葉の字引』（1918年）にも見える。"
+    }
+  },
+  {
+    "id": 218,
+    "japanese_word": "標準",
+    "original_word": "standard / criterion",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「標準」は、standard に対応し、比較・判断・製造・測定の基準となるものを表す語として定着した。標準語、標準時、標準規格、生活水準など、文化・産業・行政・科学で広く使われる。近代国家と産業社会では、ばらつきをそろえ、共通の尺度を作ることが重要となり、その中心語として用いられた。",
+    "etymology": "「標」は目印・しるし、「準」はよりどころ・基準を意味する。判断や測定の目印となる基準を表す。",
+    "meanings": [
+      {
+        "en": "A standard or criterion used as a basis for comparison, judgment, or production.",
+        "ja": "比較・判断・測定・製造などの基準となるもの。",
+        "example_en": "The product meets international standards.",
+        "example_ja": "その製品は国際標準を満たしている。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「standard」",
+        "url": "https://kotobank.jp/ejword/standard",
+        "note": "standard の標準・基準・規格としての語義確認"
+      },
+      {
+        "title": "Collins Dictionary",
+        "url": "https://www.collinsdictionary.com/dictionary/english/standard",
+        "note": "standard の基準・水準としての意味確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、測定・教育・工業・行政で standard に対応する共通基準の語として定着した。"
+    }
+  },
+  {
+    "id": 219,
+    "japanese_word": "規格",
+    "original_word": "standard / specification",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期〜大正期",
+    "year": null,
+    "description": "「規格」は、standard や specification に対応し、製品・部品・サービスなどについて統一された寸法・品質・性能・手順を定める基準を表す語として定着した。産業の大量生産や流通では、互換性と品質保証のために規格化が不可欠となり、日本産業規格（JIS）などの制度語にもなった。",
+    "etymology": "「規」はものさし・きまり、「格」は等級・格式・枠組みを意味する。物事を一定のきまりと枠に合わせる基準を表す。",
+    "meanings": [
+      {
+        "en": "A standard or specification defining size, quality, performance, or procedure.",
+        "ja": "寸法・品質・性能・手順などを統一するために定めた基準。",
+        "example_en": "The parts are made to the same specification.",
+        "example_ja": "その部品は同じ規格で作られている。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「標準規格」",
+        "url": "https://kotobank.jp/word/%E6%A8%99%E6%BA%96%E8%A6%8F%E6%A0%BC-613311",
+        "note": "標準規格の意味とISO・JIS・JASなどの分類を確認"
+      },
+      {
+        "title": "コトバンク「standard」",
+        "url": "https://kotobank.jp/ejword/standard",
+        "note": "standard の規格としての語義を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "近代工業の発達と標準化の制度整備に伴い、standard / specification に対応する工業語として定着した。"
+    }
+  },
+  {
+    "id": 220,
+    "japanese_word": "制御",
+    "original_word": "control",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "大正期",
+    "year": 1919,
+    "description": "「制御」は、control の訳語として、機械・装置・システムを目的の状態に保つよう調節し、望む動きをさせることを表す語として定着した。自動制御、フィードバック制御、制御システムなど、近代工学・情報技術の基本語である。日常語でも、感情や行動を抑え調整する意味で使われる。",
+    "etymology": "「制」はおさえる・定めること、「御」はあやつる・治めることを意味する。対象の動きを抑えながら意図通りに扱うことを表す。",
+    "meanings": [
+      {
+        "en": "Control; the act of regulating or directing a machine, process, or system.",
+        "ja": "機械・過程・システムなどを目的に合うよう調節して動かすこと。",
+        "example_en": "The system controls the room temperature automatically.",
+        "example_ja": "そのシステムは室温を自動で制御する。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「コントロール」",
+        "url": "https://kotobank.jp/word/%E3%81%93%E3%82%93%E3%81%A8%E3%82%8D%E3%83%BC%E3%82%8B-3211052",
+        "note": "control の制御・管理としての意味と初出情報を確認"
+      },
+      {
+        "title": "コトバンク「制御システム」",
+        "url": "https://kotobank.jp/word/%E5%88%B6%E5%BE%A1%E3%81%97%E3%81%99%E3%81%A6%E3%82%80-3156996",
+        "note": "control system としての工学用法を確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1919,
+      "source": "和漢大辞典",
+      "note": "精選版日本国語大辞典の「コントロール」項目は、control の訳語「制御」を『和漢大辞典』（1919年）に見る。"
+    }
+  },
+  {
+    "id": 221,
+    "japanese_word": "管理",
+    "original_word": "management / administration / control",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「管理」は、management、administration、control に対応し、組織・人員・資源・施設などを目的に沿って統制し運営することを表す語として定着した。近代官僚制・企業経営・学校制度・工場運営の中で、責任をもって秩序立てる行為を示す基本語となった。現在では経営管理、品質管理、情報管理など多方面で使われる。",
+    "etymology": "「管」はつかさどる・取り扱うこと、「理」は筋道を立てて整えることを意味する。物事を担当し、秩序立てて処理することを表す。",
+    "meanings": [
+      {
+        "en": "Management; the control and organization of people, resources, or operations.",
+        "ja": "人・資源・業務・施設などを統制し、秩序立てて運営すること。",
+        "example_en": "Good management improved the company.",
+        "example_ja": "適切な管理が会社を改善した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/management",
+        "note": "management の管理・経営としての語義確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/manage",
+        "note": "manage の統制・組織化としての語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": null,
+      "note": "明治期以後、官庁・会社・学校・工場など近代組織の運営語として management / administration に対応して定着した。"
+    }
+  },
+  {
+    "id": 222,
+    "japanese_word": "統計",
+    "original_word": "statistics",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": 8,
+    "era": "明治初期",
+    "year": 1873,
+    "description": "「統計」は、statistics の訳語として、国家・社会・経済などに関する数量データを集め、整理し、分析することを表す語として明治初期に定着した。『附音挿図英和字彙』など初期英和辞典に見え、近代国家が人口・産業・財政・教育を把握するための技術語となった。今日では統計学と統計データの両方を指す。",
+    "etymology": "「統」はまとめること、「計」は数える・はかることを意味する。多くの数量をまとめて計るという字義で statistics に対応した。",
+    "meanings": [
+      {
+        "en": "Statistics; numerical facts collected and studied, or the science of collecting and analyzing such data.",
+        "ja": "数量的事実を集め整理・分析すること。また、その学問や数値資料。",
+        "example_en": "Official statistics show population change.",
+        "example_ja": "公式統計は人口の変化を示している。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/statistics",
+        "note": "statistics の語義確認"
+      },
+      {
+        "title": "附音挿図英和字彙",
+        "author": "柴田昌吉・子安峻",
+        "note": "初期英和辞典における statistics 訳語としての参照"
+      }
+    ],
+    "first_attestation": {
+      "year": 1873,
+      "source": "附音挿図英和字彙",
+      "note": "明治6年（1873年）の『附音挿図英和字彙』に statistics の訳語として「統計」が見えるとされる。"
+    }
+  },
+  {
+    "id": 223,
+    "japanese_word": "確率",
+    "original_word": "probability",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期〜昭和初期",
+    "year": 1928,
+    "description": "「確率」は、probability の訳語として、ある事象が起こる確からしさの度合いを表す数学・統計の語として定着した。古くは「公算」「蓋然率」なども用いられたが、数学教育や統計的研究の中で「確率」が一般化した。偶然現象を数量として扱う近代科学の考え方を支える語である。",
+    "etymology": "「確」は確かさ、「率」は割合を意味する。起こりうる確かさの割合という字義で probability に対応した。",
+    "meanings": [
+      {
+        "en": "Probability; a numerical measure of how likely an event is to happen.",
+        "ja": "ある事象が起こる可能性の度合い。また、それを表す数値。",
+        "example_en": "The probability of winning is one in ten.",
+        "example_ja": "勝つ確率は10分の1である。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「確率」",
+        "url": "https://kotobank.jp/word/%E7%A2%BA%E7%8E%87-2326",
+        "note": "probability としての意味および初出実例を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/probability",
+        "note": "probability の語義確認"
+      }
+    ],
+    "first_attestation": {
+      "year": 1928,
+      "source": "比較言語学に於ける統計的研究法の可能性に就て",
+      "note": "精選版日本国語大辞典は寺田寅彦「比較言語学に於ける統計的研究法の可能性に就て」（1928年）の用例を掲げる。"
     }
   }
 ]
