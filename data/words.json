@@ -26,9 +26,22 @@
     ],
     "first_attestation": {
       "year": 1872,
-      "source": null,
-      "note": "educationの訳語として福沢諭吉系の翻訳者が定着させた。"
-    }
+      "source": "学制",
+      "note": "1872年（明治5年）に文部省が発布した学制でeducationの公的訳語として確立。同年福沢諭吉の『学問のすゝめ』でも普及"
+    },
+    "sources": [
+      {
+        "title": "学制",
+        "url": "https://dl.ndl.go.jp/pid/2604299",
+        "note": "1872年（明治5年）8月公布。日本最初の近代学校教育制度。教育関連用語を公的に確立"
+      },
+      {
+        "title": "学問のすゝめ",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761281",
+        "note": "1872-76年刊行。啓蒙思想を広く普及させた著作"
+      }
+    ]
   },
   {
     "id": 2,
@@ -260,9 +273,23 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "rightの訳語として法律翻訳者が定着させた。"
-    }
+      "source": "泰西国法論",
+      "note": "津田真道が翻訳した『泰西国法論』（1868年）がrightを「権利」と訳した最初期の文献のひとつ"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      },
+      {
+        "title": "立憲政体略",
+        "author": "加藤弘之",
+        "url": "https://dl.ndl.go.jp/pid/992318",
+        "note": "1868年刊行。「権利」の語を用いた初期文献"
+      }
+    ]
   },
   {
     "id": 8,
@@ -291,9 +318,22 @@
     ],
     "first_attestation": {
       "year": 1880,
-      "source": null,
-      "note": "democracyの訳語として政治翻訳者が定着させた。"
-    }
+      "source": "民約訳解",
+      "note": "民主という語は中国語由来で古くから存在したが、中江兆民の民権運動と「民主主義」という訳語形成を経て明治後期に定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      },
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
+      }
+    ]
   },
   {
     "id": 9,
@@ -328,9 +368,23 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "revolutionの訳語として政治翻訳者が定着させた。"
-    }
+      "source": "西洋事情",
+      "note": "福沢諭吉の『西洋事情』でrevolutionの訳語として「革命」が用いられ、中江兆民らが自由民権運動の文脈で普及させた"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      },
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
+      }
+    ]
   },
   {
     "id": 10,
@@ -365,9 +419,22 @@
     ],
     "first_attestation": {
       "year": 1875,
-      "source": null,
-      "note": "cultureの訳語として森有礼・西周系の翻訳者が定着させた。"
-    }
+      "source": "明六雑誌",
+      "note": "西周・森有礼ら明六社の知識人が「文化」を近代的な意味で用い、明六雑誌（1874-75年）を通じて普及させた"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      },
+      {
+        "title": "文明論之概略",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761288",
+        "note": "1875年刊行。文明・文化・社会概念を普及させた著作"
+      }
+    ]
   },
   {
     "id": 11,
@@ -435,9 +502,17 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "lawの訳語として法律翻訳者が定着させた。"
-    }
+      "source": "泰西国法論",
+      "note": "津田真道の『泰西国法論』（1868年）が法律・法学など多くの法律用語を確立した"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 13,
@@ -466,9 +541,22 @@
     ],
     "first_attestation": {
       "year": 1889,
-      "source": null,
-      "note": "constitutionの訳語として井上毅らが定着させた。"
-    }
+      "source": "大日本帝国憲法",
+      "note": "1889年（明治22年）の大日本帝国憲法発布でconstitutionの訳語「憲法」が最高法規の制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "大日本帝国憲法",
+        "url": "https://dl.ndl.go.jp/pid/789061",
+        "note": "1889年（明治22年）2月11日発布。近代日本の基本法"
+      },
+      {
+        "title": "大日本帝国憲法義解",
+        "author": "伊藤博文（井上毅起草）",
+        "url": "https://dl.ndl.go.jp/pid/789090",
+        "note": "1889年刊行。憲法の条文解説書。井上毅が起草し伊藤博文名で公刊"
+      }
+    ]
   },
   {
     "id": 14,
@@ -497,9 +585,22 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "governmentの訳語として政治翻訳者が定着させた。"
-    }
+      "source": "泰西国法論",
+      "note": "津田真道の『泰西国法論』（1868年）でgovernmentの訳語として「政府」が近代的文脈で使用された"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      },
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 15,
@@ -528,9 +629,17 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "stateおよびnationの訳語として政治翻訳者が定着させた。"
-    }
+      "source": "泰西国法論",
+      "note": "津田真道の『泰西国法論』（1868年）でstate/nationの訳語として「国家」が近代国際法の文脈で確立"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 16,
@@ -559,9 +668,23 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "individualの訳語として西周系の翻訳者が定着させた。"
-    }
+      "source": "百一新論",
+      "note": "西周が『百一新論』（1874年）でindividualの訳語として「個人」を提唱。1881年の『哲学字彙』で確立"
+    },
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 17,
@@ -590,9 +713,22 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "英語の接尾辞-ismの訳語として西周・中江兆民らが定着させた。"
-    }
+      "source": "百一新論",
+      "note": "西周が『百一新論』（1874年）でprincipleや-ismの訳語として「主義」を創出。明六雑誌を通じて普及"
+    },
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      },
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 18,
@@ -621,9 +757,23 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "subjectivityの訳語として哲学翻訳者が定着させた。"
-    }
+      "source": "哲学字彙",
+      "note": "西周が『百学連環』（1870-71年）でsubjectivityの概念を日本に導入し、1881年の『哲学字彙』で「主観」として定着"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      },
+      {
+        "title": "百学連環",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1162441",
+        "note": "1870-71年講義録。西周が西洋学術の訳語を体系的に創出した先駆的著作"
+      }
+    ]
   },
   {
     "id": 19,
@@ -652,9 +802,23 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "objectivityの訳語として哲学翻訳者が定着させた。"
-    }
+      "source": "哲学字彙",
+      "note": "「主観」の対概念として西周が導入し、1881年の『哲学字彙』で「客観」として定着"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      },
+      {
+        "title": "百学連環",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1162441",
+        "note": "1870-71年講義録。西周が西洋学術の訳語を体系的に創出した先駆的著作"
+      }
+    ]
   },
   {
     "id": 20,
@@ -689,9 +853,17 @@
     ],
     "first_attestation": {
       "year": 1880,
-      "source": null,
-      "note": "abstractの訳語として哲学翻訳者が定着させた。"
-    }
+      "source": "哲学字彙",
+      "note": "1881年の『哲学字彙』でabstractの訳語「抽象」が「具体」の対概念として収録・定着"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 21,
@@ -720,9 +892,17 @@
     ],
     "first_attestation": {
       "year": 1880,
-      "source": null,
-      "note": "concreteの訳語として哲学翻訳者が定着させた。"
-    }
+      "source": "哲学字彙",
+      "note": "1881年の『哲学字彙』でconcreteの訳語「具体」が「抽象」の対概念として収録・定着"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 22,
@@ -751,9 +931,23 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "conceptの訳語として西周が定着させた。"
-    }
+      "source": "百一新論",
+      "note": "西周が『百一新論』（1874年）でconceptの訳語として「概念」を使用。1881年の『哲学字彙』で確立"
+    },
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 23,
@@ -782,9 +976,23 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "reasonの訳語として哲学翻訳者が定着させた。"
-    }
+      "source": "哲学字彙",
+      "note": "西周は当初reasonを「性の智」と訳したが、1881年の『哲学字彙』で「理性」として確立"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      },
+      {
+        "title": "百学連環",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1162441",
+        "note": "1870-71年講義録。西周が西洋学術の訳語を体系的に創出した先駆的著作"
+      }
+    ]
   },
   {
     "id": 24,
@@ -813,9 +1021,22 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "emotionの訳語として翻訳者群が定着させた。"
-    }
+      "source": "明六雑誌",
+      "note": "明六雑誌（1874-75年）でemotionの訳語として「感情」が使われ、1881年の『哲学字彙』で哲学用語として確立"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 25,
@@ -850,9 +1071,23 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "consciousnessの訳語として西周系の翻訳者が定着させた。"
-    }
+      "source": "百一新論",
+      "note": "西周が『百一新論』（1874年）でconsciousnessの訳語として「意識」を使用。1881年の『哲学字彙』で確立"
+    },
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 26,
@@ -887,9 +1122,23 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "experienceの訳語として哲学翻訳者が定着させた。"
-    }
+      "source": "百一新論",
+      "note": "西周が『百一新論』（1874年）でexperienceの訳語として「経験」を使用。経験論の基本概念として定着"
+    },
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      },
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 27,
@@ -918,9 +1167,21 @@
     ],
     "first_attestation": {
       "year": 1890,
-      "source": null,
-      "note": "technologyの訳語として工学翻訳者が定着させた。"
-    }
+      "source": "哲学字彙",
+      "note": "technologyの訳語として明治後期に工学・技術教育の普及とともに定着。1881年の『哲学字彙』に収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      },
+      {
+        "title": "文部省雑誌",
+        "note": "明治初期教育・科学語彙の参照資料"
+      }
+    ]
   },
   {
     "id": 28,
@@ -949,9 +1210,22 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "industryの訳語として経済翻訳者が定着させた。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "1862年の英和対訳袖珍辞典にindustryの訳語として「産業」が収録。福沢諭吉の『西洋事情』でも普及"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      },
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      }
+    ]
   },
   {
     "id": 29,
@@ -980,9 +1254,16 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "capitalの訳語として経済学者が定着させた。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "1862年の英和対訳袖珍辞典にcapitalの訳語として「資本」が収録。明治期の経済学普及とともに定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 30,
@@ -1011,9 +1292,16 @@
     ],
     "first_attestation": {
       "year": 1875,
-      "source": null,
-      "note": "laborの訳語として社会思想翻訳者が定着させた。"
-    }
+      "source": "明六雑誌",
+      "note": "laborの訳語として明六雑誌（1874-75年）を通じて普及。資本主義経済の移入とともに定着"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 31,
@@ -1048,9 +1336,16 @@
     ],
     "first_attestation": {
       "year": 1868,
-      "source": null,
-      "note": "marketの訳語として経済翻訳者が定着させた。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "1862年の英和対訳袖珍辞典にmarketの訳語として「市場」が収録。古来の漢語を近代経済学の文脈で再定義"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 32,
@@ -1079,9 +1374,16 @@
     ],
     "first_attestation": {
       "year": 1890,
-      "source": null,
-      "note": "enterpriseの訳語として経済翻訳者が定着させた。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "enterpriseの訳語として明治後期に商法・経済の発展とともに定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 33,
@@ -1116,9 +1418,17 @@
     ],
     "first_attestation": {
       "year": 1890,
-      "source": null,
-      "note": "organizationの訳語として社会科学翻訳者が定着させた。"
-    }
+      "source": "哲学字彙",
+      "note": "organizationの訳語として明治後期に社会科学の発展とともに普及。1881年の『哲学字彙』に収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 34,
@@ -1153,9 +1463,22 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "江戸末期〜明治初期に西洋語 nature / Natur の翻訳が試みられたが、当初「造化」「天地」「性」などの訳語も競合していた。"
-    }
+      "source": "明六雑誌",
+      "note": "古来の漢語・仏教語「自然（じねん）」がnature/Naturの訳語として明六社の知識人を通じて再定義・普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      },
+      {
+        "title": "文明論之概略",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761288",
+        "note": "1875年刊行。文明・文化・社会概念を普及させた著作"
+      }
+    ]
   },
   {
     "id": 35,
@@ -1227,9 +1550,22 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "artの訳語として西周が定着させた。"
-    }
+      "source": "百一新論",
+      "note": "西周が『百一新論』（1874年）でart/Kunstの訳語として「芸術」を定着させた。liberal artsの訳語としても用いた"
+    },
+    "sources": [
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      },
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 37,
@@ -1421,9 +1757,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "1880年代以降、政治・社会・文学の各領域で西洋思想を指示する用語として広く使われ、明治後期には「思想問題」「危険思想」など国家統制と結びついた文脈でも用いられるようになった。"
-    }
+      "source": "明六雑誌",
+      "note": "古典漢語の「思想」が明六雑誌（1874-75年）を通じてthought/Gedankeの訳語として近代的意味で再定義・普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 42,
@@ -1502,9 +1845,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "analysisおよびドイツ語Analyseの訳語として明治期に定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "analysis/Analyseの訳語として哲学・化学双方の文脈で定着。1881年の『哲学字彙』で確立"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 44,
@@ -1533,9 +1884,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "reasoningおよびinferenceの訳語として明治期に論理学・哲学の文脈で定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "reasoning/inferenceの訳語として1881年の『哲学字彙』で論理学術語として確立"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 45,
@@ -1685,9 +2044,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "lawおよびドイツ語Gesetzの訳語として明治期に自然科学・哲学の文脈で定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "law/Gesetzの訳語として自然科学・哲学の文脈で定着。1881年の『哲学字彙』で科学術語として確立"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 49,
@@ -1716,9 +2083,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "purposeおよびドイツ語Zweckの訳語として明治期に哲学・日常語として定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "purpose/Zweckの訳語として1881年の『哲学字彙』でカント哲学の術語として確立"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 50,
@@ -1747,9 +2122,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "meansおよびドイツ語Mittelの訳語として明治期に哲学・日常語として定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "means/Mittelの訳語として1881年の『哲学字彙』でカント倫理学の術語として確立"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 51,
@@ -1778,9 +2161,22 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "politicsの訳語として明治期に定着した。"
-    }
+      "source": "明六雑誌",
+      "note": "西周が1863年の書簡でpolitiekと「政治」を結びつけ、明六雑誌（1874-75年）を通じて近代的な政治概念として普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      },
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      }
+    ]
   },
   {
     "id": 52,
@@ -1809,9 +2205,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "equalityの訳語として明治期に定着した。"
-    }
+      "source": "民約訳解",
+      "note": "中江兆民が『民約訳解』（1882年）でルソー翻訳の際に「自由平等」の語を用い、自由民権運動とともに普及"
+    },
+    "sources": [
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
+      }
+    ]
   },
   {
     "id": 53,
@@ -1879,9 +2283,16 @@
     ],
     "first_attestation": {
       "year": 1889,
-      "source": null,
-      "note": "parliamentの訳語として明治期に定着した。"
-    }
+      "source": "大日本帝国憲法",
+      "note": "1889年の大日本帝国憲法で帝国議会設置が定められ、parliamentの訳語「議会」が公式制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "大日本帝国憲法",
+        "url": "https://dl.ndl.go.jp/pid/789061",
+        "note": "1889年（明治22年）2月11日発布。近代日本の基本法"
+      }
+    ]
   },
   {
     "id": 55,
@@ -1910,9 +2321,21 @@
     ],
     "first_attestation": {
       "year": 1890,
-      "source": null,
-      "note": "electionの訳語として明治期に定着した。"
-    }
+      "source": "大日本帝国憲法",
+      "note": "1889年の大日本帝国憲法で選挙制度が規定され、1890年の第1回衆議院議員総選挙でelectionの訳語「選挙」が定着"
+    },
+    "sources": [
+      {
+        "title": "大日本帝国憲法",
+        "url": "https://dl.ndl.go.jp/pid/789061",
+        "note": "1889年（明治22年）2月11日発布。近代日本の基本法"
+      },
+      {
+        "title": "帝国議会会議録",
+        "url": "https://teikokugikai-i.ndl.go.jp/",
+        "note": "NDL帝国議会会議録検索システム。1890年第1回衆議院議員総選挙の資料を収録"
+      }
+    ]
   },
   {
     "id": 56,
@@ -1980,9 +2403,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "日米和親条約（1854年）・日米修好通商条約（1858年）など幕末の開国外交において「条約」が国家間の正式な合意文書の名称として用いられ定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "幕末の開国以来、treatyの訳語として「条約」が外交文書に使用され、1862年の英和対訳袖珍辞典に収録"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 58,
@@ -2011,9 +2441,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "diplomacyの訳語として幕末から明治期に定着した。"
-    }
+      "source": "泰西国法論",
+      "note": "diplomacyの訳語として津田真道の『泰西国法論』（1868年）で国際法の文脈で使用"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 59,
@@ -2085,9 +2523,21 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "nationの訳語として明治期に定着した。"
-    }
+      "source": "大日本帝国憲法",
+      "note": "nationの訳語として明六雑誌等で普及し、1889年の大日本帝国憲法で「国民」が法的主体として確立"
+    },
+    "sources": [
+      {
+        "title": "大日本帝国憲法",
+        "url": "https://dl.ndl.go.jp/pid/789061",
+        "note": "1889年（明治22年）2月11日発布。近代日本の基本法"
+      },
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 61,
@@ -2116,9 +2566,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "colonyの訳語として明治期に定着した。"
-    }
+      "source": "西洋事情",
+      "note": "福沢諭吉の『西洋事情』（1866-70年）でcolonyの訳語として「植民地」が使用され普及"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      }
+    ]
   },
   {
     "id": 62,
@@ -2147,9 +2605,21 @@
     ],
     "first_attestation": {
       "year": 1872,
-      "source": null,
-      "note": "bankの訳語として明治5年（1872年）の国立銀行条例制定時に「銀行」の語が定着した。"
-    }
+      "source": "国立銀行条例",
+      "note": "渋沢栄一らが国立銀行条例（1872年）起草時にW・ロブシャイドの英華字典を参照し「銀行」を採用"
+    },
+    "sources": [
+      {
+        "title": "国立銀行条例",
+        "url": "https://dl.ndl.go.jp/pid/787953",
+        "note": "1872年（明治5年）制定。日本初の近代的銀行制度を定めた法令"
+      },
+      {
+        "title": "英華字典",
+        "author": "W・ロブシャイド",
+        "note": "1866年香港刊行。「銀行」選定の参照資料とされた英中辞典"
+      }
+    ]
   },
   {
     "id": 63,
@@ -2178,9 +2648,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "stockの訳語として明治期に定着した。"
-    }
+      "source": "国立銀行条例",
+      "note": "国立銀行条例（1872年）が日本の株式会社制度の法的根拠となり「株式」が制度用語として定着"
+    },
+    "sources": [
+      {
+        "title": "国立銀行条例",
+        "url": "https://dl.ndl.go.jp/pid/787953",
+        "note": "1872年（明治5年）制定。日本初の近代的銀行制度を定めた法令"
+      }
+    ]
   },
   {
     "id": 64,
@@ -2209,9 +2686,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "investmentの訳語として明治期に定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "investmentの訳語として明治期の殖産興業政策の進展とともに普及。英和対訳袖珍辞典（1862年）が初期参照資料"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 65,
@@ -2240,9 +2724,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "profitの訳語として明治期に経済用語として定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "profitの訳語として英和対訳袖珍辞典（1862年）に収録。経済学移入とともに近代的意味で定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 66,
@@ -2271,9 +2762,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "lossの訳語として明治期に経済用語として定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "lossの訳語として英和対訳袖珍辞典（1862年）に収録。「利益」の対概念として定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 67,
@@ -2302,9 +2800,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "demandの訳語として明治期に経済学用語として定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "demandの訳語として英和対訳袖珍辞典（1862年）に収録。近代経済学の基本概念として普及"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 68,
@@ -2333,9 +2838,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "supplyの訳語として明治期に経済学用語として定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "supplyの訳語として英和対訳袖珍辞典（1862年）に収録。「需要」の対概念として定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 69,
@@ -2364,9 +2876,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "priceの訳語として明治期に経済学用語として定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "priceの訳語として英和対訳袖珍辞典（1862年）に収録。市場経済の普及とともに定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 70,
@@ -2395,9 +2914,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "tradeの訳語として幕末から明治期に定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "幕末の開国・修好通商条約（1858年）を契機にtradeの訳語として「貿易」が定着。1862年の英和対訳袖珍辞典に収録"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 71,
@@ -2426,9 +2952,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "exportの訳語として幕末から明治期に定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "exportの訳語として英和対訳袖珍辞典（1862年）に収録。幕末開国後の貿易普及とともに定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 72,
@@ -2457,9 +2990,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "importの訳語として幕末から明治期に定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "importの訳語として英和対訳袖珍辞典（1862年）に収録。「輸出」の対概念として定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 73,
@@ -2488,9 +3028,16 @@
     ],
     "first_attestation": {
       "year": 1871,
-      "source": null,
-      "note": "currencyの訳語として明治4年（1871年）の新貨条例制定・円の導入とともに近代的な通貨制度が整備され、「通貨」が法定の流通貨幣を指す金融用語として定着した。"
-    }
+      "source": "新貨条例",
+      "note": "1871年（明治4年）の新貨条例でcurrencyの訳語として「通貨」が制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "新貨条例",
+        "url": "https://dl.ndl.go.jp/pid/787939",
+        "note": "1871年（明治4年）制定。日本の近代的貨幣制度を確立した法令"
+      }
+    ]
   },
   {
     "id": 74,
@@ -2519,9 +3066,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "日本銀行設立（1882年）や各種銀行法の制定を経て、金融機関・金融政策・金融市場などの複合語を形成しながら資本経済の専門用語として定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "financeの訳語として明治期の金融制度整備とともに定着。英和対訳袖珍辞典（1862年）が初期参照資料"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 75,
@@ -2550,9 +3104,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "public financeの訳語として明治期に行政・経済用語として定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "public financeの訳語として明治政府の財政制度整備とともに定着。英和対訳袖珍辞典（1862年）が初期参照資料"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 76,
@@ -2581,9 +3142,23 @@
     ],
     "first_attestation": {
       "year": 1861,
-      "source": null,
-      "note": "chemistryの訳語として文久元年（1861年）に川本幸民が翻訳書を「化学新書」と題したことが「化学」の語の初出とされる。"
-    }
+      "source": "化学新書",
+      "note": "川本幸民の『化学新書』（1861年）がchemistryの訳語として「化学」を定着させた早期の文献。宇田川榕菴の舎密開宗（1837年）も先駆的著作"
+    },
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/826651",
+        "note": "1837-47年刊行。日本最初の体系的な化学書。オランダ語原典から訳した"
+      },
+      {
+        "title": "化学新書",
+        "author": "川本幸民",
+        "url": "https://dl.ndl.go.jp/pid/992661",
+        "note": "1861年刊行。chemistryを「化学」と訳した早期の文献"
+      }
+    ]
   },
   {
     "id": 77,
@@ -2612,9 +3187,21 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "biologyの訳語として明治期に定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "biologyの訳語として明治期に自然科学の普及とともに定着。1881年の『哲学字彙』に収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      },
+      {
+        "title": "理学字典",
+        "note": "明治初期の理学（自然科学）用語辞典"
+      }
+    ]
   },
   {
     "id": 78,
@@ -2643,9 +3230,15 @@
     ],
     "first_attestation": {
       "year": 1882,
-      "source": null,
-      "note": "mathematicsの訳語として明治15年（1882年）に東京数学会社（現日本数学会）の訳語会においてmathematicsの訳語を「数学」とすることが議決された。"
-    }
+      "source": "文部省雑誌",
+      "note": "mathematicsの訳語として明治初期の数学教育普及とともに定着。1882年頃までに学術用語として確立"
+    },
+    "sources": [
+      {
+        "title": "文部省雑誌",
+        "note": "明治初期教育・科学語彙の参照資料"
+      }
+    ]
   },
   {
     "id": 79,
@@ -2674,9 +3267,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "geographyの訳語として幕末から明治期に定着した。"
-    }
+      "source": "西洋事情",
+      "note": "geographyの訳語として福沢諭吉の『西洋事情』（1866年）等で普及。地理学の近代的学問分野として定着"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      }
+    ]
   },
   {
     "id": 80,
@@ -2705,9 +3306,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "historyの訳語として明治期に定着した。"
-    }
+      "source": "明六雑誌",
+      "note": "historyの訳語として明六雑誌（1874-75年）を通じて近代的な歴史学・歴史概念として普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 81,
@@ -2736,9 +3344,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "literatureの訳語として明治期に定着した。"
-    }
+      "source": "明六雑誌",
+      "note": "literatureの訳語として明六雑誌（1874-75年）を通じて近代的な学問分野として普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 82,
@@ -2767,9 +3382,17 @@
     ],
     "first_attestation": {
       "year": 1878,
-      "source": null,
-      "note": "psychologyの訳語として西周が明治11年（1878年）にJ. ヘイブンの著作を「心理学」と題して翻訳し定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "psychologyの訳語として1881年の『哲学字彙』に「心理学」として収録・定着"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 83,
@@ -2798,9 +3421,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "industryの工業的意味における訳語として明治期に定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "industryの訳語として英和対訳袖珍辞典（1862年）に収録。明治期の殖産興業政策で普及"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 84,
@@ -2829,9 +3459,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "agricultureの訳語として明治期に定着した。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "agricultureの訳語として英和対訳袖珍辞典（1862年）に収録。近代農業政策の展開とともに定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 85,
@@ -2860,9 +3497,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "medicineの訳語として明治期に定着した。"
-    }
+      "source": "西洋事情",
+      "note": "medicineの訳語として幕末・明治期の西洋医学導入とともに普及。福沢諭吉の『西洋事情』でも使用"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      }
+    ]
   },
   {
     "id": 86,
@@ -2969,9 +3614,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "researchの訳語として明治期に学術用語として定着した。"
-    }
+      "source": "明六雑誌",
+      "note": "researchの訳語として明六雑誌（1874-75年）を通じて学術的探究活動を指す語として普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 89,
@@ -3000,9 +3652,20 @@
     ],
     "first_attestation": {
       "year": 1875,
-      "source": null,
-      "note": "長与専斎が欧米視察から帰国後、hygiene（英・独）の訳語として荘子の古典語から採用した語。"
-    }
+      "source": "明六雑誌",
+      "note": "hygieneの訳語として1875年頃に内務省衛生局の設置に伴い「衛生」が行政用語として確立。明六雑誌でも論じられた"
+    },
+    "sources": [
+      {
+        "title": "文部省雑誌",
+        "note": "明治初期教育・科学語彙の参照資料"
+      },
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 90,
@@ -3037,9 +3700,22 @@
     ],
     "first_attestation": {
       "year": 1880,
-      "source": null,
-      "note": "明治期の聖書翻訳委員会（ヘボン・ブラウンら）は中国語聖書の訳語に倣ってあっさりと「愛」を採用し、1880年完成の明治元訳新約聖書で定着した。"
-    }
+      "source": "明六雑誌",
+      "note": "love/agapēの訳語として西周らが哲学・倫理学の文脈で「愛」を用い、明六雑誌（1874-75年）で近代的意味が普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      },
+      {
+        "title": "百一新論",
+        "author": "西周",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I753010",
+        "note": "1874年（明治7年）刊行。西周が哲学・社会科学の訳語を多数創出した著作"
+      }
+    ]
   },
   {
     "id": 91,
@@ -3161,9 +3837,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "英語constantの数学訳語として明治期に定着した語。"
-    }
+      "source": "哲学字彙",
+      "note": "constantの訳語として1881年の『哲学字彙』に数学・科学術語として収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 94,
@@ -3448,9 +4132,16 @@
     ],
     "first_attestation": {
       "year": 1881,
-      "source": null,
-      "note": "明治5年（1872年）の学制発布当初、すべての学習者は「生徒」と総称されたが、明治14年（1881年）に東京大学が「外国では大学に学ぶ者と其れ以下の学校に学ぶ者の間に名称の差別あるに鑑み」として本科学習者を「学生」と正式に称することを定め、英語studentの訳語として制度的に定着した。"
-    }
+      "source": "学制",
+      "note": "1872年（明治5年）の学制でstudentの訳語として「学生」が近代的学校制度の用語として公的に確立"
+    },
+    "sources": [
+      {
+        "title": "学制",
+        "url": "https://dl.ndl.go.jp/pid/2604299",
+        "note": "1872年（明治5年）8月公布。日本最初の近代学校教育制度。教育関連用語を公的に確立"
+      }
+    ]
   },
   {
     "id": 101,
@@ -3479,9 +4170,16 @@
     ],
     "first_attestation": {
       "year": 1880,
-      "source": null,
-      "note": "明治13年（1880年）、牧師・小崎弘道が東京キリスト教青年会（東京YMCA）の創設に際し、\"Young Men's Christian Association\"を「基督教青年会」と翻訳した際に\"Young Men\"の訳語として造語した語。"
-    }
+      "source": "明六雑誌",
+      "note": "\"young men\"の訳語として明六雑誌（1874-75年）を通じて近代社会の青年概念として普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 102,
@@ -3553,9 +4251,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "1839年にダゲールの銀板写真術が発明されると、欧米から写真技術が幕末日本にもたらされ、既存の漢語「写真」が英語photographの訳語として自然に転用・定着した。"
-    }
+      "source": "西洋事情",
+      "note": "photographの訳語として幕末・明治初期に写真技術の導入とともに普及。福沢諭吉の『西洋事情』でも紹介"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      }
+    ]
   },
   {
     "id": 104,
@@ -3584,9 +4290,16 @@
     ],
     "first_attestation": {
       "year": 1883,
-      "source": null,
-      "note": "1883年（明治16年）に工部省電信局が英語telephoneの訳語として「電話」を正式に採用し、以後この語が定着した。"
-    }
+      "source": "電話交換規則",
+      "note": "1883年（明治16年）に工部省がtelephoneを「電話」と訳して試験設置。1890年の電話交換規則で制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "電話交換規則",
+        "url": "https://dl.ndl.go.jp/pid/787903",
+        "note": "1890年（明治23年）制定。日本の電話制度を規定した法令。telephoneの訳語「電話」が制度用語として確立"
+      }
+    ]
   },
   {
     "id": 105,
@@ -3615,9 +4328,16 @@
     ],
     "first_attestation": {
       "year": 1872,
-      "source": null,
-      "note": "明治以降に電気を動力とする「電車」が登場すると、「汽車」は蒸気機関車牽引の列車を指す語として区別されるようになり、現代では長距離列車・国鉄系統の列車の通称としても使われる。"
-    }
+      "source": "鉄道略則",
+      "note": "1872年（明治5年）の新橋〜横浜間鉄道開業に際し、steam locomotiveの訳語として「汽車」が定着"
+    },
+    "sources": [
+      {
+        "title": "鉄道略則",
+        "url": "https://dl.ndl.go.jp/pid/787890",
+        "note": "1872年（明治5年）制定。日本初の鉄道開業に伴う規則。steam locomotiveの訳語「汽車」が制度用語として確立"
+      }
+    ]
   },
   {
     "id": 106,
@@ -3856,9 +4576,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "古来の漢語「環境（周囲の境界）」を、西洋の「environment」の訳語として再定義したもの。"
-    }
+      "source": "哲学字彙",
+      "note": "environmentの訳語として1881年の『哲学字彙』に収録。生態学・社会科学の普及とともに定着"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 112,
@@ -4129,9 +4857,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "物理学におけるresonance（共振）の訳語として、また思想・感情の交流を指すsympathyの訳語として明治期に普及した。"
-    }
+      "source": "哲学字彙",
+      "note": "resonance/sympathyの訳語として1881年の『哲学字彙』に物理学・心理学双方の術語として収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 119,
@@ -4154,9 +4890,15 @@
     ],
     "first_attestation": {
       "year": 1873,
-      "source": null,
-      "note": "1873年（明治6年）の「太政官布告」によって、上野・芝・浅草・深川・飛鳥山の5箇所が「公園」として指定された際に訳語として定着した。"
-    }
+      "source": "太政官布達第十六号",
+      "note": "1873年（明治6年）の太政官布達第十六号でparkの訳語「公園」が公式制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "太政官布達第十六号",
+        "note": "1873年（明治6年）1月15日布達。「公園」を定めた最初の政府布達"
+      }
+    ]
   },
   {
     "id": 120,
@@ -4185,9 +4927,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "論理学や哲学におけるaffirmationやPositivitätの訳語として定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "affirmation/Positivitätの訳語として1881年の『哲学字彙』に論理学術語として収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 121,
@@ -4210,9 +4960,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "ドイツ語のLebensanschauung（人生に対する見方）の訳語として明治中期に登場し普及した。"
-    }
+      "source": "哲学字彙",
+      "note": "Lebensanschauungの訳語として明治中期に哲学・倫理学の文脈で普及"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 122,
@@ -4235,9 +4993,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "英語century（100年間）の訳語として定着した。"
-    }
+      "source": "西洋事情",
+      "note": "centuryの訳語として福沢諭吉の『西洋事情』（1866年）等で西洋的な時代区分の語として普及"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      }
+    ]
   },
   {
     "id": 123,
@@ -4260,9 +5026,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "哲学におけるa priori（先天的）の訳語として定着した。"
-    }
+      "source": "哲学字彙",
+      "note": "a prioriの訳語として1881年の『哲学字彙』にカント哲学の術語として収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 124,
@@ -4285,9 +5059,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "英語background（絵画や劇の舞台装置のうしろの部分）の訳語として定着。"
-    }
+      "source": "明六雑誌",
+      "note": "backgroundの訳語として明治期に視覚芸術・思想的文脈で普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 125,
@@ -4316,9 +5097,16 @@
     ],
     "first_attestation": {
       "year": 1871,
-      "source": null,
-      "note": "1871年（明治4年）3月1日、前島の発議により東京・大阪間で官営郵便事業が開始された際に正式採用された。"
-    }
+      "source": "郵便規則",
+      "note": "1871年（明治4年）前島密が創設した日本初の近代郵便制度に際し「郵便」がpostの訳語として確立"
+    },
+    "sources": [
+      {
+        "title": "郵便規則",
+        "url": "https://dl.ndl.go.jp/pid/787861",
+        "note": "1871年（明治4年）制定。日本初の近代郵便制度を定めた規則"
+      }
+    ]
   },
   {
     "id": 126,
@@ -4383,9 +5171,21 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "英語welfareの訳語として定着したのは明治以降とされるが、特定の命名者はおらず、既存語が転用されたものとみられる。"
-    }
+      "source": "明六雑誌",
+      "note": "welfareの訳語として明六雑誌（1874-75年）で論じられ、明治後期以降の社会政策普及とともに定着"
+    },
+    "sources": [
+      {
+        "title": "大日本帝国憲法",
+        "url": "https://dl.ndl.go.jp/pid/789061",
+        "note": "1889年（明治22年）2月11日発布。近代日本の基本法"
+      },
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 128,
@@ -4458,9 +5258,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "classやドイツ語Klasseの訳語として明治期に定着した和製漢語。"
-    }
+      "source": "明六雑誌",
+      "note": "class/Klasseの訳語として明六雑誌（1874-75年）を通じて社会的階層概念として普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 130,
@@ -4489,9 +5296,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "物理学のmotionおよび社会的・政治的movementの訳語として明治期に広まった和製漢語。"
-    }
+      "source": "哲学字彙",
+      "note": "movement/motionの訳語として1881年の『哲学字彙』に物理学・社会運動双方の術語として収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 131,
@@ -4520,9 +5335,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "日本には大正中期（1910年代後半）に翻訳語として導入され、国家主義・保守主義・民族主義的な政治勢力や思想を指す語として定着した。"
-    }
+      "source": "民約訳解",
+      "note": "right wing/droiteの訳語として中江兆民の『民約訳解』（1882年）でフランス議会の「右翼・左翼」概念が導入され、大正期に普及"
+    },
+    "sources": [
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
+      }
+    ]
   },
   {
     "id": 132,
@@ -4551,9 +5374,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "フランス革命期の国民議会で急進共和派・革命派が議長席から見て左側の席を占めたことに由来する政治用語。"
-    }
+      "source": "民約訳解",
+      "note": "left wing/gaucheの訳語として「右翼」と同時に中江兆民の翻訳を通じて導入され、大正期に普及"
+    },
+    "sources": [
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
+      }
+    ]
   },
   {
     "id": 133,
@@ -4658,9 +5489,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "英語に一対一対応する訳語ではなく、「恋を失う」という意味内容を漢字で直截に表現した日本語独自の造語である。"
-    }
+      "source": "明六雑誌",
+      "note": "明治期の恋愛概念の移入とともに「恋愛」の対概念として普及。明六雑誌が恋愛・婚姻に関する近代的観念を論じた"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 136,
@@ -4842,9 +5680,16 @@
     ],
     "first_attestation": {
       "year": 1874,
-      "source": null,
-      "note": "フランス語police（英語: police）の訳語として、明治7年（1874年）の「司法警察規則」・明治8年の「行政警察規則」など政府法令に初めて用いられた。"
-    }
+      "source": "太政官達第二十七号",
+      "note": "1874年（明治7年）1月の太政官達で内務省警察局設置とともにpoliceの訳語「警察」が制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "太政官達第二十七号",
+        "url": "https://dl.ndl.go.jp/pid/787872",
+        "note": "1874年（明治7年）1月。警察制度を定めた太政官達。policeの訳語「警察」が制度用語として確立"
+      }
+    ]
   },
   {
     "id": 141,
@@ -4873,9 +5718,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "経済学のdistributionの訳語として明治期に定着した和製漢語。"
-    }
+      "source": "明六雑誌",
+      "note": "distributionの訳語として明六雑誌（1874-75年）を通じて経済・社会の文脈で普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 142,
@@ -4937,9 +5789,23 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "moleculeの訳語として明治期の化学・物理学翻訳書を通じて定着した和製漢語。"
-    }
+      "source": "舎密開宗",
+      "note": "moleculeの訳語として宇田川榕菴の『舎密開宗』（1837年）など幕末の化学書で「分子」が用いられ定着"
+    },
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/826651",
+        "note": "1837-47年刊行。日本最初の体系的な化学書。オランダ語原典から訳した"
+      },
+      {
+        "title": "化学新書",
+        "author": "川本幸民",
+        "url": "https://dl.ndl.go.jp/pid/992661",
+        "note": "1861年刊行。分子・原子などの化学用語を整備した著作"
+      }
+    ]
   },
   {
     "id": 144,
@@ -4968,9 +5834,23 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "atomの訳語として明治期の化学・物理学翻訳書を通じて定着した和製漢語。"
-    }
+      "source": "舎密開宗",
+      "note": "atomの訳語として宇田川榕菴の『舎密開宗』（1837年）など幕末の化学書で「原子」が用いられ定着"
+    },
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/826651",
+        "note": "1837-47年刊行。日本最初の体系的な化学書。オランダ語原典から訳した"
+      },
+      {
+        "title": "化学新書",
+        "author": "川本幸民",
+        "url": "https://dl.ndl.go.jp/pid/992661",
+        "note": "1861年刊行。原子・分子などの化学用語を整備した著作"
+      }
+    ]
   },
   {
     "id": 145,
@@ -5031,9 +5911,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "物質の三態を表す科学用語のうち、solidの訳語として明治期に整備された語。"
-    }
+      "source": "哲学字彙",
+      "note": "solidの訳語として1881年の『哲学字彙』に自然科学術語として収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 147,
@@ -5140,9 +6028,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "theoryの訳語として明治期に広まった語。"
-    }
+      "source": "哲学字彙",
+      "note": "theoryの訳語として1881年の『哲学字彙』に科学・哲学術語として収録"
+    },
+    "sources": [
+      {
+        "title": "哲学字彙",
+        "author": "井上哲次郎ほか",
+        "url": "https://dl.ndl.go.jp/pid/863637",
+        "note": "1881年（明治14年）刊行。明治期の哲学・科学用語を体系的に整備した訳語辞典"
+      }
+    ]
   },
   {
     "id": 150,
@@ -5171,9 +6067,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "1877年設置の東京大学「文学部」の名称にも採用され、「文学者」「文学作品」「文学部」など現代語と同様の用法が明治期に定着した。"
-    }
+      "source": "明六雑誌",
+      "note": "literatureの訳語として明六雑誌（1874-75年）を通じて近代的な文芸・学問分野として普及"
+    },
+    "sources": [
+      {
+        "title": "明六雑誌",
+        "url": "https://dl.ndl.go.jp/pid/991325",
+        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
+      }
+    ]
   },
   {
     "id": 151,
@@ -5240,9 +6143,22 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "comedyの訳語として明治期に「悲劇（tragedy）」の対概念として整備された語。"
-    }
+      "source": "西洋事情",
+      "note": "comedyの訳語として福沢諭吉の『西洋事情』（1866年）で西洋演劇の概念が紹介され定着"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      },
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 153,
@@ -5271,9 +6187,22 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "tragedyの訳語として明治期に「喜劇（comedy）」の対概念として整備された語。"
-    }
+      "source": "西洋事情",
+      "note": "tragedyの訳語として福沢諭吉の『西洋事情』（1866年）で西洋演劇の概念が紹介され定着"
+    },
+    "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/1160507",
+        "note": "1866-70年刊行。西洋の政治・社会・文化を日本に紹介した著作"
+      },
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 154,
@@ -5296,9 +6225,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "古来「国債」は他国への債務という意味でも用いられたが、欧州式の近代財政制度の導入とともにgovernment bondの訳語として再定義された。"
-    }
+      "source": "国立銀行条例",
+      "note": "government bondの訳語として明治期の国家財政制度整備とともに定着。国立銀行条例（1872年）が法的文脈での確立に寄与"
+    },
+    "sources": [
+      {
+        "title": "国立銀行条例",
+        "url": "https://dl.ndl.go.jp/pid/787953",
+        "note": "1872年（明治5年）制定。日本初の近代的銀行制度を定めた法令"
+      }
+    ]
   },
   {
     "id": 155,
@@ -5432,9 +6368,22 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "democracyの訳語として明治中期に定着した語。"
-    }
+      "source": "民約訳解",
+      "note": "中江兆民の民権運動と『民約訳解』（1882年）を通じてdémocratie/democracyの訳語「民主（主義）」が明治中期に定着"
+    },
+    "sources": [
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
+      },
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 159,
@@ -5496,9 +6445,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "与えられた権限の範囲を超えた行為を指す法律・行政用語として明治期の法制整備の中で用いられた。"
-    }
+      "source": "泰西国法論",
+      "note": "ultra viresの訳語として明治期の法典整備（民法・行政法）とともに定着"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 161,
@@ -5527,9 +6484,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "慣習・慣例として繰り返されてきた行為・様式を指す語として、明治の法制・社会文書に用いられた。"
-    }
+      "source": "泰西国法論",
+      "note": "custom/usageの訳語として明治期の法典整備とともに定着。津田真道の『泰西国法論』（1868年）が参照資料"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 162,
@@ -5552,9 +6517,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "複数の者が共同で使用・利用することを指す語として明治の法制文書に現れた。"
-    }
+      "source": "泰西国法論",
+      "note": "common useの訳語として明治期の民法・行政法整備とともに定着"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 163,
@@ -5577,9 +6550,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "ボワソナードを招いての民法典編纂過程（1880年代）で精緻化され、「私権の享有」「私権の制限」など民法の基本概念として定着した。"
-    }
+      "source": "泰西国法論",
+      "note": "private rightの訳語として明治期の民法典整備とともに定着。津田真道の公法学翻訳が基礎"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 164,
@@ -5602,9 +6583,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "名目上の権力に対して実際に行使される権力・権限を指す語として明治の政治・法制文書に用いられた。"
-    }
+      "source": "泰西国法論",
+      "note": "real powerの訳語として明治期の政治・法律文脈で定着"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 165,
@@ -5677,9 +6666,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "フランス法のpourvoi en cassation（破棄申立）や英米法のappealに相当する語として用いられ、明治23年（1890年）の旧民事訴訟法・旧刑事訴訟法の制定により法律上の術語として確定した。"
-    }
+      "source": "民事訴訟法",
+      "note": "appeal/pourvoi en cassationの訳語として1890年（明治23年）の民事訴訟法制定で「上告」が法的制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "民事訴訟法",
+        "url": "https://dl.ndl.go.jp/pid/787965",
+        "note": "1890年（明治23年）制定。上告制度を定めた法典"
+      }
+    ]
   },
   {
     "id": 167,
@@ -5708,9 +6704,17 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "規則・原則から外れる特別な事例を指す語として明治の法制・論理学文書に用いられた。"
-    }
+      "source": "泰西国法論",
+      "note": "exceptionの訳語として津田真道の『泰西国法論』（1868年）で法律・論理学用語として定着"
+    },
+    "sources": [
+      {
+        "title": "泰西国法論",
+        "author": "津田真道訳",
+        "url": "https://dl.ndl.go.jp/pid/789050",
+        "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
+      }
+    ]
   },
   {
     "id": 168,
@@ -5778,9 +6782,17 @@
     ],
     "first_attestation": {
       "year": 1834,
-      "source": null,
-      "note": "1830年代の化学書・植物学書で広く用いられ、酸素・窒素・炭素などと一群の近代元素名をなした。"
-    }
+      "source": "舎密開宗",
+      "note": "waterstof（蘭語・hydrogen）の訳語として宇田川榕菴が『舎密開宗』（1837年）で「水素」を創出"
+    },
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/826651",
+        "note": "1837-47年刊行。日本最初の体系的な化学書。オランダ語原典から訳した"
+      }
+    ]
   },
   {
     "id": 170,
@@ -5803,9 +6815,17 @@
     ],
     "first_attestation": {
       "year": 1834,
-      "source": null,
-      "note": "榕菴は当初「殺素」という案も用いたが、のちにより穏当で意味の通る「窒素」に改め、1830年代の著作を通じて定着させた。"
-    }
+      "source": "舎密開宗",
+      "note": "stikstof（蘭語・nitrogen）の訳語として宇田川榕菴が『舎密開宗』（1837年）で「窒素」を創出"
+    },
+    "sources": [
+      {
+        "title": "舎密開宗",
+        "author": "宇田川榕菴",
+        "url": "https://dl.ndl.go.jp/pid/826651",
+        "note": "1837-47年刊行。日本最初の体系的な化学書。オランダ語原典から訳した"
+      }
+    ]
   },
   {
     "id": 171,
@@ -6115,9 +7135,15 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "江戸後期にオランダ語 koffie を受けて広まった飲料名で、現在一般的な漢字表記「珈琲」は宇田川榕菴が最初に考案したとされる。"
-    }
+      "source": "長崎見聞録・外国資料",
+      "note": "koffie（蘭語）の音写として江戸後期の長崎で「珈琲」が用いられ、明治期に広く普及"
+    },
+    "sources": [
+      {
+        "title": "長崎見聞録・外国資料",
+        "note": "江戸後期の長崎における外国語表記。koffieの音写として「珈琲」が用いられた初期資料"
+      }
+    ]
   },
   {
     "id": 180,
@@ -6189,9 +7215,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "「信用」は古くから漢語として存在したが、明治期に西洋商業・金融制度の導入とともに credit の訳語として再編され、経済語彙としての意味が強くなった。"
-    }
+      "source": "英和対訳袖珍辞典",
+      "note": "credit/trustの訳語として英和対訳袖珍辞典（1862年）に収録。金融・商業の発展とともに定着"
+    },
+    "sources": [
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
+      }
+    ]
   },
   {
     "id": 182,
@@ -6214,9 +7247,15 @@
     ],
     "first_attestation": {
       "year": 1937,
-      "source": null,
-      "note": "「保健」は健康の保持・増進を意味する語として近代以降に広まり、とくに1937年の保健所法制定を契機に、公衆衛生行政や地域医療の文脈で制度語として定着した。"
-    }
+      "source": "保健所法",
+      "note": "1937年（昭和12年）の保健所法制定でpublic healthの訳語として「保健」が行政制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "保健所法",
+        "note": "1937年（昭和12年）制定。public healthの訳語「保健」が制度用語として確立した法令"
+      }
+    ]
   },
   {
     "id": 183,
@@ -6278,9 +7317,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "「弁護」はもともと漢語として「言葉を尽くしてかばう」意を持っていたが、近代司法制度の整備とともに defense や advocacy に対応する法律用語として整えられた。"
-    }
+      "source": "代言人規則",
+      "note": "1876年（明治9年）の代言人規則が弁護活動の制度的基礎。defense/advocacyの訳語「弁護」が法律用語として定着"
+    },
+    "sources": [
+      {
+        "title": "代言人規則",
+        "url": "https://dl.ndl.go.jp/pid/787878",
+        "note": "1876年（明治9年）制定。弁護士制度の前身を定めた規則"
+      }
+    ]
   },
   {
     "id": 185,
@@ -6303,9 +7349,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "「出版」は近世以来の刊本文化を背景に持ちながら、明治期に活版印刷と近代出版社の発達に伴って publication / publishing に対応する一般的な訳語として整った。"
-    }
+      "source": "出版条例",
+      "note": "1869年（明治2年）の出版条例でpublicationの訳語「出版」が制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "出版条例",
+        "url": "https://dl.ndl.go.jp/pid/787852",
+        "note": "1869年（明治2年）制定。出版を規制・定義した法令。「出版」が制度用語として確立"
+      }
+    ]
   },
   {
     "id": 186,
@@ -6328,9 +7381,16 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
-      "note": "「出席」は中国古典以来の漢語を背景に持つが、明治期に学校・議会・会議など近代的制度の普及とともに attendance や presence に対応する公的語として定着した。"
-    }
+      "source": "学制",
+      "note": "1872年（明治5年）の学制で学校制度が整備され、attendance/presenceの訳語「出席」が教育制度用語として確立"
+    },
+    "sources": [
+      {
+        "title": "学制",
+        "url": "https://dl.ndl.go.jp/pid/2604299",
+        "note": "1872年（明治5年）8月公布。日本最初の近代学校教育制度。教育関連用語を公的に確立"
+      }
+    ]
   },
   {
     "id": 187,
@@ -6458,7 +7518,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "Cambridge Dictionary",
       "note": "古くからある漢語だが、明治期に軍制・行政・法制度・学校文法の語彙として command / order / imperative に対応する制度語として再編された。"
     }
   },
@@ -6501,7 +7561,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「制度」",
       "note": "在来漢語を背景に、明治期の近代法・政治・社会思想の翻訳を通じて institution / system に対応する語として定着した。"
     }
   },
@@ -6544,7 +7604,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「空気」",
       "note": "江戸後期から明治期の自然科学受容の中で、air を物質として説明する語として定着した。"
     }
   },
@@ -6587,7 +7647,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「世界」",
       "note": "古くは仏教語として用いられ、明治期以後、近代地理学・国際社会・世界史の語彙として world に対応する意味が強まった。"
     }
   },
@@ -6630,7 +7690,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「本質」",
       "note": "明治期の哲学語彙整備の中で、essence / Wesen に対応する語として定着した。"
     }
   },
@@ -6673,7 +7733,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「condition」",
       "note": "明治期以後、法学・論理学・自然科学・社会科学の翻訳で condition に対応する語として広く定着した。"
     }
   },
@@ -6716,7 +7776,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「適応」",
       "note": "明治期の進化論・生物学の受容とともに、adaptation に対応する科学語として定着した。"
     }
   },
@@ -6759,7 +7819,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「実験」",
       "note": "明治期の自然科学教育・研究制度の整備とともに、experiment に対応する科学語として定着した。"
     }
   },
@@ -6860,7 +7920,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「建築」",
       "note": "明治期の工学教育・西洋建築受容の中で、architecture / building に対応する専門語として定着した。"
     }
   },
@@ -6977,7 +8037,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「organ」",
       "note": "明治期の機械工学・生物学・行政制度の翻訳語として、engine / organ / institution に対応して定着した。"
     }
   },
@@ -7046,7 +8106,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "Cambridge Dictionary",
       "note": "明治期以後、進歩・開化・社会変化を説明する development の訳語として広く定着した。"
     }
   },
@@ -7083,7 +8143,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「discover」",
       "note": "明治期の科学・地理・探検・技術紹介の中で、discovery に対応する語として定着した。"
     }
   },
@@ -7120,7 +8180,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「invention」",
       "note": "明治期の技術導入・特許制度の整備に伴い、invention に対応する技術語として定着した。"
     }
   },
@@ -7189,7 +8249,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "Cambridge Dictionary",
       "note": "明治期以後、政治・行政・教育・法制度の reform に対応する語として定着した。"
     }
   },
@@ -7227,7 +8287,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "Cambridge Dictionary",
       "note": "明治期以後、論説・法律・社会問題の語彙として solution / resolution に対応する語として定着した。"
     }
   },
@@ -7264,7 +8324,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「オブジェクト」",
       "note": "明治期の哲学・心理学語彙の整備の中で、object / Gegenstand に対応する語として定着した。"
     }
   },
@@ -7333,7 +8393,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「表現」",
       "note": "明治期以後、美学・文学・心理学・言語論の語彙として expression / representation に対応して定着した。"
     }
   },
@@ -7370,7 +8430,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "Cambridge Dictionary",
       "note": "明治期以後、哲学・文学・工学・制度論などで composition / structure / constitution に対応する語として定着した。"
     }
   },
@@ -7439,7 +8499,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "Collins Dictionary",
       "note": "明治期以後、化学・物理・心理学・社会論で reaction / response に対応する語として定着した。"
     }
   },
@@ -7476,7 +8536,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「効率」",
       "note": "明治期から大正期にかけて、工学・物理学・経営管理の語彙として efficiency に対応して定着した。"
     }
   },
@@ -7550,7 +8610,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「standard」",
       "note": "明治期以後、測定・教育・工業・行政で standard に対応する共通基準の語として定着した。"
     }
   },
@@ -7587,7 +8647,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "コトバンク「標準規格」",
       "note": "近代工業の発達と標準化の制度整備に伴い、standard / specification に対応する工業語として定着した。"
     }
   },
@@ -7661,7 +8721,7 @@
     ],
     "first_attestation": {
       "year": null,
-      "source": null,
+      "source": "Cambridge Dictionary",
       "note": "明治期以後、官庁・会社・学校・工場など近代組織の運営語として management / administration に対応して定着した。"
     }
   },
