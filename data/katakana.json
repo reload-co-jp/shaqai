@@ -517,5 +517,43 @@
         "note": "rough の粗い・乱暴・概略・未完成などの語義確認"
       }
     ]
+  },
+  {
+    "id": 19,
+    "katakana_word": "メタ",
+    "original_word": "meta",
+    "language": "英語・ギリシア語由来",
+    "category": "会話・創作",
+    "original_meaning": "自分自身や同種のものを参照する、より高次の視点から扱う。接頭辞としては「〜を超えた」「〜についての〜」の意をもつ。",
+    "japanese_meaning": "作品や会話が自分自身の構造や立場を意識して言及すること。転じて、一段引いて俯瞰的・自己言及的に見ること。",
+    "meaning_shift": "原語は接頭辞や形容詞として広く「高次・自己参照」を表すが、日本語ではとくに創作や会話での自己言及、いわゆる「メタ発言」の意味に寄って使われやすい。",
+    "description": "日本語の「メタ」は、学術用語の接頭辞としての meta から広がったが、日常会話ではアニメ・漫画・ゲーム・SNSなどで「作中人物が作品の外側を意識して話す」「会話の内容そのものではなく会話の枠組みを話題にする」といった自己言及的な意味で使われることが多い。英語でも meta は self-referential の近い意味で使われるが、日本語では「メタ発言」「メタい」のように、少し引いた視点そのものを軽く名指す語として定着している。",
+    "examples": [
+      {
+        "ja": "そのアニメは主人公が視聴者に話しかけるメタな演出で知られている。",
+        "en": "That anime is known for meta scenes where the protagonist speaks to the audience."
+      },
+      {
+        "ja": "今その言い方をするの、かなりメタだよね。",
+        "en": "Talking about it that way is pretty meta."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/meta",
+        "note": "meta の形容詞・接頭辞としての一般英語での語義確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/meta",
+        "note": "meta の self-referential な現代英語用法の確認"
+      },
+      {
+        "title": "@DIME",
+        "url": "https://dime.jp/genre/1968618/",
+        "note": "日本語の「メタ発言」の一般的な意味と用法確認"
+      }
+    ]
   }
 ]
