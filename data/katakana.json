@@ -555,5 +555,43 @@
         "note": "日本語の「メタ発言」の一般的な意味と用法確認"
       }
     ]
+  },
+  {
+    "id": 20,
+    "katakana_word": "アカウント",
+    "original_word": "account",
+    "language": "英語",
+    "category": "ネット・IT",
+    "original_meaning": "勘定、口座、報告、説明、顧客契約などを広く表す語。",
+    "japanese_meaning": "ウェブサービスやSNS、アプリなどを利用するための登録情報や利用資格、またはその利用者識別そのもの。",
+    "meaning_shift": "原語は会計・説明・取引先まで含む広い語だが、日本語では特にネットサービスの利用資格やIDまわりの意味に強く寄って定着した。",
+    "description": "日本語の「アカウント」は、もともとの英語 account がもつ「勘定」「口座」「説明」「顧客」などの幅広い意味のうち、主にコンピューターやネットワーク上でサービスを利用する権利、またはそれを識別するための登録単位という意味で広まった。現在では「アカウントを作る」「別アカウント」「アカウント停止」のように、SNSやメール、アプリ利用の前提となるデジタル上の身分や器を指す語として使われることが多く、原語の会計・報告の意味は日常会話ではかなり後景に退いている。",
+    "examples": [
+      {
+        "ja": "新しいSNSのアカウントを作った。",
+        "en": "I created an account for a new social media service."
+      },
+      {
+        "ja": "このアカウントでは写真だけを投稿している。",
+        "en": "I use this account only for posting photos."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%82%E3%81%8B%E3%81%86%E3%82%93%E3%81%A8-3206392",
+        "note": "日本語のアカウントの辞書的意味と、ネット上のサービス利用資格という用法を確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/ejword/account",
+        "note": "account の原義に勘定・口座・報告・顧客など広い意味があることを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/account",
+        "note": "account の英語での中心的意味と、ネット利用サービスの意味が原義群の一部にすぎないことを確認"
+      }
+    ]
   }
 ]

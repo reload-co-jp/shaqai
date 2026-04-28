@@ -15444,5 +15444,182 @@
       "source": "文明本節用集",
       "note": "辞書上は室町中期の語だが、公開資料から西暦年を確定しなかったため null とした。"
     }
+  },
+  {
+    "id": 418,
+    "japanese_word": "家庭",
+    "original_word": "home",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "近代",
+    "year": null,
+    "description": "「家庭」は、夫婦・親子などが生活をともにする小さな集団、またその生活の場を表し、英語 home の訳語として広く定着した。近代以後の教育・道徳・社会政策では、家族関係の情緒的基盤や生活空間を指す重要語となり、単なる「家」よりも近代的で内面的な共同体像を帯びるようになった。",
+    "etymology": "「家」は住まい・家族、「庭」はその内側の場。住居と生活空間をあわせて、身近な暮らしの単位を表す。",
+    "meanings": [
+      {
+        "en": "A home as the place and setting in which a family lives together.",
+        "ja": "家族が共同で暮らす生活の場。家の内側の暮らし。",
+        "example_en": "They hoped to build a peaceful home.",
+        "example_ja": "彼らは平和な家庭を築こうとした。"
+      },
+      {
+        "en": "A domestic unit centered on spouses, parents, and children.",
+        "ja": "夫婦や親子を中心とした小さな生活集団。",
+        "example_en": "The novel portrays the tensions within a modern family home.",
+        "example_ja": "その小説は近代家庭の緊張を描いている。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「家庭」",
+        "url": "https://kotobank.jp/word/%E5%AE%B6%E5%BA%AD-45442",
+        "note": "語義と home との対応を確認。"
+      },
+      {
+        "title": "コトバンク「home」",
+        "url": "https://kotobank.jp/ejword/home",
+        "note": "英和辞典で『家庭』が home の主要訳語の一つであることを確認。"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "不明",
+      "note": "公開辞書から近代語としての初出年を確定できなかったため null とした。"
+    }
+  },
+  {
+    "id": 419,
+    "japanese_word": "健康",
+    "original_word": "health",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 1,
+    "era": "幕末・明治初期",
+    "year": 1866,
+    "description": "「健康」は、身体の状態がよいこと、また心身が健全であることを表す語で、英語 health の訳語として近代に定着した。西洋医学や衛生思想の受容とともに、病気がないことだけでなく、良好な身体状態を積極的に保つ価値として広がった。近代以後の医療・教育・日常生活を支える基幹語である。",
+    "etymology": "「健」はすこやかで強いこと、「康」はやすらかで無事なこと。丈夫で安定した心身の状態を表す。",
+    "meanings": [
+      {
+        "en": "A sound state of body and mind; health.",
+        "ja": "体や心に異常がなく、すこやかな状態であること。",
+        "example_en": "Regular exercise helps maintain good health.",
+        "example_ja": "規則的な運動は健康の維持に役立つ。"
+      },
+      {
+        "en": "Freedom from illness or disorder.",
+        "ja": "病気や異常がないこと。",
+        "example_en": "He recovered his health after a long rest.",
+        "example_ja": "彼は長い休養ののち健康を取り戻した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「健康」",
+        "url": "https://kotobank.jp/word/%E5%81%A5%E5%BA%B7-60418",
+        "note": "語義と『西洋事情』初編の初出実例を確認。"
+      },
+      {
+        "title": "コトバンク「健康を英語で言うと」",
+        "url": "https://kotobank.jp/jeword/%E5%81%A5%E5%BA%B7",
+        "note": "health が主要対応語であることを確認。"
+      }
+    ],
+    "first_attestation": {
+      "year": 1866,
+      "source": "西洋事情 初編",
+      "note": "精選版日本国語大辞典は『西洋事情』初編（1866-70）を初出実例として掲げる。"
+    }
+  },
+  {
+    "id": 420,
+    "japanese_word": "競争",
+    "original_word": "competition / Konkurrenz",
+    "language": "英語・ドイツ語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "近代",
+    "year": null,
+    "description": "「競争」は、同じ目的に向かって互いに優劣や勝敗を争うことを表し、competition や Konkurrenz に対応する。近代経済では市場原理の中核語となり、教育・政治・生物学にも広く展開した。争いや勝負と違って、一定のルールや同一条件のもとで張り合う近代的な関係を示しやすい語である。",
+    "etymology": "「競」も「争」もきそうことを表す字で、力比べや張り合いを重ねて表現している。",
+    "meanings": [
+      {
+        "en": "Competition; striving against others for the same goal.",
+        "ja": "同じ目的に向かって優劣や勝敗をきそい合うこと。",
+        "example_en": "Free competition shaped the market.",
+        "example_ja": "自由競争が市場を形づくった。"
+      },
+      {
+        "en": "Rivalry in economic or social activity.",
+        "ja": "経済や社会活動における競り合い。",
+        "example_en": "The firms faced fierce competition.",
+        "example_ja": "その企業は激しい競争にさらされた。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「競争」",
+        "url": "https://kotobank.jp/word/%E7%AB%B6%E4%BA%89-52849",
+        "note": "語義と competition / Konkurrenz の対応を確認。"
+      },
+      {
+        "title": "コトバンク「Konkurrenz」",
+        "url": "https://kotobank.jp/dejaword/Konkurrenz",
+        "note": "独和辞典で『競争』が Konkurrenz の訳語であることを確認。"
+      }
+    ],
+    "first_attestation": {
+      "year": null,
+      "source": "不明",
+      "note": "公開辞書から近代語としての初出年と特定の訳者を確定できなかったため null とした。"
+    }
+  },
+  {
+    "id": 421,
+    "japanese_word": "版権",
+    "original_word": "copyright",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": 1,
+    "era": "幕末・明治期",
+    "year": 1887,
+    "description": "「版権」は、近代日本で英語 copyright の訳語として用いられた語で、当初は著作物の複製・販売に関する独占的権利を指した。出版文化と法制度の整備が進むなかで広まり、のちに法令用語としては「著作権」に置き換えられていくが、明治期にはなお一般的な語として強く流通していた。出版実務と近代法の接点を示す重要語である。",
+    "etymology": "「版」は印刷の版木や出版を、「権」は権利を表す。書物や図版を版にして世に出す権利という理解が込められている。",
+    "meanings": [
+      {
+        "en": "Copyright; the exclusive right to reproduce and publish a work.",
+        "ja": "著作物を複製・出版・販売することに関して独占的に持つ権利。",
+        "example_en": "The publisher acquired the copyright for the novel.",
+        "example_ja": "出版社はその小説の版権を取得した。"
+      },
+      {
+        "en": "In older usage, publication right in relation to printed editions.",
+        "ja": "古い用法では、出版物の版に関して認められる出版上の権利。",
+        "example_en": "The dispute centered on who held the publication right.",
+        "example_ja": "争点は誰が版権を持つかにあった。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「版権」",
+        "url": "https://kotobank.jp/word/%E7%89%88%E6%A8%A9-606314",
+        "note": "語義・語誌と1887-88年の初出実例を確認。"
+      },
+      {
+        "title": "コトバンク「copyright」",
+        "url": "https://kotobank.jp/ejword/copyright",
+        "note": "英和辞典で『版権』が copyright の訳語であることを確認。"
+      },
+      {
+        "title": "コトバンク「著作権」",
+        "url": "https://kotobank.jp/word/%E8%91%97%E4%BD%9C%E6%A8%A9-5821",
+        "note": "『版権』から『著作権』への語の移行についての語誌を確認。"
+      }
+    ],
+    "first_attestation": {
+      "year": 1887,
+      "source": "花間鶯",
+      "note": "精選版日本国語大辞典は『花間鶯』（1887-88）の実例を初出として掲げる。"
+    }
   }
 ]
