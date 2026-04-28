@@ -143,6 +143,23 @@ const Page: FC = () => {
           「社会」「経済」「哲学」——それらの言葉が生まれた背景を、ここで探ることができます。
         </p>
 
+        <p
+          style={{
+            fontSize: ".8125rem",
+            color: "#6f695b",
+            letterSpacing: ".03em",
+            marginBottom: "1.25rem",
+          }}
+        >
+          掲載語数
+          <span style={{ color: "#c8a96e", marginLeft: ".5rem" }}>
+            翻訳語 {words.length}語
+          </span>
+          <span style={{ color: "#7a9e82", marginLeft: ".75rem" }}>
+            カタカナ語 {katakanaWords.length}語
+          </span>
+        </p>
+
         <div style={{ display: "flex", gap: ".75rem", flexWrap: "wrap" }}>
           <a
             href="/whats/"
