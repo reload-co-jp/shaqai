@@ -82,7 +82,12 @@ export const metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja" className={bizUDPMincho.variable}>
-      <body style={{}}>
+      <body style={{
+        backgroundImage: "url('/images/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}>
         <header
           style={{
             backgroundColor: "#1c1810",
@@ -232,7 +237,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </header>
         <main
           style={{
-            background: "#130f09",
+            background: "rgba(19, 15, 9, 0.85)",
             minHeight: "calc(100dvh - 6rem)",
             padding: "1rem",
           }}
