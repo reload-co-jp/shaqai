@@ -82,7 +82,7 @@ export const metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja" className={bizUDPMincho.variable}>
-      <body>
+      <body style={{}}>
         <header
           style={{
             backgroundColor: "#1c1810",
@@ -268,7 +268,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               url: "https://shaqai.reload.co.jp/",
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://shaqai.reload.co.jp/search/?q={search_term_string}",
+                target:
+                  "https://shaqai.reload.co.jp/search/?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),
