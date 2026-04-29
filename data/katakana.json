@@ -593,5 +593,81 @@
         "note": "account の英語での中心的意味と、ネット利用サービスの意味が原義群の一部にすぎないことを確認"
       }
     ]
+  },
+  {
+    "id": 21,
+    "katakana_word": "セット",
+    "original_word": "set",
+    "language": "英語",
+    "category": "生活・サービス",
+    "original_meaning": "置く、整える、決める、一式、固定された状態など、非常に広い意味をもつ基本語。",
+    "japanese_meaning": "一式・ひとそろいのもの、配置や準備、機器の設定、試合中の勝負単位などを表す。",
+    "meaning_shift": "原語は動詞・名詞・形容詞として極端に意味が広いが、日本語では「一式」「設定」「準備」「1セット」のような限定された名詞・サ変用法に寄って定着した。",
+    "description": "日本語の「セット」は、英語 set のきわめて広い語義のうち、主に「一そろいのもの」「所定の位置に置く・整える」「機器を作動状態にする」「試合の一区切り」といった意味で使われるようになった。「ランチセット」「髪をセットする」「エアコンをセットする」のように日常語として広く定着しているが、英語の set はこれ以外にも「沈む」「固まる」「決める」「舞台背景」など非常に多くの意味をもつため、日本語の用法はその一部にかなり絞られている。",
+    "examples": [
+      {
+        "ja": "ランチはサラダとドリンクのセットにした。",
+        "en": "I chose the lunch set that came with a salad and a drink."
+      },
+      {
+        "ja": "出かける前にエアコンのタイマーをセットした。",
+        "en": "I set the air conditioner timer before leaving."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%9B%E3%81%A4%E3%81%A8-3182458",
+        "note": "日本語のセットの辞書的意味と用法を確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/set",
+        "note": "set の英語での非常に広い語義を確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/set",
+        "note": "set の基本的な英語用法と名詞・動詞の幅広さを確認"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "katakana_word": "コンプライアンス",
+    "original_word": "compliance",
+    "language": "英語",
+    "category": "仕事・制度",
+    "original_meaning": "要求・規則・命令などに従うこと。医学では服薬遵守、工学では弾性・たわみやすさも表す。",
+    "japanese_meaning": "企業や組織が法令や社内規範、社会的ルールを守って行動すること。とくに企業統治や不祥事防止の文脈で使われる。",
+    "meaning_shift": "原語は服従・遵守一般や医学・工学の専門義まで含むが、日本語ではとくに企業の法令遵守や倫理的統制を指す語として強く定着した。",
+    "description": "日本語の「コンプライアンス」は、英語 compliance のうち「規則や要求に従うこと」を基礎にしながら、主に企業経営や組織運営の場面で「法令遵守」や「不祥事を防ぐための内部統制」の意味で広まった。現在では単に法律を守るだけでなく、社会的責任やハラスメント防止まで含めて語られることが多い。一方、英語の compliance には患者の服薬遵守や、物体の弾性・たわみやすさといった専門的意味もあり、日本語の企業倫理寄りの使い方とはかなり幅が異なる。",
+    "examples": [
+      {
+        "ja": "その会社はコンプライアンス研修を全社員に義務づけている。",
+        "en": "The company requires compliance training for all employees."
+      },
+      {
+        "ja": "売上よりもコンプライアンスを優先すべきだという声が強まった。",
+        "en": "Calls grew stronger that compliance should take priority over sales."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%93%E3%82%93%E3%81%B7%E3%82%89%E3%81%84%E3%81%82%E3%82%93%E3%81%99-3152352",
+        "note": "日本語のコンプライアンスの辞書的意味と、企業の法令遵守・服薬遵守・工学的意味の併存を確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/compliance",
+        "note": "compliance の原義に要求への服従、規則遵守、柔軟性があることを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/compliance",
+        "note": "compliance の一般英語での語義を確認"
+      }
+    ]
   }
 ]

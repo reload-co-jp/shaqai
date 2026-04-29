@@ -15621,5 +15621,53 @@
       "source": "花間鶯",
       "note": "精選版日本国語大辞典は『花間鶯』（1887-88）の実例を初出として掲げる。"
     }
+  },
+  {
+    "id": 422,
+    "japanese_word": "政表",
+    "original_word": "statistics",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": 1,
+    "era": "幕末",
+    "year": 1860,
+    "description": "「政表」は、幕末に英語 statistics の訳語として用いられた初期の語で、各国の人口・財政・産業など国家の状態を表にまとめて示す知を指した。後に「統計」が定着するため一般語としては残らなかったが、明治初年には太政官の「政表課」や『辛未政表』のように公的名称にも使われ、近代国家が数値で社会を把握しようとした時代の痕跡をよく残している。",
+    "etymology": "「政」はまつりごと・国家統治、「表」はあらわすこと・表にまとめること。国家のありさまを表で示す学という理解を込めた訳語である。",
+    "meanings": [
+      {
+        "en": "Statistics, especially descriptive accounts of the condition of a state.",
+        "ja": "国家の人口・財政・産業などの状態を数量や表で示すこと。統計。",
+        "example_en": "Early Japanese scholars used 'seihyo' for statistics.",
+        "example_ja": "初期の日本では statistics を「政表」と訳した。"
+      },
+      {
+        "en": "A statistical table or compiled statement concerning government and society.",
+        "ja": "政治・社会の実情をまとめた統計表や統計書。",
+        "example_en": "The book presented international data in tabular form.",
+        "example_ja": "その書物は各国事情を政表として示した。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "統計局ホームページ「『統計』という言葉の起源」",
+        "url": "https://www.stat.go.jp/naruhodo/15_episode/episode/toukei.html",
+        "note": "statistics の訳語候補として「政表」が使われたことを確認。"
+      },
+      {
+        "title": "統計150年特設サイト「万國政表」",
+        "url": "https://www.stat.go.jp/museum/toukei150/shiryo/",
+        "note": "『萬國政表』が statistics に『政表』の訳語を付した最初の書で、福澤諭吉閲・岡本博卿訳、刊行年1860年であることを確認。"
+      },
+      {
+        "title": "統計150年特設サイト「辛未政表」",
+        "url": "https://www.stat.go.jp/museum/toukei150/shiryo/shiryo3.html",
+        "note": "明治初年の政府統計書名として『政表』が用いられたことを確認。"
+      }
+    ],
+    "first_attestation": {
+      "year": 1860,
+      "source": "萬國政表",
+      "note": "統計局資料によれば、statistics に「政表」という訳語を付した最初の書は『萬國政表』（1860）である。"
+    }
   }
 ]
