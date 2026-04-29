@@ -46,6 +46,35 @@ const Page: FC<Props> = async ({ params }) => {
   const translator = word.translator_id ? getTranslator(word.translator_id) : null
   const firstAttestation = getFirstAttestation(word)
   const sources = getWordSources(word)
+  const relatedWords = words
+    .filter((candidate) => {
+      if (candidate.id === word.id) return false
+      if (word.field_id && candidate.field_id === word.field_id) return true
+      if (
+        word.translator_id &&
+        candidate.translator_id === word.translator_id
+      ) {
+        return true
+      }
+      return false
+    })
+    .sort((a, b) => {
+      const score = (candidate: (typeof words)[number]) => {
+        let total = 0
+        if (word.field_id && candidate.field_id === word.field_id) total += 3
+        if (
+          word.translator_id &&
+          candidate.translator_id === word.translator_id
+        ) {
+          total += 2
+        }
+        if (candidate.era === word.era) total += 1
+        return total
+      }
+
+      return score(b) - score(a) || a.id - b.id
+    })
+    .slice(0, 4)
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -319,6 +348,78 @@ const Page: FC<Props> = async ({ params }) => {
           </p>
         )}
       </div>
+
+      {relatedWords.length > 0 && (
+        <div
+          style={{
+            background: "#1e1a12",
+            border: "1px solid #302b1e",
+            borderRadius: "3px",
+            padding: "1rem 1.5rem",
+            marginTop: "1.5rem",
+          }}
+        >
+          <h2
+            style={{
+              fontSize: ".8rem",
+              color: "#807870",
+              marginBottom: ".9rem",
+              textTransform: "uppercase",
+              letterSpacing: ".05em",
+            }}
+          >
+            類似の単語
+          </h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+              gap: ".75rem",
+            }}
+          >
+            {relatedWords.map((relatedWord) => {
+              const relatedField = getField(relatedWord.field_id)
+              return (
+                <Link
+                  key={relatedWord.id}
+                  href={`/words/${relatedWord.id}/`}
+                  style={{
+                    background: "#18140e",
+                    border: "1px solid #28241a",
+                    borderRadius: "3px",
+                    padding: ".85rem 1rem",
+                    textDecoration: "none",
+                    color: "inherit",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontSize: "1rem",
+                      color: "#c8a96e",
+                      fontWeight: "bold",
+                      marginBottom: ".25rem",
+                    }}
+                  >
+                    {relatedWord.japanese_word}
+                  </div>
+                  <div
+                    style={{
+                      fontSize: ".82rem",
+                      color: "#7a9e82",
+                      marginBottom: ".35rem",
+                    }}
+                  >
+                    {relatedWord.original_word}
+                  </div>
+                  <div style={{ fontSize: ".75rem", color: "#807870" }}>
+                    {relatedField?.name ?? relatedWord.era}
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      )}
     </div>
     </>
   )
