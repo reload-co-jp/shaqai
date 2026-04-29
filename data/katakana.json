@@ -669,5 +669,43 @@
         "note": "compliance の一般英語での語義を確認"
       }
     ]
+  },
+  {
+    "id": 23,
+    "katakana_word": "キャッチー",
+    "original_word": "catchy",
+    "language": "英語",
+    "category": "広告・表現",
+    "original_meaning": "人の注意や関心を引くこと。とくに曲・名前・標語などが覚えやすいこと。",
+    "japanese_meaning": "広告、音楽、タイトル、言い回しなどが人目を引き、覚えやすく受けそうであること。",
+    "meaning_shift": "原語は注意を引く・覚えやすいが中心だが、日本語では広告や音楽の世界で『受けがよい』『売れそう』という評価まで含む褒め言葉として使われやすい。",
+    "description": "日本語の「キャッチー」は、英語 catchy の「注意を引く」「耳に残る」という意味を受け継ぎつつ、主に広告コピー、曲のサビ、商品名、企画タイトルなどに対して「受けそう」「印象に残る」「売れ線っぽい」と評価する語として広まった。英語でも catchy は歌や名前に使われるが、日本語では特にポップカルチャーやマーケティングの文脈で褒め言葉として頻繁に用いられ、単なる記憶しやすさ以上に、軽快さや商業的な強さまで含めて語られることが多い。",
+    "examples": [
+      {
+        "ja": "このCMソングはすごくキャッチーで、一度聞くと忘れない。",
+        "en": "This commercial song is so catchy that you can't forget it after hearing it once."
+      },
+      {
+        "ja": "タイトルはもう少しキャッチーなほうがいいかもしれない。",
+        "en": "The title might work better if it were a bit catchier."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%8D%E3%82%84%E3%81%A4%E3%81%A1%E3%83%BC-476254",
+        "note": "日本語のキャッチーの辞書的意味と『受けそう』『人気になりやすい』という用法を確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/catchy",
+        "note": "catchy の原義に『注意を引く』『覚えやすい』があることを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/catchy",
+        "note": "catchy がとくに曲や言葉について『心地よく覚えやすい』ことを確認"
+      }
+    ]
   }
 ]
