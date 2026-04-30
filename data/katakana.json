@@ -707,5 +707,157 @@
         "note": "catchy がとくに曲や言葉について『心地よく覚えやすい』ことを確認"
       }
     ]
+  },
+  {
+    "id": 24,
+    "katakana_word": "サイダー",
+    "original_word": "cider",
+    "language": "英語",
+    "category": "飲食",
+    "original_meaning": "リンゴから作る酒、またはリンゴの搾り汁。英米でアルコールの有無や呼び方に差がある。",
+    "japanese_meaning": "甘みと香りを加えた炭酸水系の清涼飲料水。リンゴ由来とは限らず、通常はノンアルコール。",
+    "meaning_shift": "原語はリンゴを原料とする飲み物を指すが、日本語ではリンゴから離れ、透明な炭酸清涼飲料の名称として定着した。",
+    "description": "日本語の「サイダー」は、英語 cider の「リンゴ酒」という意味をもとにしながら、明治期以降の清涼飲料として、砂糖液や香料、酸味料を炭酸水と混ぜた飲み物を指す語として広まった。英語の cider はイギリスでは主にリンゴの発酵酒、アメリカではリンゴ果汁を指すことが多い。一方、日本語ではリンゴ味やアルコールの有無よりも、甘い炭酸飲料という性質が中心になっている。",
+    "examples": [
+      {
+        "ja": "風呂上がりに冷えたサイダーを飲んだ。",
+        "en": "I drank a cold Japanese-style sweet soda after taking a bath."
+      },
+      {
+        "ja": "子どものころ、夏祭りで瓶入りのサイダーを買ってもらった。",
+        "en": "When I was a child, my parents bought me bottled cider soda at a summer festival."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%95%E3%81%84%E3%81%A0%E3%83%BC-3152740",
+        "note": "日本語のサイダーが、リンゴ酒由来の語でありながら炭酸清涼飲料を指すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/cider",
+        "note": "cider が英語でリンゴの発酵酒、またはリンゴ搾汁を指すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/cider",
+        "note": "cider の中心義に発酵リンゴ果汁や果汁飲料があることを確認"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "katakana_word": "オーバー",
+    "original_word": "over",
+    "language": "英語",
+    "category": "数量・表現",
+    "original_meaning": "上に、越えて、向こうへ、終わって、超過してなどを表す前置詞・副詞・形容詞・接頭辞。",
+    "japanese_meaning": "数量や限度を超えること、表現や態度が大げさなこと。文脈により防寒用の外套や、スポーツ・写真の専門用法も表す。",
+    "meaning_shift": "原語は位置・移動・終了・超過などを広く表す機能語だが、日本語では主に『超過』と『大げさ』を表す名詞・形容動詞として定着した。",
+    "description": "日本語の「オーバー」は、英語 over の多義性のうち、数量や制限を超える意味と、表現が過度である意味を中心に受け入れた語である。「予算オーバー」「定員オーバー」のように名詞的に使われるほか、「オーバーな演技」のように形容動詞としても使われる。英語の over は本来、位置・移動・時間・終了・通信などにも広く使う基本語だが、日本語では日常語として『超えすぎ』『大げさ』という評価を帯びやすい。",
+    "examples": [
+      {
+        "ja": "旅行費用が予定より三万円オーバーした。",
+        "en": "The travel expenses went 30,000 yen over budget."
+      },
+      {
+        "ja": "彼のリアクションは少しオーバーだった。",
+        "en": "His reaction was a little exaggerated."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%8A%E3%83%BC%E3%81%B0%E3%83%BC-3208656",
+        "note": "日本語のオーバーが超過・外套略・露出過度・大げさなどを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/over",
+        "note": "over が位置、超過、終了、接頭辞など幅広い機能をもつことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/over",
+        "note": "over の副詞・前置詞・形容詞・接頭辞としての中心義と語源を確認"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "katakana_word": "タイム",
+    "original_word": "time",
+    "language": "英語",
+    "category": "スポーツ・時間",
+    "original_meaning": "時間、時刻、期間、時代、回数、機会、競技の所要時間などを広く表す語。",
+    "japanese_meaning": "時間や時刻のほか、速さを争う競技の記録、または運動競技で試合を一時中止することを表す。",
+    "meaning_shift": "原語は時間一般を広く表す基本語だが、日本語ではスポーツの記録や試合中断の合図としての用法が目立つ。",
+    "description": "日本語の「タイム」は、英語 time の「時間」という意味を受け継ぎつつ、「タイムを計る」「いいタイムが出る」のように競技記録を指す用法や、「タイムをかける」のように試合を一時中止する合図としての用法が定着した。英語の time は時刻・期間・時代・回数・機会などにも広く使われる基本語で、日本語でも複合語では幅広く使われるが、単独のカタカナ語ではスポーツ場面の響きが強い。",
+    "examples": [
+      {
+        "ja": "自己ベストに近いタイムが出た。",
+        "en": "I recorded a time close to my personal best."
+      },
+      {
+        "ja": "監督が審判にタイムを要求した。",
+        "en": "The coach asked the referee for a timeout."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%9F%E3%81%84%E3%82%80-1557954",
+        "note": "日本語のタイムが時間・競技記録・競技の一時中止を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/time",
+        "note": "time が時間、時刻、期間、機会、競技記録など広い語義をもつことを確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%9F%E3%81%84%E3%82%80%E3%81%82%E3%81%86%E3%81%A8-3213601",
+        "note": "time-out に由来するスポーツの競技休止時間という関連用法を確認"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "katakana_word": "ブレイン",
+    "original_word": "brain",
+    "language": "英語",
+    "category": "人物・組織",
+    "original_meaning": "脳、頭脳、知能、知的な人、集団の計画を立てる中心人物などを表す語。",
+    "japanese_meaning": "組織や指導者に知恵を貸す参謀・相談役・専門家。特に政治家や経営者を支える知的助言者を指す。",
+    "meaning_shift": "原語は身体器官としての脳が中心だが、日本語では『知恵を出す人』『参謀』という人物用法に寄って定着した。",
+    "description": "日本語の「ブレイン」は、「ブレーン」とも書かれ、英語 brain の比喩的な意味から、政策・経営・企画などでリーダーを支える知的助言者を指す語として使われる。英語の brain は第一に頭蓋内の器官としての脳を表し、そこから知能や知的な人、計画の中心人物という意味にも広がる。日本語では医学的な脳そのものよりも、「首相のブレイン」「社長のブレイン」のような参謀役の意味が目立つ。",
+    "examples": [
+      {
+        "ja": "彼は新政権の経済政策を支えるブレインだ。",
+        "en": "He is an intellectual adviser behind the new administration's economic policy."
+      },
+      {
+        "ja": "その企画は社外のブレインを交えて練り直された。",
+        "en": "The plan was reworked with outside experts serving as advisers."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%B6%E3%82%8C%E3%83%BC%E3%82%93-3168206",
+        "note": "日本語のブレーン/ブレインが頭脳・脳・ブレーントラストの略を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/brain",
+        "note": "brain の中心義が脳であり、知能・知的な人・計画の中心人物にも広がることを確認"
+      },
+      {
+        "title": "Britannica Dictionary",
+        "url": "https://www.britannica.com/dictionary/brain",
+        "note": "brain が身体器官、知能、知的な人、計画や決定の中心人物を表すことを確認"
+      }
+    ]
   }
 ]
