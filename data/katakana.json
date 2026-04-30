@@ -859,5 +859,195 @@
         "note": "brain が身体器官、知能、知的な人、計画や決定の中心人物を表すことを確認"
       }
     ]
+  },
+  {
+    "id": 28,
+    "katakana_word": "アメニティ",
+    "original_word": "amenity",
+    "language": "英語",
+    "category": "生活・宿泊",
+    "original_meaning": "快適さや心地よさ、生活を便利で快適にする設備・施設・サービス、社交上の礼儀などを表す語。",
+    "japanese_meaning": "快適性や居住性。特にホテルや宿泊施設で提供される歯ブラシ・石けん・シャンプーなどの備品を指すことが多い。",
+    "meaning_shift": "原語は快適さや便利な施設全般を広く表すが、日本語ではホテルの小物備品やアメニティグッズの意味に狭まりやすい。",
+    "description": "日本語の「アメニティ」は、英語 amenity の「快適さ」「便利な設備」という意味を受け継ぎ、建築・住宅分野では環境や居住性のよさを表す。一方、日常語ではホテルの洗面所などに置かれる歯ブラシ、石けん、シャンプー類をまとめて指す「アメニティグッズ」の略として使われることが多い。英語の amenity は公園、交通、プール、礼儀作法なども含む広い語だが、日本語では宿泊施設の備品名として強く定着している。",
+    "examples": [
+      {
+        "ja": "このホテルはアメニティが充実している。",
+        "en": "This hotel provides a good range of toiletries and guest amenities."
+      },
+      {
+        "ja": "環境に配慮して、使い捨てアメニティを減らす宿が増えている。",
+        "en": "More inns are reducing disposable toiletry amenities for environmental reasons."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%82%E3%82%81%E3%81%AB%E3%81%A6%E3%81%84-3141669",
+        "note": "日本語のアメニティが快適性、ホテル設備・調度・備品、特にアメニティグッズを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/amenity",
+        "note": "amenity が生活を快適・便利にする施設や設備を広く表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/amenity",
+        "note": "amenity が快適・便利・楽しさをもたらすもの、社交上の礼儀、快適性を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "katakana_word": "メジャー",
+    "original_word": "major / measure",
+    "language": "英語",
+    "category": "評価・計測",
+    "original_meaning": "major は大きい、重要な、主要な、専攻、長調などを表す語。measure は測定、寸法、尺度、測定器具、手段などを表す語。",
+    "japanese_meaning": "主要で大規模・有名であること、音楽の長調、メジャーリーグ、大手レーベル、または長さを測る巻尺を表す。",
+    "meaning_shift": "日本語では major と measure という別語源の語が同じ『メジャー』に合流し、『有名・大手』と『巻尺』の用法が日常語として目立つ。",
+    "description": "日本語の「メジャー」は、英語 major 由来では「メジャーな曲」「メジャーレーベル」のように有名・大手・主要という意味で使われ、measure 由来では長さを測る巻尺を指す。英語では major と measure は発音も意味も異なる別語だが、日本語では同じカタカナ表記になり、文脈ごとに評価語と道具名を切り替えて使う語になった。特に日常語では、単なる『主要』よりも『よく知られている』『大きな業界側』というニュアンスを帯びやすい。",
+    "examples": [
+      {
+        "ja": "そのバンドは去年メジャーデビューした。",
+        "en": "The band made its major-label debut last year."
+      },
+      {
+        "ja": "棚を買う前にメジャーで幅を測った。",
+        "en": "I measured the width with a tape measure before buying the shelf."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%82%81%E3%81%98%E3%82%84%E3%83%BC-1600036",
+        "note": "日本語のメジャーが major 由来の主要・有名・長調・メジャーリーグ・専攻と、measure 由来の計量・巻尺・尺度を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/major",
+        "note": "major の中心義に大きい、重要な、主要な、専攻、長調などがあることを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/measure",
+        "note": "measure の中心義に測定、寸法、尺度、測定器具、手段などがあることを確認"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "katakana_word": "セール",
+    "original_word": "sale",
+    "language": "英語",
+    "category": "商業・販売",
+    "original_meaning": "売ること、販売、売買契約、売上、競売、または通常より安く売る催しを表す語。",
+    "japanese_meaning": "店や通販で商品を通常より安く売る催し。特売、値下げ販売、バーゲンの意味で使われることが多い。",
+    "meaning_shift": "原語は販売行為や売上全般を広く表すが、日本語では『値引き販売の期間・催し』の意味に寄って定着した。",
+    "description": "日本語の「セール」は、英語 sale の多義のうち、特に商品を通常より安く売る催しを指す語として広まった。「夏のセール」「半期決算セール」のように、一定期間の値引き販売や販促イベントを表すことが多い。英語の sale は家や商品を売る行為、売買契約、売上、営業活動なども広く表すが、日本語の日常語では『安くなっている』という意味が前面に出やすく、単なる販売一般にはあまり使われない。",
+    "examples": [
+      {
+        "ja": "週末のセールでコートを半額で買った。",
+        "en": "I bought a coat for half price during the weekend sale."
+      },
+      {
+        "ja": "この店は季節の終わりに大きなセールをする。",
+        "en": "This store holds a big sale at the end of each season."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%9B%E3%83%BC%E3%82%8B-3159641",
+        "note": "日本語のセールが販売、特売、安売りを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/sale",
+        "note": "sale が販売行為と、通常より安く売る催しの両方を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/sale",
+        "note": "sale の中心義に販売、競売、安値販売、営業活動、売上があることを確認"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "katakana_word": "ファン",
+    "original_word": "fan",
+    "language": "英語",
+    "category": "芸能・文化",
+    "original_meaning": "扇、うちわ、扇風機・送風機、またはスポーツ・芸能などの熱心な愛好者や支持者を表す語。",
+    "japanese_meaning": "スポーツ、芸能、作品、人物などを熱心に支持・愛好する人。機械分野では送風機や換気装置も表す。",
+    "meaning_shift": "原語は送風器具と愛好者の二系統を広く表すが、日本語の単独語では主に『支持者・愛好者』の意味が中心になった。",
+    "description": "日本語の「ファン」は、英語 fan のうち、スポーツ選手、チーム、芸能人、作品などを熱心に応援する人を指す語として広く定着した。英語の fan には、扇・うちわ・扇風機・送風機という別系統の意味もあり、日本語でも「ファンヒーター」「換気ファン」のような複合語では使われる。しかし単独で「ファン」と言う場合は、機械よりも『応援する人』『好きな人』の意味が先に立ちやすい。",
+    "examples": [
+      {
+        "ja": "彼女はその作家の長年のファンだ。",
+        "en": "She has been a longtime fan of that author."
+      },
+      {
+        "ja": "パソコンのファンから大きな音がしている。",
+        "en": "The computer fan is making a loud noise."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%25E3%2581%25B5%25E3%2581%2582%25E3%2582%2593-3185662",
+        "note": "日本語のファンが熱心な支持者・愛好者、扇風機・送風機、fun 由来の楽しみを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/fan",
+        "note": "fan が愛好者・支持者と送風器具の両方を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/fan",
+        "note": "fan の送風器具としての語義と、fanatic の短縮形とされる愛好者の語義を確認"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "katakana_word": "トラック",
+    "original_word": "truck / track",
+    "language": "英語",
+    "category": "交通・競技",
+    "original_meaning": "truck は貨物や重い物を運ぶ車両。track は足跡、通り道、競走路、鉄道線路、録音・記録の区画、追跡することなどを表す語。",
+    "japanese_meaning": "貨物自動車、陸上競技の走路、録音や映像の記録単位、音楽作品の一曲分などを表す。",
+    "meaning_shift": "日本語では truck と track という別語が同じ『トラック』に合流し、貨物車と競走路・録音単位の意味が文脈で切り替わる。",
+    "description": "日本語の「トラック」は、英語 truck 由来では荷物を運ぶ貨物自動車を指し、track 由来では陸上競技の走路や、磁気テープ・レコード・デジタル音源の記録単位を指す。英語では truck と track は発音も意味も異なる別語だが、日本語では同じカタカナ表記で定着したため、「トラックが走る」「トラックを一周する」「ボーナストラック」のように、交通・競技・音楽の意味が文脈で切り替わる。",
+    "examples": [
+      {
+        "ja": "朝早く大きなトラックが荷物を運んできた。",
+        "en": "A large truck delivered the cargo early in the morning."
+      },
+      {
+        "ja": "彼は陸上競技場のトラックを三周走った。",
+        "en": "He ran three laps around the track at the stadium."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%A8%E3%82%89%E3%81%A4%E3%81%8F-3161006",
+        "note": "日本語のトラックが truck 由来の貨物自動車と、track 由来の走路・録音部分・記録単位・追跡を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/truck",
+        "note": "truck が貨物や重い物を運ぶ車両を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/track",
+        "note": "track が足跡、通り道、競走路、鉄道線路、録音区画、追跡などを表すことを確認"
+      }
+    ]
   }
 ]
