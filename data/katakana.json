@@ -1049,5 +1049,81 @@
         "note": "track が足跡、通り道、競走路、鉄道線路、録音区画、追跡などを表すことを確認"
       }
     ]
+  },
+  {
+    "id": 33,
+    "katakana_word": "クーポン",
+    "original_word": "coupon",
+    "language": "英語・フランス語由来",
+    "category": "商業・金融",
+    "original_meaning": "債券の利札、利率、割引や無料提供を受けるための券、申込用の切り取り用紙などを表す語。",
+    "japanese_meaning": "店やアプリで商品・サービスを割引価格または無料で利用するための券や電子コード。金融では債券の利札・表面利率も表す。",
+    "meaning_shift": "原語は利札や申込券まで含むが、日本語の日常語では販促用の割引・優待券、とくにスマホで使う電子クーポンの意味に寄りやすい。",
+    "description": "日本語の「クーポン」は、英語 coupon の金融用語としての利札や、切り取って使う券という意味を受け継ぎながら、日常では飲食店や通販、アプリなどで使う割引券・優待券を指す語として定着した。英語の coupon も割引券を表すが、債券の利札や利率、広告の申込用紙、配給券などにも使われる。日本語では紙で切り取る券に限らず、スマホ画面やコードを含む『お得に使える券』として意味が広がっている。",
+    "examples": [
+      {
+        "ja": "アプリのクーポンを使ってコーヒーを安く買った。",
+        "en": "I used an app coupon to get a discount on coffee."
+      },
+      {
+        "ja": "このクーポンは今月末まで使える。",
+        "en": "This coupon is valid until the end of this month."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%8F%E3%83%BC%E3%81%BD%E3%82%93-3209990",
+        "note": "日本語のクーポンが切り取り式の券、割引券・優待券、債券の利札を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/coupon",
+        "note": "coupon が割引・無料提供の券、広告の申込用紙、債券の利率や利札を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/coupon",
+        "note": "coupon が債券の利札、無料・割引を受ける券、切り取り式の証券類を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "katakana_word": "キャンペーン",
+    "original_word": "campaign",
+    "language": "英語",
+    "category": "広告・販売",
+    "original_meaning": "軍事作戦、選挙運動、政治・社会・広告などで特定の目的を達成するための組織的な一連の活動を表す語。",
+    "japanese_meaning": "企業や店舗が一定期間行う宣伝・販売促進活動。割引、特典、応募企画などを伴う販促イベントを指すことが多い。",
+    "meaning_shift": "原語は軍事・政治・社会運動まで広く表すが、日本語の日常語では商業的な宣伝・販促企画の意味に寄りやすい。",
+    "description": "日本語の「キャンペーン」は、英語 campaign の「目的達成のための組織的活動」という意味を受け継ぎつつ、日常では商品やサービスの宣伝、販売促進、期間限定の特典企画を指す語として広く使われる。「ポイント還元キャンペーン」「新生活応援キャンペーン」のように、広告・販促の響きが強い。英語の campaign は軍事作戦や選挙運動、社会運動にも普通に使われるため、日本語の商業イベント寄りの使い方とは重心が異なる。",
+    "examples": [
+      {
+        "ja": "コンビニでポイント還元キャンペーンが始まった。",
+        "en": "A points-back promotional campaign has started at the convenience store."
+      },
+      {
+        "ja": "その団体は交通安全キャンペーンを続けている。",
+        "en": "The organization continues its road safety campaign."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%8D%E3%82%84%E3%82%93%E3%81%BA%E3%83%BC%E3%82%93-3179782",
+        "note": "日本語のキャンペーンが宣伝・啓蒙・普及活動や、原義の野戦から広がった語であることを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/campaign",
+        "note": "campaign が政治・商業・軍事などで目的達成のために行う計画的活動を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/campaign",
+        "note": "campaign が軍事作戦と、特定結果を得るための一連の活動を表すことを確認"
+      }
+    ]
   }
 ]
