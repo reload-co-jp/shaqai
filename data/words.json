@@ -15669,5 +15669,37 @@
       "source": "萬國政表",
       "note": "統計局資料によれば、statistics に「政表」という訳語を付した最初の書は『萬國政表』（1860）である。"
     }
+  },
+  {
+    "id": 423,
+    "japanese_word": "観察",
+    "original_word": "observation",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「観察」はもとより仏教語（読み：かんざつ）として「智慧によって対象を正しく見極めること」を意味する語であった。明治5年（1872年）の学制発布にともない西洋の近代科学が学校教育に導入されると、英語 observation の対応語として既存の「観察」が転用された。仏教的な「心を集中させて真実を見極める」という観念が、自然科学の「対象を注意深く見てその変化を記録する」方法と意味的に共鳴したことが転用を容易にした。以後「観察」は理科教育の中核語として定着し、現代では科学的方法論の基本ステップを指す語として広く用いられている。",
+    "etymology": "「観」はよく見る・眺める意、「察」は明らかにする・詳しく調べる意。智慧によって対象を見極めるという仏教的字義が西洋科学の observation 概念に適合し転用された。",
+    "meanings": [
+      {
+        "en": "The action of carefully watching and noting phenomena in nature or an experiment in order to gain information.",
+        "ja": "対象の実態を知るために注意深く見て、その様子や変化を記録すること。自然観察・科学実験に用いる。",
+        "example_en": "Careful observation of the natural world is the foundation of scientific inquiry.",
+        "example_ja": "自然界の丁寧な観察が科学的探究の基礎となる。"
+      },
+      {
+        "en": "The act of watching someone or something carefully and continuously; surveillance.",
+        "ja": "人物や状況を継続的に注視・監視すること。",
+        "example_en": "The patient was kept under observation for three days.",
+        "example_ja": "患者は三日間観察下に置かれた。"
+      },
+      {
+        "en": "(Buddhist) Correct discernment of an object through wisdom; vipaśyanā.",
+        "ja": "（仏教）智慧によって対象を正しく見極める修行。ヴィパッサナーに相当。",
+        "example_en": "In Buddhist practice, kanzatsu refers to mindful contemplation through wisdom.",
+        "example_ja": "仏教では「観察（かんざつ）」は智慧による見極めを指す。"
+      }
+    ]
   }
 ]
