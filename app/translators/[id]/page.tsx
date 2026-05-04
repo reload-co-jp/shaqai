@@ -23,7 +23,7 @@ export const generateMetadata = async ({
   const { id } = await params
   const translator = getTranslator(Number(id))
   if (!translator) return {}
-  const title = translator.name
+  const title = `${translator.name} | 翻訳者`
   const firstPara = translator.description.split("\n\n")[0]
   const description =
     firstPara.length > 120 ? firstPara.slice(0, 120) + "…" : firstPara
@@ -184,7 +184,9 @@ const Page: FC<Props> = async ({ params }) => {
               >
                 {translatorWords.length}
               </span>
-              <span style={{ fontSize: ".75rem", color: "#807870" }}>訳語数</span>
+              <span style={{ fontSize: ".75rem", color: "#807870" }}>
+                訳語数
+              </span>
             </div>
             {languages.length > 0 && (
               <div style={statStyle}>
@@ -195,9 +197,9 @@ const Page: FC<Props> = async ({ params }) => {
                     color: "#e2dcd0",
                   }}
                 >
-                  {[...new Set(languages.map((l) => l.split("・")).flat())].join(
-                    " / "
-                  )}
+                  {[
+                    ...new Set(languages.map((l) => l.split("・")).flat()),
+                  ].join(" / ")}
                 </span>
                 <span style={{ fontSize: ".75rem", color: "#807870" }}>
                   翻訳元言語
@@ -303,7 +305,11 @@ const Page: FC<Props> = async ({ params }) => {
           <h3 style={{ fontSize: "1rem", color: "#e2dcd0" }}>
             訳語一覧
             <span
-              style={{ fontSize: ".8rem", color: "#807870", marginLeft: ".5rem" }}
+              style={{
+                fontSize: ".8rem",
+                color: "#807870",
+                marginLeft: ".5rem",
+              }}
             >
               {translatorWords.length}語
             </span>
