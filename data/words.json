@@ -15701,5 +15701,253 @@
         "example_ja": "仏教では「観察（かんざつ）」は智慧による見極めを指す。"
       }
     ]
+  },
+  {
+    "id": 424,
+    "japanese_word": "一致",
+    "original_word": "agreement",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「一致」はもとより古典漢語に存在した語で、「一つに致す」すなわち複数のものを同じ状態に至らせるという意を持つ。明治期に英語 agreement・accord・coincidence などの訳語として辞書・学術書に広く採用され、思想・政治・科学など分野を越えて定着した。「言文一致」「満場一致」「意見の一致」など複合語を多く生み、明治中期以降は日常語として確固たる地位を占めた。特定の訳者に帰せられるというより、複数の翻訳者・辞書編纂者が並行して用いた結果、自然に定着した語とみられる。",
+    "etymology": "「一」は統一・同一を示し、「致」は「至らしめる・引き寄せる」を意味する古典漢語の動詞。「一致」は「一つの状態に至らせる・ぴったり合う」の意を表す。",
+    "meanings": [
+      {
+        "en": "Agreement; the state of being in accord or harmony.",
+        "ja": "意見・内容・形状などが互いに合って同じであること。"
+      },
+      {
+        "en": "Coincidence; two events happening in the same way.",
+        "ja": "二つ以上の事柄が時・場所・内容において同じ状態になること。"
+      },
+      {
+        "en": "Accord; harmonious conformity in opinion among a group.",
+        "ja": "集団や複数者における意見・行動の調和的な合致。"
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "japanese_word": "口調",
+    "original_word": "tone",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「口調」は江戸後期の滑稽本『浮世風呂』（式亭三馬、1809〜13年）に「くてう」と仮名書きで既に用例が確認される日本固有の語であり、特定の翻訳者が西洋語から新造した語ではない。明治以降、英学・英和辞典の整備が進む中で、英語 tone（とくに tone of voice）の対応訳語として自然に充てられ、近代文学でも広く使われるようになった。今日では話し言葉のニュアンスや感情を表す語として定着し、英語 tone との意味的対応が強固になっている。",
+    "etymology": "「口」は口・言葉を、「調」は整ったリズム・調子を意味し、「言葉を口に出す際の調子」を表す。英語 tone はギリシャ語 tonos（張り・音程）→ラテン語 tonus を経て「声の調子・話し方」を意味するようになった。",
+    "meanings": [
+      {
+        "en": "The manner or quality of speaking; pitch, rhythm, and intonation of speech.",
+        "ja": "話すときの言葉の調子・言い回し。声の出し方や語の選び方に表れる特徴。"
+      },
+      {
+        "en": "The general attitude or feeling conveyed by speech or writing.",
+        "ja": "話し言葉や文章全体から伝わる雰囲気・態度・感情的な色合い。"
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "japanese_word": "極",
+    "original_word": "pole",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸末期〜明治初期",
+    "year": 1602,
+    "description": "「極」は地球・天球の端点を指す語として古代漢語にもともと存在し、イエズス会士マテオ・リッチが1602年に刊行した『坤輿万国全図』で西洋地理学術語として確立された。江戸時代に同地図の摸本が普及し「北極」「南極」が地球科学の標準語となった。幕末から明治にかけて「磁極」「電極」へ用法が拡張し、1893年の『電気訳語集』に両語が収録されたことで科学全般の術語として定着した。",
+    "etymology": "形声文字。「木」（棟木）＋音符「亟」から成り、もとは建物の棟木を意味し「きわみ」へ転義。英語 pole はギリシャ語 pólos（天球の回転軸）→ラテン語 polus（軸の端）を経た語で、両語の「きわみ・軸端」という字義が合致した。",
+    "meanings": [
+      {
+        "en": "Either of the two points (North Pole or South Pole) at the ends of the Earth's axis of rotation.",
+        "ja": "地球の自転軸の両端点（北極・南極）。",
+        "example_en": "The expedition set out to reach the North Pole.",
+        "example_ja": "探検隊は北極点を目指して出発した。"
+      },
+      {
+        "en": "Either of the two regions where a magnet's attractive force is strongest (N pole or S pole).",
+        "ja": "磁石の磁力が最も強い両端（N極・S極）。"
+      },
+      {
+        "en": "A conductor through which electric current enters or leaves (electrode).",
+        "ja": "電池・電解槽で電流が出入りする端子（電極）。"
+      },
+      {
+        "en": "A point at which a function takes an infinite value in complex analysis.",
+        "ja": "複素解析で関数が無限大となる特異点。"
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "japanese_word": "官能",
+    "original_word": "faculty",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1875,
+    "description": "英語 faculty の訳語として西周が明治8年（1875年）に刊行を開始したジョゼフ・ヘブン著『Mental Philosophy』の翻訳書『心理学』において用いた語。「感覚器官（官）の働き・能力（能）」を意味し、知覚・記憶・判断など個々の「心的能力」を指す能力心理学（faculty psychology）の基本概念に充てられた。西周は「官能」を心の諸能力を体系的に分類・記述する鍵語として使い、「本能」「才能」など「能」を末尾に置く訳語群を整えた。明治14年（1881年）の『哲学字彙』では類語「能力」も収録され、両語が哲学・心理学の文脈で並存した。",
+    "etymology": "「官」は感覚器官・職能・担い手を意味し、「能」は「できる・はたらき・能力」を意味する。合わせて「感覚器官の働き・心的能力」を字義とする。英語 faculty はラテン語 facultas（能力・容易さ）に由来する。",
+    "meanings": [
+      {
+        "en": "A mental power or ability, such as reason, memory, or perception.",
+        "ja": "理性・記憶・知覚など、心の個々の能力・機能。",
+        "example_en": "The faculty of reason distinguishes humans from other animals.",
+        "example_ja": "理性の官能は人間を他の動物から区別する。"
+      },
+      {
+        "en": "A natural aptitude or talent.",
+        "ja": "生まれながらの適性・才能。"
+      },
+      {
+        "en": "A sensory organ or its function.",
+        "ja": "感覚器官またはその機能。"
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "japanese_word": "学校",
+    "original_word": "school",
+    "language": "英語・フランス語",
+    "field_id": 6,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1872,
+    "description": "「学校」は古代中国の漢語として既に存在していた語であり、明治5年（1872年）の学制発布によってschoolの制度的訳語として定着した。学制は小学校・中学校・大学を全国に設置し、身分・性別を問わない国民皆学を目指した。フランスの学区制・アメリカの教育内容を参考に制定され、1886年に初代文部大臣・森有礼が学校令を発布したことで「学校」という語は近代教育制度の中核語彙として完全に定着した。",
+    "etymology": "「学」は学ぶ・学問を意味し、「校」は木を交差させた囲い・場所の意から転じてまなびやを指す。古代中国の王莽が設置した儒学の「学」「校」に由来し、周礼の教育機関概念にも通じる古典漢語。",
+    "meanings": [
+      {
+        "en": "An institution for educating children or students under teachers.",
+        "ja": "教師のもとで子どもや生徒に教育を行う機関・施設。",
+        "example_en": "Children are required to attend school until the age of fifteen.",
+        "example_ja": "子どもたちは15歳まで学校に通うことが義務づけられている。"
+      },
+      {
+        "en": "A system of education; the period of one's schooling.",
+        "ja": "教育制度全般、またはその人の就学期間。",
+        "example_en": "He finished school and went on to university.",
+        "example_ja": "彼は学校を終えて大学に進んだ。"
+      },
+      {
+        "en": "A group of people who share the same ideas, methods, or style (school of thought).",
+        "ja": "同じ思想・方法・様式を共有する一派・流派（思想の流派）。",
+        "example_en": "He belongs to the Chicago school of economics.",
+        "example_ja": "彼はシカゴ学派に属する経済学者だ。"
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "japanese_word": "驚愕",
+    "original_word": "astonishment",
+    "language": "英語",
+    "field_id": null,
+    "translator_id": null,
+    "era": "古典漢語由来",
+    "year": null,
+    "description": "「驚愕」は古典漢語に由来する語で、日本への伝来は室町期以前に遡り、15世紀末〜16世紀初頭の『新撰類聚往来』に「人々驚愕出意表候」と使用例が確認される。中国古典の『戦国策』燕策にも同語が見られる。英語 astonishment・consternation・amazement などの翻訳語として明治期に定着し、1886年刊の『改正増補和英語林集成』にも収録される。夏目漱石『吾輩は猫である』（1905年）にも用例がある。近代以降は心理学・生理学用語「驚愕反応（startle response）」の核語としても機能している。",
+    "etymology": "「驚」は馬＋音符「敬」からなる形声字で、馬が突然驚いて跳ね上がる様を表し「おどろく」を意味する。「愕」はりっしんべん（心）＋「咢」からなり、突然の衝撃に心が止まるような強い驚きを表す。両字を重ねて「ひどく驚く」の意を強調した語。",
+    "meanings": [
+      {
+        "en": "A feeling of great surprise or shock; the state of being astonished.",
+        "ja": "非常に強い驚き・衝撃の感情。突然の出来事や衝撃的な事実に接してひどく驚くこと。",
+        "example_en": "She stared at him in astonishment.",
+        "example_ja": "彼女は驚愕して彼を見つめた。"
+      },
+      {
+        "en": "Overwhelming surprise combined with terror or dismay (consternation).",
+        "ja": "恐怖や当惑を伴う圧倒的な驚き（consternation）。",
+        "example_en": "The news filled the crowd with consternation.",
+        "example_ja": "その知らせは群衆を驚愕させた。"
+      },
+      {
+        "en": "The startle response; an involuntary physiological reaction to a sudden, unexpected stimulus.",
+        "ja": "驚愕反応。突然の予期せぬ刺激に対する不随意の生理的反射反応（startle response）。",
+        "example_en": "The startle response is a universal reflex observed in all mammals.",
+        "example_ja": "驚愕反応はすべての哺乳類に観察される普遍的な反射である。"
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "japanese_word": "親和",
+    "original_word": "affinity",
+    "language": "英語・オランダ語（affiniteit）",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "宇田川榕菴が天保8年（1837年）刊行開始の『舎密開宗』内篇第一巻において、異種物質の結合しやすさを表すオランダ語 affiniteit の訳語として「親和力（しんわりょく）」を用いたのが初出とされる。榕菴はオランダ語原典を重訳・増注しながら、「互いに親しみ和する力」という字義が chemical affinity の概念に合致すると判断し、「親和」を選んだ。明治以降、化学・生物学の教科書に引き継がれて「化学親和力」「親和性」へ発展し、20世紀には社会学・心理学でも「対人親和」「親和欲求」（affiliation）の語根として定着した。",
+    "etymology": "「親」は人が近づき親しむことを意味し、「和」は争いなく調和・なごむことを意味する。合わせて「互いになじみ調和する」という字義となる。英語 affinity はラテン語 affinitas（境界を共にすること・縁戚関係）に由来し、ad-（～へ）＋ finis（境界・端）から成り、「境界を接する→近さ・親しさ」を意味する。",
+    "meanings": [
+      {
+        "en": "A natural attraction or liking between people or things; a feeling of kinship.",
+        "ja": "人や物事の間の自然な引力・親しみ・共感。",
+        "example_en": "She felt a strong affinity with the people of this country.",
+        "example_ja": "彼女はこの国の人々に強い親和を感じた。"
+      },
+      {
+        "en": "Chemical affinity: the tendency of a substance to react or combine with another substance.",
+        "ja": "化学親和力：物質が他の物質と反応・結合しやすい性質。",
+        "example_en": "The affinity of zinc for sulfuric acid is greater than that of lead.",
+        "example_ja": "亜鉛と硫酸の親和力は鉛と硫酸のそれよりも強い。"
+      },
+      {
+        "en": "A relationship by marriage (as opposed to consanguinity); kinship through marriage.",
+        "ja": "婚姻によって生じる親族関係（血族関係に対して）。",
+        "example_en": "Relationships through affinity are distinguished from those through blood.",
+        "example_ja": "姻戚（親和）による関係は血縁による関係と区別される。"
+      },
+      {
+        "en": "A resemblance or structural similarity between languages, species, etc.",
+        "ja": "言語・種などの間の類似性・系統的近縁性。",
+        "example_en": "There is a clear affinity between these two languages.",
+        "example_ja": "この二言語の間には明確な親和（類縁性）がある。"
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "japanese_word": "年齢",
+    "original_word": "age",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「年齢」は古典漢語に由来する既存語であったが、明治期に英語ageおよびドイツ語Alter・オランダ語leeftijdの訳語として法律・行政・社会の各分野で一般化した。明治35年（1902年）の「年齢計算ニ関スル法律」をはじめ明治民法の整備を通じて法律用語として確立し、従来の「よわい（齢）」「数え年」に代わって個人の生涯経過年数を表す標準的な語として定着した。",
+    "etymology": "「年」は穀物の一年の実りから転じて年月・歳月を表し、「齢」は歯（歯列の変化で年齢を判断した古代の慣習）に由来する形声字で生きた年数を意味する。両字とも古典漢語に存在し、それぞれ「よわい」に相当する。",
+    "meanings": [
+      {
+        "en": "The length of time a person has lived or a thing has existed.",
+        "ja": "人が生きてきた年数、または物事が存在してきた期間。",
+        "example_en": "What is your age?",
+        "example_ja": "あなたの年齢は何歳ですか？"
+      },
+      {
+        "en": "A particular period of life.",
+        "ja": "人生の特定の時期・段階。",
+        "example_en": "Old age brings its own wisdom.",
+        "example_ja": "老齢はそれ固有の知恵をもたらす。"
+      },
+      {
+        "en": "A distinct period of history; an era.",
+        "ja": "歴史上の特定の時代・時期。",
+        "example_en": "We live in the age of information.",
+        "example_ja": "私たちは情報の時代に生きている。"
+      },
+      {
+        "en": "The process or condition of growing old.",
+        "ja": "老いること、加齢の状態・過程。",
+        "example_en": "His face showed the effects of age.",
+        "example_ja": "彼の顔には加齢の影響が表れていた。"
+      }
+    ]
   }
 ]
