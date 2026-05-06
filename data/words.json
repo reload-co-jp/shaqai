@@ -15949,5 +15949,3913 @@
         "example_ja": "彼の顔には加齢の影響が表れていた。"
       }
     ]
+  },
+  {
+    "id": 432,
+    "japanese_word": "流体",
+    "original_word": "fluid",
+    "language": "英語・オランダ語（fluide / vloeistof）",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期",
+    "year": null,
+    "description": "「流体」は、気体・液体のように一定の形を保たず流動する物質を表す物理学語である。近世後期の蘭学書『厚生新編』（1811〜1839年頃）に「凝体並に流体」と見え、固体に対する概念として早くから用いられた。訳者個人は特定しにくいため不明とした。明治以降、物理学・工学教育の整備とともにfluidの定訳として定着し、「流体力学」「流体機械」などの専門語を生んだ。",
+    "etymology": "「流」は水がながれること、「体」は物質・からだ・形あるものを表す。合わせて「流れる性質をもつ物体」の意。英語fluidはラテン語fluere（流れる）に由来する。",
+    "meanings": [
+      {
+        "en": "A substance that can flow and has no fixed shape, especially a liquid or a gas.",
+        "ja": "流動し、一定の形をもたない物質。物理学では主に液体と気体の総称。",
+        "example_en": "Water and air are both fluids.",
+        "example_ja": "水と空気はいずれも流体である。"
+      },
+      {
+        "en": "A liquid substance, especially a bodily or technical liquid.",
+        "ja": "液体。体液・作動液など、流れる物質一般。",
+        "example_en": "The machine uses hydraulic fluid.",
+        "example_ja": "その機械は作動流体を用いる。"
+      },
+      {
+        "en": "A state or situation that is changeable and not fixed.",
+        "ja": "固定せず変化しやすい状態。比喩的には流動的な情勢。",
+        "example_en": "The situation remains fluid.",
+        "example_ja": "状況はなお流動的である。"
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "japanese_word": "聴学",
+    "original_word": "acoustics / auditory science",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期以降",
+    "year": null,
+    "description": "「聴学」は、音を聞く作用や聴覚をめぐる学問を表す語として用いられることがあるが、現代日本語では標準的な学術語としては定着していない。音の発生・伝播・聴覚感覚まで扱う分野は通常「音響学」、言語音の聞き取りを扱う場合は「聴覚音声学」と呼ばれる。したがって本項ではacousticsおよびauditory scienceの周辺訳語として扱い、訳者・初出年は不明とした。",
+    "etymology": "「聴」は耳で聞くこと、注意して音を受け取ることを表し、「学」は体系的な研究を意味する。合わせて「聞く働きについての学問」の意。",
+    "meanings": [
+      {
+        "en": "The study of hearing or auditory perception.",
+        "ja": "聴覚・聞き取り・音の知覚を研究する学問。",
+        "example_en": "Auditory science studies how humans perceive sound.",
+        "example_ja": "聴学は人間が音をどう知覚するかを扱う。"
+      },
+      {
+        "en": "Acoustics: the science of sound, including its production, propagation, and perception.",
+        "ja": "音響学。音の発生・伝播・検出・聴覚への作用を扱う学問。",
+        "example_en": "Acoustics is important in concert hall design.",
+        "example_ja": "ホール設計では聴学（音響学）の知識が重要である。"
+      },
+      {
+        "en": "Learning through listening or oral instruction.",
+        "ja": "耳で聞くことを中心とする学習・聴覚的な学び。",
+        "example_en": "Some students prefer auditory learning.",
+        "example_ja": "聴学を好む学習者もいる。"
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "japanese_word": "音論",
+    "original_word": "phonology",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "昭和期以降",
+    "year": null,
+    "description": "「音論」は、言語の音を扱う研究領域を指す短い学術語として用いられる。現代の標準的な訳語は「音韻論」であり、phonologyは言語音を音素などの単位として抽象し、その体系・結合・機能を分析する分野をいう。「音論」は入門書や個別言語の記述文法で章題として使われることがあるが、訳者・初出年は特定しにくいため不明とした。",
+    "etymology": "「音」は言語音・声の響き、「論」は体系的に論じることを表す。英語phonologyはギリシア語phone（声・音）と-logy（学問）に由来する。",
+    "meanings": [
+      {
+        "en": "Phonology: the branch of linguistics that studies the sound system of a language.",
+        "ja": "音韻論。言語の音の体系・構造・機能を研究する言語学の一部門。",
+        "example_en": "Phonology analyzes the contrast between /k/ and /t/.",
+        "example_ja": "音論は /k/ と /t/ の対立を分析する。"
+      },
+      {
+        "en": "A phonological description of a particular language or dialect.",
+        "ja": "特定の言語・方言における音体系の記述。",
+        "example_en": "The grammar includes a chapter on the phonology of the language.",
+        "example_ja": "その文法書には当該言語の音論の章がある。"
+      },
+      {
+        "en": "The study of speech sounds broadly, including their phonetic and phonological aspects.",
+        "ja": "音声面と音韻面を含めた、言語音研究の総称的な用法。",
+        "example_en": "The course introduces basic sound theory before syntax.",
+        "example_ja": "その授業は統語論の前に基礎的な音論を扱う。"
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "japanese_word": "無欲",
+    "original_word": "disinterestedness / unselfishness / desirelessness",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "平安期以前",
+    "year": 892,
+    "description": "「無欲」は古典漢語・仏教語の系譜をもつ語で、欲望や貪りを離れた状態を表す。近代以降は disinterestedness や unselfishness の訳語として、利害に動かされない態度、私心のない公平さ、金銭や名誉に執着しない人格を表す語として広く用いられた。英語 disinterestedness には客観性・公平無私の意味があり、単なる無関心とは区別される。",
+    "etymology": "「無」はないこと、「欲」はほしがる心・欲望を表す。合わせて「欲がない」「貪らない」の意。disinterestedness は interest（利害・関心）を離れた状態をいう。",
+    "meanings": [
+      {
+        "en": "The quality of being free from selfish desire or personal gain.",
+        "ja": "私欲や利益への執着がないこと。",
+        "example_en": "Her unselfishness won the trust of the community.",
+        "example_ja": "彼女の無欲さは地域の信頼を得た。"
+      },
+      {
+        "en": "Impartiality or freedom from bias, especially in judgment.",
+        "ja": "利害に左右されない公平無私の態度。",
+        "example_en": "A judge must act with disinterestedness.",
+        "example_ja": "裁判官には無欲で公平な判断が求められる。"
+      },
+      {
+        "en": "A state of having few desires or being detached from craving.",
+        "ja": "欲望を離れ、執着の少ない状態。",
+        "example_en": "Buddhist practice values freedom from craving.",
+        "example_ja": "仏教の修行では無欲が重んじられる。"
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "japanese_word": "事業",
+    "original_word": "business / enterprise / undertaking",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1875,
+    "description": "「事業」は古くから「しごと・わざ」を表す漢語であったが、明治期に business や enterprise に対応して、一定の目的をもって継続的に行う経済活動・社会活動を表す語として再編された。福沢諭吉『文明論之概略』（1875年）にも近代的意味の用例が見える。営利企業だけでなく、公共事業・慈善事業のように社会的目的をもつ活動にも広く用いられる。",
+    "etymology": "「事」は行うべき仕事・ことがら、「業」は継続的な仕事・営みを表す。business は古英語の busy に由来し、活動・商売・会社などへ意味が広がった。",
+    "meanings": [
+      {
+        "en": "The activity of buying and selling goods or services; commerce.",
+        "ja": "商品やサービスを売買する経済活動。商業・営業。",
+        "example_en": "The company does business overseas.",
+        "example_ja": "その会社は海外で事業を行っている。"
+      },
+      {
+        "en": "A company, organization, or enterprise.",
+        "ja": "営利または公益の目的で運営される組織・企業・活動体。",
+        "example_en": "He started a small business.",
+        "example_ja": "彼は小さな事業を始めた。"
+      },
+      {
+        "en": "An undertaking or project, especially one requiring sustained effort.",
+        "ja": "継続的な努力を要する企て・計画・社会的仕事。",
+        "example_en": "The road project was a major public undertaking.",
+        "example_ja": "道路建設は大きな公共事業だった。"
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "japanese_word": "万物",
+    "original_word": "all things / all creation / universe",
+    "language": "英語・ラテン語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "古典漢語由来",
+    "year": null,
+    "description": "「万物」は古典漢語に由来し、天地の間に存在するすべてのものを表す語である。近代以降は all things、all creation、universe などの訳語として、哲学・宗教・自然科学の文脈で使われた。「万物の霊長」「万物流転」のように、人間・自然・宇宙をまとめて指す総称として定着している。個別の訳者や初出年は特定しにくいため不明とした。",
+    "etymology": "「万」は非常に多い数、「物」は存在するもの・事物を表す。合わせて「あらゆる存在」の意。universe はラテン語 universum（一つにまとめられたもの）に由来する。",
+    "meanings": [
+      {
+        "en": "All things that exist.",
+        "ja": "存在するすべてのもの。天地間のあらゆる事物。",
+        "example_en": "All things change.",
+        "example_ja": "万物は流転する。"
+      },
+      {
+        "en": "All creation, especially in a religious or philosophical sense.",
+        "ja": "神や自然によって存在するもの全体。被造物全体。",
+        "example_en": "Humans are often called the lord of creation.",
+        "example_ja": "人間は万物の霊長と呼ばれる。"
+      },
+      {
+        "en": "The universe; the totality of nature and existence.",
+        "ja": "宇宙・自然界・存在全体。",
+        "example_en": "Philosophy asks what underlies the universe.",
+        "example_ja": "哲学は万物の根源を問う。"
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "japanese_word": "布施",
+    "original_word": "dāna",
+    "language": "サンスクリット語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "古代仏教漢訳",
+    "year": null,
+    "description": "「布施」はサンスクリット語 dāna の漢訳語で、仏教で他者に施しをする行為を表す。六波羅蜜の一つとして、金品を与える財施、仏法を説く法施、恐怖を取り除く無畏施などに分けられる。日本では僧への読経・法要の謝礼として渡す金銭や品物を指す日常語としても定着した。訳者個人や日本語での初出年は特定しにくいため不明とした。",
+    "etymology": "「布」は広く行き渡らせること、「施」はほどこし与えることを表す。dāna はサンスクリット語で「与えること・贈与・施し」を意味する。",
+    "meanings": [
+      {
+        "en": "Dāna; the Buddhist practice of giving or generosity.",
+        "ja": "仏教で、他者に施しをする修行・徳目。",
+        "example_en": "Dāna is one of the perfections in Buddhism.",
+        "example_ja": "布施は仏教の六波羅蜜の一つである。"
+      },
+      {
+        "en": "Alms or offerings given to monks, temples, or people in need.",
+        "ja": "僧侶・寺院・困窮者などへ与える金品や施し。",
+        "example_en": "The villagers offered alms to the monks.",
+        "example_ja": "村人たちは僧に布施をした。"
+      },
+      {
+        "en": "A payment or offering given to a priest for a Buddhist service.",
+        "ja": "読経や法要への謝礼として僧に渡す金銭・品物。",
+        "example_en": "The family prepared an offering for the memorial service.",
+        "example_ja": "家族は法要の布施を用意した。"
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "japanese_word": "天使",
+    "original_word": "angel",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 1,
+    "era": "幕末〜明治初期",
+    "year": 1866,
+    "description": "「天使」は本来、天子の使者・勅使を意味する漢語であったが、幕末明治期に英語 angel の訳語としてキリスト教的な神の使者を表す語になった。福沢諭吉『西洋事情』（1866〜1870年）に angel の訳語としての用例があり、以後、聖書・宗教書・文学を通じて定着した。現代では神に仕える霊的存在のほか、心の清らかな人や優しい人の比喩にも用いられる。",
+    "etymology": "「天」は天上・神の領域、「使」は使者を表す。angel はギリシア語 angelos（使者）に由来し、神の意志を伝える霊的存在を指す。",
+    "meanings": [
+      {
+        "en": "A spiritual being believed to serve God and act as a messenger from heaven.",
+        "ja": "神に仕え、神意を人間に伝えるとされる天上の霊的存在。",
+        "example_en": "The angel announced the birth of the child.",
+        "example_ja": "天使はその子の誕生を告げた。"
+      },
+      {
+        "en": "A very kind, pure, or helpful person.",
+        "ja": "非常に親切で清らかな人のたとえ。",
+        "example_en": "You are an angel for helping me.",
+        "example_ja": "手伝ってくれて、君は天使のようだ。"
+      },
+      {
+        "en": "An image or figure of an angel, often shown with wings.",
+        "ja": "翼をもつ姿で表される天使像。",
+        "example_en": "The church ceiling was painted with angels.",
+        "example_ja": "教会の天井には天使が描かれていた。"
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "japanese_word": "角度",
+    "original_word": "angle",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1876,
+    "description": "「角度」は英語 angle に対応し、二つの直線・平面が交わってできる角の大きさを表す数学・物理学語である。片山淳吉『改正増補物理階梯』（1876年）に「角度」の用例が見え、明治期の物理・測量・数学教育を通じて定着した。のちに「別の角度から考える」のように、物を見る方向や考察の立場を表す比喩にも広がった。",
+    "etymology": "「角」は二線・二面の交わりや角、「度」は測る基準・程度を表す。合わせて「角の大きさを測ったもの」の意。angle はラテン語 angulus（角）に由来する。",
+    "meanings": [
+      {
+        "en": "The space or difference in direction between two lines or surfaces that meet, measured in degrees or radians.",
+        "ja": "交わる二直線・二平面の開きの大きさ。度・分・秒・ラジアンなどで測る。",
+        "example_en": "The two lines form a right angle.",
+        "example_ja": "二本の直線は直角の角度をなす。"
+      },
+      {
+        "en": "The direction from which something is seen or photographed.",
+        "ja": "物を見る方向。撮影や観察の向き。",
+        "example_en": "The photo looks different from this angle.",
+        "example_ja": "この角度から見ると写真の印象が違う。"
+      },
+      {
+        "en": "A viewpoint or way of considering a matter.",
+        "ja": "物事を考える観点・立場。",
+        "example_en": "Try looking at the problem from another angle.",
+        "example_ja": "別の角度から問題を考えてみよう。"
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "japanese_word": "適用",
+    "original_word": "apply / application",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1869,
+    "description": "「適用」は、規則・法律・理論などを具体的な対象にあてはめて働かせることを表す語である。古典漢語由来の語だが、明治期に apply / application の訳語として法律・行政・学術で定着した。1869年の『公議所日誌』に時務にあてて用いる意の例があり、1907年刑法では法令を事件に及ぼす専門語として用いられた。",
+    "etymology": "「適」はかなう・あてはまる、「用」はもちいること。apply はラテン語 applicare（近づける・あてる）に由来する。",
+    "meanings": [
+      {
+        "en": "To put a rule, law, theory, or method into effect in a particular case.",
+        "ja": "規則・法律・理論・方法を具体的な場合にあてはめて用いること。",
+        "example_en": "The rule applies to all students.",
+        "example_ja": "その規則は全学生に適用される。"
+      },
+      {
+        "en": "The act of using something for a practical purpose.",
+        "ja": "知識・技術などを実際の目的に用いること。応用。",
+        "example_en": "The theory was applied to medical research.",
+        "example_ja": "その理論は医学研究に適用された。"
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "japanese_word": "位置",
+    "original_word": "position",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治期",
+    "year": 1821,
+    "description": "「位置」は、ものが全体や他物との関係で占める場所を表す語で、英語 position の訳語として自然科学・軍事・地理・社会論で用いられた。1821年の『寛斎先生遺稿』に用例があり、明治以降は地図上の場所、物体の配置、人の地位や立場まで広く表す基本語となった。",
+    "etymology": "「位」は占める場所・地位、「置」はおくこと。position はラテン語 positio（置くこと・配置）に由来する。",
+    "meanings": [
+      {
+        "en": "The place where someone or something is, especially in relation to other things.",
+        "ja": "人や物が他との関係で占める場所。",
+        "example_en": "We found our position on the map.",
+        "example_ja": "地図上で現在の位置を確認した。"
+      },
+      {
+        "en": "A social rank, role, viewpoint, or situation.",
+        "ja": "地位・役割・立場・置かれた状態。",
+        "example_en": "She holds an important position.",
+        "example_ja": "彼女は重要な位置にある。"
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "japanese_word": "昇天",
+    "original_word": "ascension",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "古典漢語由来・明治初期",
+    "year": 1870,
+    "description": "「昇天」は古くから天へ上ることを表す漢語であったが、明治初期にキリスト教語 Ascension の訳語として使われた。西周『百学連環』（1870〜1871年頃）に Ascension（昇天）と対応させた例がある。以後、キリストの復活後の昇天を指す宗教語として定着し、人が死んで魂が天へ上る比喩にも広がった。",
+    "etymology": "「昇」は上へのぼること、「天」は天上を表す。ascension はラテン語 ascendere（のぼる）に由来する。",
+    "meanings": [
+      {
+        "en": "The act of ascending or rising upward.",
+        "ja": "上へ高くのぼること。",
+        "example_en": "The ascension of the star was observed at dawn.",
+        "example_ja": "夜明けに星の昇天が観測された。"
+      },
+      {
+        "en": "The Ascension of Christ into heaven after the Resurrection.",
+        "ja": "復活後のキリストが天にのぼったこと。",
+        "example_en": "Christians celebrate the Ascension forty days after Easter.",
+        "example_ja": "キリスト教では復活祭後四十日目に昇天を記念する。"
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "japanese_word": "天文",
+    "original_word": "astronomy",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期",
+    "year": 1795,
+    "description": "「天文」は古典漢語では天体・暦象・星のしるしを意味したが、蘭学・洋学の受容を通じて astronomy の訳語として近代科学の語彙になった。1795年『和蘭天説』には「天文学三道あり」とあり、天体の位置・運動・宇宙構造を扱う学問として説明される。今日では「天文学」「天文台」「天文現象」などの基幹語である。",
+    "etymology": "「天」は空・宇宙、「文」は模様・現象・記録を表す。astronomy はギリシア語 astron（星）と nomos（法則）に由来する。",
+    "meanings": [
+      {
+        "en": "Astronomy; the scientific study of stars, planets, and the universe.",
+        "ja": "星・惑星・宇宙を研究する科学。",
+        "example_en": "Astronomy studies the motion of planets.",
+        "example_ja": "天文は惑星の運動を研究する。"
+      },
+      {
+        "en": "Celestial phenomena or matters relating to the heavens.",
+        "ja": "天体や空で起こる現象に関すること。",
+        "example_en": "The eclipse was an important astronomical event.",
+        "example_ja": "日食は重要な天文現象だった。"
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "japanese_word": "大気",
+    "original_word": "atmosphere",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「大気」は、地球や惑星の表面を取り巻く気体層を表す語で、英語 atmosphere の訳語として気象学・地学・物理学で定着した。もとは「大きな気」「広い気配」を表す漢語的表現であったが、近代科学では地球大気・惑星大気のように、気体の層とその組成・運動を指す専門語となった。",
+    "etymology": "「大」は広大なもの、「気」は空気・気体を表す。atmosphere はギリシア語 atmos（蒸気）と sphaira（球）に由来する。",
+    "meanings": [
+      {
+        "en": "The layer of gases surrounding Earth or another planet.",
+        "ja": "地球や惑星を取り巻く気体の層。",
+        "example_en": "Carbon dioxide accumulates in the atmosphere.",
+        "example_ja": "二酸化炭素は大気中に蓄積する。"
+      },
+      {
+        "en": "The air or general mood surrounding a place.",
+        "ja": "場所を満たす空気、または雰囲気。",
+        "example_en": "The room had a tense atmosphere.",
+        "example_ja": "会場には緊張した大気が漂っていた。"
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "japanese_word": "付属",
+    "original_word": "attached / accessory / attachment",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「付属」は、主たるものに従って付き、補助的に関係することを表す語で、attached、accessory、attachment などの訳語として学校・機械・法律・事務で広く用いられた。付属校、付属品、付属書類のように、本体・本機関・本文に対する従属的な関係を示す。旧字体では「附属」も多く用いられた。",
+    "etymology": "「付」はつくこと、「属」は従い属すること。accessory はラテン語 accedere（近づく・加わる）に由来する。",
+    "meanings": [
+      {
+        "en": "Attached to or belonging to something larger or more important.",
+        "ja": "主となるものに付き従って属していること。",
+        "example_en": "The school is attached to the university.",
+        "example_ja": "その学校は大学に付属している。"
+      },
+      {
+        "en": "An accessory, attachment, or supplementary item.",
+        "ja": "本体に添えられる付属品・補助部品・添付物。",
+        "example_en": "The vacuum cleaner comes with several attachments.",
+        "example_ja": "掃除機には複数の付属品が付いている。"
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "japanese_word": "引力",
+    "original_word": "gravity / attraction",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治期",
+    "year": null,
+    "description": "「引力」は、物体どうしが互いに引き合う力を表す物理学語で、gravity や attraction の訳語として用いられた。万有引力・地球引力・電気的引力など、近代物理学の力の概念を表す基礎語である。訳者と初出年は特定しにくいが、蘭学から明治物理学教育への流れの中で定着した。",
+    "etymology": "「引」は引き寄せること、「力」は物体に作用するはたらき。gravity はラテン語 gravis（重い）に由来する。",
+    "meanings": [
+      {
+        "en": "A force that attracts bodies toward each other.",
+        "ja": "二つの物体が互いに引き合う力。",
+        "example_en": "Gravity attracts objects toward the earth.",
+        "example_ja": "地球の引力が物体を引き寄せる。"
+      },
+      {
+        "en": "Attraction in a broader physical or figurative sense.",
+        "ja": "物理的または比喩的に引きつける力。",
+        "example_en": "The planet's attraction affects nearby bodies.",
+        "example_ja": "その惑星の引力は近くの天体に影響する。"
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "japanese_word": "性質",
+    "original_word": "quality / property / nature",
+    "language": "英語・ラテン語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「性質」は、人や物が本来備えるあり方・特徴を表す語で、quality、property、nature などに対応する。科学語としては宇田川榕菴『舎密開宗』（1837〜1847年）に、瓦斯の性質を調べるという用例がある。近代以降、哲学では質・属性、自然科学では物質の特徴、日常語では人柄や気質を表す語として広く定着した。",
+    "etymology": "「性」は生まれつきのあり方、「質」は中身・本体を表す。quality はラテン語 qualitas（どのようであるか）に由来する。",
+    "meanings": [
+      {
+        "en": "A characteristic or property that something naturally has.",
+        "ja": "物事が本来備えている特徴・特性。",
+        "example_en": "Some herbs have healing properties.",
+        "example_ja": "ある薬草には病を治す性質がある。"
+      },
+      {
+        "en": "A person's nature or disposition.",
+        "ja": "人の生まれつきの気質・人となり。",
+        "example_en": "He has a gentle nature.",
+        "example_ja": "彼は穏やかな性質の人だ。"
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "japanese_word": "化身",
+    "original_word": "incarnation",
+    "language": "英語・サンスクリット語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "仏教漢訳由来・明治期",
+    "year": null,
+    "description": "「化身」は仏が衆生を救うために姿を変えて現れる身体を表す仏教語で、サンスクリット語 nirmāṇakāya の訳語にあたる。近代以降は英語 incarnation の訳語として、神・霊・抽象理念が人や具体的な姿を取ることも表すようになった。キリスト教の受肉、神仏の顕現、美や悪の権化などを説明する語として使われる。",
+    "etymology": "「化」は姿を変えること、「身」は身体を表す。incarnation はラテン語 caro（肉）に由来し、肉体を取ることを意味する。",
+    "meanings": [
+      {
+        "en": "The embodiment of a deity, spirit, or abstract quality in bodily form.",
+        "ja": "神仏・霊・抽象的性質が具体的な姿を取って現れること。",
+        "example_en": "She was seen as the incarnation of kindness.",
+        "example_ja": "彼女は親切の化身と見られた。"
+      },
+      {
+        "en": "In Buddhism, a manifested body taken by a Buddha to save beings.",
+        "ja": "仏が衆生救済のために仮に現した身体。",
+        "example_en": "The Buddha appears in many incarnations.",
+        "example_ja": "仏はさまざまな化身として現れる。"
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "japanese_word": "利用",
+    "original_word": "use / utilization",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1867,
+    "description": "「利用」は、物や制度の機能を生かして役立てることを表す語で、use、utilization、utilize に対応する。古典漢語にも見えるが、1867年『和英語林集成』に「利益になるように用いる」意味が確認され、明治期には資源・土地・制度・施設を有効に使う近代的な語として定着した。便宜的な手段として使う意味もある。",
+    "etymology": "「利」は役に立つこと・利益、「用」はもちいること。utilization はラテン語 utilis（役に立つ）に由来する。",
+    "meanings": [
+      {
+        "en": "The act of using something effectively or for a practical purpose.",
+        "ja": "物や制度を役立つように使うこと。",
+        "example_en": "Better utilization of wind power is needed.",
+        "example_ja": "風力のより効果的な利用が必要だ。"
+      },
+      {
+        "en": "To use a situation or person as a means to achieve an aim.",
+        "ja": "目的達成の手段として何かを使うこと。",
+        "example_en": "He used his position for personal gain.",
+        "example_ja": "彼は地位を利用して利益を得た。"
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "japanese_word": "単元",
+    "original_word": "axiom / unit",
+    "language": "英語・ドイツ語",
+    "field_id": 6,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「単元」は、西周『百学連環』（1870〜1871年頃）で幾何学の根本原理を表す語として用いられ、明治10年代には axiom の訳語にもなった。現在その意味では「公理」が標準的だが、戦後教育では unit の訳語として、主題ごとに組織された学習内容のまとまりを指す語として広く定着した。",
+    "etymology": "「単」はひとつ、「元」は根本・もとを表す。unit はラテン語 unus（一つ）に、axiom はギリシア語 axiōma（当然と認められるもの）に由来する。",
+    "meanings": [
+      {
+        "en": "A unit of study organized around a theme in education.",
+        "ja": "教育で、一定の主題を中心にまとめた学習内容の区分。",
+        "example_en": "This unit covers basic geometry.",
+        "example_ja": "この単元では基礎的な幾何を扱う。"
+      },
+      {
+        "en": "An axiom or fundamental principle, especially in older philosophical terminology.",
+        "ja": "証明なしに前提とされる根本原理。古い哲学・数学訳語。",
+        "example_en": "Euclidean geometry begins with axioms.",
+        "example_ja": "ユークリッド幾何学は単元（公理）から始まる。"
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "japanese_word": "流刑",
+    "original_word": "exile / banishment",
+    "language": "英語・フランス語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "古代法制由来・明治期",
+    "year": 1886,
+    "description": "「流刑」は、罪人を辺地や島地に送って居住を制限する刑罰を表す古い法制語である。明治期には exile、banishment、フランス法系の追放刑に対応する法律訳語として整備され、『仏和法律字彙』（1886年）にも見える。旧刑法では国事犯を島地の獄に幽閉する刑を指した。",
+    "etymology": "「流」は本拠から遠くへ流すこと、「刑」は刑罰を表す。exile はラテン語 exilium（追放）に由来する。",
+    "meanings": [
+      {
+        "en": "The punishment of forcing someone to live away from their home or country.",
+        "ja": "罪人を辺地・島地などに送って移動を制限する刑罰。",
+        "example_en": "The rebels were sentenced to exile.",
+        "example_ja": "反乱者たちは流刑に処された。"
+      },
+      {
+        "en": "The state of being banished or living away from one's country.",
+        "ja": "故郷や国から追放されて暮らす状態。",
+        "example_en": "He lived in exile for many years.",
+        "example_ja": "彼は長年、流刑の身として暮らした。"
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "japanese_word": "切手",
+    "original_word": "postage stamp / stamp",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 16,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「切手」はもともと証文・通行証・手形などを指した語だが、前島密が1870年、新式郵便制度の準備に際して postage stamp の訳語として採用したとされる。明治初期には「郵便切手」「賃金切手」などとも呼ばれたが、郵便制度の普及とともに単独の「切手」が郵便料金前納の証票を指す語として定着した。",
+    "etymology": "「切手」は切符手形の略とされ、一定の権利や支払いを示す証票を意味した。stamp は押印・印紙・切手を表す英語で、postage stamp は郵便料金前納証票をいう。",
+    "meanings": [
+      {
+        "en": "A postage stamp; a small official paper stuck to mail to show that postage has been paid.",
+        "ja": "郵便料金を前納した証として郵便物に貼る印紙。",
+        "example_en": "I put a stamp on the envelope.",
+        "example_ja": "封筒に切手を貼った。"
+      },
+      {
+        "en": "A ticket, certificate, or voucher in older Japanese usage.",
+        "ja": "古くは通行証・証書・商品券・手形などの証票。",
+        "example_en": "The old document functioned as a pass.",
+        "example_ja": "古い切手は通行証として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "japanese_word": "会場",
+    "original_word": "venue / hall",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "中世〜明治期",
+    "year": 1407,
+    "description": "「会場」は、会合・会議・催し物を開く場所を表す語で、英語 venue や hall に対応する。中世仏教説話『三国伝記』（1407〜1446年頃）に用例があり、明治期の政治小説・集会文化・博覧会などを通じて近代的な集会空間の語として広まった。今日ではイベント、試験、式典、展示などの場所を広く指す。",
+    "etymology": "「会」は人が集まること、「場」は場所を表す。venue はラテン語 venire（来る）に由来し、人が集まる場所を意味する。",
+    "meanings": [
+      {
+        "en": "A place where a meeting, event, performance, or competition is held.",
+        "ja": "会合・催し物・式典・試験などを行う場所。",
+        "example_en": "The venue was full before the concert began.",
+        "example_ja": "開演前に会場は満員になった。"
+      },
+      {
+        "en": "A hall or public space used for gatherings.",
+        "ja": "集会や催しに使う広間・施設。",
+        "example_en": "The lecture was held in a large hall.",
+        "example_ja": "講演は大きな会場で開かれた。"
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "japanese_word": "本草学",
+    "original_word": "materia medica / pharmacognosy / herbal studies",
+    "language": "ラテン語・英語・中国語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "古代中国由来・江戸期",
+    "year": null,
+    "description": "「本草学」は、中国古来の薬物学を指し、植物を中心に動物・鉱物を薬用資源として分類・記述する学問である。日本には平安期に伝わり、江戸時代に全盛となった。西洋語では materia medica や pharmacognosy に近く、近代植物学・薬学・博物学の受容以前に、日本の自然物記載と薬物知識を支えた分野であった。",
+    "etymology": "「本草」は薬用となる草木、広くは薬用の動植鉱物を表し、「学」は体系的研究を意味する。materia medica はラテン語で「医薬の材料」をいう。",
+    "meanings": [
+      {
+        "en": "Materia medica; the study of medicinal substances, especially plants.",
+        "ja": "薬用となる植物・動物・鉱物を分類し効能を記す学問。",
+        "example_en": "Materia medica catalogued medicinal herbs.",
+        "example_ja": "本草学は薬草の効能を記録した。"
+      },
+      {
+        "en": "Traditional East Asian herbal and natural history studies.",
+        "ja": "東アジア伝統の薬物学・博物学的研究。",
+        "example_en": "Herbal studies influenced early botany in Japan.",
+        "example_ja": "本草学は日本の初期植物学に影響した。"
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "japanese_word": "子孫",
+    "original_word": "descendant / posterity / offspring",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "古典漢語由来",
+    "year": 715,
+    "description": "「子孫」は、子や孫、また一つの血統を受け継いで後の世に生まれる人々を表す古い漢語である。日本では『続日本紀』（715年）に用例が確認される。近代以降は descendant、posterity、offspring などの訳語として、家系・相続・民族・生物進化の文脈で広く使われた。人間の血縁だけでなく、先行するものから派生したものを指す比喩にも対応する。",
+    "etymology": "「子」はこども、「孫」はまご・後代の血縁を表す。descendant はラテン語 descendere（下る・由来する）に由来する。",
+    "meanings": [
+      {
+        "en": "A person who is related to someone from an earlier generation, such as a child or grandchild.",
+        "ja": "祖先から血統を受け継ぐ後代の人。子・孫・末裔。",
+        "example_en": "They are descendants of the first settlers.",
+        "example_ja": "彼らは最初の移住者の子孫である。"
+      },
+      {
+        "en": "Posterity; future generations.",
+        "ja": "後の世代。後世の人々。",
+        "example_en": "We must leave a clean world to our descendants.",
+        "example_ja": "私たちは子孫に清潔な世界を残さねばならない。"
+      }
+    ]
+  },
+  {
+    "id": 457,
+    "japanese_word": "塩酸",
+    "original_word": "hydrochloric acid",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「塩酸」は、塩化水素の水溶液を表す化学語で、hydrochloric acid の訳語として定着した。宇田川榕菴『舎密開宗』（1837〜1847年）に「塩酸」の用例があり、近代化学の酸・塩・元素概念を日本語化する過程で整備された。工業、医薬、食品、分析化学で広く用いられ、胃酸の主成分としても知られる。",
+    "etymology": "「塩」は塩化物・食塩に関わる成分、「酸」は酸性物質を表す。hydrochloric は水素 hydro- と塩素 chlor- に由来し、HCl の酸を意味する。",
+    "meanings": [
+      {
+        "en": "Hydrochloric acid; a strongly acidic aqueous solution of hydrogen chloride.",
+        "ja": "塩化水素の水溶液。一価の強酸。",
+        "example_en": "Hydrochloric acid reacts with many metals.",
+        "example_ja": "塩酸は多くの金属と反応する。"
+      },
+      {
+        "en": "A major component of gastric acid.",
+        "ja": "胃酸の主成分として存在する酸。",
+        "example_en": "The stomach produces hydrochloric acid.",
+        "example_ja": "胃は塩酸を含む胃液を分泌する。"
+      }
+    ]
+  },
+  {
+    "id": 458,
+    "japanese_word": "基督",
+    "original_word": "Christ",
+    "language": "英語・ギリシア語・ラテン語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "キリシタン期〜明治期",
+    "year": null,
+    "description": "「基督」は Christ の漢字表記で、中国語音訳を経て日本でもキリスト教文献に用いられた語である。現在は「キリスト」の片仮名表記が一般的だが、「基督教」「基督者」「耶蘇基督」のような形で明治期の聖書・教会・思想文献に広く見られる。意味は、キリスト教で神の子・救い主とされるイエスを指す。",
+    "etymology": "「基督」は Christ の音を漢字で写した表記。Christ はギリシア語 Christos（油注がれた者）に由来し、ヘブライ語 Messiah（メシア）の訳語にあたる。",
+    "meanings": [
+      {
+        "en": "Christ; Jesus regarded by Christians as the Messiah and Son of God.",
+        "ja": "キリスト教で、旧約の預言を成就した救い主・神の子とされるイエス。",
+        "example_en": "Christ is central to Christian faith.",
+        "example_ja": "基督はキリスト教信仰の中心である。"
+      },
+      {
+        "en": "The Messiah or anointed one.",
+        "ja": "メシア、油注がれた者。",
+        "example_en": "The word Christ means the anointed one.",
+        "example_ja": "基督という語は油注がれた者を意味する。"
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "japanese_word": "通用",
+    "original_word": "currency / circulation / general use",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「通用」は、世間で広く用いられ、効力をもって通ることを表す語である。近代以降は currency の『流通』『一般的受容』『現行性』に対応し、貨幣・語句・制度・証書などが社会で有効に使われる状態を指す語として定着した。「強制通用力」「世間に通用する」「通用しない理屈」のように、経済と一般語の両方で使われる。",
+    "etymology": "「通」は行き渡ること、「用」は用いられること。currency はラテン語 currere（走る・流れる）に由来し、流通・通用・現行性を表す。",
+    "meanings": [
+      {
+        "en": "Currency or circulation as a medium of exchange.",
+        "ja": "貨幣などが交換手段として流通し有効に使われること。",
+        "example_en": "The coin remained in currency for many years.",
+        "example_ja": "その硬貨は長年通用した。"
+      },
+      {
+        "en": "General acceptance, prevalence, or validity.",
+        "ja": "考え・言葉・制度などが広く受け入れられ有効であること。",
+        "example_en": "The theory gained currency among scholars.",
+        "example_ja": "その理論は学者の間で通用するようになった。"
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "japanese_word": "医術",
+    "original_word": "medicine / medical art",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "古代漢語由来",
+    "year": 703,
+    "description": "「医術」は、病気や傷を診察し治療する技術を表す語で、medicine や medical art に対応する。日本では『続日本紀』（703年）に語の存在が確認され、近世には養生論・漢方医学・蘭方医学の語彙として用いられた。近代以降は、制度化された「医学」に対して、実地の診療・治療技術を強調する語として残った。",
+    "etymology": "「医」は病を治すこと・医者、「術」は技法を表す。medicine はラテン語 medicina（治療の技）に由来する。",
+    "meanings": [
+      {
+        "en": "The art or practice of diagnosing and treating disease or injury.",
+        "ja": "病気やけがを診察し治療する技術。",
+        "example_en": "Medicine developed through observation and practice.",
+        "example_ja": "医術は観察と実践を通じて発展した。"
+      },
+      {
+        "en": "Medical skill or therapeutic technique.",
+        "ja": "医療に関する技能・治療法。",
+        "example_en": "His medical art saved many patients.",
+        "example_ja": "彼の医術は多くの患者を救った。"
+      }
+    ]
+  },
+  {
+    "id": 461,
+    "japanese_word": "外科",
+    "original_word": "surgery",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "中世〜近代医学",
+    "year": 1370,
+    "description": "「外科」は、身体の外部の傷やでき物を扱う医学部門を表す語として古くから用いられ、近代医学では手術的操作によって病気や外傷を治療する分野を指す surgery の訳語として定着した。『太平記』（14世紀後半）に用例があり、蘭方医学・西洋医学の導入後、内科に対する医学科目として細分化された。",
+    "etymology": "「外」は身体の外部、「科」は部門を表す。surgery はギリシア語 cheir（手）と ergon（仕事）に由来し、「手で行う技」を意味する。",
+    "meanings": [
+      {
+        "en": "The branch of medicine that treats disease or injury by operative procedures.",
+        "ja": "手術によって病気やけがを治療する医学分野。",
+        "example_en": "Surgery was required to repair the injury.",
+        "example_ja": "そのけがの治療には外科手術が必要だった。"
+      },
+      {
+        "en": "A medical department or practice specializing in surgical treatment.",
+        "ja": "外科治療を専門とする診療科・医療分野。",
+        "example_en": "He works in the department of surgery.",
+        "example_ja": "彼は外科で勤務している。"
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "japanese_word": "伝染病",
+    "original_word": "contagious disease / communicable disease",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期",
+    "year": 1820,
+    "description": "「伝染病」は、病原体が人や動物の間で移り広がる病気を表す医学語で、contagious disease や communicable disease に対応する。1820年『遁花秘訣』に「伝染病」の用例が見える。近代衛生行政ではコレラ・赤痢・結核などの流行管理に不可欠な語となり、現在は法制度上「感染症」の語が広く用いられる。",
+    "etymology": "「伝」は伝わること、「染」は病や毒がうつること、「病」はやまいを表す。contagious はラテン語 contagio（接触・感染）に由来する。",
+    "meanings": [
+      {
+        "en": "A disease that spreads from one individual to another by contact, droplets, food, water, or vectors.",
+        "ja": "接触・飛沫・飲食物・媒介生物などで他の個体へ広がる病気。",
+        "example_en": "Measles is a highly contagious disease.",
+        "example_ja": "麻疹は非常に強い伝染病である。"
+      },
+      {
+        "en": "A communicable infectious disease subject to public health control.",
+        "ja": "公衆衛生上、流行防止の対象となる感染症。",
+        "example_en": "Communicable diseases require rapid reporting.",
+        "example_ja": "伝染病は迅速な届け出と防疫を必要とする。"
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "japanese_word": "生理学",
+    "original_word": "physiology",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「生理学」は physiology の訳語で、生物体の機能や生命現象を物理的・化学的手法で研究する学問を指す。西周『百学連環』（1870〜1871年頃）に用例があり、近代医学・生物学教育のなかで形態学や病理学と区別される分野として定着した。人体生理学、動物生理学、植物生理学などに分かれる。",
+    "etymology": "「生」は生命、「理」は法則・すじみち、「学」は研究を表す。physiology はギリシア語 physis（自然・本性）と logos（学）に由来する。",
+    "meanings": [
+      {
+        "en": "The branch of biology that studies the functions and activities of living organisms and their parts.",
+        "ja": "生物体や器官・組織・細胞の働きを研究する生物学分野。",
+        "example_en": "Physiology studies how organs function.",
+        "example_ja": "生理学は器官がどのように働くかを研究する。"
+      },
+      {
+        "en": "The normal processes and functions of an organism or bodily system.",
+        "ja": "生物体や身体システムの正常な働き・生命現象。",
+        "example_en": "Exercise changes the physiology of the heart.",
+        "example_ja": "運動は心臓の生理学的働きを変化させる。"
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "japanese_word": "心理学",
+    "original_word": "psychology / mental philosophy",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「心理学」は、西周が mental philosophy の訳語として用いた語で、のち psychology の標準訳語となった。『百学連環』（1870〜1871年頃）では自然科学に対する「物理外の学」として広い人文科学的意味で使われ、1875年にはヘブン著の翻訳『心理学』が刊行された。現在は意識・行動・認知・感情を経験科学として研究する分野を指す。",
+    "etymology": "「心」は精神・意識、「理」は法則・すじみち、「学」は研究を表す。psychology はギリシア語 psyche（魂・心）と logos（学）に由来する。",
+    "meanings": [
+      {
+        "en": "The scientific study of mind and behavior.",
+        "ja": "心と行動を科学的に研究する学問。",
+        "example_en": "Psychology studies memory, emotion, and behavior.",
+        "example_ja": "心理学は記憶・感情・行動を研究する。"
+      },
+      {
+        "en": "Mental philosophy; the older philosophical study of mind.",
+        "ja": "心の働きを哲学的に考察する学問。明治初期の訳語用法。",
+        "example_en": "Mental philosophy was later reorganized as psychology.",
+        "example_ja": "心理学は当初、精神哲学に近い学問として紹介された。"
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "japanese_word": "体魄",
+    "original_word": "body / physique / corporeal form",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "漢語由来・明治期",
+    "year": null,
+    "description": "「体魄」は、精神に対する身体、または肉体のたくましさ・からだつきを表す漢語である。近代以降は body、physique、corporeal form などに対応し、教育・医学・修身論で、心や精神に対する身体的側面を指す語として用いられた。現代では「体格」「身体」の語が一般的で、「体魄」はやや文語的・古風な表現である。",
+    "etymology": "「体」は身体、「魄」は魂に対する肉体的生命・形ある身を表す。body は古英語 bodig に、physique はギリシア語 physis（自然・身体的性質）に由来する。",
+    "meanings": [
+      {
+        "en": "The body as opposed to the mind or spirit.",
+        "ja": "精神や心に対する肉体・身体。",
+        "example_en": "Education should train both mind and body.",
+        "example_ja": "教育は精神と体魄の双方を養うべきだ。"
+      },
+      {
+        "en": "A person's physique or bodily build.",
+        "ja": "人のからだつき・体格。",
+        "example_en": "He had a strong physique.",
+        "example_ja": "彼は強健な体魄を備えていた。"
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "japanese_word": "血属",
+    "original_word": "consanguinity / blood relationship",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「血属」は、血のつながりによる親族関係を表す語で、consanguinity や blood relationship に対応する。近代法・社会学では、婚姻による姻属・姻族に対して、共通祖先をもつ血縁上の関係を示す語として用いられた。現代では「血族」「血縁関係」が一般的だが、血属も法律・社会制度の文脈で理解できる語である。",
+    "etymology": "「血」は血縁・血筋、「属」はつながり属することを表す。consanguinity はラテン語 con-（共に）と sanguis（血）に由来する。",
+    "meanings": [
+      {
+        "en": "Kinship by shared ancestry; blood relationship.",
+        "ja": "共通の祖先をもつ血縁による親族関係。",
+        "example_en": "Consanguinity may affect marriage laws.",
+        "example_ja": "血属関係は婚姻法に影響することがある。"
+      },
+      {
+        "en": "A blood relative as distinguished from a relative by marriage.",
+        "ja": "婚姻による親族に対する、血のつながった親族。",
+        "example_en": "The law distinguishes consanguineous kin from affinal kin.",
+        "example_ja": "法律は血属と姻属を区別する。"
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "japanese_word": "配偶",
+    "original_word": "spouse / mate / partner",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「配偶」は、添い合わせること、また婚姻関係にある相手を表す語で、spouse、mate、partner に対応する。近代民法・戸籍制度の整備に伴い、「配偶者」「配偶関係」のように法律・行政語として定着した。日常語では「夫」「妻」「伴侶」が多いが、性別を問わず婚姻上の相手を示す中立的な語として機能する。",
+    "etymology": "「配」は組み合わせる・つれあわせること、「偶」は対になるものを表す。spouse はラテン語 sponsus（約束された者）に由来する。",
+    "meanings": [
+      {
+        "en": "A spouse; a husband or wife.",
+        "ja": "婚姻関係にある相手。夫または妻。",
+        "example_en": "A spouse may inherit under the law.",
+        "example_ja": "配偶者は法律上相続できる。"
+      },
+      {
+        "en": "Pairing or mating, especially in biological or legal contexts.",
+        "ja": "つがわせること、また対になること。",
+        "example_en": "Mate choice affects reproduction.",
+        "example_ja": "配偶の選択は繁殖に影響する。"
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "japanese_word": "人類",
+    "original_word": "mankind / humankind / human race",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": 797,
+    "description": "「人類」は、人間を一つの種類・集団として総称する語で、mankind、humankind、human race に対応する。日本では『三教指帰』（797年頃）に用例が確認される。近代以降は進化論・人類学・社会思想の導入により、生物学的なヒト属・ヒト科の意味と、地球上の人間全体を指す社会的意味の双方で広く定着した。",
+    "etymology": "「人」は人間、「類」は同じ種類・仲間を表す。mankind は古英語系の man と kind に由来し、現代では humankind や human race も用いられる。",
+    "meanings": [
+      {
+        "en": "Human beings considered collectively; humankind.",
+        "ja": "人間全体。地球上の人々の総称。",
+        "example_en": "This discovery benefits all humankind.",
+        "example_ja": "この発見は全人類に利益をもたらす。"
+      },
+      {
+        "en": "The human species, especially Homo sapiens.",
+        "ja": "生物学上のヒト、人間という種。",
+        "example_en": "The human race evolved in Africa.",
+        "example_ja": "人類はアフリカで進化した。"
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "japanese_word": "生産",
+    "original_word": "production",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1867,
+    "description": "「生産」は、生活に必要な物資やサービスを作り出す経済活動を表す語で、production の訳語として定着した。古くは出産や暮らしのために働く意もあったが、明治期の経済学受容を通じて、生産・分配・消費という経済循環の基礎語となった。『経済小学』（1867年）などで近代経済語として用例が見える。",
+    "etymology": "「生」は生み出すこと、「産」は産み出されたもの・財を表す。production はラテン語 producere（前へ導き出す・作り出す）に由来する。",
+    "meanings": [
+      {
+        "en": "The process of making, growing, or creating goods or services.",
+        "ja": "財やサービスを作り出すこと。",
+        "example_en": "The factory increased production.",
+        "example_ja": "工場は生産を増やした。"
+      },
+      {
+        "en": "The amount produced.",
+        "ja": "作り出された量。生産高。",
+        "example_en": "Rice production fell this year.",
+        "example_ja": "今年の米の生産は減少した。"
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "japanese_word": "消費",
+    "original_word": "consumption",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1867,
+    "description": "「消費」は、財貨・サービス・資源などを使ってなくすことを表し、経済学では consumption の訳語として定着した。『経済小学』（1867年）に経済語としての用例があり、西周『百学連環』でも consumption に対応する語として使われた。生産と表裏をなす、家計・市場・国民所得を理解する基礎概念である。",
+    "etymology": "「消」は消える・なくなること、「費」はついやすこと。consumption はラテン語 consumere（使い尽くす）に由来する。",
+    "meanings": [
+      {
+        "en": "The act of using goods, services, energy, or resources.",
+        "ja": "財・サービス・資源・時間などを使うこと。",
+        "example_en": "Energy consumption increased in summer.",
+        "example_ja": "夏にエネルギー消費が増えた。"
+      },
+      {
+        "en": "In economics, the use of goods and services to satisfy wants.",
+        "ja": "経済で、欲望を満たすために財貨・サービスを使うこと。",
+        "example_en": "Household consumption supports the economy.",
+        "example_ja": "家計消費は経済を支える。"
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "japanese_word": "利息",
+    "original_word": "interest",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「利息」は、貸借された元本に対して一定割合で支払われる金銭を表す語で、interest の訳語として近代金融・法制度で定着した。古くから利子・利銀の語と並んで用いられ、明治期の銀行・公債・商法・民法の整備により、貸付・預金・債券の基本概念になった。",
+    "etymology": "「利」はもうけ・利益、「息」は増えるものを表す。interest はラテン語 interesse（関係する・差額がある）に由来し、金銭貸借の対価を意味するようになった。",
+    "meanings": [
+      {
+        "en": "Money paid for the use of borrowed money.",
+        "ja": "借りた金銭の使用対価として支払う金銭。",
+        "example_en": "The bank charges interest on the loan.",
+        "example_ja": "銀行は貸付に利息を課す。"
+      },
+      {
+        "en": "Money earned on savings, deposits, or investments.",
+        "ja": "預金・債券などから得られる利子収入。",
+        "example_en": "The savings account earns interest.",
+        "example_ja": "その預金には利息が付く。"
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "japanese_word": "不可産",
+    "original_word": "unproductive",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「不可産」は、西周『百学連環』の経済学講義で unproductive の訳語として用いられた語である。消費を productive（可産）と unproductive（不可産）に分け、将来の増益を生む支出と、快楽や日常生活で使い切る支出を区別する文脈に現れる。現代では「非生産的」「不生産的」が標準的で、「不可産」は初期訳語としての性格が強い。",
+    "etymology": "「不」「可」はできない・可能でないこと、「産」は生み出すことを表す。unproductive は produce（生産する）に否定接頭辞 un- が付いた語。",
+    "meanings": [
+      {
+        "en": "Not producing goods, profit, or useful results.",
+        "ja": "財・利益・成果を生み出さないこと。非生産的。",
+        "example_en": "The spending was unproductive.",
+        "example_ja": "その支出は不可産の消費と見なされた。"
+      },
+      {
+        "en": "In older economics, consumption that does not lead to future production.",
+        "ja": "古い経済学で、将来の生産増加につながらない消費。",
+        "example_en": "Unproductive consumption was contrasted with productive consumption.",
+        "example_ja": "不可産の消費は可産の消費と対比された。"
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "japanese_word": "技芸",
+    "original_word": "art / craft / skill",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "中世漢語由来・明治期",
+    "year": 1279,
+    "description": "「技芸」は、美術・工芸・手仕事・芸能などに関わる技術やわざを表す語で、art、craft、skill に対応する。1279年の官宣旨に用例があり、近代には西洋の arts and crafts、fine arts、industrial arts の紹介とともに、教育・博覧会・工芸振興の語彙として使われた。今日では芸術的・職人的な技能を指す語として残る。",
+    "etymology": "「技」はわざ・技能、「芸」は芸能・学芸を表す。craft は古英語 cræft（力・技能）に由来し、手仕事や熟練を意味する。",
+    "meanings": [
+      {
+        "en": "Skill in arts, crafts, or handiwork.",
+        "ja": "美術・工芸・手仕事などの技術。",
+        "example_en": "Traditional crafts require long training.",
+        "example_ja": "伝統的な技芸には長い修練が必要だ。"
+      },
+      {
+        "en": "Performing arts or artistic accomplishments.",
+        "ja": "歌舞・音曲などの芸能、またそのわざ。",
+        "example_en": "She mastered several performing arts.",
+        "example_ja": "彼女はいくつもの技芸を身につけた。"
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "japanese_word": "農政",
+    "original_word": "agricultural policy / agricultural administration",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "江戸期〜明治期",
+    "year": 1716,
+    "description": "「農政」は、農業に関する政策・行政を表す語で、agricultural policy や agricultural administration に対応する。『農政問答』（1716〜1736年頃）に用例があり、近世の勧農・年貢・農村支配の議論から、明治期の殖産興業・農商務省・農業技術導入へ継承された。現代では農地、食料、農家経営、補助制度を含む政策領域を指す。",
+    "etymology": "「農」は農業、「政」は政治・行政を表す。policy はギリシア語 polis（都市国家）に由来し、統治上の方針を意味する。",
+    "meanings": [
+      {
+        "en": "Government policy concerning agriculture.",
+        "ja": "農業に関する政策。",
+        "example_en": "Agricultural policy affects food prices.",
+        "example_ja": "農政は食料価格に影響する。"
+      },
+      {
+        "en": "Agricultural administration.",
+        "ja": "農業分野の行政・統治。",
+        "example_en": "The ministry reformed agricultural administration.",
+        "example_ja": "省は農政を改革した。"
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "japanese_word": "勧農",
+    "original_word": "encouragement of agriculture / agricultural promotion",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "古代律令期〜明治期",
+    "year": 730,
+    "description": "「勧農」は、農業を奨励し、生産を増やす政策や働きかけを表す語である。律令国家の勧課農桑、近世領主の農民支配・農業振興、明治政府の殖産興業政策に連なる。1870年の民部省勧農局、大蔵省勧農寮、内務省勧農局などの制度名にも使われ、agricultural promotion の訳語的機能を担った。",
+    "etymology": "「勧」はすすめ励ますこと、「農」は農業を表す。promotion はラテン語 promovere（前へ進める）に由来する。",
+    "meanings": [
+      {
+        "en": "The encouragement or promotion of agriculture.",
+        "ja": "農業をすすめ励ますこと。農業振興。",
+        "example_en": "The government promoted agriculture through new policies.",
+        "example_ja": "政府は勧農政策で農業を振興した。"
+      },
+      {
+        "en": "Agricultural guidance or policy carried out by rulers or government.",
+        "ja": "支配者や政府による農業指導・農政施策。",
+        "example_en": "Agricultural promotion was central to rural administration.",
+        "example_ja": "勧農は農村行政の中心だった。"
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "japanese_word": "商政",
+    "original_word": "commercial policy / commerce administration",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「商政」は、商業に関する政策・行政を表す語で、commercial policy や commerce administration に対応する。明治期には農政・工政と並び、商業・流通・貿易・会社制度を整備する国家政策を表す語として用いられた。今日では「商業政策」「通商政策」が一般的で、「商政」はやや古風な行政語である。",
+    "etymology": "「商」は商業・売買、「政」は政治・行政を表す。commercial はラテン語 commercium（交易）に由来する。",
+    "meanings": [
+      {
+        "en": "Commercial policy; government measures concerning commerce.",
+        "ja": "商業に関する政策・行政。",
+        "example_en": "Commercial policy regulates domestic trade.",
+        "example_ja": "商政は国内商業の制度を整える。"
+      },
+      {
+        "en": "Administration of commerce and trade.",
+        "ja": "商業・流通・交易に関する行政。",
+        "example_en": "The office handled commerce administration.",
+        "example_ja": "その官庁は商政を担当した。"
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "japanese_word": "工政",
+    "original_word": "industrial policy / industry administration",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「工政」は、工業・製造業に関する政策や行政を表す語で、industrial policy や industry administration に対応する。明治期の殖産興業・工部省・官営工場・技術導入の文脈で、農政・商政と並ぶ産業行政語として用いられた。現代では「工業政策」「産業政策」が一般的で、「工政」は近代初期の漢語的表現として理解される。",
+    "etymology": "「工」は工作・工業・技術、「政」は政治・行政を表す。industrial はラテン語 industria（勤勉・活動）に由来する。",
+    "meanings": [
+      {
+        "en": "Industrial policy; government policy for manufacturing and industry.",
+        "ja": "工業・製造業に関する政策。",
+        "example_en": "Industrial policy supported new factories.",
+        "example_ja": "工政は新しい工場建設を支えた。"
+      },
+      {
+        "en": "Administration of industry and technology.",
+        "ja": "工業・技術に関する行政。",
+        "example_en": "Industry administration promoted technical education.",
+        "example_ja": "工政は技術教育を促進した。"
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "japanese_word": "貨殖",
+    "original_word": "wealth accumulation / profit-making",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "古典漢語由来",
+    "year": 771,
+    "description": "「貨殖」は、貨財・資産を増やすことを表す古い漢語で、wealth accumulation や profit-making に対応する。『続日本紀』（771年）に用例があり、中国古典『論語』にも関連表現が見える。近代経済語としては、投資・商売・利殖によって財産を殖やす行為を説明する語として用いられたが、現代では「利殖」「資産形成」が一般的である。",
+    "etymology": "「貨」は財貨・金銭、「殖」は増やすことを表す。wealth は古英語 weal（富・幸福）に由来する。",
+    "meanings": [
+      {
+        "en": "The accumulation or increase of wealth.",
+        "ja": "財産・資産を増やすこと。",
+        "example_en": "He pursued wealth accumulation through trade.",
+        "example_ja": "彼は商売で貨殖に努めた。"
+      },
+      {
+        "en": "Profit-making through commerce or investment.",
+        "ja": "商業・投資によって利益を得ること。",
+        "example_en": "Profit-making was viewed with suspicion by some thinkers.",
+        "example_ja": "貨殖は一部の思想家に警戒された。"
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "japanese_word": "富国",
+    "original_word": "national enrichment / wealthy country",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "江戸期〜明治期",
+    "year": 1729,
+    "description": "「富国」は、国を豊かにすること、また豊かな国を表す語で、national enrichment や wealthy country に対応する。『経済録』（1729年）に「富国は強兵の本也」と見え、明治期には「富国強兵」の標語として国家近代化・殖産興業・軍制整備の中心語となった。経済力を国家存立の基盤とみなす近代政治経済語である。",
+    "etymology": "「富」は豊かさ・財力、「国」は国家を表す。enrichment は rich（富んだ）に由来し、豊かにすることを意味する。",
+    "meanings": [
+      {
+        "en": "The enrichment of a country or strengthening of its economic power.",
+        "ja": "国の経済力を豊かにすること。",
+        "example_en": "National enrichment was linked to military strength.",
+        "example_ja": "富国は強兵と結びつけられた。"
+      },
+      {
+        "en": "A wealthy or prosperous country.",
+        "ja": "経済力の豊かな国。",
+        "example_en": "A wealthy country can invest in education.",
+        "example_ja": "富国は教育へ投資できる。"
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "japanese_word": "学問",
+    "original_word": "learning / scholarship / science",
+    "language": "英語",
+    "field_id": 6,
+    "translator_id": null,
+    "era": "古代漢語由来・明治期",
+    "year": 730,
+    "description": "「学問」は、知識を学び身につけること、また体系的に組織された知識や研究方法を表す語である。『続日本紀』（730年）に用例があり、明治期には learning、scholarship、science などの訳語として再編された。福沢諭吉『学問のすゝめ』以後、近代教育と知識による自立を支える中心語となった。",
+    "etymology": "「学」はまなぶこと、「問」は問い究めること。scholarship は学者的研究、science はラテン語 scientia（知識）に由来する。",
+    "meanings": [
+      {
+        "en": "Learning or study; the act of acquiring knowledge.",
+        "ja": "知識を学び、身につけること。",
+        "example_en": "Learning opens the way to independence.",
+        "example_ja": "学問は独立への道を開く。"
+      },
+      {
+        "en": "Systematic knowledge or scholarship.",
+        "ja": "体系化された知識や研究方法。",
+        "example_en": "Scholarship requires careful evidence.",
+        "example_ja": "学問には慎重な証拠が必要である。"
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "japanese_word": "学術",
+    "original_word": "learning / arts and sciences / scholarship",
+    "language": "英語",
+    "field_id": 6,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「学術」は、学問と技術、また専門的な研究活動をまとめて表す語で、learning、arts and sciences、scholarship に対応する。明治期の大学・学会・博覧会・専門教育制度の整備とともに、個人の素養としての学問よりも、社会的・制度的な研究領域を指す語として広まった。",
+    "etymology": "「学」は学問、「術」は技法・専門技術を表す。arts and sciences は自由学芸と科学的知識を含む広い学術領域をいう。",
+    "meanings": [
+      {
+        "en": "Academic learning and scholarship.",
+        "ja": "専門的な学問・研究。",
+        "example_en": "The institute promotes scholarship.",
+        "example_ja": "その機関は学術を振興する。"
+      },
+      {
+        "en": "Arts and sciences considered as organized fields of knowledge.",
+        "ja": "学問と技術を含む体系的な知識領域。",
+        "example_en": "Academic exchange supports the arts and sciences.",
+        "example_ja": "学術交流は学問と技術を支える。"
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "japanese_word": "詩学",
+    "original_word": "poetics",
+    "language": "英語・ギリシア語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "江戸後期〜明治初期",
+    "year": 1751,
+    "description": "「詩学」は、詩の作り方や詩の本質・形式・技法を研究する学問を表す語で、poetics に対応する。江戸期には漢詩作法の意味で用いられ、明治初期の西周『百学連環』では西洋文芸理論としての poetics を紹介する語となった。アリストテレス『詩学』の訳名としても定着している。",
+    "etymology": "「詩」は韻文・詩歌、「学」は研究を表す。poetics はギリシア語 poiētikē（制作の技術）に由来する。",
+    "meanings": [
+      {
+        "en": "The study of poetry and literary form.",
+        "ja": "詩の本質・形式・技法を研究する学問。",
+        "example_en": "Poetics examines the structure of tragedy.",
+        "example_ja": "詩学は悲劇の構造を考察する。"
+      },
+      {
+        "en": "A theory of literary creation.",
+        "ja": "文学創作に関する理論。",
+        "example_en": "Aristotle's Poetics influenced European criticism.",
+        "example_ja": "アリストテレスの詩学は西洋批評に影響した。"
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "japanese_word": "音楽",
+    "original_word": "music",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": 1714,
+    "description": "「音楽」は、音の高低・長短・強弱・音色を組み合わせて表現する芸術を表し、music の訳語として定着した。古くは仏教儀礼や雅楽に関わる語であったが、明治10年代の音楽取調掛設置以後、西洋音楽・学校唱歌・楽理教育を含む近代的な総称として広まった。",
+    "etymology": "「音」は声や響き、「楽」は楽器や楽しみを表す。music はギリシア語 mousikē（ムーサの技芸）に由来する。",
+    "meanings": [
+      {
+        "en": "The art of arranging sounds in time through melody, harmony, rhythm, and tone.",
+        "ja": "旋律・和声・リズム・音色などで音を時間的に構成する芸術。",
+        "example_en": "Music can express emotion without words.",
+        "example_ja": "音楽は言葉なしに感情を表せる。"
+      },
+      {
+        "en": "Musical works or performances.",
+        "ja": "楽曲や演奏。",
+        "example_en": "The music began after sunset.",
+        "example_ja": "日没後に音楽が始まった。"
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "japanese_word": "正史",
+    "original_word": "official history / authorized history",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "古典漢語由来",
+    "year": null,
+    "description": "「正史」は、国家や王朝が公的に編纂・承認した歴史書、また公認された歴史叙述を表す語で、official history や authorized history に対応する。東アジアでは中国の二十四史のような王朝公認史書を指す語として用いられ、近代以降は政府や制度が認める公式の歴史観という意味にも広がった。",
+    "etymology": "「正」は正式・正統、「史」は歴史記録を表す。official history は公的機関が編んだ、または承認した歴史をいう。",
+    "meanings": [
+      {
+        "en": "An official or authorized history compiled under state authority.",
+        "ja": "国家や王朝が公的に編纂・承認した歴史書。",
+        "example_en": "The dynasty compiled an official history.",
+        "example_ja": "その王朝は正史を編纂した。"
+      },
+      {
+        "en": "A canonical or officially accepted historical account.",
+        "ja": "公認された歴史叙述・正統な歴史観。",
+        "example_en": "The event was absent from the official history.",
+        "example_ja": "その事件は正史に記されなかった。"
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "japanese_word": "年表",
+    "original_word": "chronological table / timeline",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "中世漢語由来・明治初期",
+    "year": 1477,
+    "description": "「年表」は、歴史上の出来事を年次順に配列した表を表し、chronological table や timeline に対応する。『史記抄』（1477年）に用例があり、西周『百学連環』でも歴史に付属する形式として説明された。近代歴史教育では、国史・万国史を整理する道具として広く用いられた。",
+    "etymology": "「年」は年次、「表」は項目を並べ示す表を表す。chronological はギリシア語 chronos（時間）に由来する。",
+    "meanings": [
+      {
+        "en": "A table listing events in chronological order.",
+        "ja": "出来事を年代順に記した表。",
+        "example_en": "The textbook includes a chronological table.",
+        "example_ja": "教科書には年表が付いている。"
+      },
+      {
+        "en": "A timeline.",
+        "ja": "時系列を示す一覧。",
+        "example_en": "The timeline shows major reforms.",
+        "example_ja": "年表は主要な改革を示している。"
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "japanese_word": "編年史",
+    "original_word": "chronicle / annals",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「編年史」は、出来事を年代順に配列して記した歴史を表し、chronicle や annals の訳語として用いられた。西周『百学連環』（1870〜1871年頃）に「chronicle 編年史」と見える。主題別に構成する紀伝体・通史に対し、時間の連続を軸に事実を並べる叙述形式を指す。",
+    "etymology": "「編年」は年次に従って編むこと、「史」は歴史記録。chronicle はギリシア語 chronos（時間）に由来する。",
+    "meanings": [
+      {
+        "en": "A historical account arranged year by year.",
+        "ja": "年ごとに出来事を配列した歴史叙述。",
+        "example_en": "The chronicle records events year by year.",
+        "example_ja": "編年史は出来事を年次順に記す。"
+      },
+      {
+        "en": "Annals; records of events in chronological sequence.",
+        "ja": "年代順に記録した史料・年代記。",
+        "example_en": "The annals mention a famine.",
+        "example_ja": "編年史は飢饉を記録している。"
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "japanese_word": "万国史",
+    "original_word": "world history / universal history",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": null,
+    "description": "「万国史」は、世界各国の歴史を一つの視野で扱う歴史叙述を表し、world history や universal history に対応する。明治期の学校教育や啓蒙書では、日本史・国史に対して、欧米・アジアを含む世界史を学ぶ科目名・書名として用いられた。現代の「世界史」に近い古い表現である。",
+    "etymology": "「万国」は多くの国・世界諸国、「史」は歴史を表す。world history は国境を越えた歴史過程を扱う分野をいう。",
+    "meanings": [
+      {
+        "en": "World history; history of many countries and civilizations.",
+        "ja": "世界各国・諸文明の歴史。",
+        "example_en": "World history compares civilizations across regions.",
+        "example_ja": "万国史は地域を越えて文明を比較する。"
+      },
+      {
+        "en": "Universal history; a narrative of human history as a whole.",
+        "ja": "人類全体の歴史を一つの流れとして見る叙述。",
+        "example_en": "Universal history seeks a broad human narrative.",
+        "example_ja": "万国史は人類史の大きな流れを描く。"
+      }
+    ]
+  },
+  {
+    "id": 488,
+    "japanese_word": "古伝",
+    "original_word": "ancient tradition / legend",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "古典漢語由来",
+    "year": null,
+    "description": "「古伝」は、古くから伝わる言い伝え・伝承・伝説を表す語で、ancient tradition や legend に対応する。歴史記述では、確実な史料に基づく記録に対して、口承・神話・旧記に残る古い伝承を指す。近代の民俗学・神話学・国文学でも、古代社会の記憶を伝える資料を示す語として使われた。",
+    "etymology": "「古」は古い時代、「伝」は伝えること・言い伝えを表す。tradition はラテン語 tradere（引き渡す）に由来する。",
+    "meanings": [
+      {
+        "en": "An ancient tradition or old account handed down over time.",
+        "ja": "古くから伝えられた言い伝え・伝承。",
+        "example_en": "The ritual is explained by an ancient tradition.",
+        "example_ja": "その儀礼は古伝によって説明される。"
+      },
+      {
+        "en": "A legend or traditional story.",
+        "ja": "伝説・古い物語。",
+        "example_en": "The legend tells of a hidden spring.",
+        "example_ja": "古伝は隠れた泉について語る。"
+      }
+    ]
+  },
+  {
+    "id": 489,
+    "japanese_word": "輓近史",
+    "original_word": "modern history / recent history",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「輓近史」は、近い時代、特に近代以降の歴史を表す語で、modern history や recent history に対応する。明治期の歴史教育・啓蒙書では、古代史・中世史などに対して、同時代に近い欧米や日本の政治・社会変動を扱う分野名として用いられた。現代では「近代史」「近現代史」が一般的である。",
+    "etymology": "「輓近」は近ごろ・近代、「史」は歴史を表す。modern はラテン語 modo（今）に由来する。",
+    "meanings": [
+      {
+        "en": "Modern history.",
+        "ja": "近代以降の歴史。",
+        "example_en": "Modern history covers the age of nation-states.",
+        "example_ja": "輓近史は国民国家の時代を扱う。"
+      },
+      {
+        "en": "Recent history.",
+        "ja": "近い過去の歴史。",
+        "example_en": "Recent history explains present institutions.",
+        "example_ja": "輓近史は現在の制度を説明する。"
+      }
+    ]
+  },
+  {
+    "id": 490,
+    "japanese_word": "中世",
+    "original_word": "Middle Ages / medieval period",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「中世」は、古代と近代の中間に位置する歴史時代を表し、Middle Ages や medieval period の訳語として定着した。西洋史ではおおむねローマ帝国崩壊後からルネサンス前後までを指し、日本史では院政期・鎌倉期から戦国期までを指すことが多い。近代歴史学の時代区分語として広まった。",
+    "etymology": "「中」は中間、「世」は時代を表す。medieval はラテン語 medium aevum（中間の時代）に由来する。",
+    "meanings": [
+      {
+        "en": "The Middle Ages; the period between ancient and modern times.",
+        "ja": "古代と近代の間に置かれる歴史時代。",
+        "example_en": "The Middle Ages followed the fall of Rome.",
+        "example_ja": "中世は古代ローマ崩壊後に続く時代とされる。"
+      },
+      {
+        "en": "A medieval period in a country's historical periodization.",
+        "ja": "各国史における中世的時代区分。",
+        "example_en": "Japanese medieval society was shaped by warrior rule.",
+        "example_ja": "日本の中世社会は武家支配によって形づくられた。"
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "japanese_word": "新聞",
+    "original_word": "newspaper / news",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "幕末〜明治期",
+    "year": 1860,
+    "description": "「新聞」は、新しく聞いた知らせを意味する漢語であったが、幕末明治期に newspaper の訳語として定着した。1860年代には海外新聞の翻訳・抄訳を載せる刊行物が現れ、1870年代の『横浜毎日新聞』など日刊紙の発行により、時事報道・論説・広告を載せる定期印刷物を指す語となった。",
+    "etymology": "「新」は新しいこと、「聞」は知らせ・ニュースを表す。newspaper は news（知らせ）と paper（紙）から成る。",
+    "meanings": [
+      {
+        "en": "A regularly published printed or digital publication containing news, commentary, and advertisements.",
+        "ja": "時事報道・論説・広告などを載せる定期刊行物。",
+        "example_en": "The newspaper reported the election results.",
+        "example_ja": "新聞は選挙結果を報じた。"
+      },
+      {
+        "en": "News or information about recent events.",
+        "ja": "新しい知らせ・時事情報。",
+        "example_en": "News spread quickly through the town.",
+        "example_ja": "新聞は町中にすぐ広まった。"
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "japanese_word": "印刷",
+    "original_word": "printing",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「印刷」は、版面にインクなどをつけ、文字や図形を紙・布などへ多数複製する技術を表し、printing の訳語として定着した。漢籍刊行や寺院版木の伝統を背景に、明治期には活版印刷・新聞・教科書・官報の普及と結びつき、近代出版文化を支える基礎語となった。",
+    "etymology": "「印」はしるしを押すこと、「刷」はすり写すこと。printing は print（押して写す）に由来する。",
+    "meanings": [
+      {
+        "en": "The process or technology of reproducing text and images by applying ink to paper or other materials.",
+        "ja": "文字や図形を版面から紙などへ刷り写す技術・工程。",
+        "example_en": "Printing spread books to a wider public.",
+        "example_ja": "印刷は書物を広い読者へ届けた。"
+      },
+      {
+        "en": "Printed matter or the act of printing.",
+        "ja": "印刷すること、また印刷物。",
+        "example_en": "The printing was finished overnight.",
+        "example_ja": "印刷は一晩で終わった。"
+      }
+    ]
+  },
+  {
+    "id": 493,
+    "japanese_word": "活字",
+    "original_word": "type / movable type",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "近世〜明治期",
+    "year": null,
+    "description": "「活字」は、活版印刷に用いる一字ずつ独立した字型を表し、type や movable type に対応する。木製・金属製の活字を組み替えて版を作る技術は、明治期の新聞・書籍出版を大きく変えた。のちには印刷された文字や読書文化一般を指す比喩としても使われるようになった。",
+    "etymology": "「活」は動かして組み替えられること、「字」は文字を表す。movable type は自由に組み直せる印刷用字型をいう。",
+    "meanings": [
+      {
+        "en": "A piece of movable printing type bearing a single character.",
+        "ja": "活版印刷で使う、一字ごとの独立した字型。",
+        "example_en": "Movable type made printing flexible.",
+        "example_ja": "活字は印刷を柔軟にした。"
+      },
+      {
+        "en": "Printed letters or printed matter.",
+        "ja": "印刷された文字、また書物・雑誌などの印刷物。",
+        "example_en": "He loved printed books.",
+        "example_ja": "彼は活字を読むのが好きだった。"
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "japanese_word": "書式",
+    "original_word": "form / format / style",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": 917,
+    "description": "「書式」は、証書・願書・届書などを書くときの定まった形式を表し、form、format、style に対応する。『聖徳太子伝暦』（917年頃）に用例があり、近代官僚制・学校・会社制度の中で、申請書や帳簿の標準化を示す語として広まった。現代では文書のレイアウトやフォーマットも指す。",
+    "etymology": "「書」は文書、「式」は一定の型・方式を表す。format はラテン語 forma（形）に由来する。",
+    "meanings": [
+      {
+        "en": "A prescribed form or format for a document.",
+        "ja": "文書の定まった書き方・形式。",
+        "example_en": "Use the official form for the application.",
+        "example_ja": "申請には正式な書式を使う。"
+      },
+      {
+        "en": "Formatting or layout of text.",
+        "ja": "文字・余白・配置などの文書形式。",
+        "example_en": "The report follows a standard format.",
+        "example_ja": "報告書は標準書式に従う。"
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "japanese_word": "句法",
+    "original_word": "syntax / phrase construction",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "室町期〜明治期",
+    "year": 1783,
+    "description": "「句法」は、句や文を組み立てる際のことばの決まりを表し、syntax や phrase construction に対応する。漢詩文・俳句・文章作法の語として古くから用いられ、明治期の英語学・国語学では、語と語の結合、文の構造を説明する文法語として機能した。",
+    "etymology": "「句」は語句・文のまとまり、「法」は規則を表す。syntax はギリシア語 syntaxis（配列）に由来する。",
+    "meanings": [
+      {
+        "en": "Syntax; the rules for arranging words and phrases in sentences.",
+        "ja": "語句を配列し文を作る規則。",
+        "example_en": "Syntax differs from language to language.",
+        "example_ja": "句法は言語によって異なる。"
+      },
+      {
+        "en": "Rules for constructing poetic or literary phrases.",
+        "ja": "詩歌・文章で句を組み立てる作法。",
+        "example_en": "Poetic phrase construction shapes rhythm.",
+        "example_ja": "詩の句法はリズムを形づくる。"
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "japanese_word": "語法",
+    "original_word": "grammar / usage",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸後期〜明治期",
+    "year": 1826,
+    "description": "「語法」は、言葉の使い方や語の結合に現れる規則を表し、grammar や usage に対応する。1826年『輿地誌略』に外国語の語法を指す用例があり、明治期の英語学・国語学の整備とともに、文法規則と慣用的な言い方の双方を含む語として定着した。",
+    "etymology": "「語」はことば、「法」は規則・方法を表す。usage は use（用いること）に由来し、慣用的な語の使い方をいう。",
+    "meanings": [
+      {
+        "en": "Grammar; rules governing language structure.",
+        "ja": "言語の構造や語の働きを支える規則。",
+        "example_en": "The grammar of this language is complex.",
+        "example_ja": "この言語の語法は複雑である。"
+      },
+      {
+        "en": "Usage; the customary way words are used.",
+        "ja": "語や表現の慣用的な使い方。",
+        "example_en": "This usage is common in formal writing.",
+        "example_ja": "この語法は正式な文章でよく使われる。"
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "japanese_word": "国語",
+    "original_word": "national language / Japanese language",
+    "language": "英語",
+    "field_id": 6,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「国語」は、一国の主体をなす人々が共有し広く用いる言語を表し、national language に対応する。明治期には近代国家形成・学校教育・標準語政策と結びつき、日本語を国民共通の言語として整備する語となった。学校教科名としては、読み書き・文法・文学を含む日本語教育を指す。",
+    "etymology": "「国」は国家・国民、「語」は言語を表す。national language は国家や国民共同体を代表する言語をいう。",
+    "meanings": [
+      {
+        "en": "A national language used by the people of a state.",
+        "ja": "一国の国民が共有し広く用いる言語。",
+        "example_en": "French is the national language of France.",
+        "example_ja": "国語は国家の共通語として意識された。"
+      },
+      {
+        "en": "The Japanese language, especially as a school subject.",
+        "ja": "日本語、また学校教科としての日本語。",
+        "example_en": "Japanese language classes teach reading and writing.",
+        "example_ja": "国語の授業で作文を学ぶ。"
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "japanese_word": "音字",
+    "original_word": "phonetic letter / letter",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「音字」は、音を表す文字、すなわち表音文字を表す語で、phonetic letter や letter に対応する。西周『百学連環』（1870〜1871年頃）では、hieroglyph を形象字、letter を音字として対比した。漢字のような表意的文字に対し、アルファベットや仮名のように音を示す文字体系を説明する語である。",
+    "etymology": "「音」は音声、「字」は文字を表す。phonetic はギリシア語 phone（声・音）に由来する。",
+    "meanings": [
+      {
+        "en": "A phonetic letter or sound-symbol.",
+        "ja": "音を表す文字・記号。",
+        "example_en": "A phonetic letter represents sound.",
+        "example_ja": "音字は音声を表す。"
+      },
+      {
+        "en": "A letter as opposed to an ideographic sign.",
+        "ja": "表意文字に対する表音文字。",
+        "example_en": "Letters were contrasted with hieroglyphs.",
+        "example_ja": "音字は形象字と対比された。"
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "japanese_word": "母音",
+    "original_word": "vowel",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「母音」は、呼気が口腔や咽頭で大きな閉鎖・狭めを受けずに発せられる言語音を表し、vowel の訳語として定着した。西周『百学連環』（1870〜1871年頃）に consonants（子音）と vowels（母音）の対比が見える。日本語ではア・イ・ウ・エ・オが基本的な母音とされる。",
+    "etymology": "「母」は音節を支える中心音の比喩、「音」は言語音を表す。vowel はラテン語 vocalis（声のある）に由来する。",
+    "meanings": [
+      {
+        "en": "A speech sound produced without significant obstruction of the breath in the vocal tract.",
+        "ja": "声道で大きな妨げを受けずに発せられる言語音。",
+        "example_en": "Japanese has five basic vowels.",
+        "example_ja": "日本語には基本的な母音が五つある。"
+      },
+      {
+        "en": "A letter representing a vowel sound.",
+        "ja": "母音を表す文字。",
+        "example_en": "A, E, I, O, and U are vowels in English.",
+        "example_ja": "英語では A、E、I、O、U が母音字である。"
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "japanese_word": "子音",
+    "original_word": "consonant",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「子音」は、発音時に呼気が口腔・唇・舌・歯などで閉鎖または狭めを受けて生じる言語音を表し、consonant の訳語として定着した。西周『百学連環』（1870〜1871年頃）に consonants（子音）と vowels（母音）の対比が見える。音声学・国語学・英語教育の基本語である。",
+    "etymology": "「子」は母音に従属して音節を作る音の比喩、「音」は言語音を表す。consonant はラテン語 consonare（共に響く）に由来する。",
+    "meanings": [
+      {
+        "en": "A speech sound produced with obstruction or narrowing in the vocal tract.",
+        "ja": "声道の閉鎖や狭めを伴って発せられる言語音。",
+        "example_en": "The sounds /k/ and /t/ are consonants.",
+        "example_ja": "/k/ や /t/ は子音である。"
+      },
+      {
+        "en": "A letter representing a consonant sound.",
+        "ja": "子音を表す文字。",
+        "example_en": "B and C are consonants in the alphabet.",
+        "example_ja": "B や C はアルファベットの子音字である。"
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "japanese_word": "物理学",
+    "original_word": "physics",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「物理学」は、物質・運動・力・熱・光・電磁気など自然界の基本法則を研究する学問を表し、physics の訳語として定着した。江戸末期から明治初期には「窮理学」「格物学」「物理」などが並行し、学校制度と大学理学教育の整備により標準語となった。",
+    "etymology": "「物理」は物の理法、「学」は体系的研究。physics はギリシア語 physis（自然）に由来する。",
+    "meanings": [
+      {
+        "en": "The science of matter, energy, motion, and forces.",
+        "ja": "物質・エネルギー・運動・力の法則を研究する科学。",
+        "example_en": "Physics explains the motion of planets.",
+        "example_ja": "物理学は惑星の運動を説明する。"
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "japanese_word": "格物学",
+    "original_word": "natural philosophy / physics",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治初期",
+    "year": null,
+    "description": "「格物学」は、儒学の「格物致知」に由来する語を西洋自然学に転用した初期訳語である。natural philosophy や physics に対応し、自然物の理を究める学問を指したが、のち「物理学」「自然科学」に置き換わった。",
+    "etymology": "「格物」は物に至って理を究めること。natural philosophy は近代以前の自然研究の総称。",
+    "meanings": [
+      {
+        "en": "Natural philosophy; early study of nature and physical laws.",
+        "ja": "自然物とその理法を研究する学問。物理学の旧称的用法。",
+        "example_en": "Natural philosophy preceded modern physics.",
+        "example_ja": "格物学は近代物理学以前の自然研究を指した。"
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "japanese_word": "窮理学",
+    "original_word": "natural philosophy / physics",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治初期",
+    "year": null,
+    "description": "「窮理学」は、自然の理を究める学問を意味し、natural philosophy や physics の訳語として幕末明治期に用いられた。物理・天文・気象・力学などを含む広い自然学を指す場合があり、明治の学制以後は「物理学」に標準化された。",
+    "etymology": "「窮理」は理をきわめること。natural philosophy は自然界の原理を扱う旧称。",
+    "meanings": [
+      {
+        "en": "Natural philosophy or early physics.",
+        "ja": "自然界の原理を究める学問。物理学の旧称。",
+        "example_en": "The textbook introduced natural philosophy.",
+        "example_ja": "その教科書は窮理学を紹介した。"
+      }
+    ]
+  },
+  {
+    "id": 504,
+    "japanese_word": "舎密",
+    "original_word": "chemie / chemistry",
+    "language": "オランダ語・英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1833,
+    "description": "「舎密」はオランダ語 chemie の音訳で、化学の旧称である。宇田川榕菴『植学啓原』（1833年）に用例があり、『舎密開宗』（1837〜1847年）で近代化学を示す語として広まった。明治期には「化学」と併用されたが、学制以後は「化学」が標準となった。",
+    "etymology": "「舎密」は chemie の音を漢字で写したもの。chemistry は alchemy を経て物質変化を扱う学問を指す。",
+    "meanings": [
+      {
+        "en": "Chemistry; the older Japanese term seimi from Dutch chemie.",
+        "ja": "化学の旧称。物質の性質・変化を扱う学問。",
+        "example_en": "Chemistry was once called seimi in Japan.",
+        "example_ja": "化学はかつて舎密と呼ばれた。"
+      }
+    ]
+  },
+  {
+    "id": 505,
+    "japanese_word": "化学力",
+    "original_word": "chemical force",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「化学力」は、物質が化合・分解などの化学変化を起こす力を表し、chemical force の訳語として用いられた。宇田川榕菴『舎密開宗』では、親和力など物質相互の結合性を説明する語彙群として機能した。",
+    "etymology": "「化学」は物質変化の学、「力」は作用。chemical force は化学的相互作用をいう。",
+    "meanings": [
+      {
+        "en": "A force or tendency causing chemical combination or reaction.",
+        "ja": "化合・分解など化学反応を起こす作用。",
+        "example_en": "Chemical force was used to explain reactions.",
+        "example_ja": "化学力は反応を説明する語として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 506,
+    "japanese_word": "親和力",
+    "original_word": "chemical affinity",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「親和力」は、物質どうしが結びつきやすい性質を表し、chemical affinity の訳語として宇田川榕菴『舎密開宗』に用いられた。近代化学初期には反応の起こりやすさを説明する中心概念で、のち化学結合・反応性・親和性へ分化した。",
+    "etymology": "「親和」は互いに親しみ和すること、「力」は作用。affinity はラテン語 affinitas（近接・縁）に由来する。",
+    "meanings": [
+      {
+        "en": "Chemical affinity; the tendency of substances to combine.",
+        "ja": "物質が互いに反応・結合しやすい性質。",
+        "example_en": "Chemical affinity explains why substances combine.",
+        "example_ja": "親和力は物質が結合する傾向を説明する。"
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "japanese_word": "元質",
+    "original_word": "element / simple substance",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「元質」は、通常の化学的方法でこれ以上分けられない基本物質を表す初期化学語で、element や simple substance に対応した。宇田川榕菴『舎密開宗』の元素論で「元素」と近い意味に用いられ、のち「元素」が標準語となった。",
+    "etymology": "「元」は根本、「質」は物質・本体。element はラテン語 elementum（基本要素）に由来する。",
+    "meanings": [
+      {
+        "en": "An element or simple substance in early chemistry.",
+        "ja": "初期化学で、基本となる単純物質・元素。",
+        "example_en": "Oxygen was treated as a simple substance.",
+        "example_ja": "酸素は元質の一つとされた。"
+      }
+    ]
+  },
+  {
+    "id": 508,
+    "japanese_word": "分解",
+    "original_word": "decomposition / analysis",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「分解」は、一つの物質や構造を複数の成分へ分けることを表し、decomposition や analysis に対応する。宇田川榕菴『舎密開宗』以後、化学反応で化合物が成分に分かれる現象、また機械や議論を部分に分ける行為を指す語として定着した。",
+    "etymology": "「分」は分けること、「解」はほどくこと。decomposition は composition（組成）を解く意。",
+    "meanings": [
+      {
+        "en": "The breaking down of a compound or whole into parts.",
+        "ja": "化合物や全体を成分・部分へ分けること。",
+        "example_en": "Water can be decomposed into hydrogen and oxygen.",
+        "example_ja": "水は水素と酸素に分解できる。"
+      }
+    ]
+  },
+  {
+    "id": 509,
+    "japanese_word": "蒸留水",
+    "original_word": "distilled water",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「蒸留水」は、水を蒸発させて再び凝縮し、不純物を取り除いた水を表し、distilled water の訳語として化学・薬学で定着した。宇田川榕菴『舎密開宗』以後、試薬調製・分析・医薬で用いられる純水を指す語として使われた。",
+    "etymology": "「蒸留」は液体を蒸発・凝縮して精製すること。distilled はラテン語 stillare（滴る）に由来する。",
+    "meanings": [
+      {
+        "en": "Water purified by distillation.",
+        "ja": "蒸留によって不純物を除いた水。",
+        "example_en": "Distilled water is used in experiments.",
+        "example_ja": "実験には蒸留水を用いる。"
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "japanese_word": "酸",
+    "original_word": "acid",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「酸」は、酸味をもつ物質から転じ、化学では水溶液中で水素イオンを生じる、または塩基と反応して塩を作る物質を表す。宇田川榕菴『舎密開宗』などを通じて acid の訳語として定着し、酸素・硫酸・塩酸などの化学語彙の核となった。",
+    "etymology": "「酸」はすっぱい味を表す漢字。acid はラテン語 acidus（すっぱい）に由来する。",
+    "meanings": [
+      {
+        "en": "An acid; a substance that donates protons or reacts with bases.",
+        "ja": "酸味をもち、塩基と反応する化学物質。",
+        "example_en": "Acids react with bases to form salts.",
+        "example_ja": "酸は塩基と反応して塩を作る。"
+      }
+    ]
+  },
+  {
+    "id": 511,
+    "japanese_word": "硝酸",
+    "original_word": "nitric acid",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「硝酸」は、窒素の酸化物に由来する強酸を表し、nitric acid の訳語として定着した。宇田川榕菴『舎密開宗』以後、硝石・火薬・金属溶解・分析化学と結びつく重要な酸名となった。化学式は HNO3。",
+    "etymology": "「硝」は硝石、「酸」は酸性物質。nitric は nitre（硝石）に由来する。",
+    "meanings": [
+      {
+        "en": "Nitric acid, HNO3.",
+        "ja": "化学式 HNO3 の強酸。",
+        "example_en": "Nitric acid dissolves copper.",
+        "example_ja": "硝酸は銅を溶かす。"
+      }
+    ]
+  },
+  {
+    "id": 512,
+    "japanese_word": "硫酸",
+    "original_word": "sulfuric acid",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「硫酸」は、硫黄を含む代表的な強酸を表し、sulfuric acid の訳語として定着した。宇田川榕菴『舎密開宗』以後、化学工業・金属精錬・肥料・試薬に欠かせない基礎化学語となった。化学式は H2SO4。",
+    "etymology": "「硫」は硫黄、「酸」は酸性物質。sulfuric は sulfur（硫黄）に由来する。",
+    "meanings": [
+      {
+        "en": "Sulfuric acid, H2SO4.",
+        "ja": "化学式 H2SO4 の強酸。",
+        "example_en": "Sulfuric acid is widely used in industry.",
+        "example_ja": "硫酸は工業で広く使われる。"
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "japanese_word": "塩素",
+    "original_word": "chlorine",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「塩素」は、食塩など塩化物を作る元素を表し、chlorine の訳語として定着した。宇田川榕菴『舎密開宗』以後、酸素・水素・窒素などと並ぶ元素名として用いられた。漂白・殺菌・塩化物化学の基礎語であり、元素記号は Cl。",
+    "etymology": "「塩」は塩化物との関係、「素」は元素。chlorine はギリシア語 chloros（黄緑色）に由来する。",
+    "meanings": [
+      {
+        "en": "Chlorine, a halogen element with symbol Cl.",
+        "ja": "元素記号 Cl のハロゲン元素。",
+        "example_en": "Chlorine is used to disinfect water.",
+        "example_ja": "塩素は水の消毒に用いられる。"
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "japanese_word": "弗素",
+    "original_word": "fluorine",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「弗素」は、ハロゲン元素 fluorine の訳語である。蛍石などフッ化物の研究とともに日本語化され、元素記号 F の元素名として定着した。現代では「フッ素」と片仮名書きされることも多い。",
+    "etymology": "「弗」は fluoro- の音を写した字、「素」は元素。fluorine はラテン語 fluere（流れる）に由来する。",
+    "meanings": [
+      {
+        "en": "Fluorine, a halogen element with symbol F.",
+        "ja": "元素記号 F のハロゲン元素。",
+        "example_en": "Fluorine forms fluorides.",
+        "example_ja": "弗素はフッ化物を作る。"
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "japanese_word": "臭素",
+    "original_word": "bromine",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「臭素」は、刺激臭をもつ赤褐色の液体元素 bromine の訳語である。19世紀に発見されたハロゲン元素で、日本では近代化学教育の中で元素名として定着した。元素記号は Br。",
+    "etymology": "「臭」はにおい、「素」は元素。bromine はギリシア語 bromos（悪臭）に由来する。",
+    "meanings": [
+      {
+        "en": "Bromine, a halogen element with symbol Br.",
+        "ja": "元素記号 Br のハロゲン元素。",
+        "example_en": "Bromine has a strong odor.",
+        "example_ja": "臭素には強い臭気がある。"
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "japanese_word": "沃素",
+    "original_word": "iodine",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「沃素」は、ハロゲン元素 iodine の訳語で、ヨウ素とも書かれる。ヨードチンキ・甲状腺ホルモン・海藻成分などを通じて医学・化学で広く知られる元素名となった。元素記号は I。",
+    "etymology": "「沃」は iodine の旧音写に用いられた字、「素」は元素。iodine はギリシア語 ioeides（すみれ色）に由来する。",
+    "meanings": [
+      {
+        "en": "Iodine, a halogen element with symbol I.",
+        "ja": "元素記号 I のハロゲン元素。ヨウ素。",
+        "example_en": "Iodine is needed for thyroid hormones.",
+        "example_ja": "沃素は甲状腺ホルモンに必要である。"
+      }
+    ]
+  },
+  {
+    "id": 517,
+    "japanese_word": "燐",
+    "original_word": "phosphorus",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期",
+    "year": 1837,
+    "description": "「燐」は、発光性をもつ元素 phosphorus の訳語として定着した。宇田川榕菴『舎密開宗』以後、元素名として用いられ、肥料・生体物質・マッチ・化学工業に関わる重要語となった。現代では「リン」とも書く。",
+    "etymology": "「燐」は鬼火・光る火を連想させる字。phosphorus はギリシア語 phosphoros（光を運ぶもの）に由来する。",
+    "meanings": [
+      {
+        "en": "Phosphorus, a chemical element with symbol P.",
+        "ja": "元素記号 P の元素。リン。",
+        "example_en": "Phosphorus is essential for life.",
+        "example_ja": "燐は生命に不可欠な元素である。"
+      }
+    ]
+  },
+  {
+    "id": 518,
+    "japanese_word": "電気",
+    "original_word": "electricity",
+    "language": "英語・オランダ語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治期",
+    "year": null,
+    "description": "「電気」は、電荷・電流・電場などに関わる物理現象を表し、electricity の訳語として定着した。江戸期のエレキテル受容から明治期の電信・照明・発電・電気工学へ広がり、近代社会の基礎語となった。",
+    "etymology": "「電」はいなずま、「気」は作用・エネルギー。electricity はギリシア語 elektron（琥珀）に由来する。",
+    "meanings": [
+      {
+        "en": "Electricity; phenomena involving electric charge and current.",
+        "ja": "電荷・電流などに関わる物理現象、また電力。",
+        "example_en": "Electricity powers the city.",
+        "example_ja": "電気は都市を動かす。"
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "japanese_word": "電論",
+    "original_word": "electricity / theory of electricity",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「電論」は、電気現象を論じる学問領域を表す初期訳語で、西周『百学連環』の分類語彙に見える。electricity や theory of electricity に対応し、雷・磁気・光などと並ぶ自然学の一分野として扱われた。",
+    "etymology": "「電」は電気、「論」は理論・論究。theory of electricity は電気現象の理論的研究をいう。",
+    "meanings": [
+      {
+        "en": "The theory or study of electricity.",
+        "ja": "電気現象を研究・説明する学問。",
+        "example_en": "The theory of electricity developed rapidly.",
+        "example_ja": "電論は明治初期の電気研究を指した。"
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "japanese_word": "雷学",
+    "original_word": "meteorology / atmospheric electricity",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「雷学」は、雷・気象・大気中の電気現象を扱う学問を表す初期訳語で、西周『百学連環』の自然学分類に見える。近代科学の分化以前、雷は電気・気象の交差領域として説明された。現代では「気象学」「大気電気学」などに分かれる。",
+    "etymology": "「雷」はかみなり、「学」は研究。atmospheric electricity は大気中の電気現象をいう。",
+    "meanings": [
+      {
+        "en": "The study of thunder or atmospheric electricity in early scientific classification.",
+        "ja": "初期自然学で、雷や大気中の電気現象を扱う学問。",
+        "example_en": "Thunder was studied as atmospheric electricity.",
+        "example_ja": "雷学は大気の電気現象を扱った。"
+      }
+    ]
+  },
+  {
+    "id": 521,
+    "japanese_word": "磁論",
+    "original_word": "magnetism / theory of magnetism",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「磁論」は、磁石・磁力・磁気現象を論じる学問を表す初期訳語で、西周『百学連環』に見える。magnetism や theory of magnetism に対応し、電論と並んで自然学に置かれた。現代では「磁気学」「電磁気学」が一般的である。",
+    "etymology": "「磁」は磁石・磁気、「論」は理論。magnetism は磁鉄鉱産地 Magnesia に由来するとされる。",
+    "meanings": [
+      {
+        "en": "Magnetism or the theory of magnetic phenomena.",
+        "ja": "磁石・磁力・磁気現象を扱う学問。",
+        "example_en": "Magnetism is related to electricity.",
+        "example_ja": "磁論は電論と結びついて発展した。"
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "japanese_word": "光論",
+    "original_word": "optics / theory of light",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「光論」は、光の性質・反射・屈折・色などを論じる学問を表す初期訳語で、西周『百学連環』に見える。optics や theory of light に対応し、現代の「光学」にあたる。明治期以降、学校理科では「光学」が標準語となった。",
+    "etymology": "「光」はひかり、「論」は理論・論究。optics はギリシア語 optikos（見ることに関する）に由来する。",
+    "meanings": [
+      {
+        "en": "Optics; the study of light.",
+        "ja": "光の性質・反射・屈折などを研究する学問。",
+        "example_en": "Optics explains the behavior of lenses.",
+        "example_ja": "光論はレンズの働きを説明する。"
+      }
+    ]
+  },
+  {
+    "id": 523,
+    "japanese_word": "動学",
+    "original_word": "dynamics",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「動学」は、力と運動の関係を扱う学問を表し、dynamics の訳語として用いられた。西周『百学連環』の自然学分類に見え、静学に対して物体が動く場合の力学を指す。現代では力学の一部門として「動力学」とも呼ばれる。",
+    "etymology": "「動」は動くこと、「学」は研究。dynamics はギリシア語 dynamis（力）に由来する。",
+    "meanings": [
+      {
+        "en": "Dynamics; mechanics concerned with forces and motion.",
+        "ja": "力と運動の関係を研究する力学分野。",
+        "example_en": "Dynamics explains acceleration.",
+        "example_ja": "動学は加速度を説明する。"
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "japanese_word": "静学",
+    "original_word": "statics",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「静学」は、静止または釣り合いの状態にある物体に働く力を扱う学問を表し、statics の訳語として用いられた。西周『百学連環』に見える初期力学語で、動学に対する分野名である。現代では「静力学」がより一般的である。",
+    "etymology": "「静」は静止・安定、「学」は研究。statics はギリシア語 statikos（静止させる）に由来する。",
+    "meanings": [
+      {
+        "en": "Statics; mechanics concerned with bodies in equilibrium.",
+        "ja": "釣り合い状態にある物体と力を扱う力学分野。",
+        "example_en": "Statics is used in bridge design.",
+        "example_ja": "静学は橋の設計に使われる。"
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "japanese_word": "微分",
+    "original_word": "differentiation / differential",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「微分」は、変化する量の瞬間的な変化率を求める数学操作を表し、differentiation や differential の訳語として定着した。明治期の西洋数学教育で積分と対になる基礎概念となり、物理学・工学・経済学などで変化の解析に用いられる。",
+    "etymology": "「微」はきわめて小さいこと、「分」は分けること。differential はラテン語 differre（異なる）に由来する。",
+    "meanings": [
+      {
+        "en": "Differentiation; finding an instantaneous rate of change.",
+        "ja": "関数の瞬間的変化率を求める操作。",
+        "example_en": "Differentiation gives velocity from position.",
+        "example_ja": "微分により位置から速度を求める。"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "japanese_word": "積分",
+    "original_word": "integration / integral",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「積分」は、微小量を積み重ねて面積・体積・総量などを求める数学操作を表し、integration や integral の訳語として定着した。明治期の西洋数学教育で微分と対になる概念となり、物理学・工学・統計など広い分野で使われる。",
+    "etymology": "「積」は積み重ねること、「分」は分けた量。integration はラテン語 integer（完全なもの）に由来する。",
+    "meanings": [
+      {
+        "en": "Integration; summing infinitesimal quantities to find a total.",
+        "ja": "微小量を積み重ねて総量を求める操作。",
+        "example_en": "Integration gives distance from velocity.",
+        "example_ja": "積分により速度から距離を求める。"
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "japanese_word": "幾何学",
+    "original_word": "geometry",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治期",
+    "year": null,
+    "description": "「幾何学」は、図形・空間・大きさ・位置関係を研究する数学分野を表し、geometry の訳語として定着した。中国経由の音訳的漢語が日本に入り、明治期の数学教育で算術・代数と並ぶ基礎科目となった。",
+    "etymology": "「幾何」は geometry の音訳的漢語として受容された語。「学」は研究。geometry はギリシア語 geōmetria（土地測量）に由来する。",
+    "meanings": [
+      {
+        "en": "Geometry; the study of shapes, space, and measurement.",
+        "ja": "図形・空間・測定を研究する数学分野。",
+        "example_en": "Geometry studies triangles and circles.",
+        "example_ja": "幾何学は三角形や円を研究する。"
+      }
+    ]
+  },
+  {
+    "id": 528,
+    "japanese_word": "算術",
+    "original_word": "arithmetic",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「算術」は、数を用いた計算の術を表し、arithmetic の訳語として近代学校教育に定着した。江戸期の和算や商用計算の伝統を受け継ぎながら、明治の小学校教則で四則・分数・小数などを教える基礎科目となった。",
+    "etymology": "「算」は数えること、「術」は技法。arithmetic はギリシア語 arithmos（数）に由来する。",
+    "meanings": [
+      {
+        "en": "Arithmetic; basic calculation with numbers.",
+        "ja": "数を用いる基礎的な計算。",
+        "example_en": "Arithmetic begins with addition and subtraction.",
+        "example_ja": "算術は加法と減法から始まる。"
+      }
+    ]
+  },
+  {
+    "id": 529,
+    "japanese_word": "天文学",
+    "original_word": "astronomy",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸後期〜明治期",
+    "year": null,
+    "description": "「天文学」は、天体・宇宙・その運動と構造を研究する学問を表し、astronomy の訳語として定着した。暦学・天文方の伝統を背景に、蘭学・西洋天文学の導入を経て、明治期の理学教育で近代科学として整備された。",
+    "etymology": "「天文」は天体現象、「学」は研究。astronomy はギリシア語 astron（星）と nomos（法則）に由来する。",
+    "meanings": [
+      {
+        "en": "Astronomy; the study of celestial bodies and the universe.",
+        "ja": "天体と宇宙を研究する科学。",
+        "example_en": "Astronomy studies stars and galaxies.",
+        "example_ja": "天文学は星や銀河を研究する。"
+      }
+    ]
+  },
+  {
+    "id": 530,
+    "japanese_word": "地理学",
+    "original_word": "geography",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「地理学」は、地表の自然環境・地域・人間活動の分布と関係を研究する学問を表し、geography の訳語として定着した。幕末明治期の世界地誌・地図・学校教育を通じて普及し、自然地理・人文地理・地誌を含む基礎学問となった。",
+    "etymology": "「地理」は土地の理・地域のあり方、「学」は研究。geography はギリシア語 geōgraphia（大地を記述すること）に由来する。",
+    "meanings": [
+      {
+        "en": "Geography; the study of places, environments, and spatial relations.",
+        "ja": "地域・環境・空間的関係を研究する学問。",
+        "example_en": "Geography examines rivers and cities.",
+        "example_ja": "地理学は河川や都市を調べる。"
+      }
+    ]
+  },
+  {
+    "id": 531,
+    "japanese_word": "地質学",
+    "original_word": "geology",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「地質学」は、地層・岩石・鉱物・地球の歴史を研究する学問を表し、geology の訳語として明治期に定着した。鉱山開発・測量・地図作成・地震研究などと結びつき、近代国家の資源調査と理学教育を支える重要分野となった。",
+    "etymology": "「地質」は土地・地層の性質、「学」は研究。geology はギリシア語 gē（地）と logos（学）に由来する。",
+    "meanings": [
+      {
+        "en": "Geology; the study of Earth, rocks, strata, and geological history.",
+        "ja": "地球・岩石・地層・地史を研究する学問。",
+        "example_en": "Geology studies the formation of mountains.",
+        "example_ja": "地質学は山脈の形成を研究する。"
+      }
+    ]
+  },
+  {
+    "id": 532,
+    "japanese_word": "測地術",
+    "original_word": "geodesy / surveying",
+    "language": "英語",
+    "field_id": 9,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「測地術」は、地球の形状・大きさ・位置を測る技術を表し、geodesy や surveying に対応する。明治期の地図作成・測量教育・陸地測量に関わる語として用いられ、地理学・天文学・土木工学を結ぶ実用技術であった。",
+    "etymology": "「測」は測ること、「地」は地球・土地、「術」は技術。geodesy はギリシア語 geōdaisia（土地を分け測ること）に由来する。",
+    "meanings": [
+      {
+        "en": "Geodesy or surveying; measuring Earth and land positions.",
+        "ja": "地球や土地の位置・形状を測定する技術。",
+        "example_en": "Geodesy supports accurate maps.",
+        "example_ja": "測地術は正確な地図作成を支える。"
+      }
+    ]
+  },
+  {
+    "id": 533,
+    "japanese_word": "博物館",
+    "original_word": "museum",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治初期",
+    "year": 1872,
+    "description": "「博物館」は、自然物・標本・美術品・歴史資料などを収集・保存・展示する施設を表し、museum の訳語として定着した。明治5年（1872年）の湯島聖堂博覧会や文部省博物局の活動を通じ、博物学・産業振興・教育を結ぶ近代施設名として広まった。",
+    "etymology": "「博物」は多くの物を広く知ること、「館」は施設。museum はギリシア語 mouseion（ムーサの神殿）に由来する。",
+    "meanings": [
+      {
+        "en": "A museum; an institution that collects, preserves, and exhibits objects.",
+        "ja": "資料・標本・作品を収集・保存・展示する施設。",
+        "example_en": "The museum displays fossils.",
+        "example_ja": "博物館は化石を展示する。"
+      }
+    ]
+  },
+  {
+    "id": 534,
+    "japanese_word": "動物学",
+    "original_word": "zoology",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「動物学」は、動物の分類・形態・発生・生理・生態を研究する学問を表し、zoology の訳語として定着した。江戸期の本草学・博物学を受け継ぎつつ、明治期の大学理学・博物館・標本調査を通じて近代生物学の一分野となった。",
+    "etymology": "「動物」は動く生物、「学」は研究。zoology はギリシア語 zōion（動物）と logos（学）に由来する。",
+    "meanings": [
+      {
+        "en": "Zoology; the scientific study of animals.",
+        "ja": "動物を研究する生物学分野。",
+        "example_en": "Zoology studies animal behavior.",
+        "example_ja": "動物学は動物の行動を研究する。"
+      }
+    ]
+  },
+  {
+    "id": 535,
+    "japanese_word": "植物学",
+    "original_word": "botany",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": 19,
+    "era": "江戸後期〜明治期",
+    "year": 1833,
+    "description": "「植物学」は、植物の分類・形態・生理・分布を研究する学問を表し、botany の訳語として定着した。宇田川榕菴『植学啓原』（1833年）は日本最初期の近代植物学書で、従来の本草学を西洋分類学・植物生理の方向へ広げた。",
+    "etymology": "「植物」は根を張って生育する生物、「学」は研究。botany はギリシア語 botanē（草）に由来する。",
+    "meanings": [
+      {
+        "en": "Botany; the scientific study of plants.",
+        "ja": "植物を研究する生物学分野。",
+        "example_en": "Botany classifies flowering plants.",
+        "example_ja": "植物学は花をつける植物を分類する。"
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "japanese_word": "鉱物学",
+    "original_word": "mineralogy",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「鉱物学」は、鉱物の組成・結晶・性質・産出を研究する学問を表し、mineralogy の訳語として定着した。江戸期の本草・鉱山知識を背景に、明治期には地質学・鉱山学・化学分析と結びつき、資源開発と理学教育を支える分野となった。",
+    "etymology": "「鉱物」は鉱石・無機自然物、「学」は研究。mineralogy は mineral（鉱物）と -logy（学）から成る。",
+    "meanings": [
+      {
+        "en": "Mineralogy; the study of minerals.",
+        "ja": "鉱物の性質・組成・結晶・産出を研究する学問。",
+        "example_en": "Mineralogy identifies crystals.",
+        "example_ja": "鉱物学は結晶を同定する。"
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "japanese_word": "性理学",
+    "original_word": "psychology",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「性理学」は、宋明理学では人間本性と理を究める学問を指したが、西周『百学連環』では psychology の訳語として哲学部門に置かれた。のち「心理学」が標準語となり、性理学は儒学的背景を含む初期訳語として残った。",
+    "etymology": "「性」は人の本性、「理」はすじみち・法則、「学」は研究。psychology は psyche（心・魂）と logos（学）に由来する。",
+    "meanings": [
+      {
+        "en": "Psychology, especially as an early Meiji translation.",
+        "ja": "心理学の初期訳語。心・本性の働きを扱う学問。",
+        "example_en": "Psychology was classified under philosophy.",
+        "example_ja": "性理学は哲学の一部門とされた。"
+      }
+    ]
+  },
+  {
+    "id": 538,
+    "japanese_word": "精神学",
+    "original_word": "mental science / pneumatology",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「精神学」は、精神・心霊・心の働きを研究する学問を表す語で、mental science や pneumatology に対応した。明治期には心理学・哲学・神学の境界領域で使われたが、近代心理学の制度化により一般語としては後退した。",
+    "etymology": "「精神」は心・霊的原理、「学」は研究。mental science は心的現象の学、pneumatology は霊・精神に関する学をいう。",
+    "meanings": [
+      {
+        "en": "The study of mind or spirit.",
+        "ja": "精神・心・霊的原理を研究する学問。",
+        "example_en": "Mental science preceded experimental psychology.",
+        "example_ja": "精神学は実験心理学以前の語として使われた。"
+      }
+    ]
+  },
+  {
+    "id": 539,
+    "japanese_word": "名教学",
+    "original_word": "ethics",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「名教学」は、西周『百学連環』で ethics に対応する哲学部門名として用いられた初期訳語である。人の行為・規範・道徳を扱う分野を指したが、のち「倫理学」が標準となった。表記は資料により「明教学」とも見える。",
+    "etymology": "「名教」は名分と教化、社会的規範を意味する漢語。「学」は研究。ethics はギリシア語 ethos（習俗・性格）に由来する。",
+    "meanings": [
+      {
+        "en": "Ethics; moral philosophy.",
+        "ja": "道徳・行為規範を扱う哲学分野。倫理学。",
+        "example_en": "Ethics asks what actions are right.",
+        "example_ja": "名教学は行為の正しさを問う。"
+      }
+    ]
+  },
+  {
+    "id": 540,
+    "japanese_word": "真理",
+    "original_word": "truth",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "古典漢語由来・明治初期",
+    "year": 1870,
+    "description": "「真理」は、事実や実在に合致する正しい認識・命題を表し、truth の訳語として哲学・論理学・宗教で定着した。仏教語としても真実不変の理法を指すが、西周以後、思惟と存在、認識と対象の一致を表す近代哲学語となった。",
+    "etymology": "「真」はまこと、「理」は道理・法則。truth は古英語 trēowth（誠実・真実）に由来する。",
+    "meanings": [
+      {
+        "en": "Truth; conformity with fact or reality.",
+        "ja": "事実・実在に合っていること。",
+        "example_en": "Philosophy seeks truth.",
+        "example_ja": "哲学は真理を探究する。"
+      }
+    ]
+  },
+  {
+    "id": 541,
+    "japanese_word": "真性",
+    "original_word": "true nature / authenticity",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「真性」は、物事の本当の性質、また偽りでない真正なあり方を表し、true nature や authenticity に対応する。医学では「真性糖尿病」のように本来型を示す語としても使われ、哲学・宗教では本性・本質の意味をもつ。",
+    "etymology": "「真」は本当、「性」は性質・本性。authenticity はギリシア語 authentikos（本物の）に由来する。",
+    "meanings": [
+      {
+        "en": "True nature or genuine character.",
+        "ja": "本当の性質・真正なあり方。",
+        "example_en": "The inquiry revealed its true nature.",
+        "example_ja": "調査はその真性を明らかにした。"
+      }
+    ]
+  },
+  {
+    "id": 542,
+    "japanese_word": "実体",
+    "original_word": "substance / reality",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「実体」は、属性や現象の背後にあって自立的に存在すると考えられるものを表し、substance の訳語として哲学で定着した。西周の哲学語彙と『哲学字彙』を通じ、形而上学・存在論の基礎語となった。日常語では、表面ではなく実際の姿を指す。",
+    "etymology": "「実」はまこと・実在、「体」は本体。substance はラテン語 substantia（下に立つもの）に由来する。",
+    "meanings": [
+      {
+        "en": "Substance; that which exists in itself and bears properties.",
+        "ja": "属性を担い自立的に存在するもの。本体。",
+        "example_en": "Substance was a central concept in metaphysics.",
+        "example_ja": "実体は形而上学の中心概念だった。"
+      }
+    ]
+  },
+  {
+    "id": 543,
+    "japanese_word": "宇宙",
+    "original_word": "universe / cosmos",
+    "language": "英語・ギリシア語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「宇宙」は、天地四方と過去未来を含む全体を表す古典漢語で、近代以降 universe や cosmos の訳語として自然科学・哲学に定着した。天文学ではすべての天体と時空を含む総体を指し、哲学では存在全体を表す語として用いられる。",
+    "etymology": "「宇」は空間的広がり、「宙」は時間的広がりを表すと解される。universe はラテン語 universum（一つにまとめられたもの）に由来する。",
+    "meanings": [
+      {
+        "en": "The universe; all space, time, matter, and energy.",
+        "ja": "空間・時間・物質・エネルギーの総体。",
+        "example_en": "The universe is expanding.",
+        "example_ja": "宇宙は膨張している。"
+      }
+    ]
+  },
+  {
+    "id": 544,
+    "japanese_word": "万有",
+    "original_word": "all beings / the universe",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「万有」は、存在するすべてのものを表し、all beings や the universe に対応する。近代科学では「万有引力」のように universe 全体の物体に普遍的に働く法則を表す語根となり、哲学では存在者全体を指す抽象語として使われた。",
+    "etymology": "「万」はあらゆるもの、「有」は存在するもの。being は存在者、universe は全体宇宙を意味する。",
+    "meanings": [
+      {
+        "en": "All beings or all things that exist.",
+        "ja": "存在するすべてのもの。",
+        "example_en": "Gravity acts on all bodies.",
+        "example_ja": "万有には引力が働く。"
+      }
+    ]
+  },
+  {
+    "id": 545,
+    "japanese_word": "精神",
+    "original_word": "spirit / mind",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「精神」は、心の働き、意志、気力、また物質に対する霊的・心的原理を表し、spirit、mind、Geist などに対応する。明治期の哲学・心理学・教育・宗教で、物質や身体に対する近代的な抽象語として広く定着した。",
+    "etymology": "「精」は生命の精髄、「神」は霊妙な働き。spirit はラテン語 spiritus（息・霊）に由来する。",
+    "meanings": [
+      {
+        "en": "Mind, spirit, or mental principle.",
+        "ja": "心・意志・霊的原理。",
+        "example_en": "The mind is not reducible to matter.",
+        "example_ja": "精神は物質に還元できないと考えられた。"
+      }
+    ]
+  },
+  {
+    "id": 546,
+    "japanese_word": "思惟",
+    "original_word": "thought / thinking",
+    "language": "英語・ドイツ語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "古典漢語由来・明治初期",
+    "year": 1870,
+    "description": "「思惟」は、心が対象を考え、判断し、推論する働きを表し、thought や thinking の訳語として哲学・心理学で定着した。仏教語・漢語として古くからあるが、西周以後、認識論・論理学の基本語となった。",
+    "etymology": "「思」は考えること、「惟」は深く思うこと。thought は think に由来し、考える働きや内容を表す。",
+    "meanings": [
+      {
+        "en": "Thought or thinking.",
+        "ja": "考える働き、またその内容。",
+        "example_en": "Thought relates concepts to one another.",
+        "example_ja": "思惟は概念を相互に関係づける。"
+      }
+    ]
+  },
+  {
+    "id": 547,
+    "japanese_word": "定義",
+    "original_word": "definition",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「定義」は、概念や語の意味範囲を明確に定めることを表し、definition の訳語として論理学・数学・法学で定着した。西周『百学連環』や『致知啓蒙』以後、近代的な学問記述で概念を厳密化する基礎語となった。",
+    "etymology": "「定」は定めること、「義」は意味。definition はラテン語 definire（境界を定める）に由来する。",
+    "meanings": [
+      {
+        "en": "Definition; a statement that explains the meaning of a term.",
+        "ja": "語や概念の意味を明確に定めること。",
+        "example_en": "The definition states the scope of the concept.",
+        "example_ja": "定義は概念の範囲を示す。"
+      }
+    ]
+  },
+  {
+    "id": 548,
+    "japanese_word": "演繹法",
+    "original_word": "deductive method / deduction",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「演繹法」は、一般的な前提や原理から個別の結論を論理的に導く推論方法を表し、deductive method / deduction の訳語として西周が紹介した。帰納法と対になる論理学の方法語として『百学連環』『致知啓蒙』以後に定着した。",
+    "etymology": "「演」は押し広げる、「繹」は糸口から引き出すこと。「法」は方法。deduction はラテン語 deducere（導き出す）に由来する。",
+    "meanings": [
+      {
+        "en": "Deductive method; reasoning from general premises to a specific conclusion.",
+        "ja": "一般的前提から個別の結論を導く推論方法。",
+        "example_en": "Deduction derives a conclusion from premises.",
+        "example_ja": "演繹法は前提から結論を導く。"
+      }
+    ]
+  },
+  {
+    "id": 549,
+    "japanese_word": "帰納法",
+    "original_word": "inductive method / induction",
+    "language": "英語",
+    "field_id": 1,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「帰納法」は、個別の観察例から一般的法則や結論を導く推論方法を表し、inductive method / induction の訳語として西周が紹介した。経験科学の方法論を示す語として、演繹法と対比されながら近代論理学・科学論に定着した。",
+    "etymology": "「帰納」は個々の事例をまとめて一つの結論へ帰すこと。「法」は方法。induction はラテン語 inducere（導き入れる）に由来する。",
+    "meanings": [
+      {
+        "en": "Inductive method; reasoning from particular cases to a general rule.",
+        "ja": "個別事例から一般法則を導く推論方法。",
+        "example_en": "Induction begins with observation.",
+        "example_ja": "帰納法は観察から始まる。"
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "japanese_word": "仏教",
+    "original_word": "Buddhism",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "古代仏教漢語由来・明治期",
+    "year": null,
+    "description": "「仏教」は、釈迦を開祖とし、悟りと解脱を説く宗教を表し、Buddhism の訳語として近代以降に国際宗教分類の語となった。古くは「仏法」「仏道」が多かったが、明治期の宗教学・比較宗教の文脈でキリスト教・回教などと並ぶ名称として定着した。",
+    "etymology": "「仏」は仏陀、「教」は教え。Buddhism は Buddha（覚者）に -ism が付いた語。",
+    "meanings": [
+      {
+        "en": "Buddhism; the religion and philosophy based on the teachings of the Buddha.",
+        "ja": "仏陀の教えに基づく宗教・思想。",
+        "example_en": "Buddhism spread across Asia.",
+        "example_ja": "仏教はアジア各地へ広まった。"
+      }
+    ]
+  },
+  {
+    "id": 551,
+    "japanese_word": "回教",
+    "original_word": "Islam / Mohammedanism",
+    "language": "英語・アラビア語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「回教」は、イスラム教を表す近代漢語で、Islam や旧称 Mohammedanism に対応した。中国の回民・回回に由来する呼称を受け継いだもので、明治期の地理・宗教・世界史で広く用いられた。現代では「イスラム教」が一般的である。",
+    "etymology": "「回」は中国の回回・回民に由来し、「教」は宗教。Islam はアラビア語で神への帰依を意味する。",
+    "meanings": [
+      {
+        "en": "Islam; the monotheistic religion founded on the Qur'an.",
+        "ja": "クルアーンを聖典とする一神教。イスラム教。",
+        "example_en": "Islam spread from Arabia.",
+        "example_ja": "回教はアラビアから広がった。"
+      }
+    ]
+  },
+  {
+    "id": 552,
+    "japanese_word": "猶太教",
+    "original_word": "Judaism",
+    "language": "英語・ヘブライ語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「猶太教」は、ユダヤ教を表す漢字表記で、Judaism の訳語として世界史・宗教学で用いられた。「猶太」は Judea / Jew の漢字音写に由来し、キリスト教・イスラム教と同じアブラハム系一神教の源流として説明された。現代では「ユダヤ教」が一般的である。",
+    "etymology": "「猶太」はユダヤの音写、「教」は宗教。Judaism は Judah / Jew に由来する。",
+    "meanings": [
+      {
+        "en": "Judaism; the religion of the Jewish people.",
+        "ja": "ユダヤ民族の宗教。一神教の一つ。",
+        "example_en": "Judaism preserves the Torah.",
+        "example_ja": "猶太教はトーラーを重んじる。"
+      }
+    ]
+  },
+  {
+    "id": 553,
+    "japanese_word": "拝火教",
+    "original_word": "Zoroastrianism",
+    "language": "英語・ペルシア語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「拝火教」は、ゾロアスター教を表す漢語で、Zoroastrianism の訳語として世界史・宗教学で用いられた。火を清浄と神聖の象徴として尊ぶことからこの名があり、古代ペルシアの宗教として紹介された。現代では「ゾロアスター教」が一般的である。",
+    "etymology": "「拝火」は火を礼拝すること、「教」は宗教。Zoroastrianism は預言者 Zarathustra / Zoroaster に由来する。",
+    "meanings": [
+      {
+        "en": "Zoroastrianism; an ancient Iranian religion.",
+        "ja": "古代イランに起源をもつ宗教。ゾロアスター教。",
+        "example_en": "Zoroastrianism honors sacred fire.",
+        "example_ja": "拝火教は聖なる火を重んじる。"
+      }
+    ]
+  },
+  {
+    "id": 554,
+    "japanese_word": "黄教",
+    "original_word": "Yellow Hat sect / Gelug school",
+    "language": "英語・チベット語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「黄教」は、チベット仏教ゲルク派を指す漢語で、Yellow Hat sect / Gelug school に対応する。僧帽の色に基づく呼称で、世界宗教・アジア地理の紹介で「紅教」と対比された。現代では「ゲルク派」「黄帽派」がより説明的である。",
+    "etymology": "「黄」は黄色い僧帽、「教」は宗派。Gelug はチベット語で善規・徳行を意味する。",
+    "meanings": [
+      {
+        "en": "The Gelug school of Tibetan Buddhism, the Yellow Hat sect.",
+        "ja": "チベット仏教ゲルク派。黄帽派。",
+        "example_en": "The Gelug school became politically influential in Tibet.",
+        "example_ja": "黄教はチベットで大きな影響力をもった。"
+      }
+    ]
+  },
+  {
+    "id": 555,
+    "japanese_word": "紅教",
+    "original_word": "Red Hat sect / Nyingma school",
+    "language": "英語・チベット語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「紅教」は、チベット仏教の古派・紅帽派を指す漢語で、Red Hat sect や Nyingma school に対応して用いられた。世界宗教・アジア地理の記述で黄教と対比される語である。現代では「ニンマ派」など具体的宗派名で呼ぶことが多い。",
+    "etymology": "「紅」は赤い僧帽、「教」は宗派。Nyingma はチベット語で古いものを意味する。",
+    "meanings": [
+      {
+        "en": "A Red Hat school of Tibetan Buddhism, often the Nyingma school.",
+        "ja": "チベット仏教の紅帽派、特にニンマ派を指す呼称。",
+        "example_en": "The Red Hat sect was contrasted with the Yellow Hat sect.",
+        "example_ja": "紅教は黄教と対比された。"
+      }
+    ]
+  },
+  {
+    "id": 556,
+    "japanese_word": "神学",
+    "original_word": "theology",
+    "language": "英語・ギリシア語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「神学」は、神・信仰・啓示・教義について体系的に研究する学問を表し、theology の訳語として定着した。キリスト教宣教・神学校・宗教学の受容を通じて、哲学や宗教研究と隣接する学問名として用いられた。",
+    "etymology": "「神」は神、「学」は研究。theology はギリシア語 theos（神）と logos（学）に由来する。",
+    "meanings": [
+      {
+        "en": "Theology; systematic study of God, faith, and doctrine.",
+        "ja": "神・信仰・教義を体系的に研究する学問。",
+        "example_en": "Theology examines doctrines of salvation.",
+        "example_ja": "神学は救済の教義を考察する。"
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "japanese_word": "神理学",
+    "original_word": "theology / natural theology",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「神理学」は、神に関する理を研究する学問を表す初期訳語で、西周『百学連環』では theology / natural theology に近い部門名として用いられた。近代以降は「神学」が一般化し、この語は初期学術分類の歴史語となった。",
+    "etymology": "「神」は神、「理」は法理・道理、「学」は研究。natural theology は自然理性による神の考察をいう。",
+    "meanings": [
+      {
+        "en": "Theology or natural theology.",
+        "ja": "神についての理論的研究。神学・自然神学。",
+        "example_en": "Natural theology argues from nature to God.",
+        "example_ja": "神理学は自然から神を論じる学問とされた。"
+      }
+    ]
+  },
+  {
+    "id": 558,
+    "japanese_word": "唯一神学",
+    "original_word": "monotheism",
+    "language": "英語・ギリシア語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「唯一神学」は、ただ一つの神を認める宗教思想を表し、monotheism に対応する初期訳語的表現である。キリスト教・ユダヤ教・イスラム教を多神教や汎神論と区別して説明する比較宗教学の語として使われた。現代では「一神教」が一般的である。",
+    "etymology": "「唯一」はただ一つ、「神」は deity、「学」はここでは教説・思想を表す。monotheism は mono-（一つ）と theos（神）に由来する。",
+    "meanings": [
+      {
+        "en": "Monotheism; belief in one God.",
+        "ja": "唯一の神を信じる宗教思想。一神教。",
+        "example_en": "Monotheism differs from polytheism.",
+        "example_ja": "唯一神学は多神教と区別された。"
+      }
+    ]
+  },
+  {
+    "id": 559,
+    "japanese_word": "神統政治",
+    "original_word": "theocracy",
+    "language": "英語・ギリシア語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「神統政治」は、神意や聖職者の権威によって統治される政治体制を表し、theocracy の訳語として用いられた。宗教と国家権力が分離しない統治形態を説明する政治・宗教史の語で、現代では「神権政治」が一般的である。",
+    "etymology": "「神」は神、「統」は統治、「政治」は governance。theocracy はギリシア語 theos（神）と kratia（支配）に由来する。",
+    "meanings": [
+      {
+        "en": "Theocracy; government by divine authority or clergy.",
+        "ja": "神意や聖職者の権威による統治。",
+        "example_en": "A theocracy bases law on religion.",
+        "example_ja": "神統政治では宗教が法の基礎となる。"
+      }
+    ]
+  },
+  {
+    "id": 560,
+    "japanese_word": "福音",
+    "original_word": "gospel",
+    "language": "英語・ギリシア語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "キリシタン期〜明治期",
+    "year": null,
+    "description": "「福音」は、キリスト教でイエス・キリストによる救いの良い知らせを表し、gospel の訳語として定着した。明治期の聖書翻訳・宣教文書を通じて広まり、四福音書、福音主義、福音伝道などの語を生んだ。",
+    "etymology": "「福」は幸い・救い、「音」は知らせ。gospel は古英語 godspel（よい知らせ）に由来し、ギリシア語 euangelion に対応する。",
+    "meanings": [
+      {
+        "en": "The gospel; the good news of salvation in Christianity.",
+        "ja": "キリスト教で、救いを告げるよい知らせ。",
+        "example_en": "The gospel was preached in many languages.",
+        "example_ja": "福音は多くの言語で宣べ伝えられた。"
+      }
+    ]
+  },
+  {
+    "id": 561,
+    "japanese_word": "救世主",
+    "original_word": "savior / messiah",
+    "language": "英語・ヘブライ語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「救世主」は、世界や人々を救う者を表し、savior や messiah の訳語としてキリスト教文献で定着した。特にイエス・キリストを指すが、宗教外でも危機から救う人物の比喩として用いられる。",
+    "etymology": "「救世」は世を救うこと、「主」は主なる者。savior は save（救う）に、messiah はヘブライ語 mashiah（油注がれた者）に由来する。",
+    "meanings": [
+      {
+        "en": "A savior or messiah, especially Christ.",
+        "ja": "救い主。特にキリスト教でイエス・キリスト。",
+        "example_en": "Christ is called the Savior.",
+        "example_ja": "キリストは救世主と呼ばれる。"
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "japanese_word": "法学",
+    "original_word": "jurisprudence / law",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「法学」は、法律・法体系・法解釈を研究する学問を表し、jurisprudence / law の訳語として定着した。明治期の近代法制・大学法学部・司法制度整備の中で、憲法・民法・刑法・行政法などを含む学問名となった。",
+    "etymology": "「法」は規範・法律、「学」は研究。jurisprudence はラテン語 juris prudentia（法の知識）に由来する。",
+    "meanings": [
+      {
+        "en": "jurisprudence.",
+        "ja": "法律と法制度を研究する学問。",
+        "example_en": "The term relates to jurisprudence.",
+        "example_ja": "法学は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 563,
+    "japanese_word": "国法",
+    "original_word": "national law / law of the state",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「国法」は、一国の法体系・国家が制定し運用する法を表し、national law や law of the state に対応する。国際法や私的規範に対して、国家内部で効力をもつ法を指す近代法学語として用いられた。",
+    "etymology": "「国」は国家、「法」は法律・規範。national law は国家単位で効力をもつ法をいう。",
+    "meanings": [
+      {
+        "en": "national law.",
+        "ja": "国家の内部で効力をもつ法。",
+        "example_en": "The term relates to national law.",
+        "example_ja": "国法は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "japanese_word": "公法",
+    "original_word": "public law",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「公法」は、国家・公共団体・公権力に関する法律関係を規律する法を表し、public law の訳語として定着した。憲法・行政法・刑法・国際法などを含み、私人間関係を扱う私法と対比される。",
+    "etymology": "「公」は公共・国家、「法」は法律。public law は公的権力や公益に関する法をいう。",
+    "meanings": [
+      {
+        "en": "public law.",
+        "ja": "国家・公共団体に関わる法律関係を規律する法。",
+        "example_en": "The term relates to public law.",
+        "example_ja": "公法は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 565,
+    "japanese_word": "私法",
+    "original_word": "private law",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「私法」は、私人相互の財産・家族・契約などの法律関係を規律する法を表し、private law の訳語として定着した。民法・商法などを中心に、公法と対比される近代法体系の基礎区分である。",
+    "etymology": "「私」は私人・私的関係、「法」は法律。private law は個人間関係に関する法をいう。",
+    "meanings": [
+      {
+        "en": "private law.",
+        "ja": "私人間の法律関係を規律する法。",
+        "example_en": "The term relates to private law.",
+        "example_ja": "私法は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 566,
+    "japanese_word": "刑法",
+    "original_word": "criminal law / penal code",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1880,
+    "description": "「刑法」は、犯罪と刑罰を定める法を表し、criminal law / penal code の訳語として近代法制に定着した。明治13年（1880年）旧刑法公布を経て、近代国家の刑罰権を成文化する中心語となった。",
+    "etymology": "「刑」は刑罰、「法」は法律。criminal law は犯罪と処罰に関する法をいう。",
+    "meanings": [
+      {
+        "en": "criminal law.",
+        "ja": "犯罪と刑罰を定める法律。",
+        "example_en": "The term relates to criminal law.",
+        "example_ja": "刑法は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 567,
+    "japanese_word": "軍法",
+    "original_word": "military law",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「軍法」は、軍隊の組織・規律・犯罪・裁判に関する法を表し、military law の訳語として用いられた。近代軍制の整備に伴い、軍人の服務・軍律・軍法会議を支える法語となった。",
+    "etymology": "「軍」は軍隊、「法」は規律・法律。military law は軍事組織に適用される法をいう。",
+    "meanings": [
+      {
+        "en": "military law.",
+        "ja": "軍隊に適用される法律・規律。",
+        "example_en": "The term relates to military law.",
+        "example_ja": "軍法は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 568,
+    "japanese_word": "政法",
+    "original_word": "political law / constitutional law",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「政法」は、政治の制度や国家統治に関する法を表し、political law / constitutional law に対応する初期訳語として用いられた。西周『百学連環』など明治初期の学術分類では、政治・法・統治を結ぶ語として機能した。",
+    "etymology": "「政」は政治・統治、「法」は法。political law は政治制度に関する法をいう。",
+    "meanings": [
+      {
+        "en": "political law.",
+        "ja": "政治制度・統治に関する法。",
+        "example_en": "The term relates to political law.",
+        "example_ja": "政法は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 569,
+    "japanese_word": "法典",
+    "original_word": "code / legal code",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「法典」は、一定分野の法律を体系的に編成した成文法を表し、code / legal code の訳語として定着した。明治期の民法典・商法典・刑法典整備により、近代法制の基本語となった。",
+    "etymology": "「法」は法律、「典」は基準となる書物。code はラテン語 codex（書冊）に由来する。",
+    "meanings": [
+      {
+        "en": "code.",
+        "ja": "体系的に編成された成文法。",
+        "example_en": "The term relates to code.",
+        "example_ja": "法典は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 570,
+    "japanese_word": "政体",
+    "original_word": "form of government / polity",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「政体」は、国家の統治形態を表し、form of government / polity に対応する。君主政体・共和政体など、主権の所在や統治機構を分類する政治学語として幕末明治期に広く使われた。",
+    "etymology": "「政」は政治、「体」は形・しくみ。polity はギリシア語 polis（都市国家）に由来する。",
+    "meanings": [
+      {
+        "en": "form of government.",
+        "ja": "国家の統治形態。",
+        "example_en": "The term relates to form of government.",
+        "example_ja": "政体は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 571,
+    "japanese_word": "共和政治",
+    "original_word": "republican government",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「共和政治」は、君主を置かず、人民または代表者が共同で政治を行う体制を表し、republican government に対応する。共和・共和国・共和制の説明語として明治期の政治思想・世界史で用いられた。",
+    "etymology": "「共和」は共同で政治を行うこと、「政治」は統治。republic はラテン語 res publica（公共の事柄）に由来する。",
+    "meanings": [
+      {
+        "en": "republican government.",
+        "ja": "共和制による政治。",
+        "example_en": "The term relates to republican government.",
+        "example_ja": "共和政治は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 572,
+    "japanese_word": "君主政治",
+    "original_word": "monarchy",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「君主政治」は、君主が国家元首として統治する政治形態を表し、monarchy の訳語として用いられた。共和政治と対比され、立憲君主制・専制君主制などの分類を説明する政治学語となった。",
+    "etymology": "「君主」は王・皇帝など、「政治」は統治。monarchy はギリシア語 monos（一つ）と arkhein（支配する）に由来する。",
+    "meanings": [
+      {
+        "en": "monarchy.",
+        "ja": "君主を国家元首とする政治体制。",
+        "example_en": "The term relates to monarchy.",
+        "example_ja": "君主政治は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 573,
+    "japanese_word": "平民",
+    "original_word": "commoner / common people",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1872,
+    "description": "「平民」は、特権身分に属さない一般人民を表し、commoner / common people に対応する。明治5年（1872年）の身分呼称整理で華族・士族に対する身分名として用いられ、近代社会の身分再編を示す語となった。",
+    "etymology": "「平」は普通・等しい、「民」は人民。commoner は特権身分でない一般人をいう。",
+    "meanings": [
+      {
+        "en": "commoner.",
+        "ja": "特権身分に属さない一般人民。",
+        "example_en": "The term relates to commoner.",
+        "example_ja": "平民は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 574,
+    "japanese_word": "公権",
+    "original_word": "public right / public authority",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「公権」は、公法上認められる権利、また公的権力を表し、public right / public authority に対応する。私権に対して、国家・公共団体との関係で生じる権利や権能を指す法学語である。",
+    "etymology": "「公」は公共・国家、「権」は権利・権力。public right は公的関係における権利をいう。",
+    "meanings": [
+      {
+        "en": "public right.",
+        "ja": "公法上の権利または公的権力。",
+        "example_en": "The term relates to public right.",
+        "example_ja": "公権は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 575,
+    "japanese_word": "条規",
+    "original_word": "article / regulation",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「条規」は、条文として定められた規則・規定を表し、article / regulation に対応する。条約・法令・契約・学校規則など、近代的な成文規範を構成する単位を示す語として定着した。",
+    "etymology": "「条」は箇条、「規」は規則。article は法令・条約の条項をいう。",
+    "meanings": [
+      {
+        "en": "article.",
+        "ja": "箇条書きで定めた規則・規定。",
+        "example_en": "The term relates to article.",
+        "example_ja": "条規は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 576,
+    "japanese_word": "行政",
+    "original_word": "administration",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「行政」は、法律に基づいて国家・地方公共団体が政策を実施する作用を表し、administration の訳語として定着した。立法・司法と並ぶ国家作用の一つとして、近代官僚制の基礎語となった。",
+    "etymology": "「行」は行うこと、「政」は政治・統治。administration はラテン語 administrare（仕える・管理する）に由来する。",
+    "meanings": [
+      {
+        "en": "administration.",
+        "ja": "国家・公共団体が政策を実施する作用。",
+        "example_en": "The term relates to administration.",
+        "example_ja": "行政は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 577,
+    "japanese_word": "立法",
+    "original_word": "legislation",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「立法」は、法を制定する国家作用を表し、legislation の訳語として定着した。行政・司法と並ぶ三権の一つで、議会制度・憲法制度の導入により近代政治の基本語となった。",
+    "etymology": "「立」は定めること、「法」は法律。legislation は lex（法）に由来する。",
+    "meanings": [
+      {
+        "en": "legislation.",
+        "ja": "法律を制定すること。",
+        "example_en": "The term relates to legislation.",
+        "example_ja": "立法は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 578,
+    "japanese_word": "判官",
+    "original_word": "judge / magistrate",
+    "language": "英語",
+    "field_id": 5,
+    "translator_id": null,
+    "era": "古代官制由来・明治期",
+    "year": null,
+    "description": "「判官」は、裁判や判定を担当する官職・役人を表し、judge / magistrate に対応する。古代官制の官名に由来し、近代以前の裁判官・行政官を説明する語として用いられた。",
+    "etymology": "「判」は判断・裁くこと、「官」は官職。judge はラテン語 judex（裁く者）に由来する。",
+    "meanings": [
+      {
+        "en": "judge.",
+        "ja": "裁判・判定を行う官職。",
+        "example_en": "The term relates to judge.",
+        "example_ja": "判官は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 579,
+    "japanese_word": "領事官",
+    "original_word": "consul / consular officer",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「領事官」は、外国に駐在し、自国民保護や通商事務を扱う官吏を表し、consul / consular officer の訳語として定着した。開港後の外交・貿易・居留民保護に関わる制度語である。",
+    "etymology": "「領事」は外国在留民と通商を扱う官、「官」は官吏。consul はローマの官職名に由来する。",
+    "meanings": [
+      {
+        "en": "consul.",
+        "ja": "外国で自国民保護・通商事務を扱う官吏。",
+        "example_en": "The term relates to consul.",
+        "example_ja": "領事官は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 580,
+    "japanese_word": "公使",
+    "original_word": "minister / diplomatic envoy",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「公使」は、外国に派遣され外交交渉を行う使節を表し、minister / diplomatic envoy の訳語として定着した。大使より下位の外交使節として、明治期の国際関係・条約外交を支えた語である。",
+    "etymology": "「公」は国家・公的、「使」は使者。minister は外交使節の等級名でもある。",
+    "meanings": [
+      {
+        "en": "minister.",
+        "ja": "外国に派遣される外交使節。",
+        "example_en": "The term relates to minister.",
+        "example_ja": "公使は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 581,
+    "japanese_word": "特任公使",
+    "original_word": "minister plenipotentiary",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「特任公使」は、特定任務または全権を帯びて派遣される公使を表し、minister plenipotentiary に対応する。条約交渉・外交折衝のための近代外交使節名として用いられた。",
+    "etymology": "「特任」は特別に任じること、「公使」は外交使節。plenipotentiary は全権を委ねられた者をいう。",
+    "meanings": [
+      {
+        "en": "minister plenipotentiary.",
+        "ja": "特別任務または全権をもつ公使。",
+        "example_en": "The term relates to minister plenipotentiary.",
+        "example_ja": "特任公使は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 582,
+    "japanese_word": "国使",
+    "original_word": "envoy / national emissary",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「国使」は、国家を代表して派遣される使者を表し、envoy / national emissary に対応する。近代外交語としては公使・大使が標準化したが、国を代表する使節を広く指す語として用いられた。",
+    "etymology": "「国」は国家、「使」は使者。envoy は派遣された使節をいう。",
+    "meanings": [
+      {
+        "en": "envoy.",
+        "ja": "国家を代表して派遣される使者。",
+        "example_en": "The term relates to envoy.",
+        "example_ja": "国使は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 583,
+    "japanese_word": "内閣",
+    "original_word": "cabinet",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1885,
+    "description": "「内閣」は、首相と国務大臣で構成される行政の最高機関を表し、cabinet の訳語として定着した。1885年の内閣制度創設以後、近代日本の政府組織を示す中心語となった。",
+    "etymology": "「内」は内部・政府中枢、「閣」は高い建物・官署。cabinet は小部屋・会議室から転じた語。",
+    "meanings": [
+      {
+        "en": "cabinet.",
+        "ja": "首相と閣僚からなる政府中枢機関。",
+        "example_en": "The term relates to cabinet.",
+        "example_ja": "内閣は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "japanese_word": "会議官",
+    "original_word": "councillor / council member",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「会議官」は、会議体に参加して審議する官吏を表し、councillor / council member に対応する。明治初期の太政官制・諮問機関・議政機関で、政策審議を担う役職名として用いられた。",
+    "etymology": "「会議」は集まって議すること、「官」は官吏。councillor は会議・評議に加わる者をいう。",
+    "meanings": [
+      {
+        "en": "councillor.",
+        "ja": "会議体で審議する官吏。",
+        "example_en": "The term relates to councillor.",
+        "example_ja": "会議官は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 585,
+    "japanese_word": "上院",
+    "original_word": "upper house / senate",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「上院」は、二院制議会の一方で、通常は下院に対する第二院を表し、upper house / senate の訳語として定着した。貴族院型・連邦代表型・参議院型など、各国制度により性格が異なる。",
+    "etymology": "「上」は上位・第二院、「院」は議院。senate はラテン語 senatus（元老院）に由来する。",
+    "meanings": [
+      {
+        "en": "upper house.",
+        "ja": "二院制議会の第二院。",
+        "example_en": "The term relates to upper house.",
+        "example_ja": "上院は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 586,
+    "japanese_word": "下院",
+    "original_word": "lower house / house of representatives",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「下院」は、二院制議会の一方で、通常は民選議員を中心とする第一院を表し、lower house / house of representatives に対応する。近代議会制度の紹介で上院と対になる語として定着した。",
+    "etymology": "「下」は上院に対する位置、「院」は議院。representatives は代表者を意味する。",
+    "meanings": [
+      {
+        "en": "lower house.",
+        "ja": "二院制議会の第一院。",
+        "example_en": "The term relates to lower house.",
+        "example_ja": "下院は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 587,
+    "japanese_word": "州",
+    "original_word": "state / province",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「州」は、地方行政区画や連邦構成単位を表し、state / province の訳語として用いられる。中国古代の行政区名に由来し、近代以降はアメリカ合衆国の state など外国制度の訳語として定着した。",
+    "etymology": "「州」は水中の中州から転じて地域・行政区画を表す。state は国家・州を意味する。",
+    "meanings": [
+      {
+        "en": "state.",
+        "ja": "地方行政区画または連邦構成単位。",
+        "example_en": "The term relates to state.",
+        "example_ja": "州は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "japanese_word": "県",
+    "original_word": "prefecture / county",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "古代官制由来・明治期",
+    "year": 1871,
+    "description": "「県」は、地方行政区画を表し、prefecture の訳語として用いられる。古代中国の行政区名に由来し、日本では1871年の廃藩置県以後、近代地方制度の基本単位となった。",
+    "etymology": "「県」は古代の行政区画名。prefecture は prefect（長官）の管轄区域をいう。",
+    "meanings": [
+      {
+        "en": "prefecture.",
+        "ja": "地方行政区画。",
+        "example_en": "The term relates to prefecture.",
+        "example_ja": "県は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 589,
+    "japanese_word": "郡",
+    "original_word": "county / district",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "古代官制由来・明治期",
+    "year": null,
+    "description": "「郡」は、県などの下位に置かれる地方区画を表し、county / district に対応する。古代律令制以来の行政区画名で、明治地方制度でも町村をまとめる中間区画として用いられた。",
+    "etymology": "「郡」は古代中国・日本の地方区画名。county は伯爵領から転じた行政区画名。",
+    "meanings": [
+      {
+        "en": "county.",
+        "ja": "県などの下位に置かれる地方区画。",
+        "example_en": "The term relates to county.",
+        "example_ja": "郡は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 590,
+    "japanese_word": "盟約",
+    "original_word": "covenant / pact",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「盟約」は、誓いを伴う約束・協定を表し、covenant / pact に対応する。同盟・条約・宗教的契約を説明する語として用いられ、国家間・団体間の約束を強い誓約性をもって示す。",
+    "etymology": "「盟」は誓約、「約」は約束。covenant は合意・契約、pact は協定を意味する。",
+    "meanings": [
+      {
+        "en": "covenant.",
+        "ja": "誓約を伴う約束・協定。",
+        "example_en": "The term relates to covenant.",
+        "example_ja": "盟約は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "japanese_word": "和約",
+    "original_word": "peace treaty",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "幕末〜明治期",
+    "year": null,
+    "description": "「和約」は、戦争や紛争を終結させるための約定を表し、peace treaty に対応する。幕末明治期の国際法・外交文書で、講和・条約と近い意味で用いられた。",
+    "etymology": "「和」は和解・平和、「約」は約束。peace treaty は戦争終結の条約をいう。",
+    "meanings": [
+      {
+        "en": "peace treaty.",
+        "ja": "和平のための条約・約定。",
+        "example_en": "The term relates to peace treaty.",
+        "example_ja": "和約は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "japanese_word": "講和",
+    "original_word": "peace negotiation / peace treaty",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「講和」は、戦争当事者が和平を協議し、戦争状態を終えることを表し、peace negotiation / peace treaty に対応する。近代国際法・外交史で日清・日露戦争後の条約などを説明する基本語となった。",
+    "etymology": "「講」は相談・協議、「和」は和平。peace negotiation は和平交渉をいう。",
+    "meanings": [
+      {
+        "en": "peace negotiation.",
+        "ja": "戦争を終えるため和平を協議・締結すること。",
+        "example_en": "The term relates to peace negotiation.",
+        "example_ja": "講和は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "japanese_word": "休兵約束",
+    "original_word": "armistice / truce",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "幕末〜明治期",
+    "year": null,
+    "description": "「休兵約束」は、交戦当事者が一時的に戦闘を停止する取り決めを表し、armistice / truce に対応する初期訳語である。のち「休戦」「停戦」が標準化したが、国際法受容期の条約語として意味をもつ。",
+    "etymology": "「休兵」は兵を休めること、「約束」は合意。armistice は武器を止める合意をいう。",
+    "meanings": [
+      {
+        "en": "armistice.",
+        "ja": "交戦を一時停止する約束。",
+        "example_en": "The term relates to armistice.",
+        "example_ja": "休兵約束は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 594,
+    "japanese_word": "通報",
+    "original_word": "notification / communication",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「通報」は、情報や通知を相手へ知らせることを表し、notification / communication に対応する。外交・行政・警察・通信で、正式な通知や情報伝達を指す語として用いられた。",
+    "etymology": "「通」は伝えること、「報」は知らせ。notification は正式な通知をいう。",
+    "meanings": [
+      {
+        "en": "notification.",
+        "ja": "知らせを伝えること。通知。",
+        "example_en": "The term relates to notification.",
+        "example_ja": "通報は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 595,
+    "japanese_word": "租税",
+    "original_word": "tax / taxation",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "古代法制由来・明治期",
+    "year": null,
+    "description": "「租税」は、国または地方公共団体が公共経費に充てるため、法律に基づき強制的に徴収する金銭を表し、tax / taxation に対応する。近代財政・税法の基本語である。",
+    "etymology": "「租」は年貢、「税」は徴収物。tax はラテン語 taxare（評価する）に由来する。",
+    "meanings": [
+      {
+        "en": "tax.",
+        "ja": "国や地方公共団体が徴収する税金。",
+        "example_en": "The term relates to tax.",
+        "example_ja": "租税は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 596,
+    "japanese_word": "直税",
+    "original_word": "direct tax",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": 1888,
+    "description": "「直税」は、納税義務者と実際の負担者が一致する税を表し、direct tax に対応する。所得税・法人税・相続税などを含み、間接税と対比される。明治期の税制分類語として定着した。",
+    "etymology": "「直」は直接、「税」は租税。direct tax は負担者から直接徴収される税をいう。",
+    "meanings": [
+      {
+        "en": "direct tax.",
+        "ja": "納税者と負担者が一致する租税。",
+        "example_en": "The term relates to direct tax.",
+        "example_ja": "直税は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 597,
+    "japanese_word": "地方税",
+    "original_word": "local tax",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「地方税」は、地方公共団体がその経費に充てるため徴収する税を表し、local tax に対応する。国税に対して、住民税・事業税・固定資産税など地域行政の財源を構成する。",
+    "etymology": "「地方」は地域公共団体、「税」は租税。local tax は地方政府が課す税をいう。",
+    "meanings": [
+      {
+        "en": "local tax.",
+        "ja": "地方公共団体が課す税。",
+        "example_en": "The term relates to local tax.",
+        "example_ja": "地方税は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 598,
+    "japanese_word": "経済学",
+    "original_word": "economics / political economy",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「経済学」は、生産・分配・交換・消費などを研究する学問を表し、economics / political economy の訳語として定着した。西周『百学連環』では制産学などの語とともに近代経済知識を分類した。",
+    "etymology": "「経済」は経世済民から転じた語、「学」は研究。economics はギリシア語 oikonomia（家政管理）に由来する。",
+    "meanings": [
+      {
+        "en": "economics.",
+        "ja": "財貨・サービスと社会の経済活動を研究する学問。",
+        "example_en": "The term relates to economics.",
+        "example_ja": "経済学は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 599,
+    "japanese_word": "制産学",
+    "original_word": "political economy / economics",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「制産学」は、西周『百学連環』で political economy / economics に対応して用いられた初期訳語である。生産・財貨・産業の制御と増殖を扱う学問を指したが、のち「経済学」が標準となった。",
+    "etymology": "「制」は治め整えること、「産」は生産・財貨、「学」は研究。political economy は国家社会の経済を扱う学問をいう。",
+    "meanings": [
+      {
+        "en": "political economy.",
+        "ja": "経済学の初期訳語。生産と財貨を扱う学問。",
+        "example_en": "The term relates to political economy.",
+        "example_ja": "制産学は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 600,
+    "japanese_word": "政事学",
+    "original_word": "political science / politics",
+    "language": "英語",
+    "field_id": 4,
+    "translator_id": 2,
+    "era": "明治初期",
+    "year": 1870,
+    "description": "「政事学」は、政治制度・統治・政策を研究する学問を表し、political science / politics に対応する初期訳語として西周『百学連環』に見える。のち「政治学」が標準となった。",
+    "etymology": "「政事」は政治上の事柄、「学」は研究。political science は政治現象を体系的に研究する学問をいう。",
+    "meanings": [
+      {
+        "en": "political science.",
+        "ja": "政治を研究する学問。政治学。",
+        "example_en": "The term relates to political science.",
+        "example_ja": "政事学は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 601,
+    "japanese_word": "商業",
+    "original_word": "commerce / business",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「商業」は、商品を売買し流通させる経済活動を表し、commerce / business の訳語として定着した。明治期の会社制度・商法・商業教育・都市市場の整備とともに、近代経済の基本語となった。",
+    "etymology": "「商」は売買、「業」は営み。commerce はラテン語 commercium（交易）に由来する。",
+    "meanings": [
+      {
+        "en": "commerce.",
+        "ja": "商品売買・流通に関わる経済活動。",
+        "example_en": "The term relates to commerce.",
+        "example_ja": "商業は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 602,
+    "japanese_word": "交易",
+    "original_word": "trade / exchange",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "古典漢語由来・明治期",
+    "year": null,
+    "description": "「交易」は、物品を互いに交換・売買することを表し、trade / exchange に対応する。国内外の商取引、特に地域間・国家間の物資交換を示す語として用いられた。",
+    "etymology": "「交」は互いに交わること、「易」は取り替えること。trade は売買・通商を意味する。",
+    "meanings": [
+      {
+        "en": "trade.",
+        "ja": "物品を交換・売買すること。",
+        "example_en": "The term relates to trade.",
+        "example_ja": "交易は近代語彙として用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 603,
+    "japanese_word": "専売",
+    "original_word": "monopoly / government monopoly",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "「専売」は、特定の商品を一者または政府が独占的に販売する制度を表し、monopoly / government monopoly に対応する。塩・たばこ・樟脳などの専売制度は近代財政の収入源として重要だった。",
+    "etymology": "「専」は独占すること、「売」は販売。monopoly はギリシア語 monos（一つ）と polein（売る）に由来する。",
+    "meanings": [
+      {
+        "en": "monopoly.",
+        "ja": "特定商品の販売を独占すること、またその制度。",
+        "example_en": "The term relates to monopoly.",
+        "example_ja": "専売は近代語彙として用いられた。"
+      }
+    ]
   }
 ]
