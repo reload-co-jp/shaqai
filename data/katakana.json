@@ -1201,5 +1201,314 @@
         "note": "modern が現代・近い過去、最新の技術や考え方、モダニズムを表すことを確認"
       }
     ]
+  },
+  {
+    "id": 37,
+    "katakana_word": "オプション",
+    "original_word": "option",
+    "language": "英語",
+    "category": "商業・販売",
+    "original_meaning": "選ぶこと、選択する権利や自由、選択肢、将来に一定条件で売買できる金融上・契約上の権利、標準仕様に追加できる項目を表す語。",
+    "japanese_meaning": "商品やサービスの標準仕様に追加料金や選択によって付けられる機能・部品・サービス。選択肢や金融取引上の権利も表す。",
+    "meaning_shift": "原語は選択権や選択肢全般を広く表すが、日本語の日常語では標準品に足す有料追加・付属サービスの意味に寄りやすい。",
+    "description": "日本語の「オプション」は、英語 option の「選択権・選択肢」という意味を受け継ぎつつ、車、家電、旅行、通信契約などで、標準仕様に追加して選べる機能やサービスを指す語として定着した。「オプションを付ける」は、多くの場合「追加料金で付属品やサービスを加える」という意味になる。英語 option は選択の自由、代替案、金融・契約上の権利まで広く表すため、日本語の商業的な追加項目寄りの用法とは重心が異なる。",
+    "examples": [
+      {
+        "ja": "新車にカーナビのオプションを付けた。",
+        "en": "I added the optional car navigation system to the new car."
+      },
+      {
+        "ja": "ホテル予約時に朝食オプションを選んだ。",
+        "en": "I selected the breakfast add-on when booking the hotel."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%8A%E3%81%B7%E3%81%97%E3%82%88%E3%82%93-3146557",
+        "note": "日本語のオプションが選択肢・選択権、標準仕様に加える部品・装置、オプション取引を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/option",
+        "note": "option が選択肢・選択の自由、金融上の権利、追加費用で加える商品・サービスを表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/option",
+        "note": "option が選択権、代替案、標準装備に加える項目、金融・契約上の権利を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "katakana_word": "コース",
+    "original_word": "course",
+    "language": "英語",
+    "category": "飲食・サービス",
+    "original_meaning": "進路、道筋、物事の経過、方針、講座・課程、競技用の走路やゴルフ場、料理で順に出される一品、治療の一続きなどを表す語。",
+    "japanese_meaning": "進路や競技路、教育課程のほか、飲食店や旅行・サービスであらかじめ内容と料金が組まれた一式のプランを指す。",
+    "meaning_shift": "原語は進路・経過・講座・料理一皿まで広いが、日本語の日常語では店やサービスの定型プラン、特に飲食のセット料金を指しやすい。",
+    "description": "日本語の「コース」は、英語 course の進路・課程・料理の一皿という意味を受け継ぎながら、飲食店の「宴会コース」「飲み放題コース」や旅行・体験サービスの「日帰りコース」のように、内容と料金が決まった一式のプランを指す語として広く使われる。英語 course は川や船の進路、物事の経過、授業、料理の一品などを表すため、日本語の商業的なセットメニュー・プラン寄りの使い方とは重心が異なる。",
+    "examples": [
+      {
+        "ja": "歓迎会は飲み放題付きのコースを予約した。",
+        "en": "We booked a fixed party menu with all-you-can-drink for the welcome party."
+      },
+      {
+        "ja": "初心者向けの英会話コースを受講している。",
+        "en": "I am taking an English conversation course for beginners."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%93%E3%83%BC%E3%81%99-3152391",
+        "note": "日本語のコースが進路、競技路、方針、経歴、教育課程、西洋料理で順に出される一品を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/course",
+        "note": "course が授業、競技場、物事の進行、進路、料理の一部、治療の一続きなどを表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/course",
+        "note": "course が進路、経過、方針、講座、料理の一部、建築の層などを表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "katakana_word": "オート",
+    "original_word": "auto",
+    "language": "英語",
+    "category": "機械・技術",
+    "original_meaning": "米語で自動車を表す名詞、automatic の略として自動式を表す形容詞、また auto- として「自己の」「自動の」を表す接頭辞。",
+    "japanese_meaning": "自動式・自動操作のこと。文脈によりオートバイ、オート三輪、オートマチック車、または自動車関連を指す。",
+    "meaning_shift": "原語の auto は米語では自動車の意味が中心だが、日本語では単独で「自動式」の省略表現として使われやすい。",
+    "description": "日本語の「オート」は、英語 auto の音写で、「オートバイ」「オートレース」の略のほか、「オートロック」「オートフォーカス」のように自動式を表す造語要素として定着した。英語 auto は米語で automobile の短縮形として「自動車」を指す用法が強く、auto- は接頭辞として「自己」「自動」を表す。日本語では単独で「オートにする」のように、機械や設定の自動モードを指す省略語として使われる点にずれがある。",
+    "examples": [
+      {
+        "ja": "カメラの設定をオートにして撮影した。",
+        "en": "I took the photo with the camera set to automatic mode."
+      },
+      {
+        "ja": "この車はマニュアルではなくオートだ。",
+        "en": "This car is an automatic, not a manual."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%8A%E3%83%BC%E3%81%A8-3208629",
+        "note": "日本語のオートがオートバイ・オート三輪の略、自動式・自動車の意を表す造語要素であることを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/auto",
+        "note": "auto が主に米語で car を表し、auto- が自己・自動を表す接頭辞であることを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/auto",
+        "note": "auto が automobile、automatic、auto- が self・automatic・self-acting を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/automatic",
+        "note": "automatic が人間の制御なしに動作する機械や、ギア変更不要の車を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "katakana_word": "ターミナル",
+    "original_word": "terminal",
+    "language": "英語",
+    "category": "交通・IT",
+    "original_meaning": "終端の、末期の、終末のという形容詞。名詞では交通路線の発着施設、コンピューター端末、電気回路の端子などを表す語。",
+    "japanese_meaning": "鉄道・バス・航空などの発着拠点や、コンピューターの入出力端末、電気機器の端子を指す。",
+    "meaning_shift": "原語は「終端・末期」という形容詞用法も強いが、日本語の日常語では交通拠点やIT端末を指す名詞として使われやすい。",
+    "description": "日本語の「ターミナル」は、英語 terminal の名詞用法を受け、バスターミナルや空港ターミナルのような交通の発着拠点、またコンピューターの端末装置を指す語として定着した。英語 terminal は、終端に関わるもの全般を表し、terminal illness のように「末期の・致命的な」という形容詞でも普通に使われる。日本語では単独語としては交通・IT・電気分野の具体的施設や装置に意味が寄りやすい。",
+    "examples": [
+      {
+        "ja": "空港の第2ターミナルで友人を待った。",
+        "en": "I waited for my friend at Terminal 2 of the airport."
+      },
+      {
+        "ja": "ターミナルからサーバーに接続した。",
+        "en": "I connected to the server from a terminal."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%9F%E3%83%BC%E3%81%BF%E3%81%AA%E3%82%8B-3213522",
+        "note": "日本語のターミナルが交通の終着駅・発着所、電気端子、コンピューター端末装置を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/terminal",
+        "note": "terminal が末期の病気、交通施設、コンピューター端末、電気端子を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/terminal",
+        "note": "terminal が終端・末期を表す形容詞と、交通拠点・コンピューター端末・電気端子を表す名詞であることを確認"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "katakana_word": "デバイス",
+    "original_word": "device",
+    "language": "英語",
+    "category": "機械・技術",
+    "original_meaning": "特定の目的のために作られた装置・器具、インターネット接続に使う機器、効果を生むための方法・工夫、爆発物などを表す語。",
+    "japanese_meaning": "電子回路やシステムの構成要素、またはコンピューターに接続して特定機能を果たす周辺装置。スマートフォンなどの電子機器も指す。",
+    "meaning_shift": "原語は装置に加えて方法・工夫・爆発物まで表すが、日本語ではIT・電子機器や周辺装置の意味に寄りやすい。",
+    "description": "日本語の「デバイス」は、英語 device の装置という意味を受け、コンピューターや電子機器の文脈で広く使われるようになった。「入力デバイス」「スマートデバイス」のように、システムに接続して働く機器や電子部品を指すことが多い。英語 device は、機械や器具だけでなく、literary device のような表現上の工夫、marketing device のような手段、explosive device のような爆発物も表すため、日本語のIT・電子機器寄りの用法とは重心が異なる。",
+    "examples": [
+      {
+        "ja": "会議では各自のデバイスから資料を開いてください。",
+        "en": "Please open the materials on your own device during the meeting."
+      },
+      {
+        "ja": "マウスは代表的な入力デバイスだ。",
+        "en": "A mouse is a typical input device."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%A7%E3%81%B0%E3%81%84%E3%81%99-3160393",
+        "note": "日本語のデバイスが電子回路・システムの構成単位、コンピューター周辺装置を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/device",
+        "note": "device が特定目的の装置、ネット接続機器、方法、爆発物を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary Business English",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/device",
+        "note": "device が電子機器・携帯機器と、効果を生む方法を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "katakana_word": "シフト",
+    "original_word": "shift",
+    "language": "英語",
+    "category": "仕事・制度",
+    "original_meaning": "位置・方向・状態を移すこと、考えや方針の変化、交替勤務の時間帯や勤務班、車の変速、キーボードのシフトキー、ゆったりした服などを表す語。",
+    "japanese_meaning": "位置や体制の移行、車の変速、キーボードのキー、野球の守備配置のほか、アルバイトなどの勤務時間割や交替勤務を指す。",
+    "meaning_shift": "原語は移動・変化全般から服飾まで広いが、日本語の日常語では勤務時間割や交替勤務の意味に寄りやすい。",
+    "description": "日本語の「シフト」は、英語 shift の「移す・変える」という意味を受け、体制の移行、車のギア変更、キーボード操作などに使われる。日常では特に、アルバイトや店舗勤務の「シフトを入れる」「シフトを組む」のように、勤務時間割や交替勤務を指す語として定着した。英語 shift も勤務帯を表すが、位置や方針の変化、変速、服の一種、古い用法では方便や計略まで含むため、日本語の勤務表寄りの用法とは重心が異なる。",
+    "examples": [
+      {
+        "ja": "来週のバイトのシフトを店長に提出した。",
+        "en": "I submitted my work availability for next week's part-time shifts to the manager."
+      },
+      {
+        "ja": "会社は紙の手続きからオンライン申請へシフトした。",
+        "en": "The company shifted from paper procedures to online applications."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%97%E3%81%B5%E3%81%A8-3211935",
+        "note": "日本語のシフトが位置・状態の移行、野球の守備態勢、車の変速、交替勤務制、桁移動などを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/shift",
+        "note": "shift が移動・変化、交替勤務の時間帯や勤務班、車の変速、キーボードのシフトキー、服の一種を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/shift",
+        "note": "shift が移す・変える、交替勤務、変化、変速、シフトキー、服飾、古い用法の方便を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "katakana_word": "ライブ",
+    "original_word": "live",
+    "language": "英語",
+    "category": "芸能・文化",
+    "original_meaning": "動詞では生きる・住む。形容詞・副詞では生きている、生のまま、録音・録画でなくその場で行われる、電気が通っている、爆発可能な状態などを表す語。",
+    "japanese_meaning": "録音・録画でない生放送や、生演奏・生の舞台。特に音楽の演奏会や配信イベントを名詞として指す。",
+    "meaning_shift": "原語は動詞の「生きる・住む」や形容詞の「生の」を広く表すが、日本語では音楽や配信の生演奏・生放送イベントを指す名詞になりやすい。",
+    "description": "日本語の「ライブ」は、英語 live の「生で行われる」という意味を受け、テレビや配信の生放送、音楽の生演奏を指す語として定着した。特に「ライブに行く」「ライブハウス」のように、コンサートや小規模な音楽イベントそのものを名詞で表す用法が強い。英語 live は動詞なら「生きる・住む」、形容詞なら生物、放送、電気、弾薬など幅広く使われるため、日本語の芸能イベント寄りの用法とは重心が異なる。",
+    "examples": [
+      {
+        "ja": "週末に好きなバンドのライブへ行く。",
+        "en": "I am going to my favorite band's concert this weekend."
+      },
+      {
+        "ja": "試合はライブ配信で見た。",
+        "en": "I watched the game on a live stream."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%82%89%E3%81%84%E3%81%B6-2870965",
+        "note": "日本語のライブが生放送、生演奏、残響のある状態を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/live",
+        "note": "live が動詞の生きる・住む、形容詞・副詞の生放送・生演奏、電気が通った状態などを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary English-Japanese",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english-japanese/live",
+        "note": "live performance が日本語でライブに対応することを確認"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "katakana_word": "ホール",
+    "original_word": "hall",
+    "language": "英語",
+    "category": "建物・施設",
+    "original_meaning": "建物の入口付近の広間や廊下、会議・講演・音楽会などを行う大きな部屋や建物、大学の寮・食堂、邸宅などを表す語。",
+    "japanese_meaning": "洋風建築の入口の広間、または演劇・音楽会・集会などを行う広い会場や施設。",
+    "meaning_shift": "原語は廊下・玄関・寮・邸宅まで含むが、日本語では催し物や集会のための大きな会場・施設を指しやすい。",
+    "description": "日本語の「ホール」は、英語 hall の入口広間や大広間という意味を受け、ホテルや建物の玄関付近の広間、また「コンサートホール」「イベントホール」のように催し物を行う会場を指す語として定着した。英語 hall は廊下、玄関、大学寮、食堂、邸宅などにも広く使われる。日本語では単独で使うと、多くの場合、音楽会・集会・式典のための公共的な広い空間を指す点に意味の重心がある。",
+    "examples": [
+      {
+        "ja": "新しい市民ホールで合唱コンサートが開かれた。",
+        "en": "A choir concert was held at the new civic hall."
+      },
+      {
+        "ja": "ホテルのホールで参加者を待ち合わせた。",
+        "en": "We met the participants in the hotel lobby."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%BB%E3%83%BC%E3%82%8B-1593214",
+        "note": "日本語のホールが入口の広間、催しや集会を行う広い場所を表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/hall",
+        "note": "hall が入口付近の空間・廊下、大きな部屋や建物、大学施設を表すことを確認"
+      },
+      {
+        "title": "コトバンク 英和辞典",
+        "url": "https://kotobank.jp/ejword/hall",
+        "note": "hall が玄関ホール、廊下、集会場、講堂、会館、寮、邸宅などを表すことを確認"
+      }
+    ]
   }
 ]
