@@ -255,8 +255,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         >
           <p>翻訳語辞典 Shaqai — 外国語から翻訳されて作られた日本語の辞典</p>
           <p>
-            <a href="//reload.co.jp" style={{ color: "#666" }}>
-              Reload, Inc.
+            <a href="https://reload.co.jp" style={{ color: "#666" }}>
+              運営会社: Reload, Inc.
             </a>
           </p>
         </footer>

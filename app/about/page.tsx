@@ -35,6 +35,18 @@ const Page: FC = () => {
         <p style={{ borderLeft: "3px solid #c8a96e", paddingLeft: "1rem", color: "#b8b2a6" }}>
           言葉をただ受け入れるのではなく、理解し、翻訳し、共有する。その積み重ねが、より豊かな言語環境と健全なコミュニケーションを支えると私たちは考えています。
         </p>
+        <section style={{ borderTop: "1px solid #3a3328", paddingTop: "1.5rem" }}>
+          <h2 style={{ fontSize: "1rem", color: "#e2dcd0", marginBottom: ".75rem" }}>
+            運営会社
+          </h2>
+          <p>
+            翻訳語辞典 Shaqai は、{" "}
+            <a href="https://reload.co.jp" style={{ color: "#c8a96e" }}>
+              Reload, Inc.
+            </a>
+            が運営しています。
+          </p>
+        </section>
       </div>
     </div>
   )
