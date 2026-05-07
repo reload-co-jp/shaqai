@@ -19,6 +19,7 @@ export const KatakanaCard: FC<Props> = ({ word }) => (
         padding: "1rem 1.25rem",
         cursor: "pointer",
         transition: "border-color 0.2s",
+        height: "100%",
       }}
     >
       <div

@@ -21,6 +21,7 @@ export const WordCard: FC<Props> = ({ word, field, translator }) => (
         padding: "1rem 1.25rem",
         cursor: "pointer",
         transition: "border-color 0.2s",
+        height: "100%",
       }}
     >
       <div
