@@ -1125,5 +1125,81 @@
         "note": "campaign が軍事作戦と、特定結果を得るための一連の活動を表すことを確認"
       }
     ]
+  },
+  {
+    "id": 35,
+    "katakana_word": "レトロ",
+    "original_word": "retro",
+    "language": "英語・フランス語由来",
+    "category": "広告・表現",
+    "original_meaning": "過去の様式や流行に似ている、過去のスタイルを復活させた、または接頭辞として後方・遡行を表す語。",
+    "japanese_meaning": "古い時代の雰囲気を懐かしく好ましいものとして感じさせること。懐古趣味や復古調のデザイン・街並み・商品を指す。",
+    "meaning_shift": "原語は過去様式の再現や接頭辞の後方性を表すが、日本語では古さを肯定的に味わう「懐かしい雰囲気」の評価語として使われやすい。",
+    "description": "日本語の「レトロ」は retrospective 由来の retro を受けた語で、単に古いだけでなく、昔風のデザインや街並みを懐かしく魅力的に評価する語として定着した。「レトロ喫茶」「昭和レトロ」のように、古さそのものより雰囲気や趣味性を前面に出す。英語 retro も過去のファッションや様式の復活を表すが、接頭辞 retro- には「後方へ」「遡って」という技術的な用法もある。",
+    "examples": [
+      {
+        "ja": "駅前にレトロな雰囲気の喫茶店がある。",
+        "en": "There is a cafe near the station with a nostalgic retro feel."
+      },
+      {
+        "ja": "このポスターは昭和レトロを意識して作られている。",
+        "en": "This poster is designed to evoke a nostalgic Showa-era retro style."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%82%8C%E3%81%A8%E3%82%8D-3220826",
+        "note": "日本語のレトロが retrospective 由来で、懐古的・古いものを好むことを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/retro",
+        "note": "retro が過去の様式・流行に似ていること、接頭辞 retro- が後方や過去志向を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/retro",
+        "note": "retro が過去のスタイル、とくに流行を復活させる、または懐古的で古風なものを表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "katakana_word": "モダン",
+    "original_word": "modern",
+    "language": "英語",
+    "category": "広告・表現",
+    "original_meaning": "現在または近い過去に属する、現代的な、最新の技術・考え方・方法を用いる、近代以降に関わることを表す語。",
+    "japanese_meaning": "現代的で今風、しゃれていること。建物・服装・デザイン・人物などが新しく洗練されて見えるさま。",
+    "meaning_shift": "原語は時代区分や現代性を広く表すが、日本語では「しゃれた」「洗練された」という肯定的な見た目の評価に寄りやすい。",
+    "description": "日本語の「モダン」は modern を音写した語で、現代的・今風という意味を持ちながら、「モダンな建物」「モダンな人」のように、しゃれた印象や洗練をほめる語として定着した。英語 modern は現代、近代、最新技術、近代語、モダニズム芸術など幅広い時代・思想・方法を表す。日本語では日常語として、時代区分よりも外観や雰囲気の新しさを評価する用法が目立つ。",
+    "examples": [
+      {
+        "ja": "古い家をモダンな内装にリフォームした。",
+        "en": "The old house was renovated with a stylish modern interior."
+      },
+      {
+        "ja": "彼女の服装はいつもモダンで目を引く。",
+        "en": "Her clothes always look stylish and modern."
+      }
+    ],
+    "sources": [
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%82%82%E3%81%A0%E3%82%93-3219774",
+        "note": "日本語のモダンが現代的・今風でしゃれていることを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/modern",
+        "note": "modern が現在・近い過去、最新の考え方や方法に基づくことを表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/modern",
+        "note": "modern が現代・近い過去、最新の技術や考え方、モダニズムを表すことを確認"
+      }
+    ]
   }
 ]
