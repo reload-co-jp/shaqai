@@ -294,44 +294,44 @@
   {
     "id": 8,
     "japanese_word": "民主",
-    "original_word": "democracy",
+    "original_word": "democracy / démocratie",
     "language": "英語・フランス語",
     "field_id": 4,
     "translator_id": 3,
-    "era": "明治後期",
-    "year": 1880,
-    "description": "democracyの訳語として政治翻訳者が定着させた。人民が主権を持ち、政治に参加する制度・思想を指す。",
-    "etymology": "民（人民）と主（主体・主権）を組み合わせた造語。「人民が主」という民主主義の本質を端的に表す。",
+    "era": "明治中期",
+    "year": 1882,
+    "description": "democracyの訳語として明治中期に定着した語。伝統的な漢語「民主」は「民の主（＝君主）」を意味したが、ルソーの社会契約論などを通じた西洋民主主義思想の輸入とともに意味が転じ、「民が主権を持つ」政治体制を指す語として再解釈された。明治初期は「共和政治」との混用期があったが、自由民権運動の展開の中で「民主主義」「民主政治」の形で普及し現代的な意味が確立した。",
+    "etymology": "「民」は人民・国民を意味し、「主」は主権・主体を意味する。古典漢語では「民の主」＝君主を指したが、近代的解釈では「民が主」を意味するよう転義した。democracyはギリシャ語demos（人民）＋kratos（支配）に由来する。",
     "meanings": [
       {
-        "en": "A system of government in which power is vested in the people and exercised through elected representatives.",
-        "ja": "国民が主権を持ち、選出された代表者を通じて統治する政治体制。",
-        "example_en": "Democracy requires active participation by citizens.",
-        "example_ja": "民主主義は市民の積極的な参加を必要とする。"
+        "en": "A system of government in which citizens exercise power through elected representatives.",
+        "ja": "市民が選出した代表者を通じて権力を行使する政治体制。",
+        "example_en": "Democracy requires free and fair elections.",
+        "example_ja": "民主主義には自由で公正な選挙が必要である。"
       },
       {
-        "en": "The principle of social equality; a system valuing equal rights for all.",
-        "ja": "社会的平等の原則。すべての人に平等な権利を重んじる考え方。",
-        "example_en": "Democratic values include respect for human dignity.",
-        "example_ja": "民主的な価値観には人間の尊厳への尊重が含まれる。"
+        "en": "The principle of social equality and respect for the individual.",
+        "ja": "社会的平等と個人の尊重を基本とする原理。",
+        "example_en": "Democracy values the dignity of every person.",
+        "example_ja": "民主は一人ひとりの尊厳を重んじる。"
       }
     ],
     "first_attestation": {
-      "year": 1880,
+      "year": 1882,
       "source": "民約訳解",
-      "note": "民主という語は中国語由来で古くから存在したが、中江兆民の民権運動と「民主主義」という訳語形成を経て明治後期に定着"
+      "note": "中江兆民の民権運動と『民約訳解』（1882年）を通じてdémocratie/democracyの訳語「民主（主義）」が明治中期に定着"
     },
     "sources": [
-      {
-        "title": "英和対訳袖珍辞典",
-        "url": "https://dl.ndl.go.jp/pid/870782",
-        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
-      },
       {
         "title": "民約訳解",
         "author": "中江兆民",
         "url": "https://dl.ndl.go.jp/pid/783485",
         "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
+      },
+      {
+        "title": "英和対訳袖珍辞典",
+        "url": "https://dl.ndl.go.jp/pid/870782",
+        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
       }
     ]
   },
@@ -440,28 +440,34 @@
     "id": 11,
     "japanese_word": "文明",
     "original_word": "civilization",
-    "language": "英語",
+    "language": "英語・フランス語",
     "field_id": 8,
     "translator_id": 1,
-    "era": "明治初期",
-    "year": 1875,
-    "description": "civilizationの訳語として福沢諭吉が定着させた。『文明論之概略』において中心概念として用い広く普及した。",
-    "etymology": "文（文字・知識・制度）と明（明らかにする・啓発）を組み合わせた語。文明開化の文脈で急速に普及。",
+    "era": "明治期",
+    "year": 1866,
+    "description": "civilizationの訳語として明治期に定着した語。儒学の古典語「文明（文事が明らかであること）」を転用したもので、福沢諭吉が1866年の『西洋事情』で多用したことで広まった。1875年の『文明論之概略』では文明概念を体系的に論じ、「文明開化」のスローガンとともに明治近代化の旗印となった。森有礼も明六社の活動を通じてこの概念の普及に貢献した。",
+    "etymology": "「文」は文事・文化・教養を意味し、「明」は明らかにすること・啓発を意味する。儒学の古典語から転用し、civilizationの近代的意義（物質的・精神的発展）を付与した。",
     "meanings": [
       {
-        "en": "An advanced stage of human social development, organization, and culture.",
-        "ja": "人類の社会的・文化的・道徳的発展の高い段階。",
-        "example_en": "Ancient Egyptian civilization was remarkable for its achievements.",
-        "example_ja": "古代エジプト文明はその業績において際立っていた。"
+        "en": "The stage of human social and cultural development and organization; a developed or advanced society.",
+        "ja": "人間社会の文化的・社会的発展の到達段階。高度に発展した社会・文化。",
+        "example_en": "Western civilization had a profound influence on Japan during the Meiji era.",
+        "example_ja": "明治期に西洋文明が日本に深い影響を与えた。"
       },
       {
-        "en": "The process of developing into a more complex society.",
-        "ja": "より複雑な社会へと発展していく過程。文明化。",
-        "example_en": "The spread of writing was central to the advance of civilization.",
-        "example_ja": "文字の普及は文明の発展の核心だった。"
+        "en": "The comfort and conveniences provided by modern knowledge and technology.",
+        "ja": "近代的な知識・技術がもたらす便利さや快適さ。文明の利器。",
+        "example_en": "The benefits of civilization spread rapidly.",
+        "example_ja": "文明の恩恵は急速に広まった。"
       }
     ],
     "sources": [
+      {
+        "title": "西洋事情",
+        "author": "福沢諭吉",
+        "url": "https://dl.ndl.go.jp/pid/761282",
+        "note": "福沢諭吉による西洋制度紹介の参照資料"
+      },
       {
         "title": "文明論之概略",
         "author": "福沢諭吉",
@@ -470,9 +476,9 @@
       }
     ],
     "first_attestation": {
-      "year": 1875,
-      "source": "文明論之概略",
-      "note": "civilizationの訳語として福沢諭吉が定着させた。"
+      "year": 1866,
+      "source": "西洋事情",
+      "note": "civilizationの訳語として明治期に定着した語。"
     }
   },
   {
@@ -1653,7 +1659,7 @@
     "japanese_word": "彼",
     "original_word": "he",
     "language": "英語",
-    "field_id": null,
+    "field_id": 3,
     "translator_id": null,
     "era": "明治期",
     "year": null,
@@ -2456,26 +2462,26 @@
   {
     "id": 59,
     "japanese_word": "主権",
-    "original_word": "sovereignty",
-    "language": "英語",
+    "original_word": "sovereignty / souveraineté",
+    "language": "英語・フランス語",
     "field_id": 4,
     "translator_id": 7,
-    "era": "明治期",
+    "era": "明治初期",
     "year": 1873,
-    "description": "sovereigntyの訳語として明治6年（1873年）、柴田昌吉・子安峻の『附音挿図英和字彙』において「主権」の語が当てられた。中国古典『管子』にある「主権」（君主の権威）という語を転用したものである。明治22年（1889年）の帝国憲法では「統治権」が用いられたが、その後「主権」が国際法・憲法学の術語として定着し、戦後の日本国憲法では「国民主権」の形で基本原理の一つとなった。",
-    "etymology": "主（あるじ・主体となる者・最高位）と権（権力・権威・権限）を組み合わせた漢語。「最高の統治権・権力の根源」という字義で、国家の最高決定権を意味する。",
+    "description": "1873年（明治6年）、柴田昌吉・子安峻共著の『附音挿図英和字彙』においてsovereigntyの訳語として「主権」が記載されたのが定着の嚆矢とされる。古典漢語・管子に「君主の権力」の意で存在した語を近代的国家主権概念の訳語として転用したもので、中江兆民のルソー『社会契約論』翻訳『民約訳解』（1882年）でも重要な概念として用いられた。大日本帝国憲法における「天皇主権」論の基礎語彙ともなった。",
+    "etymology": "「主」は主体・支配者・主権者を意味し、「権」は権力・権限を意味する。管子（七臣七主）に初出とされる古典漢語で、近代的な国家最高権力の概念に充てられた。sovereigntyは古フランス語soverainete（至高の権力）に由来し、ラテン語superanus（上位の）が語根。",
     "meanings": [
       {
-        "en": "The authority of a state to govern itself without external interference.",
-        "ja": "外部からの干渉を受けず、国家が自律的に統治する最高権力。",
-        "example_en": "The treaty respected the sovereignty of each nation.",
-        "example_ja": "条約は各国の主権を尊重した。"
+        "en": "The supreme authority of a state to govern itself without external interference.",
+        "ja": "国家が外部の干渉を受けずに自国を統治する最高の権力。",
+        "example_en": "The treaty respected the sovereignty of each signatory nation.",
+        "example_ja": "条約は各締約国の主権を尊重した。"
       },
       {
-        "en": "Supreme power or authority within a state.",
-        "ja": "国家内における最高権力・最終決定権。",
-        "example_en": "Popular sovereignty means the people hold the ultimate power.",
-        "example_ja": "国民主権とは国民が最終的な権力を保持することを意味する。"
+        "en": "The authority of a ruler or government to exercise power within a territory.",
+        "ja": "統治者または政府が領域内で権力を行使する権限。",
+        "example_en": "The Constitution declares that sovereignty resides with the people.",
+        "example_ja": "憲法は主権が国民に存すると宣言している。"
       }
     ],
     "sources": [
@@ -2486,14 +2492,21 @@
         "note": "NDLサーチで1873年刊行を確認"
       },
       {
-        "title": "管子",
-        "note": "古典漢語の出典参照"
+        "title": "社会契約論",
+        "author": "Jean-Jacques Rousseau",
+        "note": "政治思想語彙の原典"
+      },
+      {
+        "title": "民約訳解",
+        "author": "中江兆民",
+        "url": "https://dl.ndl.go.jp/pid/783485",
+        "note": "ルソー翻訳語の参照資料"
       }
     ],
     "first_attestation": {
       "year": 1873,
       "source": "附音挿図英和字彙",
-      "note": "sovereigntyの訳語として明治6年（1873年）、柴田昌吉・子安峻の『附音挿図英和字彙』において「主権」の語が当てられた。"
+      "note": "1873年（明治6年）、柴田昌吉・子安峻共著の『附音挿図英和字彙』においてsovereigntyの訳語として「主権」が記載されたのが定着の嚆矢とされる。"
     }
   },
   {
@@ -3326,26 +3339,26 @@
     "translator_id": null,
     "era": "明治期",
     "year": null,
-    "description": "literatureの訳語として明治期に定着した。英語literatureはラテン語littera（文字）に由来し、「文字による表現・著作物」を意味する。日本では古来「文学」は「文章・学問」を広く指す語として存在したが、明治期に西洋の文学概念が導入されるとともに小説・詩・戯曲などの芸術的言語表現を専門に指す語として再定義された。東京帝国大学に文学部が設置されるなど、アカデミックな領域としての文学が制度化された。",
-    "etymology": "文（ふみ・文章・言語による表現）と学（まなぶ・学問）を組み合わせた漢語。「文章・言語表現を研究・実践する学問」という字義を持ち、古来は学問全般を指したが近代では芸術的言語表現を指す。",
+    "description": "literatureの訳語として明治期に広まった語。「文学」自体は古典中国語に「文事・学問」の意で存在した語だが、近代的な文芸・言語芸術の総体という意味内容を付加してliteratureの訳語として再定義された。1877年設置の東京大学「文学部」の名称にも採用され、「文学者」「文学作品」「文学部」など現代語と同様の用法が明治期に定着した。",
+    "etymology": "「文」は文字・文章・文事（文学的な事柄）を意味し、「学」は学問・学術を意味する。古典漢語の「文学」は文事の学問という意で、近代的なliteratureの概念を担う語として再利用された。",
     "meanings": [
       {
-        "en": "Written works of lasting artistic merit, including novels, poetry, and drama.",
-        "ja": "優れた芸術的価値を持つ詩・小説・戯曲などの言語表現の総体。",
-        "example_en": "Japanese literature includes works by Natsume Soseki and Kawabata.",
-        "example_ja": "日本文学には夏目漱石や川端康成の作品が含まれる。"
+        "en": "Written works, especially those considered of superior or lasting artistic merit.",
+        "ja": "書かれた作品の総体。特に芸術的・文化的価値の高いとされる文芸作品。",
+        "example_en": "She studied Japanese literature at university.",
+        "example_ja": "彼女は大学で日本文学を学んだ。"
       },
       {
-        "en": "The body of written works on a particular subject.",
-        "ja": "特定の主題に関する文献・著作物の集積。",
-        "example_en": "The academic literature on climate change is vast.",
-        "example_ja": "気候変動に関する学術文献は膨大である。"
+        "en": "Books and writings published on a particular subject.",
+        "ja": "特定の主題に関して刊行された著作・論文の総体。文献。",
+        "example_en": "There is an extensive literature on this topic.",
+        "example_ja": "このテーマに関する文学（文献）は膨大だ。"
       }
     ],
     "first_attestation": {
       "year": null,
       "source": "明六雑誌",
-      "note": "literatureの訳語として明六雑誌（1874-75年）を通じて近代的な学問分野として普及"
+      "note": "literatureの訳語として明六雑誌（1874-75年）を通じて近代的な文芸・学問分野として普及"
     },
     "sources": [
       {
@@ -3437,7 +3450,7 @@
     "japanese_word": "農業",
     "original_word": "agriculture",
     "language": "英語",
-    "field_id": null,
+    "field_id": 2,
     "translator_id": null,
     "era": "明治期",
     "year": null,
@@ -5609,51 +5622,6 @@
     }
   },
   {
-    "id": 139,
-    "japanese_word": "文明",
-    "original_word": "civilization",
-    "language": "英語・フランス語",
-    "field_id": 8,
-    "translator_id": 1,
-    "era": "明治期",
-    "year": 1866,
-    "description": "civilizationの訳語として明治期に定着した語。儒学の古典語「文明（文事が明らかであること）」を転用したもので、福沢諭吉が1866年の『西洋事情』で多用したことで広まった。1875年の『文明論之概略』では文明概念を体系的に論じ、「文明開化」のスローガンとともに明治近代化の旗印となった。森有礼も明六社の活動を通じてこの概念の普及に貢献した。",
-    "etymology": "「文」は文事・文化・教養を意味し、「明」は明らかにすること・啓発を意味する。儒学の古典語から転用し、civilizationの近代的意義（物質的・精神的発展）を付与した。",
-    "meanings": [
-      {
-        "en": "The stage of human social and cultural development and organization; a developed or advanced society.",
-        "ja": "人間社会の文化的・社会的発展の到達段階。高度に発展した社会・文化。",
-        "example_en": "Western civilization had a profound influence on Japan during the Meiji era.",
-        "example_ja": "明治期に西洋文明が日本に深い影響を与えた。"
-      },
-      {
-        "en": "The comfort and conveniences provided by modern knowledge and technology.",
-        "ja": "近代的な知識・技術がもたらす便利さや快適さ。文明の利器。",
-        "example_en": "The benefits of civilization spread rapidly.",
-        "example_ja": "文明の恩恵は急速に広まった。"
-      }
-    ],
-    "sources": [
-      {
-        "title": "西洋事情",
-        "author": "福沢諭吉",
-        "url": "https://dl.ndl.go.jp/pid/761282",
-        "note": "福沢諭吉による西洋制度紹介の参照資料"
-      },
-      {
-        "title": "文明論之概略",
-        "author": "福沢諭吉",
-        "url": "https://dl.ndl.go.jp/pid/761288",
-        "note": "文明・野蛮などの用例確認資料"
-      }
-    ],
-    "first_attestation": {
-      "year": 1866,
-      "source": "西洋事情",
-      "note": "civilizationの訳語として明治期に定着した語。"
-    }
-  },
-  {
     "id": 140,
     "japanese_word": "警察",
     "original_word": "police",
@@ -6041,44 +6009,6 @@
     ]
   },
   {
-    "id": 150,
-    "japanese_word": "文学",
-    "original_word": "literature",
-    "language": "英語",
-    "field_id": 8,
-    "translator_id": null,
-    "era": "明治期",
-    "year": null,
-    "description": "literatureの訳語として明治期に広まった語。「文学」自体は古典中国語に「文事・学問」の意で存在した語だが、近代的な文芸・言語芸術の総体という意味内容を付加してliteratureの訳語として再定義された。1877年設置の東京大学「文学部」の名称にも採用され、「文学者」「文学作品」「文学部」など現代語と同様の用法が明治期に定着した。",
-    "etymology": "「文」は文字・文章・文事（文学的な事柄）を意味し、「学」は学問・学術を意味する。古典漢語の「文学」は文事の学問という意で、近代的なliteratureの概念を担う語として再利用された。",
-    "meanings": [
-      {
-        "en": "Written works, especially those considered of superior or lasting artistic merit.",
-        "ja": "書かれた作品の総体。特に芸術的・文化的価値の高いとされる文芸作品。",
-        "example_en": "She studied Japanese literature at university.",
-        "example_ja": "彼女は大学で日本文学を学んだ。"
-      },
-      {
-        "en": "Books and writings published on a particular subject.",
-        "ja": "特定の主題に関して刊行された著作・論文の総体。文献。",
-        "example_en": "There is an extensive literature on this topic.",
-        "example_ja": "このテーマに関する文学（文献）は膨大だ。"
-      }
-    ],
-    "first_attestation": {
-      "year": null,
-      "source": "明六雑誌",
-      "note": "literatureの訳語として明六雑誌（1874-75年）を通じて近代的な文芸・学問分野として普及"
-    },
-    "sources": [
-      {
-        "title": "明六雑誌",
-        "url": "https://dl.ndl.go.jp/pid/991325",
-        "note": "1874-75年。西周・森有礼ら明六社の知識人が近代的社会・文化概念を普及させた雑誌"
-      }
-    ]
-  },
-  {
     "id": 151,
     "japanese_word": "美術",
     "original_word": "fine arts / beaux-arts",
@@ -6342,50 +6272,6 @@
     }
   },
   {
-    "id": 158,
-    "japanese_word": "民主",
-    "original_word": "democracy / démocratie",
-    "language": "英語・フランス語",
-    "field_id": 4,
-    "translator_id": null,
-    "era": "明治中期",
-    "year": null,
-    "description": "democracyの訳語として明治中期に定着した語。伝統的な漢語「民主」は「民の主（＝君主）」を意味したが、ルソーの社会契約論などを通じた西洋民主主義思想の輸入とともに意味が転じ、「民が主権を持つ」政治体制を指す語として再解釈された。明治初期は「共和政治」との混用期があったが、自由民権運動の展開の中で「民主主義」「民主政治」の形で普及し現代的な意味が確立した。",
-    "etymology": "「民」は人民・国民を意味し、「主」は主権・主体を意味する。古典漢語では「民の主」＝君主を指したが、近代的解釈では「民が主」を意味するよう転義した。democracyはギリシャ語demos（人民）＋kratos（支配）に由来する。",
-    "meanings": [
-      {
-        "en": "A system of government in which citizens exercise power through elected representatives.",
-        "ja": "市民が選出した代表者を通じて権力を行使する政治体制。",
-        "example_en": "Democracy requires free and fair elections.",
-        "example_ja": "民主主義には自由で公正な選挙が必要である。"
-      },
-      {
-        "en": "The principle of social equality and respect for the individual.",
-        "ja": "社会的平等と個人の尊重を基本とする原理。",
-        "example_en": "Democracy values the dignity of every person.",
-        "example_ja": "民主は一人ひとりの尊厳を重んじる。"
-      }
-    ],
-    "first_attestation": {
-      "year": null,
-      "source": "民約訳解",
-      "note": "中江兆民の民権運動と『民約訳解』（1882年）を通じてdémocratie/democracyの訳語「民主（主義）」が明治中期に定着"
-    },
-    "sources": [
-      {
-        "title": "民約訳解",
-        "author": "中江兆民",
-        "url": "https://dl.ndl.go.jp/pid/783485",
-        "note": "1882年（明治15年）刊行。ルソー『社会契約論』の翻訳。自由民権運動の思想的支柱"
-      },
-      {
-        "title": "英和対訳袖珍辞典",
-        "url": "https://dl.ndl.go.jp/pid/870782",
-        "note": "1862年刊行。幕末期の代表的英和辞典。多くの訳語の初期記録を収める"
-      }
-    ]
-  },
-  {
     "id": 159,
     "japanese_word": "野蛮",
     "original_word": "barbarian / savage / barbarie",
@@ -6594,56 +6480,6 @@
         "note": "1868年（明治元年）刊行。シモン・フィセリングの公法学講義翻訳。日本最初の西洋法学翻訳書"
       }
     ]
-  },
-  {
-    "id": 165,
-    "japanese_word": "主権",
-    "original_word": "sovereignty / souveraineté",
-    "language": "英語・フランス語",
-    "field_id": 4,
-    "translator_id": 7,
-    "era": "明治初期",
-    "year": 1873,
-    "description": "1873年（明治6年）、柴田昌吉・子安峻共著の『附音挿図英和字彙』においてsovereigntyの訳語として「主権」が記載されたのが定着の嚆矢とされる。古典漢語・管子に「君主の権力」の意で存在した語を近代的国家主権概念の訳語として転用したもので、中江兆民のルソー『社会契約論』翻訳『民約訳解』（1882年）でも重要な概念として用いられた。大日本帝国憲法における「天皇主権」論の基礎語彙ともなった。",
-    "etymology": "「主」は主体・支配者・主権者を意味し、「権」は権力・権限を意味する。管子（七臣七主）に初出とされる古典漢語で、近代的な国家最高権力の概念に充てられた。sovereigntyは古フランス語soverainete（至高の権力）に由来し、ラテン語superanus（上位の）が語根。",
-    "meanings": [
-      {
-        "en": "The supreme authority of a state to govern itself without external interference.",
-        "ja": "国家が外部の干渉を受けずに自国を統治する最高の権力。",
-        "example_en": "The treaty respected the sovereignty of each signatory nation.",
-        "example_ja": "条約は各締約国の主権を尊重した。"
-      },
-      {
-        "en": "The authority of a ruler or government to exercise power within a territory.",
-        "ja": "統治者または政府が領域内で権力を行使する権限。",
-        "example_en": "The Constitution declares that sovereignty resides with the people.",
-        "example_ja": "憲法は主権が国民に存すると宣言している。"
-      }
-    ],
-    "sources": [
-      {
-        "title": "附音挿図英和字彙",
-        "author": "柴田昌吉・子安峻",
-        "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I2938261",
-        "note": "NDLサーチで1873年刊行を確認"
-      },
-      {
-        "title": "社会契約論",
-        "author": "Jean-Jacques Rousseau",
-        "note": "政治思想語彙の原典"
-      },
-      {
-        "title": "民約訳解",
-        "author": "中江兆民",
-        "url": "https://dl.ndl.go.jp/pid/783485",
-        "note": "ルソー翻訳語の参照資料"
-      }
-    ],
-    "first_attestation": {
-      "year": 1873,
-      "source": "附音挿図英和字彙",
-      "note": "1873年（明治6年）、柴田昌吉・子安峻共著の『附音挿図英和字彙』においてsovereigntyの訳語として「主権」が記載されたのが定着の嚆矢とされる。"
-    }
   },
   {
     "id": 166,
@@ -11014,38 +10850,33 @@
     "id": 285,
     "japanese_word": "学校",
     "original_word": "school",
-    "language": "英語",
+    "language": "英語・フランス語",
     "field_id": 6,
     "translator_id": null,
-    "era": "奈良時代",
-    "year": 760,
-    "description": "「学校」は、知識や技術を体系的に教え学ぶ場を表す語で、近代日本では school の訳語として決定的に定着した。もっとも語自体は古く、中国古典由来の漢語として奈良時代から確認できる。明治の学制発布以後は、近代国家が制度として整える教育機関を指す語となり、小学校・中学校・専門学校などの複合語を大量に生んだ。古典語が近代制度語へ再編された代表例である。",
-    "etymology": "中国古典の「学校」に由来する漢語で、学ぶこととその場を一体で示す。近代以降は school の訳語として再活性化された。",
+    "era": "明治初期",
+    "year": 1872,
+    "description": "「学校」は古代中国の漢語として既に存在していた語であり、明治5年（1872年）の学制発布によってschoolの制度的訳語として定着した。学制は小学校・中学校・大学を全国に設置し、身分・性別を問わない国民皆学を目指した。フランスの学区制・アメリカの教育内容を参考に制定され、1886年に初代文部大臣・森有礼が学校令を発布したことで「学校」という語は近代教育制度の中核語彙として完全に定着した。",
+    "etymology": "「学」は学ぶ・学問を意味し、「校」は木を交差させた囲い・場所の意から転じてまなびやを指す。古代中国の王莽が設置した儒学の「学」「校」に由来し、周礼の教育機関概念にも通じる古典漢語。",
     "meanings": [
       {
-        "en": "A school; an institution where organized education is provided.",
-        "ja": "教師が継続的・組織的に教育を施す施設。",
-        "example_en": "Children go to school every day.",
-        "example_ja": "子どもたちは毎日学校へ通う。"
-      }
-    ],
-    "sources": [
-      {
-        "title": "コトバンク「学校」",
-        "url": "https://kotobank.jp/word/%E5%AD%A6%E6%A0%A1-45158",
-        "note": "語義、語誌、760頃の初出実例を確認"
+        "en": "An institution for educating children or students under teachers.",
+        "ja": "教師のもとで子どもや生徒に教育を行う機関・施設。",
+        "example_en": "Children are required to attend school until the age of fifteen.",
+        "example_ja": "子どもたちは15歳まで学校に通うことが義務づけられている。"
       },
       {
-        "title": "コトバンク 和英「学校」",
-        "url": "https://kotobank.jp/jeword/%E5%AD%A6%E6%A0%A1",
-        "note": "school への対応を確認"
+        "en": "A system of education; the period of one's schooling.",
+        "ja": "教育制度全般、またはその人の就学期間。",
+        "example_en": "He finished school and went on to university.",
+        "example_ja": "彼は学校を終えて大学に進んだ。"
+      },
+      {
+        "en": "A group of people who share the same ideas, methods, or style (school of thought).",
+        "ja": "同じ思想・方法・様式を共有する一派・流派（思想の流派）。",
+        "example_en": "He belongs to the Chicago school of economics.",
+        "example_ja": "彼はシカゴ学派に属する経済学者だ。"
       }
-    ],
-    "first_attestation": {
-      "year": 760,
-      "source": "家伝",
-      "note": "精選版日本国語大辞典は『家伝』（760頃）を初出実例として掲げる。"
-    }
+    ]
   },
   {
     "id": 286,
@@ -15811,43 +15642,11 @@
     ]
   },
   {
-    "id": 428,
-    "japanese_word": "学校",
-    "original_word": "school",
-    "language": "英語・フランス語",
-    "field_id": 6,
-    "translator_id": null,
-    "era": "明治初期",
-    "year": 1872,
-    "description": "「学校」は古代中国の漢語として既に存在していた語であり、明治5年（1872年）の学制発布によってschoolの制度的訳語として定着した。学制は小学校・中学校・大学を全国に設置し、身分・性別を問わない国民皆学を目指した。フランスの学区制・アメリカの教育内容を参考に制定され、1886年に初代文部大臣・森有礼が学校令を発布したことで「学校」という語は近代教育制度の中核語彙として完全に定着した。",
-    "etymology": "「学」は学ぶ・学問を意味し、「校」は木を交差させた囲い・場所の意から転じてまなびやを指す。古代中国の王莽が設置した儒学の「学」「校」に由来し、周礼の教育機関概念にも通じる古典漢語。",
-    "meanings": [
-      {
-        "en": "An institution for educating children or students under teachers.",
-        "ja": "教師のもとで子どもや生徒に教育を行う機関・施設。",
-        "example_en": "Children are required to attend school until the age of fifteen.",
-        "example_ja": "子どもたちは15歳まで学校に通うことが義務づけられている。"
-      },
-      {
-        "en": "A system of education; the period of one's schooling.",
-        "ja": "教育制度全般、またはその人の就学期間。",
-        "example_en": "He finished school and went on to university.",
-        "example_ja": "彼は学校を終えて大学に進んだ。"
-      },
-      {
-        "en": "A group of people who share the same ideas, methods, or style (school of thought).",
-        "ja": "同じ思想・方法・様式を共有する一派・流派（思想の流派）。",
-        "example_en": "He belongs to the Chicago school of economics.",
-        "example_ja": "彼はシカゴ学派に属する経済学者だ。"
-      }
-    ]
-  },
-  {
     "id": 429,
     "japanese_word": "驚愕",
     "original_word": "astonishment",
     "language": "英語",
-    "field_id": null,
+    "field_id": 1,
     "translator_id": null,
     "era": "古典漢語由来",
     "year": null,
