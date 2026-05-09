@@ -4,6 +4,8 @@ import { articles } from "lib/articles"
 import { WordCard } from "components/elements/word-card"
 import { RandomArticles } from "components/elements/random-articles"
 import { KatakanaCard } from "components/elements/katakana-card"
+import { FieldTags } from "components/elements/field-tags"
+import { wordGridStyle } from "lib/styles"
 
 const HERO_WORDS = ["社会", "経済", "哲学", "自由", "権利", "文化", "科学"]
 
@@ -290,40 +292,9 @@ const Page: FC = () => {
           </a>
         </div>
 
-        <div
-          style={{
-            marginBottom: "1.5rem",
-            display: "flex",
-            gap: ".5rem",
-            flexWrap: "wrap",
-          }}
-        >
-          {fields.map((field) => (
-            <a
-              key={field.id}
-              href={`/fields/${field.id}/`}
-              style={{
-                fontSize: ".8rem",
-                background: "#1e1a12",
-                border: "1px solid #302b1e",
-                borderRadius: "4px",
-                color: "#9e9888",
-                padding: ".3rem .8rem",
-                textDecoration: "none",
-              }}
-            >
-              {field.name}
-            </a>
-          ))}
-        </div>
+        <FieldTags fields={fields} />
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: "1rem",
-          }}
-        >
+        <div style={wordGridStyle}>
           {words.slice(0, 30).map((word) => (
             <WordCard
               key={word.id}
@@ -373,13 +344,7 @@ const Page: FC = () => {
               すべて見る →
             </a>
           </div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-              gap: "1rem",
-            }}
-          >
+          <div style={wordGridStyle}>
             {katakanaWords.slice(0, 3).map((word) => (
               <KatakanaCard key={word.id} word={word} />
             ))}

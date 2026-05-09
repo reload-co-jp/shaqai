@@ -25,6 +25,13 @@ export type Meaning = {
   example_ja?: string
 }
 
+export type Source = {
+  title: string
+  author?: string
+  url?: string
+  note?: string
+}
+
 export type Word = {
   id: number
   japanese_word: string
@@ -42,12 +49,7 @@ export type Word = {
     source?: string | null
     note: string
   }
-  sources?: {
-    title: string
-    author?: string
-    url?: string
-    note?: string
-  }[]
+  sources?: Source[]
 }
 
 export type KatakanaExample = {
@@ -66,12 +68,7 @@ export type KatakanaWord = {
   meaning_shift: string
   description: string
   examples: KatakanaExample[]
-  sources?: {
-    title: string
-    author?: string
-    url?: string
-    note?: string
-  }[]
+  sources?: Source[]
 }
 
 export const fields: Field[] = rawFields
@@ -99,5 +96,17 @@ export const searchWords = (query: string) => {
       w.original_word.toLowerCase().includes(q) ||
       w.description.includes(q) ||
       w.etymology.includes(q)
+  )
+}
+
+export const searchKatakanaWords = (query: string) => {
+  const q = query.toLowerCase()
+  return katakanaWords.filter(
+    (w) =>
+      w.katakana_word.includes(query) ||
+      w.original_word.toLowerCase().includes(q) ||
+      w.japanese_meaning.includes(query) ||
+      w.original_meaning.includes(query) ||
+      w.description.includes(query)
   )
 }

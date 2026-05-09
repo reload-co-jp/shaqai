@@ -3,37 +3,22 @@
 import { Suspense, FC } from "react"
 import { useSearchParams } from "next/navigation"
 import Link from "next/link"
-import { words, fields, translators, katakanaWords } from "lib/db"
+import {
+  getField,
+  getTranslator,
+  searchWords,
+  searchKatakanaWords,
+} from "lib/db"
 import { WordCard } from "components/elements/word-card"
 import { KatakanaCard } from "components/elements/katakana-card"
+import { wordGridStyle } from "lib/styles"
 
 const SearchResults: FC = () => {
   const params = useSearchParams()
   const q = params.get("q") || ""
 
-  const results = q
-    ? words.filter(
-        (w) =>
-          w.japanese_word.includes(q) ||
-          w.original_word.toLowerCase().includes(q.toLowerCase()) ||
-          w.description.includes(q) ||
-          w.etymology.includes(q)
-      )
-    : []
-  const katakanaResults = q
-    ? katakanaWords.filter(
-        (w) =>
-          w.katakana_word.includes(q) ||
-          w.original_word.toLowerCase().includes(q.toLowerCase()) ||
-          w.japanese_meaning.includes(q) ||
-          w.original_meaning.includes(q) ||
-          w.description.includes(q)
-      )
-    : []
-
-  const getField = (id: number | null) => fields.find((f) => f.id === id)
-  const getTranslator = (id: number | null) =>
-    id ? translators.find((t) => t.id === id) : undefined
+  const results = q ? searchWords(q) : []
+  const katakanaResults = q ? searchKatakanaWords(q) : []
 
   return (
     <div>
@@ -93,20 +78,13 @@ const SearchResults: FC = () => {
           <h2 style={{ fontSize: "1rem", color: "#e2dcd0", marginBottom: ".75rem" }}>
             翻訳語
           </h2>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-              gap: "1rem",
-              marginBottom: "1.5rem",
-            }}
-          >
+          <div style={{ ...wordGridStyle, marginBottom: "1.5rem" }}>
             {results.map((word) => (
               <WordCard
                 key={word.id}
                 word={word}
                 field={getField(word.field_id)}
-                translator={getTranslator(word.translator_id)}
+                translator={word.translator_id ? getTranslator(word.translator_id) : undefined}
               />
             ))}
           </div>
@@ -118,13 +96,7 @@ const SearchResults: FC = () => {
           <h2 style={{ fontSize: "1rem", color: "#e2dcd0", marginBottom: ".75rem" }}>
             カタカナ語
           </h2>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-              gap: "1rem",
-            }}
-          >
+          <div style={wordGridStyle}>
             {katakanaResults.map((word) => (
               <KatakanaCard key={word.id} word={word} />
             ))}

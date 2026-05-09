@@ -10,6 +10,7 @@ import {
   getField,
 } from "lib/db"
 import { WordCard } from "components/elements/word-card"
+import { backLinkStyle, cardStyle, wordGridStyle } from "lib/styles"
 import type { Metadata } from "next"
 
 export const generateStaticParams = () =>
@@ -83,28 +84,12 @@ const Page: FC<Props> = async ({ params }) => {
       />
       <div style={{ maxWidth: "960px", margin: "0 auto" }}>
         <div style={{ marginBottom: "1rem" }}>
-          <Link
-            href="/translators/"
-            style={{
-              fontSize: ".8rem",
-              color: "#807870",
-              textDecoration: "none",
-            }}
-          >
+          <Link href="/translators/" style={backLinkStyle}>
             ← 翻訳者一覧
           </Link>
         </div>
 
-        {/* プロフィールカード */}
-        <div
-          style={{
-            background: "#1e1a12",
-            border: "1px solid #302b1e",
-            borderRadius: "3px",
-            padding: "1.5rem",
-            marginBottom: "1rem",
-          }}
-        >
+        <div style={{ ...cardStyle, padding: "1.5rem", marginBottom: "1rem" }}>
           <div
             style={{
               display: "flex",
@@ -227,17 +212,8 @@ const Page: FC<Props> = async ({ params }) => {
           </div>
         </div>
 
-        {/* 分野別分布 */}
         {fieldCounts.length > 0 && (
-          <div
-            style={{
-              background: "#1e1a12",
-              border: "1px solid #302b1e",
-              borderRadius: "3px",
-              padding: "1rem 1.5rem",
-              marginBottom: "1.5rem",
-            }}
-          >
+          <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
             <h3
               style={{
                 fontSize: ".75rem",
@@ -300,7 +276,6 @@ const Page: FC<Props> = async ({ params }) => {
           </div>
         )}
 
-        {/* 訳語一覧 */}
         <div style={{ marginBottom: "1rem" }}>
           <h3 style={{ fontSize: "1rem", color: "#e2dcd0" }}>
             訳語一覧
@@ -316,13 +291,7 @@ const Page: FC<Props> = async ({ params }) => {
           </h3>
         </div>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: "1rem",
-          }}
-        >
+        <div style={wordGridStyle}>
           {translatorWords.map((word) => (
             <WordCard
               key={word.id}

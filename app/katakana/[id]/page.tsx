@@ -4,6 +4,15 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import { katakanaWords, getKatakanaWord } from "lib/db"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { SourceList } from "components/elements/source-list"
+import {
+  cardStyle,
+  rowStyle,
+  labelStyle,
+  valueStyle,
+  sectionHeadingStyle,
+  backLinkStyle,
+} from "lib/styles"
 
 export const generateStaticParams = () =>
   katakanaWords.map((word) => ({ id: String(word.id) }))
@@ -61,24 +70,6 @@ const Page: FC<Props> = async ({ params }) => {
     },
   }
 
-  const rowStyle: React.CSSProperties = {
-    display: "flex",
-    borderBottom: "1px solid #28241a",
-    padding: ".75rem 0",
-  }
-  const labelStyle: React.CSSProperties = {
-    color: "#807870",
-    fontSize: ".8rem",
-    minWidth: "120px",
-    paddingTop: ".1rem",
-  }
-  const valueStyle: React.CSSProperties = {
-    color: "#e2dcd0",
-    fontSize: ".9rem",
-    flex: 1,
-    lineHeight: 1.7,
-  }
-
   return (
     <>
       <BreadcrumbJsonLd
@@ -94,7 +85,7 @@ const Page: FC<Props> = async ({ params }) => {
       />
       <div style={{ maxWidth: "720px", margin: "0 auto" }}>
         <div style={{ marginBottom: "1.5rem" }}>
-          <Link href="/katakana/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
+          <Link href="/katakana/" style={backLinkStyle}>
             ← カタカナ語一覧に戻る
           </Link>
         </div>
@@ -108,15 +99,7 @@ const Page: FC<Props> = async ({ params }) => {
           </div>
         </div>
 
-        <div
-          style={{
-            background: "#1e1a12",
-            border: "1px solid #302b1e",
-            borderRadius: "3px",
-            padding: "1rem 1.5rem",
-            marginBottom: "1.5rem",
-          }}
-        >
+        <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
           <div style={rowStyle}>
             <span style={labelStyle}>原語</span>
             <span style={valueStyle}>{word.original_word}</span>
@@ -131,18 +114,8 @@ const Page: FC<Props> = async ({ params }) => {
           </div>
         </div>
 
-        <div
-          style={{
-            background: "#1e1a12",
-            border: "1px solid #302b1e",
-            borderRadius: "3px",
-            padding: "1rem 1.5rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
-            意味のずれ
-          </h2>
+        <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
+          <h2 style={sectionHeadingStyle}>意味のずれ</h2>
           <div style={rowStyle}>
             <span style={labelStyle}>原語の意味</span>
             <span style={valueStyle}>{word.original_meaning}</span>
@@ -157,35 +130,15 @@ const Page: FC<Props> = async ({ params }) => {
           </div>
         </div>
 
-        <div
-          style={{
-            background: "#1e1a12",
-            border: "1px solid #302b1e",
-            borderRadius: "3px",
-            padding: "1rem 1.5rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
-            説明
-          </h2>
+        <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
+          <h2 style={sectionHeadingStyle}>説明</h2>
           <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: 1.7 }}>
             {word.description}
           </p>
         </div>
 
-        <div
-          style={{
-            background: "#1e1a12",
-            border: "1px solid #302b1e",
-            borderRadius: "3px",
-            padding: "1rem 1.5rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
-            用例
-          </h2>
+        <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
+          <h2 style={sectionHeadingStyle}>用例</h2>
           {word.examples.map((example, index) => (
             <div
               key={index}
@@ -207,52 +160,9 @@ const Page: FC<Props> = async ({ params }) => {
           ))}
         </div>
 
-        <div
-          style={{
-            background: "#1e1a12",
-            border: "1px solid #302b1e",
-            borderRadius: "3px",
-            padding: "1rem 1.5rem",
-          }}
-        >
-          <h2 style={{ fontSize: ".8rem", color: "#807870", marginBottom: ".75rem", textTransform: "uppercase", letterSpacing: ".05em" }}>
-            出典
-          </h2>
-          {word.sources?.length ? (
-            <ul
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: ".65rem",
-                paddingLeft: "1.25rem",
-                color: "#e2dcd0",
-                fontSize: ".9rem",
-                lineHeight: 1.7,
-              }}
-            >
-              {word.sources.map((source) => (
-                <li key={`${source.title}-${source.url ?? ""}`}>
-                  {source.author && <span>{source.author} </span>}
-                  {source.url ? (
-                    <a href={source.url} style={{ color: "#7a9e82", textDecoration: "none" }}>
-                      『{source.title}』
-                    </a>
-                  ) : (
-                    <span>『{source.title}』</span>
-                  )}
-                  {source.note && (
-                    <span style={{ color: "#807870", fontSize: ".82rem", marginLeft: ".5rem" }}>
-                      {source.note}
-                    </span>
-                  )}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p style={{ color: "#807870", fontSize: ".9rem", lineHeight: 1.7 }}>
-              出典情報はまだ登録されていません。
-            </p>
-          )}
+        <div style={cardStyle}>
+          <h2 style={sectionHeadingStyle}>出典</h2>
+          <SourceList sources={word.sources ?? []} />
         </div>
       </div>
     </>

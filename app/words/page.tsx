@@ -2,6 +2,8 @@ import { FC } from "react"
 import { words, fields, getField, getTranslator } from "lib/db"
 import { WordCard } from "components/elements/word-card"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { FieldTags } from "components/elements/field-tags"
+import { wordGridStyle } from "lib/styles"
 
 export const metadata = {
   title: "翻訳語一覧",
@@ -69,40 +71,9 @@ const Page: FC = () => {
           </p>
         </div>
 
-      <div
-        style={{
-          marginBottom: "1.5rem",
-          display: "flex",
-          gap: ".5rem",
-          flexWrap: "wrap",
-        }}
-      >
-        {fields.map((field) => (
-          <a
-            key={field.id}
-            href={`/fields/${field.id}/`}
-            style={{
-              fontSize: ".8rem",
-              background: "#1e1a12",
-              border: "1px solid #302b1e",
-              borderRadius: "4px",
-              color: "#9e9888",
-              padding: ".3rem .8rem",
-              textDecoration: "none",
-            }}
-          >
-            {field.name}
-          </a>
-        ))}
-      </div>
+      <FieldTags fields={fields} />
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-          gap: "1rem",
-        }}
-      >
+      <div style={wordGridStyle}>
         {words.map((word) => (
           <WordCard
             key={word.id}

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { fields, getField, getWordsByField, getTranslator } from "lib/db"
 import { WordCard } from "components/elements/word-card"
+import { backLinkStyle, wordGridStyle } from "lib/styles"
 import type { Metadata } from "next"
 
 export const generateStaticParams = () =>
@@ -49,7 +50,7 @@ const Page: FC<Props> = async ({ params }) => {
       />
       <div style={{ maxWidth: "960px", margin: "0 auto" }}>
         <div style={{ marginBottom: "1rem" }}>
-          <Link href="/fields/" style={{ fontSize: ".8rem", color: "#807870", textDecoration: "none" }}>
+          <Link href="/fields/" style={backLinkStyle}>
             ← 分野一覧
           </Link>
         </div>
@@ -66,13 +67,7 @@ const Page: FC<Props> = async ({ params }) => {
           <p style={{ fontSize: ".875rem", color: "#807870" }}>{fieldWords.length}語</p>
         </div>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: "1rem",
-          }}
-        >
+        <div style={wordGridStyle}>
           {fieldWords.map((word) => (
             <WordCard
               key={word.id}
