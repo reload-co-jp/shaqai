@@ -73,6 +73,19 @@ const Page: FC<Props> = async ({ params }) => {
     gap: ".25rem",
   }
 
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: translator.name,
+    description: translator.description.split("\n\n")[0],
+    url: `https://shaqai.reload.co.jp/translators/${id}/`,
+    birthDate: String(translator.birth_year),
+    deathDate: String(translator.death_year),
+    ...(translator.image && {
+      image: `https://shaqai.reload.co.jp${translator.image}`,
+    }),
+  }
+
   return (
     <>
       <BreadcrumbJsonLd
@@ -81,6 +94,10 @@ const Page: FC<Props> = async ({ params }) => {
           { name: "翻訳者一覧", url: "/translators/" },
           { name: translator.name, url: `/translators/${id}/` },
         ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
       />
       <div style={{ maxWidth: "960px", margin: "0 auto" }}>
         <div style={{ marginBottom: "1rem" }}>
