@@ -8,6 +8,30 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: "shakai-etymology",
+    title: "「社会」の語源——神社の集まりから人間の共同体へ",
+    description:
+      "「社会」はもともと「神社の集まり」を意味する漢語だった。society の訳語として選ばれ、福沢諭吉の「人間交際」との競合を経て定着するまでの経緯をたどる。",
+    publishedAt: "2026-05-15",
+    relatedWordIds: [3, 2, 6, 10, 11, 16, 231],
+  },
+  {
+    id: "jiyu-etymology",
+    title: "「自由」の語源——わがままから権利へ",
+    description:
+      "「自由」はもとは仏教語で、「自らの思いのまま」というやや否定的な含意を持っていた。それが liberty・freedom の訳語として政治的権利の言葉に生まれ変わるまでの経緯をたどる。",
+    publishedAt: "2026-05-15",
+    relatedWordIds: [6, 7, 8, 3, 52, 59],
+  },
+  {
+    id: "keizai-etymology",
+    title: "「経済」の語源——経世済民から economy へ",
+    description:
+      "日常語として定着した「経済」は、もとは「世を治め民を救う」という政治道徳の言葉だった。economy の訳語として選ばれた経緯と、意味が縮小していった過程をたどる。",
+    publishedAt: "2026-05-15",
+    relatedWordIds: [2, 3, 51, 598, 11],
+  },
+  {
     id: "tsuji-work",
     title: "通詞のしごと",
     description:
