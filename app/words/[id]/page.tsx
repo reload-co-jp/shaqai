@@ -34,13 +34,13 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
       description,
       url: `https://shaqai.reload.co.jp/words/${id}/`,
       type: "article",
-      images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+      images: [{ url: `https://shaqai.reload.co.jp/words/${id}/opengraph-image`, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["/opengraph-image"],
+      images: [`https://shaqai.reload.co.jp/words/${id}/opengraph-image`],
     },
     alternates: { canonical: `https://shaqai.reload.co.jp/words/${id}/` },
   }

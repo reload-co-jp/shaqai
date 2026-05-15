@@ -1,5 +1,6 @@
 import { ReactNode } from "react"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { articles } from "lib/articles"
 
 type ArticlePageProps = {
   id: string
@@ -15,20 +16,34 @@ export const ArticlePage = ({
   children,
 }: ArticlePageProps) => {
   const url = `https://shaqai.reload.co.jp/articles/${id}/`
+  const publishedAt = articles.find((a) => a.id === id)?.publishedAt
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
     description,
+    url,
+    ...(publishedAt && { datePublished: publishedAt }),
+    image: {
+      "@type": "ImageObject",
+      url: "https://shaqai.reload.co.jp/opengraph-image",
+      width: 1200,
+      height: 630,
+    },
+    author: {
+      "@type": "Organization",
+      name: "Reload, Inc.",
+      url: "https://reload.co.jp",
+    },
     publisher: {
       "@type": "Organization",
       name: "翻訳語辞典 Shaqai",
+      url: "https://shaqai.reload.co.jp",
       logo: {
         "@type": "ImageObject",
         url: "https://shaqai.reload.co.jp/icon.svg",
       },
     },
-    url,
   }
 
   return (
