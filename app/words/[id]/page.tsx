@@ -26,10 +26,25 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   const word = getWord(Number(id))
   if (!word) return {}
   const title = `${word.japanese_word}（${word.original_word}）`
-  const description = word.description.length > 120 ? word.description.slice(0, 120) + "…" : word.description
+  const prefix = `${word.japanese_word}（${word.original_word}）の語源・訳語。`
+  const budget = 155 - prefix.length
+  const detail = word.etymology.length > 0
+    ? word.etymology.slice(0, budget) + (word.etymology.length > budget ? "…" : "")
+    : word.description.slice(0, budget) + (word.description.length > budget ? "…" : "")
+  const description = prefix + detail
+  const keywords = [
+    word.japanese_word,
+    word.original_word,
+    `${word.japanese_word} 語源`,
+    `${word.japanese_word} 訳語`,
+    `${word.japanese_word} 由来`,
+    `${word.original_word} 日本語`,
+    word.language,
+  ]
   return {
     title,
     description,
+    keywords,
     openGraph: {
       title,
       description,
