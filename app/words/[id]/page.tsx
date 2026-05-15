@@ -6,6 +6,7 @@ import type { Metadata } from "next"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 import { SourceList } from "components/elements/source-list"
 import { getFirstAttestation, getWordSources } from "lib/word-details"
+import { getArticlesForWord } from "lib/articles"
 import {
   cardStyle,
   rowStyle,
@@ -55,6 +56,7 @@ const Page: FC<Props> = async ({ params }) => {
   const translator = word.translator_id ? getTranslator(word.translator_id) : null
   const firstAttestation = getFirstAttestation(word)
   const sources = getWordSources(word)
+  const relatedArticles = getArticlesForWord(word.id)
   const relatedWords = words
     .filter((candidate) => {
       if (candidate.id === word.id) return false
@@ -272,6 +274,38 @@ const Page: FC<Props> = async ({ params }) => {
                   </Link>
                 )
               })}
+            </div>
+          </div>
+        )}
+
+        {relatedArticles.length > 0 && (
+          <div style={{ ...cardStyle, marginTop: "1.5rem" }}>
+            <h2 style={{ ...sectionHeadingStyle, marginBottom: ".9rem" }}>
+              関連する読み物
+            </h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: ".75rem" }}>
+              {relatedArticles.map((article) => (
+                <Link
+                  key={article.id}
+                  href={`/articles/${article.id}/`}
+                  style={{
+                    background: "#18140e",
+                    border: "1px solid #28241a",
+                    borderRadius: "3px",
+                    padding: ".85rem 1rem",
+                    textDecoration: "none",
+                    color: "inherit",
+                    display: "block",
+                  }}
+                >
+                  <div style={{ fontSize: ".95rem", color: "#e2dcd0", marginBottom: ".35rem" }}>
+                    {article.title}
+                  </div>
+                  <div style={{ fontSize: ".8rem", color: "#807870", lineHeight: 1.6 }}>
+                    {article.description}
+                  </div>
+                </Link>
+              ))}
             </div>
           </div>
         )}

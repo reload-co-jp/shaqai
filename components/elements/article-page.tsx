@@ -1,6 +1,8 @@
 import { ReactNode } from "react"
+import Link from "next/link"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 import { articles } from "lib/articles"
+import { words, getField } from "lib/db"
 
 type ArticlePageProps = {
   id: string
@@ -16,7 +18,11 @@ export const ArticlePage = ({
   children,
 }: ArticlePageProps) => {
   const url = `https://shaqai.reload.co.jp/articles/${id}/`
-  const publishedAt = articles.find((a) => a.id === id)?.publishedAt
+  const article = articles.find((a) => a.id === id)
+  const publishedAt = article?.publishedAt
+  const relatedWords = (article?.relatedWordIds ?? [])
+    .map((wid) => words.find((w) => w.id === wid))
+    .filter(Boolean) as (typeof words)[number][]
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -102,6 +108,79 @@ export const ArticlePage = ({
         </div>
 
         {children}
+
+        {relatedWords.length > 0 && (
+          <div
+            style={{
+              marginTop: "3rem",
+              paddingTop: "2rem",
+              borderTop: "1px solid #2a2518",
+            }}
+          >
+            <h2
+              style={{
+                fontSize: ".875rem",
+                color: "#807870",
+                marginBottom: "1rem",
+                letterSpacing: ".05em",
+                textTransform: "uppercase",
+              }}
+            >
+              関連する翻訳語
+            </h2>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
+                gap: ".75rem",
+              }}
+            >
+              {relatedWords.map((word) => {
+                const field = getField(word.field_id)
+                return (
+                  <Link
+                    key={word.id}
+                    href={`/words/${word.id}/`}
+                    style={{
+                      background: "#18140e",
+                      border: "1px solid #28241a",
+                      borderRadius: "3px",
+                      padding: ".85rem 1rem",
+                      textDecoration: "none",
+                      color: "inherit",
+                      display: "block",
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontSize: "1.1rem",
+                        color: "#c8a96e",
+                        fontWeight: "bold",
+                        marginBottom: ".25rem",
+                      }}
+                    >
+                      {word.japanese_word}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: ".8rem",
+                        color: "#7a9e82",
+                        marginBottom: ".3rem",
+                      }}
+                    >
+                      {word.original_word}
+                    </div>
+                    {field && (
+                      <div style={{ fontSize: ".75rem", color: "#807870" }}>
+                        {field.name}
+                      </div>
+                    )}
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        )}
       </div>
     </>
   )
