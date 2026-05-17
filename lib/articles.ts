@@ -8,6 +8,30 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: "kagaku-etymology",
+    title: "「科学」の語源——知ることから分けて知ることへ",
+    description:
+      "「科学」はラテン語 scientia（知識）を起源とし、「学問を分科する」という訳語の発想で生まれた。窮理学・格物学との競合を経て定着するまでと、「科」という字が近代科学の本質を射抜いていた経緯をたどる。",
+    publishedAt: "2026-05-17",
+    relatedWordIds: [5, 317, 502, 503, 4],
+  },
+  {
+    id: "bunka-etymology",
+    title: "「文化」の語源——畑を耕すことから魂を耕すことへ",
+    description:
+      "「文化」はラテン語 cultura（耕作）を起源とし、キケロが「魂の耕作」と呼んだことで精神的な意味を得た。同名の漢語が古典中国にすでに存在していたことが、明治の翻訳を大いに助けた経緯をたどる。",
+    publishedAt: "2026-05-17",
+    relatedWordIds: [10, 11, 3, 2],
+  },
+  {
+    id: "tetsugaku-etymology",
+    title: "「哲学」の語源——知を愛することから明智の学へ",
+    description:
+      "「哲学」はギリシャ語 philosophia（知を愛すること）の訳語として、西周が1874年に創出した。「希哲学」「愛智学」との競合を経て定着するまでの経緯と、「哲」という字の選択に込められた意味をたどる。",
+    publishedAt: "2026-05-17",
+    relatedWordIds: [4, 87, 317, 2, 3],
+  },
+  {
     id: "shakai-etymology",
     title: "「社会」の語源——神社の集まりから人間の共同体へ",
     description:
