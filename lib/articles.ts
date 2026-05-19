@@ -8,6 +8,14 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: "sekai-etymology",
+    title: "「世界」の語源——時間と空間から地球全体へ",
+    description:
+      "「世界」は仏教語として、すべての時間を表す「世」と、すべての空間を表す「界」から成った。近世の世界地図と近代地理学を経て、world の訳語として地球・万国・人類社会を指す語へ広がる過程をたどる。",
+    publishedAt: "2026-05-19",
+    relatedWordIds: [192, 543, 530, 487, 3],
+  },
+  {
     id: "kagaku-etymology",
     title: "「科学」の語源——知ることから分けて知ることへ",
     description:
