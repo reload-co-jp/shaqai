@@ -10628,10 +10628,10 @@
     "original_word": "association / social intercourse / friendship / dating",
     "language": "英語",
     "field_id": 3,
-    "translator_id": null,
+    "translator_id": 1,
     "era": "平安中期",
     "year": 984,
-    "description": "「交際」は、人と人、あるいは国と国が付き合いを結ぶことを表す語で、近代には association や social intercourse の訳語として社会関係を説明する基本語となった。さらに現代では男女のつきあいを指す用法も発達している。古い漢語ながら、明治以降は社交・外交・市民的ネットワークなどを表す近代的な人間関係語として再編され、広く日常語化した。",
+    "description": "「交際」は平安期以来の漢語だが、近代においては福沢諭吉が「人間交際」として society / social intercourse の訳語に転用したことで、その意味が大きく拡張した。福沢は『西洋事情』外編（1868年）で「人間交際」を用い、『文明論之概略』（1875年）でも人々が自発的に集まり交わる関係を表す語として活用した。その後、社交・外交・市民的ネットワークなどを表す近代的な人間関係語として広まり、現代では男女の付き合いを指す用法も発達している。",
     "etymology": "「交」はまじわること、「際」は出会うこと。互いに出会い、関係を取り結ぶという字義を持つ。",
     "meanings": [
       {
@@ -19694,6 +19694,86 @@
         "ja": "死者の財産・権利・義務を包括的に承継すること。",
         "example_en": "The heir succeeded to the entire estate through legal inheritance.",
         "example_ja": "相続人は法定相続により被相続人の財産全体を引き継いだ。"
+      }
+    ]
+  },
+  {
+    "id": 606,
+    "japanese_word": "勅令",
+    "original_word": "Verordnung / ordinance",
+    "language": "ドイツ語・英語",
+    "field_id": 5,
+    "translator_id": 4,
+    "era": "明治期",
+    "year": 1889,
+    "description": "大日本帝国憲法第9条において制度的に確立された行政命令の法形式。天皇が法律の執行や公共の安寧秩序維持のために議会を経ずに発する命令の総称。明治17年（1884年）の制度改革から内閣制度創設（1885年）を経て、井上毅らが憲法草稿の中でドイツ語Verordnung（行政命令）の概念を参照しながら整備した。勅令第1号（1886年公文式）で法形式として正式に機能し始め、以後、徴兵令・文官任用令など重要な国家制度が勅令の形式で公布された。戦後の日本国憲法施行とともに廃止された。",
+    "etymology": "「勅」は天子の発する言葉・命令を指す漢字で、律令体制に由来する語。「令」は法令・命令を意味する。古代中国の律令制から日本の律令体制に引き継がれた漢語を、近代立憲国家の行政命令概念として転用した。",
+    "meanings": [
+      {
+        "en": "imperial ordinance; imperial decree (an ordinance issued by the Emperor under his constitutional authority, having the force of law, without requiring Diet approval)",
+        "ja": "天皇が大日本帝国憲法上の権限に基づき、帝国議会の議決を経ずに発する命令の法形式。法律の執行や公共の安寧秩序維持を目的とした。",
+        "example_en": "The Meiji government issued many important regulations in the form of imperial ordinances, including those on military service and civil service appointment.",
+        "example_ja": "明治政府は徴兵令・文官任用令など多くの重要な国家制度を勅令の形式で公布した。"
+      }
+    ]
+  },
+  {
+    "id": 607,
+    "japanese_word": "臣民",
+    "original_word": "subject / Untertan",
+    "language": "英語・ドイツ語",
+    "field_id": 4,
+    "translator_id": 4,
+    "era": "明治期",
+    "year": 1889,
+    "description": "明治22年（1889年）発布の大日本帝国憲法において確立された法律・政治用語。皇族を除く日本国民全体を指し、英語subject・ドイツ語Unterstanに相当する概念として整備された。憲法起草の過程では「人民」「国民」なども候補に挙がったが、天皇への奉仕・服従の関係を明示する「臣民」が採用された。憲法第2編の標題「臣民権利義務」に用いられ、以後、官民を問わず皇族以外の日本人を一律に指す語として定着した。戦後の日本国憲法では「国民」に改められた。",
+    "etymology": "「臣」は君主に仕える家来・臣下を意味し、「民」は一般の人々を指す。両者はもと別個の概念だったが、西洋の「subject/Untertan（君主権に服する者）」を訳出するにあたり一語として結合・再定義された。",
+    "meanings": [
+      {
+        "en": "subject (a person under the sovereign authority of the Emperor; legal status of all Japanese nationals except the Imperial Family under the Meiji Constitution)",
+        "ja": "天皇の主権に服する者の総称。明治憲法下では皇族以外のすべての日本人を指す法律上の地位を意味した。",
+        "example_en": "All Japanese nationals except the Imperial Family were designated as subjects (臣民) under the Meiji Constitution.",
+        "example_ja": "明治憲法下では、皇族以外のすべての日本人が等しく「臣民」と称された。"
+      }
+    ]
+  },
+  {
+    "id": 608,
+    "japanese_word": "統治",
+    "original_word": "Herrschaft / government",
+    "language": "ドイツ語・英語",
+    "field_id": 4,
+    "translator_id": 4,
+    "era": "明治期",
+    "year": 1889,
+    "description": "大日本帝国憲法第4条「天皇ハ国ノ元首ニシテ統治権ヲ総攬シ」において中核的な政治概念として確立された用語。ドイツ語Herrschaft（支配・統治）ないしRegierung（政府・統治）に対応する訳語として整備され、国家が人民・領土に行使する包括的支配権を意味した。バイエルン・ヴュルテンベルク憲法およびドイツ法学者ヘルマン・シュルツェの国家論を参照した井上毅が、国家の統一的権力行使を表す語として採用した。「統治権」「統治行為」「統治機構」など派生語を生み、戦後憲法学においても用いられ続けている。",
+    "etymology": "「統」は統べる・まとめる、「治」は治める・統制するを意味する漢字。ともに古典漢語に用例を持ち、「国家・人民を一元的に支配・管理する」意を表す熟語として近代立憲国家論の統治概念に当てられた。",
+    "meanings": [
+      {
+        "en": "governance; rule; government (the comprehensive exercise of state authority over people and territory)",
+        "ja": "国家が人民・領土に対して行使する包括的な支配・管理。立憲制下では「統治権」として天皇に帰属するとされた。",
+        "example_en": "The Emperor exercises sovereignty and carries out the government of the country.",
+        "example_ja": "天皇は国の元首にして統治権を総攬し、この憲法の条規に依り之を行ふ。（明治憲法第4条）"
+      }
+    ]
+  },
+  {
+    "id": 609,
+    "japanese_word": "国語",
+    "original_word": "Nationalsprache / national language",
+    "language": "ドイツ語・英語",
+    "field_id": 6,
+    "translator_id": 22,
+    "era": "明治期",
+    "year": 1895,
+    "description": "明治28年（1895年）刊行の論文集『国語のため』に収録された「国語と国家と」において上田万年が理論的基礎を確立した教育・文化用語。ドイツ語Nationalsprache（民族語・国民語）の概念を援用しつつ、一国の言語が国民統合の精神的基盤となるという言語ナショナリズムの観点から「国語」を定義した。明治33年（1900年）の小学校令改正により「国語」が正式な教科名として採用され、以後の国語教育政策の骨格となった。国語調査委員会を経て標準語の設定と方言の統制が進み、近代国民国家形成と不可分な概念として定着した。",
+    "etymology": "「国」は国家・国土を意味し、「語」は言葉・語法を意味する。古典漢語にも「国語」の用例はあるが、近代日本では国民国家の言語を指す特定の概念語として上田万年が再定義した。",
+    "meanings": [
+      {
+        "en": "national language (the standardized language of a nation-state, used as a symbol of national identity and the medium of public education)",
+        "ja": "国民国家の言語。国民統合の精神的基盤として標準化された言語を指し、近代日本では日本語そのものを指す教科名・概念語として用いられた。",
+        "example_en": "The concept of 'national language' was central to Meiji-era education policy and nation-building.",
+        "example_ja": "「国語と国家とは切り離すことの出来ないものである」（上田万年『国語のため』）"
       }
     ]
   }
