@@ -19656,5 +19656,45 @@
         "example_ja": "専売は近代語彙として用いられた。"
       }
     ]
+  },
+  {
+    "id": 604,
+    "japanese_word": "親族",
+    "original_word": "Verwandtschaft / parenté",
+    "language": "ドイツ語・フランス語",
+    "field_id": 5,
+    "translator_id": 21,
+    "era": "明治期",
+    "year": 1898,
+    "description": "明治31年（1898年）公布の民法第四編「親族」において定められた法律用語。六親等内の血族・配偶者・三親等内の姻族を「親族」と定義し、扶養義務・相続権の範囲基準とした。穂積陳重・富井政章・梅謙次郎の起草委員がドイツ民法・フランス民法を参照しながら整備し、家制度を中核とした明治家族法の基礎を築いた。",
+    "etymology": "「親」は近しい・縁のある者、「族」は一族・集団を意味する。古典漢語に用例を持つ語を、近代民法の技術的な法律概念として再定義した。",
+    "meanings": [
+      {
+        "en": "relatives; kin (legally: consanguineous relatives within the 6th degree, spouse, and relatives by marriage within the 3rd degree)",
+        "ja": "親族関係にある者の総称。民法上は六親等内の血族・配偶者・三親等内の姻族を指す。",
+        "example_en": "Relatives within the legally defined range bear the obligation of mutual support.",
+        "example_ja": "法律上の親族の範囲内にある者は、互いに扶養する義務を負う。"
+      }
+    ]
+  },
+  {
+    "id": 605,
+    "japanese_word": "相続",
+    "original_word": "Erbschaft / succession",
+    "language": "ドイツ語・フランス語",
+    "field_id": 5,
+    "translator_id": 21,
+    "era": "明治期",
+    "year": 1898,
+    "description": "明治31年（1898年）公布の民法第五編「相続」において定められた法律用語。人の死亡により財産・権利・義務を包括的に承継することを意味する。「相続」はもとより仏教語で因果の継続を指す語であったが、明治民法の起草過程でドイツ語Erbschaft・フランス語successionの訳語として法律用語に転用され、穂積陳重ら起草委員によって定着が図られた。",
+    "etymology": "「相」は姿・状態、「続」は継ぎ続けること。仏教語で「前の状態を次が引き継ぐ連続」を意味し、そこから財産・地位の包括的承継を指す法律用語へと転用された。",
+    "meanings": [
+      {
+        "en": "inheritance; succession (comprehensive succession of the deceased's rights and obligations)",
+        "ja": "死者の財産・権利・義務を包括的に承継すること。",
+        "example_en": "The heir succeeded to the entire estate through legal inheritance.",
+        "example_ja": "相続人は法定相続により被相続人の財産全体を引き継いだ。"
+      }
+    ]
   }
 ]
