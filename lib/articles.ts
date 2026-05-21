@@ -8,6 +8,38 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: "toukei-etymology",
+    title: "「統計」の語源——国家を数える技術からデータの科学へ",
+    description:
+      "「統計」は statistics の訳語として明治期に定着した。語源をたどると statistics は「国家の状態」を知る学であり、日本でも「政表」「表記」「形勢」などの訳語候補を経て、「多くをまとめて計る」統計へ落ち着いた。",
+    publishedAt: "2026-05-21",
+    relatedWordIds: [222, 422, 43, 223, 15],
+  },
+  {
+    id: "seinen-etymology",
+    title: "「青年」の語源——若者から近代の担い手へ",
+    description:
+      "「青年」は古くからあった自然な日本語ではなく、明治期に Young Men の訳語として広まった近代語だった。「青」が持つ若さと志の感覚、YMCA、学生文化、雑誌メディアを通じて、若者が社会の主体として名づけられる過程をたどる。",
+    publishedAt: "2026-05-21",
+    relatedWordIds: [101, 1, 3, 16, 97],
+  },
+  {
+    id: "shinka-etymology",
+    title: "「進化」の語源——巻物をひらくことから生命の変化へ",
+    description:
+      "「進化」は evolution の訳語として、明治期の進化論受容の中で広まった。ラテン語 evolvere（巻物をひらく）に由来する語が、なぜ日本語では「進む変化」と訳されたのか。ダーウィン、モース、石川千代松を通じてたどる。",
+    publishedAt: "2026-05-21",
+    relatedWordIds: [106, 77, 195, 204, 468],
+  },
+  {
+    id: "joho-etymology",
+    title: "「情報」の語源——敵情の報知からデータの時代へ",
+    description:
+      "「情報」は英語 information の直訳ではなく、明治初期にフランス語 renseignement の軍事訳語として生まれた。「情を報ずる」という敵情把握の語が、戦後の情報科学とコンピュータを経て、現代社会の中心語になるまでをたどる。",
+    publishedAt: "2026-05-21",
+    relatedWordIds: [98, 200, 378, 387, 43],
+  },
+  {
     id: "sekai-etymology",
     title: "「世界」の語源——時間と空間から地球全体へ",
     description:
