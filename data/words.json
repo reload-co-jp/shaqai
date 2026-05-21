@@ -19776,5 +19776,473 @@
         "example_ja": "「国語と国家とは切り離すことの出来ないものである」（上田万年『国語のため』）"
       }
     ]
+  },
+  {
+    "id": 610,
+    "japanese_word": "自助",
+    "original_word": "self-help",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": 9,
+    "era": "明治初期",
+    "year": 1871,
+    "description": "サミュエル・スマイルズ著「Self-Help」（1859年）を中村正直が翻訳した『西国立志編』（明治4年・1871年）を通じて定着した語。同書は副題を「自助論」とし、冒頭に「天は自ら助くる者を助く（Heaven helps those who help themselves）」を掲げて自力本願の精神を説いた。1872年の学制公布後に教科書にも採用され、明治末までに百万部以上が発行されるベストセラーとなった。福沢諭吉の『学問のすゝめ』と並ぶ明治二大啓蒙書として知られ、個人の努力・修養による立身を重んじる「自助の精神」は近代日本の市民倫理の核心語となった。",
+    "etymology": "「自」は自分自身を、「助」は助ける・援けることを意味する。古典漢語「天道自助者」（天は自ら助くる者を助く）に由来する表現で、中村正直はスマイルズのself-helpの字義とこの漢籍典拠を重ね合わせて訳語に採用した。",
+    "meanings": [
+      {
+        "en": "self-help; the practice of improving oneself through one's own efforts without relying on others",
+        "ja": "他者の援助に頼らず自らの努力によって自己を向上・改善すること。",
+        "example_en": "Heaven helps those who help themselves.",
+        "example_ja": "天は自ら助くる者を助く。"
+      }
+    ]
+  },
+  {
+    "id": 611,
+    "japanese_word": "自立",
+    "original_word": "self-reliance / independence",
+    "language": "英語",
+    "field_id": 3,
+    "translator_id": 1,
+    "era": "明治初期",
+    "year": 1872,
+    "description": "福沢諭吉が『学問のすゝめ』（1872〜1876年）において、個人が他者・権威・政府に依存せず自らの力で立つことを表す語として積極的に用いた。福沢は「一身独立して一国独立す」と説き、個人の精神的・経済的自立こそが国家の近代化の基盤であると主張した。英語self-relianceやindependenceの個人的・道徳的側面に対応する訳語として定着し、政治的独立を主に指す「独立」と並行して使われた。明治以降の教育・社会改革の文脈で広く用いられ、個人の自律を重んじる近代市民思想の中核語となった。",
+    "etymology": "「自」は自分自身で・みずからを、「立」は立つ・自らの足で立つことを意味する漢字。古典漢語にも「他に依頼せず己の力で立つ」という意味での用例があり、明治期にself-reliance・independenceの個人的・倫理的側面を表す訳語として再定義された。",
+    "meanings": [
+      {
+        "en": "self-reliance; the ability to stand on one's own without depending on others",
+        "ja": "他者・権威・外部の助けに頼らず、自らの力で生活・判断・行動できる状態。",
+        "example_en": "A person who stands on their own feet and relies on no one else.",
+        "example_ja": "一身独立して一国独立す。（福沢諭吉『学問のすゝめ』）"
+      },
+      {
+        "en": "independence (individual sense); personal autonomy and self-sufficiency",
+        "ja": "個人の自律性・自己充足。精神的・経済的に他に依存しない独立した状態。"
+      }
+    ]
+  },
+  {
+    "id": 612,
+    "japanese_word": "天",
+    "original_word": "nature / the Creator",
+    "language": "英語・フランス語",
+    "field_id": 1,
+    "translator_id": 1,
+    "era": "明治初期",
+    "year": 1872,
+    "description": "西洋自然権思想（natural rights）を日本語で表現する際に、儒教・朱子学の「天（宇宙の最高道徳原理）」と西洋啓蒙思想の「God（創造主）」または「Nature（自然）」を重ね合わせた概念語。福沢諭吉は『学問のすゝめ』（1872年）冒頭の「天は人の上に人を造らず人の下に人を造らず」において、アメリカ独立宣言の「all men are created equal」の創造主（Creator）に相当する語として「天」を用い、西洋の平等・人権思想を日本の読者に受容させた。キリスト教的な「神（God）」を直接充てることを避け、儒学になじみ深い「天」に自然権の源泉という意味を込めることで、啓蒙思想を日本の文脈に根付かせた。明治期の自由民権運動でも「天賦人権論」の語で広まった。",
+    "etymology": "古代中国・日本における「天」は空・宇宙・宇宙の最高道徳原理を意味し、儒教では人間の道徳の根拠として「天命」「天道」の形で用いられてきた。明治期にはこの概念が西洋自然法の「Nature（自然）」・「God（神）」の訳語的対応語として機能した。",
+    "meanings": [
+      {
+        "en": "Heaven; the supreme cosmic/moral principle (used to translate the concept of 'God' or 'Nature' as the source of natural rights in Enlightenment thought)",
+        "ja": "天（自然権思想における創造主・自然の原理）。人間に生来の権利を与える超越的・道徳的根拠として用いられた概念。",
+        "example_en": "All men are created equal (by the Creator).",
+        "example_ja": "天は人の上に人を造らず人の下に人を造らず。（福沢諭吉『学問のすゝめ』）"
+      },
+      {
+        "en": "Nature (as in 'natural rights' = rights endowed by Heaven/Nature)",
+        "ja": "自然・天賦。天賦人権論において人間に本来備わる権利の源泉として用いられた語。"
+      }
+    ]
+  },
+  {
+    "id": 613,
+    "japanese_word": "病理",
+    "original_word": "Pathologie / pathology",
+    "language": "ドイツ語・英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "ギリシャ語を語源とするドイツ語Pathologieの訳語として明治期の日本医学界で定着した語。明治政府が1869年（明治2年）にドイツ医学を正式採用したことを受け、東京大学医学部（当初はドイツ人教師が指導）を中心に西洋医学の体系的な日本語化が進められた。疾病の原因・機序・変化を研究する学問分野を指し、「病理学」として整備されたことで臨床医学の基礎部門として定着した。字義的に「病」と「理（ことわり）」を組み合わせた造語は、ドイツ語Pathologieのギリシャ語構造（pathos＋logos）を漢語に置き換えたもので、病気の原理・理論を探究するという原義を的確に表している。",
+    "etymology": "「病」は疾病・やまいを、「理」は道理・原理・学問を意味する漢字。ギリシャ語pathos（苦しみ・疾患）＋logos（理論・学問）に由来するドイツ語Pathologieを、病気の「ことわり（理）」と訳した漢語造語。",
+    "meanings": [
+      {
+        "en": "pathology; the science of the causes, mechanisms, and nature of disease",
+        "ja": "疾病の原因・発生機序・形態変化を研究する医学の基礎部門。",
+        "example_en": "Pathology underpins the diagnosis and understanding of disease processes.",
+        "example_ja": "病理診断は疾病の確定診断に欠かせない医学の基盤である。"
+      }
+    ]
+  },
+  {
+    "id": 614,
+    "japanese_word": "回虫",
+    "original_word": "Ascaris / roundworm",
+    "language": "ラテン語・英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "江戸末期",
+    "year": null,
+    "description": "中国伝統医学の「蛔虫（huí chóng）」に由来し、日本では「回虫」「蛔虫」の二表記が並立する。「蛔」は虫偏に「回（うず・めぐる）」を組み合わせた文字で、くねりながら動く腸内寄生虫を表す。江戸時代には腹中の虫として広く知られ、「はらのむし」とも称された。明治期に西洋近代医学・寄生虫学が導入されると、ラテン語のAscaris lumbricoides（腸管内に寄生する線虫）の対応語として「回虫・蛔虫」が充てられ、学術用語として定着した。近代においては「回虫」が常用漢字の観点から一般的に用いられる表記となっている。",
+    "etymology": "「蛔（かい）」は虫偏に回を組み合わせた漢字で、腸内でくるくると回転・蠕動する虫の形状に由来する。「回」は渦を巻く・旋回するを意味し、線虫の蠕動運動・円筒形状を字義に取り込んでいる。",
+    "meanings": [
+      {
+        "en": "roundworm; Ascaris lumbricoides (a parasitic nematode infesting the human small intestine)",
+        "ja": "ヒトの小腸に寄生する線虫（Ascaris lumbricoides）。消化管内で蠕動しながら寄生する大型の腸管寄生虫。",
+        "example_en": "Ascaris lumbricoides is the most common parasitic worm in humans worldwide.",
+        "example_ja": "回虫症はかつて日本でも広く見られた腸管寄生虫感染症である。"
+      }
+    ]
+  },
+  {
+    "id": 615,
+    "japanese_word": "葉書",
+    "original_word": "postcard / postal card",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 16,
+    "era": "明治初期",
+    "year": 1873,
+    "description": "前島密が整備した近代郵便制度の中で定着した語。語源は「はしがき（端書）」で、古文書の端に記した覚え書きを指していたが、明治6年（1873年）に官製の「郵便葉書」が発行されたことで、封筒なしで送る一枚書きの郵便物を指す語として確立した。「葉書」という漢字表記は当て字で、「端」に代わり「葉」を用いる理由の定説はないが、タラヨウ（多羅葉）の葉に文字を書いた故事に由来するとの説もある。前島密は郵便制度整備にあたり「郵便」「切手」「葉書」「小包」「書留」などの語を自ら選定した。",
+    "etymology": "「はしがき（端書）」が転じた語。「葉書」は当て字で、文書の端（はし）に記した短い書き付けが独立した一枚の通信文になったことに由来する。「葉」の字義（葉・ページ）と重ね合わせた可能性もある。",
+    "meanings": [
+      {
+        "en": "postcard; a card sent by mail without an envelope",
+        "ja": "封筒に入れず直接送る一枚の郵便通信文。",
+        "example_en": "She sent a postcard from her travels abroad.",
+        "example_ja": "旅先から絵葉書を送った。"
+      }
+    ]
+  },
+  {
+    "id": 616,
+    "japanese_word": "手紙",
+    "original_word": "letter",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "近世",
+    "year": null,
+    "description": "本来「手元に置いて使う紙」「半切り紙」を意味していた語が、江戸時代初期以降に書簡・通信文の意で用いられるようになった。「手」は筆跡・文書の意も持つことから、簡略な書き付けを「手紙」と呼ぶようになったとされる。英語letterの日本語対応語として定着したが、中国語の「手紙（shǒuzhǐ）」がトイレットペーパーを意味するように、同一漢字表記でも意味が大きく異なる日中の語義相違の代表例として知られる。明治期には西洋の書簡文化の影響で使用頻度が高まり、現代語としての地位を固めた。",
+    "etymology": "「手」は手元・筆跡・文書を、「紙」は紙・書面を意味する。本来「手元に置いて使う紙」という実質的意味だったものが、近世に書簡・消息文の意に転じた。中国語では手元の紙＝トイレ用紙の意で異なる発展を示す。",
+    "meanings": [
+      {
+        "en": "letter; a written message sent to another person",
+        "ja": "相手に送るために書いた文書・書簡。",
+        "example_en": "She wrote a letter to her friend.",
+        "example_ja": "旧友に手紙を書いた。"
+      }
+    ]
+  },
+  {
+    "id": 617,
+    "japanese_word": "庭球",
+    "original_word": "lawn tennis",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "明治9年（1876年）頃に横浜・山手公園の外国人居留地でlawn tennisが伝来した際に定着した訳語。山手公園には「日本庭球発祥之地」の碑が建てられ、日本への普及拠点として知られる。訳語「庭球」は、英語lawn（芝の庭）を「庭」で、tennisの球技的側面を「球」で表した意訳的造語で、造語者は不明。明治31年（1898年）頃の文献に使用例が確認でき、その後は「庭球」が正式な訳語として高等学校・大学の競技名・クラブ名に定着し、大日本庭球連盟（現・日本テニス協会）の名称にも採用された。",
+    "etymology": "「庭」は庭園・広場を、「球」は球・球技を意味する漢字。英語lawn（芝の庭）を「庭」に、tennisの球技性を「球」に対応させた意訳。英語のtennis自体はフランス語tenez（さあ受けろ）に由来するとされる。",
+    "meanings": [
+      {
+        "en": "lawn tennis; a racket sport played on a court (grass or hard surface)",
+        "ja": "コートでラケットとボールを使い行う球技。テニス。",
+        "example_en": "Lawn tennis originated in England in the 1870s.",
+        "example_ja": "明治初期に横浜の外国人居留地で庭球が伝来した。"
+      }
+    ]
+  },
+  {
+    "id": 618,
+    "japanese_word": "遊撃手",
+    "original_word": "shortstop",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": 17,
+    "era": "明治期",
+    "year": 1897,
+    "description": "野球用語「shortstop」の訳語として中馬庚が命名・普及させた語。正岡子規がshort＝短い・stop＝遮るを直訳した「短遮者」を提案したのに対し、中馬庚はショートストップの機動的な動き（広い守備範囲を臨機応変に動き回る）を軍事用語の「遊軍（主力とは別に遊動する機動部隊）」に見立て「遊撃手」と訳した。1897年（明治30年）刊行の野球専門書『野球』においてポジション訳語を体系的に整備し、「投手」「捕手」とともに現代まで使われ続ける野球用語の根幹を形成した。",
+    "etymology": "「遊」は自由に動く・遊動することを、「撃」は撃つ・攻撃することを、「手」は人・競技者を意味する。軍事用語「遊軍・遊撃隊」に由来する造語で、二塁と三塁の間を守りながら広範に動く守備位置の機動性を表す。",
+    "meanings": [
+      {
+        "en": "shortstop; the fielder positioned between second and third base in baseball",
+        "ja": "野球で二塁と三塁の間を守る内野手。ショート。広い守備範囲と高い機動力が求められる守備位置。",
+        "example_en": "The shortstop dove to his left and threw to first for the out.",
+        "example_ja": "遊撃手が素早く動いてゴロをさばき、一塁へ送球した。"
+      }
+    ]
+  },
+  {
+    "id": 619,
+    "japanese_word": "獨乙",
+    "original_word": "Deutsch / Duitsland",
+    "language": "ドイツ語・オランダ語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸末期",
+    "year": null,
+    "description": "オランダ語Duitsland（ドイツ）の音に基づき日本で独自に漢字化された国名表記。江戸時代から長崎を通じてオランダと交流していたため、中国語の「徳意志」ではなくオランダ語由来の「どいつ」という音形が定着した。1676年に「どいちらんと」のカナ表記が初出し、1789年に「度逸都蘭土」として漢字表記。幕末から明治にかけて「独乙」「独逸」の二字表記に収斂し、外交文書・新聞で広く用いられた。戦後はカタカナの「ドイツ」が一般化したが、「独」の略字は「日独交流」などに現在も残る。",
+    "etymology": "「獨（独）」は「どい」の音を、「乙」は「つ」の音を表す当て字。「独逸」も同義の別表記。オランダ語Duitsの短縮形を日本語音に近い漢字で写した音訳で、ドイツ語Deutschとも同源（古高ドイツ語diutisc＝民衆の）。",
+    "meanings": [
+      {
+        "en": "Germany (historical kanji phonetic transcription of Deutsch/Duitsland)",
+        "ja": "ドイツの漢字音訳表記。「独」の一字略号は現代の日独関係語彙にも残る。",
+        "example_en": "The phonetic kanji 独逸 (Doitsu) was used to write Germany in Meiji-era documents.",
+        "example_ja": "明治時代の外交文書では「独逸」「獨乙」の表記が用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 620,
+    "japanese_word": "墺地利",
+    "original_word": "Österreich / Austria",
+    "language": "ドイツ語・英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "幕末・明治期",
+    "year": null,
+    "description": "「Austria/Österreich（オーストリア）」を漢字で音写した表記。中国の音訳を参照しつつ日本でも独自の表記が定着した。「墺太利」「墺地利」「墺地利亜」など複数表記が並立したが、いずれも「オウタリ」「オウチリ」の音に基づく音訳。「墺」（土偏の漢字）がオーの音を表す略字として外交・条約文書に広く使われ、「日墺」（日本とオーストリア）などの形に残る。ドイツ語Österreichの原義（東の国、ラテン語Orientalis）は反映されていない純粋な音訳表記。",
+    "etymology": "「墺」は土偏をもつ当て字で、「オウ」の音を写した略字。「地利」は「ちり・たり」の音を表す。ドイツ語Österreich（オスター＝東＋ライヒ＝国）の意味は訳語に取り込まれず、発音のみを漢字化した。",
+    "meanings": [
+      {
+        "en": "Austria (historical kanji phonetic transcription of Österreich/Austria)",
+        "ja": "オーストリアの漢字音訳表記。「墺」の略字は現代の日墺関係語彙にも残る。",
+        "example_en": "The Meiji government signed treaties using the kanji notation 墺地利 for Austria.",
+        "example_ja": "明治期の条約文書には「墺地利」「墺太利」の表記が用いられた。"
+      }
+    ]
+  },
+  {
+    "id": 621,
+    "japanese_word": "伊太利",
+    "original_word": "Italia / Italy",
+    "language": "イタリア語・英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸末期",
+    "year": null,
+    "description": "「Italia/Italy（イタリア）」を漢字で音写した表記。中国語の音訳「意大利（イタリ）」に倣いつつ、日本では「伊太利」「伊太利亜」「以太利」など複数表記が用いられた。「伊」の一字略号は江戸時代から条約・外交文書で用いられ、「伊語」（イタリア語）・「日伊」（日本とイタリア）などの形で現代にも残る。幕末の開国後、欧米各国との外交文書整備の中で国名の漢字表記が統一化され、「伊」がイタリアの略字として定着した。戦後にカタカナの「イタリア」が一般化した後も、略字「伊」は新聞や外交用語に使われ続けている。",
+    "etymology": "「伊」は「い」の音を、「太」は「た」の音を、「利」は「り」の音を表す当て字。「伊太利亜」は「ア」まで写した完全形。Italiaの語源はイタリック人の地名に由来し、意味は反映されていない純粋な音訳。",
+    "meanings": [
+      {
+        "en": "Italy (historical kanji phonetic transcription of Italia/Italy)",
+        "ja": "イタリアの漢字音訳表記。「伊」の略字は現代の日伊関係語彙にも残る。",
+        "example_en": "The Meiji government used the notation 伊太利 for Italy in official documents.",
+        "example_ja": "幕末・明治の外交文書では「伊太利」の表記でイタリアを指した。"
+      }
+    ]
+  },
+  {
+    "id": 622,
+    "japanese_word": "英吉利",
+    "original_word": "England / Britain",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸末期",
+    "year": 1833,
+    "description": "「イギリス」という音はポルトガル語形容詞「inglez（イングレス）」が戦国期に伝来したことに由来し、江戸時代にはオランダ語「engelsch（エンゲルス）」に基づく「エゲレス」とも呼ばれた。漢字表記「英吉利」は1833年刊の『日本風俗備考』に初出し、頭字「英」に「国」を加えた「英国」は1845年の箕作省吾『坤輿図識』に登場した。「英」という略字は明治以降の外交文書・条約で定着し、日英同盟（1902年）・英語・英文学など、現代語の根幹を形成する略字として広く用いられている。",
+    "etymology": "「英」は「えい」の音を写し光輝・優秀の意をもつ漢字、「吉利」は「ぎりす・ぎりし」の音を表す当て字。語源はポルトガル語inglez（英国人・英国の）で、戦国期の南蛮貿易を通じて伝来した。",
+    "meanings": [
+      {
+        "en": "England / Britain (historical kanji phonetic transcription of inglez/engelsch)",
+        "ja": "イギリス（英国）の漢字音訳表記。「英」の略字は英語・英文学・英国・日英など現代語に広く残る。",
+        "example_en": "The Anglo-Japanese Alliance of 1902 was a landmark event in Meiji foreign policy.",
+        "example_ja": "日英同盟（明治35年）は、「英」の略字が外交用語として定着した好例である。"
+      }
+    ]
+  },
+  {
+    "id": 623,
+    "japanese_word": "阿蘭陀",
+    "original_word": "Holanda / Holland",
+    "language": "ポルトガル語・オランダ語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸時代",
+    "year": null,
+    "description": "戦国期にポルトガル人宣教師を通じて「Holanda（ホランダ）」の音が伝来し、日本での「オランダ」の語源となった。当初は親好の証として「和蘭（わらん）」とも書かれたが、他国と同様の音訳方式で「阿蘭陀」の表記も並立した。江戸幕府が唯一の西洋貿易相手としてオランダを優遇したことから、略字「蘭」が蘭学・蘭語・蘭方医学・蘭書など西洋文明全般を指す象徴語となり、幕末の蘭学隆盛とともに日本の近代化を牽引する語彙群を形成した。",
+    "etymology": "「阿蘭陀」はポルトガル語Holandaを「阿（あ）」「蘭（ら）」「陀（だ）」と音訳した当て字。「和蘭」「和蘭陀」も同義の別表記。略字「蘭」はオランダから伝来した西洋知識全体を指す象徴文字として江戸文化に定着した。",
+    "meanings": [
+      {
+        "en": "Netherlands / Holland (historical kanji phonetic transcription of Holanda/Holland)",
+        "ja": "オランダの漢字音訳表記。略字「蘭」は蘭学・蘭語・蘭方など江戸の西洋知識受容を示す語に広く残る。",
+        "example_en": "Rangaku (蘭学, Dutch studies) was the main channel through which Western knowledge entered Edo Japan.",
+        "example_ja": "蘭学は阿蘭陀語の書物を通じて西洋の医学・科学を日本に伝えた学問体系である。"
+      }
+    ]
+  },
+  {
+    "id": 624,
+    "japanese_word": "亜米利加",
+    "original_word": "America",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸末期",
+    "year": 1854,
+    "description": "「アメリカ」の音を漢字で写した国名表記。「亜墨利加」「亜米利加」「米利堅（メリケン）」など複数の音訳が並立したが、ジョン万次郎（中浜万次郎）がアメリカから帰国後に「米利堅（メリケン）」を広めたことで「米」の字が定着し、「亜米利加」の表記に収斂した。1854年刊の地誌書に「亜米利加」の表記が確認される。略字「米」は「米国」「日米」「米ドル」など現代の日米関係語彙の根幹をなし、中国語の「美国（メイグォ）」とは異なる日本独自の発展を遂げた。",
+    "etymology": "「亜（あ）」「米（め・み）」「利（り）」「加（か）」の音を写す当て字。「米利堅」はAmericaのうち「meri-can」に対応する音節を漢字化したもの。「亜」は大陸・国名に接頭的に用いられた。",
+    "meanings": [
+      {
+        "en": "America / United States of America (historical kanji phonetic transcription)",
+        "ja": "アメリカ（合衆国）の漢字音訳表記。「米」の略字は米国・日米・米ドルなど現代語に広く残る。",
+        "example_en": "Japan and America signed the Treaty of Kanagawa in 1854.",
+        "example_ja": "嘉永7年（1854年）、日本は亜米利加と日米和親条約を締結した。"
+      }
+    ]
+  },
+  {
+    "id": 625,
+    "japanese_word": "仏蘭西",
+    "original_word": "France",
+    "language": "フランス語・英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸末期",
+    "year": null,
+    "description": "フランスの音を漢字で写した国名表記。「仏郎察」「佛朗西」など複数表記が並立したが、明治20年（1887年）頃に「仏蘭西」に収斂した。中国語の「法蘭西（fǎlánxī）」とは別の発展を示す日本独自の表記で、[f]の音を「仏」で写した点が特徴。略字「仏」は日仏・仏語・仏文学など現代の日仏関係語彙に残る。「仏教」の「仏（ぶつ）」と同字だが意味は無関係であるため、「仏（ふつ）」と「仏（ぶつ）」の読み分けが必要な紛らわしい字として知られる。",
+    "etymology": "「仏（ふつ）」は[F-]の音を、「蘭（らん）」は[-ran-]の音を、「西（す・せ）」は[-s/-ce]の音を写す当て字。Franceのf-r-a-n-c-eを仏・蘭・西の三字で音訳した中国由来の表記を日本が採用した。",
+    "meanings": [
+      {
+        "en": "France (historical kanji phonetic transcription)",
+        "ja": "フランスの漢字音訳表記。「仏」の略字は仏語・仏文学・日仏など現代語に残る。",
+        "example_en": "Nakae Chomin was known as the 'Rousseau of the East' and studied in France.",
+        "example_ja": "中江兆民は仏蘭西に留学し、ルソーの社会契約論を日本に紹介した。"
+      }
+    ]
+  },
+  {
+    "id": 626,
+    "japanese_word": "西班牙",
+    "original_word": "España / Hispania",
+    "language": "スペイン語・ラテン語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸時代",
+    "year": null,
+    "description": "スペインのラテン語名「Hispania（ヒスパニア）」を中国語で音訳した表記を日本が採用したもの。16世紀の南蛮貿易期、日本ではスペインを「イスパニア」と呼んでおり、その音に近い漢字表記を中国の地誌書から取り入れた。現代では英語由来の「スペイン（Spain）」が一般化したが、略字「西」はスペインを指す漢字として「日西」「西語」などに残る。16世紀の宣教師フランシスコ・ザビエルの来日もあり、スペインは日本との南蛮交流における重要国だった。",
+    "etymology": "ラテン語Hispaniaの音（ヒスパニア）を中国語で写した当て字。「西（しー）」は[his-]の音を、「班（はん）」は[-pan-]の音を、「牙（が）」は[-ia]の音を表す。スペイン語自国名Españaとは異なるラテン語形に基づく音訳。",
+    "meanings": [
+      {
+        "en": "Spain (historical kanji phonetic transcription of Hispania/España)",
+        "ja": "スペインの漢字音訳表記。「西」の略字は西語・日西など現代語に残る。",
+        "example_en": "Francis Xavier arrived in Japan from Spain via Portuguese Goa in 1549.",
+        "example_ja": "フランシスコ・ザビエルは西班牙出身のイエズス会士として1549年に来日した。"
+      }
+    ]
+  },
+  {
+    "id": 627,
+    "japanese_word": "葡萄牙",
+    "original_word": "Portugal",
+    "language": "ポルトガル語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "安土桃山時代",
+    "year": null,
+    "description": "ポルトガルの音を広東語系漢字で写した国名表記。16世紀にポルトガル人宣教師・商人が来日した際に中国の音訳表記「葡萄牙」が伝わった。ポルトガルは日本に鉄砲（1543年）・キリスト教・南蛮文化をもたらした最初のヨーロッパ国家であり、江戸幕府の鎖国（1639年）まで深い関係を持った。略字「葡」は日葡・葡語などに残るが日常使用は少ない。果実の「葡萄（ぶどう）」と字形が一致するが音訳のための当て字であり意味は無関係。",
+    "etymology": "広東語発音でPortugalを音訳した当て字。「葡（ぽ）」は[Po-]の音を、「萄（とう）」は[-rtu-]に対応する音を、「牙（が）」は[-gal]の音を写した。「葡萄」との字形の一致は偶然で、意味とは無関係な純粋な音訳。",
+    "meanings": [
+      {
+        "en": "Portugal (historical kanji phonetic transcription)",
+        "ja": "ポルトガルの漢字音訳表記。鉄砲・キリスト教伝来の相手国として戦国・江戸期の日本と深く関わった。",
+        "example_en": "Portugal introduced firearms and Christianity to Japan in the 16th century.",
+        "example_ja": "葡萄牙人は16世紀に鉄砲とキリスト教を日本にもたらした。"
+      }
+    ]
+  },
+  {
+    "id": 628,
+    "japanese_word": "倫敦",
+    "original_word": "London",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "幕末・明治期",
+    "year": null,
+    "description": "ロンドンの音を漢字で写した都市名表記。中国で作られた音訳「倫敦」を日本が採用し、明治期の外交・留学文書で広く使われた。夏目漱石は1900〜1902年にロンドン留学を経験し、著作『カーライル博物館』（1905年）・『倫敦塔』（1905年）など複数の作品に「倫敦」を用いた。岩倉使節団のロンドン滞在記（1872年）にも表記が確認でき、明治の対英関係を象徴する語として文学・外交文書に定着した。",
+    "etymology": "「倫（りん・ろん）」は[Lon-]の音を、「敦（とん・どん）」は[-don]の音を写す当て字。古代ケルト語に由来するLondonはローマ時代の「Londinium」に遡る地名で、漢字には音のみを写した。",
+    "meanings": [
+      {
+        "en": "London (historical kanji phonetic transcription)",
+        "ja": "ロンドンの漢字音訳表記。夏目漱石の『倫敦塔』など明治文学に多数の用例がある。",
+        "example_en": "Natsume Soseki lived in London from 1900 to 1902.",
+        "example_ja": "夏目漱石は1900年から1902年まで倫敦に留学し、英文学を研究した。"
+      }
+    ]
+  },
+  {
+    "id": 629,
+    "japanese_word": "巴里",
+    "original_word": "Paris",
+    "language": "フランス語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "幕末・明治期",
+    "year": null,
+    "description": "パリの音を漢字で写した都市名表記。1826年の青地林宗訳『輿地誌略』に「把理斯（パリス）」の初出があり、福沢諭吉の『頭書大全世界国尽』（1869年）では「巴里斯」と表記した。その後「巴里」の2字形が定着し、中江兆民・大久保利通・伊藤博文ら明治の要人がパリを訪問・留学する際の記録・著作に頻出した。1867年の渡航記録や1873年の岩倉使節団記録にも用いられ、「巴里」はフランス文明・西洋近代の象徴として明治知識人の語彙に深く刻まれた。",
+    "etymology": "「巴（は・ぱ）」は[Pa-]の音を、「里（り）」は[-ri]の音を写す当て字。フランス語Parisはパリシイ族（Parisii）の居住地に由来する地名で、「巴」「里」の字義（うずまき・村里）は音訳に使われたにすぎない。",
+    "meanings": [
+      {
+        "en": "Paris (historical kanji phonetic transcription)",
+        "ja": "パリの漢字音訳表記。明治の留学・外交文書に頻出し、西洋文明の中心を象徴する語として定着した。",
+        "example_en": "Nakae Chomin studied in Paris and introduced Rousseau's thought to Japan.",
+        "example_ja": "中江兆民は巴里に留学してルソー思想を修め、帰国後に民権思想を日本に広めた。"
+      }
+    ]
+  },
+  {
+    "id": 630,
+    "japanese_word": "紐育",
+    "original_word": "New York",
+    "language": "英語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "ニューヨークの音を漢字で写した都市名表記。中国語の「紐約（ニューユー）」に由来するが、「約（ヤク）」が英語の-Yorkの音と離れているため、日本では「育（イク）」に替えた「紐育」という独自表記が定着した。明治期の対米交流・留学・条約文書で「紐育（ニューヨーク）」の表記が広まり、ニューヨーク港を経由した渡航・移民記録などに多く見られる。現代では一般的ではないが、レトロな表現として文芸・雑誌の題名などに今も用いられる。",
+    "etymology": "「紐（じゅう・にゅう）」は[New-]の音を、「育（いく）」は[-York]の音を写す当て字。中国語「紐約」の「約（ヤク）」を英語音により近い「育（イク）」に替えた日本独自の変形音訳。",
+    "meanings": [
+      {
+        "en": "New York (historical kanji phonetic transcription)",
+        "ja": "ニューヨークの漢字音訳表記。中国語「紐約」を改変した日本独自の表記。",
+        "example_en": "Many Meiji-era Japanese emigrants passed through New York on their way to America.",
+        "example_ja": "明治期の日本人渡航者の多くは紐育を経由してアメリカ各地へ向かった。"
+      }
+    ]
+  },
+  {
+    "id": 631,
+    "japanese_word": "伯林",
+    "original_word": "Berlin",
+    "language": "ドイツ語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "明治期",
+    "year": null,
+    "description": "ベルリンの音を漢字で写した都市名表記。明治政府がドイツ医学・法学・軍事制度を積極的に採用したことで、「伯林」という表記が外交・学術文書で広く用いられた。森鷗外は1884〜1888年にベルリン・ライプツィヒに軍医留学し、帰国後の小説『舞姫』（1890年）で「伯林」の名を日本文学に刻んだ。明治憲法の立案にも関わった伊藤博文・井上毅らもドイツ・オーストリアへの渡航記録に「伯林」を記しており、ドイツ文明受容の象徴的な地名として定着した。",
+    "etymology": "「伯（はく・べ）」は[Ber-]の音を、「林（りん）」は[-lin]の音を写す当て字。Berlinの語源はスラブ語の湿地（berl-）とする説やドイツ語の熊（Bär）に由来するとの説があるが、漢字には意味は反映されていない。",
+    "meanings": [
+      {
+        "en": "Berlin (historical kanji phonetic transcription)",
+        "ja": "ベルリンの漢字音訳表記。森鷗外の『舞姫』など明治文学に多数の用例がある。",
+        "example_en": "Mori Ogai studied medicine in Berlin and Leipzig from 1884 to 1888.",
+        "example_ja": "森鷗外は1884年から1888年まで伯林・莱比錫に留学し、帰国後に『舞姫』を著した。"
+      }
+    ]
+  },
+  {
+    "id": 632,
+    "japanese_word": "墨西哥",
+    "original_word": "México",
+    "language": "スペイン語",
+    "field_id": 8,
+    "translator_id": null,
+    "era": "江戸末期・明治期",
+    "year": null,
+    "description": "メキシコの音を漢字で写した国名表記。イエズス会士による中国語地誌書『職方外紀』（1623年）に「墨是哥」の初出が確認でき、19世紀の中国語訳西洋書で「墨西哥」に収斂した。日本では「女喜志古」「墨期矢哥」など独自の音写も試みられたが、明治期に中国の漢名「墨西哥」が新聞・雑誌を通じて定着した。「墨」の字は当時の中国語で「me」の音を写す慣用字で、旧来の「亜墨利加（America）」の「墨」と同じ用法。戦後はカタカナの「メキシコ」が標準化されたが、「墨」の略字は「日墨」「訪墨」などの外交用語に今も残る。",
+    "etymology": "「墨（ぼく・め）」は[Me-]の音を、「西（し・き）」は[-xi-]の音を、「哥（か・こ）」は[-co]の音を写す当て字。「墨」はインク・墨汁を意味するが、ここでは純粋に「me」の音を写す中国語慣用の音訳字として用いられた。亜墨利加（America）の「墨」と同一用法。",
+    "meanings": [
+      {
+        "en": "Mexico (historical kanji phonetic transcription of México)",
+        "ja": "メキシコの漢字音訳表記。「墨」の略字は日墨・訪墨など現代の日墨関係語彙に残る。",
+        "example_en": "Japan and Mexico established diplomatic relations in 1888.",
+        "example_ja": "日本と墨西哥の国交は明治21年（1888年）に樹立された。"
+      }
+    ]
   }
 ]
