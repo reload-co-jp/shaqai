@@ -1510,5 +1510,119 @@
         "note": "hall が玄関ホール、廊下、集会場、講堂、会館、寮、邸宅などを表すことを確認"
       }
     ]
+  },
+  {
+    "id": 45,
+    "katakana_word": "インプリメンテーション",
+    "original_word": "implementation",
+    "language": "英語",
+    "category": "ビジネス・IT",
+    "original_meaning": "計画・政策・制度・方法などを実行に移すこと、実施、履行、実現。",
+    "japanese_meaning": "主にIT・ソフトウェア開発で、仕様や設計を実際に動くプログラムやシステムとして実装すること。",
+    "meaning_shift": "原語は計画や政策の実施全般を指すが、日本語ではIT分野の実装工程・実装物に意味が寄りやすい。",
+    "description": "日本語の「インプリメンテーション」は、英語 implementation の音写だが、一般語としての「実施」よりも、ソフトウェアやシステム開発で仕様・設計を動く形に作り込む「実装」の意味で使われることが多い。英語では政策の実施、制度導入、計画の履行などにも広く用いられるため、日本語では技術文脈へ意味が狭まっている。",
+    "examples": [
+      {
+        "ja": "新機能のインプリメンテーションを来週までに終える。",
+        "en": "We will finish implementing the new feature by next week."
+      },
+      {
+        "ja": "仕様は決まったが、インプリメンテーションにはまだ時間がかかる。",
+        "en": "The specification is set, but the implementation work will still take time."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/implementation",
+        "note": "implementation が計画・制度などを実行に移すことを表す語であることを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/implementation",
+        "note": "implementation の英語語義確認"
+      },
+      {
+        "title": "IT用語辞典 e-Words",
+        "url": "https://e-words.jp/w/%E3%82%A4%E3%83%B3%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88.html",
+        "note": "日本語IT分野でインプリメント／インプリメンテーションが実装を指すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "katakana_word": "バーチャル",
+    "original_word": "virtual",
+    "language": "英語",
+    "category": "ネット・IT",
+    "original_meaning": "実際にはそうでないが本質・効果としてはそうである、ほぼ〜に等しい。コンピュータで作られた仮想的なもの。",
+    "japanese_meaning": "コンピュータやインターネット上に作られた仮想空間・仮想体験・仮想的なもの。",
+    "meaning_shift": "原語は「実質上の」「ほぼ〜」という意味も中心的だが、日本語ではデジタル空間上の仮想・非現実という意味に寄りやすい。",
+    "description": "日本語の「バーチャル」は、VR、バーチャル空間、バーチャルライブのように、コンピュータやネットワーク上に作られた仮想的な場や体験を指す語として定着した。英語 virtual は「事実上の」「実質的な」という意味でも広く使われ、必ずしもデジタルや非現実を意味しない。日本語では「リアル」の対義語として、実体を伴わない仮想世界の意味に重心が移っている。",
+    "examples": [
+      {
+        "ja": "バーチャル空間で友人と待ち合わせる。",
+        "en": "I meet my friends in a virtual online space."
+      },
+      {
+        "ja": "彼女はバーチャルアイドルとして活動している。",
+        "en": "She works as a virtual idol."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/virtual",
+        "note": "virtual が「ほぼ〜」「コンピュータで作られた仮想的なもの」を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/virtual",
+        "note": "virtual が本質・効果として存在することやコンピュータ上で存在することを表すことを確認"
+      },
+      {
+        "title": "国立国語研究所「外来語」言い換え提案",
+        "url": "https://repository.ninjal.ac.jp/record/2312/files/gairaigo_teian1-4.pdf",
+        "note": "日本語のバーチャルが仮想世界や現実そっくりの仮想的なものとして理解されることを確認"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "katakana_word": "ネクスト",
+    "original_word": "next",
+    "language": "英語",
+    "category": "広告・表現",
+    "original_meaning": "時間・順序・位置で直後に来る、次の、隣の。副詞として次に、名詞として次の人・ものを表す語。",
+    "japanese_meaning": "次の段階、次世代、次に来るもの。商品名・企画名・ビジネス表現で未来志向や新しさを示す語。",
+    "meaning_shift": "原語は日常的な順序・位置の「次」を広く表すが、日本語では広告・ビジネスで次世代感や未来志向を出す接頭辞的な語になりやすい。",
+    "description": "日本語の「ネクスト」は、英語 next の音写だが、日常の「次の駅」「次の週」よりも、「ネクストステージ」「ネクストアクション」「ネクストブランド」のように、次の段階・次世代・未来志向を示す表現として使われやすい。英語 next は時間・順序・位置で直後に来るものを表す基本語で、日本語では広告やビジネス文脈で価値づけされた語感を帯びている。",
+    "examples": [
+      {
+        "ja": "このサービスはネクストステージへ進む。",
+        "en": "This service is moving on to the next stage."
+      },
+      {
+        "ja": "会議の最後にネクストアクションを確認した。",
+        "en": "At the end of the meeting, we confirmed the next action items."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/next",
+        "note": "next が時間・順序・位置で直後に来るものを表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/next",
+        "note": "next の英語語義確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%AD%E3%81%8F%E3%81%99%E3%81%A8-3215571",
+        "note": "日本語のネクストが外来語の上に付いて「次の」の意を表すことを確認"
+      }
+    ]
   }
 ]
