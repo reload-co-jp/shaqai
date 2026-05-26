@@ -35,9 +35,14 @@ export const generateMetadata = async ({
       title,
       description,
       url: `https://shaqai.reload.co.jp/translators/${id}/`,
-      images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+      images: [{ url: `https://shaqai.reload.co.jp/translators/${id}/opengraph-image`, width: 1200, height: 630 }],
     },
-    twitter: { card: "summary_large_image", title, description },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [`https://shaqai.reload.co.jp/translators/${id}/opengraph-image`],
+    },
     alternates: { canonical: `https://shaqai.reload.co.jp/translators/${id}/` },
   }
 }

@@ -6,7 +6,13 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/search/", "/opengraph-image*", "/words/*/opengraph-image*"],
+      disallow: [
+        "/search/",
+        "/opengraph-image*",
+        "/words/*/opengraph-image*",
+        "/fields/*/opengraph-image*",
+        "/translators/*/opengraph-image*",
+      ],
     },
     sitemap: "https://shaqai.reload.co.jp/sitemap.xml",
   }
