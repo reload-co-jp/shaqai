@@ -62,12 +62,28 @@ export const WordCard: FC<Props> = ({ word, field, translator }) => (
           fontSize: ".75rem",
           gap: ".5rem",
           color: "#807870",
+          marginBottom: word.etymology ? ".5rem" : 0,
         }}
       >
         <span style={{}}>{word.language}</span>
         <span>{word.era}</span>
         {translator && <span>{translator.name}</span>}
       </div>
+      {word.etymology && (
+        <div
+          style={{
+            fontSize: ".75rem",
+            color: "#5e5848",
+            lineHeight: 1.6,
+            overflow: "hidden",
+            display: "-webkit-box",
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: "vertical",
+          }}
+        >
+          {word.etymology}
+        </div>
+      )}
     </article>
   </Link>
 )
