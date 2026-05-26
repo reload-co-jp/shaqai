@@ -68,6 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${BASE_URL}/articles/${a.id}/`,
     priority: 0.6,
     changeFrequency: "yearly" as const,
+    lastModified: new Date(a.publishedAt),
   }))
 
   const wordRoutes: MetadataRoute.Sitemap = words.map((w) => ({

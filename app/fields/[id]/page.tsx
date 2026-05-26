@@ -39,8 +39,26 @@ const Page: FC<Props> = async ({ params }) => {
 
   const fieldWords = getWordsByField(field.id)
 
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: field.name,
+    description: field.description ?? `${field.name}に関する翻訳語・訳語の一覧`,
+    url: `https://shaqai.reload.co.jp/fields/${id}/`,
+    numberOfItems: fieldWords.length,
+    isPartOf: {
+      "@type": "WebSite",
+      name: "翻訳語辞典 Shaqai",
+      url: "https://shaqai.reload.co.jp",
+    },
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
       <BreadcrumbJsonLd
         items={[
           { name: "ホーム", url: "/" },
