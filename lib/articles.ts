@@ -8,6 +8,14 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: "kenri-etymology",
+    title: "「権利」の語源——正しさから主張できる力へ",
+    description:
+      "「権利」は right の訳語として明治初期に定着した。right の語源が「まっすぐ・正しい」にある一方、「権利」は権力と利益を結びつけた語だった。この二文字が、近代日本に個人の正当な主張という新しい思想を移植した過程をたどる。",
+    publishedAt: "2026-05-28",
+    relatedWordIds: [7, 6, 53, 13, 163, 574],
+  },
+  {
     id: "toukei-etymology",
     title: "「統計」の語源——国家を数える技術からデータの科学へ",
     description:
