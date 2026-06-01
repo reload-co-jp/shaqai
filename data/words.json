@@ -20244,5 +20244,57 @@
         "example_ja": "日本と墨西哥の国交は明治21年（1888年）に樹立された。"
       }
     ]
+  },
+  {
+    "id": 633,
+    "japanese_word": "消費",
+    "original_word": "consumption",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": 23,
+    "era": "幕末・明治初期",
+    "year": 1867,
+    "description": "慶応3年（1867年）、神田孝平がウィリアム・エリスの経済学書のオランダ語訳からの重訳書『経済小学』においてconsumptionの訳語として「消費」を用いたことが初出とされる。西周の『百学連環』（1870年）でも同対応が明示され、経済学術語としての定着が加速した。「消耗」「消靡」などの競合訳語を退け、明治期の経済学教科書・辞書を通じて広く普及し、現代語の基幹語彙となった。",
+    "etymology": "「消」は物が尽きることを、「費」は財を使って減ることを表す漢字。いずれも資源・財の消滅・減少を意味し、「欲求を満たすために財やサービスを使い尽くす」という近代経済学の概念に充てられた。",
+    "meanings": [
+      {
+        "en": "The use of goods and services to satisfy desires; the counterpart of production in economic theory.",
+        "ja": "欲求を満たすために財・サービスを使用・消耗すること。経済学上、生産の対概念。",
+        "example_en": "Private consumption accounts for more than 60% of Japan's GDP.",
+        "example_ja": "民間消費は日本のGDPの6割超を占める。"
+      },
+      {
+        "en": "The action of using up a resource or commodity.",
+        "ja": "エネルギー・資源などを使い尽くすこと。",
+        "example_en": "Reducing energy consumption is key to addressing climate change.",
+        "example_ja": "エネルギー消費の削減は気候変動対策の要である。"
+      }
+    ]
+  },
+  {
+    "id": 634,
+    "japanese_word": "取引",
+    "original_word": "transaction",
+    "language": "英語",
+    "field_id": 2,
+    "translator_id": null,
+    "era": "江戸期（明治期に経済・法律用語として確立）",
+    "year": null,
+    "description": "「取る（商品を受け取る）」と「引く（代金を受け取る）」を組み合わせた和語複合語で、1636年（寛永13年）の俳諧作品に「銭のとりひき」の用例が確認される。江戸期の商業慣行のなかで定着した語で、特定の翻訳者による造語ではない。明治期に西洋の近代的商業・法律制度が導入される際、英語transactionおよびtradeの訳語として充てられ、商法・民法など法典においても正式な経済・法律用語として定着した。",
+    "etymology": "「取る」は商品・財物を受け取る動作を、「引く」は代金・決済を引き取る動作を表す和語動詞。売手が商品を引き渡し、買手が代金を引くという売買の相互動作を一語に凝縮した純粋な和語複合名詞。漢語由来でなく、日本独自の動詞合成による商業用語。",
+    "meanings": [
+      {
+        "en": "A commercial exchange or business deal conducted under agreed conditions.",
+        "ja": "合意した条件のもとに行う商品・サービス・資産の売買や交換。",
+        "example_en": "All financial transactions must be recorded in the ledger.",
+        "example_ja": "すべての金融取引は帳簿に記録されなければならない。"
+      },
+      {
+        "en": "An ongoing business relationship or commercial dealings between parties.",
+        "ja": "継続的な商業上の関係・商いのつきあい。",
+        "example_en": "We have been doing business with that company for over twenty years.",
+        "example_ja": "その会社とは二十年以上取引がある。"
+      }
+    ]
   }
 ]
