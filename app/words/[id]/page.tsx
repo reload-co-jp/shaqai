@@ -25,7 +25,8 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   const { id } = await params
   const word = getWord(Number(id))
   if (!word) return {}
-  const title = `${word.japanese_word}（${word.original_word}）`
+  const shortTitle = `${word.japanese_word}（${word.original_word}）`
+  const title = `${shortTitle}とは？語源・由来`
   const prefix = `${word.japanese_word}（${word.original_word}）の語源・訳語。`
   const budget = 155 - prefix.length
   const detail = word.etymology.length > 0
@@ -46,7 +47,7 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
     description,
     keywords,
     openGraph: {
-      title,
+      title: shortTitle,
       description,
       url: `https://shaqai.reload.co.jp/words/${id}/`,
       type: "article",
@@ -54,7 +55,7 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: shortTitle,
       description,
       images: [`https://shaqai.reload.co.jp/words/${id}/opengraph-image`],
     },
