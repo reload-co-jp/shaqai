@@ -20296,5 +20296,31 @@
         "example_ja": "その会社とは二十年以上取引がある。"
       }
     ]
+  },
+  {
+    "id": 635,
+    "japanese_word": "麻薬",
+    "original_word": "narcotic",
+    "language": "英語",
+    "field_id": 7,
+    "translator_id": null,
+    "era": "昭和初期",
+    "year": 1930,
+    "description": "1912年の万国阿片条約（ハーグ条約）にはじまる国際的な麻薬規制の枠組みへの対応として、日本では1930年（昭和5年）5月に内務省令第17号「麻薬取締規則」が公布され、この法令のなかで「麻薬（痲薬）」という語が行政・法律用語として正式に定着した。それ以前の明治期は「阿片」「モルヒネ」などの個別物質名が用いられており、それらを包括する上位概念としての「麻薬」は存在しなかった。1949年（昭和24年）の当用漢字制定により、それまで使われていた「痲薬」（痲はヤマイダレに麻）の表記が「麻薬」に統一された。",
+    "etymology": "「麻」は感覚を失わせる・しびれさせるという意味を持つ漢字で、「麻痺」「麻酔」など神経の鈍磨・麻痺を表す語に共通して用いられる。「薬」は薬物・薬品を表す。「神経を麻痺させる薬」という字義がnarcoticのギリシア語語根narkē（麻痺・しびれ）と意味的に対応しており、近代医学の文脈で訳語として充てられた。",
+    "meanings": [
+      {
+        "en": "A substance that relieves pain and induces drowsiness or stupor by depressing the central nervous system, especially opium and its derivatives.",
+        "ja": "中枢神経を抑制して疼痛緩和・眠気・麻痺状態をもたらす薬物。特にアヘンおよびその誘導体（モルヒネ・ヘロインなど）を指す。",
+        "example_en": "Opium and morphine are classified as narcotics.",
+        "example_ja": "アヘンとモルヒネは麻薬に分類される。"
+      },
+      {
+        "en": "Any substance regulated under narcotics control laws, including synthetic drugs that cause dependency.",
+        "ja": "麻薬取締法により規制される薬物の総称。依存性を有する合成麻薬を含む法律上の概念。",
+        "example_en": "The possession of narcotics without a license is a criminal offense.",
+        "example_ja": "免許なく麻薬を所持することは犯罪行為にあたる。"
+      }
+    ]
   }
 ]
