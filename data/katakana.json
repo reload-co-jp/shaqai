@@ -1624,5 +1624,195 @@
         "note": "日本語のネクストが外来語の上に付いて「次の」の意を表すことを確認"
       }
     ]
+  },
+  {
+    "id": 48,
+    "katakana_word": "パフォーマンス",
+    "original_word": "performance",
+    "language": "英語",
+    "category": "評価・計測",
+    "original_meaning": "行為の実行、演劇・音楽などの上演、仕事や機械の出来・効率。",
+    "japanese_meaning": "仕事や競技の成果、機械やシステムの性能・効率、人目を引くための行為。",
+    "meaning_shift": "原語も上演・成果・効率を広く表すが、日本語では評価対象の出来や効率、目立つ行為を指す語として使われやすい。",
+    "description": "日本語の「パフォーマンス」は、舞台上演や身体表現を指す用法から、仕事・競技の成果、機器やシステムの性能・効率へ広がった。さらに「政治的パフォーマンス」のように、人目を引くための目立つ行為という評価的な意味でも使われる。英語 performance も実行・上演・効率を含むが、日本語では出来栄えや費用対効果を測る語としての比重が大きい。",
+    "examples": [
+      {
+        "ja": "新しいパソコンは価格の割にパフォーマンスが高い。",
+        "en": "The new computer delivers strong performance for its price."
+      },
+      {
+        "ja": "会見での発言は政治的パフォーマンスに見えた。",
+        "en": "The remarks at the press conference looked like a political stunt."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/performance",
+        "note": "performance が仕事・活動の出来、上演、ビジネス成果、ITでの機械・コンピュータの働き具合を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/performance",
+        "note": "performance が行為の実行、上演、効率、機械の働き方を表すことを確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%B1%E3%81%B5%E3%81%8A%E3%83%BC%E3%81%BE%E3%82%93%E3%81%99-3164878",
+        "note": "日本語のパフォーマンスが上演・身体表現・人目を引く行為・性能・効率・成果を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "katakana_word": "インセンティブ",
+    "original_word": "incentive",
+    "language": "英語",
+    "category": "仕事・制度",
+    "original_meaning": "人や組織に行動を促す刺激・誘因。特に報酬によって何かをさせる動機。",
+    "japanese_meaning": "従業員や販売店などの意欲を高めるための報奨金、成果報酬、優遇措置、外的な動機付け。",
+    "meaning_shift": "原語は行動を促す理由・刺激全般を指すが、日本語ではビジネス上の報奨金や成果連動報酬を指す用法に寄りやすい。",
+    "description": "日本語の「インセンティブ」は、経済・労働・営業の文脈で、行動を促す外的な働きかけを指す語として広まった。特に企業では、目標達成に応じて支払う報奨金や成果報酬を指すことが多い。英語 incentive も報酬による誘因を含むが、税制優遇、政策上の誘因、行動する理由など広い範囲で使われるため、日本語では金銭的報酬・制度名へ意味が狭まりやすい。",
+    "examples": [
+      {
+        "ja": "営業成績に応じてインセンティブが支給される。",
+        "en": "Sales staff receive performance-based bonuses according to their results."
+      },
+      {
+        "ja": "補助金は企業の投資を促すインセンティブになる。",
+        "en": "The subsidy creates an incentive for companies to invest."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/incentive",
+        "note": "incentive が報酬によって人や組織の行動を促すもの、特に金銭的誘因を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/incentive",
+        "note": "incentive が人に努力させるものを表すことを確認"
+      },
+      {
+        "title": "国立国語研究所「外来語」言い換え提案",
+        "url": "https://www2.ninjal.ac.jp/gairaigo/Teian2/iikae_teian2.pdf",
+        "note": "日本語のインセンティブが意欲刺激、誘因、動機付け、奨励金、報奨金、優遇措置などで言い換えられることを確認"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "katakana_word": "アーカイブ",
+    "original_word": "archive",
+    "language": "英語",
+    "category": "ネット・IT",
+    "original_meaning": "歴史的な記録・文書、記録を保管する場所。動詞として記録や資料を保存すること。",
+    "japanese_meaning": "データやコンテンツを保存・保管したもの。複数ファイルをまとめた圧縮ファイルや、公開済み配信・投稿の保存版。",
+    "meaning_shift": "原語は公文書・歴史資料や保管所の意味が中心だが、日本語ではデジタルデータの保存先や保存済みコンテンツを指す語として広まった。",
+    "description": "日本語の「アーカイブ」は、文書館・公文書保存という原義を持つ archive の音写だが、現在はITやネット利用で、データを長期保存すること、複数ファイルをまとめたファイル、配信や投稿の保存版を指す語としてよく使われる。英語でもコンピュータ分野の用法はあるが、日本語では日常的なデジタル保存・閲覧対象としての意味が前面に出やすい。",
+    "examples": [
+      {
+        "ja": "会議資料を社内ストレージにアーカイブする。",
+        "en": "We archive the meeting materials in the company storage."
+      },
+      {
+        "ja": "ライブ配信のアーカイブを後から見る。",
+        "en": "I watch the archived livestream later."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/archive",
+        "note": "archive が歴史的記録の集合、記録を保管する場所、保存する行為を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/archive",
+        "note": "archive が記録の保管所、保存記録、保存する行為を表すことを確認"
+      },
+      {
+        "title": "コトバンク",
+        "url": "https://kotobank.jp/word/%E3%81%82%E3%83%BC%E3%81%8B%E3%81%84%E3%81%B6-3142595",
+        "note": "日本語のアーカイブが古記録・公文書・記録保管所の原義に加え、コンピュータ分野でファイルをまとめることや保存記録を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "katakana_word": "アイデンティティ",
+    "original_word": "identity",
+    "language": "英語",
+    "category": "心理・感情",
+    "original_meaning": "人やものが何者であるかという身元・本人性、同一性、他と区別する特徴。",
+    "japanese_meaning": "自分が何者かという自己認識、自分らしさ、集団への帰属意識、ブランドや組織の独自性。",
+    "meaning_shift": "原語は身元確認や同一性にも広く使うが、日本語では心理・社会文脈の自己認識や独自性を指す語として使われやすい。",
+    "description": "日本語の「アイデンティティ」は、英語 identity の音写だが、日常では「自分は何者か」という自己認識や、自分らしさ、文化・集団への帰属意識を表す語として定着した。英語 identity は本人確認、身元、同一性、数学的な恒等性などにも広く使われる。日本語では心理学・社会学・ブランド論の影響を受け、内面的・社会的な独自性を表す意味に重心が移っている。",
+    "examples": [
+      {
+        "ja": "海外生活を通じて自分のアイデンティティを考えるようになった。",
+        "en": "Living abroad made me think about my sense of identity."
+      },
+      {
+        "ja": "新しいロゴはブランドのアイデンティティを表している。",
+        "en": "The new logo represents the brand's identity."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/identity",
+        "note": "identity が人やものが何者であるか、他と区別する性質を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/identity",
+        "note": "identity が同一性、本人性、他と区別する特徴を表すことを確認"
+      },
+      {
+        "title": "国立国語研究所 ことば研究館",
+        "url": "https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-104/",
+        "note": "日本語のアイデンティティーが分かりにくい外来語として扱われ、意味説明が必要な語であることを確認"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "katakana_word": "インフラストラクチャー",
+    "original_word": "infrastructure",
+    "language": "英語",
+    "category": "社会・IT",
+    "original_meaning": "国・地域・組織の運営に必要な基礎的な設備・サービス・仕組み。公共事業、組織の基盤、IT基盤など。",
+    "japanese_meaning": "道路・電気・水道・通信などの社会基盤。IT分野ではサーバー、ネットワーク、クラウドなどシステム運用の基盤。",
+    "meaning_shift": "原語も公共設備から組織基盤まで広いが、日本語では略語「インフラ」として生活を支える社会資本やIT運用基盤を指す語として使われやすい。",
+    "description": "日本語の「インフラストラクチャー」は、多くの場合「インフラ」と略され、道路、鉄道、電力、水道、通信など生活や産業を支える社会基盤を指す。近年はIT分野で、サーバー、ネットワーク、クラウド、監視などシステム運用の土台を指す語としても定着した。英語 infrastructure も公共設備・組織基盤・IT基盤を含むが、日本語では社会資本やIT運用環境という具体的な領域に意味が寄りやすい。",
+    "examples": [
+      {
+        "ja": "災害時には電力や通信などのインフラストラクチャーが重要になる。",
+        "en": "Power and communications infrastructure become crucial during disasters."
+      },
+      {
+        "ja": "サービス拡大に合わせてITインフラストラクチャーを見直す。",
+        "en": "We review the IT infrastructure as the service expands."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/infrastructure",
+        "note": "infrastructure が国・組織に必要な交通、電力、通信、水道などの基本的なシステムやサービスを表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/infrastructure",
+        "note": "infrastructure が公共事業の体系、活動に必要な資源、組織やシステムの基礎的枠組みを表すことを確認"
+      },
+      {
+        "title": "国立国語研究所「外来語」言い換え提案",
+        "url": "https://www2.ninjal.ac.jp/gairaigo/Teian1_4/Words/infrastructure.gen.html",
+        "note": "日本語ではインフラストラクチャーの略語インフラが一般的に使われ、社会基盤と説明されることを確認"
+      }
+    ]
   }
 ]
