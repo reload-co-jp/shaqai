@@ -1814,5 +1814,43 @@
         "note": "日本語ではインフラストラクチャーの略語インフラが一般的に使われ、社会基盤と説明されることを確認"
       }
     ]
+  },
+  {
+    "id": 53,
+    "katakana_word": "エンパワーメント",
+    "original_word": "empowerment",
+    "language": "英語",
+    "category": "社会・制度",
+    "original_meaning": "人や集団が自由や権限を得て、自分に関わることを決めたり制御したりできるようになる過程。",
+    "japanese_meaning": "個人や集団の力を引き出し、自己決定や参加を可能にする支援。組織では権限委譲や裁量拡大。",
+    "meaning_shift": "原語は権限や自由を得る過程を広く指すが、日本語では福祉・教育・組織開発で能力開花や支援の理念を指す語として使われやすい。",
+    "description": "日本語の「エンパワーメント」は、社会福祉、教育、国際協力、組織運営などで、弱い立場にある人や現場の人が本来持つ力を発揮し、自己決定できるよう支える考え方として定着した。英語 empowerment は権限・自由を得る過程や、権限を与えることも指す。日本語では単なる権限付与よりも、能力開花、主体性回復、参加促進という理念的な意味が強くなりやすい。",
+    "examples": [
+      {
+        "ja": "地域活動では住民のエンパワーメントが重視される。",
+        "en": "Community work emphasizes helping residents gain agency and power."
+      },
+      {
+        "ja": "現場に判断を任せることで社員のエンパワーメントを進める。",
+        "en": "We empower employees by giving frontline staff more decision-making authority."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/empowerment",
+        "note": "empowerment が自由や力を得て自分に起きることを制御できるようになる過程、HRでは集団に自由や権利を与える過程を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/empowerment",
+        "note": "empowerment が権限付与や力を与えることを表すことを確認"
+      },
+      {
+        "title": "国立国語研究所「外来語」言い換え提案",
+        "url": "https://www2.ninjal.ac.jp/gairaigo/Teian1_4/Words/empowerment.gen.html",
+        "note": "日本語のエンパワーメントが能力開化、権限付与、権限委譲などで説明されることを確認"
+      }
+    ]
   }
 ]
