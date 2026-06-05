@@ -1852,5 +1852,81 @@
         "note": "日本語のエンパワーメントが能力開化、権限付与、権限委譲などで説明されることを確認"
       }
     ]
+  },
+  {
+    "id": 54,
+    "katakana_word": "ファシリテーション",
+    "original_word": "facilitation",
+    "language": "英語",
+    "category": "会議・対話",
+    "original_meaning": "物事を可能にしたり容易にしたりする過程。人がプロセスや合意形成を進めやすくする支援。",
+    "japanese_meaning": "会議やワークショップで参加者の発言を促し、議論を整理し、問題解決・合意形成・学習を支援する技術や役割。",
+    "meaning_shift": "原語は容易化・促進全般を指すが、日本語では会議や集団対話の進行支援技法を指す用法に寄りやすい。",
+    "description": "日本語の「ファシリテーション」は、英語 facilitation の音写だが、ビジネスや教育では、会議・ワークショップで参加者の発言を引き出し、論点を整理し、合意形成や学習を支援する技術として定着した。英語では、移動、取引、制度、学習などを容易にすること全般にも使われる。日本語では「司会」より広いが、集団対話のプロセス設計・進行支援という専門的な意味が強い。",
+    "examples": [
+      {
+        "ja": "新規事業の会議では外部講師がファシリテーションを担当した。",
+        "en": "An external facilitator guided the new-business meeting."
+      },
+      {
+        "ja": "ファシリテーションによって参加者の意見が整理された。",
+        "en": "The facilitation helped organize the participants' ideas."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/facilitation",
+        "note": "facilitation が物事を可能・容易にする過程、また合意や解決に向けた支援を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/facilitate",
+        "note": "facilitate が容易にする、物事を円滑かつ効果的に進めることを表すことを確認"
+      },
+      {
+        "title": "日本ファシリテーション協会",
+        "url": "https://www.faj.or.jp/facilitation/",
+        "note": "日本語のファシリテーションが人々の活動を容易にできるよう支援し、問題解決・合意形成・学習などを促進する働きとして説明されることを確認"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "katakana_word": "フィジビリティ",
+    "original_word": "feasibility",
+    "language": "英語",
+    "category": "ビジネス",
+    "original_meaning": "物事が作れる、行える、達成できる可能性。計画や案が合理的で実行可能であること。",
+    "japanese_meaning": "新規事業やプロジェクトの実現可能性、採算性、事前調査。特にフィジビリティスタディの略として使われる。",
+    "meaning_shift": "原語は実現可能性や妥当性全般を指すが、日本語ではビジネス上の事業化判断や事前検証を指す用法に寄りやすい。",
+    "description": "日本語の「フィジビリティ」は、英語 feasibility の音写だが、一般的な「できる可能性」よりも、ビジネスやITで新規事業・施策・システム導入の実現可能性や採算性を検討する語として使われることが多い。「フィジビリティスタディ」や略称の「FS」として、投資前の市場調査、技術検証、収益性評価を含む事前調査を指す。英語では計画や案の実行可能性全般に広く使われる。",
+    "examples": [
+      {
+        "ja": "新規事業のフィジビリティを確認してから投資判断を行う。",
+        "en": "We assess the feasibility of the new business before making an investment decision."
+      },
+      {
+        "ja": "まず小規模に試して技術面のフィジビリティを検証する。",
+        "en": "We first run a small trial to verify the technical feasibility."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/feasibility",
+        "note": "feasibility が物事を作る・行う・達成する可能性や合理性を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/feasibility",
+        "note": "feasibility が feasible の名詞形として実行可能性を表し、feasibility study として使われることを確認"
+      },
+      {
+        "title": "スマートワーク総研 IT用語集",
+        "url": "https://swri.jp/glossary/%E3%83%95%E3%82%A3%E3%82%B8%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3",
+        "note": "日本語のフィジビリティが実現の可能性、フィジビリティスタディが実現可能性調査を表すことを確認"
+      }
+    ]
   }
 ]
