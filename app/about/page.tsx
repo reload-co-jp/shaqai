@@ -1,19 +1,57 @@
 import { FC } from "react"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+
+const DESCRIPTION = "翻訳語辞典 Shaqai の目的と背景について。明治期の訳語の営みに光を当て、現代においても意味の通った翻訳語を生み出すための辞典です。"
 
 export const metadata = {
   title: "このサイトについて",
-  description: "翻訳語辞典 Shaqai の目的と背景について。明治期の訳語の営みに光を当て、現代においても意味の通った翻訳語を生み出すための辞典です。",
+  description: DESCRIPTION,
   alternates: { canonical: "https://shaqai.reload.co.jp/about/" },
   openGraph: {
     title: "このサイトについて — 翻訳語辞典 Shaqai",
-    description: "翻訳語辞典 Shaqai の目的と背景について。明治期の訳語の営みに光を当て、現代においても意味の通った翻訳語を生み出すための辞典です。",
+    description: DESCRIPTION,
     url: "https://shaqai.reload.co.jp/about/",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "このサイトについて — 翻訳語辞典 Shaqai",
+    description: DESCRIPTION,
+    images: ["/opengraph-image"],
+  },
+}
+
+const webPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "このサイトについて",
+  description: DESCRIPTION,
+  url: "https://shaqai.reload.co.jp/about/",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "翻訳語辞典 Shaqai",
+    url: "https://shaqai.reload.co.jp",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Reload, Inc.",
+    url: "https://reload.co.jp",
   },
 }
 
 const Page: FC = () => {
   return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "このサイトについて", url: "/about/" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+      />
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "2rem" }}>
         <h1 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
@@ -49,6 +87,7 @@ const Page: FC = () => {
         </section>
       </div>
     </div>
+    </>
   )
 }
 

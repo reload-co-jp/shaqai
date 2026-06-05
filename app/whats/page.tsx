@@ -1,15 +1,42 @@
 import { FC } from "react"
 import Link from "next/link"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+
+const DESCRIPTION = "翻訳語（訳語・和製漢語）とは何か。カタカナ語との違い、明治期の翻訳の営みと歴史的背景を解説します。"
 
 export const metadata = {
   title: "翻訳語とは",
-  description: "翻訳語（訳語・和製漢語）とは何か。カタカナ語との違い、明治期の翻訳の営みと歴史的背景を解説します。",
+  description: DESCRIPTION,
   alternates: { canonical: "https://shaqai.reload.co.jp/whats/" },
   openGraph: {
     title: "翻訳語とは — 翻訳語辞典 Shaqai",
-    description: "翻訳語（訳語・和製漢語）とは何か。カタカナ語との違い、明治期の翻訳の営みと歴史的背景を解説します。",
+    description: DESCRIPTION,
     url: "https://shaqai.reload.co.jp/whats/",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "翻訳語とは — 翻訳語辞典 Shaqai",
+    description: DESCRIPTION,
+    images: ["/opengraph-image"],
+  },
+}
+
+const webPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "翻訳語とは",
+  description: DESCRIPTION,
+  url: "https://shaqai.reload.co.jp/whats/",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "翻訳語辞典 Shaqai",
+    url: "https://shaqai.reload.co.jp",
+  },
+  about: {
+    "@type": "Thing",
+    name: "翻訳語",
+    description: "外国語の概念を意味によって翻訳し、漢字・漢語を組み合わせて作られた日本語の語。訳語・和製漢語とも呼ばれる。",
   },
 }
 
@@ -40,6 +67,17 @@ const Section: FC<{ title: string; children: React.ReactNode }> = ({ title, chil
 
 const Page: FC = () => {
   return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "翻訳語とは", url: "/whats/" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+      />
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "2rem" }}>
         <h1 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
@@ -206,6 +244,7 @@ const Page: FC = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
