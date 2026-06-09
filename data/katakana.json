@@ -1928,5 +1928,43 @@
         "note": "日本語のフィジビリティが実現の可能性、フィジビリティスタディが実現可能性調査を表すことを確認"
       }
     ]
+  },
+  {
+    "id": 56,
+    "katakana_word": "モチベーション",
+    "original_word": "motivation",
+    "language": "英語",
+    "category": "行動・感情",
+    "original_meaning": "人を行動させる理由・動機、動機付けること、何かをしたいと思う意欲。",
+    "japanese_meaning": "仕事・学習・スポーツなどに取り組む意欲、やる気、意欲を高める要因。",
+    "meaning_shift": "原語は行動の理由や動機付けの作用も含むが、日本語では「やる気」や意欲の高さという心理状態を指す用法に寄りやすい。",
+    "description": "日本語の「モチベーション」は、英語 motivation の音写だが、日常では「モチベーションが高い／下がる」のように、仕事・学習・スポーツに向かう意欲ややる気の状態を表す語として広まった。英語 motivation は、行動の理由、動機、動機付ける作用も広く指す。日本語では、原因や理由よりも、意欲の量や持続性を評価する語として使われやすい。",
+    "examples": [
+      {
+        "ja": "新しい目標ができて仕事のモチベーションが上がった。",
+        "en": "Having a new goal increased my motivation at work."
+      },
+      {
+        "ja": "チームのモチベーションを保つ仕組みを考える。",
+        "en": "We think about ways to keep the team's motivation high."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/motivation",
+        "note": "motivation が何かをする熱意、必要性、理由を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/motivation",
+        "note": "motivation が動機付ける行為・過程、動機、刺激、影響を表すことを確認"
+      },
+      {
+        "title": "国立国語研究所「外来語」言い換え提案",
+        "url": "https://www2.ninjal.ac.jp/gairaigo/Teian1_4/Words/motivation.gen.html",
+        "note": "日本語のモチベーションが動機付けを意味しつつ、スポーツや仕事では意欲そのものも指すことを確認"
+      }
+    ]
   }
 ]
