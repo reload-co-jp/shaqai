@@ -1966,5 +1966,42 @@
         "note": "日本語のモチベーションが動機付けを意味しつつ、スポーツや仕事では意欲そのものも指すことを確認"
       }
     ]
+  },
+  {
+    "id": 57,
+    "katakana_word": "サプライズ",
+    "original_word": "surprise",
+    "language": "英語",
+    "category": "行動・感情",
+    "original_meaning": "予期しない出来事、予期しないことが起きたときの驚き。動詞として人を驚かせること。",
+    "japanese_meaning": "相手を喜ばせるために内緒で用意する演出・贈り物・企画。祝い事やイベントでの不意打ち演出。",
+    "meaning_shift": "原語はよいことにも悪いことにも使う驚き全般だが、日本語では相手を喜ばせるための好意的な演出を指す用法に寄りやすい。",
+    "description": "日本語の「サプライズ」は、英語 surprise の音写だが、日常では「サプライズプレゼント」「サプライズ演出」のように、誕生日や記念日などで相手を喜ばせるため、事前に知らせず用意する企画を指すことが多い。英語 surprise は、予期しない出来事や驚きの感情を広く表し、よい場合にも悪い場合にも使われる。日本語では、驚きそのものよりも、好意的な不意打ち演出という意味が強い。",
+    "examples": [
+      {
+        "ja": "友人の誕生日にサプライズを用意した。",
+        "en": "We prepared a surprise for our friend's birthday."
+      },
+      {
+        "ja": "披露宴で新郎から新婦へのサプライズ演出があった。",
+        "en": "At the wedding reception, the groom arranged a surprise for the bride."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/surprise",
+        "note": "surprise が予期しない出来事、予期しないことによる感情、驚かせる行為を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/surprise",
+        "note": "surprise が予期しない出来事や驚き、予期せず捕らえる・見つけることを表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のサプライズが人を驚かせること、驚き、意外な出来事を表すことを確認"
+      }
+    ]
   }
 ]
