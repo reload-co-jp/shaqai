@@ -8,6 +8,30 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    id: "byodo-etymology",
+    title: "「平等」の語源——仏のまなざしから法の下の同等へ",
+    description:
+      "「平等」は仏教語として、差別なくすべてを等しく見る思想を表した。明治期には equality の訳語として、自由・権利・民主と結びつき、法の下の平等や機会の平等を示す近代政治語へ変わった。その意味の転換をたどる。",
+    publishedAt: "2026-06-14",
+    relatedWordIds: [52, 6, 7, 8, 57, 154],
+  },
+  {
+    id: "kojin-etymology",
+    title: "「個人」の語源——分けられない一人から社会の単位へ",
+    description:
+      "「個人」は individual の訳語として明治期に定着した。ラテン語由来の individual は「分割できないもの」を原義とし、日本語の「個人」は集団から区別される一人の人間を表した。西周の訳語づくりから、社会・自由・権利と対になる近代語としての成立をたどる。",
+    publishedAt: "2026-06-14",
+    relatedWordIds: [16, 3, 6, 7, 97, 56, 611],
+  },
+  {
+    id: "kousai-etymology",
+    title: "「交際」の語源——人と人がまじわる場所から社会へ",
+    description:
+      "「交際」は平安期からある漢語だが、明治期に福沢諭吉が「人間交際」として society の訳語に用いたことで、近代的な人間関係語へ広がった。人と人が交わる字義から、社会・社交・外交、そして恋愛の付き合いへ意味が移る過程をたどる。",
+    publishedAt: "2026-06-14",
+    relatedWordIds: [279, 3, 58, 11, 231],
+  },
+  {
     id: "kenri-etymology",
     title: "「権利」の語源——正しさから主張できる力へ",
     description:
