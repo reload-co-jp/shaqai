@@ -667,6 +667,11 @@
         "title": "Cambridge Dictionary",
         "url": "https://dictionary.cambridge.org/dictionary/english/compliance",
         "note": "compliance の一般英語での語義を確認"
+      },
+      {
+        "title": "コンコード コンサル用語集",
+        "url": "https://www.concord-career.com/dictionary/compliance/",
+        "note": "日本語のコンプライアンスが企業の法令遵守だけでなく組織内規範や社会的倫理まで含むことを確認"
       }
     ]
   },
@@ -2001,6 +2006,154 @@
       {
         "title": "デジタル大辞泉",
         "note": "日本語のサプライズが人を驚かせること、驚き、意外な出来事を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "katakana_word": "キャリア",
+    "original_word": "career / carrier",
+    "language": "英語",
+    "category": "仕事・通信",
+    "original_meaning": "career は職業人生、経歴、専門職としての進路。carrier は運ぶ人・物、運送業者、通信事業者、保菌者。",
+    "japanese_meaning": "職業上の経歴・経験・進路、幹部候補の公務員や専門職。携帯電話などの通信事業者。",
+    "meaning_shift": "日本語では異なる英語 career と carrier が同じ「キャリア」になり、職業経歴・官僚区分・通信事業者という複数の意味が文脈で使い分けられる。",
+    "description": "日本語の「キャリア」は、職業人生を表す career と、運搬者・通信事業者を表す carrier の音写が同形になった語である。仕事の文脈では「キャリアを積む」「キャリア形成」のように職歴や職業上の成長を指し、官僚制では「キャリア組」のように幹部候補の意味を持つ。一方、通信分野では「携帯キャリア」のように通信事業者を指す。英語では career と carrier は別語だが、日本語では同じ表記に集約されている。",
+    "examples": [
+      {
+        "ja": "海外勤務を通じてキャリアを広げたい。",
+        "en": "I want to broaden my career through an overseas assignment."
+      },
+      {
+        "ja": "スマートフォンのキャリアを乗り換えた。",
+        "en": "I switched mobile carriers for my smartphone."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/career",
+        "note": "career が仕事・職業人生・専門職としての進路を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/carrier",
+        "note": "carrier が運ぶ人・物、通信事業者、保菌者などを表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のキャリアが職業上の経歴、国家公務員上級試験採用者、通信事業者などを表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "katakana_word": "ヘルシー",
+    "original_word": "healthy",
+    "language": "英語",
+    "category": "飲食・健康",
+    "original_meaning": "健康で丈夫な状態、健康によいこと。比喩的に健全・好調・十分な量を表す。",
+    "japanese_meaning": "主に食べ物や生活習慣が健康によさそうで、脂肪やカロリーが控えめなこと。軽くて体に負担が少ない印象。",
+    "meaning_shift": "原語は人の健康状態、健康によい性質、経済などの好調さまで広いが、日本語では食事の健康志向や低カロリー感を表す語として使われやすい。",
+    "description": "日本語の「ヘルシー」は、英語 healthy の音写だが、日常では「ヘルシーなランチ」「ヘルシーメニュー」のように、野菜が多い、脂質やカロリーが低い、体によさそうといった食の評価語として定着した。英語 healthy は、人が健康であること、健康によいことに加え、健全な態度、好調な経済、大きな量などにも広く使われる。日本語では、健康状態そのものよりも、食事や生活の軽さ・健康志向を示す意味に寄りやすい。",
+    "examples": [
+      {
+        "ja": "今日はヘルシーな和食ランチにした。",
+        "en": "I chose a light, healthy Japanese lunch today."
+      },
+      {
+        "ja": "この店は野菜中心のヘルシーメニューが人気だ。",
+        "en": "This restaurant is popular for its vegetable-centered healthy menu."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/healthy",
+        "note": "healthy が健康で丈夫な状態、健康によいこと、好調・健全・十分な量を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/healthy",
+        "note": "healthy が健康な状態、健康を促す性質、健全さや十分な量を表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のヘルシーが健康によいさま、健康的であるさまを表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "katakana_word": "ロイヤリティ",
+    "original_word": "royalty / loyalty",
+    "language": "英語",
+    "category": "商業・金融",
+    "original_meaning": "royalty は王族・王位・特許や著作物などの使用料。loyalty は人・組織・ブランドなどへの忠誠、愛着、支持。",
+    "japanese_meaning": "著作権・特許・商標などの使用料。マーケティングでは顧客や従業員のブランド・企業への愛着や継続的支持。",
+    "meaning_shift": "日本語では royalty と loyalty がロイヤリティ／ロイヤルティとして表記揺れし、使用料と忠誠度という別語由来の意味が文脈で使い分けられる。",
+    "description": "日本語の「ロイヤリティ」は、英語 royalty に由来する著作権料・特許使用料の意味で使われる一方、loyalty に由来する顧客ロイヤリティ、ブランドロイヤリティのような忠誠度・愛着の意味でも使われる。英語では royalty と loyalty は発音も意味も別語だが、日本語では「ロイヤリティ」「ロイヤルティ」の表記揺れの中で、商業・マーケティング用語として同じ音に集約されやすい。",
+    "examples": [
+      {
+        "ja": "キャラクター商品の売上に応じてロイヤリティを支払う。",
+        "en": "We pay royalties based on sales of the character merchandise."
+      },
+      {
+        "ja": "ポイント制度で顧客ロイヤリティを高める。",
+        "en": "We increase customer loyalty through a points program."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/royalty",
+        "note": "royalty が王族や、著作物・発明・土地などの使用に対する支払いを表すことを確認"
+      },
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/loyalty",
+        "note": "loyalty が人・組織・信念などへの忠誠や支持を表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のロイヤリティ／ロイヤルティが著作権料・特許使用料と、顧客の忠誠度・愛着の両方で使われることを確認"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "katakana_word": "ソーシャル",
+    "original_word": "social",
+    "language": "英語",
+    "category": "ネット・社会",
+    "original_meaning": "人付き合い・社交に関すること、社会や共同生活に関すること、社会的地位や集団関係に関すること。",
+    "japanese_meaning": "SNSやソーシャルメディアに関すること。社会貢献、福祉、地域活動など社会課題に関わること。",
+    "meaning_shift": "原語は社交・社会・集団生活全般を広く指すが、日本語ではネット上の交流サービスや社会貢献文脈を示す語として使われやすい。",
+    "description": "日本語の「ソーシャル」は、英語 social の音写だが、日常では「ソーシャルメディア」「ソーシャルゲーム」のようにSNSやオンライン交流を指す語として広まった。また「ソーシャルビジネス」「ソーシャルワーカー」のように、福祉・社会課題・地域支援に関わる意味でも使われる。英語 social は社交的な活動、社会階層、共同生活、社会制度など広い範囲を表すため、日本語ではネット文化と社会貢献の領域に意味が寄りやすい。",
+    "examples": [
+      {
+        "ja": "新商品の情報をソーシャルで発信する。",
+        "en": "We share information about the new product on social media."
+      },
+      {
+        "ja": "彼女は地域課題に取り組むソーシャルビジネスを始めた。",
+        "en": "She started a social business that addresses local issues."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/social",
+        "note": "social が社交活動、社会や共同生活、社会的地位、ソーシャルメディアサイトを表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/social",
+        "note": "social が社会・集団生活・人付き合い・社会的関係に関わる語であることを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のソーシャルが社会的、社会福祉、SNSなどの文脈で使われることを確認"
       }
     ]
   }
