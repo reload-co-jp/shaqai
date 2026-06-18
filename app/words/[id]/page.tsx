@@ -156,9 +156,17 @@ const Page: FC<Props> = async ({ params }) => {
             <span style={labelStyle}>分野</span>
             <span style={valueStyle}>
               {field ? (
-                <Link href={`/fields/${field.id}/`} style={{ color: "#7a9e82", textDecoration: "none" }}>
-                  {field.name}
-                </Link>
+                <>
+                  <Link href={`/fields/${field.id}/`} style={{ color: "#7a9e82", textDecoration: "none" }}>
+                    {field.name}
+                  </Link>
+                  <Link
+                    href={`/fields/${field.id}/`}
+                    style={{ color: "#5e5848", fontSize: ".75rem", marginLeft: ".6rem", textDecoration: "none" }}
+                  >
+                    他の訳語を見る →
+                  </Link>
+                </>
               ) : "—"}
             </span>
           </div>
@@ -166,9 +174,17 @@ const Page: FC<Props> = async ({ params }) => {
             <span style={labelStyle}>翻訳者</span>
             <span style={valueStyle}>
               {translator ? (
-                <Link href={`/translators/${translator.id}/`} style={{ color: "#7a9e82", textDecoration: "none" }}>
-                  {translator.name}
-                </Link>
+                <>
+                  <Link href={`/translators/${translator.id}/`} style={{ color: "#7a9e82", textDecoration: "none" }}>
+                    {translator.name}
+                  </Link>
+                  <Link
+                    href={`/translators/${translator.id}/`}
+                    style={{ color: "#5e5848", fontSize: ".75rem", marginLeft: ".6rem", textDecoration: "none" }}
+                  >
+                    他の訳語を見る →
+                  </Link>
+                </>
               ) : "—"}
             </span>
           </div>
@@ -325,6 +341,63 @@ const Page: FC<Props> = async ({ params }) => {
             </div>
           </div>
         )}
+
+        <div
+          style={{
+            display: "flex",
+            gap: ".75rem",
+            flexWrap: "wrap",
+            marginTop: "2rem",
+            paddingTop: "1.5rem",
+            borderTop: "1px solid #28241a",
+          }}
+        >
+          <Link
+            href="/words/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              border: "1px solid #c8a96e44",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            翻訳語一覧へ →
+          </Link>
+          <Link
+            href="/search/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#9e9888",
+              border: "1px solid #3d3828",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            訳語を検索する →
+          </Link>
+          <Link
+            href="/katakana/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#9e9888",
+              border: "1px solid #3d3828",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            カタカナ語を見る →
+          </Link>
+        </div>
       </div>
     </>
   )

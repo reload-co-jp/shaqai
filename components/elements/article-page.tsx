@@ -181,6 +181,63 @@ export const ArticlePage = ({
             </div>
           </div>
         )}
+
+        <div
+          style={{
+            display: "flex",
+            gap: ".75rem",
+            flexWrap: "wrap",
+            marginTop: "2rem",
+            paddingTop: "1.5rem",
+            borderTop: "1px solid #28241a",
+          }}
+        >
+          <Link
+            href="/articles/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#c8a96e",
+              border: "1px solid #c8a96e44",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            読み物一覧へ →
+          </Link>
+          <Link
+            href="/words/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#9e9888",
+              border: "1px solid #3d3828",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            翻訳語一覧へ →
+          </Link>
+          <Link
+            href="/search/"
+            style={{
+              display: "inline-block",
+              fontSize: ".875rem",
+              color: "#9e9888",
+              border: "1px solid #3d3828",
+              borderRadius: "2px",
+              padding: ".5rem 1.25rem",
+              textDecoration: "none",
+              letterSpacing: ".03em",
+            }}
+          >
+            訳語を検索する →
+          </Link>
+        </div>
       </div>
     </>
   )
