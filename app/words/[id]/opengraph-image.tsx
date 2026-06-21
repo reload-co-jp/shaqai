@@ -1,32 +1,13 @@
-import { ImageResponse } from "next/og"
 import { words, getField } from "lib/db"
+import { ogImageSize, loadOgFont, renderOgImage } from "lib/og-image"
 
 export const dynamic = "force-static"
 export const alt = "翻訳語辞典 Shaqai"
-export const size = { width: 1200, height: 630 }
+export const size = ogImageSize
 export const contentType = "image/png"
 
 export const generateStaticParams = () =>
   words.map((w) => ({ id: String(w.id) }))
-
-async function loadFont(): Promise<ArrayBuffer | null> {
-  try {
-    const css = await fetch(
-      "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700",
-      {
-        headers: {
-          "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        },
-      }
-    ).then((r) => r.text())
-    const url = css.match(/src:\s*url\(([^)]+)\)/)?.[1]
-    if (!url) return null
-    return fetch(url).then((r) => r.arrayBuffer())
-  } catch {
-    return null
-  }
-}
 
 type Props = { params: Promise<{ id: string }> }
 
@@ -34,13 +15,13 @@ export default async function Image({ params }: Props) {
   const { id } = await params
   const word = words.find((w) => w.id === Number(id))
   const field = word ? getField(word.field_id) : null
-  const fontData = await loadFont()
+  const fontData = await loadOgFont()
 
   const japaneseWord = word?.japanese_word ?? ""
   const originalWord = word?.original_word ?? ""
   const description = word?.description.slice(0, 60) ?? ""
 
-  return new ImageResponse(
+  return renderOgImage(
     (
       <div
         style={{
@@ -173,20 +154,6 @@ export default async function Image({ params }: Props) {
         </div>
       </div>
     ),
-    {
-      ...size,
-      ...(fontData
-        ? {
-            fonts: [
-              {
-                name: "Noto Serif JP",
-                data: fontData,
-                weight: 700,
-                style: "normal",
-              },
-            ],
-          }
-        : {}),
-    }
+    fontData
   )
 }

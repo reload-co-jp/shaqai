@@ -5,6 +5,7 @@ import { WordCard } from "components/elements/word-card"
 import { RandomArticles } from "components/elements/random-articles"
 import { KatakanaCard } from "components/elements/katakana-card"
 import { FieldTags } from "components/elements/field-tags"
+import { NavLink } from "components/elements/nav-link"
 import { wordGridStyle } from "lib/styles"
 
 const HERO_WORDS = ["社会", "経済", "哲学", "自由", "権利", "文化", "科学"]
@@ -169,51 +170,11 @@ const Page: FC = () => {
           </p>
 
           <div style={{ display: "flex", gap: ".75rem", flexWrap: "wrap" }}>
-            <a
-              href="/whats/"
-              style={{
-                display: "inline-block",
-                fontSize: ".875rem",
-                color: "#c8a96e",
-                border: "1px solid #c8a96e44",
-                borderRadius: "2px",
-                padding: ".5rem 1.25rem",
-                textDecoration: "none",
-                letterSpacing: ".03em",
-              }}
-            >
+            <NavLink href="/whats/" active>
               翻訳語とは →
-            </a>
-            <a
-              href="/about/"
-              style={{
-                display: "inline-block",
-                fontSize: ".875rem",
-                color: "#9e9888",
-                border: "1px solid #3d3828",
-                borderRadius: "2px",
-                padding: ".5rem 1.25rem",
-                textDecoration: "none",
-                letterSpacing: ".03em",
-              }}
-            >
-              このサイトについて →
-            </a>
-            <a
-              href="/katakana/"
-              style={{
-                display: "inline-block",
-                fontSize: ".875rem",
-                color: "#9e9888",
-                border: "1px solid #3d3828",
-                borderRadius: "2px",
-                padding: ".5rem 1.25rem",
-                textDecoration: "none",
-                letterSpacing: ".03em",
-              }}
-            >
-              カタカナ語 →
-            </a>
+            </NavLink>
+            <NavLink href="/about/">このサイトについて →</NavLink>
+            <NavLink href="/katakana/">カタカナ語 →</NavLink>
           </div>
         </div>
       </div>

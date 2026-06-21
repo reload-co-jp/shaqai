@@ -3,18 +3,13 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { words, getWord, getField, getTranslator } from "lib/db"
 import type { Metadata } from "next"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 import { SourceList } from "components/elements/source-list"
+import { RelatedCard } from "components/elements/related-card"
+import { NavLink, FooterLinks } from "components/elements/nav-link"
+import { DetailPageLayout } from "components/elements/detail-page-layout"
 import { getFirstAttestation, getWordSources } from "lib/word-details"
 import { getArticlesForWord } from "lib/articles"
-import {
-  cardStyle,
-  rowStyle,
-  labelStyle,
-  valueStyle,
-  sectionHeadingStyle,
-  backLinkStyle,
-} from "lib/styles"
+import { cardStyle, rowStyle, labelStyle, valueStyle, sectionHeadingStyle, colors } from "lib/styles"
 
 export const generateStaticParams = () =>
   words.map((w) => ({ id: String(w.id) }))
@@ -108,33 +103,18 @@ const Page: FC<Props> = async ({ params }) => {
   }
 
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "翻訳語一覧", url: "/words/" },
-          { name: word.japanese_word, url: `/words/${id}/` },
-        ]}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        <div style={{ marginBottom: "1.5rem" }}>
-          <Link href="/words/" style={backLinkStyle}>
-            ← 翻訳語一覧に戻る
-          </Link>
-        </div>
-
-        <div style={{ marginBottom: "2rem" }}>
-          <h1 style={{ fontSize: "3rem", color: "#c8a96e", marginBottom: ".5rem" }}>
-            {word.japanese_word}
-          </h1>
-          <div style={{ fontSize: "1.1rem", color: "#7a9e82" }}>
-            {word.original_word}
-          </div>
-        </div>
+    <DetailPageLayout
+      backHref="/words/"
+      backLabel="翻訳語一覧に戻る"
+      title={word.japanese_word}
+      subtitle={word.original_word}
+      breadcrumbItems={[
+        { name: "ホーム", url: "/" },
+        { name: "翻訳語一覧", url: "/words/" },
+        { name: word.japanese_word, url: `/words/${id}/` },
+      ]}
+      jsonLd={jsonLd}
+    >
 
         <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
           <div style={rowStyle}>
@@ -146,7 +126,7 @@ const Page: FC<Props> = async ({ params }) => {
             <span style={valueStyle}>
               {word.era}
               {word.year && (
-                <span style={{ color: "#5e5848", marginLeft: ".5rem", fontSize: ".8rem" }}>
+                <span style={{ color: colors.mutedDark, marginLeft: ".5rem", fontSize: ".8rem" }}>
                   ({word.year}年頃)
                 </span>
               )}
@@ -157,12 +137,12 @@ const Page: FC<Props> = async ({ params }) => {
             <span style={valueStyle}>
               {field ? (
                 <>
-                  <Link href={`/fields/${field.id}/`} style={{ color: "#7a9e82", textDecoration: "none" }}>
+                  <Link href={`/fields/${field.id}/`} style={{ color: colors.green, textDecoration: "none" }}>
                     {field.name}
                   </Link>
                   <Link
                     href={`/fields/${field.id}/`}
-                    style={{ color: "#5e5848", fontSize: ".75rem", marginLeft: ".6rem", textDecoration: "none" }}
+                    style={{ color: colors.mutedDark, fontSize: ".75rem", marginLeft: ".6rem", textDecoration: "none" }}
                   >
                     他の訳語を見る →
                   </Link>
@@ -175,12 +155,12 @@ const Page: FC<Props> = async ({ params }) => {
             <span style={valueStyle}>
               {translator ? (
                 <>
-                  <Link href={`/translators/${translator.id}/`} style={{ color: "#7a9e82", textDecoration: "none" }}>
+                  <Link href={`/translators/${translator.id}/`} style={{ color: colors.green, textDecoration: "none" }}>
                     {translator.name}
                   </Link>
                   <Link
                     href={`/translators/${translator.id}/`}
-                    style={{ color: "#5e5848", fontSize: ".75rem", marginLeft: ".6rem", textDecoration: "none" }}
+                    style={{ color: colors.mutedDark, fontSize: ".75rem", marginLeft: ".6rem", textDecoration: "none" }}
                   >
                     他の訳語を見る →
                   </Link>
@@ -196,29 +176,29 @@ const Page: FC<Props> = async ({ params }) => {
             <div
               key={i}
               style={{
-                borderBottom: i < word.meanings.length - 1 ? "1px solid #28241a" : "none",
+                borderBottom: i < word.meanings.length - 1 ? `1px solid ${colors.borderDark}` : "none",
                 paddingBottom: i < word.meanings.length - 1 ? "1rem" : 0,
                 marginBottom: i < word.meanings.length - 1 ? "1rem" : 0,
               }}
             >
               {word.meanings.length > 1 && (
-                <span style={{ color: "#5e5848", fontSize: ".75rem", marginBottom: ".25rem", display: "block" }}>
+                <span style={{ color: colors.mutedDark, fontSize: ".75rem", marginBottom: ".25rem", display: "block" }}>
                   {i + 1}.
                 </span>
               )}
-              <p style={{ color: "#807870", fontSize: ".9rem", lineHeight: "1.7", marginBottom: ".25rem", fontStyle: "italic" }}>
+              <p style={{ color: colors.muted, fontSize: ".9rem", lineHeight: "1.7", marginBottom: ".25rem", fontStyle: "italic" }}>
                 {meaning.en}
               </p>
-              <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7", marginBottom: meaning.example_en ? ".75rem" : 0 }}>
+              <p style={{ color: colors.text, fontSize: ".95rem", lineHeight: "1.7", marginBottom: meaning.example_en ? ".75rem" : 0 }}>
                 {meaning.ja}
               </p>
               {meaning.example_en && (
-                <div style={{ borderLeft: "2px solid #302b1e", paddingLeft: ".75rem", marginTop: ".5rem" }}>
+                <div style={{ borderLeft: `2px solid ${colors.border}`, paddingLeft: ".75rem", marginTop: ".5rem" }}>
                   <p style={{ color: "#5e7a62", fontSize: ".85rem", lineHeight: "1.6", fontStyle: "italic", marginBottom: ".2rem" }}>
                     {meaning.example_en}
                   </p>
                   {meaning.example_ja && (
-                    <p style={{ color: "#807870", fontSize: ".85rem", lineHeight: "1.6" }}>
+                    <p style={{ color: colors.muted, fontSize: ".85rem", lineHeight: "1.6" }}>
                       {meaning.example_ja}
                     </p>
                   )}
@@ -230,14 +210,14 @@ const Page: FC<Props> = async ({ params }) => {
 
         <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
           <h2 style={sectionHeadingStyle}>由来・語源</h2>
-          <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
+          <p style={{ color: colors.text, fontSize: ".95rem", lineHeight: "1.7" }}>
             {word.etymology}
           </p>
         </div>
 
         <div style={cardStyle}>
           <h2 style={sectionHeadingStyle}>説明</h2>
-          <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: "1.7" }}>
+          <p style={{ color: colors.text, fontSize: ".95rem", lineHeight: "1.7" }}>
             {word.description}
           </p>
         </div>
@@ -282,28 +262,13 @@ const Page: FC<Props> = async ({ params }) => {
               {relatedWords.map((relatedWord) => {
                 const relatedField = getField(relatedWord.field_id)
                 return (
-                  <Link
+                  <RelatedCard
                     key={relatedWord.id}
                     href={`/words/${relatedWord.id}/`}
-                    style={{
-                      background: "#18140e",
-                      border: "1px solid #28241a",
-                      borderRadius: "3px",
-                      padding: ".85rem 1rem",
-                      textDecoration: "none",
-                      color: "inherit",
-                    }}
-                  >
-                    <div style={{ fontSize: "1rem", color: "#c8a96e", fontWeight: "bold", marginBottom: ".25rem" }}>
-                      {relatedWord.japanese_word}
-                    </div>
-                    <div style={{ fontSize: ".82rem", color: "#7a9e82", marginBottom: ".35rem" }}>
-                      {relatedWord.original_word}
-                    </div>
-                    <div style={{ fontSize: ".75rem", color: "#807870" }}>
-                      {relatedField?.name ?? relatedWord.era}
-                    </div>
-                  </Link>
+                    title={relatedWord.japanese_word}
+                    subtitle={relatedWord.original_word}
+                    meta={relatedField?.name ?? relatedWord.era}
+                  />
                 )
               })}
             </div>
@@ -321,8 +286,8 @@ const Page: FC<Props> = async ({ params }) => {
                   key={article.id}
                   href={`/articles/${article.id}/`}
                   style={{
-                    background: "#18140e",
-                    border: "1px solid #28241a",
+                    background: colors.relatedCardBg,
+                    border: `1px solid ${colors.borderDark}`,
                     borderRadius: "3px",
                     padding: ".85rem 1rem",
                     textDecoration: "none",
@@ -330,10 +295,10 @@ const Page: FC<Props> = async ({ params }) => {
                     display: "block",
                   }}
                 >
-                  <div style={{ fontSize: ".95rem", color: "#e2dcd0", marginBottom: ".35rem" }}>
+                  <div style={{ fontSize: ".95rem", color: colors.text, marginBottom: ".35rem" }}>
                     {article.title}
                   </div>
-                  <div style={{ fontSize: ".8rem", color: "#807870", lineHeight: 1.6 }}>
+                  <div style={{ fontSize: ".8rem", color: colors.muted, lineHeight: 1.6 }}>
                     {article.description}
                   </div>
                 </Link>
@@ -342,64 +307,14 @@ const Page: FC<Props> = async ({ params }) => {
           </div>
         )}
 
-        <div
-          style={{
-            display: "flex",
-            gap: ".75rem",
-            flexWrap: "wrap",
-            marginTop: "2rem",
-            paddingTop: "1.5rem",
-            borderTop: "1px solid #28241a",
-          }}
-        >
-          <Link
-            href="/words/"
-            style={{
-              display: "inline-block",
-              fontSize: ".875rem",
-              color: "#c8a96e",
-              border: "1px solid #c8a96e44",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
+        <FooterLinks>
+          <NavLink href="/words/" active>
             翻訳語一覧へ →
-          </Link>
-          <Link
-            href="/search/"
-            style={{
-              display: "inline-block",
-              fontSize: ".875rem",
-              color: "#9e9888",
-              border: "1px solid #3d3828",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
-            訳語を検索する →
-          </Link>
-          <Link
-            href="/katakana/"
-            style={{
-              display: "inline-block",
-              fontSize: ".875rem",
-              color: "#9e9888",
-              border: "1px solid #3d3828",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
-            カタカナ語を見る →
-          </Link>
-        </div>
-      </div>
-    </>
+          </NavLink>
+          <NavLink href="/search/">訳語を検索する →</NavLink>
+          <NavLink href="/katakana/">カタカナ語を見る →</NavLink>
+        </FooterLinks>
+    </DetailPageLayout>
   )
 }
 

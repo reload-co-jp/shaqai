@@ -1,11 +1,4 @@
-import type { Word } from "lib/db"
-
-export type WordSource = {
-  title: string
-  author?: string
-  url?: string
-  note?: string
-}
+import type { Source, Word } from "lib/db"
 
 export const getFirstAttestation = (word: Word) => {
   if (word.first_attestation) return word.first_attestation
@@ -27,7 +20,7 @@ export const getFirstAttestation = (word: Word) => {
   }
 }
 
-export const getWordSources = (word: Word): WordSource[] => {
+export const getWordSources = (word: Word): Source[] => {
   if (word.sources?.length) return word.sources
 
   const text = `${word.description}\n${word.etymology}`

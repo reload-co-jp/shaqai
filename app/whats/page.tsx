@@ -1,6 +1,6 @@
 import { FC } from "react"
-import Link from "next/link"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { NavLink } from "components/elements/nav-link"
 
 const DESCRIPTION = "翻訳語（訳語・和製漢語）とは何か。カタカナ語との違い、明治期の翻訳の営みと歴史的背景を解説します。"
 
@@ -213,34 +213,10 @@ const Page: FC = () => {
         </Section>
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-          <Link
-            href="/"
-            style={{
-              fontSize: ".875rem",
-              color: "#c8a96e",
-              border: "1px solid #c8a96e44",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
+          <NavLink href="/" active>
             単語一覧を見る →
-          </Link>
-          <Link
-            href="/about/"
-            style={{
-              fontSize: ".875rem",
-              color: "#9e9888",
-              border: "1px solid #3d3828",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
-            このサイトについて →
-          </Link>
+          </NavLink>
+          <NavLink href="/about/">このサイトについて →</NavLink>
         </div>
       </div>
     </div>

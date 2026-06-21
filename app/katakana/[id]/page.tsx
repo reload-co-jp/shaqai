@@ -1,18 +1,10 @@
 import { FC } from "react"
 import { notFound } from "next/navigation"
-import Link from "next/link"
 import type { Metadata } from "next"
 import { katakanaWords, getKatakanaWord } from "lib/db"
-import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 import { SourceList } from "components/elements/source-list"
-import {
-  cardStyle,
-  rowStyle,
-  labelStyle,
-  valueStyle,
-  sectionHeadingStyle,
-  backLinkStyle,
-} from "lib/styles"
+import { DetailPageLayout } from "components/elements/detail-page-layout"
+import { cardStyle, rowStyle, labelStyle, valueStyle, sectionHeadingStyle, colors } from "lib/styles"
 
 export const generateStaticParams = () =>
   katakanaWords.map((word) => ({ id: String(word.id) }))
@@ -71,34 +63,18 @@ const Page: FC<Props> = async ({ params }) => {
   }
 
   return (
-    <>
-      <BreadcrumbJsonLd
-        items={[
-          { name: "ホーム", url: "/" },
-          { name: "カタカナ語", url: "/katakana/" },
-          { name: word.katakana_word, url: `/katakana/${id}/` },
-        ]}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-        <div style={{ marginBottom: "1.5rem" }}>
-          <Link href="/katakana/" style={backLinkStyle}>
-            ← カタカナ語一覧に戻る
-          </Link>
-        </div>
-
-        <div style={{ marginBottom: "2rem" }}>
-          <h1 style={{ fontSize: "3rem", color: "#c8a96e", marginBottom: ".5rem" }}>
-            {word.katakana_word}
-          </h1>
-          <div style={{ fontSize: "1.1rem", color: "#7a9e82" }}>
-            {word.original_word}
-          </div>
-        </div>
-
+    <DetailPageLayout
+      backHref="/katakana/"
+      backLabel="カタカナ語一覧に戻る"
+      title={word.katakana_word}
+      subtitle={word.original_word}
+      breadcrumbItems={[
+        { name: "ホーム", url: "/" },
+        { name: "カタカナ語", url: "/katakana/" },
+        { name: word.katakana_word, url: `/katakana/${id}/` },
+      ]}
+      jsonLd={jsonLd}
+    >
         <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
           <div style={rowStyle}>
             <span style={labelStyle}>原語</span>
@@ -132,7 +108,7 @@ const Page: FC<Props> = async ({ params }) => {
 
         <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
           <h2 style={sectionHeadingStyle}>説明</h2>
-          <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: 1.7 }}>
+          <p style={{ color: colors.text, fontSize: ".95rem", lineHeight: 1.7 }}>
             {word.description}
           </p>
         </div>
@@ -143,16 +119,16 @@ const Page: FC<Props> = async ({ params }) => {
             <div
               key={index}
               style={{
-                borderBottom: index < word.examples.length - 1 ? "1px solid #28241a" : "none",
+                borderBottom: index < word.examples.length - 1 ? `1px solid ${colors.borderDark}` : "none",
                 paddingBottom: index < word.examples.length - 1 ? "1rem" : 0,
                 marginBottom: index < word.examples.length - 1 ? "1rem" : 0,
               }}
             >
-              <p style={{ color: "#e2dcd0", fontSize: ".95rem", lineHeight: 1.7 }}>
+              <p style={{ color: colors.text, fontSize: ".95rem", lineHeight: 1.7 }}>
                 {example.ja}
               </p>
               {example.en && (
-                <p style={{ color: "#807870", fontSize: ".85rem", lineHeight: 1.7, fontStyle: "italic" }}>
+                <p style={{ color: colors.muted, fontSize: ".85rem", lineHeight: 1.7, fontStyle: "italic" }}>
                   {example.en}
                 </p>
               )}
@@ -164,8 +140,7 @@ const Page: FC<Props> = async ({ params }) => {
           <h2 style={sectionHeadingStyle}>出典</h2>
           <SourceList sources={word.sources ?? []} />
         </div>
-      </div>
-    </>
+    </DetailPageLayout>
   )
 }
 

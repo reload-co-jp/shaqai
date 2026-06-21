@@ -88,25 +88,25 @@ export const getWordsByField = (fieldId: number) =>
 export const getWordsByTranslator = (translatorId: number) =>
   words.filter((w) => w.translator_id === translatorId)
 
-export const searchWords = (query: string) => {
-  const q = query.toLowerCase()
-  return words.filter(
-    (w) =>
-      w.japanese_word.includes(q) ||
-      w.original_word.toLowerCase().includes(q) ||
-      w.description.includes(q) ||
-      w.etymology.includes(q)
-  )
-}
+const createSearcher = <T>(items: T[], getFields: (item: T) => (string | undefined)[]) =>
+  (query: string) => {
+    const q = query.toLowerCase()
+    return items.filter((item) =>
+      getFields(item).some((field) => field?.toLowerCase().includes(q))
+    )
+  }
 
-export const searchKatakanaWords = (query: string) => {
-  const q = query.toLowerCase()
-  return katakanaWords.filter(
-    (w) =>
-      w.katakana_word.includes(query) ||
-      w.original_word.toLowerCase().includes(q) ||
-      w.japanese_meaning.includes(query) ||
-      w.original_meaning.includes(query) ||
-      w.description.includes(query)
-  )
-}
+export const searchWords = createSearcher(words, (w) => [
+  w.japanese_word,
+  w.original_word,
+  w.description,
+  w.etymology,
+])
+
+export const searchKatakanaWords = createSearcher(katakanaWords, (w) => [
+  w.katakana_word,
+  w.original_word,
+  w.japanese_meaning,
+  w.original_meaning,
+  w.description,
+])

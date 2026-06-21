@@ -1,8 +1,10 @@
 import { ReactNode } from "react"
-import Link from "next/link"
 import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
+import { RelatedCard } from "components/elements/related-card"
+import { NavLink, FooterLinks } from "components/elements/nav-link"
 import { articles } from "lib/articles"
 import { words, getField } from "lib/db"
+import { colors } from "lib/styles"
 
 type ArticlePageProps = {
   id: string
@@ -70,13 +72,13 @@ export const ArticlePage = ({
           style={{
             marginBottom: "2.5rem",
             paddingBottom: "2rem",
-            borderBottom: "1px solid #2a2518",
+            borderBottom: `1px solid ${colors.sectionBorder}`,
           }}
         >
           <p
             style={{
               fontSize: ".75rem",
-              color: "#5e5848",
+              color: colors.mutedDark,
               marginBottom: ".75rem",
               letterSpacing: ".05em",
             }}
@@ -86,7 +88,7 @@ export const ArticlePage = ({
           <h1
             style={{
               fontSize: "clamp(1.5rem, 4vw, 2rem)",
-              color: "#e2dcd0",
+              color: colors.text,
               lineHeight: 1.4,
               marginBottom: "1rem",
               letterSpacing: ".02em",
@@ -97,9 +99,9 @@ export const ArticlePage = ({
           <p
             style={{
               fontSize: "1rem",
-              color: "#908a7a",
+              color: colors.subtleText,
               lineHeight: 1.8,
-              borderLeft: "3px solid #c8a96e",
+              borderLeft: `3px solid ${colors.accent}`,
               paddingLeft: "1rem",
             }}
           >
@@ -114,13 +116,13 @@ export const ArticlePage = ({
             style={{
               marginTop: "3rem",
               paddingTop: "2rem",
-              borderTop: "1px solid #2a2518",
+              borderTop: `1px solid ${colors.sectionBorder}`,
             }}
           >
             <h2
               style={{
                 fontSize: ".875rem",
-                color: "#807870",
+                color: colors.muted,
                 marginBottom: "1rem",
                 letterSpacing: ".05em",
                 textTransform: "uppercase",
@@ -138,106 +140,26 @@ export const ArticlePage = ({
               {relatedWords.map((word) => {
                 const field = getField(word.field_id)
                 return (
-                  <Link
+                  <RelatedCard
                     key={word.id}
                     href={`/words/${word.id}/`}
-                    style={{
-                      background: "#18140e",
-                      border: "1px solid #28241a",
-                      borderRadius: "3px",
-                      padding: ".85rem 1rem",
-                      textDecoration: "none",
-                      color: "inherit",
-                      display: "block",
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontSize: "1.1rem",
-                        color: "#c8a96e",
-                        fontWeight: "bold",
-                        marginBottom: ".25rem",
-                      }}
-                    >
-                      {word.japanese_word}
-                    </div>
-                    <div
-                      style={{
-                        fontSize: ".8rem",
-                        color: "#7a9e82",
-                        marginBottom: ".3rem",
-                      }}
-                    >
-                      {word.original_word}
-                    </div>
-                    {field && (
-                      <div style={{ fontSize: ".75rem", color: "#807870" }}>
-                        {field.name}
-                      </div>
-                    )}
-                  </Link>
+                    title={word.japanese_word}
+                    subtitle={word.original_word}
+                    meta={field?.name}
+                  />
                 )
               })}
             </div>
           </div>
         )}
 
-        <div
-          style={{
-            display: "flex",
-            gap: ".75rem",
-            flexWrap: "wrap",
-            marginTop: "2rem",
-            paddingTop: "1.5rem",
-            borderTop: "1px solid #28241a",
-          }}
-        >
-          <Link
-            href="/articles/"
-            style={{
-              display: "inline-block",
-              fontSize: ".875rem",
-              color: "#c8a96e",
-              border: "1px solid #c8a96e44",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
+        <FooterLinks>
+          <NavLink href="/articles/" active>
             読み物一覧へ →
-          </Link>
-          <Link
-            href="/words/"
-            style={{
-              display: "inline-block",
-              fontSize: ".875rem",
-              color: "#9e9888",
-              border: "1px solid #3d3828",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
-            翻訳語一覧へ →
-          </Link>
-          <Link
-            href="/search/"
-            style={{
-              display: "inline-block",
-              fontSize: ".875rem",
-              color: "#9e9888",
-              border: "1px solid #3d3828",
-              borderRadius: "2px",
-              padding: ".5rem 1.25rem",
-              textDecoration: "none",
-              letterSpacing: ".03em",
-            }}
-          >
-            訳語を検索する →
-          </Link>
-        </div>
+          </NavLink>
+          <NavLink href="/words/">翻訳語一覧へ →</NavLink>
+          <NavLink href="/search/">訳語を検索する →</NavLink>
+        </FooterLinks>
       </div>
     </>
   )

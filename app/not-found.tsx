@@ -1,5 +1,5 @@
-import Link from "next/link"
 import { Metadata } from "next"
+import { NavLink } from "components/elements/nav-link"
 
 export const metadata: Metadata = {
   title: "404 — ページが見つかりません",
@@ -47,21 +47,9 @@ const NotFound = () => {
       >
         お探しのページは移動または削除された可能性があります。
       </p>
-      <Link
-        href="/"
-        style={{
-          display: "inline-block",
-          fontSize: ".875rem",
-          color: "#c8a96e",
-          border: "1px solid #c8a96e44",
-          borderRadius: "2px",
-          padding: ".5rem 1.5rem",
-          textDecoration: "none",
-          letterSpacing: ".03em",
-        }}
-      >
+      <NavLink href="/" active>
         トップへ戻る →
-      </Link>
+      </NavLink>
     </div>
   )
 }
