@@ -2156,5 +2156,42 @@
         "note": "日本語のソーシャルが社会的、社会福祉、SNSなどの文脈で使われることを確認"
       }
     ]
+  },
+  {
+    "id": 62,
+    "katakana_word": "ダイナミック",
+    "original_word": "dynamic",
+    "language": "英語",
+    "category": "評価・表現",
+    "original_meaning": "活力や熱意があること、絶えず変化・発展すること。力学、音楽の強弱、集団内の力関係も表す。",
+    "japanese_meaning": "動きや表現が大きく力強いこと、迫力があること。考え方や構図が大胆であること。",
+    "meaning_shift": "原語は変化・力学・関係性まで広いが、日本語では見た目や行動の大きさ、迫力、大胆さを評価する語として使われやすい。",
+    "description": "日本語の「ダイナミック」は、英語 dynamic の音写だが、日常では「ダイナミックな演技」「ダイナミックな構図」のように、大きく力強い、迫力がある、大胆であるという評価語として定着した。英語 dynamic は、活力がある人や組織、絶えず変化する状況、物理の力学、音楽の強弱、集団内の関係性などにも広く使われる。日本語では、変化の性質よりも視覚的・身体的なスケール感や力強さに意味が寄りやすい。",
+    "examples": [
+      {
+        "ja": "選手はダイナミックなフォームで跳んだ。",
+        "en": "The athlete jumped with a powerful, dynamic form."
+      },
+      {
+        "ja": "この映画はダイナミックなカメラワークが魅力だ。",
+        "en": "This film is appealing because of its bold, dynamic camerawork."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/dynamic",
+        "note": "dynamic が活力・熱意、絶えず変化すること、力学、音楽の強弱、関係性を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/dynamic",
+        "note": "dynamic が力やエネルギー、変化、力学、活発さを表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のダイナミックが力強く生き生きしているさま、大胆で迫力があるさまを表すことを確認"
+      }
+    ]
   }
 ]
