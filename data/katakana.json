@@ -2193,5 +2193,116 @@
         "note": "日本語のダイナミックが力強く生き生きしているさま、大胆で迫力があるさまを表すことを確認"
       }
     ]
+  },
+  {
+    "id": 63,
+    "katakana_word": "グラス",
+    "original_word": "glass",
+    "language": "英語",
+    "category": "生活用品",
+    "original_meaning": "ガラスという硬く透明な素材、ガラス製品、飲み物用の容器、眼鏡やレンズなど。",
+    "japanese_meaning": "主に飲み物を入れるガラス製の器。ワイングラス、グラス一杯など、飲食用の容器や量。",
+    "meaning_shift": "原語は素材・容器・眼鏡まで広いが、日本語では素材を「ガラス」と呼び、グラスは飲用容器の意味に狭まりやすい。",
+    "description": "日本語の「グラス」は、英語 glass の音写だが、日常では主に水、酒、ワインなどを入れる飲用容器を指す。英語 glass は素材としてのガラス、ガラス製品、飲み物用の容器、眼鏡、レンズなどを広く表す。一方、日本語では素材は「ガラス」と言い分けることが多く、「グラス」は飲食場面の器や「グラス一杯」という量の表現に意味が寄っている。",
+    "examples": [
+      {
+        "ja": "冷たい水をグラスに注いだ。",
+        "en": "I poured cold water into a glass."
+      },
+      {
+        "ja": "赤ワイン用のグラスを用意する。",
+        "en": "Prepare glasses for red wine."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/glass",
+        "note": "glass が硬く透明な素材、飲み物用容器、グラス一杯、眼鏡などを表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/glass",
+        "note": "glass が素材、ガラス製品、飲用容器、レンズ・眼鏡などを表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のグラスが主にガラス製のコップや酒杯を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "katakana_word": "リーク",
+    "original_word": "leak",
+    "language": "英語",
+    "category": "ネット・情報",
+    "original_meaning": "液体・気体が穴や隙間から漏れること、漏れ口。秘密情報が外部に漏れること、また漏らすこと。",
+    "japanese_meaning": "未公開情報や機密情報が外部に流出すること。特にネット上で発売前の商品情報、ゲーム情報、内部資料などが出回ること。",
+    "meaning_shift": "原語は物理的な液体・気体漏れと情報漏洩の両方を広く指すが、日本語では情報の流出・暴露、未発表情報の先出しを指す用法に寄りやすい。",
+    "description": "日本語の「リーク」は、英語 leak の音写だが、日常では「情報リーク」「新作ゲームのリーク」のように、非公開の情報が外部に流出することを指す語として定着した。英語 leak は、水漏れ、ガス漏れ、漏れ口、秘密情報の漏洩を広く表す。日本語でも技術分野ではメモリリークなどの用法があるが、一般にはネットやメディアでの未発表情報・内部情報の流出という意味が強い。",
+    "examples": [
+      {
+        "ja": "発売前の画像がSNSにリークされた。",
+        "en": "Images were leaked on social media before the release."
+      },
+      {
+        "ja": "新機能のリーク情報がファンの間で話題になった。",
+        "en": "Leaked information about the new feature became a topic among fans."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/leak",
+        "note": "leak が液体・気体の漏れ、秘密情報を一般に知られるようにすること、漏れ口や情報漏洩を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/leak",
+        "note": "leak が漏れること、漏れ口、意図的・非意図的な秘密情報の流出を表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のリークが秘密や情報を漏らすこと、漏洩を表すことを確認"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "katakana_word": "マッチ",
+    "original_word": "match",
+    "language": "英語",
+    "category": "生活・競技",
+    "original_meaning": "スポーツなどの試合、火をつける細い棒、同等の相手、よく合うもの、対応・一致させること。",
+    "japanese_meaning": "スポーツやゲームの試合。火をつける道具。相性や条件が合うこと、候補同士が適合すること。",
+    "meaning_shift": "原語も多義的だが、日本語では「試合」「火をつける棒」「相性・条件の適合」が外来語として残り、文脈ごとに分かれて使われやすい。",
+    "description": "日本語の「マッチ」は、英語 match の音写だが、「サッカーのマッチ」のような試合、「マッチで火をつける」のような着火具、「条件にマッチする」のような適合の意味が並存する。英語 match はさらに、同等の相手、色柄の調和、照合、同額を出すことなど広く使われる。日本語では和語の「試合」「一致」とも併用され、カタカナ語では競技・商品推薦・人材紹介などの場面で相性や組み合わせを示す語として使われやすい。",
+    "examples": [
+      {
+        "ja": "今日のマッチは延長戦までもつれた。",
+        "en": "Today's match went into extra time."
+      },
+      {
+        "ja": "希望条件にマッチする求人を紹介された。",
+        "en": "I was introduced to a job opening that matched my preferences."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/match",
+        "note": "match が試合、マッチ棒、同等の相手、よく合うもの、適合・照合を表すことを確認"
+      },
+      {
+        "title": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/match",
+        "note": "match が競技、火をつける道具、対応するもの、一致・調和させることを表すことを確認"
+      },
+      {
+        "title": "デジタル大辞泉",
+        "note": "日本語のマッチが試合、火をつける細い軸木、調和・適合を表すことを確認"
+      }
+    ]
   }
 ]
