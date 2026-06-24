@@ -7,7 +7,7 @@ import { SourceList } from "components/elements/source-list"
 import { RelatedCard } from "components/elements/related-card"
 import { NavLink, FooterLinks } from "components/elements/nav-link"
 import { DetailPageLayout } from "components/elements/detail-page-layout"
-import { getFirstAttestation, getWordSources } from "lib/word-details"
+import { getFirstAttestation, getWordSeo, getWordSources } from "lib/word-details"
 import { getArticlesForWord } from "lib/articles"
 import { cardStyle, rowStyle, labelStyle, valueStyle, sectionHeadingStyle, colors } from "lib/styles"
 
@@ -21,29 +21,14 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   const word = getWord(Number(id))
   if (!word) return {}
   const shortTitle = `${word.japanese_word}（${word.original_word}）`
-  const title = `${shortTitle}とは？語源・由来`
-  const prefix = `${word.japanese_word}（${word.original_word}）の語源・訳語。`
-  const budget = 155 - prefix.length
-  const detail = word.etymology.length > 0
-    ? word.etymology.slice(0, budget) + (word.etymology.length > budget ? "…" : "")
-    : word.description.slice(0, budget) + (word.description.length > budget ? "…" : "")
-  const description = prefix + detail
-  const keywords = [
-    word.japanese_word,
-    word.original_word,
-    `${word.japanese_word} 語源`,
-    `${word.japanese_word} 訳語`,
-    `${word.japanese_word} 由来`,
-    `${word.original_word} 日本語`,
-    word.language,
-  ]
+  const seo = getWordSeo(word)
   return {
-    title,
-    description,
-    keywords,
+    title: seo.title,
+    description: seo.description,
+    keywords: seo.keywords,
     openGraph: {
-      title: shortTitle,
-      description,
+      title: seo.title,
+      description: seo.description,
       url: `https://shaqai.reload.co.jp/words/${id}/`,
       type: "article",
       images: [{ url: `https://shaqai.reload.co.jp/words/${id}/opengraph-image`, width: 1200, height: 630 }],
@@ -51,7 +36,7 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
     twitter: {
       card: "summary_large_image",
       title: shortTitle,
-      description,
+      description: seo.description,
       images: [`https://shaqai.reload.co.jp/words/${id}/opengraph-image`],
     },
     alternates: { canonical: `https://shaqai.reload.co.jp/words/${id}/` },
@@ -67,6 +52,7 @@ const Page: FC<Props> = async ({ params }) => {
   const translator = word.translator_id ? getTranslator(word.translator_id) : null
   const firstAttestation = getFirstAttestation(word)
   const sources = getWordSources(word)
+  const seo = getWordSeo(word)
   const relatedArticles = getArticlesForWord(word.id)
   const relatedWords = words
     .filter((candidate) => {
@@ -89,17 +75,38 @@ const Page: FC<Props> = async ({ params }) => {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    name: word.japanese_word,
-    alternateName: word.original_word,
-    description: word.description,
-    url: `https://shaqai.reload.co.jp/words/${id}/`,
-    termCode: word.original_word,
-    inDefinedTermSet: {
-      "@type": "DefinedTermSet",
-      name: "翻訳語辞典 Shaqai",
-      url: "https://shaqai.reload.co.jp/words/",
-    },
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        name: word.japanese_word,
+        alternateName: word.original_word,
+        description: seo.description,
+        url: `https://shaqai.reload.co.jp/words/${id}/`,
+        termCode: word.original_word,
+        inLanguage: "ja",
+        isPartOf: {
+          "@type": "DefinedTermSet",
+          name: "翻訳語辞典 Shaqai",
+          url: "https://shaqai.reload.co.jp/words/",
+        },
+        subjectOf: {
+          "@type": "WebPage",
+          name: seo.title,
+          url: `https://shaqai.reload.co.jp/words/${id}/`,
+        },
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: seo.faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      },
+    ],
   }
 
   return (
@@ -210,6 +217,9 @@ const Page: FC<Props> = async ({ params }) => {
 
         <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
           <h2 style={sectionHeadingStyle}>由来・語源</h2>
+          <p style={{ color: colors.muted, fontSize: ".85rem", lineHeight: "1.7", marginBottom: ".75rem" }}>
+            「{word.japanese_word}」の語源・由来
+          </p>
           <p style={{ color: colors.text, fontSize: ".95rem", lineHeight: "1.7" }}>
             {word.etymology}
           </p>
@@ -245,6 +255,27 @@ const Page: FC<Props> = async ({ params }) => {
         <div style={cardStyle}>
           <h2 style={sectionHeadingStyle}>出典</h2>
           <SourceList sources={sources} />
+        </div>
+
+        <div style={{ ...cardStyle, marginTop: "1.5rem" }}>
+          <h2 style={sectionHeadingStyle}>よくある質問</h2>
+          {seo.faqs.map((faq, index) => (
+            <div
+              key={faq.question}
+              style={{
+                borderBottom: index < seo.faqs.length - 1 ? `1px solid ${colors.borderDark}` : "none",
+                paddingBottom: index < seo.faqs.length - 1 ? "1rem" : 0,
+                marginBottom: index < seo.faqs.length - 1 ? "1rem" : 0,
+              }}
+            >
+              <h3 style={{ color: colors.green, fontSize: ".95rem", marginBottom: ".4rem" }}>
+                {faq.question}
+              </h3>
+              <p style={{ color: colors.text, fontSize: ".9rem", lineHeight: "1.7" }}>
+                {faq.answer}
+              </p>
+            </div>
+          ))}
         </div>
 
         {relatedWords.length > 0 && (
