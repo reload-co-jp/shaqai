@@ -292,6 +292,25 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             }),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "DefinedTermSet",
+              name: "翻訳語辞典 Shaqai",
+              url: "https://shaqai.reload.co.jp/words/",
+              description:
+                "外国語の概念を意味で翻訳して作られた日本語、翻訳語・訳語・和製漢語の語源辞典。",
+              inLanguage: "ja",
+              publisher: {
+                "@type": "Organization",
+                name: "Reload, Inc.",
+                url: "https://reload.co.jp/",
+              },
+            }),
+          }}
+        />
       </body>
     </html>
   )

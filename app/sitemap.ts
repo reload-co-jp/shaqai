@@ -62,6 +62,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       changeFrequency: "monthly",
     },
+    {
+      url: BASE_URL + "/llms.txt",
+      priority: 0.4,
+      changeFrequency: "weekly",
+      lastModified: wordsLastModified,
+    },
+    {
+      url: BASE_URL + "/llms-full.txt",
+      priority: 0.4,
+      changeFrequency: "weekly",
+      lastModified: wordsLastModified,
+    },
   ]
 
   const articleRoutes: MetadataRoute.Sitemap = articles.map((a) => ({

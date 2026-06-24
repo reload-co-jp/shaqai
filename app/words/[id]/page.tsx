@@ -53,6 +53,13 @@ const Page: FC<Props> = async ({ params }) => {
   const firstAttestation = getFirstAttestation(word)
   const sources = getWordSources(word)
   const seo = getWordSeo(word)
+  const keyFacts = [
+    `「${word.japanese_word}」は${word.original_word}（${word.language}）の訳語。`,
+    `語源・由来: ${word.etymology}`,
+    `翻訳時期: ${word.era}${word.year ? `（${word.year}年頃）` : ""}。`,
+    translator ? `翻訳者: ${translator.name}。` : "翻訳者: 未登録。",
+    field ? `分野: ${field.name}。` : "分野: 未登録。",
+  ]
   const relatedArticles = getArticlesForWord(word.id)
   const relatedWords = words
     .filter((candidate) => {
@@ -175,6 +182,15 @@ const Page: FC<Props> = async ({ params }) => {
               ) : "—"}
             </span>
           </div>
+        </div>
+
+        <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
+          <h2 style={sectionHeadingStyle}>要点</h2>
+          <ul style={{ margin: 0, paddingLeft: "1.2rem", color: colors.text, fontSize: ".95rem", lineHeight: "1.8" }}>
+            {keyFacts.map((fact) => (
+              <li key={fact}>{fact}</li>
+            ))}
+          </ul>
         </div>
 
         <div style={{ ...cardStyle, marginBottom: "1.5rem" }}>
