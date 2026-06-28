@@ -7,6 +7,7 @@ export const metadata = {
   title: "カタカナ語一覧",
   description:
     "原語の音を借りて日本語に定着したカタカナ語と、原語からずれた意味を整理するデータベース。",
+  keywords: ["カタカナ語", "外来語", "意味のずれ", "語源", "日本語", "翻訳", "借用語", "英語", "語義変化"],
   alternates: { canonical: "https://shaqai.reload.co.jp/katakana/" },
   openGraph: {
     title: "カタカナ語一覧 — 翻訳語辞典 Shaqai",

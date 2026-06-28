@@ -6,6 +6,7 @@ export const metadata = {
   title: "翻訳語の歴史と成り立ちを読む",
   description:
     "翻訳語の歴史や成り立ちについての読み物。明治期の翻訳家たちの挑戦から、現代の翻訳語事情まで。",
+  keywords: ["翻訳語", "訳語", "和製漢語", "語源", "日本語の歴史", "明治", "翻訳の歴史", "読み物", "コラム"],
   alternates: { canonical: "https://shaqai.reload.co.jp/articles/" },
   openGraph: {
     title: "翻訳語の歴史と成り立ちを読む — 翻訳語辞典 Shaqai",

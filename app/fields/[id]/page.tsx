@@ -21,6 +21,7 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   return {
     title,
     description,
+    keywords: [field.name, "翻訳語", "訳語", "和製漢語", "語源", "日本語", `${field.name} 語源`, `${field.name} 訳語`],
     openGraph: {
       title,
       description,

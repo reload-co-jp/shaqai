@@ -31,6 +31,7 @@ export const generateMetadata = async ({
   return {
     title,
     description,
+    keywords: [translator.name, "翻訳者", "訳語", "和製漢語", "明治", "語源", `${translator.name} 訳語`, `${translator.name} 翻訳`],
     openGraph: {
       title,
       description,

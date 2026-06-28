@@ -1,21 +1,57 @@
 import { FC } from "react"
 import Link from "next/link"
 import { translators, getWordsByTranslator } from "lib/db"
+import { BreadcrumbJsonLd } from "components/elements/breadcrumb"
 
 export const metadata = {
   title: "翻訳者一覧",
-  description: "明治期に訳語を作った人物たちの一覧",
+  description:
+    "西周・福沢諭吉・森鴎外など、明治期に西洋語を日本語に翻訳した人物たちの一覧。各翻訳者の訳語・和製漢語を閲覧できる。",
+  keywords: ["翻訳者", "西周", "福沢諭吉", "森鴎外", "明治", "訳語", "和製漢語", "翻訳語", "語源", "日本語"],
   alternates: { canonical: "https://shaqai.reload.co.jp/translators/" },
   openGraph: {
     title: "翻訳者一覧 — 翻訳語辞典 Shaqai",
-    description: "明治期に訳語を作った人物たちの一覧",
+    description:
+      "西周・福沢諭吉・森鴎外など、明治期に西洋語を日本語に翻訳した人物たちの一覧。",
     url: "https://shaqai.reload.co.jp/translators/",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "翻訳者一覧 — 翻訳語辞典 Shaqai",
+    description:
+      "西周・福沢諭吉・森鴎外など、明治期に西洋語を日本語に翻訳した人物たちの一覧。",
+    images: ["/opengraph-image"],
   },
 }
 
 const Page: FC = () => {
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "翻訳者一覧",
+    description: "明治期に西洋語を日本語に翻訳した人物たちの一覧",
+    numberOfItems: translators.length,
+    itemListElement: translators.map((translator, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `https://shaqai.reload.co.jp/translators/${translator.id}/`,
+      name: translator.name,
+    })),
+  }
+
   return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "ホーム", url: "/" },
+          { name: "翻訳者一覧", url: "/translators/" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
     <div style={{ maxWidth: "720px", margin: "0 auto" }}>
       <div style={{ marginBottom: "1.5rem" }}>
         <h1 style={{ fontSize: "1.25rem", color: "#e2dcd0", marginBottom: ".5rem" }}>
@@ -84,6 +120,7 @@ const Page: FC = () => {
         })}
       </div>
     </div>
+    </>
   )
 }
 

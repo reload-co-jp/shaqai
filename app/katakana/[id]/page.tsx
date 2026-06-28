@@ -25,6 +25,17 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   return {
     title,
     description,
+    keywords: [
+      word.katakana_word,
+      word.original_word,
+      `${word.katakana_word} 意味`,
+      `${word.katakana_word} 語源`,
+      `${word.katakana_word} とは`,
+      `${word.katakana_word} 原語`,
+      "カタカナ語",
+      "外来語",
+      "意味のずれ",
+    ],
     openGraph: {
       title,
       description,
@@ -47,19 +58,49 @@ const Page: FC<Props> = async ({ params }) => {
   const word = getKatakanaWord(Number(id))
   if (!word) return notFound()
 
+  const faqs = [
+    {
+      question: `「${word.katakana_word}」の意味は？`,
+      answer: word.japanese_meaning,
+    },
+    {
+      question: `「${word.katakana_word}」の原語の意味は？`,
+      answer: `${word.katakana_word}の原語は${word.original_word}（${word.language}）で、原義は「${word.original_meaning}」。`,
+    },
+    {
+      question: `「${word.katakana_word}」はなぜ意味がずれた？`,
+      answer: word.meaning_shift,
+    },
+  ]
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    name: word.katakana_word,
-    alternateName: word.original_word,
-    description: word.description,
-    url: `https://shaqai.reload.co.jp/katakana/${id}/`,
-    termCode: word.original_word,
-    inDefinedTermSet: {
-      "@type": "DefinedTermSet",
-      name: "翻訳語辞典 Shaqai カタカナ語",
-      url: "https://shaqai.reload.co.jp/katakana/",
-    },
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        name: word.katakana_word,
+        alternateName: word.original_word,
+        description: word.description,
+        url: `https://shaqai.reload.co.jp/katakana/${id}/`,
+        termCode: word.original_word,
+        inDefinedTermSet: {
+          "@type": "DefinedTermSet",
+          name: "翻訳語辞典 Shaqai カタカナ語",
+          url: "https://shaqai.reload.co.jp/katakana/",
+        },
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      },
+    ],
   }
 
   return (
