@@ -6,6 +6,7 @@ const DESCRIPTION = "翻訳語辞典 Shaqai の目的と背景について。明
 export const metadata = {
   title: "このサイトについて",
   description: DESCRIPTION,
+  keywords: ["翻訳語辞典", "Shaqai", "訳語", "和製漢語", "明治", "翻訳語", "語源辞典", "Reload"],
   alternates: { canonical: "https://shaqai.reload.co.jp/about/" },
   openGraph: {
     title: "このサイトについて — 翻訳語辞典 Shaqai",

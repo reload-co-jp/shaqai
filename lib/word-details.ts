@@ -57,20 +57,30 @@ export const getWordSeo = (word: Word) => {
     `${word.original_word} 訳語`,
     `${word.original_word} 日本語`,
     word.language,
+    ...(word.original_katakana ? [
+      word.original_katakana,
+      `${word.original_katakana} 意味`,
+      `${word.original_katakana} とは`,
+    ] : []),
   ]
 
+  const katakanaNote = word.original_katakana ? `（カタカナ：${word.original_katakana}）` : ""
   const faqs = [
-    {
-      question: `「${word.japanese_word}」の語源・由来は？`,
-      answer: word.etymology,
-    },
     {
       question: `「${word.japanese_word}」とは？`,
       answer: firstMeaning,
     },
     {
+      question: `「${word.japanese_word}」の語源・由来は？`,
+      answer: word.etymology,
+    },
+    {
       question: `「${word.japanese_word}」は何の訳語？`,
       answer: `「${word.japanese_word}」は${translatedFrom}の訳語として、${word.era}${word.year ? `（${word.year}年頃）` : ""}に用いられた。`,
+    },
+    {
+      question: `「${word.japanese_word}」の原語・英語は？`,
+      answer: `「${word.japanese_word}」の原語は ${word.original_word}${katakanaNote}（${word.language}）。${word.language}から意味翻訳して作られた日本語。`,
     },
   ]
 

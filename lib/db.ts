@@ -36,6 +36,7 @@ export type Word = {
   id: number
   japanese_word: string
   original_word: string
+  original_katakana?: string
   language: string
   field_id: number | null
   translator_id: number | null

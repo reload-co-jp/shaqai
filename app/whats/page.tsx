@@ -7,6 +7,7 @@ const DESCRIPTION = "翻訳語（訳語・和製漢語）とは何か。カタ�
 export const metadata = {
   title: "翻訳語とは",
   description: DESCRIPTION,
+  keywords: ["翻訳語とは", "訳語", "和製漢語", "翻訳語 意味", "カタカナ語 違い", "明治 翻訳", "日本語の歴史", "語源"],
   alternates: { canonical: "https://shaqai.reload.co.jp/whats/" },
   openGraph: {
     title: "翻訳語とは — 翻訳語辞典 Shaqai",
