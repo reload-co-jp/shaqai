@@ -39,10 +39,11 @@ export const getWordSources = (word: Word): Source[] => {
 export const getWordSeo = (word: Word) => {
   const firstMeaning = word.meanings[0]?.ja ?? word.description
   const translatedFrom = `${word.original_word}（${word.language}）`
-  const originSummary = truncate(word.etymology, 90)
-  const title = `「${word.japanese_word}」の語源・由来｜${word.original_word}の訳語`
+  const originSummary = truncate(word.etymology, 60)
+  const title = `「${word.japanese_word}」とは？意味・語源・由来｜${word.original_word}の訳語`
+  const meaningSummary = truncate(firstMeaning, 60).replace(/。$/, '')
   const description = truncate(
-    `「${word.japanese_word}」は${translatedFrom}の訳語。語源・由来は「${originSummary}」。意味、初出、翻訳時期、出典を解説。`,
+    `「${word.japanese_word}」の意味：${meaningSummary}。${translatedFrom}の訳語として${word.era}に用いられた。語源・由来・初出を解説。`,
     155
   )
   const keywords = [
