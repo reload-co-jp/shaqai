@@ -16,11 +16,10 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   const word = getKatakanaWord(Number(id))
   if (!word) return {}
 
-  const title = `${word.katakana_word}（${word.original_word}）`
+  const title = `「${word.katakana_word}」とは？意味・語源｜${word.original_word}との違い`
+  const descriptionBase = `「${word.katakana_word}」の意味：${word.japanese_meaning}。原語 ${word.original_word}（${word.language}）との意味のずれを解説。`
   const description =
-    word.description.length > 120
-      ? `${word.description.slice(0, 120)}…`
-      : word.description
+    descriptionBase.length > 155 ? `${descriptionBase.slice(0, 154)}…` : descriptionBase
 
   return {
     title,

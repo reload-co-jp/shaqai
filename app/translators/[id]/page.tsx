@@ -24,14 +24,15 @@ export const generateMetadata = async ({
   const { id } = await params
   const translator = getTranslator(Number(id))
   if (!translator) return {}
-  const title = `${translator.name} | 翻訳者`
+  const wordCount = getWordsByTranslator(Number(id)).length
+  const title = `${translator.name}の訳語・翻訳語一覧（${wordCount}語）| 翻訳者`
   const firstPara = translator.description.split("\n\n")[0]
   const description =
     firstPara.length > 120 ? firstPara.slice(0, 120) + "…" : firstPara
   return {
     title,
     description,
-    keywords: [translator.name, "翻訳者", "訳語", "和製漢語", "明治", "語源", `${translator.name} 訳語`, `${translator.name} 翻訳`],
+    keywords: [translator.name, "翻訳者", "訳語", "和製漢語", "明治", "語源", `${translator.name} 訳語`, `${translator.name} 翻訳語 一覧`],
     openGraph: {
       title,
       description,
