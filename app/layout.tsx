@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { BIZ_UDPMincho } from "next/font/google"
 import { GoogleAnalytics } from "@next/third-parties/google"
+import Script from "next/script"
 import "./reset.css"
 
 const bizUDPMincho = BIZ_UDPMincho({
@@ -9,6 +10,8 @@ const bizUDPMincho = BIZ_UDPMincho({
   variable: "--font-mincho",
   display: "swap",
 })
+
+const adsensePublisherId = "ca-pub-6542845006087970"
 
 export const metadata = {
   metadataBase: new URL("https://shaqai.reload.co.jp"),
@@ -77,6 +80,9 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.webmanifest",
+  other: {
+    "google-adsense-account": adsensePublisherId,
+  },
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -261,7 +267,15 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           </p>
         </footer>
         {process.env.NODE_ENV === "production" && (
-          <GoogleAnalytics gaId="G-603EH0NXTT" />
+          <>
+            <GoogleAnalytics gaId="G-603EH0NXTT" />
+            <Script
+              async
+              strategy="afterInteractive"
+              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsensePublisherId}`}
+              crossOrigin="anonymous"
+            />
+          </>
         )}
         <script
           type="application/ld+json"
