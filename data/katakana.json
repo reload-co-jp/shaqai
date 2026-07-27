@@ -2304,5 +2304,81 @@
         "note": "日本語のマッチが試合、火をつける細い軸木、調和・適合を表すことを確認"
       }
     ]
+  },
+  {
+    "id": 66,
+    "katakana_word": "チャート",
+    "original_word": "chart",
+    "language": "英語",
+    "category": "商業・金融",
+    "original_meaning": "海図・航空図・地図、図表・グラフ全般、楽譜、カルテなど、紙に図示した記録・案内を広く指す。",
+    "japanese_meaning": "株価や為替など相場の値動きを時系列で示すグラフ（テクニカル分析用）。転じて音楽などの人気順位表（ヒットチャート）。",
+    "meaning_shift": "英語chartは海図・地図・図表・楽譜など紙に図示した記録全般を指す広い語だが、日本語チャートは主に相場の値動きグラフとランキング表に用途が絞られ、日常の「グラフ」全般は和製英語graph由来の「グラフ」が担う。",
+    "description": "chartはラテン語charta（紙）に由来し、英語では海図・地図・図表・楽譜・カルテなど紙に図示した案内や記録を幅広く指す。日本語のチャートは証券業界で株価・為替の値動きをローソク足や折れ線で示すテクニカル分析図として定着し、さらに音楽業界では「ヒットチャート」のように人気順位表を指す語として広まった。日常的な棒グラフ・円グラフなどは「グラフ」と呼び分けられ、チャートは相場分析やランキングという専門的文脈に偏って使われる。",
+    "examples": [
+      {
+        "ja": "株価チャートを見ながら売買のタイミングを判断する。",
+        "en": "I check the stock chart to decide when to buy or sell."
+      },
+      {
+        "ja": "今週のヒットチャート1位はこの曲だ。",
+        "en": "This song is No. 1 on this week's hit chart."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/chart",
+        "note": "chart が海図・地図・図表・グラフなど紙に図示した記録全般を表すことを確認"
+      },
+      {
+        "title": "コトバンク（英和辞典）chart",
+        "url": "https://kotobank.jp/ejword/chart",
+        "note": "chart の日本語訳として海図・図表・グラフ・楽譜などを確認"
+      },
+      {
+        "title": "大和証券 金融・証券用語解説集「チャート」",
+        "url": "https://www.daiwa.jp/glossary/YST1235.html",
+        "note": "日本語のチャートが株価など相場の値動きを示すグラフとして使われることを確認"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "katakana_word": "グラフ",
+    "original_word": "graph",
+    "language": "英語",
+    "category": "出版・メディア",
+    "original_meaning": "ギリシャ語graphein（書く）に由来し、数値やデータの関係を視覚的に示す図（棒グラフ・折れ線グラフなど）を指す。",
+    "japanese_meaning": "数値データを示す図（英語と同じ用法）に加え、写真を主体に誌面を構成した雑誌・記事（グラフ誌、グラフジャーナリズム）を指す用法がある。",
+    "meaning_shift": "英語graphは数値データの図示のみを指すが、日本語グラフは同じ用法に加え、graphicの略・派生として写真中心の誌面や雑誌（グラフ誌）を指す用法が独自に広まった。",
+    "description": "英語graphは棒グラフ・折れ線グラフなど数値の視覚化に限られる語だが、日本語では明治末から大正期にかけて『風俗画報』などの流れを受け、写真や図版を主体とした雑誌・誌面を指す「グラフ誌」「グラフジャーナリズム」という用法が定着した。『アサヒグラフ』のような写真週刊誌名にも使われ、graphicの意味が混ざり込んだ日本独自の拡張とされる。数値データのグラフという原義は保たれたまま、報道・出版分野で別の意味が併存する点が特徴。",
+    "examples": [
+      {
+        "ja": "四半期の売上推移をグラフにまとめて発表した。",
+        "en": "We summarized the quarterly sales trend in a graph and presented it."
+      },
+      {
+        "ja": "その週刊誌は特集を写真中心のグラフページで構成していた。",
+        "en": "The weekly magazine built its feature as a photo-driven pictorial spread."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Weblio英和辞典 graph",
+        "url": "https://ejje.weblio.jp/content/graph",
+        "note": "graph が数値データを視覚的に示す図を指すことを確認"
+      },
+      {
+        "title": "コトバンク「グラフ雑誌」",
+        "url": "https://kotobank.jp/word/%E3%81%90%E3%82%89%E3%81%B5%E9%9B%91%E8%AA%8C-1306234",
+        "note": "日本語のグラフが写真を主体とした雑誌を指す用法を確認"
+      },
+      {
+        "title": "コトバンク「グラフジャーナリズム」",
+        "url": "https://kotobank.jp/word/%E3%81%90%E3%82%89%E3%81%B5%E3%81%98%E3%82%84%E3%83%BC%E3%81%AA%E3%82%8A%E3%81%9A%E3%82%80-3150679",
+        "note": "写真・図版を主体とした出版形態を指す日本での用語であることを確認"
+      }
+    ]
   }
 ]
