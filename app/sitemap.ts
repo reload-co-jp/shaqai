@@ -48,6 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: katakanaLastModified,
     },
     {
+      url: BASE_URL + "/proposals/",
+      priority: 0.6,
+      changeFrequency: "monthly",
+      lastModified: mtime("proposals.json"),
+    },
+    {
       url: BASE_URL + "/about/",
       priority: 0.5,
       changeFrequency: "yearly",

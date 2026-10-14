@@ -1,7 +1,8 @@
 import { FC } from "react"
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
-import { katakanaWords, getKatakanaWord } from "lib/db"
+import { katakanaWords, getKatakanaWord, getProposalsByKatakana } from "lib/db"
+import Link from "next/link"
 import { SourceList } from "components/elements/source-list"
 import { DetailPageLayout } from "components/elements/detail-page-layout"
 import { cardStyle, rowStyle, labelStyle, valueStyle, sectionHeadingStyle, colors } from "lib/styles"
@@ -56,6 +57,7 @@ const Page: FC<Props> = async ({ params }) => {
   const { id } = await params
   const word = getKatakanaWord(Number(id))
   if (!word) return notFound()
+  const wordProposals = getProposalsByKatakana(word.id)
 
   const faqs = [
     {
@@ -175,6 +177,44 @@ const Page: FC<Props> = async ({ params }) => {
             </div>
           ))}
         </div>
+
+        {wordProposals.length > 0 && (
+          <div id="proposals" style={{ ...cardStyle, marginBottom: "1.5rem" }}>
+            <h2 style={sectionHeadingStyle}>新訳語案</h2>
+            {wordProposals.map((proposal, index) => (
+              <div
+                key={proposal.id}
+                style={{
+                  borderBottom: index < wordProposals.length - 1 ? `1px solid ${colors.borderDark}` : "none",
+                  padding: ".75rem 0",
+                }}
+              >
+                <p style={{ color: colors.accent, fontSize: "1.25rem", fontWeight: "bold" }}>
+                  {proposal.word}
+                  <span style={{ color: colors.muted, fontSize: ".8rem", fontWeight: "normal", marginLeft: ".5rem" }}>
+                    {proposal.reading}
+                  </span>
+                </p>
+                <p style={{ color: colors.green, fontSize: ".85rem", margin: ".25rem 0 .5rem" }}>
+                  {proposal.formation}
+                </p>
+                <p style={{ color: colors.text, fontSize: ".95rem", lineHeight: 1.7 }}>
+                  {proposal.rationale}
+                </p>
+                {proposal.example && (
+                  <p style={{ color: colors.muted, fontSize: ".85rem", lineHeight: 1.7, marginTop: ".5rem" }}>
+                    例：{proposal.example}
+                  </p>
+                )}
+              </div>
+            ))}
+            <p style={{ fontSize: ".8rem", marginTop: ".75rem" }}>
+              <Link href="/proposals/" style={{ color: colors.accent }}>
+                新訳語プロジェクトについて →
+              </Link>
+            </p>
+          </div>
+        )}
 
         <div style={cardStyle}>
           <h2 style={sectionHeadingStyle}>出典</h2>

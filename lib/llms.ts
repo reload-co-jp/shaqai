@@ -4,6 +4,7 @@ import {
   getField,
   getTranslator,
   katakanaWords,
+  proposals,
   translators,
   words,
 } from "lib/db"
@@ -38,6 +39,7 @@ ${link("翻訳語一覧", "/words/", `${words.length}語。日本語、原語、
 ${link("分野一覧", "/fields/", `${fields.length}分野。哲学、経済、社会、政治、法律、教育、科学、文化、工学。`)}
 ${link("翻訳者一覧", "/translators/", `${translators.length}名。明治期の翻訳者プロフィールと訳語一覧。`)}
 ${link("カタカナ語一覧", "/katakana/", `${katakanaWords.length}語。原語と日本語で意味がずれた外来語。`)}
+${link("新訳語プロジェクト", "/proposals/", `${proposals.length}案。意味のずれたカタカナ語に対する新しい翻訳語の提案。`)}
 ${link("読み物一覧", "/articles/", `${articles.length}記事。語源・翻訳史・近代日本語の解説。`)}
 ${link("翻訳語とは", "/whats/", "翻訳語、訳語、和製漢語、カタカナ語との違い。")}
 ${link("このサイトについて", "/about/", "サイト概要、運営、方針。")}

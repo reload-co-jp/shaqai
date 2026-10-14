@@ -2,6 +2,7 @@ import rawWords from "data/words.json"
 import rawFields from "data/fields.json"
 import rawTranslators from "data/translators.json"
 import rawKatakanaWords from "data/katakana.json"
+import rawProposals from "data/proposals.json"
 
 export type Field = {
   id: number
@@ -72,10 +73,24 @@ export type KatakanaWord = {
   sources?: Source[]
 }
 
+export type Proposal = {
+  id: number
+  katakana_id: number
+  word: string
+  reading: string
+  formation: string
+  rationale: string
+  example?: string
+}
+
 export const fields: Field[] = rawFields
 export const translators: Translator[] = rawTranslators
 export const words: Word[] = rawWords as Word[]
 export const katakanaWords: KatakanaWord[] = rawKatakanaWords as KatakanaWord[]
+export const proposals: Proposal[] = rawProposals
+
+export const getProposalsByKatakana = (katakanaId: number) =>
+  proposals.filter((p) => p.katakana_id === katakanaId)
 
 export const getWord = (id: number) => words.find((w) => w.id === id)
 export const getKatakanaWord = (id: number) =>
