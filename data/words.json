@@ -14419,38 +14419,6 @@
     }
   },
   {
-    "id": 390,
-    "japanese_word": "附属",
-    "original_word": "attached / belonging to / affiliated",
-    "language": "英語",
-    "field_id": 3,
-    "translator_id": null,
-    "era": "飛鳥時代",
-    "year": 611,
-    "description": "「附属」は、ある主要なものに付き従い、そこに属することを表し、attached や affiliated に近い。現代では学校・病院・研究施設などの名称に広く残り、中心機関に結びついた補助的・従属的存在を示す制度語となっている。古くは仏教の付嘱や相続の意味も担った。",
-    "etymology": "「附」は付ける・従うこと、「属」はぞくすること。主たるものに結びついて属する関係を表す。",
-    "meanings": [
-      {
-        "en": "Attached to or affiliated with a main body.",
-        "ja": "主なものに付き従い、そこに属していること。",
-        "example_en": "The museum is affiliated with the university.",
-        "example_ja": "その施設は大学附属である。"
-      }
-    ],
-    "sources": [
-      {
-        "title": "コトバンク「付属／附属」",
-        "url": "https://kotobank.jp/word/%E4%BB%98%E5%B1%9E-618629",
-        "note": "附属を含む項目で語義と611年の初出実例を確認。"
-      }
-    ],
-    "first_attestation": {
-      "year": 611,
-      "source": "勝鬘経義疏",
-      "note": "精選版日本国語大辞典は『勝鬘経義疏』（611）の実例を初出として掲げる。"
-    }
-  },
-  {
     "id": 391,
     "japanese_word": "腐敗",
     "original_word": "putrefaction / corruption",
@@ -16227,13 +16195,13 @@
   {
     "id": 446,
     "japanese_word": "付属",
-    "original_word": "attached / accessory / attachment",
+    "original_word": "attached / affiliated / accessory / attachment",
     "language": "英語",
     "field_id": 9,
     "translator_id": null,
     "era": "明治期",
     "year": null,
-    "description": "「付属」は、主たるものに従って付き、補助的に関係することを表す語で、attached、accessory、attachment などの訳語として学校・機械・法律・事務で広く用いられた。付属校、付属品、付属書類のように、本体・本機関・本文に対する従属的な関係を示す。旧字体では「附属」も多く用いられた。",
+    "description": "「付属」は、主たるものに従って付き、補助的に関係することを表す語で、attached、accessory、attachment などの訳語として学校・機械・法律・事務で広く用いられた。付属校、付属品、付属書類のように、本体・本機関・本文に対する従属的な関係を示す。旧字体では「附属」も多く用いられた。古くは『勝鬘経義疏』（611年）に用例があり、仏教の付嘱や相続の意味も担った。",
     "etymology": "「付」はつくこと、「属」は従い属すること。accessory はラテン語 accedere（近づく・加わる）に由来する。",
     "meanings": [
       {
@@ -16248,7 +16216,19 @@
         "example_en": "The vacuum cleaner comes with several attachments.",
         "example_ja": "掃除機には複数の付属品が付いている。"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "コトバンク「付属／附属」",
+        "url": "https://kotobank.jp/word/%E4%BB%98%E5%B1%9E-618629",
+        "note": "附属を含む項目で語義と611年の初出実例を確認。"
+      }
+    ],
+    "first_attestation": {
+      "year": 611,
+      "source": "勝鬘経義疏",
+      "note": "精選版日本国語大辞典は『勝鬘経義疏』（611）の実例を初出として掲げる。"
+    }
   },
   {
     "id": 447,
@@ -16846,32 +16826,6 @@
         "ja": "作り出された量。生産高。",
         "example_en": "Rice production fell this year.",
         "example_ja": "今年の米の生産は減少した。"
-      }
-    ]
-  },
-  {
-    "id": 470,
-    "japanese_word": "消費",
-    "original_word": "consumption",
-    "language": "英語",
-    "field_id": 2,
-    "translator_id": null,
-    "era": "明治初期",
-    "year": 1867,
-    "description": "「消費」は、財貨・サービス・資源などを使ってなくすことを表し、経済学では consumption の訳語として定着した。『経済小学』（1867年）に経済語としての用例があり、西周『百学連環』でも consumption に対応する語として使われた。生産と表裏をなす、家計・市場・国民所得を理解する基礎概念である。",
-    "etymology": "「消」は消える・なくなること、「費」はついやすこと。consumption はラテン語 consumere（使い尽くす）に由来する。",
-    "meanings": [
-      {
-        "en": "The act of using goods, services, energy, or resources.",
-        "ja": "財・サービス・資源・時間などを使うこと。",
-        "example_en": "Energy consumption increased in summer.",
-        "example_ja": "夏にエネルギー消費が増えた。"
-      },
-      {
-        "en": "In economics, the use of goods and services to satisfy wants.",
-        "ja": "経済で、欲望を満たすために財貨・サービスを使うこと。",
-        "example_en": "Household consumption supports the economy.",
-        "example_ja": "家計消費は経済を支える。"
       }
     ]
   },
@@ -17548,32 +17502,6 @@
         "ja": "語や表現の慣用的な使い方。",
         "example_en": "This usage is common in formal writing.",
         "example_ja": "この語法は正式な文章でよく使われる。"
-      }
-    ]
-  },
-  {
-    "id": 497,
-    "japanese_word": "国語",
-    "original_word": "national language / Japanese language",
-    "language": "英語",
-    "field_id": 6,
-    "translator_id": null,
-    "era": "古典漢語由来・明治期",
-    "year": null,
-    "description": "「国語」は、一国の主体をなす人々が共有し広く用いる言語を表し、national language に対応する。明治期には近代国家形成・学校教育・標準語政策と結びつき、日本語を国民共通の言語として整備する語となった。学校教科名としては、読み書き・文法・文学を含む日本語教育を指す。",
-    "etymology": "「国」は国家・国民、「語」は言語を表す。national language は国家や国民共同体を代表する言語をいう。",
-    "meanings": [
-      {
-        "en": "A national language used by the people of a state.",
-        "ja": "一国の国民が共有し広く用いる言語。",
-        "example_en": "French is the national language of France.",
-        "example_ja": "国語は国家の共通語として意識された。"
-      },
-      {
-        "en": "The Japanese language, especially as a school subject.",
-        "ja": "日本語、また学校教科としての日本語。",
-        "example_en": "Japanese language classes teach reading and writing.",
-        "example_ja": "国語の授業で作文を学ぶ。"
       }
     ]
   },
@@ -19834,6 +19762,12 @@
         "ja": "国民国家の言語。国民統合の精神的基盤として標準化された言語を指し、近代日本では日本語そのものを指す教科名・概念語として用いられた。",
         "example_en": "The concept of 'national language' was central to Meiji-era education policy and nation-building.",
         "example_ja": "「国語と国家とは切り離すことの出来ないものである」（上田万年『国語のため』）"
+      },
+      {
+        "en": "The Japanese language, especially as a school subject.",
+        "ja": "日本語、また学校教科としての日本語。",
+        "example_en": "Japanese language classes teach reading and writing.",
+        "example_ja": "国語の授業で作文を学ぶ。"
       }
     ]
   },
