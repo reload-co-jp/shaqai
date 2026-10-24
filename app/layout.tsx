@@ -2,6 +2,7 @@ import Link from "next/link"
 import { BIZ_UDPMincho } from "next/font/google"
 import { GoogleAnalytics } from "@next/third-parties/google"
 import Script from "next/script"
+import { DisplayAd } from "components/elements/display-ad"
 import "./reset.css"
 
 const bizUDPMincho = BIZ_UDPMincho({
@@ -259,6 +260,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           }}
         >
           {children}
+          {process.env.NODE_ENV === "production" && <DisplayAd />}
         </main>
         <footer
           style={{
